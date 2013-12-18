@@ -20,9 +20,7 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
 ## organizer
 
-- lepture
 - KJ
-- Sting
 - Zoom.Quiet
 
 ## usage
@@ -33,6 +31,7 @@ main loop:
 1. git clone
 1. edit some .md in `content/`
 1. `fab rebuild` for test local
+1. `cd output` this is another repo. yet!
 1. git add->ci->push
 1. `fab deploy` published all
 
