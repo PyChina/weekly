@@ -1,0 +1,7 @@
+*.pyc
+output/
+.DS_Store
+bin/
+include/
+lib/
+local_settings.ini

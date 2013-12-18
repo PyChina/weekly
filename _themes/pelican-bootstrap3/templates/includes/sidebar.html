@@ -1,0 +1,42 @@
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+            {% if SOCIAL %}
+                <li class="list-group-item"><h4><i class="icon-comment icon-large"></i>Social</h4></li>
+                {% for name, link in SOCIAL %}
+                    <li class="list-group-item"><a href="{{ link }}"><i
+                            class="icon-{{ name }}-sign icon-large"></i>{{ name }}
+                    </a></li>
+                {% endfor %}
+            {% endif %}
+
+            {# Uncomment if you want to show Categories #}
+
+            <li class="list-group-item"><h4>
+                <i class="icon-th icon-large"></i>Categories</h4></li>
+            {% for cat, null in categories %}
+                <li class="list-group-item">
+                    <a href="{{ SITEURL }}/{{ cat.url }}">
+                        <i class="icon-folder-open icon-large"></i>{{ cat }}
+                    </a>
+                    <a href="{{ SITEURL }}/feeds/{{ cat }}.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+            {% endfor %}
+
+            <li class="list-group-item"><a href="{{ SITEURL }}/tags.html"><h4><i class="icon-tags icon-large"></i>Tags</h4></a></li>
+            {% for tag in tag_cloud|sort(attribute='1') %}
+                <li class="list-group-item tag-{{ tag.1 }}">
+                    <a href="{{ SITEURL }}/{{ tag.0.url }}">
+                        {{ tag.0 }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% include 'includes/powerded.html' %}
+
+    {% include 'includes/github.html' %}
+
+</aside>
