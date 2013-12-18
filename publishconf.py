@@ -23,7 +23,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
-DISQUS_SITENAME = u"{pyconchina4github2io4pycodersweeklyzh}" #填入你的Shortname
+DISQUS_SITENAME = u"{weeklypychinaorg}" #填入你的Shortname
 
 ARTICLE_URL = '{category}/{slug}.html'
 ARTICLE_SAVE_AS = '{category}/{slug}.html'
