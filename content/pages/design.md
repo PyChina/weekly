@@ -30,11 +30,13 @@ Author: Zoom.Quiet
 
 ![](http://zoomq.qiniudn.com/logos/090609_CPyUG_logo.png)
 
-- 邮件线索
+邮件线索
 
-        通过“googlegroups.com” 
-        回复： python-cn@googlegroups.com 
-        发送至： python-cn@googlegroups.com 
-        日期： 2009年6月9日下午8:55 
-        主题： [CPyUG:88820] [OT]刚设计了一个logo，走过路过瞧一瞧
+
+    :::text
+    通过“googlegroups.com” 
+    回复： python-cn@googlegroups.com 
+    发送至： python-cn@googlegroups.com 
+    日期： 2009年6月9日下午8:55 
+    主题： [CPyUG:88820] [OT]刚设计了一个logo，走过路过瞧一瞧
 
