@@ -1,8 +1,19 @@
 /* PyChina.org design by Zoom.Quiet*/
+.navbar-nav {
+    float: left;
+    margin: 0px 0px 0px -100px;
+}
+.navbar-nav a:hover {
+    background-color: #eee;
+    text-decoration: underline;
+}
+
 .navbar-brand {
     float: left;
-    padding: 10px 15px 4px 15px;
+    padding: 10px 0px 4px 15px;
 }
+
+
 .list-group-zip {
     padding-left: 0;
     margin-bottom: 4px;
@@ -15,20 +26,36 @@
     background-color: #fff;
     border: 1px solid #ddd;
 }
-
 span.violet-site  {
     display: inline;
-    padding: 0px 5px 0 3px;
-    position: relative;
-    line-height: 12px;
     font-size: 10px;
+    font-weight: 600;
     color: #525252;
     background: #d8d8d8;
+    line-height: 12px;
+    position: relative;
     border-radius: 7px 0px 7px 0;
+    padding: 0px 5px 0 3px;
     top: -23px;
-    left: 5px;
-    font-weight: 600;
+    left: -5px;
 }
+
+/*
+span.violet-site {
+    display: inline;
+    line-height: 12px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #525252;
+    background: #d8d8d8;
+    position: absolute;
+    padding: 0px 10px 0 10px;
+    border-radius: 7px 0px 7px 0;
+    top: 2px;
+    left: 160px;
+}
+*/
+
 /* original design */
 body {
     padding-top: 70px;

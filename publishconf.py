@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'weekly.pychina.org'
+SITEURL = 'http://weekly.pychina.org'
 DISQUS_SITENAME = u"weeklypychinaorg" #填入你的Shortname
 
 RELATIVE_URLS = False

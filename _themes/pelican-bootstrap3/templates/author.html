@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+{% extends "index.html" %}
 
-</body>
-</html>
+{% block title %}{{ super() }} — Articles de {{ author }}{% endblock %}
+
+{% block index_title %}Articles de <i>{{ author }}</i> :{% endblock %}
+

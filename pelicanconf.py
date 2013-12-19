@@ -9,7 +9,7 @@ SITENAME = u'蠎周刊'
 SITEDESC = u'汇集全球蠎事儿 !-)'
 SITENOTE = u"pycoder's weekly 中译版"
 
-SITEURL = 'weekly.pychina.org'
+SITEURL = 'http://weekly.pychina.org'
 DISQUS_SITENAME = u"weeklypychinaorg" #填入你的Shortname
 
 MARKUP = ('md', )#'rst', 'html', 
@@ -23,12 +23,15 @@ DEFAULT_DATE = 'fs' # use filesystem's mtime
 LOCALE = ('zh_CN.utf8',)
 DEFAULT_LANG = u'zh_CN'
 FILENAME_METADATA = '(?P<slug>.*)'
-
 ###############################################################
 ###############################################################   Plugins abt.
 ###############################################################
 # Plugins 
-PLUGINS=['_plugins.sitemap', '_plugins.gzip_cache']
+PLUGINS=['_plugins.sitemap'
+    #, '_plugins.gzip_cache'
+    #, u"pelican.plugins.disqus_static"
+    ]
+
 SITEMAP = {
     'format': 'xml',
     'priorities': {
@@ -51,13 +54,13 @@ BOOTSTRAP_THEME = 'readable'
 DEFAULT_PAGINATION = 1
 TAG_CLOUD_MAX_ITEMS = 10
 DISPLAY_CATEGORIES_ON_MENU = None      # 分类标签是否显示在导航
-# Social widget
-ADDTHIS_PROFILE = True
+# Social widget -> China jiathis.com
+ADDTHIS_PROFILE = None #True
     
 #GITHUB_USER = "ZoomQuiet"
-MENUITEMS = (('PyChina', 'http://pychina.org')
-          ,('Zoom.Quiet', 'http://zoomquiet.org')
-          )
+MENUITEMS = (('Zoom.Quiet', 'http://zoomquiet.org')
+        ,('PyChina', 'http://pychina.org')
+        )
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -99,7 +102,7 @@ ARTICLE_URL = '{category}/{slug}.html'
 ARTICLE_SAVE_AS = '{category}/{slug}.html'
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
 
 
 
