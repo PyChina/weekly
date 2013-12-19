@@ -10,7 +10,9 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://weekly.pychina.org'
+SITEURL = 'weekly.pychina.org'
+DISQUS_SITENAME = u"weeklypychinaorg" #填入你的Shortname
+
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -23,7 +25,6 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
-DISQUS_SITENAME = u"{weeklypychinaorg}" #填入你的Shortname
 
 ARTICLE_URL = '{category}/{slug}.html'
 ARTICLE_SAVE_AS = '{category}/{slug}.html'

@@ -14,3 +14,10 @@ Author: Zoom.Quiet
 
 ## 小结
 
+## 参考:
+
+- [使用Pelican搭建Blog](http://akenzc.com/how-to-build-a-blog-with-pelican.html)
+- [吐槽一下DISQUS的thread链接错误问题 | Ley's blog](http://blog.imley.net/2013/01/03/disqus-thread-url-issue/#content)
+- [Alex Raichev - Blog - Blohg to Pelican](http://raichev.net/blohg-to-pelican.html)
+- [pelican-plugins/disqus_static at master · getpelican/pelican-plugins](https://github.com/getpelican/pelican-plugins/tree/master/disqus_static)
+

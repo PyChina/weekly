@@ -46,9 +46,10 @@ def pub2cafe():
             'pwd && '
             #'git pu && '
             'git add . && '
-            'git st && '
-            'git ci -am "upgraded in local." && '
+            #'git st && '
+            'git ci -am "upgraded in local. @MBP111216ZQ" && '
             #'git pu cafe gitcafe-page '
+            'git pu && '
             'pwd '.format(**env)
           )
 
