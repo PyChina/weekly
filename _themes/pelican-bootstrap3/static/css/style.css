@@ -3,6 +3,19 @@
     float: left;
     padding: 10px 15px 4px 15px;
 }
+.list-group-zip {
+    padding-left: 0;
+    margin-bottom: 4px;
+}
+.list-group-item-zip {
+    position: relative;
+    display: block;
+    padding: 2px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
 span.violet-site  {
     display: inline;
     padding: 0px 5px 0 3px;
