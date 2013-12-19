@@ -4,6 +4,7 @@
         |{{ SITEDESC }} {% endblock %}
 {% block content %}
     <section id="content" class="body">
+
         <h1 class="entry-title">{{ page.title }}</h1>
         {% if PDF_PROCESSOR %}
             <a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">
@@ -13,5 +14,10 @@
         <div class="entry-content">
             {{ page.content }}
         </div>
+            <!-- /.entry-content -->
+            {% include 'includes/addthis.html' %}
+            {% include 'includes/page_comments.html' %}
+
+
     </section>
 {% endblock %}
