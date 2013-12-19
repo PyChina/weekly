@@ -41,6 +41,17 @@ def reserve():
 #def preview():
 #    local('pelican -s publishconf.py')
 
+def pub2cafe():
+    local('cd {deploy_path} && '
+            'pwd && '
+            #'git pu && '
+            'git add . && '
+            'git st && '
+            'git ci -am "upgraded in local." && '
+            #'git pu cafe gitcafe-page '
+            'pwd '.format(**env)
+          )
+
 #def cf_upload():
 #    rebuild()
 #    local('cd {deploy_path} && '
@@ -48,7 +59,7 @@ def reserve():
 #          '-U {cloudfiles_username} '
 #          '-K {cloudfiles_api_key} '
 #          'upload -c {cloudfiles_container} .'.format(**env))
-#
+
 #@hosts(production)
 #def publish():
 #    local('pelican -s publishconf.py')
@@ -65,8 +76,10 @@ def reserve():
 #env.port = 9022
 #env.user = 'pycon'
 #code_dir = '/opt/www/PyChina'
-#
-#def deploy():
-#    with cd(code_dir):
-#        run('git pull')
-#        run('/opt/sbin/_package_linux_amd64/qrsync -skipsym /opt/sbin/7niu4pychina.json')
+
+#def pub2cafe():
+#    with cd('{deploy_path}'.format(**env)):
+#        run('git add . ')
+#        run("git ci -am 'upgraded in local.' " )
+#        run("git pu cafe gitcafe-page" )
+
