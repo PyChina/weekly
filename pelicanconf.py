@@ -12,7 +12,7 @@ SITENOTE = u"pycoder's weekly 中译版"
 SITEURL = 'http://weekly.pychina.org'
 DISQUS_SITENAME = u"weeklypychinaorg" #填入你的Shortname
 
-MARKUP = ('md', )#'rst', 'html', 
+MARKUP = ('md', 'rst',)#'rst', 'html', 
 READERS = {
         'html': None,
 }
@@ -32,11 +32,11 @@ FILENAME_METADATA = '(?P<slug>.*)'
 ###############################################################
 # Plugins 
 PLUGINS=['_plugins.sitemap'
-    , '_plugins.extract_toc'
+    #, '_plugins.extract_toc'
     #, '_plugins.gzip_cache'
     #, u"pelican.plugins.disqus_static"
     ]
-MD_EXTENSIONS = (['toc'])
+#MD_EXTENSIONS = (['toc'])
 
 SITEMAP = {
     'format': 'xml',
@@ -51,6 +51,9 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+
+# code blocks with line numbers
+PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 ###############################################################
 ###############################################################   Template abt.
 ###############################################################
@@ -90,7 +93,7 @@ LINKS =  None
 ###############################################################   Publish abt.
 ###############################################################
 USE_FOLDER_AS_CATEGORY = True
-DELETE_OUTPUT_DIRECTORY = True
+#DELETE_OUTPUT_DIRECTORY = True #因为嵌套仓库的原因,不能清除发布目录!
 DEFAULT_CATEGORY = u'Chaos'
 
 TEMPLATE_PAGES = {

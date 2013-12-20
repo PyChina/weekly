@@ -10,6 +10,8 @@ Author: Zoom.Quiet
 # 如何从 Jekyll 转进入 Pelican
 简述静态网站从 Jekyll 环境中迁移为 纯 Python 的Pelican...
 
+![;](https://0.gravatar.com/avatar/0cb9d9d7e6b152d24d2b78c6464502a6?d=https%3A%2F%2Fidenticons.github.com%2Fc0b8694f59232c6681a92c4c9fec3e18.png&r=x&s=440)
+
 ## 为毛
 社区在发展, 原先的 蠎周刊,为方便,使用了 gitcafe 内置的 Jekyll 服务,
 所以,其实在使用 Ruby 自动编译和发布.
