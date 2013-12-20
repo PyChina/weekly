@@ -3,10 +3,13 @@
     <span class="published">
         <i class="icon-calendar"></i>{{ article.locale_date }}
     </span>
+
     {# Uncomment if you want the author shown #}
+
     {% if article.author %}
     <span class="label">By</span>
-    <a href="{{ SITEURL }}/{{ article.author.url }}"><i class="icon-user"></i>{{ article.author }}</a>
+    <i class="icon-user"></i>
+    <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
     {% endif %}
 
     {# Uncomment if you want to show Categories#}

@@ -1,9 +1,11 @@
 Title: How to from Jekyll jump into Pelican
 Date: 2013-12-19 10:42
-Tags: howto
+Tags: howto, pelican
 Slug: jekyll-to-pelican
 Author: Zoom.Quiet
 
+
+[TOC]
 
 # 如何从 Jekyll 转进入 Pelican
 简述静态网站从 Jekyll 环境中迁移为 纯 Python 的Pelican...
@@ -136,6 +138,22 @@ fixed!
 [author.html](https://gitcafe.com/CPyUG/weekly/blob/master/_themes/pelican-bootstrap3/templates/author.html)
 
 即好!
+
+
+### TOC
+是的,以往 rST/t2t 时,甚至于 Word 时都有的 
+
+    TOC ~ 章节索引
+
+肿么可以没有?!
+
+果断: [pelican-plugins/extract_toc at master · getpelican/pelican-plugins](https://github.com/getpelican/pelican-plugins/tree/master/extract_toc) 
+
+只是这货竟然是依赖 `beautifulsoup4` 的! 对于非 `UNIX/Linux/MAC` 用户而言,
+人艰不拆哪!!!
+
+
+
 
 ## 参考:
 
