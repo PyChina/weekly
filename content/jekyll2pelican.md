@@ -67,6 +67,13 @@ Author: Zoom.Quiet
 1. `git add . && git ci && git pu` 将增补提交
 1. `fab pub2cafe` 自动完成进入 `output` 后的一系列 git 操作
 
+对应的 配置中:
+
+    :::ini
+    #DELETE_OUTPUT_DIRECTORY = True 
+
+就绝对不能打开注释
+不然 `output` 目录清除,就没有了 `.git` 也就无法发布了...
 
 ## 坑
 
