@@ -13,6 +13,9 @@ SITEURL = 'http://weekly.pychina.org'
 DISQUS_SITENAME = u"weeklypychinaorg" #填入你的Shortname
 
 MARKUP = ('md', )#'rst', 'html', 
+READERS = {
+        'html': None,
+}
 #   TIMEZONE = 'Europe/Paris'
 TIMEZONE = 'Asia/Shanghai'
 DATE_FORMATS = {
@@ -20,7 +23,8 @@ DATE_FORMATS = {
 }
 DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M'
 DEFAULT_DATE = 'fs' # use filesystem's mtime
-LOCALE = ('zh_CN.utf8',)
+
+#LOCALE = ('zh_CN.utf8',)
 DEFAULT_LANG = u'zh_CN'
 FILENAME_METADATA = '(?P<slug>.*)'
 ###############################################################
@@ -32,7 +36,6 @@ PLUGINS=['_plugins.sitemap'
     #, '_plugins.gzip_cache'
     #, u"pelican.plugins.disqus_static"
     ]
-
 MD_EXTENSIONS = (['toc'])
 
 SITEMAP = {
@@ -72,6 +75,7 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
 FEED_ALL_RSS = None
 CATEGORY_FEED_RSS= None
+
 SOCIAL = (('GitHub', 'https://github.com/PyConChina')
         , ('CPyUG', 'https://gitcafe.com/CPyUG')
         , ('News', 'http://news.pychina.org')
@@ -86,6 +90,7 @@ LINKS =  None
 ###############################################################   Publish abt.
 ###############################################################
 USE_FOLDER_AS_CATEGORY = True
+DELETE_OUTPUT_DIRECTORY = True
 DEFAULT_CATEGORY = u'Chaos'
 
 TEMPLATE_PAGES = {
@@ -103,7 +108,17 @@ EXTRA_PATH_METADATA = {
     }
 
 ARTICLE_URL = '{category}/{slug}.html'
-ARTICLE_SAVE_AS = '{category}/{slug}.html'
+ARTICLE_SAVE_AS = ARTICLE_URL
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = PAGE_URL
+CATEGORY_URL = '{slug}/index.html'
+CATEGORY_SAVE_AS = CATEGORY_URL
+TAG_URL = 'tag/{slug}.html'
+TAG_SAVE_AS = TAG_URL
+TAGS_SAVE_AS = 'tag/index.html'
+# disable author pages
+#AUTHOR_SAVE_AS = ''
+#AUTHORS_SAVE_AS = ''
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

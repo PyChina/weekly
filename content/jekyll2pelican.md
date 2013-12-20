@@ -75,12 +75,14 @@ Author: Zoom.Quiet
 果断遇到了 DISQUS 配置了,不生效的问题,上下折腾, 才发现很多人都遇到了这个问题,
 追踪到代码:
 
+
     :::javascript
     //... pelican-themes/pelican-bootstrap3/templates/includes/comments.html
     //...
     var disqus_shortname = '{{ DISQUS_SITENAME }}'; // required: replace example with your forum shortname
     var disqus_identifier = '{{ article.slug }}';
     var disqus_url = '{{ SITEURL }}/{{ article.url }}';
+
 
 才发现 `SITEURL` 的配置是决定性的,
 一定要同 `DISQUS` 申请时的一致;
@@ -98,11 +100,14 @@ fixed!
 
 ### CATEGORY_FEED_ATOM
 一时手賎,打开了:
+
     
     :::ini
     CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
+
 结果,发现不能在模板里简单的完成分类子 RSS 的链接!
+
 
     :::html
         <i class="icon-th icon-large"></i>Categories</h4></li>
