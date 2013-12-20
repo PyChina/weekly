@@ -45,7 +45,7 @@ def pub2cafe():
     local('cd {deploy_path} && '
             'pwd && '
             #'git pu && '
-            'git add . && '
+            'git add --all . && '
             #'git st && '
             'git ci -am "upgraded in local. @MBP111216ZQ" && '
             #'git pu cafe gitcafe-page '
