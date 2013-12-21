@@ -2,6 +2,7 @@ Title: Issue 17 ~ 永远不晩
 Date: 2012-06-08 
 Tags: Weekly,Pycoder,Zh 
 Slug: issue-17 
+
 # Hi Pythonistas. 
 
 
