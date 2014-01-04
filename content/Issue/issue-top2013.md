@@ -5,132 +5,157 @@ Slug: issue-top2013
 
 ## Hi Pythonistas!
 
-We are doing something a little different this week. This issue is a round of all the Top Python projects of 2013 as determined by you(your clicks in our 2013 issues). So take a look as there are plenty of great things to see here! Did we miss anything or do you have some suggestions for projects that you think will be the top of 2014? Then send us an email. Next week we will be back to our regularly schedule program with issue #98!
  
+这周咱们作点儿不同的 ;-)
+本文根据大家过去对周刊文章的点击量分析出的 2013年度顶级Python项目.
+希望大家喜欢.
+如果怕我们错过2014年的最佳项目,请及时邮件知会一下.
+次周我们将恢复 #98 期周刊.
 
-To start off the new year right we are running a promotion for the 
+
+新年新折腾,
+我们发布了:
 [Pycoders Weekly Job board](http://pythonjobshq.com/)
-, from now till the end of January enjoy 25% off your postings with the coupon code `pycoders2014`.
+现在开始到一月底,
+使用优惠码 `pycoders2014` 发布职位信息可以获得 25% 的折扣!
 
-Those of you seeing this over the web you can go here to sign up for email updates in 2014!!
 
- As always, if you have any questions, comments, gripes or suggestions just hit reply to this email.
+
+才看到这一页的小伙伴们,
+及时订阅2014 的蠎周刊吧.
+
+一如往常, 任何疑问/意见/抱怨/建议只需点击回复此电子邮件.
 
 想跟上所有 蠎界 新闻?
  [@pycoders](http://twitter.com/pycoders).
 
-请用
+也可用
 [Gittip](https://www.gittip.com/PycodersWeekly)
-支持俺们吧!
+来支持俺们!
 
 --
 [Mahdi](https://twitter.com/#!/myusuf3) and [Mike](https://twitter.com/#!/mgrouchy)
 
-原文: [Pycoder's Weekly (Issue #97): 2013](http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&id=5f11d89cd4)
+原文: [Pycoder's Weekly - Top Python Projects of 2013](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=384b699bca)
 
-## Testing & Debugging
+
+
+## 测试和调试 Testing & Debugging
  
 
 - [python_koans](https://github.com/gregmalcolm/python_koans) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Python Koans is a port of “Ruby Koans” it is an interactive tutorial for learning Python by practicing 
-[TDD](http://en.wikipedia.org/wiki/Test-driven_development) and making tests pass.  
+Python Koans 算 “Ruby Koans” 的一部分,
+作为交互式教程,
+学习
+[TDD](http://en.wikipedia.org/wiki/Test-driven_development) 
+技巧,并令测试通过.
 
  
 
 - [sure](https://github.com/gabrielfalcao/sure) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Sure is a utility best for automated Python testings. It has features like fluent assertions, deep comparisons of collections and much more. Check out the README for more details.  
+Sure 是最适合自动化测试的 Python 工具.
+包含流利的断言,深度选择器等等特性.
+推荐查阅 README 深入了解.
 
 - [responses](https://github.com/dropbox/responses) (github.com)
 
-Make testing a little easier with responses, a utility library for mocking out the requests library.
- 
+用 responses 能令测试更加轻松,
+这是一个可以伪装各种请求的库. 
 
 - [boom](https://github.com/tarekziade/boom) (github.com)
 
-Boom! A replacement for 
-[Apache Bench](http://httpd.apache.org/docs/2.2/programs/ab.html). Boom is a command line tool you can use to quickly 
-[smoke test](http://en.wikipedia.org/wiki/Smoke_testing) your applications.
+Boom! 
+[Apache Bench](http://httpd.apache.org/docs/2.2/programs/ab.html)
+的替代品. 
+作为一个命令行工具, Boom 能对你的应用进行快捷的
+[smoke test](http://en.wikipedia.org/wiki/Smoke_testing) .
 
  
 
 - [cricket](https://github.com/pybee/cricket) (github.com)
 
-Part of the 
-[BeeWare](http://pybee.org/) suite as well, cricket is a graphical tool to help you run your test suites.
+[BeeWare](http://pybee.org/) 套件的一部分,
+cricket 是种图形化工具,
+协助你进行案例测试
+.
  
 
 - [bugjar](https://github.com/pybee/bugjar) (github.com)
 
-
-Part of the [BeeWare](http://pybee.org/) suite, bugjar is an interactive graphical debugger for for Python.
+[BeeWare](http://pybee.org/) 套件的一部分,
+bugjar 是种针对 Python 的图形化交互式调试器.
 
  
 
 - [pudb](https://pypi.python.org/pypi/pudb) (python.org)
 
-pudb is a full screen console based debugger for Python.
- 
+pudn 是针对Python 的全屏命令行调试器.
+
 
 - [voltron](https://github.com/snarez/voltron) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-A pretty nice gdb interface. 
+更好的 gdb 界面. 
 
 
-## Frameworks & Web
+## 框架及Web Frameworks & Web
  
 
 - [django-stronghold](https://github.com/mgrouchy/django-stronghold) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Tired of littering login_required decorators all over the place? Get inside your stronghold and make all your Django views default login_required.
-
+试过将 login_required 装饰器四处乱放?
+在你的堡垒中令所有 Django 视图有默认 login_required 呗.
  
 
 - [Falcon Framework](http://falconframework.org/) (falconframework.org)
 
-Falcon dubs itself as the high-performance cloud API framework. Falcon claims to easily serve up to 30 times as many requests on the same hardware as competing web frameworks. Sound interesting to you? Check it out.
- 
+Falcon自称为髙性能云接口框架.
+号称能在相同硬件条件下提高服务端性能30倍!
+听起来有点儿意思? 检出来使用吧!
+
 
 - [django-xadmin](http://sshwsfc.github.io/django-xadmin/) (github.io)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Drop in replacement for django-admin themed with twitter bootstrap. Comes with ability to add plugins as well as built in dashboards.
+用bootstrap 对 django-admin进行了深度升级.
+提供了可插件安装的仪表盘.
  
 
 - [clay](https://github.com/uber/clay) (github.com)
 
-This is a wrapper around 
-[Flask](http://flask.pocoo.org/) that allows you to easily build RESTful backend services. Full documentation 
-[here](http://uber.github.io/clay/).
+基于 [Flask](http://flask.pocoo.org/) 
+的包装,
+能令我们轻松的创建 RESTful 后端服务.
+完整文档在[这儿](http://uber.github.io/clay/).
  
 
 - [flask-restful](https://github.com/twilio/flask-restful) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-This is a simple framework for creating great REST API’s with Flask.  
- 
+基于 Flask 的简单框架,
+用以创建 REST 接口.
 
 - [sandman](https://github.com/jeffknupp/sandman) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Sandman wants to help you expose your existing apps via a REST API. Check out the relevant 
-[blog post](http://www.jeffknupp.com/blog/2013/07/23/sandman-a-boilerplatefree-python-rest-api-for-existing-databases/) too.
-
+Sandman 希望通过REST 接口暴露你现有的app.
+相关
+[blog post](http://www.jeffknupp.com/blog/2013/07/23/sandman-a-boilerplatefree-python-rest-api-for-existing-databases/) 也值得一读.
  
 
 - [Django Unchained](http://nahimnasser.github.com/django-unchained/) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Naming of this is a little on the nose for our taste but good guide for getting started with Python and Django. 
+名字很髙大上,
+也的确是 Python Django 初学者的靠谱引导.
 
 
-
-## Concurrency
+## 并发 Concurrency
  
 
 - [pulsar](https://github.com/quantmind/pulsar) (github.com)
@@ -719,6 +744,6 @@ This is a library, written in Python, for making command language interpreters, 
 
 # 是也乎
 
-- 1401?? [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
+- 140105 [Zoom.Quiet](http://zoomquiet.org/) 用时 47 分钟 完成快译20%.
 - 140104 [Zoom.Quiet](http://zoomquiet.org/) 用时 27 分钟 完成格式转抄.
  
