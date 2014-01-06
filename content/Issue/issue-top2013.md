@@ -5,7 +5,7 @@ Slug: issue-top2013
 
 ## Hi Pythonistas!
 
- 
+   
 这周咱们作点儿不同的 ;-)
 本文根据大家过去对周刊文章的点击量分析出的 2013年度顶级Python项目.
 希望大家喜欢.
@@ -161,63 +161,68 @@ Sandman 希望通过REST 接口暴露你现有的app.
 - [pulsar](https://github.com/quantmind/pulsar) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-New year, new web servers. Interesting event driven concurrent framework for python which support all version of python from 2.6+ and pypy.
-
- 
+部件新web 服务器走起!
+有趣的事件驱动的并发框架 ! 兼容从2.6+到pypy 的所有python 版本!
 
 - [toro](https://github.com/ajdavis/toro) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Synchronization primitives for Tornado coroutines.
-
+同步化的Tornado 协程支持
  
 
 - [offset](https://github.com/benoitc/offset) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Offset is an attempt to port 
-[Go](http://golang.org/) 's concurrency model in python. See the Slides for the related talk 
-[here](https://docs.google.com/file/d/0B2gNkR7hgkIRVFgwSWR4Y2JaZHc/edit?hl=en&forcehl=1). 
+Offset 
+[Go](http://golang.org/) 的
+并发模型在 Python 中的实现.
+请参考相关演讲
+[幻灯](https://docs.google.com/file/d/0B2gNkR7hgkIRVFgwSWR4Y2JaZHc/edit?hl=en&forcehl=1). 
+来理解!
 
 
-## Job Schedulers
+## 任务调度 Job Schedulers
  
 
 - [pyres](https://github.com/binarydud/pyres) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Pure python job queue inspired by 
-[resque](http://github.com/defunkt/resque), pretty good alternative to celery.  
+从 
+[resque](http://github.com/defunkt/resque)
+获得灵感的 纯Python 任务调度模块,
+是 芹菜(celery) 的不错替代物.
 
  
 - [dagobah](https://github.com/tthieman/dagobah) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Dagobah is a simple dependency-based job scheduler written in Python. It also has a pretty cool workflow graph for interconnected jobs.
-
+Dagobah 是Python 完成的简单 关系依赖为基础的任务调度模块.
+还包含很COOL 的关联任务工作流图形工具.
  
 
 - [schedule](https://github.com/dbader/schedule) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-An in-process scheduler for periodic jobs that uses the builder pattern for configuration. 
+使用生成器模式,来为定期任务生成配置的进程调度模块.
 
-
-## Utilities & Tools
+## 实用工具 Utilities & Tools
  
 
 - [howdoi](https://github.com/gleitz/howdoi) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Find yourself constantly googling for the simplest programming tasks? howdoi keeps you from flipping to the browser to google your question.
-
+发觉你总在 Google 一些简单的最简单的编程任务?
+howdoi 能让你远离浏览器,就解决这类事儿!
  
 
 - [delorean](https://github.com/myusuf3/delorean) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Time travel made easy! Delorean which aims to make working with dates and datetimes in your Python projects a breeze. Check out the project itself or the comprehensive 
-[documentation](http://delorean.readthedocs.org/en/latest/).  
+时间旅行?简单!
+Delorean 的目标就是令你的Python 项目在处理时间/日期时轻而易举!
+检出工程并查阅完备的
+[文档](http://delorean.readthedocs.org/en/latest/)
+吧.
 
  
 
@@ -225,163 +230,195 @@ Time travel made easy! Delorean which aims to make working with dates and dateti
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
 For those of you who need your tools to look beautiful will definitely want to checkout powerline-bash. This adds powerline to your favorite terminal Bash/Zsh currently supported.  
- 
+
+对于那些想让常用工具漂亮起来人,
+一定要用 powerline-bash.
+能打造漂亮的shell提示符,增加力线(powerline),兼容 Bash/Zsh.
+(好吧,对于 zsh/fish 而言这个模块就 Naive 了 ;-)
 
 - [fn.py](https://github.com/kachayev/fn.py) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Implementation of of the missing “batteries” when it comes to functional programming in Python.  Those of you interested 
-[functional programming in python](http://ua.pycon.org/static/talks/kachayev/#/)
- should check this out.  
- 
+在Python 中谈及函式编程时失落的那节"电池"终于出现了!
+如果对
+[Python函式编程](http://ua.pycon.org/static/talks/kachayev/#/)
+有兴趣的立即下手安装体验吧!
 
 - [lice](https://github.com/jcarbaugh/lice) (github.com)
 
-Convenient little application that provides licenses for your open source applications, rather than having to google for it. It supports BSD, MIT, and GPL variants.
- 
+为你的开源工程方便的追加许可证, 而不用自个儿去 Google.
+支持 BSD, MIT, and GPL 以及变种.
+
 
 - [usblock](https://github.com/Svenito/usblock) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Lock and unlock your laptop with a USB key.
-
+基于 USB 钥匙来锁定或是解锁你的笔记本!
  
 
 - [Matchbox](https://github.com/Max00355/MatchBox) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-MatchBox is a dropbox style clone that you can use on your own servers for file backup. Looks very interesting as it uses Flask and transfers files via http.
- 
+
+MatchBox 能在你自个儿的服务器上提供 dropbox 风格的备份服务!
+基于 Flask 并通过 http 协议进行文件传输,很得趣的样子!
+
 
 - [cleanify](https://github.com/kirang89/cleanify) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Asynchronously beautify all the html, css and javascript files in your project with cleanify.
 
- 
+用cleanify能异步美化你项目的所有 html/css/js 文件.
 
 - [locksmith](https://github.com/ehazlett/locksmith) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Locksmith is an AES encrypted password manager. Looks good and is completely open source. Check out screenshots or the source.
-
- 
+Locksmith 是AES加密的口令管理器.
+看起来不错,完全开源. 源代码/截屏都有.
 
 - [storm](https://github.com/emre/storm) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Manage your SSH connections “Like a Boss” with Storm’s command line interface. Pretty useful!
+在Storm的命令行界面,
+管理你所有的SSH 连接,就"象头BOSS"!
+非常有用!
 
- 
 
 - [sqlparse](https://github.com/andialbrecht/sqlparse/) (github.com)
 
-This is very useful. sqlparse is a non-validating SQL parser. It supports parsing, splitting and formatting SQL statements.
 
+这个很给力!
+sqlparse 是个 SQL 有效性分析器.
+支持解析/分裂/格式化SQL 语句.
  
 
 - [autopep8](https://github.com/hhatto/autopep8) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Automatically format your code in [pep8](http://www.python.org/dev/peps/pep-0008/) format with this tool.
+能自动化以
+[pep8](http://www.python.org/dev/peps/pep-0008/)
+规约来格式化你的代码.
 
 https://www.gittip.com/hhatto/
  
 
 - [colout](https://github.com/nojhan/colout) (github.com)
 
-Use colout to colorize output on the commandline. Check out the examples on the 
-[github page](http://nojhan.github.io/colout/).
+colout用以在命令行中色彩化输出.
+这就从其 [github page](http://nojhan.github.io/colout/) 检出实例来体验吧.
 
- 
 
 - [bumpversion](https://github.com/peritus/bumpversion) (github.com)
 
-bumping version number can be annoying at best, and everyone forgets to tag every release. bumpversion simplifies that down to a simple command.
 
+版本号冲撞总是恼人的,
+而每个人总是忘记给发行版本打tag.
+bumpversion 用一条简单的命令简化了这方面的操作.
  
 
 - [pyenv](https://github.com/yyuu/pyenv) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Need to manage your different versions of Python better? pyenv lets you do that simply, and unobtrusively.
 
- 
+需要更好的管理你Python的多版本 环境 ?
+pyenv 让你能简洁的作到!
+
+(甚至超出你的预期!有插件能将 VirtualEnv 也无缝结合进来!)
 
 - [pip-tools](https://github.com/nvie/pip-tools)  (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-A set of tools to keep your pinned python project clean and up to date.
-
+一整套能令你的Python 项目保持清爽的工具.
  
 
 - [cdiff](https://github.com/ymattw/cdiff) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Cdiff is a very nice tool to show diffs coloured in the unified-diff format or side-by-side. Looks useful, click through to look at the README for more details.  
+Cdiff是种非常 nice 的工具,
+可以用彩色输出统一diff 格式信息,或用双栏形式来展示.
+感觉对味的话,点击 README 获得更多细节!
 
 
-## Data Science & Visualization
+## 科学科学及可视化 Data Science & Visualization
  
 
 - [data_hacks](https://github.com/bitly/data_hacks) (github.com)
 
-The crowd at 
-[bitly](http://bitly.com/) has released command line tools and utilities for data analysis. Among the utilities are ones that create bar charts and histograms from data inputted on the commandline as well as some other useful utilities.  
- 
 
-- [Probabilistic Programming and Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) (github.com)
+由[bitly](http://bitly.com/)发布的一堆数据分析用命令行工具.
+这些工具接受命令行或是其它工具输入的数据,
+轻易的生成柱图以及直方图等等.
+
+
+
+- [给黒客的概率编程和贝叶斯方法](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-This is excellent, a book which is an Introduction to Bayesian Methods and probabilistic programming for data analysis. It has downloadable iPython Notebooks for each chapter.
 
- 
+这书是极好的,
+介绍如何用贝叶斯方法和概率编程进行数据分析.
+而且,每章都提供了用以 iPython Notebooks 的示例.
+
 
 - [simmetrica](https://github.com/o/simmetrica) (github.com)
-
-Interested in displaying, aggregating and sharing event based time series data for all your applications? Look no further, it also comes with a little bit of customizable dashboard information too.  
  
+想对自个儿的应用基于时间的数据序列,
+进行展示/汇总/分享嘛?
+赶紧上 simmetrica 吧,同时还提供了可定制的仪表盘.
 
 - [vincent](https://github.com/wrobstory/vincent) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
 For those of you who love your data and python, well particularly love vincent. Python to vega translator, built for making visualizations with D3.js.
 
+所有喜爱数据以及Python 的人哪,
+一定也爱 vincent.
+Python构建的,专为运用D3.js 进行可视化 vega转换工具.
+
  
 
 - [bamboo](https://github.com/SEL-Columbia/bamboo) (github.com)
 
-This is an application that simplifies realtime data analysis. bamboo provides an interface for merging, aggregating and adding algebraic calculations to dynamic datasets.
- 
+一种简洁的实时数据分析应用.
+bamboo 提供了一个进行 合并/汇总/数值计算 的数据实时接口. 
+
 
 - [dataset](https://github.com/pudo/dataset) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-This is pretty incredible, dataset makes reading and writing data in databases as simple as reading and writing JSON files. No more dealing with stray files your boss asked you to keep on top of.
 
+难以置信的工具,
+dataset让对数据库的读写简单的象对 JSON 文件的操作.
+没有其它杂七杀八的文件配置,
+顷刻间就让你在BOSS 面前高大上起来.
  
 
 - [folium](https://github.com/wrobstory/folium) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Like maps? love python? Folium lets you manipulate your data in Python, then visualize it in on a Leaflet map.
 
+喜欢地图?也爱Python?
+Folium 让你在地图上自在操纵数据.
  
 
 - [prettyplotlib](https://github.com/olgabot/prettyplotlib) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Use prettyplotlib to enhance your matplotlib use and make your default matplotlib graphs beautiful.
 
+用prettyplotlib来强化你的 matplotlib,
+让你默认的matplotlib输出图片更加漂亮.
  
 
 - [lifelines](https://github.com/CamDavidsonPilon/lifelines) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Interested in learning survival analysis in Python, including Kaplan-Meier, Nelson-Aalen and survival regression, look no further!
+有兴趣在Python 中研究[生存分析](http://zh.wikipedia.org/zh-cn/%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90)
+的话,
+不用观望了,用lifelines!
+包含对 Kaplan-Meier, Nelson-Aalen 和生存回归分析.
 
 
-## Editors & Editor Enhancements
+## 编辑器及其改善 Editors & Editor Enhancements
  
 
 - [sublime-snake](https://github.com/jf8073/sublime-snake) (github.com)
@@ -744,6 +781,7 @@ This is a library, written in Python, for making command language interpreters, 
 
 # 是也乎
 
-- 140105 [Zoom.Quiet](http://zoomquiet.org/) 用时 47 分钟 完成快译20%.
-- 140104 [Zoom.Quiet](http://zoomquiet.org/) 用时 27 分钟 完成格式转抄.
+- 140106 [Zoom.Quiet](http://zoomquiet.io/) 用时 100 分钟完成到40%.
+- 140105 [Zoom.Quiet](http://zoomquiet.io/) 用时 47 分钟 完成快译20%.
+- 140104 [Zoom.Quiet](http://zoomquiet.io/) 用时 27 分钟 完成格式转抄.
  
