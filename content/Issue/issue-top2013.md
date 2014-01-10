@@ -3,6 +3,8 @@ Date: 2014-01-03
 Tags: Weekly,Pycoder,Zh 
 Slug: issue-top2013
 
+[toc]
+
 ## Hi Pythonistas!
 
    
@@ -175,7 +177,7 @@ Sandman 希望通过REST 接口暴露你现有的app.
 
 Offset 
 [Go](http://golang.org/) 的
-并发模型在 Python 中的实现.
+并发模式在 Python 中的实现.
 请参考相关演讲
 [幻灯](https://docs.google.com/file/d/0B2gNkR7hgkIRVFgwSWR4Y2JaZHc/edit?hl=en&forcehl=1). 
 来理解!
@@ -229,12 +231,11 @@ Delorean 的目标就是令你的Python 项目在处理时间/日期时轻而易
 - [powerline-shell](https://github.com/milkbikis/powerline-shell) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-For those of you who need your tools to look beautiful will definitely want to checkout powerline-bash. This adds powerline to your favorite terminal Bash/Zsh currently supported.  
-
 对于那些想让常用工具漂亮起来人,
 一定要用 powerline-bash.
 能打造漂亮的shell提示符,增加力线(powerline),兼容 Bash/Zsh.
-(好吧,对于 zsh/fish 而言这个模块就 Naive 了 ;-)
+
+(`译注:` 好吧,对于 zsh/fish 而言这个模块就 Naive 了 ;-)
 
 - [fn.py](https://github.com/kachayev/fn.py) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
@@ -369,8 +370,6 @@ Cdiff是种非常 nice 的工具,
 - [vincent](https://github.com/wrobstory/vincent) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-For those of you who love your data and python, well particularly love vincent. Python to vega translator, built for making visualizations with D3.js.
-
 所有喜爱数据以及Python 的人哪,
 一定也爱 vincent.
 Python构建的,专为运用D3.js 进行可视化 vega转换工具.
@@ -424,242 +423,316 @@ Folium 让你在地图上自在操纵数据.
 - [sublime-snake](https://github.com/jf8073/sublime-snake) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Need a break on those long coding marathons. Check out this simple game.
-
+想在无尽的coding 中喘口气?
+当然是这种经典游戏了...
  
 
 - [spyderlib](https://code.google.com/p/spyderlib/) (google.com)
 
-A powerful open source IDE for Python written in Python.
- 
+又一个用Python 写的开源 IDE. 
 
 - [vimfox](https://github.com/dbsr/vimfox) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
 
-This is an incredibly useful tool for you vim users who are developing for the web. Vimfox brings live css and javascript and html editing to vim. Make a change in vim and magically see the result in your browser window!
+对于 Vim 党最贴心的web 专发工具.
+VimFox 能让 vim 实时的看到 css/js/html 的修改效果.
+能神奇的让 vim 中的修订,立即在浏览器中看到...
 
+(`译注:`图样图森破, 越来越多的渠道可以让浏览器和编辑器联动了...不过,的确真心是程序猿必备)
  
 
 - [pcode](https://github.com/fortharris/Pcode) (github.com)
 
-This is a windows based Python 3 IDE. Sports a simple UI and all the other features you would expect in a modern IDE like refactoring support, project management, etc.  
+基于 Py3 的IDE, 通过简单的UI,提供了重构/工程管理等.
 
 
-## Devops
- 
+
+## 持续交付 Devops
 
 - [metrology](https://github.com/cyberdelia/metrology) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
 
-This library is pretty cool, let you measure various metrics in your application code and easily pipe them to external tools like 
-[graphite](http://graphite.wikidot.com/).
+这个库很酷,
+支持你对应用进行多种测量,并轻松的输出给类似
+[graphite](http://graphite.wikidot.com/)
+的外部系统.
 
  
 
 - [python-lust](https://github.com/zedshaw/python-lust) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Implements the basics of creating a proper modern daemon on a Unix system in Python.
 
+支持在Unix 系统中用Python 实现一个守护进程.
  
 
 - [scales](https://github.com/Cue/scales) (github.com)
 
-Scales tracks server state and statistics for your python apps. It also can send data to 
-[graphite](http://graphite.wikidot.com/). Check out the README for more details and usage examples.
- 
+Scales 对你的Python 应用进行持续状态和统计,
+并发送数据到
+[graphite](http://graphite.wikidot.com/). 
+详情/实例 查阅官方 README.
 
 - [glances](https://github.com/nicolargo/glances) (github.com)
 
-Cross platform 
-[curses](http://en.wikipedia.org/wiki/Curses_(programming_library)) based monitoring tool for your system.
+跨平台基于
+[curses](http://en.wikipedia.org/wiki/Curses_(programming_library)) 
+命令行的系统监视工具.
 
- 
+(`译注:`htop 的纯Python 替代, 大妈已经用上;-)
 
 - [ramona](https://github.com/ateska/ramona) (github.com)
 
-A enterprise grade application supervisor. Ramona insures that each process of an application is running, restarts when needed and monitors/logs process output and sends email notifications to admins when errors are detected.
 
+企业级的应用监管.
+Ramona 保证每个进程在值,
+一但需要立即重启,
+并有监控/日志输出, 查觉要糟时,会发送邮件提醒.
  
 
 - [salmon](https://github.com/lincolnloop/salmon) (github.com)
 
-Salmon is a multi-server monitoring system built on top of 
-[Salt Stack](http://saltstack.com/community.html). It can serve as both an alerting system and a monitoring system which can help you consolidate your tools a bit. Check out the 
-[README](https://github.com/lincolnloop/salmon/blob/master/README.rst) for screenshots, info and directions to try it out.  
- 
+Salmon 是基于 
+[Salt Stack](http://saltstack.com/community.html)
+的多服务监视系统.
+即能作报警系统,也能当监控系统,
+[README](https://github.com/lincolnloop/salmon/blob/master/README.rst) 
+有截屏以及详细说明.
 
 - [graph-explorer](https://github.com/vimeo/graph-explorer) (github.com)
 
-Graph-explorer is an enhanced dashboard for 
-[Graphite](http://graphite.wikidot.com/). Lots of good here, click through for very detailed documentation.
- 
+Graph-explorer 是对
+[Graphite](http://graphite.wikidot.com/)
+面板的增强.
+比原版的好很多,值得体验.
+
 
 - [sovereign](https://github.com/al3x/sovereign) (github.com)
 
-Sovereign is a series of ansible playbooks you can use to build your own personal cloud.  
+Sovereign 是一系列
+[ansible](https://github.com/ansible/ansible)
+的攻略手册,
+基于之,能为自个儿建造个私人云.
 
+(`译注:`Ansible, Fabric, SlatStack, 这是Python 实现的类似 Puppet 的持续部署管理系统
+但是,更加简洁,直觉,值得关注)
  
 
 - [shipyard](https://github.com/ehazlett/shipyard) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Extremely well named web application that shows you which docker instances are running on a given machine. It also allows you delete and create new instances and much more.
-
- 
+(shipyard,船坞)
+名很倩的web 应用,能在指定的机器上弹出你的 泊窗实例.
+也支持你创建/删除 等等对 泊窗的远程控制.
 
 - [docker-py](https://github.com/dotcloud/docker-py) (github.com)
 
-An API client for the amazing [docker](https://github.com/dotcloud/docker) project in Python.
+An API client for the amazing 
+
+疯狂的[docker](https://github.com/dotcloud/docker) 
+工程接口的Python
+包装.
+
+(`译注:` 不没听说过 Docker? 忒 out了,参考:
+[无责任报道~ECUG2013Con](http://blog.zhgdg.org/2013-12/et-ecugcon-sz/);
+这是准备将应用部署连操作系统环境也一并抄底儿统一快照/回滚/分发/版本 管理的系统)
  
 
 - [dockerui](https://github.com/crosbymichael/dockerui) (github.com)
 
-A web interface for to interact with the [docker](https://github.com/dotcloud/docker)  remote API.
+基于
+[docker](https://github.com/dotcloud/docker)
+接口通过web 界面进行交互操作的工具.
 
  
 
 - [django-docker](https://github.com/kencochrane/django-docker) (github.com)
 
-If you are wondering how to use docker in your django project, look no further than this demo django app.
 
+如果想知道怎么将Djnago 应用同 Docker 结合?
+学习这个 demo 吧.
  
 
 - [diamond](https://github.com/BrightcoveOS/Diamond) (github.com)
 
-A Python daemon that collects metrics from your servers or other user defined data sources and sends them to graphite or one of many 
-[other supported](https://github.com/BrightcoveOS/Diamond/wiki/Handlers) stats dashboards/collectors.
+Python 实现的守护进程,
+自动从你的服务或是其它指定数据源中提取数值,
+并向
+[graphite](http://graphite.wikidot.com/)
+[以及其它支持的](https://github.com/BrightcoveOS/Diamond/wiki/Handlers) 
+状态面板/收集 系统输出.
+
 
 
 ## Git
 
 - [git-workflow](https://github.com/jvns/git-workflow) (github.com)
 
-A tool to visualize your git workflows. Pretty cool demo 
-[here](http://visualize-your-git.herokuapp.com/display/2).
-
- 
+可视化你的 git 工作流程的工具,
+示例在
+[这儿](http://visualize-your-git.herokuapp.com/display/2).
+ 很COOL的说.
 
 - [gitto](https://github.com/bhuztez/gitto) (github.com)
 
-A simple library to allow you to roll your own Git hosting.
-
- 
+简洁的库,
+协助你建立自个儿的 git 主机.
 
 - [git-imerge](https://github.com/mhagger/git-imerge) (github.com)
 
-git-imerge is incremental merge for Git. Essentially when using imerge if there are conflicts in your merge you get a chance to merge them as you go and then continue with your merge.
 
+git-imerge 能让 git 进行增量合并.
+本质上是允许你在进行 `imerge`
+有冲突时,
+有机会先合并掉,再继续.
  
 ##  Mail & Chat
  
 
 - [mailbox](https://github.com/martinrusev/mailbox) (github.com)
 
-Mailbox is attempting to be Python IMAP for humans. In the spirit of simplicity the author is presenting a simpler and easier to understand IMAP API.  
+Mailbox 是对Python 的IMAP 一个人性化的再造.
+基于简单即是美的态度,
+作者对 IMAP 接口给出了一个简单又好理解的形式.
 
- 
 
 - [deadchat](https://github.com/jeztek/deadchat) (github.com)
 
-deadchat is a cryptographically secure single-room group chat server and client designed to enable secure chat over an insecure network.
+deadchat 
+旨在不安全的网络环境中
+提供安全的 `单一房间` 群聊服务以及客户端.
 
  
 
 - [Mailpile](https://github.com/pagekite/Mailpile) (github.com)
 
-Mailpile is an index and search engine for email.
+Mailpile 
+是针对邮件的索引及搜索引擎
+.
 
  
-## Audio & Video
+## 音频和视频  Audio & Video
  
 - [pms](https://github.com/np1/pms) (github.com)
 
-Poor Man's Spotify, search and stream music.
+穷人的 [Spotify](https://www.spotify.com/)
+搜索和收集音乐流!
 
- 
 
 - [dejavu](https://github.com/worldveil/dejavu) (github.com)
 
-Ever wonder how Shazam works? Audio fingerprinting and recognition algorithm implemented in Python!
+
+在琢磨 Shazam 的原理?
+音频指纹识别算法的Python实现在此!
+
+(`译注:`[Shazam](http://www.shazam.com/) 是个神奇的音乐识别应用,
+嘦对她啍个几秒调子,就能精确告诉你是什么歌曲,作者,歌词...)
 
  
 - [HTPC-Manager](https://github.com/styxit/HTPC-Manager) (github.com)
 
-For those 
-[HTPC](http://en.wikipedia.org/wiki/Home_theater_PC) lovers out there, this project is a fully responsive interface to manage all the software on your home media machine.
+为[HTPC](http://en.wikipedia.org/wiki/Home_theater_PC) 
+粉丝准备的工具,
+提供了完备的界面来管理所有家庭媒体服务器上的好物.
 
  
 
 - [cherrymusic](http://fomori.org/cherrymusic/) (fomori.org)
 
-A music streaming server written in python. Stream your own music collection to all your devices!
 
+Python 实现的一个音乐流媒体服务器.
+流化输出你的音乐到所有设备上.
+
+(`译注:`即私人 iTunes 服务)
  
 
 - [moviepy](http://zulko.github.io/moviepy/) (github.io)
 
-This is a package for script-based movie editing, which enables basic operations (cuts, concatenations, title insertions) to be done in a few lines. This is pretty incredible.  
 
+脚本化的电影剪辑包,
+神马 切/串/插入标题 等等基本操作,
+几行就搞掂!
 
-
-## Other Awesomeness.
+## 其它好物 Other Awesomeness.
  
 
 - [emit](https://github.com/BrianHicks/emit) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-This is an interesting concept that  promises to gives you subscriptions to function results, using redis.
 
+用 redis 为你的函式追加可订阅能力,
+很有趣.
  
 
 - [zipline](https://github.com/quantopian/zipline) (github.com)
 
-Zipline is a Pythonic algorithmic trading library.  
+Zipline 是种
+很Pythonic 
+的交易算法库.
+
  
 
 - [raspberry.io](http://raspberry.io/) (raspberry.io)
 
-Raspberry.io is a collection of Raspberry Pi projects and ideas as well as an associated community. This is just newly announced so if you are interested in Raspberry Pi check it out!
+Raspberry.io 
+是树莓派的社区实现.
+刚刚发布,汇集了各种创意想法,
+有兴趣的话立即检出折腾吧.
+
  
 
 - [NewsBlur](https://github.com/samuelclay/NewsBlur) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Google Reader is shutting down and another challenger enters. Newsblur has been around for awhile, but this open source news reader is definitely one of the premier options to look at for your RSS reading needs.
+Google Reader 已经关张儿了.
+Newsblur 已经发布了有段日子了,
+开源的 RSS 阅读器,
+这绝对是应该首先体验的.
 
  
 
 - [macropy](https://github.com/lihaoyi/macropy) (github.com)
 
-Macropy is an implementation of 
-[macros](http://en.wikipedia.org/wiki/Macro_(computer_science)#Syntactic_macros) in Python. Check out the readme for a list of features and how to use them.
+Macropy 
+是在 Python 中实现
+[macros](http://en.wikipedia.org/wiki/Macro_(computer_science)#Syntactic_macros)的库.
+检出文档,参考所有功能,
+看怎么用上了.
 
  
 
 - [mini](https://github.com/halst/mini) (github.com)
 
-Those of you interesting in writing interpreters and programming languages will definitely want to take a look at this repository and the accompanying screencast.
 
+
+对编译器以及语言设计有兴趣的,
+一定要看看这个仓库,以及配套的录像!
  
 
 - [parsimonious](https://github.com/erikrose/parsimonious) (github.com)
 
-Parsimonious aims to be the fastest arbitrary-lookahead parser written in pure Python—and the most usable. Pretty cool, check out the simple examples.
+Parsimonious 的目标
+是最快的 `arbitrary-lookahead` 解析器.
+用Python 实现,基本可用.
+足够COOL,
+检出样例折腾吧.
 
- 
+
 
 - [isso](https://github.com/posativ/isso) (github.com)
 
-An open source replacement for Disqus, which boasts better privacy settings than its counterpart. Pretty good looking too, check out the demo.
 
- 
+Disqus 的开源替代,
+从demo 看很不错,而且提供了更好的隐私设置.
 
 - [deaddrop](https://github.com/deaddrop/deaddrop) (github.com)
 
-Deaddrop is an app that allows news organizations and others to set up an anonymous online drop box for sources. For more info about this check out the [github page](http://deaddrop.github.io/)
+Deaddrop 
+能为新闻机构或是其它人
+提供在线投递箱.
+详细信息参考其 [github page](http://deaddrop.github.io/)
 .
  
 
@@ -667,120 +740,172 @@ Deaddrop is an app that allows news organizations and others to set up an anonym
 
 If you have been envious of seeing Jarvis the computer in Iron Man or would like to interact with your computer like the one on Star Trek this project is right up your alley. Click through to check out all the awesome.
 
+如果你一直羡慕
+钢铁侠里 Jarvis 的电脑,
+或是 星际迷航 里星舰主机,
+让你的电脑也能理解你的语音指令?
+检出这儿的妙物吧!
+
  
 
 - [nude.py](https://github.com/hhatto/nude.py) (github.com)
 
-Nudity detection in Python. This is a port of nude.js.
+裸体检测 的Python 实现,
+是 nude.js 的仿制.
 
  
 
 - [kaptan](https://github.com/emre/kaptan) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Kaptan is a configuration manager for your Python apps.
+Kaptan 
+是你应用的配置管理器!
+
+(`译注:`通吃常见配置文本格式 
+
+    dict
+    json
+    yaml
+    .ini
+    .py
+
+)
 
  
 
 - [luigi](https://github.com/spotify/luigi) (github.com)
 
-Luigi helps you build complex pipelines of batch jobs.
- 
+Luigi 
+帮你构建复杂的管道
+来完成批处理.
+
 
 - [gramme](https://github.com/waawal/gramme) (github.com)
 
-Gramme is an easy and elegant way to pass volatile data around over UDP with msgpack serialization.  
+Gramme 
+以简单而优雅的方式,
+通过 UDP 接口对易失数据完成消息包装序列化.
 
- 
 
 - [q](https://github.com/zestyping/q) (github.com)
 
-Quick and dirty logging for your Python programs. Has some helpers for tracing functions arguments and return values as well as shortcuts for launching an interactive console.
 
+为你的Python 程序提供快速而随性的日志.
+有一系列帮手来追踪你的函式参数,
+并能在控制台快速交互式加载.
+
+(`译注:` 很实用的工具, 但是,选择了一摧悲的工程名, 几乎不可能搜索出来的过短名字...)
  
 
 - [fuqit](https://github.com/zedshaw/fuqit) (github.com)
 
-The latest and greatest from 
-[Zed Shaw](http://twitter.com/zedshaw), fuqit is a web framework that attempts to make you forget everything you have learned from MVC frameworks and focuses on simplicity. Check it out.  
+来自伟大的
+[Zed Shaw](http://twitter.com/zedshaw)
+最新作品, 
+fuqit 试图令你忘记 MVC 的经验,
+用全新的方式专注简洁一切.
 
- 
+
 
 - [simplicity](https://github.com/pydanny/simplicity) (github.com)
 
-Convert your ReStructuredText to JSON with this useful project from 
-[pydanny](http://twitter.com/pydanny).
+基于靠谱的
+[pydanny](http://twitter.com/pydanny)
+将你的 新结构化文本 转换为 JSON 格式.
 
  
 
 - [lassie](https://github.com/michaelhelmick/lassie) (github.com)
 
-Another project for Humans. Lassie is a library that allows you to easily retrieve basic content from websites.
-
+Lassie 允许你轻松的从网站检索出内容来.
  
 
 - [paperwork](https://github.com/jflesch/paperwork) (github.com)
 
-Paperwork is a tool to OCR documents and make them searchable. Nice tool with a GTK/Glade UI.
+Paperwork 
+是个 OCR 文档并完成可搜索转化的工具,
+用GTK/Glade实现了友好的界面.
 
  
 
 - [cheat](https://github.com/chrisallenlane/cheat) (github.com)
 
-cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
 
+cheat 允许你创建并查阅
+命令行上的交互式备忘.
+设计目的是帮助
+`*nix` 的系统管理员们在习惯的环境中,
+快速调阅不易记忆的常用命令.
  
 
 - [cookiecutter](https://github.com/audreyr/cookiecutter)  (github.com)
 
-Awesome package that provides templates for bunch of code that you write infrequently enough not commit to memory, bunch of templates available or even write your own!
+
+良心模块!
+提供一堆有用但是不常写,
+所以记不下来的代码模板,
+也支持自制代码模板.
 
 
 - [pydown](https://github.com/isnowfy/pydown) (github.com)
 
-Pretty neat. This  is a HTML5 presentation builder in Python. Check out the demo 
-[here](http://isnowfy.github.io/pydown/).
+
+支持用Python 构建亮丽的HTL5 效果幻灯,
+
+[这儿](http://isnowfy.github.io/pydown/)
+有demo.
 
  
 
 - [Ice](https://github.com/scottrice/Ice) (github.com)
 
-Emulator fans can now add ROMs to 
-[Steam](http://store.steampowered.com/) with Ice.
+模拟器粉丝们现在能用 Ice
+向
+[Steam](http://store.steampowered.com/) 
+里塞 ROMs 来玩了.
 
  
 
 - [pants](https://github.com/ecdavis/pants) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-A lightweight framework for writing asynchronous network applications. Pants is single-threaded and callback oriented, also includes a HTTP server with Websockets implementation, WSGI support and a simple web framework.  
 
- 
+用以编写异步网络应用的轻量级框架.
+Pants 是单线程,回调服务,
+也包含支持Websockets 的 HTTP 服务,
+WSGI 支持, 和一个简单的web 框架.
+
+
 
 - [pipeless](https://github.com/asperous/pipeless) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Pipeless is a framework for building simple 
-[data pipelines](http://en.wikipedia.org/wiki/Pipeline_(software)).
-
+Pipeless 
+是一个构建简单
+[数据管道](http://en.wikipedia.org/wiki/Pipeline_(software)).
+的框架.
  
 
 - [marshmallow](https://github.com/sloria/marshmallow) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-marshmallow is an ORM agnostic library for converting complex data types, such as objects,
 
-into native python data types, which are easily converted to JSON for API consumption.
+marshmallow 是个 ORM 无关的库,
+能将复杂的数据类型转换为Python 原生类型对象,
+以便容易的转换为JSON 提供接口使用.
 
- 
 
 - [twosheds](https://github.com/Ceasar/twosheds/) (github.com)
 
-This is a library, written in Python, for making command language interpreters, or shells. twosheds lets you write your own shell, in Python, complete customization.
-
+Python 实现的库,
+用来构造命令或是shell 解释器.
+twosheds 让你用 Python 来定制自个儿的 shell 环境.
 
 # 是也乎
 
+- 140110 [Zoom.Quiet](http://zoomquiet.io/) 用时 86 分钟完成所有.
+- 140109 发现有同好: [pythoner.cn Pycoder's Weekly - Issue #2013](http://www.pythoner.cn/pycoders/weekly/2013/) 只是图样图森破的,只是翻译了一部分...
+- 140107 [Zoom.Quiet](http://zoomquiet.io/) 用时 45 分钟完成到77%.
 - 140106 [Zoom.Quiet](http://zoomquiet.io/) 用时 100 分钟完成到40%.
 - 140105 [Zoom.Quiet](http://zoomquiet.io/) 用时 47 分钟 完成快译20%.
 - 140104 [Zoom.Quiet](http://zoomquiet.io/) 用时 27 分钟 完成格式转抄.

@@ -33,7 +33,7 @@ Author: Zoom.Quiet
 邮件线索
 
 
-    :::text
+    :::bash
     通过“googlegroups.com” 
     回复： python-cn@googlegroups.com 
     发送至： python-cn@googlegroups.com 
