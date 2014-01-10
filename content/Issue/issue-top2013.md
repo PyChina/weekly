@@ -3,9 +3,9 @@ Date: 2014-01-03
 Tags: Weekly,Pycoder,Zh 
 Slug: issue-top2013
 
-[toc]
+[TOC]
 
-## Hi Pythonistas!
+# Hi Pythonistas!
 
    
 这周咱们作点儿不同的 ;-)
