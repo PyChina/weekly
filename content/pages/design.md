@@ -28,7 +28,7 @@ Author: Zoom.Quiet
 - 概念: 把python的logo和太极图给融合了一下,为什么是太极图呢--因为感觉比较中国，而且和python的logo有些异曲同工!
 - 下载: [CPyUG_Logo.svg](http://zoomq.qiniudn.com/logos/090609_CPyUG_Logo.svg)
 
-![](http://zoomq.qiniudn.com/logos/090609_CPyUG_logo.png)
+![CPUG](http://zoomq.qiniudn.com/logos/090609_CPyUG_logo.png)
 
 邮件线索
 

@@ -10,9 +10,6 @@ Slug: issue-96
 让我们知道就好;
 
  
-
-To the  keep up with all the breaking Python news follow @pycoders. 
- 
 想跟上所有 蠎界 新闻?
  [@pycoders](http://twitter.com/pycoders).
 
