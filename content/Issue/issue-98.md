@@ -105,7 +105,7 @@ https://www.gittip.com/mattrobenolt/
 
 
 用 yowsup 来创建 wahtapp 的客户端吧!
-就能拥有官方 wahtsapp 客户端的所有能力!
+就能拥有官方 whatsapp 客户端的所有能力!
 
 https://www.gittip.com/on/github/tgalal/
  
