@@ -108,7 +108,8 @@ https://www.gittip.com/mattrobenolt/
 就能拥有官方 whatsapp 客户端的所有能力!
 
 https://www.gittip.com/on/github/tgalal/
- 
+
+(`译注:`感谢 yanyaoer 指出, [WhatsApp](http://www.whatsapp.com/)是相当于外国的微信神器...)
 
 - [mpld3](https://github.com/jakevdp/mpld3)  (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
