@@ -93,7 +93,10 @@ Slug: about
 仓库在:
 
 [CPyUG/weekly - GitCafe](https://gitcafe.com/CPyUG/weekly)
-    
+
+想贡献的,使用标准的 Github 式的对话方式:
+
+`frok->commit->pull request` 流程就好 ;-)
 
 
 ## contact
