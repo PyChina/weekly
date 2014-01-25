@@ -6,8 +6,6 @@ Slug: issue-99-5
 ## Hi Pythonistas!
 
 
-We lied, issue 100 is coming next week so you are going to have to wait. In the meantime enjoy the issue!
-
 俺们撒谎鸟, 第100期,在下周才真正发布,亲,再等等.
 当然,末期也很精彩.
 
@@ -135,18 +133,19 @@ pyflakes 的分支,
 
 ## 文章
 
-- [表在 Heroku 上用 Gunicorn 容纳 Django 网站](http://blog.etianen.com/blog/2014/01/19/gunicorn-heroku-django/) (etianen.com)
+- [别在 Heroku 上用 Gunicorn 容纳 Django 网站](http://blog.etianen.com/blog/2014/01/19/gunicorn-heroku-django/) (etianen.com)
 
 作者给出了一些实用建议,
-有关表用
+有关别用
 [Gunicorn](http://gunicorn.org/) 
 在Heroku 上折腾你的应用,
 而是用
 [waitress](https://pylons.readthedocs.org/projects/waitress/en/latest/) 
 替代.
 
-(`译注:` 呵呵 从 zope.server 的灰烬 上重新发布到 pylons 的项目
-已经有一定人望,参考: [What WSGI servers you use?： Python](http://www.reddit.com/r/Python/comments/16tm4e/what_wsgi_servers_you_use/)
+(`译注:` waitress 竟然是 pylons 的子项目
+也已经有一定人望,Bootle 都内置了支持参考: [What WSGI servers you use?： Python](http://www.reddit.com/r/Python/comments/16tm4e/what_wsgi_servers_you_use/)
+也是从 Zope3 的灰烬自救出来的好物哪,,,
 !-)
 
 
@@ -159,7 +158,6 @@ pyflakes 的分支,
 
 - [市场模拟在 iPython Notebook](http://nbviewer.ipython.org/url/norvig.com/ipython/Economics.ipynb) (ipython.org)
 
-Great use of an iPython notebook here. Peter Norvig has made a really cool simulation of an economic marketplace.
 IP[y]:notebook 最赞的应用方式!
 [Peter Norvig](http://norvig.com)
 创建了一个极COOL 的模拟的经济市场.
