@@ -28,3 +28,12 @@ Python中文社区创始人(之一) / 管理员,
 - Blog: http://blog.zoomquiet.org/
 - 微博:  http://weibo.com/zoomquiet
 
+
+# MonkeyRobot (小猴机器人)
+
+[机器学习周刊](ztl2004.github.io/MachineLearningWeekly/all_issues.html)作者
+
+Python无脑粉，机器学习，人工智能狂热分子
+
+- 微博:  http://weibo.com/xiaohourobot
+
