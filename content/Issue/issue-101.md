@@ -137,8 +137,6 @@ quant-econ.net
  
 
 - [全栈Python](http://www.fullstackpython.com/)
-A great guide of dealing with the full stack required with creating a Python web application. 
-Topics cover the entire stack from servers, web frameworks, security and source control. 
 
 很赞的教程,讲解创建一个Python网络应用的时候如何处理各种层次的问题. 
 

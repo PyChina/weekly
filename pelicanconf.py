@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
+
 ###############################################################
 ###############################################################   Site abt.
 ###############################################################
@@ -128,9 +132,6 @@ TAGS_SAVE_AS = 'tag/index.html'
 # disable author pages
 #AUTHOR_SAVE_AS = ''
 #AUTHORS_SAVE_AS = ''
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
 
 
 
