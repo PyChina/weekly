@@ -27,4 +27,3 @@ Python中文社区创始人(之一) / 管理员,
 - G+:   https://plus.google.com/+ZoomQuiet/
 - Blog: http://blog.zoomquiet.org/
 - 微博:  http://weibo.com/zoomquiet
-
