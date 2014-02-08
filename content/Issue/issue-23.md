@@ -36,9 +36,9 @@ Postmates 是我们的第一个赞助商,
     K1P 7A2
 
 
-RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到。
+RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到. 
 
-[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女（少年）。 (◕‿‿◕)
+[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女(少年).  (◕‿‿◕)
 
 --
 [Mahdi](https://twitter.com/#!/myusuf3) and [Mike](https://twitter.com/#!/mgrouchy)
@@ -48,7 +48,7 @@ RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly
 
 - [Pyglet 1.2 alpha1 released!](https://groups.google.com/forum/#!topic/pyglet-users/Tr-FYnbIWZo/discussion) (groups.google.com)
 
-Pyglet the cross-platform windowing and multimedia library for Python has released version 1.2 Alpha1. In this release, support for 64 bit OS’s and many other changes and fixes. Click through for the changelog.
+Pyglet the cross-platform windowing and multimedia library for Python has released version 1.2 Alpha1. In this release, support for 64 bit OS's and many other changes and fixes. Click through for the changelog.
 
 - [PyTexas 2012](http://www.pytexas.org/2012/) (pytexas.org)
 
@@ -115,7 +115,7 @@ Interested in learning how to deploy your WSGI app? This article shows the beaut
 
 - [Better memcached by Mixpanel](http://code.mixpanel.com/2012/07/16/we-went-down-so-we-wrote-a-better-pure-python-memcache-client/) (mixpanel.com)
 
-Mixpanel uses eventlet to peform non-blocking operations. For this to work, eventlet patches Python’s socket library which makes a pure python memcached library a requirement for Mixpanels stack. When their current memcached solution contributed to a service outage they decided to write their own.
+Mixpanel uses eventlet to peform non-blocking operations. For this to work, eventlet patches Python's socket library which makes a pure python memcached library a requirement for Mixpanels stack. When their current memcached solution contributed to a service outage they decided to write their own.
 
 
 - [Raspberry Pi Sends Live Images from Near Space](http://www.daveakerman.com/?p=592) (daveakerman.com)

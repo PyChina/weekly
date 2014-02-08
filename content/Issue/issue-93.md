@@ -139,7 +139,7 @@ Seaborn 提供高层次功能,
 学习如果使用 betamax 库来便利的模拟 外部影响.
 
 
-- [介绍Python解释器，第1部分：函数对象](http://akaptur.github.io/blog/2013/11/15/introduction-to-the-python-interpreter/) (github.io)
+- [介绍Python解释器,第1部分:函数对象](http://akaptur.github.io/blog/2013/11/15/introduction-to-the-python-interpreter/) (github.io)
 
 
 从这儿可以了解到以往想知道但是从来没敢问的 Python 解释器知识!

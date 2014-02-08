@@ -14,7 +14,7 @@ Slug: issue-100
 不仅更新了
 [网站](http://www.pycoders.com/),而且升级了提交过程,
 
-现在我们我们靠谱消息的贡献者,将在条目中强调你的贡献.
+现在我们靠谱消息的贡献者,将在条目中标出 ;-)
 
 
 我们必须感谢 [Sarah Davies](https://twitter.com/scdavies0)
@@ -74,7 +74,7 @@ reddit.com
 
 ## 项目
 - [mkdocs](https://github.com/tomchristie/mkdocs)
-Looking for Sphinx like documentation but don’t like RestructuredText? This project hopes to be your solution, still in the early days but looks promising.
+Looking for Sphinx like documentation but don't like RestructuredText? This project hopes to be your solution, still in the early days but looks promising.
 
 喜欢 Sphinx 样的文档工程,但不喜欢 rST?
 这个工程,有望解决你的问题,
@@ -117,7 +117,7 @@ github.com
 
 - [PynamoDB](https://github.com/jlafon/PynamoDB)
 
-为 Amazon’s DynamoDB 的 简洁/Pythonic 界面.
+为 Amazon's DynamoDB 的 简洁/Pythonic 界面.
 如果你还问,俺得承认名字也非常 cool.
 
 github.com
@@ -218,7 +218,7 @@ blog.pythonlibrary.org
  
 
 - [Python on Wheels](http://lucumr.pocoo.org/2014/1/27/python-on-wheels/)
-Great background on Python’s new Wheel packaging format including history and getting set up building and installing Wheel packages by Armin.
+Great background on Python's new Wheel packaging format including history and getting set up building and installing Wheel packages by Armin.
 
 Armin 描述了 Python 全新的 whell 包体系的
 格式,历史变迁,构建,安装情况.

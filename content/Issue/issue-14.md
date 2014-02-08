@@ -95,7 +95,7 @@ Latest version of Jython has been announced, which implements much of the functi
 ## 讨论
 
 - [Tracking Down a Bug](http://www.reddit.com/r/Python/comments/tpixc/ive_spent_the_past_week_tracking_down_a_bug_in/) (reddit.com)
-Let’s face it we all write bugs, some of even fix a few from time to time. That being said sometimes some bugs are tricky; Often times it’s a thankless battle, but there is glory to be had. 
+Let's face it we all write bugs, some of even fix a few from time to time. That being said sometimes some bugs are tricky; Often times it's a thankless battle, but there is glory to be had. 
 
 
 ## 项目
@@ -142,7 +142,7 @@ A fresh look at HTTP for agile languages (more importantly: Python) by Armin Ron
 This article highlights the uWSGI emperor mode. It is a special uWSGI instance that will monitor specific events and will spawn/stop/reload instances on demand. Pretty awesome.
 
 - [Python HOWTOs](http://docs.python.org/release/3.1.5/howto/index.html) (python.org)
-This is a collection of HOWTOs modelled after the Linux Documentation Project’s HOWTO collection that is maintained in the python documentation. It has a bit of everything from “Curses programming with Python” to “Use Python in the web”. Definitely worth checking out.
+This is a collection of HOWTOs modelled after the Linux Documentation Project's HOWTO collection that is maintained in the python documentation. It has a bit of everything from "Curses programming with Python" to "Use Python in the web". Definitely worth checking out.
 
 
 # 是也乎

@@ -36,9 +36,9 @@ Postmates 是我们的第一个赞助商,
     K1P 7A2
 
 
-RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到。
+RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到. 
 
-[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女（少年）。 (◕‿‿◕)
+[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女(少年).  (◕‿‿◕)
 
 --
 [Mahdi](https://twitter.com/#!/myusuf3) and [Mike](https://twitter.com/#!/mgrouchy)
@@ -103,7 +103,7 @@ http://openstack.org
 - [The compiler rarely knows best](http://alexgaynor.net/2012/jul/12/compiler-rarely-knows-best/) (alexgaynor.net)
 
 Alex Gaynor posts a response on his blog to this post, 
-“[Does the compiler know best?](http://pwang.wordpress.com/2012/07/11/does-the-compiler-know-best/)”.  
+"[Does the compiler know best?](http://pwang.wordpress.com/2012/07/11/does-the-compiler-know-best/)".  
 He discusses the goals and motivations of PyPy and some counterpoints to the original authors claims.
 
 - [Python 201: Creating Modules and Packages](http://www.blog.pythonlibrary.org/2012/07/08/python-201-creating-modules-and-packages/) (pythonlibrary.org)

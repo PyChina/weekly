@@ -63,7 +63,7 @@ The goal of this module is to offer a simple queue system using the underlying f
 Find yourself hanging out on reddit, Facebook, Twitter or some other site? Use focus.py to block yourself from visiting these sites at particular times during the day, using simple firewall type rules to filter domains.
 
 - [roomahost](https://github.com/iwanbk/roomahost) (github.com)
-Awesome. Roomahost is an Open Source HTTP Relay written in Python with Gevent. Roomahost allows you to access a web server on your localhost on the internet. What makes this especially great is that you don’t have to configure port forwarding and are not required to have a public IP.
+Awesome. Roomahost is an Open Source HTTP Relay written in Python with Gevent. Roomahost allows you to access a web server on your localhost on the internet. What makes this especially great is that you don't have to configure port forwarding and are not required to have a public IP.
 
 - [Intellect](https://github.com/nemonik/Intellect) (github.com)
 The rules engine provided in intellect, a form of artificial intelligence. The memory retains knowledge relevant to the AI, and a set of rules authored in the DSL(domain specific language) that describe a necessary behavior to achieve some goal. Umm awesome.
@@ -81,10 +81,10 @@ Eli, discusses how to test multiple python versions with separate virtualenvs us
 Interesting in the Flask web framework? Here is a great tutorial to get a Flask website going from the ground up on Ubuntu. This tutorial takes you through the steps from installing server software, setting up virtualenvs, configuring said software and running your Flask app.
 
 - [Distributing Work Without Celery](http://justcramer.com/2012/05/04/distributing-work-without-celery/)y (justcramer.com)
-David gives us a little insight to an issue they solved at DISQUS with their new open source tool called Taskmaster. He goes on to explain the need for such a tool and why Celery isn’t a perfect fit this time.
+David gives us a little insight to an issue they solved at DISQUS with their new open source tool called Taskmaster. He goes on to explain the need for such a tool and why Celery isn't a perfect fit this time.
 
 - [Don't Deploy Broken Code](http://www.robgolding.com/blog/2012/05/05/dont-deploy-broken-code/) (robgolding.com)
-If you have been following Rob’s blog he has been discussing issues dealing with django in production. That being said, he provides a little trick with fabric and jenkins making sure you never deploy broken code again.
+If you have been following Rob's blog he has been discussing issues dealing with django in production. That being said, he provides a little trick with fabric and jenkins making sure you never deploy broken code again.
 
 - [Improving your code with modern idioms](http://python3porting.com/improving.html) (python3portting.com)
 So the eventual jump to python3 coming closer and closer, there are few things you can do to improve your code and your life. Most of these idioms have been back ported to python2.6 and later. So if you can drop python2.5 support you are in luck.

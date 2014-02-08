@@ -29,9 +29,9 @@ Postmates 是我们的第一个赞助商,
     K1P 7A2
 
 
-RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到。
+RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到. 
 
-[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女（少年）。 (◕‿‿◕)
+[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女(少年).  (◕‿‿◕)
 
 --
 [Mahdi](https://twitter.com/#!/myusuf3) and [Mike](https://twitter.com/#!/mgrouchy)
@@ -47,7 +47,7 @@ Gondor 1.1 is out the door, up until now Gondor has been a Django hosting soluti
 
 - [Status of packaging in 3.3](http://mail.python.org/pipermail/python-dev/2012-June/120430.html) (python.org)
 
-Packaging is hard, and for this among other reasons, it looks like updated Python packaging won’t be making it into Python 3.3. You can check out the mailing list thread by clicking the link for all the details.
+Packaging is hard, and for this among other reasons, it looks like updated Python packaging won't be making it into Python 3.3. You can check out the mailing list thread by clicking the link for all the details.
 
 - [Release 0.1 of CFFI](http://morepypy.blogspot.ca/2012/06/release-01-of-cffi.html) (blogspot.ca)
 
@@ -71,7 +71,7 @@ This is really awesome. If you manage any
 
 
 - [Teena](https://github.com/zacharyvoase/teena) (github.com)
-From the readme “Teena aims to be a collection of ports of UNIX and Linux syscalls to pure Python, with an emphasis on performance and correctness.”. Teena allows you to call systems calls directly from your python code. Currently implemented are tee and splice calls with more to come soon.
+From the readme "Teena aims to be a collection of ports of UNIX and Linux syscalls to pure Python, with an emphasis on performance and correctness.". Teena allows you to call systems calls directly from your python code. Currently implemented are tee and splice calls with more to come soon.
 
 - [pyburrow](http://mobilewebup.com/software/pyburrow/) (mobilewebup.com)
 
@@ -114,7 +114,7 @@ This article is a pretty great intro to debugging techniques for Python. If you 
 
 - [Python Packaging: Hate, hate, hate everywhere](http://lucumr.pocoo.org/2012/6/22/hate-hate-hate-everywhere/) (pocoo.org)
 
-Somewhat related to the news that new packaging won’t make it into Python 3.3, 
+Somewhat related to the news that new packaging won't make it into Python 3.3, 
 [Armin Ronacher](http://lucumr.pocoo.org/about/)
 talks about the history and current state of python packaging. There are plenty of good points here, definitely worth reading.
 

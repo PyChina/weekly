@@ -34,7 +34,7 @@ To the  keep up with all the breaking Python news follow @pycoders.
 
 - [Security Advisory: ImageField Abuse](https://www.djangoproject.com/weblog/2013/dec/02/image-field-advisory/) (djangoproject.com)
 
-You should probably take a look if you use ImageField and Django. Just Sayin’.
+You should probably take a look if you use ImageField and Django. Just Sayin'.
  
 
 - [Announcing PyCharm 3.0.2](http://blog.jetbrains.com/pycharm/2013/12/announcing-pycharm-3-0-2/) (jetbrains.com)
@@ -107,7 +107,7 @@ Still mystified by Python decorators, check out this great explanation.
 - [Kernel Density Estimation in Python](http://jakevdp.github.io/blog/2013/12/01/kernel-density-estimation/) (github.io)
  
 
-- [Let’s TDD a Simple App in Django](http://pypix.com/django/tdd-in-django/) (pypix.com)
+- [Let's TDD a Simple App in Django](http://pypix.com/django/tdd-in-django/) (pypix.com)
 
 Looking to get started with Test Driven Development on a Django project? This tutorial will help you hit the ground running.
  

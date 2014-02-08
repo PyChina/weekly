@@ -36,9 +36,9 @@ Postmates 是我们的第一个赞助商,
     K1P 7A2
 
 
-RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到。
+RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到. 
 
-[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女（少年）。 (◕‿‿◕)
+[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女(少年).  (◕‿‿◕)
 
 --
 [Mahdi](https://twitter.com/#!/myusuf3) and [Mike](https://twitter.com/#!/mgrouchy)
@@ -109,7 +109,7 @@ In this post Tarek gives a rundown of the Open Source Python tools and Libraries
 
 - [Access.log statistics in Excel with Python](http://mit.edu/~victorj/www/blog/2012/07/25/File-access-statistics-in-Excel-IronSpread/) (mit.edu)
 
-Pretty clever article about how to extract statistics and other useful data from your system’s *.log files. Victor goes on to illustrate how he would parse his access.log and produce charts based off that data in Excel.
+Pretty clever article about how to extract statistics and other useful data from your system's *.log files. Victor goes on to illustrate how he would parse his access.log and produce charts based off that data in Excel.
 
 
 - [Python Launcher brings shebang line processing to Windows](http://pymolurus.blogspot.ca/2012/07/python-launcher-brings-shebang-line.html) (blogspot.ca)

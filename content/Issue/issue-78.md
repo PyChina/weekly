@@ -38,7 +38,7 @@ This is a bugfix release, click through for the details.
 
 - [Security advisory: BREACH and Django](https://www.djangoproject.com/weblog/2013/aug/06/breach-and-django/)  (djangoproject.com)
 
-If you run a Django application that uses Django’s CSRF protection, you should check out this security advisory and heed the advice.
+If you run a Django application that uses Django's CSRF protection, you should check out this security advisory and heed the advice.
 
  
 
@@ -61,7 +61,7 @@ After 12 years of development IPython 1.0 has been released! Click through for a
 
 - [envelopes](https://github.com/tomekwojcik/envelopes/) (github.com)
 
-Mailing for human beings. Envelopes tries to be an easy to use and grok wrapper for Python’s email and smtplib modules.
+Mailing for human beings. Envelopes tries to be an easy to use and grok wrapper for Python's email and smtplib modules.
 
  
 

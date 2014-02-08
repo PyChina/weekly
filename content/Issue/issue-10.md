@@ -44,7 +44,7 @@ Circus the Supervisord like program has reached its third release. Circus has a 
 Ep.io is a python web application deployment solution. We have been using ep.io since they started in beta. We are extremely sad to see it close its doors.  Andrew Godwin and Ben Firshman have done an excellent job, and we wish them luck in the future.
 
 - [DjangoCon Europe 2012 Talk Schedule Announced](http://2012.djangocon.eu/blog/schedule-announced/) (2012.djangocon.eu)
-This year DJangoCon Europe is in Zurich and the final talk schedule has been announced. Lots of really great topics and speakers on the list. We won’t be there but we are definitely looking forward to all the post-conference blog posts and videos that are sure to come.
+This year DJangoCon Europe is in Zurich and the final talk schedule has been announced. Lots of really great topics and speakers on the list. We won't be there but we are definitely looking forward to all the post-conference blog posts and videos that are sure to come.
 
 
 ## 讨论
@@ -52,7 +52,7 @@ This year DJangoCon Europe is in Zurich and the final talk schedule has been ann
 - [antigravity.py](http://www.reddit.com/r/Python/comments/scw24/til_antigravitypy_exists/) (reddit.com)
 Fun little discussion, about how antigravity.py actually exists in the Python stand library source. For those of you unfamiliar with the antigravity.py joke, check out this cartoon from 
 [xkcd.com](http://xkcd.com/353/)
-![python.png（PNG 图像，518x588 像素）](http://imgs.xkcd.com/comics/python.png)
+![python.png(PNG 图像,518x588 像素)](http://imgs.xkcd.com/comics/python.png)
 
 
 
@@ -78,9 +78,9 @@ So this is really neat, the goal of pyspread is to be the most pythonic spreadsh
 - [python-cloudsearch](https://github.com/sunlightlabs/python-cloudsearch) (github.com)
 Last week Amazon announced and released 
 [CloudSearch(beta)](http://aws.amazon.com/cloudsearch/)
- on AWS. If you are looking to get started with Cloud Search before Boto supports it and you don’t want to roll your own library support, this is your ticket. Python-cloudsearch provides “A simple, pythonic interface to instances of Amazon's CloudSearch service.”
+ on AWS. If you are looking to get started with Cloud Search before Boto supports it and you don't want to roll your own library support, this is your ticket. Python-cloudsearch provides "A simple, pythonic interface to instances of Amazon's CloudSearch service."
 
-- [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/index.html) (docs.python-guide.org)
+- [The Hitchhiker's Guide to Python!](http://docs.python-guide.org/en/latest/index.html) (docs.python-guide.org)
 This opinionated guide exists to provide both novice and expert Python developers a best-practice handbook to the installation, configuration, and usage of Python on a daily basis.
 
 
@@ -106,10 +106,10 @@ This is a very cool and very brief tutorial about how to add push notifications 
 - [Python FAQ: Equality](http://me.veekun.com/blog/2012/03/24/python-faq-equality/) (me.veekun.com)
 This is a section of an ongoing Python FAQ(
 [here](http://me.veekun.com/blog/2011/07/22/python-faq/)
-). For those who are interested, this is a really good explanation of the difference between ‘is’ and ‘==’ and when you should use either. Check it out.
+). For those who are interested, this is a really good explanation of the difference between 'is' and '==' and when you should use either. Check it out.
 
 - [Using a custom SQLAlchemy Users model with Django](http://tomforb.es/using-a-custom-sqlalchemy-users-model-with-django) (tomforb.es)
-This article details, with code examples, how to go about swapping out Django’s User model for a custom one created with SQLAlchemy. If you have every had issues with Django’s ORM not fitting the bill for you, this is a good place to get started if you are looking for a change.
+This article details, with code examples, how to go about swapping out Django's User model for a custom one created with SQLAlchemy. If you have every had issues with Django's ORM not fitting the bill for you, this is a good place to get started if you are looking for a change.
 
 
 # 是也乎

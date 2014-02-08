@@ -33,7 +33,7 @@ Complete with horrible puns. Pypy 2.1 first release with official support for AR
 
 - [The Style Guide for Python Code (PEP 8) Modernization.](https://www.draftable.com/compare/9spTfcM) (draftable.com)
 
-Most notably the increase of the number of lines to 99, removed “harsher” wording of certain parts, as well as other various modernizations.
+Most notably the increase of the number of lines to 99, removed "harsher" wording of certain parts, as well as other various modernizations.
 
 - [RuPy 2013](http://13.rupy.eu/) (rupy.eu)
 RuPy is a unique conference that brings together communities from different state-of-the-art programming languages Python, Ruby, JavaScript, Clojure, Go and related technologies.

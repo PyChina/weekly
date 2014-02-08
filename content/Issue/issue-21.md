@@ -34,9 +34,9 @@ Postmates 是我们的第一个赞助商,
     K1P 7A2
 
 
-RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到。
+RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到. 
 
-[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女（少年）。 (◕‿‿◕)
+[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女(少年).  (◕‿‿◕)
 
 --
 [Mahdi](https://twitter.com/#!/myusuf3) and [Mike](https://twitter.com/#!/mgrouchy)
@@ -49,7 +49,7 @@ RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly
 
 - [Octogit 0.3.2 Released](https://github.com/myusuf3/octogit) (github.com)
 
-Octogit is a really great project by Pycoder’s very own Mahdi. It allows you to interact with Github from the command line. This release boasts speed improvements and tons of bug fixes. Definitely worth a look for you CLI junkies.
+Octogit is a really great project by Pycoder's very own Mahdi. It allows you to interact with Github from the command line. This release boasts speed improvements and tons of bug fixes. Definitely worth a look for you CLI junkies.
 
 - [iPython 0.13 Released](http://ipython.org/ipython-doc/rel-0.13/whatsnew/version0.13.html) (ipython.org)
 
@@ -87,7 +87,7 @@ Firstclass is a proxy email backend for Django that allows for global email tran
 
 - [Medusa](https://github.com/mtigas/django-medusa) (github.com)
 
-Have you ever needed to generate a static site from an already existing dynamic one. Well either way  you now can with Medusa. This will create static content that will mirror the dynamic site’s output. Boom.
+Have you ever needed to generate a static site from an already existing dynamic one. Well either way  you now can with Medusa. This will create static content that will mirror the dynamic site's output. Boom.
 
 
 - [Django Ahoy!](http://www.django-ahoy.com/) (django-ahoy.com/)
@@ -99,14 +99,14 @@ Have you ever needed to generate a static site from an already existing dynamic 
 
 There has been a lot of ranting lately about PHP, core Django develolper Luke Plant chimes in and addresses some points that come up in PHP rants often with the slant of a Python developer.
 
-- [Python 3’s Marketing Problem](http://teddziuba.com/post/26426290981/python-3s-marketing-problem) (teddziuba.com)
+- [Python 3's Marketing Problem](http://teddziuba.com/post/26426290981/python-3s-marketing-problem) (teddziuba.com)
 
 This article hits the nail on the head. Python3 adoption to say the least has been stagnant Ted outlines the reasons why and maybe even a way to combat the issue with the infamous GIL.
 
 
 - [EuroPython 2012 Video Feed](http://www.youtube.com/user/PythonItalia/feed) (youtube.com)
 
-Couldn’t be at EuroPython 2012? Well here is your opportunity to see all the recorded talks. Click the link to check out the video feed.
+Couldn't be at EuroPython 2012? Well here is your opportunity to see all the recorded talks. Click the link to check out the video feed.
 
 
 - [Automatic routing for RESTful webpy controllers](http://www.codesuck.com/2012/07/automatic-routing-for-restful-webpy.html) (codesuck.com)

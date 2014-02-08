@@ -29,9 +29,9 @@ Postmates 是我们的第一个赞助商,
     K1P 7A2
 
 
-RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到。
+RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到. 
 
-[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女（少年）。 (◕‿‿◕)
+[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女(少年).  (◕‿‿◕)
 
 --
 [Mahdi](https://twitter.com/#!/myusuf3) and [Mike](https://twitter.com/#!/mgrouchy)
@@ -51,7 +51,7 @@ This is a great idea. During the month of July, the crowd at Julython are trying
 
 - [Lets get louder](http://letsgetlouder.com/) (letsgetlouder.com)
 
-This is a really great initiative and the pledge says it all “As a member of the Python community, we pledge only to attend, speak at, assist, sponsor, or otherwise participate in conferences that publicly promote an anti-harassment and anti-discrimination code of conduct policy.”
+This is a really great initiative and the pledge says it all "As a member of the Python community, we pledge only to attend, speak at, assist, sponsor, or otherwise participate in conferences that publicly promote an anti-harassment and anti-discrimination code of conduct policy."
 
 
 
@@ -116,11 +116,11 @@ This article clearly explains some of the problems you can encounter when workin
 - <a href="http://jezng.com/2012/06/inside-python-tee/">Inside Python's itertools.tee()</a>
  (jezng.com)
 
-We love articles like this. Often the Python documentation isn’t it enough, it’s awesome to see developers go really deep into the implementation of something, or how a particular language feature works. That is the case here with the this great breakdown of itertools.tee(), check it out.
+We love articles like this. Often the Python documentation isn't it enough, it's awesome to see developers go really deep into the implementation of something, or how a particular language feature works. That is the case here with the this great breakdown of itertools.tee(), check it out.
 
 - [Communicating with RESTful APIs in Python](http://isbullsh.it/2012/06/Rest-api-in-python/) (isbullsh.it)
 
-This is a great breakdown of communicating with RESTful API’s in Python, the author uses the Github API as an example and shows how to work with it using urllib/urllib2, httplib2 and Python-requests.
+This is a great breakdown of communicating with RESTful API's in Python, the author uses the Github API as an example and shows how to work with it using urllib/urllib2, httplib2 and Python-requests.
 
 - [WGSI Web Servers Bench](http://blog.ziade.org/2012/06/28/wgsi-web-servers-bench/) (ziade.org)
 

@@ -33,13 +33,13 @@ Another little gem from
 We have been waiting for this day and it has arrived, Django has moved to Github. Trac is still in use and will be continue to be the bug reporting system, but now you can independently use Github for submitting pull requests and reviewing code.
 
 - [BigML announces Python bindings for its REST API](http://blog.bigml.com/2012/05/04/machine-learning-in-python-has-never-been-easier/)(bigml.com)
-BigML dubs itself as machine learning for everyone. If you are already are a BigML user(it’s currently invite only), or just interested in what BigML can do for you, this might be worth taking a look at.
+BigML dubs itself as machine learning for everyone. If you are already are a BigML user(it's currently invite only), or just interested in what BigML can do for you, this might be worth taking a look at.
 
 
 
 ## 讨论
 - [Lambda Use Cases](http://www.reddit.com/r/Python/comments/swmuj/let_me_know_the_use_cases_for_lambda_in_python/) (reddit.com)
-Lambdas in python are a function building tool, often times a developer is at a loss for when you should use them. This discussion focuses on when it’s appropriate to use lambdas and what the common use cases are for them in your Python code.
+Lambdas in python are a function building tool, often times a developer is at a loss for when you should use them. This discussion focuses on when it's appropriate to use lambdas and what the common use cases are for them in your Python code.
 
 
 
@@ -52,7 +52,7 @@ Cool little project that lets you manage your new Google Drive account through t
 This project is really great. Ghost.py is a webkit client written in Python. If you need to fetch any data from a web site or manipulate a site from the command line, Ghost.py is a pretty simple way to accomplish most tasks like opening a page, executing javascript, filling out and submitting forms, etc.
 
 - [Arduino SMS Alarm](https://github.com/mattwilliamson/arduino-sms-alarm) (github.com)
-If you are into hacking around with hardware or arduino’s you will probably like this.  arduino-sms-alarm is an 
+If you are into hacking around with hardware or arduino's you will probably like this.  arduino-sms-alarm is an 
 [Arduino](http://www.arduino.cc/)
  based burglar alarm that sends an SMS when motion is detected. It then repeats the SMS after a configurable amount of time.
 
@@ -76,7 +76,7 @@ in a previous issue. He has now written a follow up of the things you should be 
 Interested in Machine Learning? So is the author of this post. He is reading the book, Machine Learning For Hackers and  has decided to write a series of blog posts on the chapters with both an explanation of what the chapters are and porting the code within from R to Python. Pretty cool idea and we are definitely interested to see further posts in this series.
 
 - [Where modules go to die.](http://www.leancrew.com/all-this/2012/04/where-modules-go-to-die/) (leancrew.com)
-This is an interesting article, the basic premise is that the Python standard library is where modules go to die. We don’t want to get too much into the discussion in the article, but it certainly raises some interesting points, give it a read and let us know what you think on twitter.
+This is an interesting article, the basic premise is that the Python standard library is where modules go to die. We don't want to get too much into the discussion in the article, but it certainly raises some interesting points, give it a read and let us know what you think on twitter.
 
 - [Using Travis-CI With Python and Django](http://justcramer.com/2012/05/03/using-travis-ci/)
 [David Cramer](http://twitter.com/zeeg)
@@ -84,7 +84,7 @@ at
 [disqus](http://disqus.com/)
  has written a very good but short tutorial about getting your Python/Django project up and running with 
  [Travis-CI](http://travis-ci.org/)
-  the “hosted continuous integration service for the open source community.” Check it out.
+  the "hosted continuous integration service for the open source community." Check it out.
 
 
 

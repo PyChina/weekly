@@ -5,7 +5,7 @@ Slug: issue-97
 
 ## Hi Pythonistas!
 
-This issue will be the last issue of 2013, we won’t be sending an issue out next week. Our next issue will be going out on January 3, 2014 and we are looking forward to kicking off the new year right!
+This issue will be the last issue of 2013, we won't be sending an issue out next week. Our next issue will be going out on January 3, 2014 and we are looking forward to kicking off the new year right!
  
 
 If you are celebrating this holiday season, have fun and stay safe! Enjoy!
@@ -29,7 +29,7 @@ As always, if you have any questions, comments, gripes or suggestions just hit r
 
 - [PyCon 2014 Talks, Tutorials, and Poster selections announced!](http://pycon.blogspot.ca/2013/12/talks-tutorials-and-poster-selections.html) (blogspot.ca)
 
-If you haven’t already picked up your PyCon 2014 ticket, check out the speaker lineup for the coming conference and get your ticket!
+If you haven't already picked up your PyCon 2014 ticket, check out the speaker lineup for the coming conference and get your ticket!
  
 
 - [Django Debug Toolbar 1.0 Beta is out](https://groups.google.com/forum/#!msg/django-users/NE8WgZjgx7o/uGc2AuseHRkJ) (google.com)
@@ -106,7 +106,7 @@ Django 1.6 is the latest and greatest in the Django world. If you are experience
 
 RESTing securely (silvrback.com)
 
-If you are writing a REST API in Django you probably want to give this post a look. The author outlines some do’s and don'ts as well as how to achieve common patterns in your REST API with Django-Tastypie.
+If you are writing a REST API in Django you probably want to give this post a look. The author outlines some do's and don'ts as well as how to achieve common patterns in your REST API with Django-Tastypie.
  
 
 A D3 Viewer For Matplotlib Visualizations (github.io)

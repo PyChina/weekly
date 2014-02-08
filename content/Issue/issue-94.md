@@ -134,7 +134,7 @@ How do you find the index of a set bit in a Python integer? It seems like the ob
 
 - [Python Yields are Fun!](http://pydanny.com/python-yields-are-fun.html)! (pydanny.com)
 
-In this post the author gives you a nice explanation with examples of how to solve common problems using Python’s `yield` statement.
+In this post the author gives you a nice explanation with examples of how to solve common problems using Python's `yield` statement.
 
  
 

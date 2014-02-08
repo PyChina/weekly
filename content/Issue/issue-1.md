@@ -10,7 +10,7 @@ Slug: issue-1
 当前我们只有几个毛人在进行收集以及发送工作.
 不过,大家这么给力,我们一定为大家作好这事儿!
 
-希望你喜欢这儿！
+希望你喜欢这儿!
 
 --
 [Mahdi](https://twitter.com/#!/myusuf3) and [Mike](https://twitter.com/#!/mgrouchy)
@@ -73,7 +73,7 @@ PyPy 的小伙伴们没有升级的要赶紧了!
 ## 项目
 
 - [Django-JHouston](https://github.com/pennersr/django-jhouston)
-“休斯敦，我们有一个Javascript的问题！”
+"休斯敦,我们有一个Javascript的问题!"
 这个项目能将浏览器中的JS 错误抓到数据库中,支持调试以及日志.
 这对以往测试过程中难以追踪的JS 错误将非常有帮助.
 [@pennersr](https://twitter.com/#!/pennersr)

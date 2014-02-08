@@ -48,7 +48,7 @@ Slug: issue-top2013
 - [python_koans](https://github.com/gregmalcolm/python_koans) (github.com)
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
-Python Koans 算 “Ruby Koans” 的一部分,
+Python Koans 算 "Ruby Koans" 的一部分,
 作为交互式教程,
 学习
 [TDD](http://en.wikipedia.org/wiki/Test-driven_development) 

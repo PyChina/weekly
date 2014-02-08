@@ -27,9 +27,9 @@ Postmates 是我们的第一个赞助商,
     K1P 7A2
 
 
-RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到。
+RSS 订阅和存档可以在 [这里](http://feeds.feedburner.com/pycodersweekly) 和 [这里](http://pycoders.com/archive.html) 找到. 
 
-[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女（少年）。 (◕‿‿◕)
+[戳这里](https://twitter.com/#!/pycoders) 和我们签订契约成为魔法少女(少年).  (◕‿‿◕)
 
 --
 [Mahdi](https://twitter.com/#!/myusuf3) and [Mike](https://twitter.com/#!/mgrouchy)
@@ -48,17 +48,17 @@ It's that time again folks. Your moment of glory. The time to show what you are 
 
 
 - [A Django Podcast - Class Vs. Function based views](http://3rdaverad.io/shows/django-podcast/episodes/class-vs-function-based-views/) (3rdaverad.io)
-The last couple of weeks in the newsletter and around the internet class-based views in Django have been a popular and divisive topic. In the latest episode of “A Django Podcast” the hosts have an in depth discussion on class vs. function based views.
+The last couple of weeks in the newsletter and around the internet class-based views in Django have been a popular and divisive topic. In the latest episode of "A Django Podcast" the hosts have an in depth discussion on class vs. function based views.
 
 - [DjangoCon Europe 2012 Videos](http://klewel.com/conferences/djangocon-2012/) (kelwel.com)
-So you missed getting your tickets to DjangoCon Europe? Too busy to watch the live streams? Don’t worry DjangoCon Europe have uploaded all the videos in record time. Much to be learned there.
+So you missed getting your tickets to DjangoCon Europe? Too busy to watch the live streams? Don't worry DjangoCon Europe have uploaded all the videos in record time. Much to be learned there.
 
 
 
 ## 讨论
 
 - [Python shortfalls](http://www.reddit.com/r/Python/comments/urbo0/pythons_shortfalls/) (reddit.com)
-Apparently people have lots of opinions when it comes to Python’s shortcomings. Check it out!
+Apparently people have lots of opinions when it comes to Python's shortcomings. Check it out!
 
 
 ## 项目
@@ -70,21 +70,21 @@ Its Dangerous is really cool. It allows you to send cryptographically signed dat
 Lets be honest, you are probably playing Diablo III instead of coding some Python right now. If you are, you should try out PyDiabloMeter. PyDiabloMeter Counts mouse clicks and four keyboard keys (action keys) in your Diablo III window.
 
 - [Mockstar](http://mockstar.readthedocs.org/en/latest/) (readthedocs.org)
-Mockstar is a bunch of small enhances on top of Mock library that can give you a lot of mocking and unit-testing goods. It’s still in development but I would keep a serious eye out. 
+Mockstar is a bunch of small enhances on top of Mock library that can give you a lot of mocking and unit-testing goods. It's still in development but I would keep a serious eye out. 
 
 
 
 ## 文章
 
 - [Schema-less in Django with Postgres](http://craigkerstiens.com/2012/06/14/schemaless-django/)
-Great article on Postgres’s hstore which allows you to use the RDMS for schemaless data storage. Two birds, one stone.
+Great article on Postgres's hstore which allows you to use the RDMS for schemaless data storage. Two birds, one stone.
 
 - [Exploring Python using GDB](https://stripe.com/blog/exploring-python-using-gdb) (stripe.com)
 Python, awesome. GDB, awesome. Python and GDB together, really awesome! This is a fantastic article that demonstrates how to debug and modify Python code for testing purposes using GDB. The author puts together a example scenario of how to go about debugging a problem with a Django application with GDB and details the process step by step.
 
 - [Under the hood of Python class definitions](http://eli.thegreenplace.net/2012/06/15/under-the-hood-of-python-class-definitions/) (thegreenplace.net)
 
-Much kudos to Eli Bendersky, if he writes a blog post it almost automatically ends up on here because of its quality. In his latest article, Eli gives a “fast-paced” but thorough walkthrough of the internals of defining new classes. Check it out.
+Much kudos to Eli Bendersky, if he writes a blog post it almost automatically ends up on here because of its quality. In his latest article, Eli gives a "fast-paced" but thorough walkthrough of the internals of defining new classes. Check it out.
 
 - [Else Clauses on Loop Statements](http://ncoghlan_devs-python-notes.readthedocs.org/en/latest/python_concepts/break_else.html) (readthedocs.org)
 
@@ -94,7 +94,7 @@ Take a look at these notes on else clauses on Loop statements. If you aren't alr
 
 - [PyLint: Analyzing Python Code](http://www.blog.pythonlibrary.org/2012/06/12/pylint-analyzing-python-code/) (pythonlibrary.org)
 
-Linters are very important for keeping the quality of your code high and catching bugs. If you don’t use Pylint or something similar then you should likely take a look at this post.
+Linters are very important for keeping the quality of your code high and catching bugs. If you don't use Pylint or something similar then you should likely take a look at this post.
 
 <a href="http://agiliq.com/blog/2012/06/__new__-python/">__new__() in python</a>
  (agiliq.com)
@@ -110,7 +110,7 @@ This article is particularly interesting when it comes to just cool little hacks
 
 If you use 
 [Celery](http://celeryproject.org/)
-to perform background tasks using Django Models then you want to check this post out. The author examines Celery’s behavior when pickling and offers some great solutions to common problems like dealing with large serialization sizes and lazy-loading objects when they are deserialized. Awesome.
+to perform background tasks using Django Models then you want to check this post out. The author examines Celery's behavior when pickling and offers some great solutions to common problems like dealing with large serialization sizes and lazy-loading objects when they are deserialized. Awesome.
 
 # 是也乎
 

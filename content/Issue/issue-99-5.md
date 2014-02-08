@@ -144,7 +144,7 @@ pyflakes 的分支,
 替代.
 
 (`译注:` waitress 竟然是 pylons 的子项目
-也已经有一定人望,Bootle 都内置了支持参考: [What WSGI servers you use?： Python](http://www.reddit.com/r/Python/comments/16tm4e/what_wsgi_servers_you_use/)
+也已经有一定人望,Bootle 都内置了支持参考: [What WSGI servers you use?: Python](http://www.reddit.com/r/Python/comments/16tm4e/what_wsgi_servers_you_use/)
 也是从 Zope3 的灰烬自救出来的好物哪,,,
 !-)
 

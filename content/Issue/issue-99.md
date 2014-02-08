@@ -169,7 +169,7 @@ Python 的 `multiprocessing.Pool` 类及其 map 函式,
 
 - [为毛有那么多Python?](http://www.toptal.com/python/why-are-there-so-many-pythons) (toptal.com)
 
-Answers to the question “Is Python interpreted or compiled?” and information about different Python implementations contained in this post. 
+Answers to the question "Is Python interpreted or compiled?" and information about different Python implementations contained in this post. 
 
 试图回答这一命题:
 "Python 究竟算解释性还是编译性的?"

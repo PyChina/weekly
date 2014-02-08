@@ -44,7 +44,7 @@ This is great news. Optional lightweight virtualenvs coming builtin and targeted
 ## 讨论
 
 - [Mistakes and stylistic faux-pas?](http://www.reddit.com/r/Python/comments/twg56/3rd_degree_black_belts_in_python_what_are_the/) (reddit.com)
-This is a great post on common mistakes people make when writing Python as well as stylistic faux-pas. Do you do any of the things mentioned in this discussion? Maybe it's time to take a look at that old code you wrote and spruce it up, and as always don’t forget to take a look at 
+This is a great post on common mistakes people make when writing Python as well as stylistic faux-pas. Do you do any of the things mentioned in this discussion? Maybe it's time to take a look at that old code you wrote and spruce it up, and as always don't forget to take a look at 
 [PEP 8](http://www.python.org/dev/peps/pep-0008/).
 
 - [Implicit Namespace Packages](http://www.reddit.com/r/Python/comments/u3cf1/pep_420_is_accepted_and_init_py_wont_be_required/) (reddit.com)
@@ -61,13 +61,13 @@ which specifies the that __init__.py will not be required in future versions of 
  as he/she has no way to decrypt it. Seeing as many pastebin sites have been under fire for moderation this is quite awesome.
 
 - [libsaas](https://github.com/ducksboard/libsaas) (github.com)
-libsaas is an API library for SaaS API’s. It gives you an abstraction layer on top of existing SaaS API’s. It will perform all the hard work of dealing with these external API’s and  let you focus on the things that matter. Check it out.
+libsaas is an API library for SaaS API's. It gives you an abstraction layer on top of existing SaaS API's. It will perform all the hard work of dealing with these external API's and  let you focus on the things that matter. Check it out.
 
 - [gmvault](https://github.com/gaubert/gmvault) (github.com)
 Gmvault is a tool for backing up your gmail account and never lose email correspondence. Cross platform, with cool functionality like email restore.
 
 - [Stallion](http://perone.github.com/stallion/) (github.com)
-This is pretty cool, from the site “Stallion is a Python Package Manager interface created to provide an "easy-to-use" visual interface for Python newcomers”. The interface to Stallion is nice, it is easy to setup and provides a very nice visual interface for navigating python packages.
+This is pretty cool, from the site "Stallion is a Python Package Manager interface created to provide an "easy-to-use" visual interface for Python newcomers". The interface to Stallion is nice, it is easy to setup and provides a very nice visual interface for navigating python packages.
 
 
 ## 文章

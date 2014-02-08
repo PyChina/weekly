@@ -57,7 +57,7 @@ Sublime Text 3 输入模块的 vim 增强,
 (vimrc, plugins, 等等)
 让你在  subl 中继续享受 Vim.
 
-`译注: 妖孽！`
+`译注: 妖孽!`
  
 
 - [curdling](http://pycoders.us4.list-manage.com/track/click?u=9735795484d2e4c204da82a29&id=23e617f288&e=889f3f6a05) (github.com)

@@ -154,7 +154,7 @@ Mocking is a useful strategy when writing tests. In this post the author gives y
 
 (`译注:` [微博](http://weibo.com/2144891611/ArgsRC0qd)
 [@骆逸](http://weibo.com/royshan):
- Facebook没有随大流，在仔细研究后发现Mercurial的可扩展性更好，在使用后不断改进而且共享给开源社区。我等这些搭顺风车的，理当大赞一下！
+ Facebook没有随大流,在仔细研究后发现Mercurial的可扩展性更好,在使用后不断改进而且共享给开源社区. 我等这些搭顺风车的,理当大赞一下!
 )
 
 - [用Explicit管理事件的 Time Zones](http://www.caktusgroup.com/blog/2014/01/09/managing-events-explicit-time-zones/) (caktusgroup.com)

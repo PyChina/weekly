@@ -106,7 +106,7 @@ CSS能工作,
 
 - [PyV8 Packaged for OSX](https://github.com/brokenseal/PyV8-OS-X)
 PyV8 是对 Google 
-[V8引擎]（http://code.google.com/apis/v8/）
+[V8引擎](http://code.google.com/apis/v8/)
 的一个Python 包装!
 在 JavaScript 以及 Python 对象之间打通了桥梁.
 如果你在 MAC 环境中,赶紧体验一下吧!
