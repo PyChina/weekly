@@ -27,7 +27,7 @@ Slug: issue-101
 1.6版本最新的修正版本发布,1.7阿尔法版本也发布了!点击查看,任何问题,联系Django团队. 
 
 djangoproject.com
-由 [@@mgrouchy](http://twitter.com/mgrouchy) 分享
+由 [@mgrouchy](http://twitter.com/mgrouchy) 分享
  
 
 - [Django Compressor需要帮助](https://jezdez.com/2014/01/29/django-compressor-help/)

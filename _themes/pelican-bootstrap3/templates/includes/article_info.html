@@ -1,5 +1,7 @@
 <footer class="post-info">
+<!--
     <span class="label label-default">Date</span>
+-->
     <span class="published">
         <i class="icon-calendar"></i>{{ article.locale_date }}
     </span>
@@ -8,8 +10,7 @@
 
     {% if article.author %}
     <span class="label">By</span>
-    <i class="icon-user"></i>
-    <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
+    <i class="icon-user"></i><a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
     {% endif %}
 
     {# Uncomment if you want to show Categories#}
