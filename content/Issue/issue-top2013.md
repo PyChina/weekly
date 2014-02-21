@@ -524,8 +524,8 @@ Sovereign 是一系列
 ![<3](https://lh6.googleusercontent.com/3C_maRgJSN4L8CJv9k6CHcNpTGQANwYY_9QpAx5uJBoefG9jlrw3ERDPC1yKKkPiOUwuAu04EXfH7G-q9mQPufvxkmq7Yx2dDAasfFgIl2H2VH7LpXQjSPxt-g)
 
 (shipyard,船坞)
-名很倩的web 应用,能在指定的机器上弹出你的 泊窗实例.
-也支持你创建/删除 等等对 泊窗的远程控制.
+名很倩的web 应用,可以显示给定机器上的docker实例.
+也支持创建、删除等操作.
 
 - [docker-py](https://github.com/dotcloud/docker-py) (github.com)
 
