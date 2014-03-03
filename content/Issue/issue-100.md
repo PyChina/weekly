@@ -68,7 +68,7 @@ reddit.com
 [@myusuf3](http://twitter.com/myusuf3)
 分享
 
-(`译注:` 果断是  Flash+Django 的大PK, 居然 web2py 也乱入了,,,
+(`译注:` 果断是  Flask+Django 的大PK, 居然 web2py 也乱入了,,,
 可惜没有 UliWeb 以及 Bottle 的推荐. )
 
 
