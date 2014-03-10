@@ -811,7 +811,7 @@ fuqit 试图令你忘记 MVC 的经验,
 
 基于靠谱的
 [pydanny](http://twitter.com/pydanny)
-将你的 新结构化文本 转换为 JSON 格式.
+将你的 ReStructuredText 转换为 JSON 格式.
 
  
 
@@ -882,7 +882,7 @@ WSGI 支持, 和一个简单的web 框架.
 
 Pipeless 
 是一个构建简单
-[数据管道](http://en.wikipedia.org/wiki/Pipeline_(software)).
+[数据管道](http://en.wikipedia.org/wiki/Pipeline_(software))
 的框架.
  
 
