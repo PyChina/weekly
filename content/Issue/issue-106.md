@@ -168,7 +168,7 @@ github.com
 
 
 可视化展现Python 代码的执行.
-![](http://www.pythontutor.com/opt-v3-cs61a-embed.png)
+![opt-v3-cs61a-embed.png](http://www.pythontutor.com/opt-v3-cs61a-embed.png)
 
 pythontutor.com
 
@@ -233,7 +233,8 @@ emptysqua.re
 
 # 是也乎
 
-- 14031? [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
+- 140317 [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
+    - 16号坐高鉄来帝都服雾,没有网络,只能今天下班后折腾.
 - 140315 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
 
  
