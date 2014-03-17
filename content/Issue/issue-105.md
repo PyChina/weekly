@@ -1,7 +1,7 @@
 Title: Issue 105: Fancy
 Date: 2014-03-10 19:23
 Tags: Weekly,Pycoder,Zh 
-Slug: issue-104
+Slug: issue-105
 
 ![04_20AM9789bf](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)
 
