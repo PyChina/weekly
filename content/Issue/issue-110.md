@@ -140,14 +140,15 @@ Shared by @myusuf3
 
 - [PyJVM](http://pyjvm.org/)
 
-又一个在 JAVA 虚拟机中实现的 Python.
+用Python实现的JVM，不是JVM上的Python!
 
 pyjvm.org
 
 Shared by @myusuf3
  
 
-(`译注:` 嗯嗯嗯? 为什么说又?)
+(`译注:` 嗯嗯嗯? 我大JAVA 党没有什么说的嘛? 感觉这个世界有什么不对了似的...
+感谢 Justin Wong 的指正)
 
 - [vim-multiuser](https://github.com/emgram769/vim-multiuser)
 
@@ -233,7 +234,7 @@ github.io
 Shared by @tw_lgiordani
  
 
-- [对Python 输入副作用说不!](http://chrismorgan.info/blog/say-no-to-import-side-effects-in-python.html)
+- [对Python 导入副作用说不!](http://chrismorgan.info/blog/say-no-to-import-side-effects-in-python.html)
 
 虽然有点标题党,但是内容绝对靠谱.
 
