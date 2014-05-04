@@ -77,7 +77,7 @@ DISPLAY_CATEGORIES_ON_MENU = None      # 分类标签是否显示在导航
 ADDTHIS_PROFILE = None #True
     
 #GITHUB_USER = "ZoomQuiet"
-MENUITEMS = (('Zoom.Quiet', 'http://zoomquiet.org')
+MENUITEMS = (('Zoom.Quiet', 'http://zoomquiet.io')
         ,('PyChina', 'http://pychina.org')
         )
 

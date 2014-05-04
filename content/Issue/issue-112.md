@@ -121,7 +121,7 @@ github.com
 
 Shared by @mgrouchy
 
-![](https://raw.githubusercontent.com/mangecoeur/ipython-desktop/master/assets/Screenshot1.png)
+![Screenshot1.png](https://raw.githubusercontent.com/mangecoeur/ipython-desktop/master/assets/Screenshot1.png)
 
 (`译注:`当然的是 MAC 的桌面绑定.) 
 
