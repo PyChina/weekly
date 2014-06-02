@@ -1,6 +1,6 @@
 Title: Issue 116: 逆转未来
-Slug: issue-115
-Date: 2014-05-20 22:22
+Slug: issue-116
+Date: 2014-05-26 16:22
 Tags: Weekly,Pycoder,Zh 
 
 ![04_20AM9789bf](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)
@@ -35,6 +35,8 @@ python.org
 
 Shared by @mgrouchy
  
+
+(`译注:`知道为毛这一模块没有广告嘛? 答案见尾部 `DAMA`)
 
 - [PyGotham 2014 话题已开放注册](http://pygotham.org/talks/call-for-proposals)
 
@@ -85,7 +87,7 @@ Shared by @myusuf3
 很COOL 的艺术小项目,
 基于 quadtrees, 能对图像进行处理,生成逐步浮现效果的动画.
 
-![](https://camo.githubusercontent.com/aeb2b4e363b2b6b88768e82521e70de409c866ed/687474703a2f2f692e696d6775722e636f6d2f6c33737630496e2e676966)
+![687474703a2f2f692e696d6775722e636f6d2f6c33737630496e2e676966](https://camo.githubusercontent.com/aeb2b4e363b2b6b88768e82521e70de409c866ed/687474703a2f2f692e696d6775722e636f6d2f6c33737630496e2e676966)
 
 github.com
 
@@ -113,7 +115,7 @@ Shared by @mgrouchy
 
 (`译注:` 大妈算是发现了,凡是有5个以上语言版本实现的库都是刚需问题,
 这货 有9 种语言的实现!
-![](https://github.com/asciimoo/drawille/raw/master/docs/images/xkcd.png)
+![xkcd](https://github.com/asciimoo/drawille/raw/master/docs/images/xkcd.png)
 )
 
 ## 文章
@@ -220,7 +222,7 @@ Chin Up 是一简洁的个人动机追踪服务,
 给予固定的维度,来进行自我评估,追踪记录.
 一种注意力管理工具.
 
-![](https://github.com/ckcollab/chin-up/raw/master/docs/img/screenshots/input.png)
+![input](https://github.com/ckcollab/chin-up/raw/master/docs/img/screenshots/input.png)
 
 github.com
 
@@ -229,12 +231,37 @@ Shared by @ckcollab
 
 
 ## DAMA
-(`大妈私人发现的值得分享的消息`)
+(`大妈私人无责任播报`)
+
+因为 `$ click_` 的官方网站是: http://click.pocoo.org/
+
+### pocoo 出品必属佳品
+
+这已经是Python 世界的行规了!
+
+Pocoo 念作: `/ˈpokʉː/`
+
+- [团队](http://www.pocoo.org/team/#team)只有6人
+- 但是创造的所有作品都是应用极广泛的佳作!
+    - [Flask](http://www.pocoo.org/projects/flask/#flask)
+    - [Jinja 2](http://www.pocoo.org/projects/jinja2/#jinja2)
+    - [Pygments](http://www.pocoo.org/projects/pygments/#pygments)
+    - [Sphinx](http://www.pocoo.org/projects/sphinx/#sphinx)
+    - [Werkzeug](http://www.pocoo.org/projects/werkzeug/#werkzeug)
+    - [等等...](http://www.pocoo.org/projects/#project-hub)
+    - 完全是一个现象级的小团队
+- 最新作品就是 
+
+![click.png（PNG 图像，420x175 像素）](http://click.pocoo.org/_static/click.png)
+
+
+
+
 
 
 # 是也乎
 
-- 14052? [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
+- 140526 [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
 - 140526 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
 
  

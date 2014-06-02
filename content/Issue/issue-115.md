@@ -212,7 +212,7 @@ Shared by @mgrouchy
 
 基于 Django 的论坛软件,详细效果看截屏:
 
-![](http://spirit-project.com/preview.png)
+![preview](http://spirit-project.com/preview.png)
 
 github.com
 

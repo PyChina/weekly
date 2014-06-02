@@ -214,7 +214,7 @@ Shared by @mgrouchy
 
 (`译注:`目测多数都是 OOP 编程相关的.)
 
-![](http://www.toptal.com/python/top-10-mistakes-that-python-programmers-make)
+![top-10-mistakes-that-python-programmers-make](http://www.toptal.com/python/top-10-mistakes-that-python-programmers-make)
 
 
 - [Python Partials(偏函式) 很好玩儿!](http://pydanny.com/python-partials-are-fun.html)
@@ -227,7 +227,7 @@ pydanny.com
 
 Shared by @mgrouchy
  
-![](http://pydanny.com/static/partials.png)
+![partials](http://pydanny.com/static/partials.png)
 
 
 - [Twisted死了? 那是谣传!](https://glyph.twistedmatrix.com/2014/05/the-report-of-our-death.html)
