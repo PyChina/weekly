@@ -37,7 +37,7 @@ continuum.io
 Shared by @myusuf3
 
 ## 讨论
-[为毛为遍历字串比列表慢?](http://stackoverflow.com/questions/23861468/why-is-it-slower-to-iterate-over-a-small-string-than-a-small-list/23864108#23864108)
+[为毛遍历字串比列表慢?](http://stackoverflow.com/questions/23861468/why-is-it-slower-to-iterate-over-a-small-string-than-a-small-list/23864108#23864108)
 
 stackoverflow.com
 
@@ -132,7 +132,7 @@ Shared by @mgrouchy
 
 (`译注:` 从此创造自个儿的语言,也变成了 Py 脚本写作...
 ps: 作者Juancarlo Añez的头像是:
-![](https://secure.gravatar.com/avatar/51dcf0a6e20c2734423118e7eee9e45d?d=https%3A%2F%2Fd3oaxc4q5k2d6q.cloudfront.net%2Fm%2F9d3d19e361c2%2Fimg%2Fdefault_avatar%2F96%2Fuser_blue.png&s=96)
+![avatar](https://secure.gravatar.com/avatar/51dcf0a6e20c2734423118e7eee9e45d?d=https%3A%2F%2Fd3oaxc4q5k2d6q.cloudfront.net%2Fm%2F9d3d19e361c2%2Fimg%2Fdefault_avatar%2F96%2Fuser_blue.png&s=96)
 ) 
 
 - [onionshare](https://github.com/micahflee/onionshare)
