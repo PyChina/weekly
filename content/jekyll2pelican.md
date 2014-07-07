@@ -8,7 +8,8 @@ Author: Zoom.Quiet
 [TOC]
 
 # 如何从 Jekyll 转进入 Pelican
-简述静态网站从 Jekyll 环境中迁移为 纯 Python 的Pelican...
+简述静态网站从 Jekyll 环境中迁移为 纯 Python 
+[Pelican](http://getpelican.com/)...
 
 ![;](https://0.gravatar.com/avatar/0cb9d9d7e6b152d24d2b78c6464502a6?d=https%3A%2F%2Fidenticons.github.com%2Fc0b8694f59232c6681a92c4c9fec3e18.png&r=x&s=440)
 
@@ -19,6 +20,106 @@ Author: Zoom.Quiet
 总是感觉不够纯粹 Pythonic ...
 
 故而, 下决心完成迁移
+
+
+# 整体
+
+忽然发现,俺感觉很直觉的事儿,也写了文档,
+但是,其它人真正首次上手全然一头雾水...
+
+所以
+[学习学习再学习 - xiaolai](http://xiaolai.github.io/alpha/on-learning/)
+提出的,俺实在无法同意更多..
+
+![Impossible_staircase](http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg)
+
+这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
+用最直白的话来描述，就是：
+
+    初级的知识需要对高级知识深入了解才能真正深入了解
+
+——你看看这句话多拗口就多少有点概念了。
+
+所以,还是按照 easy 模式来,
+先简单的说,再往死里说折腾的技术细节...
+
+## 已知条件
+
+[User, Organization and Project Pages](https://help.github.com/articles/user-organization-and-project-pages)
+
+github 的 所谓 `pages` 服务的本质:
+
+- 云端的 Jekell 服务
+- 对约定的仓库,感知变化时,就尝试进行编译
+- 并自动完成发布(现在是到 github.io)
+
+这里的约定仓库,只有两种情况:
+
+1. 用户/组织: 
+    - 比如, 注册成的用户/组织 为 https://github.com/foo
+    - 则, github 尝试进行 `pages` 发布的仓库为:
+    - https://github.com/foo/foo.github.io
+    - 发布到:  https://foo.github.io
+1. 项目
+    - 任意一个项目仓库,比如, https://github.com/foo/foobar
+    - 则, githuba 支持自动对此仓库的 `gh-pages` 分支进行 `pages` 编译
+    - 而发布为: https://foo.github.io/foobar
+
+## Pelican行为
+
+[Pelican](http://getpelican.com/) 呢其实也只是
+Python 世界中大堆静态网站发布工具中的一个,
+为毛选中这个?
+只是因为 42分钟里,大妈将其折腾起来了,
+而且官方的文档/案例/样式,的确足够丰富,
+给人信心...
+
+而其本身对网站的约定非常简单:
+
+- 配置好 `pelicanconf.py`
+- 在 `content` 目录中写作
+- 一键命令编译完成静态网络的生成,组织到 `output`
+
+## 所以?方案!
+
+基于以上的整体理解, 就可以决策怎么基于 github 的 `pages` 服务,
+来进行免费的网站发布了;
+
+目测也就两招:
+
+1. 在用户/组织 的 `pages` 仓库中直接部署 Pelican 工程
+    - 只是要在根目录部署一个自动跳转到 `output` 子目录的 `index.html` 页面
+    - 以便发布后可以略过根目录来访问编译结果的内容
+    - 发布成 https://foo.github.io/output
+1. 用两个仓库, 将用户/组织 的 `pages` 仓库部署为 `output` 子目录
+    - 这样就能自动发布为 https://foo.github.io
+
+很明显,第二种逼格较髙,所以,就这样办了!
+
+## 宏观流程
+
+1. 首次建立本地撰写环境:
+    1. 安装好 [Pelican](http://getpelican.com/)
+    1. 分别clone 出两个仓库:
+        - qpython-android.pelican 
+        - qpython-android.github.io 
+    1. 先在 `qpython-android.pelican` 中测试确认好 pelical 工程可用,并尝试编译
+    1. 一切正确的话,将 `qpython-android.github.io` 复制覆盖为 `qpython-android.pelican/output`
+1. 以后,日常的维护就再也不需要 `qpython-android.github.io` 了!
+    1. 进入 `qpython-android.pelican/content` 创建/增补/修订 文章
+    1. 回到 `qpython-android.pelican` 执行 `fab build`
+    1. 本地到 `output` 打开对应页面检查效果
+    1. 还是在 `qpython-android.pelican` 执行 `fab pub2hub` 
+        - 完成对 `qpython-android.github.io` 仓库实际的 push 
+        - 即, 发布成网站: http://qpython-android.github.io
+    1. 最后,在 `qpython-android.pelican` 进行正常的 `git add->ci->pu`
+        - 对文章源文本完成到 `qpython-android.pelican` 仓库的提交
+
+收功!
+
+# 细节
+
+然后, 再分享俺的折腾过程...
 
 ## 过程
 整体上,其实就三步:
@@ -48,15 +149,17 @@ Author: Zoom.Quiet
 
 
     :::text
-    https://gitcafe.com/CPyUG/weekly
+    https://github.com/qpython-android/qpython-android.pelican.git
         +- ..
         +- pelicanconf.py   主配置文件
         +- content          内容目录  
         +- output           编译输出目录
-        |    `- https://gitcafe.com/CPyUG/CPyUG <-- 实际为用户同名仓库
-        |                                   `-- 先切换到 gitcafe-pages 分支
+        |    `- https://github.com/qpython-android/qpython-android.github.io.git 
+        |                          |
+        |                          \-- 即合法的
         +- .gitignore       配置忽略 output 目录
         +- ...
+
 
 
 这样一来,目录,就不用进入 `output` 目录进行 git 操作了
@@ -175,3 +278,8 @@ fixed!
 - [吐槽一下DISQUS的thread链接错误问题 | Ley's blog](http://blog.imley.net/2013/01/03/disqus-thread-url-issue/#content)
 - [Alex Raichev - Blog - Blohg to Pelican](http://raichev.net/blohg-to-pelican.html)
 
+## Changelog
+
+- 140127 ZoomQuiet 增补宏观理解
+- 140120 ZoomQuiet 复制到 QPython 的 Pelican 工程
+- 131219 ZoomQuiet 为 [CPyUG/weekly - GitCafe](https://gitcafe.com/CPyUG/weekly/blob/master/README.md) 创建

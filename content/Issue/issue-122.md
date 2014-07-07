@@ -1,5 +1,5 @@
 Title: Issue 122: 独立日
-Slug: issue-121
+Slug: issue-122
 Date: 2014-07-07 14:15
 Tags: Weekly,Pycoder,Zh 
 
