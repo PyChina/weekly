@@ -25,7 +25,7 @@ Tags: Weekly,Pycoder,Zh
 
 --
 
-原文: [Pycoder's Weekly (Issue #121): Wiggins](http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&id=5f3bbf9f0d&e=889f3f6a05)
+原文: [Pycoder's Weekly (Issue #122): Independence](http://eepurl.com/Yn2n5)
 
 
 ## 新闻
