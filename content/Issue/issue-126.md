@@ -318,8 +318,8 @@ Shared by @mgrouchy
 
 # 是也乎
 
-- 140728 [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
-- 140728 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
+- 140803 [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
+- 140803 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
 
     
  
