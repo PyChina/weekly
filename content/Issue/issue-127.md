@@ -90,9 +90,9 @@ pybee.org
 Shared by @mgrouchy
  
 (`译注:`终于在 Tk/Qt/Wx 之后有真正原生的Python GUI 库了.
-![](http://pybee.org/toga/static/images/toga-270.png)
+![toga](http://pybee.org/toga/static/images/toga-270.png)
 是 [BeeWare](http://pybee.org/)
-![](http://pybee.org/static/images/brutus-270.png)
+![brutus](http://pybee.org/static/images/brutus-270.png)
 的衍生品...
 )
 
