@@ -7,7 +7,7 @@ Tags: Weekly,Pycoder,Zh
 
 ##  搜罗Py万物 的周刊
 
-亲们,
+亲,
 
 这周Py社区又有很多好消息,值得关注.
 
@@ -244,7 +244,7 @@ Shared by @myusuf3
  
 
 (`译注:` WoW
-![](http://opensourcehacker.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-13-at-14.12.25.png)
+![Screen-Shot-2014-08-13-at-14.12.25](http://opensourcehacker.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-13-at-14.12.25.png)
 )
 
 
