@@ -51,112 +51,163 @@ Shared by @myusuf3
 但是,对于何时追加到主版本,并没有给出明确的承诺.)
 
 ## 讨论
-- [Best Python Tricks and One Liners](http://www.reddit.com/r/Python/comments/2e5wb7/best_python_tricks_and_oneliners/)
+- [最佳单行Python 技巧](http://www.reddit.com/r/Python/comments/2e5wb7/best_python_tricks_and_oneliners/)
 
 reddit.com
+
 Shared by @myusuf3
  
 
-- [The Python I Would Like To See](http://www.reddit.com/r/Python/comments/2dpwm1/the_python_i_would_like_to_see_by_armin_ronacher/)
+- [俺最希望在Py中看到的](http://www.reddit.com/r/Python/comments/2dpwm1/the_python_i_would_like_to_see_by_armin_ronacher/)
 
 reddit.com
+
 Shared by @mgrouchy
  
-
+(`译注:` 
+推荐参考4年前的
+[我想要的 python 特性 - 赖勇浩的编程私伙局 - 博客频道 - CSDN.NET](http://blog.csdn.net/gzlaiyonghao/article/details/6043605)
+)
 
 ## 项目
 
 - [thumbor](https://github.com/thumbor/thumbor)
 
-Very neat! Yeah I said neat! thumbor is a smart imaging service. It enables on-demand crop, resizing and flipping of images.
+齐整,是的,俺说的是非常齐整,
+thumbor是智能图像服务.
+提供了一整套按需裁剪/调整大小/翻转图像的功能.
+
 github.com
+
 Shared by @myusuf3
  
 
 - [Stellar](https://github.com/fastmonkeys/stellar)
 
-Fast database snapshots for development. It's like Git for databases.
+数据库快照!
+可以理解为 数据库的 git.
+
 github.com
+
 Shared by @versae
  
 
 - [Python-Sample-Application](https://github.com/uber/Python-Sample-Application)
 
-A sample Flask application designed to demonstrate Uber's new external rest API.
+Flask 应用的设计展示,
+以 Uber 最新API 来练的手儿.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [liaar](https://github.com/usablica/liaar)
 
-Create A Fake REST API In A Minute
+一分钟之内创建一个 REST 接口模拟.
+
 github.com
+
 Shared by @myusuf3
  
 
 - [Wox](https://github.com/qianlifeng/Wox)
 
-A quick launcher for Windows for all you windows users out there. Plugins in Python!
+那些可怜的 Windows 用户可用的快速启动坞.
+Python 作的插件!
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [pipsi](https://github.com/mitsuhiko/pipsi)
 
-A wrapper around virtualenv and pip which installs scripts provided by python packages into separate virtualenvs to shield them from your system and each other.
+
+对 virtualenv 和 pip 的包装,
+为你的应用系统快速建立受保护的 virtualenv+pip 环境.
+
 github.com
+
 Shared by @mgrouchy
  
 
-- [XSScrapy: fast, thorough XSS vulnerability spider](http://danmcinerney.org/xsscrapy-fast-thorough-xss-vulnerability-spider/)
+- [XSScrapy: 快速彻底的XSS漏洞爬虫](http://danmcinerney.org/xsscrapy-fast-thorough-xss-vulnerability-spider/)
 
-Great tool for detecting XSS vulnerabilities. Write up by author about success he has had with the tool and how to use it.
+
+伟大的工具!
+用以检测XSS漏洞.
+笔者描述了具体的如何使用的体验.
+
 danmcinerney.org
+
 Shared by @myusuf3
  
 
 - [virtualenv-api](https://github.com/sjkingo/virtualenv-api)
 
-A CLI api for dealing with virtualenv and PIP.
+通过 CLI 接口来处理 virtualenv 和 PIP.
+
 github.com
+
 Shared by @mgrouchy
   
 
 
 ## 文章
 
-- [Why Python 4.0 won't be like Python 3.0](http://www.curiousefficiency.org/posts/2014/08/python-4000.html)
+- [为毛 Python 4.0 不可能像 Python 3.0](http://www.curiousefficiency.org/posts/2014/08/python-4000.html)
 
-Nick Coghlan discusses the far future transition to Python 4.0, as well as touches on how it might not be exactly like the transition between Python 2.0 and 3.0
+Nick Coghlan 探讨在遥远的未来,
+Python 4.0 应该长什么样儿,
+以及为什么不应该象 Py2->3 这么折腾了.
+
 curiousefficiency.org
+
 Shared by @myusuf3
  
 
-- [TCP Packet Injection with Python](http://www.pythonforpentesting.com/2014/08/tcp-packet-injection-with-python.html)
+- [用Python 折腾TCP 包注入](http://www.pythonforpentesting.com/2014/08/tcp-packet-injection-with-python.html)
 
-Nice overview of how TCP packet injection works with python.
+对用Python 来折腾 TCP包注入的一个概览,
+
+
 pythonforpentesting.com
+
 Shared by @mgrouchy
  
 
-- [Python for Investigative Journalists: An introduction](http://hubsec.eu/blog/introduction-to-python.html)
+- [为调查记者的Python: 介绍](http://hubsec.eu/blog/introduction-to-python.html)
 
-First in a series of posts about how and why investigative journalists can use Python for their work.
+这是系列文章的首篇,
+介绍了 调查记者 可以用 Python 来帮助完成什么事儿.
+
+
 hubsec.eu
+
 Shared by @mgrouchy
  
 
-- [Making the case for Jython](http://www.machinalis.com/blog/making-the-case-for-jython/)
+- [Jython案例](http://www.machinalis.com/blog/making-the-case-for-jython/)
 
-What is Jython and why should you care about it? Those are the main questions that this post is trying to answer for you.
+
+什么是 Jython, 为毛你应该关注,
+此文回答了这几个主要问题.
+
 machinalis.com
+
 Shared by @mgrouchy
  
 
-- [Ensuring PEP 8 compliance using Git hooks](https://seanmckaybeck.com/2014/08/20/pep8-git-hooks/)
+- [用Git hooks完成PEP8 检验](https://seanmckaybeck.com/2014/08/20/pep8-git-hooks/)
 
-Some people view PEP8 as a suggestions, other people take them as firm rules. If you are in the second group this article is probably for you. The author shows how to use git hooks to ensure that your code is PEP8 compliant before you commit.
+很多人相信 PEP8 应该成为公司的开发规范,
+作者展示了如何利用 git hook 完成代码提交前确认是否吻合
+PEP8.
+
+
 seanmckaybeck.com
+
 Shared by @mgrouchy
  
 
