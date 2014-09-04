@@ -89,7 +89,7 @@ TRANSLATION_FEED_ATOM = None
 FEED_ALL_RSS = None
 CATEGORY_FEED_RSS= None
 
-SOCIAL = (('GitHub', 'https://gitcafe.com/CPyUG/weekly')
+SOCIAL = (('gitcafe', 'https://gitcafe.com/CPyUG/weekly')
         , ('rss', SITEURL + '/' + FEED_ALL_ATOM)
         , ('CPyUG', 'https://gitcafe.com/CPyUG')
         , ('Wiki', 'http://wiki.woodpecker.org.cn/moin/CPUG')
