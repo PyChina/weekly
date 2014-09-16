@@ -228,14 +228,20 @@ dlo.me
 
 Shared by @myusuf3
  
-- [Bypassing Python 沙箱](http://pbiernat.blogspot.ca/2014/09/bypassing-python-sandbox-by-abusing.html?m=1)
+- [突破 Python 限制](http://pbiernat.blogspot.ca/2014/09/bypassing-python-sandbox-by-abusing.html?m=1)
 
 很完备的文章,
-作者论及怎么整可以突破Python 实例沙箱的.
+作者论及怎么整可以突破Python `运行时限制` 的.
 
 blogspot.ca
 
 Shared by @myusuf3
+
+(`译注:`
+根据 @MatheMatrix 的建议修订 ,
+类似的文章以前也有过,属于邪派武功,大家了解就好...
+日常,还是尽量 built-in 吧...)
+
  
 - [Pyweek 19 / 动画](http://mauveweb.co.uk/posts/2014/09/animations.html)
 
@@ -254,7 +260,6 @@ Shared by @mgrouchy
  
 - [Python和你手机: 来说说Kivy](http://www.informit.com/articles/article.aspx?p=2170160)
 
-Interested in writing applications for your Phone in Python? This article gives you some information about Kivy and shows you a basic example application.
 想用Python 给你的手机写点应用?
 本文为提供了Kivy 的一些信息
 , 并显示了一个基本的示例应用程序.
