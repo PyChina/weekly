@@ -1,6 +1,6 @@
 Title: Issue 134: JSONB
 Slug: issue-134
-Date: 2014-09-28 24:15
+Date: 2014-09-28 23:15
 Tags: Weekly,Pycoder,Zh 
 
 ![04_20AM9789bf](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)

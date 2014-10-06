@@ -107,3 +107,10 @@ Slug: about
 
 - 140111 增补历史来由
 - 131218 base pelican build and through qiniu.com publish
+
+## 其实
+
+[CommonCommunicaTing -- 合众期刊 中文Py讯息简刊](http://wiki.woodpecker.org.cn/moin/CommonCommunicaTing) 早在 2007 年就提出了完全相同的电子刊物创意
+
+只是,在大妈折腾了两期后,
+然后,就没有然后了...
