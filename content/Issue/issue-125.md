@@ -71,7 +71,7 @@ Shared by @mgrouchy
 
 ## 项目
 
-－ [chain-python](https://github.com/myusuf3/chain-python)
+- [chain-python](https://github.com/myusuf3/chain-python)
 
 非官方chain的比特币接口Py封装SDK;
 如果你想为你的应用追加比特币交易功能,
@@ -82,7 +82,7 @@ github.com
 Shared by @mgrouchy
  
 
-－ [python-fields](https://github.com/ionelmc/python-fields)
+- [python-fields](https://github.com/ionelmc/python-fields)
 
 写容器类时,通常要折腾字段处理.
 这个模块提供了避免考虑这种事儿的方法.
@@ -92,7 +92,7 @@ github.com
 Shared by @ionelmc
  
 
-－ [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
+- [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
 
 又一个 Awesome 开头的收集列表,
 这次有关机器学习的一切!
@@ -102,7 +102,7 @@ github.com
 Shared by @myusuf3
  
 
-－ [dh-virtualenv](https://github.com/spotify/dh-virtualenv)
+- [dh-virtualenv](https://github.com/spotify/dh-virtualenv)
 
 有趣的想法.
 Dh-virtualenv 的目标是基于 virtualenv 的自给自足的 用Python 完成自动部署的
@@ -113,7 +113,7 @@ github.com
 Shared by @mgrouchy
  
 
-－ [opendig](https://github.com/opennamesystem/opendig)
+- [opendig](https://github.com/opennamesystem/opendig)
 
 对 Open Name System 进行兼容性挖掘的命令行工具.
 具体来说,增加了对 blockchain 用户句柄的支持.
@@ -123,7 +123,7 @@ github.com
 Shared by @mgrouchy
  
 
-－ [git-fat](https://github.com/jedbrown/git-fat)
+- [git-fat](https://github.com/jedbrown/git-fat)
 
 不用用git 提交,就能处理 fat 文件,
 支持用 rsync 进行同步.
@@ -133,7 +133,7 @@ github.com
 Shared by @myusuf3
  
 
-－ [behave](https://github.com/behave/behave)
+- [behave](https://github.com/behave/behave)
 
 行为驱动开发(BDD)
 是种敏捷开发方法,
@@ -145,7 +145,7 @@ Shared by @myusuf3
 
 (`译注:` 这是一个包含BDD 工作流的文档化测试框架) 
 
-－ [linkchecker](https://github.com/wummel/linkchecker)
+- [linkchecker](https://github.com/wummel/linkchecker)
 
 担心你网站的坏链?
 用这个就不用担心了.
@@ -175,7 +175,7 @@ github.com
 Shared by @mgrouchy
 
 ## 文章
-－ [Python中的方法装饰](http://agiliq.com/blog/2014/07/method-decorators-in-python/)
+- [Python中的方法装饰](http://agiliq.com/blog/2014/07/method-decorators-in-python/)
 
 
 装饰符可以说是 Python 世界最热门的话题.
@@ -186,7 +186,7 @@ agiliq.com
 Shared by @mgrouchy
  
 
-－ [如何忽略他人来用Python?](http://nothingbutsnark.svbtle.com/how-to-argue-for-pythons-use)
+- [如何忽略他人来用Python?](http://nothingbutsnark.svbtle.com/how-to-argue-for-pythons-use)
 
 Python 核心开发者
 Brett Cannon 给出了地图炮.
@@ -199,7 +199,7 @@ svbtle.com
 
 Shared by @mgrouchy
 
-－ [用Twilio 和 Django 建立IVR系统](https://www.twilio.com/blog/2014/07/build-an-ivr-system-with-twilio-and-django.html)
+- [用Twilio 和 Django 建立IVR系统](https://www.twilio.com/blog/2014/07/build-an-ivr-system-with-twilio-and-django.html)
 
 
 用Django 和 Twilio 构建交互式语音交互系统,
@@ -210,7 +210,7 @@ twilio.com
 Shared by @mgrouchy
  
 
-－ [2014年世界杯决赛的探索性统计分析](http://nbviewer.ipython.org/github/rjtavares/football-crunching/blob/master/notebooks/an%20exploratory%20data%20analysis%20of%20the%20world%20cup%20final.ipynb)
+- [2014年世界杯决赛的探索性统计分析](http://nbviewer.ipython.org/github/rjtavares/football-crunching/blob/master/notebooks/an%20exploratory%20data%20analysis%20of%20the%20world%20cup%20final.ipynb)
 
 很赞的 IPy nodebook 案例,
 对本次世界杯进行了分析,
@@ -221,7 +221,7 @@ ipython.org
 Shared by @mgrouchy
  
 
-－ [成为最终的程序猿 - 如何阅读代码](http://pythonpracticeprojects.com/how-to-read-source-code.html)
+- [成为最终的程序猿 - 如何阅读代码](http://pythonpracticeprojects.com/how-to-read-source-code.html)
 
 
 阅读代码是任何一种编程语言学习中最好的技巧.
@@ -233,7 +233,7 @@ Shared by @mgrouchy
 
 
 
-－ [伪造的恐怖: 模拟在外部服务器进行Python单元测试](http://www.appneta.com/blog/python-unit-test-mock/)
+- [伪造的恐怖: 模拟在外部服务器进行Python单元测试](http://www.appneta.com/blog/python-unit-test-mock/)
 
 测试加速并进行外部服务器模拟.
 提醒一定要看末尾的视频,超赞的!
