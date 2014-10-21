@@ -41,6 +41,7 @@
         {% endif %}
 
     {% endif %}
+
     <!-- Bootstrap -->
     {% if BOOTSTRAP_THEME %}
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.{{ BOOTSTRAP_THEME }}.min.css" type="text/css"/>
@@ -51,8 +52,20 @@
     <link href="{{ SITEURL }}/theme/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/css/pygments/github.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css"/>
-    <!-- JavaScript plugins (requires jQuery) -->
-    <script src="//code.jquery.com/jquery.min.js"></script>
+
+<style type="text/css">
+
+#article-content li {
+    list-style: none;
+    margin: 2em 0em 0em -1em;
+}
+#article-content li a{
+    font-size: 120%;
+    background-color: #555;
+    color: #efe;
+}
+
+</style>
 
     {% if FEED_ALL_ATOM %}
         <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate"
@@ -63,7 +76,6 @@
               title="{{ SITENAME }} RSS Feed"/>
     {% endif %}
 
-    {% include 'includes/ga.html' %}
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -121,6 +133,9 @@
         </div>
     </div>
 </div>
+
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="//code.jquery.com/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>

@@ -98,7 +98,7 @@ github.com
 Shared by @mgrouchy
  
 (`是也乎:`
-![](https://github.com/jonathanslenders/python-prompt-toolkit/raw/master/docs/images/ptpython-complete-menu.png)
+![ptpython-complete-menu.png](https://github.com/jonathanslenders/python-prompt-toolkit/raw/master/docs/images/ptpython-complete-menu.png)
 用好了就变成了 Python 中的 Vim
 )
 
@@ -123,7 +123,7 @@ Shared by @myusuf3
  
 (`是也乎:`
 来自 [Quantopian](https://www.quantopian.com/posts/new-feature-debugging-in-the-ide) 的实用工具.
-![](https://media.quantopian.com/debugger.gif))
+![debugger](https://media.quantopian.com/debugger.gif))
 
 
 - [sharq-server](https://github.com/plivo/sharq-server)
@@ -178,7 +178,7 @@ richwareham.com
 Shared by @myusuf3
 
 (`是也乎`:
-![](https://www.richwareham.com/images/2014-09-29-little-planet-projection_files/2014-09-29-little-planet-projection_22_1.png)
+![2014-09-29-little-planet-projection](https://www.richwareham.com/images/2014-09-29-little-planet-projection_files/2014-09-29-little-planet-projection_22_1.png)
 这种 iPhone 6 的内置效果图...)
 
 - [Django 和 AngulaJS 折腾 JSON Web 令牌认证](http://jamesbrewer.io/2014/09/22/json-web-token-authentication-part-one/)

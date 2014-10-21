@@ -20,11 +20,13 @@
                         {% include "includes/article_info.html" %}
                     </div>
                 </div>
-
 {% if article.toc %}
     {{ article.toc }}
 {% endif %}
+<div id="article-content">
                 {{ article.content }}
+</div>
+
             </div>
             <!-- /.entry-content -->
             {% include 'includes/addthis.html' %}
