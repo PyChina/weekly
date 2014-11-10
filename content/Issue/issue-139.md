@@ -1,4 +1,4 @@
-Title: Issue 138: Hero
+Title: Issue 139: Hero
 Slug: issue-139
 Date: 2014-11-01 14:15
 Tags: Weekly,Pycoder,Zh 
@@ -68,7 +68,6 @@ OOP 再见.)
 
 - [didyoumean](https://github.com/dutc/didyoumean)
 
-Neat. "Did You Mean?" Functionality on AttributeLookup. Typed an incorrect object attribute, didyoumean will suggest attribute names so you can easily correct your code.
 
 爽利的!
 "你咩意思?"
@@ -84,12 +83,14 @@ Shared by @mgrouchy
 (`是也乎:`
 实际使用起来是这样的...
 
+```
 >>> import didyoumean
 >>> foo.baz
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
     AttributeError: 'Foo' object has no attribute 'baz'
     Maybe you meant: .bar
+```
 
 执行前,给出进一步建议,而不是只给出错误类型,
 有爱!-)
@@ -136,6 +137,7 @@ Shared by @mgrouchy
 
 (`是也乎:`
 
+```
     from importd import d
     d(DEBUG=True)
 
@@ -149,6 +151,7 @@ Shared by @mgrouchy
 
     if __name__ == "__main__":
         d.main()
+```
 
 你还能再象点 bottle 嘛?!
 )
