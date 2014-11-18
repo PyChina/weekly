@@ -256,16 +256,20 @@ pythonlibrary.org
 Shared by @mgrouchy
  
 
-- [Pyston 的框架反思](http://blog.pyston.org/2014/11/06/frame-introspection-in-pyston/)
+- [Pyston 的栈内省(反思)](http://blog.pyston.org/2014/11/06/frame-introspection-in-pyston/)
 Pyston 
 是 PyPy 
 竞争对手,
-此文从框架角度进行了对比反思.
+此文从 栈内省 角度进行了对比反思.
 
 pyston.org
 
 Shared by @myusuf3
- 
+
+(`是也乎:`
+其实就是忽悠 Pyston 的新功能: 
+`frame introspection`
+对 `locals()` 的理性增强)
 
 - [亲爱的日记,用Python 进行日记加密](http://charlesleifer.com/blog/dear-diary-an-encrypted-command-line-diary-with-python/)
 
