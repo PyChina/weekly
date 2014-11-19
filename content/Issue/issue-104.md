@@ -211,7 +211,7 @@ svbtle.com
  
 - [xkcd 1313: Regex Golf (Part 2: Infinite Problems)](http://nbviewer.ipython.org/url/norvig.com/ipython/xkcd1313-part2.ipynb?create=1)
 
-![regex_golf.png（PNG 图像，740x271 像素）](http://imgs.xkcd.com/comics/regex_golf.png)
+![regex_golf.png(PNG 图像,740x271 像素)](http://imgs.xkcd.com/comics/regex_golf.png)
 
 Peter Norvig 以 IPython notebook 的形式分享
 Python 中折腾正则表达式的事儿,

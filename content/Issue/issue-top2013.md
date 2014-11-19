@@ -525,7 +525,7 @@ Sovereign 是一系列
 
 (shipyard,船坞)
 名很倩的web 应用,可以显示给定机器上的docker实例.
-也支持创建、删除等操作.
+也支持创建,删除等操作.
 
 - [docker-py](https://github.com/dotcloud/docker-py) (github.com)
 

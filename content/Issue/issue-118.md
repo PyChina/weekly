@@ -270,7 +270,7 @@ ideo.com
 
 Shared by @myusuf3
 
-![Tsunami_5.jpg（JPEG 图像，1000x309 像素）](http://labs.ideo.com/wp-content/uploads/2014/06/Tsunami_5.jpg)
+![Tsunami_5.jpg(JPEG 图像,1000x309 像素)](http://labs.ideo.com/wp-content/uploads/2014/06/Tsunami_5.jpg)
 
 
 ## DAMA

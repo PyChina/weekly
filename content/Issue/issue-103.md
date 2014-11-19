@@ -42,7 +42,7 @@ Python Education Summit is happening at PyCon 2014. If you have a topic/presenta
 
 本次
 PyCon 2014 包含了 Python教育峰会 !
-如果你有相关议题/演讲,征集现在是开放的，截止日期为2014年2月25日。
+如果你有相关议题/演讲,征集现在是开放的,截止日期为2014年2月25日. 
 
 
 blogspot.ca
@@ -272,10 +272,10 @@ github.io
 - [trac-hacks.org 迁移](http://trac-hacks.org/blog/2014-02-22-trac-hacks.org-is-moving)
 
 未来的几个月中
-TRAC-hacks.org将迁动到新的服务器，
-将应该提供比现有主机更好的可用性和性能。
+TRAC-hacks.org将迁动到新的服务器,
+将应该提供比现有主机更好的可用性和性能. 
 目前我们遇到的问题有:
-间歇性，但短暂的停机时间，以及缓慢的网站性能，
+间歇性,但短暂的停机时间,以及缓慢的网站性能,
 迁移目标就是能解决这些. 
 
 # 是也乎

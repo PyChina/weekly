@@ -140,7 +140,7 @@ Shared by @myusuf3
 
 - [PyJVM](http://pyjvm.org/)
 
-用Python实现的JVM，不是JVM上的Python!
+用Python实现的JVM,不是JVM上的Python!
 
 pyjvm.org
 

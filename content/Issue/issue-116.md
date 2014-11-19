@@ -252,7 +252,7 @@ Pocoo 念作: `/ˈpokʉː/`
     - 完全是一个现象级的小团队
 - 最新作品就是 
 
-![click.png（PNG 图像，420x175 像素）](http://click.pocoo.org/_static/click.png)
+![click.png(PNG 图像,420x175 像素)](http://click.pocoo.org/_static/click.png)
 
 
 
