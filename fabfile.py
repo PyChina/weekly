@@ -1,87 +1,66 @@
-from fabric.api import *
-import fabric.contrib.project as project
+import functools
 import os
+
+from fabric.api import env, lcd, local, task
 
 # Local path configuration (can be absolute or relative to fabfile)
 env.input_path = 'content'
-
 env.deploy_path = 'output'
-DEPLOY_PATH = env.deploy_path
-# Remote server configuration
-#production = 'root@localhost:22'
-#dest_path = '/var/www'
 
-# Rackspace Cloud Files configuration settings
-#env.cloudfiles_username = 'my_rackspace_username'
-#env.cloudfiles_api_key = 'my_rackspace_api_key'
-#env.cloudfiles_container = 'my_cloudfiles_container'
 
-#def clean():
-#    if os.path.isdir(DEPLOY_PATH):
-#        local('rm -rf {deploy_path}/*'.format(**env))
-#        #local('mkdir {deploy_path}'.format(**env))
+def cd_app_root(func):
+    app_root = os.path.dirname(os.path.realpath(__file__))
 
+    @functools.wraps(func)
+    def _to_app_root(*args, **kwargs):
+        with lcd(app_root):
+            return func(*args, **kwargs)
+    return _to_app_root
+
+
+@task
+@cd_app_root
 def build():
-    local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
+    local(
+        'pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env)
+    )
 
-#def rebuild():
-#    clean()
-#    build()
 
-#def regenerate():
-#    local('pelican -r -s pelicanconf.py')
-#
+@task
+@cd_app_root
 def serve():
     local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
 
+
+@task
+@cd_app_root
 def reserve():
     build()
     serve()
 
-#def preview():
-#    local('pelican -s publishconf.py')
 
+@task
+@cd_app_root
 def pub2cafe():
     build()
-    local('cd {deploy_path} && '
-            'pwd && '
-            #'git pu && '
-            'git add --all . && '
-            #'git st && '
-            'git ci -am "upgraded in local. @MBP111216ZQ" && '
-            #'git pu cafe gitcafe-page '
-            'git pu && '
-            'pwd '.format(**env)
-          )
+    local(
+        'cd {deploy_path} && '
+        'pwd && '
+        # 'git pu && '
+        'git add --all . && '
+        # 'git st && '
+        'git ci -am "upgraded in local. @MBP111216ZQ" && '
+        # 'git pu cafe gitcafe-page '
+        'git pu && '
+        'pwd '.format(**env)
+    )
 
-#def cf_upload():
-#    rebuild()
-#    local('cd {deploy_path} && '
-#          'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
-#          '-U {cloudfiles_username} '
-#          '-K {cloudfiles_api_key} '
-#          'upload -c {cloudfiles_container} .'.format(**env))
 
-#@hosts(production)
-#def publish():
-#    local('pelican -s publishconf.py')
-#    project.rsync_project(
-#        remote_dir=dest_path,
-#        exclude=".DS_Store",
-#        local_dir=DEPLOY_PATH.rstrip('/') + '/',
-#        delete=True
-#    )
-
-# Remote server configuration
-#   deploy in obp hosting
-#env.hosts = ['cn.pycon.org']
-#env.port = 9022
-#env.user = 'pycon'
-#code_dir = '/opt/www/PyChina'
-
-#def pub2cafe():
-#    with cd('{deploy_path}'.format(**env)):
-#        run('git add . ')
-#        run("git ci -am 'upgraded in local.' " )
-#        run("git pu cafe gitcafe-page" )
-
+@task
+def install_deps():
+    local(
+        'pip install '
+        'beautifulsoup4 '
+        'Markdown '
+        'pelican'
+    )

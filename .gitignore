@@ -6,3 +6,5 @@ output/
 bin/
 include/
 lib/
+cache/
+.ropeproject
