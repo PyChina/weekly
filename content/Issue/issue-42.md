@@ -5,18 +5,29 @@ Tags: Weekly,Pycoder,Zh
 
 ![04_20AM9789bf](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)
 
-# Hi Pythonistas,
-Thank you to everyone who bought a T-Shirt, we have reached our goal so the shirts will definitely be shipped. If you missed out last time or you still are looking to pick up a T-shirt at the time of sending this issue there is 6 hours left to get one. Thank you for supporting us and spreading the word.
-December is almost here and the Christmas season is approaching and in that spirit over the next few weeks we may have some gifts to give a way, so keep an eye out!
+##  搜罗Py万物 的周刊
 
-As always, if you have any questions, comments, gripes or suggestions just hit reply to this email and let us know.
+亲,
 
-想跟上所有 蠎界 新闻?
- [@pycoders](http://twitter.com/pycoders).
+感谢买了 TEE 的亲们,
+我们已经达成了预计目标,
+TEE 一定发货的了.
 
-请用
-[Gittip](https://www.gittip.com/PycodersWeekly)
+如果你错过了以前的通知,还想要件,
+我们重新开放了 6 小时的时间窗,
+`手快有,手慢无` 哪!
+
+大谢以往的支持, 又到12月了,
+我们想再折腾个礼物出来,
+敬请关注这儿的消息.
+
+
+想跟上所有 蠎界 新闻? [@pycoders](http://twitter.com/pycoders).
+
+喜欢就
+在 [Gratipay](https://www.gratipay.com/PycodersWeekly)
 支持俺们吧!
+当然的,俺们也在[twitter](http://www.twitter.com/pycoders)
 
 * 指即将到来的Python.org改版
 
@@ -25,7 +36,9 @@ Mahdi and Mike
 [Mahdi](https://twitter.com/#!/myusuf3) and [Mike](https://twitter.com/#!/mgrouchy)
 
 
-## 新闻与开发动态
+原文:  [Pycoder's Weekly (Issue #42): Redesign](http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&id=b447685c60)
+
+## 新闻
 
 - [伟大的 Python.org 改版了](http://jessenoller.com/2012/11/28/the-great-python-org-redesign/) (jessenoller.com)
 
@@ -61,13 +74,6 @@ Django 1.5 Beta 1 都已经发布了, Django 1.5 还会远吗?! 猛击查看版�
 
 [python.org 改头换面](http://www.reddit.com/r/Python/comments/13xkbf/pythonorg_is_getting_a_makeover/) (reddit.com)
 
-----
-
-## 赞助商广告:
-    驯服你的基础设施! Datadog 将来自你python app, 云, 操作系统, 数据库, 缓存, web服务器的数据一一整合, 让你更了解你的业务瓶颈.
-    [花上几分钟试试, 免费的!](http://www.datadoghq.com/?utm_source=pycoders&utm_medium=newsletter&utm_content=sq&utm_campaign=devnewsletters)
-
-----
 
 
 ## 项目
@@ -146,3 +152,8 @@ Chroma是一个很棒的 beets 插件, 它用类似Shazam的原理从你的音�
 
 Django 1.5 发布在即, 你的下一个项目准备好接受这些牛逼的改变了吗?
 这篇教程历数了所有在你开工之前所需要知道的可配置User Model的细节.
+
+
+## 是也乎
+
+- 来自 [合并请求 #5: Append Issue 42 · CPyUG/weekly - GitCafe](https://gitcafe.com/CPyUG/weekly/pull/5)
