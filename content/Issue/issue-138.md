@@ -67,7 +67,7 @@ Shared by @myusuf3
  
 (`是也乎:`
 和今年 PyCon2014China 官网的改造思路一样,
-也使用了 ymal 作为数据格式)
+也使用了 yaml 作为数据格式)
 
 - [schematics](https://github.com/schematics/schematics)
 
