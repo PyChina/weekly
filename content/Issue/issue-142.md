@@ -97,7 +97,7 @@ Shared by @mgrouchy
 -[chevron](https://github.com/noahmorrison/chevron)
 
 又一个 Python 实现,
-Chevron 立志折腾出一个 足够快的,同时兼容 Python 2/3 的实现.
+Chevron 立志折腾出一个 足够快的,同时兼容 Python 2/3 的 mustache 实现.
 
 github.com
 
@@ -105,6 +105,7 @@ Shared by @mgrouchy
  
 (`是也乎:`
 老爹知道了一定不高兴的了...
+感谢 @muxueqz 指出问题...
 )
 
 - [detekt](https://github.com/botherder/detekt)
