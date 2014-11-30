@@ -9,11 +9,6 @@ Tags: Weekly,Pycoder,Zh
 
 亲,
 
-As we said they would be, shirts are now available. 
-[now available](http://teespring.com/pycoders4)
-This time we added a long sleeve t-shirt option as well as a hoodie. So check them out and pick one up for that Pythonista you love! 
-[pick one up](http://teespring.com/pycoders4)
-
 
 正如曰过的, TEE 会有的, 现在
 [来了](http://teespring.com/pycoders4)
