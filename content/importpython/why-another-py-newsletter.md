@@ -1,9 +1,9 @@
 Title: 为毛又来个 Py 周刊?
 Date: 2014-11-27 
-Tags: Weekly,importpython,Zh 
+Tags: Weekly,ImportPython,Zh 
 Slug: importpython-why
 
-![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png)
+![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/80)
 
 
 原文: [Why Another Python Newsletter ?](http://importpython.com/blog/post/why-another-python-newsletter)

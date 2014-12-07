@@ -1,9 +1,9 @@
 Title: 蠎加载 Issue 1 ~ 试发布
 Date: 2014-09-25 
-Tags: Weekly,Pycoder,Zh 
+Tags: Weekly,ImportPython,Zh 
 Slug: importpython-1 
 
-![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png)
+![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/80)
 
 
 原文: [Import Python Weekly Newsletter Archive](http://importpython.com/newsletter/archive/)
