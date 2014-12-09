@@ -180,7 +180,7 @@ Shared by @mgrouchy
 - [jitpy](https://github.com/fijal/jitpy)
 
 听说你喜欢 PyPy?
-所以,我们将 PyPy 塞到你的 Cython 了.
+所以,我们将 PyPy 塞到你亲爱的 CPython 了.
 
 github.com
 
