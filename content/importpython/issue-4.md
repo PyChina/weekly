@@ -1,7 +1,7 @@
 Title: 蠎加载 Issue 4
+Slug: importpython-4
 Date: 2014-10-16
 Tags: Weekly,ImportPython,Zh 
-Slug: importpython-3
 
 ![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/80)
 

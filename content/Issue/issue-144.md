@@ -36,9 +36,13 @@ Tags: Weekly,Pycoder,Zh
 
 ## 新闻
 
-- [3.0 Announcement - Django REST framework](http://www.django-rest-framework.org/topics/3.0-announcement/)
-Version 3.0 of the excellent Django Rest Framework is out. There are some breaking changes so read the release notes carefully before you upgrade!
+- [3.0 发布 - Django REST framework](http://www.django-rest-framework.org/topics/3.0-announcement/)
+
+超赞的  Django Rest 框架已经发布!
+有足够多的特性值得你升级享受.
+
 django-rest-framework.org
+
 Shared by @mgrouchy
  
 
@@ -56,82 +60,167 @@ Shared by @myusuf3
 
 
 - [miasm](https://github.com/cea-sec/miasm)
-Miasm is a free and open source (GPLv2) reverse engineering framework.
+
+GPLv2 许可的逆向工程框架!
+
 github.com
+
 Shared by @mgrouchy
  
 
-- [miasm](https://github.com/cea-sec/miasm)
+- [guv](https://github.com/veegee/guv)
+
 A fast networking library for Python, built on greenlets and libuv. Supports Python >= 3.2.
+高速网络库,基于 greenlets 和 libuv.
+并兼容 Py `>= 3.2`
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [pingo](https://github.com/garoa/pingo)
-Very cool. Pingo is a general/uniform api for programming your devices like the Raspberry Pi, pcDuino, Intel Galileo etc. More details in the README and docs.
+
+COOL 的咧!
+Pingo 是通用/统一接口的可编程硬件,
+类似 Raspberry Pi, pcDuino, Intel Galileo ...
+细节看文档.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [SwampDragon](http://swampdragon.net/)
-Very cool project. Allows you to build real-time apps with Django, allows you to add Websocket support with fallbacks in just a few lines of code.
+
+COOL 的咧!
+只要几行代码就能和 Django 应用建立实时连接,
+并创建 WebSocket 交互.
+
+
 swampdragon.net
+
 Shared by @mgrouchy
  
 
 - [spotify-onthego](https://github.com/regisb/spotify-onthego)
-Nice little hack here. Allows you to download Spotify playlists by downloading audio files from youtube.
+
+
+漂亮的小作品,
+支持你下载 Spotify 播放列表,
+或是从 Youtube 上下载音频.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [peru](https://github.com/buildinspace/peru)
-Interesting tool for including external code and resources in your project without having to use tools like git submodules, etc. Check out the README for further details.
+
+得趣的工具,
+对你项目的代码进行外部资源依赖性检查,
+比如, git 的子模块,
+详细看文档
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [instavpn](https://github.com/sockeye44/instavpn)
-Aims to be an incredibly user friendly and easy to use L2TP/IPsec VPN server.
+
+目标是构建一个最友好的 
+L2TP/IPsec VPN 服务!
+
+
 github.com
+
 Shared by @mgrouchy
  
+(`是也乎:`
+正好需要! 
+大妈在国外架好,分享给大家吧.
+PS: 不免费哪...
+)
 
 - [neuraltalk](https://github.com/karpathy/neuraltalk)
-This project contains Python+numpy source code for learning Multimodal Recurrent Neural Networks that describe images with sentences.
+
+
+包含很多 Python+numpy 源代码,
+用以学习 多联式回归神经网络 !
+(`Multimodal Recurrent Neural Networks`)
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [deep-pink](https://github.com/erikbern/deep-pink)
-A chess AI that learns to play chess via deep learning.
+
+
+基于深度学习的国际象棋 AI
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [err](https://github.com/gbin/err)
-A pluggable chatbot, designed to be easily deployable, maintained and highly extensible. Supports XMPP, Campfire and IRC.
+
+支持 XMPP, Campfire 和 IRC 的可插拨机械人,
+设计为易于部署/维护,并高度可扩展!
+
 github.com
+
 Shared by @mgrouchy
- 
+
+(`是也乎:`
+不支持 wechat, 差评!-) 
 
 - [jitpy](https://github.com/fijal/jitpy)
-I heard you liked PyPy, so we put PyPy in your Cython.
+
+听说你喜欢 PyPy?
+所以,我们将 PyPy 塞到你的 Cython 了.
+
 github.com
+
 Shared by @mgrouchy
  
+(`是也乎:`
+这样大丈夫嘛?)
+
 
 - [tortilla](https://github.com/redodo/tortilla)
-Very cool project for consuming APIs made easy. Give it a look if you are tried of writing API wrappers.
+
+如果你想为自个儿的应用加装 API,
+应该看看这个项目!
+
 github.com
+
 Shared by @myusuf3
 
 ## 文章
-- [Deploying Django on Dokku](https://realpython.com/blog/python/deploying-a-django-app-on-dokku/)
-Real Python guys dropping some knowledge again. This time deployment with dokku!
+- [在 Dokku 部署 Django](https://realpython.com/blog/python/deploying-a-django-app-on-dokku/)
+
+真蠎士总是在折腾的,
+这不, 怎么部署到 dokku 的法儿也有了!
+
 realpython.com
+
 Shared by @myusuf3
  
+
+(`是也乎:`
+
+- 什么是 [dokku](https://github.com/progrium/dokku)?
+    - mini-Heroku, 你自个儿的 PaaS 平台!
+    - 由[Deis](http://deis.io/)赞助!
+- 什么是 [Deis](http://deis.io/)?
+    + 由 golang 编写的 PaaS 平台
+    + 什么是 golang ?
+
+嚓,,,好基支一被子...只能这么理解了.
+)
 
 - [Building an image search engine with Python and OpenCV](http://www.pyimagesearch.com/2014/12/01/complete-guide-building-image-search-engine-python-opencv/)
 Incredible blog post, on creating image search engine. Very extensive and educational!
@@ -139,27 +228,44 @@ pyimagesearch.com
 Shared by @myusuf3
  
 
-- [Extending SQLite with Python](http://charlesleifer.com/blog/extending-sqlite-with-python/)
-How to extend SQLite with Python, adding functions and aggregates that will be callable directly from any SQL queries you execute.
+- [用 Python 扩展 SQLite](http://charlesleifer.com/blog/extending-sqlite-with-python/)
+
+在 SQL 中注入可执行的 Py 脚本,
+来扩展 SQLite 的能力.
+
 charlesleifer.com
+
 Shared by @myusuf3
  
 
-- [Why is Object-Oriented Programming Useful?](http://inventwithpython.com/blog/2014/12/02/why-is-object-oriented-programming-useful-with-an-role-playing-game-example/)
-Nice little article on OOP for beginners.
+- [为毛 面向对象编程 有用?](http://inventwithpython.com/blog/2014/12/02/why-is-object-oriented-programming-useful-with-an-role-playing-game-example/)
+
+美文,忽悠新人可用.
+
 inventwithpython.com
+
 Shared by @myusuf3
  
 
-- [A Python Internals Adventure](http://flowerhack.dreamwidth.org/3594.html)
-Awesome article on diving into python internals and CPython.
+- [探秘 Python 内部](http://flowerhack.dreamwidth.org/3594.html)
+
+有关 CPython 内部机制的好文.
+
 dreamwidth.org
+
 Shared by @myusuf3
  
 
-- [Retries in Requests](http://www.coglib.com/~icordasc/blog/2014/12/retries-in-requests.html)
-Nice dive into one of the advanced features of the requests library, retries. Nice example to get you started here if this is something you need in your next project.
+- [请求的重试](http://www.coglib.com/~icordasc/blog/2014/12/retries-in-requests.html)
+
+有关 requests 库的好文,
+想真正用好这一常用库,
+在项目中合理完成请求重试,
+你值得研究.
+
+
 coglib.com
+
 Shared by @sigmavirus24
 
 ## DAMA

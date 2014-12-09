@@ -1,7 +1,7 @@
 Title: 蠎加载 Issue 10
+Slug: importpython-10
 Date: 2000-11-27
 Tags: Weekly,ImportPython,Zh 
-Slug: importpython-tpl
 ImportPython
 ![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/80)
 

@@ -1,9 +1,8 @@
-
 Title: 蠎加载 Issue 8
-Date: 2000-11-13
 Slug: importpython-8
+Date: 2000-11-13
 Tags: Weekly,ImportPython,Zh 
-ImportPython
+
 ![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/80)
 
 
