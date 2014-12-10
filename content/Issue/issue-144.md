@@ -167,7 +167,7 @@ Shared by @mgrouchy
 
 - [err](https://github.com/gbin/err)
 
-支持 XMPP, Campfire 和 IRC 的可插拨机械人,
+支持 XMPP, Campfire 和 IRC 的插件式机器人,
 设计为易于部署/维护,并高度可扩展!
 
 github.com
