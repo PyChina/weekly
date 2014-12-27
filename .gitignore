@@ -1,7 +1,10 @@
 *.pyc
 .python-version
 local_settings.ini
+
 output/
+output
+
 .DS_Store
 bin/
 include/

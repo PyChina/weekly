@@ -6,6 +6,8 @@ from fabric.api import env, lcd, local, task
 # Local path configuration (can be absolute or relative to fabfile)
 env.input_path = 'content'
 env.deploy_path = 'output'
+env.qiniu_bin = '/opt/bin/7niu_package_darwin_amd64/qrsync'
+env.qiniu_conf = '../7niu4pychina.json'
 
 
 def cd_app_root(func):
@@ -17,6 +19,14 @@ def cd_app_root(func):
             return func(*args, **kwargs)
     return _to_app_root
 
+@task
+@cd_app_root
+def pub7niu():
+    build()
+    local('pwd && '
+        '{qiniu_bin} {qiniu_conf} && '
+        'date '.format(**env)
+    )
 
 @task
 @cd_app_root
@@ -54,6 +64,7 @@ def pub2cafe():
         'git pu && '
         'pwd '.format(**env)
     )
+
 
 
 @task
