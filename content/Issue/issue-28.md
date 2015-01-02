@@ -1,5 +1,5 @@
 Title: Issue 28: Fabric
-Slug: issue-28-cn
+Slug: issue-28
 Date: 2012-08-24
 Tags: Weekly,Pycoder,Zh
 
@@ -32,7 +32,7 @@ Mahdi and Mike
 
 - [PyCharm 2.6新增Flask支持](http://blog.jetbrains.com/pycharm/2012/08/flask-in-pycharm-26-eap/) (jetbrains.com)
 
-这条新闻包含2个超赞的因素. 首先当然是Flask的支持. 二 , 现在你可以通过向导, 使用Pycharm的OpenApi来创建你自己的框架插件了!
+这条新闻包含2个超赞的因素. 首先当然是Flask的支持. 其次, 你现在可以通过向导, 使用Pycharm的OpenApi来创建你自己的框架插件了!
 
 
 - [AWS Elastic Beanstalk现已支持Python](http://aws.typepad.com/aws/2012/08/announcing-aws-elastic-beanstalk-support-for-python-and-seamless-database-integration.html) (typepad.com)
@@ -42,7 +42,7 @@ Mahdi and Mike
 
 - [PyCon澳大利亚2012视频](http://www.youtube.com/pyconau) (youtube.com)
 
-点击查看 PyCon 澳大利亚2012
+查阅 PyCon 澳大利亚2012
 
 
 - [Django实验性支持Python3](https://www.djangoproject.com/weblog/2012/aug/19/experimental-python-3-support/) (djangoproject.com)
@@ -57,42 +57,43 @@ Mahdi and Mike
 
 - [bookie](https://github.com/mitechie/bookie) (github.com)
 
-Bookie是收藏夹站点delicious的开源实现, 当然, 基于Python. [试试看](https://bmark.us/).
+bookie是收藏夹站点delicious的开源实现, 当然, 基于Python. [点我试试](https://bmark.us/).
 
 
 - [blessings](https://github.com/erikrose/blessings) (github.com)
 
-简单实用的Python终端库. 能让你方便地格式化终端字符输出. 如果你打算写一些cli应用, 那绝对值得一看.
+简单实用的Python终端库. 能让你方便地格式化终端字符输出. 要是你打算写一些cli应用, 绝对值得一看.
 
 
 - [beaker](https://github.com/bbangert/beaker) (github.com)
 
-Beaker是一个WSGI中间件. 独立的Python程序或是Web应用都能用它来存储sessions或者缓存.
+beaker是一个WSGI中间件. 无论是独立Python程序或是Web应用, 无论是sesions或是缓存, 用它来对付就对了.
 
 
 - [pyjnius](https://github.com/kivy/pyjnius) (github.com)
 
-虽然这个新项目还在早期阶段, 但它绝对够酷! 有了它你可以使用JNI访问Java的Classes.
+这个新项目还在早期阶段, 但它绝对够酷! 从此你可以使用JNI访问Java的Classes了.
 不妨看看一下[readme](http://github.com/kivy/pyjnius#pyjnius)里的例子吧.
 
 
 - [anafero](https://github.com/eldarion/anafero) (github.com)
 
-Getting the word out on anything is hard enough. You want to be able to track sources of traffic  and see which ones are most effective.
-Anafero handles link generation as well as storing that valuable data.
+推广任何事物都是非常困难的. 你希望能追踪各个推广渠道并分析出最有效的那个.
+Anafero 在生成链接的同时也保存了这些有用的信息.
 
 
 - [pathod](https://github.com/cortesi/pathod) (github.com)
 
 Pathod是一组用来对HTTP服务或客户端进行严酷测试的疯狂工具, 它由一个HTTP守护进程, 一个HTTP客户端, 和一些能将他们用在你的测试程序里的工具组成.
-[mitmproxy](http://mitmproxy.org/)的作者荣誉出品, 试试看吧.
+[mitmproxy](http://mitmproxy.org/)的作者荣誉出品, 不妨一试.
 
 
 - [Helm: 实时讨论](http://www.indiegogo.com/helm) (indiegogo.com)
 
-来自[ToastDriven](http://toastdriven.com/)的Daniel Lindsey和Ben Spaulding在Indiegogo上发起这个项目, 旨在募集50K资金来创建Helm这个项目.
-Helm将是一个以BSD协议发布的有公共(或私有)的实时讨论项目, 对于长期保存需求, 它也可以将对话存档, 并提供良好的搜索及api.
-关注一下这个重酬项目吧! (译注: 早已结束)
+来自[ToastDriven](http://toastdriven.com/)的Daniel Lindsey和Ben Spaulding在Indiegogo上发起的这个项目, 旨在募集50K资金来创建Helm实时讨论.
+Helm将会以以BSD协议发布, 用来解决公共(或私有)的实时讨论需求, 如需长期保存, 也可以将对话存档, 并提供良好的搜索及api.
+
+关注一下这个众酬项目吧! (`译注:` 早已结束)
 
 
 ## 文章
@@ -100,7 +101,7 @@ Helm将是一个以BSD协议发布的有公共(或私有)的实时讨论项目, 
 - [用Boto在亚马逊EC2上部署应用](http://engineerwithoutacause.com/amazon-ec2-deployment-with-boto.html) (enginee
 rwithoutacause.com)
 
-用[Boto](https://github.com/boto/boto)和[Fabric](http://fabfile.org/)自动初始化EC2实例,并让你的应用部署更上一层楼. 赞
+用[Boto](https://github.com/boto/boto)和[Fabric](http://fabfile.org/)自动初始化EC2实例,并让你的应用部署更上一层楼. 赞!
 
 
 - [在Python中轻松追踪嵌套函数调用](http://eli.thegreenplace.net/2012/08/22/easy-tracing-of-nested-
@@ -118,7 +119,7 @@ Eli在这篇文章中提供了一个简单的decorator来帮助你在Python应�
 
 - [亡羊补牢, 修正常见unicode错误](http://blog.lumino.so/2012/08/20/fix-unicode-mistakes-with-python/) (lumino.so)
 
-字符编码, unicode, 常常是你的梦魇. 正如这篇博客所说, 你大可以尽你所能把一切都做对, 但严重的错误还是会发生. 如果你要处理第三方代码产生的文本, 这篇文章或许能给你一些启示, 它将教你如何挽回第三方代码犯下的错误.
+字符编码, unicode, 常常是你的梦魇. 正如这篇博客所说, 你大可以尽你所能把一切都做对, 但意想不到的严重错误还是会发生. 如果你要处理第三方代码产生的文本, 这篇文章或许能给你一些启示, 它将教你如何挽回第三方代码犯下的错误.
 
 
 - [Matplotlib动画教程](http://jakevdp.github.com/blog/2012/08/18/matplotlib-animation-tutorial/) (github.com)
