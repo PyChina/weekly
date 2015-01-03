@@ -92,11 +92,10 @@ CATEGORY_FEED_RSS= None
 SOCIAL = (('gitcafe', 'https://gitcafe.com/CPyUG/weekly')
         , ('rss', SITEURL + '/' + FEED_ALL_ATOM)
         , ('CPyUG', 'https://gitcafe.com/CPyUG')
-        , ('Wiki', 'http://wiki.woodpecker.org.cn/moin/CPUG')
+        , ('Wiki', 'http://wiki.pychina.org')
         , ('O.B.P', 'http://weibo.com/openbookproject')
-        , ('PyConChina', 'https://github.com/PyConChina')
         , ('weibo', 'http://weibo.com/pyconcn')
-        , ('News', 'http://news.pychina.org')
+        , ('啄木鸟', 'http://wiki.woodpecker.org.cn/moin/CPUG')
         )
 # Blogroll
 LINKS =  None
