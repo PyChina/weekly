@@ -123,3 +123,7 @@ Eli在这篇文章中提供了一个简单的decorator来帮助你在Python应�
 
 
 - [Matplotlib动画教程](http://jakevdp.github.com/blog/2012/08/18/matplotlib-animation-tutorial/) (github.com)
+
+
+## 是也乎
+- 来自: [SkyLothar](https://gitcafe.com/SkyLothar) 的 `PR`
