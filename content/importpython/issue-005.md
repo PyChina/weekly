@@ -1,4 +1,4 @@
-Title: 蠎加载 Issue 5
+Title: 蠎加载 5
 Slug: importpython-5
 Date: 2014-10-23
 Tags: Weekly,ImportPython,Zh 

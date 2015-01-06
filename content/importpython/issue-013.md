@@ -1,4 +1,4 @@
-Title: 蠎加载 Issue 13
+Title: 蠎加载 13
 Slug: importpython-13
 Date: 2014-12-21
 Tags: Weekly,ImportPython,Zh 

@@ -1,4 +1,4 @@
-Title: 蠎加载 Issue 8
+Title: 蠎加载 8
 Slug: importpython-8
 Date: 2000-11-13
 Tags: Weekly,ImportPython,Zh 

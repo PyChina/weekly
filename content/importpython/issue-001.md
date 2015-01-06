@@ -1,4 +1,4 @@
-Title: 蠎加载 Issue 1 ~ 试发布
+Title: 蠎加载 1 ~ 试发布
 Date: 2014-09-25 
 Tags: Weekly,ImportPython,Zh 
 Slug: importpython-1 

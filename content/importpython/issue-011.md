@@ -1,4 +1,4 @@
-Title: 蠎加载 Issue 11
+Title: 蠎加载 11
 Slug: importpython-11
 Date: 2014-12-11
 Tags: Weekly,ImportPython,Zh 

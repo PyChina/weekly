@@ -1,4 +1,4 @@
-Title: 蠎加载 Issue 9
+Title: 蠎加载 9
 Slug: importpython-9
 Date: 2000-11-20
 Tags: Weekly,ImportPython,Zh 

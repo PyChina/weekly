@@ -1,4 +1,4 @@
-Title: 蠎加载 Issue 2
+Title: 蠎加载 2
 Date: 2014-09-25 
 Tags: Weekly,ImportPython,Zh 
 Slug: importpython-2 
