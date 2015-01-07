@@ -9,11 +9,16 @@ Slug: issue-147-top2014
 
 亲,
 
-This is our yearly roundup issue of the top articles and projects of 2014. Thanks to our sponsor, 
-[Real Python](http://realpython.com/)
-, for helping to make this possible! Here's to a great 2015 ahead! 
 
-Want to share this list? Forward it to someone or send them a link to the permalink at 
+这是我们的2014年度综合最赞,
+感谢赞助商 
+[Real Python](http://realpython.com/)
+令这一切成为可能1
+
+共同期待依然伟大的 2015!
+
+想分享本期内容?
+转发出去,或是分享这个短链:
 [pycoders.com/2014](http://pycoders.com/2014)
 
 大家多分享[文章](http://pycoders.com/submissions/) 
@@ -28,139 +33,262 @@ Want to share this list? Forward it to someone or send them a link to the permal
 
 - 原文: [Pycoder's Weekly: Top of 2014](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=55b91a6e1f&e=889f3f6a05)
 - 参考: [2013年度最赞](http://weekly.pychina.org/issue/issue-top2013.html)
+- 目测,今年是直接统计订阅文章中的链接点击数量,得出的 最赞内容,没有去年人工分类了,大妈任性的对文章进行了简单分类,期望帮助大家感受到 Python 这年关注的领域大致范畴.
 
 ## 项目
 - [robobrowser](https://github.com/jmcarp/robobrowser)
-A library for web scraping built on Requests and BeautifulSoup. Like Mechanize, but with tests, docs, and a Pythonic interface.
+
+基于 Requests 和 BeautifulSoup 的网络爬虫库,
+类似 Mechanize, 不过有 测试/文档,以及更加 Pythonic 的界面.
+
 github.com
+
 Shared by @whatthecarp
  
 
 - [mining](https://github.com/avelino/mining)
+
 github.com
+
 Shared by @mgrouchy
 
 (`是也乎:`
 商业智能服务哪! 纯 Py 完成的. )
 
 - [wagtail](https://github.com/torchbox/wagtail)
-Wagtail is a Django content management system with a fresh take. Beautifully designed so if you are looking for an alternative to Django CMS here is your shot.
+Wagtail 是 Django 
+完成的 CMS.
+界面设计更加出色, 是 Django CMS 的可替代品.
+
 github.com
+
 Shared by @tomd
  
 
 - [huey](https://github.com/coleifer/huey)
-A multi-threaded task queue for Python.
+
+Python 的多线程 任务队列.
+
 github.com
+
 Shared by @myusuf3
+
+(`是也乎:`
+项目名称来自作者的喵
+![huey](https://camo.githubusercontent.com/671f46789e5addd8f49c74eeb22cee99ef68d323/687474703a2f2f6d656469612e636861726c65736c65696665722e636f6d2f626c6f672f70686f746f732f7468756d626e61696c732f494d475f32303133303430325f3135343835385f363530783635302e6a7067))
  
 
 - [Flask API](http://www.flaskapi.org/)
-Love Django REST Framework? You can now enjoy the same beautiful APIs within Flask.
+
+大爱 Django REST 框架的你,
+现在可以在 Flask 上享用类似的 API 了.
+
 flaskapi.org
+
 Shared by @myusuf3
  
 
 - [Mario Level 1 In Python](https://github.com/justinmeister/Mario-Level-1)
 Recreating the first level in Mario using PyGame. Awesome for anyone interested in build a 2D platformer.
+
+用 PyGame 重制的 Mario 第一关游戏,
+对2D游戏有兴趣,是个很赞的基础.
+
 github.com
+
 Shared by @myusuf3
  
 
 - [Algorithms](https://github.com/prakhar1989/Algorithms)
-A collection of Data Structures and Algorithms in Python.
+
+针对 Python 收集的有关 数据分析和算法.
+
 github.com
+
 Shared by @myusuf3
  
 
 - [rumps](https://github.com/jaredks/rumps)
-Ridiculously Uncomplicated Mac OSX Python Status Bar Apps! Got a little app you want to write you can do it Python now!
+
+用 Python 实现的  Mac OSX 状态栏应用!
+
 github.com
+
 Shared by @myusuf3
 
 
 - [psdash](https://github.com/Jahaja/psdash)
-Nice looking web dashboard written in Flask that can display data about your system and its processes as returned by psutil.
+
+漂亮的 Flask 实现的 web 仪表盘,
+可展示 psutil 输出的各种系统数据.
+
 github.com
+
 Shared by @mgrouchy
  
+(`是也乎:`
+glances 的 web 版本 :D
+)
 
 - [500 Lines or Less](https://github.com/aosabook/500lines)
-Awesome repository of how things work with computers and software. I am sure we have shared this before but its definitely worth another look.
+
+超赞的收集,
+展示用电脑和软件可以折腾出来,
+真心值得收藏.
+
 github.com
+
 Shared by @myusuf3
  
 
 - [IPython Notebook Themes](https://github.com/nsonnad/base16-ipython-notebook)
-Awesome theme customization for IPython Notebooks!
+
+
+对 IPython Notebook 的定制样式,
+赞的!
+
 github.com
+
 Shared by @myusuf3
  
+(`是也乎:`
+![ocean-dark](https://github.com/nsonnad/base16-ipython-notebook/raw/master/screenshots/ocean-dark.png)
+
+这是真爱
+)
 
 - [Jarvis](https://github.com/debugger22/Jarvis)
-An attempt to create a Jarvis-like personal assistant with Python.
+
+DIY 一个 `Jarvis样` 的私人助理, 当然用 Python!
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [Python Practice Projects](http://pythonpracticeprojects.com/)
-A series of Python practice projects to help your hone your craft with deliberate practice.
+
+Python 实践系列项目,
+帮助你磨练提高!
+
 pythonpracticeprojects.com
+
 Shared by @mgrouchy
  
 
 - [Flask-Foundation](https://github.com/JackStouffer/Flask-Foundation)
-A foundation leveraging best practices that you can use to start building your flask applications with.
+
+
+Flask 脚手架,是你开始应用构建的最佳基础.
+
 github.com
+
 Shared by @mgrouchy
  
 
 
 - [Stellar](https://github.com/fastmonkeys/stellar)
-Fast database snapshots for development. It's like Git for databases.
+
+高速数据库快照工具,
+就象为数据库定制的 git ;-)
+
 github.com
+
 Shared by @versae
- 
+
+(`是也乎:`
+当然的支持 PostgreSQL and MySQL )
 
 - [percol](https://github.com/mooz/percol)
-Nice. Percol is an interactive grep tool in your terminal. Check out the README for a demo and more information.
+
+漂亮的, 终端上的互动式 grep 工具.
+REAME 中有详细介绍和演示.
+
 github.com
+
 Shared by @mgrouchy
- 
+
+(`是也乎:`
+![githubusercontent](https://camo.githubusercontent.com/006cf03e9f0a069217c3c4b41c07743afc9c0ed5/687474703a2f2f6d6f6f7a2e6769746875622e696f2f706572636f6c2f706572636f6c5f6f766572766965772e676966)
+
+支持 tmux/zsh 哗...
+) 
 
 - [magpie](https://github.com/charlesthomas/magpie)
-Git-Backed Evernote Replacement.
+
+Git-Backed Evernote 替代.
+
 github.com
+
 Shared by @myusuf3
  
+(`是也乎:`
+一直以来有N 多程序猿在尝试这事儿:
+
+- http://simplenote.com/
+- https://github.com/FoxUSA/OpenNote
+- https://github.com/Laverna/laverna
+- https://github.com/gollum/gollum
+- https://github.com/grena/gruik/
+- https://dragdis.com/
+- ...
+)
+
+
 
 - [Explore Flask](http://exploreflask.com/)
-The Explore Flask book is now freely available online. Time to upgrade your Flask knowledge.
+
+Flask 探索之书, 已经免费在线发布,
+是时候升级这方面的知识了;
+
 exploreflask.com
+
 Shared by @mgrouchy
  
 
 - [The Stolen Crown RPG](https://github.com/justinmeister/The-Stolen-Crown-RPG)
-Cool! A Fantasy RPG built with Python and PyGame.
+
+爽!
+Python 实现的 RPG幻想大作.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [django-quicky](https://github.com/sametmax/django-quicky)
-A collection of tools to get you focused on what you building rather than the usual nitty gritty, tons of of cool little functionality to speed things up!
+
+令你专注业务构建的工具集合,
+不再关心那些细节!
+成吨的实用功能加速你的出品速度!
+
 github.com
+
 Shared by @myusuf3
  
 
 - [doitlive](https://github.com/sloria/doitlive)
-Cool little hack to make you look like a superstar during presentations and screencasts. It allows you to write code before hand, and replays the commands in a fake terminal session as you type random characters.
-github.com
-Shared by @myusuf3
- 
 
-- [Data Science 45 minute intros.](https://github.com/DrSkippy/Data-Science-45min-Intros)
-45 minute Ipython notebook presentations for getting starting with basic programming, statistics and machine learning techniques.
+终端上的演示工具. COOL 到没有朋友哪.
+可以模拟 shell 脚本的运行!
+就好象现场输入代码运行一样!
+
 github.com
+
+Shared by @myusuf3
+
+
+- [45 分钟数据科学介绍.](https://github.com/DrSkippy/Data-Science-45min-Intros)
+
+刚好一节课的,
+IPython Notebook 幻灯,
+从基本编程开始,
+系统的介绍了统计和机器学习技术!
+
+
+
+github.com
+
 Shared by @mgrouchy
  
 
@@ -931,6 +1059,6 @@ Shared by @mgrouchy
 - [Astral](https://app.astralapp.com/dashboard) ~ 经过 周刊的疯狂推荐,你一定积累了无数加星的 github 项目,早已无法快速定位某个方面的项目了,肿么办? 使用这个第三方标签/搜索/索引服务吧!
 
 
-- 150106 [Zoom.Quiet](http://zoomquiet.io/) 用时 47 分钟 完成快译20%.
+- 150107 [Zoom.Quiet](http://zoomquiet.io/) 用时 47 分钟 完成快译20%.
 - 150106 [Zoom.Quiet](http://zoomquiet.io/) 用时 27 分钟 完成格式转抄.
  
