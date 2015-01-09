@@ -1,5 +1,5 @@
 Title: 蠎周刊 147: 2014 年度最赞
-Date: 2014-01-03 
+Date: 2015-01-07 
 Tags: Weekly,Pycoder,Zh 
 Slug: issue-147-top2014
 
@@ -1051,14 +1051,32 @@ Shared by @mgrouchy
 
 ## 蠎中国.年度最赞
 
-???
+- [PythonYiyi/translation](https://github.com/PythonYiyi/translation)
+
+严格的说不是 2014 发布的,但是,代码的确是在 2014 完成的.
+又一个协同文档翻译系统 ;-)
+历史上社区贤达们折腾过不少了,参考:
+
+[基于Sphinx的图书协同 - O.B.P~Open Book Proj.中文蟒样开放图书计划! - Google Project Hosting](https://code.google.com/p/openbookproject/wiki/FlowSphinx)中相关记述, 
+
+但是,都没有坚持下来,
+实在因为 Python 发展太快,以往文档积累太多,
+更加可能是翻译翻译着发觉看原文更流畅,没有必要翻译了,就没有然后了.
+
+只是, 地球 1/5 强的小伙伴,都不是 E文为母语的哪,
+Python 官方文档,不应该缺少完本的中译!
+
+`综上` 大妈,继续点赞这种大工程的自发发起!
+
 
 # 是也乎
 大妈私人推荐:
 
 - [Astral](https://app.astralapp.com/dashboard) ~ 经过 周刊的疯狂推荐,你一定积累了无数加星的 github 项目,早已无法快速定位某个方面的项目了,肿么办? 使用这个第三方标签/搜索/索引服务吧!
 
+----
 
-- 150107 [Zoom.Quiet](http://zoomquiet.io/) 用时 47 分钟 完成快译20%.
-- 150106 [Zoom.Quiet](http://zoomquiet.io/) 用时 27 分钟 完成格式转抄.
+150107 [Zoom.Quiet](http://zoomquiet.io/) 用时 47 分钟 完成快译20%.
+
+150106 [Zoom.Quiet](http://zoomquiet.io/) 用时 27 分钟 完成格式转抄.
  

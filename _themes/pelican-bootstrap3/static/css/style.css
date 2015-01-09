@@ -1,9 +1,20 @@
 /* PyChina.org design by Zoom.Quiet
+*/
+ul li ul li {
+    color: yellowgreen;
+    font-size: 70%;
+    position: relative;
+    float: right;
+    top: -3em;
+}
+
+/* PyChina.org design by Zoom.Quiet
 .highlight pre {
     background-color: #202020;
     color: #777;
 }
 */
+
 
 .navbar-nav {
     float: left;

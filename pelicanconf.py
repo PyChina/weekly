@@ -70,7 +70,7 @@ PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 THEME = "_themes/pelican-bootstrap3"
 BOOTSTRAP_THEME = 'readable'
 
-DEFAULT_PAGINATION = 1
+DEFAULT_PAGINATION = 3
 TAG_CLOUD_MAX_ITEMS = 10
 DISPLAY_CATEGORIES_ON_MENU = None      # 分类标签是否显示在导航
 # Social widget -> China jiathis.com
