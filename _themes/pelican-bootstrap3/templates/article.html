@@ -15,17 +15,19 @@
                 </h1>
             </header>
             <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-                        {% include "includes/article_info.html" %}
-                    </div>
-                </div>
 {% if article.toc %}
     {{ article.toc }}
 {% endif %}
 <div id="article-content">
                 {{ article.content }}
 </div>
+
+
+                <div class="panel">
+                    <div class="panel-body">
+                        {% include "includes/article_info.html" %}
+                    </div>
+                </div>
 
             </div>
             <!-- /.entry-content -->
