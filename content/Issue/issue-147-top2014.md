@@ -597,609 +597,1122 @@ Shared by @mgrouchy
 没有产品/市场技术的 全桟工程师,
 照样被 PM 虐的...)
 
-- [Setting up Sublime Text 3 for Full Stack Python Development](https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/)
+- [为全桟 Py 开发配置 Sublime Text 3](https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/)
 
-Fantastic guide to help you get up and running with Sublime Text for your next Python project.
+非常魔幻的手册,
+令 subl 成为最舒适的开发环境.
 
 realpython.com>
 
 Shared by @mgrouchy
- 
 
-- [Starting A Python Project The Right Way](http://jeffknupp.com/blog/2014/02/04/starting-a-python-project-the-right-way/)
-Have an idea for your next, or first, Python project? Well check out this article to make sure you are getting started the right way!
+(`是也乎:`
+大妈还是推荐 [Leo](http://wiki.woodpecker.org.cn/moin/LeoEnvironment) 文学化编程环境
+) 
+
+- [以正确的姿势启动 Python 项目](http://jeffknupp.com/blog/2014/02/04/starting-a-python-project-the-right-way/)
+
+
+有想法,要用 Python 来完成原型,
+那这篇文章一定要看哪.
+
 jeffknupp.com
+
 Shared by @mgrouchy
+
+(`是也乎:`
+论 `八股文` 的形成,
+一个 可公运行/可改进/可部署 的 Py 项目,
+应该长什么样儿,包含什么东西,
+真心是只有吃过各种亏的 Pythonista 才明的事儿;
+另外推荐:
+)
  
 
-- [14 Minimal Web Frameworks for Python](http://codecondo.com/14-minimal-web-frameworks-for-python/)
-Want to try a lighter web framework then Django? Check out these minimal Python web frameworks.
+- [14 个极简 Python Web 框架](http://codecondo.com/14-minimal-web-frameworks-for-python/)
+
+
+想尝试比 Django 轻的 web 框架?
+这儿有一系列可选框架的对比.
+
 codecondo.com
+
 Shared by @alexivanovs
  
 
-- [Saying Goodbye To Python](http://www.ianbicking.org/blog/2014/02/saying-goodbye-to-python.html)
-Amazing article and growth and the real strength of the Python community.
+(`是也乎:`
+Python 世界就这么任性, 无论重的中的轻的,什么级别的 框架,都是一堆堆的...
+但是,此文少了 Bottle 是名不副实的..눈_눈_ ;-)
+
+- [向 Python 道别](http://www.ianbicking.org/blog/2014/02/saying-goodbye-to-python.html)
+
+描述了 Python 社区惊人的成长现实 ~ 足以逼疯普通银的.
+
 ianbicking.org
+
 Shared by @myusuf3
  
 
-- [A Celery-like Python Task Queue in 55 Lines of Code](http://www.jeffknupp.com/blog/2014/02/11/a-celerylike-python-task-queue-in-55-lines-of-code/)
-Nice tutorial about how one would go about starting to create a task queue in Python.
+- [55 行代码完成的芹菜-样儿 Python 任务队列](http://www.jeffknupp.com/blog/2014/02/11/a-celerylike-python-task-queue-in-55-lines-of-code/)
+
+
+超赞的教程,
+有关如何用 Python 创建一个任务队列.
+
 jeffknupp.com
+
 Shared by @mgrouchy
  
 
-- [How We Use Gevent to go Fast](http://engineering.pinterest.com/post/65713073803/how-we-use-gevent-to-go-fast)
-Nice overview of how Pinterest used gevent to increase throughput of site and speed up requests. They also cover the challenges they faced during the switch over.
+- [俺们肿么将 Gevent 整快的](http://engineering.pinterest.com/post/65713073803/how-we-use-gevent-to-go-fast)
+
+Pinterest 回顾了怎么用 gevent 搞掂了网站吞吐量的事儿,
+包含了迁移过程所面临的各种挑战...
+
 pinterest.com
+
 Shared by @myusuf3
  
 
-- [Unit Testing SQLAlchemy](http://alextechrants.blogspot.ca/2014/01/unit-testing-sqlalchemy-apps-part-2.html)
-How do you test your SQLAlchemy apps? Check out this post and its predecessor for the low down.
+- [SQLAlchemy 的单元测试](http://alextechrants.blogspot.ca/2014/01/unit-testing-sqlalchemy-apps-part-2.html)
+
+如果对 SQLAlchemy 应用进行测试?
+此文详述了.
+
 blogspot.ca
+
 Shared by @mgrouchy
  
 
-- [How to Create a Python Library](http://pypix.com/python/create-python-library/)
-In depth tutorial on how to create a python library and package it.
+- [如何创建一个 Python 库?](http://pypix.com/python/create-python-library/)
+
+很有深度的,
+有关正当的创建 Python 库的教程.
+
 pypix.com
+
 Shared by @myusuf3
  
 
-- [Introduction to Python for Statistical Learning](http://www.datarobot.com/blog/introduction-to-python-for-statistical-learning/)
-Great introduction to tools like numpy, pandas and matplotlab for doing statistical learning work in Python.
+- [有关 Python  在统计学方面介绍](http://www.datarobot.com/blog/introduction-to-python-for-statistical-learning/)
+
+类似 numpy, pandas 和 matplotlab 的绝赞工具,
+怎么在统计学领域的折腾的推介.
+
 datarobot.com
+
 Shared by @mgrouchy
  
 
-- [Lessons Learned Architecting Realtime Applications](http://lincolnloop.com/blog/architecting-realtime-applications/)
-This discusses the various options of building realtime applications in python and various technologies and techniques used and their limitations. Good read.
+- [实时应用架构学习](http://lincolnloop.com/blog/architecting-realtime-applications/)
+
+讨论 Python 各种技术完成实时系统的各种局限性,
+干货,
+值得研读.
+
+
 lincolnloop.com
+
 Shared by @myusuf3
  
 
 - [Unyielding](https://glyph.twistedmatrix.com/2014/02/unyielding.html)
-Glyph of Twisted fame talks has written a great article about concurrency in Python.
+
+Glyph 
+就有关 唱衰 Twisted 的言论,
+写了一篇伟大的文章,
+充分探讨了 Python 的并发性.
+
 twistedmatrix.com
+
 Shared by @mgrouchy
  
 
-- [Python Concurrency: An Intro to Threads](http://www.blog.pythonlibrary.org/2014/02/24/python-concurrency-an-intro-to-threads/)
-Great tutorial here. If you are looking to jump headfirst into Python threading and concurrency, this is as good a place as any to start.
+- [并发 Python : 线程介绍](http://www.blog.pythonlibrary.org/2014/02/24/python-concurrency-an-intro-to-threads/)
+
+如果你首次进入 Python 线程的并发领域,
+这是篇伟大的教程,
+值得从此处开始.
+
+
 pythonlibrary.org
+
 Shared by @mgrouchy
  
 
-- [Python Property](http://www.programiz.com/python-programming/property)
-Nice well written introduction to Python properties.
+- [Python 的属性](http://www.programiz.com/python-programming/property)
+
+很 Nice 的对 Python 属性的完备介绍
+
+
 programiz.com
+
 Shared by @myusuf3
  
 
-- [Generating Machine Learning Models With Scikit-Learn](http://www.garysieling.com/blog/generating-machine-learning-models-scikit-learn)
-In a follow up to his last post about "Building decision trees" the author gives a nice explanation of how to generate machine learning models with scikit-learn.
+- [用 Scikit-Learn 构建机械学习模块](http://www.garysieling.com/blog/generating-machine-learning-models-scikit-learn)
+
+
+在作者
+关于 `构建决策树` 
+系列文章最后,
+作者给出了如何产生机器学习模型
+的一个很好的解释,
+基于 scikit-learn.
+
+
 garysieling.com
+
 Shared by @mgrouchy
  
 
-- [Understanding Test Driven Development with Django](http://arunrocks.com/understanding-tdd-with-django/)
-If you are looking to learn a little more about Test Driven Development or are wondering about applying your TDD knowledge to your Django work, this is a great place to start.
+- [理解 Django 的 TTD](http://arunrocks.com/understanding-tdd-with-django/)
+
+如果正在为 Django 工程中开展 `TTD` ,
+这是最好的起点.
+
 arunrocks.com
+
 Shared by @mgrouchy
  
 
-- [Make Python Faster Without Trying Too Much](http://lukauskas.co.uk/articles/2014/02/12/how-to-make-python-faster-without-trying-that-much/)
-Nice article on the few steps you could take to make your code run faster without too much effort. Few great tips on profiling and taking advantage of things like pypy and cython!
+- [轻松加速 Python ](http://lukauskas.co.uk/articles/2014/02/12/how-to-make-python-faster-without-trying-that-much/)
+
+点赞的好文,
+不用对原有代码大动干弋,
+采用 pypy 或是 cython
+类似工具, 无缝加速!
+
 lukauskas.co.uk
+
 Shared by @myusuf3
  
 
-- [Fast scraping in python with asyncio](http://compiletoi.net/fast-scraping-in-python-with-asyncio.html)
-Cool article showing you how to build a faster screen scraper by downloading pages asynchronously with asyncio.
+- [python 和 asyncio 的高速爬虫](http://compiletoi.net/fast-scraping-in-python-with-asyncio.html)
+
+
+如何通过 asyncio 构建能异步下载网页的高速爬虫.
+
 compiletoi.net
+
 Shared by @mgrouchy
  
 
-- [Meta Programming with Python](http://impythonist.wordpress.com/2014/03/02/meta-programming-with-python/)
-Meta programming basics and as well introduces metaclass hooks.
+- [Python 的元编程](http://impythonist.wordpress.com/2014/03/02/meta-programming-with-python/)
+
+元编程基础,
+介绍了 metaclass hooks .
+
 wordpress.com
+
 Shared by @myusuf3
  
 
-- [Understanding Python By Breaking It](http://blog.hakril.net/articles/0-understanding-python-by-breaking-it.html)
-Increase your Python knowledge by breaking it. The author goes though a guided tour of poking and prodding CPythons internals.
+- [用深入黑箱方式来理解 Python](http://blog.hakril.net/articles/0-understanding-python-by-breaking-it.html)
+
+
+笔者引导我们深入 CPython 内部来理解 Python 的行为.
+
+
 hakril.net
+
 Shared by @mgrouchy
  
 
-- [Who needs a database?](http://getsilvi.com/blog/2014/03/20/who-needs-a-database/)
-Interesting thought experiment about completely knocking out database from stack, this obviously has some issues but interesting to see how it comes together.
+- [谁需要数据库?](http://getsilvi.com/blog/2014/03/20/who-needs-a-database/)
+
+有趣的思想实验,
+讨论怎么完全淘汰数据库, 
+虽然有点儿问题,
+但是,足够有趣,
+值得研讨看怎么走到最后一步的.
+
 getsilvi.com
+
 Shared by @myusuf3
  
 
-- [Logging as Storytelling #3: Types](http://www.hybridcluster.com/blog/logging-storytelling-3-types/)
-Have you ever considered what it takes to write excellent and consistent log messages? This article and its predecessors helps you define that.
+- [故事性日志3: Types](http://www.hybridcluster.com/blog/logging-storytelling-3-types/)
+
+你可思考过什么是和运行时一致的优秀的日志输出?
+此系列文章,帮助你充分思考这一问题.
+
 hybridcluster.com
+
 Shared by @mgrouchy
  
 
-- [An Artificial Intelligence for the 2048 game](http://diaryofatinker.blogspot.it/2014/03/an-artificial-intelligence-for-2048-game.html)
-2048 has been all the rage lately with projects cropping up everywhere. This is a cool examination of implementing an AI to solve the game.
+- [2048 游戏的 AI ](http://diaryofatinker.blogspot.it/2014/03/an-artificial-intelligence-for-2048-game.html)
+
+2048 游戏很是热了一段时间,
+有各种的实现案例,
+这是一个用 AI 来解决的方案.
+很 COOL.
+
 blogspot.it
+
 Shared by @mgrouchy
  
 
-- [20 Good Functions To Know in Python](http://thelivingpearl.com/2014/03/24/20-good-functions-to-know-in-python/)
-Another one of these lists that just keep coming up. Likely last one we will link to so enjoy!
+- [Python 中 20 点赞函式](http://thelivingpearl.com/2014/03/24/20-good-functions-to-know-in-python/)
+
+这类列表总是一个接一个冒出来,
+但是,每次推荐,都是非常爽脆的哪.
+
 thelivingpearl.com
+
 Shared by @myusuf3
  
 
-- [Python Project Howto](http://infinitemonkeycorps.net/docs/pph/)
-A great place to get started to turn your Python script into a Python project. Great guide that brings you from creating a repository to testing your code, all the way to packaging and releasing your code.
+- [Python 项目手册](http://infinitemonkeycorps.net/docs/pph/)
+
+超赞的手册,
+引导我们从一个 Python 脚本,
+一步步变成一个项目,
+包含仓库创建/持续测试/包装/发布 你的代码.
+
 infinitemonkeycorps.net
+
 Shared by @mgrouchy
  
 
-- [Build a Flask App in 30 Minutes](https://stormpath.com/blog/build-a-flask-app-in-30-minutes/)
-Get up and running with your first Flask app in no time!
+- [半小时以内创建 Flask 应用](https://stormpath.com/blog/build-a-flask-app-in-30-minutes/)
+
+任性的开始你的第一个 Flask 应用!
+
 stormpath.com
+
 Shared by @goStormpath
  
 
-- [Writing Purposeful Unit Tests](http://www.appneta.com/blog/purposeful-unit-testing/)
-Nice post about writing good unit tests to help you write better code, prevent regressions and allow you to assert the correctness of your code.
+- [构造有目的的单元测试](http://www.appneta.com/blog/purposeful-unit-testing/)
+
+好文,
+指导我们写出更好的单元测试代码,
+防止问题回归,
+用断言保卫你的代码.
+
+
 appneta.com
+
 Shared by @mgrouchy
  
 
-- [OOP concepts in Python 2.x - Part 1](http://lgiordani.github.io/blog/2014/03/05/oop-concepts-in-python-2-dot-x-part-1/)
-Cool little article on OOP way of thinking and Python.
+- [Python 2.x 中的 OOP 概念  - 第一部分](http://lgiordani.github.io/blog/2014/03/05/oop-concepts-in-python-2-dot-x-part-1/)
+
+
+爽利的系列,讨论 Python 中的的 OOP 思想.
+
 github.io
+
 Shared by @tw_lgiordani
  
 
-- [Getting Started with pylint](http://jbisbee.blogspot.ca/2014/04/getting-started-with-pylint.html)
-Introduction to Pylint for beginners.
+- [用起 pylint](http://jbisbee.blogspot.ca/2014/04/getting-started-with-pylint.html)
+
+面向初学者的 Pylint 介绍.
+
 blogspot.ca
+
 Shared by @myusuf3
  
 
-- [Lightweight Virtual Environments in Python 3.4](http://www.drdobbs.com/architecture-and-design/lightweight-virtual-environments-in-pyth/240167069)
-Article covers new venv features and usecases in Python 3.4
+- [Python 3.4 中的轻量虚拟环境](http://www.drdobbs.com/architecture-and-design/lightweight-virtual-environments-in-pyth/240167069)
+
+探讨了 Python 3.4 中的新 venv 和 usecases 特性
+
 drdobbs.com
+
 Shared by @myusuf3
  
 
-- [Understanding Gunicorn's Concurrency Model](http://words.volant.is/articles/understanding-gunicorns-async-worker-concurrency-model/)
-Nice article touching the finer points of gunicorn's concurrency models.
+- [理解 Gunicorn 的并发模式](http://words.volant.is/articles/understanding-gunicorns-async-worker-concurrency-model/)
+
+点赞好文,
+触及 
+gunicorn
+并发模式的细节.
+
 volant.is
+
 Shared by @myusuf3
  
 
-- [Visualizing Realtime Data w/ Python, D3, RabbitMQ](http://www.brettdangerfield.com/post/realtime_data_tag_cloud/)
-Article on consuming data from the twitter stream using RabbitMQ and Python. Then finally visualizing the data using D3.js
+- [用 Python, D3, RabbitMQ 实现数据的实时可视化](http://www.brettdangerfield.com/post/realtime_data_tag_cloud/)
+
+
+用 RabbitMQ 和 Python 完成对 
+twitter数据流的实时可视化,
+最终是用 
+D3.js 来渲染.
+
 brettdangerfield.com
+
 Shared by @myusuf3
  
 
-- [Python Data Structures are Fast](http://matthewrocklin.com/blog/work/2014/05/01/Fast-Data-Structures/)
-Nice article that some of you may find illuminating, with respect where certain speed ups and loses may actually occur in Python data structures.
+- [Python 数据结构不慢](http://matthewrocklin.com/blog/work/2014/05/01/Fast-Data-Structures/)
+
+点赞文,
+你总能从中发现亮点,
+每每程序运行变慢时,
+只是我们用错了内置数据类型而已
+
+
 matthewrocklin.com
+
 Shared by @mgrouchy
  
 
-- [A little note-taking app with Flask](http://charlesleifer.com/blog/saturday-morning-hack-a-little-note-taking-app-with-flask/)
-Awesome read for beginners looking to start a small flask project. This one covers the process of creating s simple note taking application in Flask.
+- [Flask 的小笔记应用](http://charlesleifer.com/blog/saturday-morning-hack-a-little-note-taking-app-with-flask/)
+
+非常适合初学者看的 Flask 入门项目,
+详尽的描述了一个简单 笔记应用的构建过程.
+
 charlesleifer.com
+
 Shared by @myusuf3
  
 
-- [Module Properties | The Proxy Pattern](http://jtushman.github.io/blog/2014/05/02/module-properties/)
-Nice explanation of how to add a @property to a Python module.
+- [模块属性 | 代理范式](http://jtushman.github.io/blog/2014/05/02/module-properties/)
+
+
+对 Python 模块的 `@property` 非常赞的解释.
+
 github.io
+
 Shared by @mgrouchy
  
 
-- [The Light and Dark Sides of Python Name Binding](http://excess.org/article/2014/04/bar-foo/)
-Pretty cool dive into python name binding! Tons of mind cool stuff to take advantage of for good and/or evil!
+- [Python 名字绑定的明暗两面](http://excess.org/article/2014/04/bar-foo/)
+
+极赞的文章,
+深入解析 Python `name binding` ,
+很有深度,
+清晰的讨论了这一策略的好与歹.
+
 excess.org
+
 Shared by @myusuf3
  
 
-- [10 Most Common Python Mistakes](http://www.toptal.com/python/top-10-mistakes-that-python-programmers-make)
-Nice round up of really common Python gotcha's that can trip up Python developers.
+- [10个最常见 Python 错误](http://www.toptal.com/python/top-10-mistakes-that-python-programmers-make)
+
+想成为真正的 Python 程序员,
+必须跳过,这些坎儿.
+
 toptal.com
-Shared by @mgrouchy
- 
 
-- [Python Partials are Fun!](http://pydanny.com/python-partials-are-fun.html)
-If you have been wondering about how to get started with Partials this is a great place to start. With a good explanation of what they are and an easy to follow example to see the flexibility and power of partials.
+Shared by @mgrouchy
+
+(`是也乎:`
+
+- 函式在定义前就用
+- 错误的使用类变量
+- 意外引用对象序列
+- 乱用Python域规则
+- 对迭代列表尝试修订
+- 闭包值绑定期待错误
+- 错误制造包循环依赖
+- 命名同名内置模块
+- Py2/3 语法乱用
+- 错用 `__del__`
+
+)
+
+- [Python 偏函式 很有趣!](http://pydanny.com/python-partials-are-fun.html)
+
+
+如果你一直没整明白怎么用 `偏函式`
+那就看这篇文章吧!
+
 pydanny.com
-Shared by @mgrouchy
- 
 
-- [Making a specific Django app faster](http://reinout.vanrees.org/weblog/2014/05/06/making-faster.html)
-Really nice detailed article of the steps you the author followed to speed up a Django application through profiling and optimization with tips on how you can apply these to your applications.
+Shared by @mgrouchy
+
+(`是也乎:`
+简单的说,
+就是又一个偷懒的姿势,
+用内置的 `functools.partial` 自动生成一系列函式.) 
+
+- [定制一个高速 Django 应用](http://reinout.vanrees.org/weblog/2014/05/06/making-faster.html)
+
+
+非常走心的文章,
+作者引导你分析加速 Django 的各种技巧,
+都是非常实用的.
+
 vanrees.org
+
 Shared by @
  
 
-- [Dynamic Programming with Python](http://www.jminuscula.es/blog/2014/05/07/dynamic-programming-with-python/)
-A walk through the Dynamic Programming strategy with a fun Python example
+- [Python 的动态编程](http://www.jminuscula.es/blog/2014/05/07/dynamic-programming-with-python/)
+
+用一个 Python 实例来体会动态编程
+
+
 jminuscula.es
+
 Shared by @jminuscula
- 
 
-- [Why I push for Python](http://lorenabarba.com/blog/why-i-push-for-python/#.U3FMdNVey9I.google_plusone_share)
-Great article about why an engineering professor would make a push to teach Python to undergraduates.
+(`是也乎:`
+杯具的是当前文章  404 了)
+
+- [为毛俺要推广 Python](http://lorenabarba.com/blog/why-i-push-for-python/#.U3FMdNVey9I.google_plusone_share)
+
+真爱哪!
+一位工程教授,向本科学生推广 Python 的文章.
+
 lorenabarba.com
+
 Shared by @mgrouchy
  
 
-- [Dockerizing a Python Web App](http://blogs.aws.amazon.com/application-management/post/Tx1ZLAHMVBEDCOC/Dockerizing-a-Python-Web-App)
-Docker has been all the buzz lately and this post shows you how to turn your Python web app into an application that can be deployed using docker containers on AWS.
+- [Dockerizing Python Web 应用](http://blogs.aws.amazon.com/application-management/post/Tx1ZLAHMVBEDCOC/Dockerizing-a-Python-Web-App)
+
+Docker 已经成为热点技术,
+文章介绍了如何将 Python 应用通过 Docker 部署在 AWS 上.
+
 amazon.com
+
 Shared by @mgrouchy
  
 
-- [How to Organize Your Python Application Code](http://pythonthusiast.pythonblogs.com/230_pythonthusiast/archive/1395_how_python_organize_your_application_code.html)
-Nice article with some good tips of how to organize your Python code next time you are writing a Python application.
+- [如何组织你的 Python 应用代码](http://pythonthusiast.pythonblogs.com/230_pythonthusiast/archive/1395_how_python_organize_your_application_code.html)
+
+如果你正要开始一个 Python 应用,
+此文不容错过!
+给你一个正确的姿势开始折腾.
+
 pythonblogs.com
+
 Shared by @mgrouchy
  
 
-- [Method overriding in Python](http://lgiordani.github.io/blog/2014/05/19/method-overriding-in-python/)
-Nice tips on Inheritance and Method overriding in Python.
+- [Python 的函式重载](http://lgiordani.github.io/blog/2014/05/19/method-overriding-in-python/)
+
+有关 Python 中 继承和重载的技巧.
+
 github.io
+
 Shared by @tw_lgiordani
  
 
-- [How do I Gevent?](http://blog.hownowstephen.com/post/50743415449/gevent-tutorial)
-Really nice extensive tutorial on Gevent. Provides plenty of background information, its pros and cons and how it all works by showing how to create a simple web crawler.
+- [为毛俺用 Gevent?](http://blog.hownowstephen.com/post/50743415449/gevent-tutorial)
+
+
+有关如何基于 Gevent 构建一个简单的网络爬虫系统,
+给出了丰富的背景资料,
+全面分析了利弊,
+给出了详细的教程,令人真正明白怎么运行起来.
+
 hownowstephen.com
+
 Shared by @mgrouchy
  
 
-- [Using Mocks in Python](http://www.drdobbs.com/testing/using-mocks-in-python/240168251)
-Extensive introduction to mock library in Python with tons of examples. If you are looking to learn a few things about mock this article is a good resource.
+- [在 Python 中用 Mocks](http://www.drdobbs.com/testing/using-mocks-in-python/240168251)
+
+成吨的资料和案例,
+如果你正在折腾怎么进行模拟,
+此文大善!
+
 drdobbs.com
+
 Shared by @myusuf3
  
 
-- [10 Awesome Features of Python 3](http://asmeurer.github.io/python3-presentation/python3-presentation.pdf)
-Awesome presentation on why you should seriously consider Python 3 and what you are missing out on!
+- [Python 3的10个超赞特性](http://asmeurer.github.io/python3-presentation/python3-presentation.pdf)
+
+真诚的描述,
+为毛你应该考虑迁移到 Py 3 的理由.
+
 github.io
+
 Shared by @myusuf3
  
+(`是也乎:`
+其实,已有定论:
 
-- [Is Crossbar.io the Future of Python Web Apps?](http://tavendo.com/blog/post/is-crossbar-the-future-of-python-web-apps/)
-Crossbar is an application router that implements WAMP. Nice post where the author talks about Crossbar and wonders if Crossbar could be the future of Python web applications.
+- 全新项目上 Py3
+- 有旧代码继承的, Py2 就好
+
+)
+
+- [Crossbar.io 是 Python Web 应用的未来嘛?](http://tavendo.com/blog/post/is-crossbar-the-future-of-python-web-apps/)
+
+
+Crossbar 是 WAMP 实现的应用路由器.
+作者给出了一篇非常赞的软文,
+热情而丰富的描述了 Python Web 应用的未来.
+
+
 tavendo.com
+
 Shared by @mgrouchy
+
+(`是也乎:`
+大妈曰了: `#图样图森破`
+Web 应用的未来是手机说了算的,
+不是框架.
+)
  
 
-- [Why Python 4.0 won't be like Python 3.0](http://www.curiousefficiency.org/posts/2014/08/python-4000.html)
-Nick Coghlan discusses the far future transition to Python 4.0, as well as touches on how it might not be exactly like the transition between Python 2.0 and 3.0
+- [为毛 Python 4.0 不会象 Python 3.0](http://www.curiousefficiency.org/posts/2014/08/python-4000.html)
+
+Nick Coghlan 讨论了 
+Py2/3 间这么大的差异,
+将导致 Py 4 继续这么折腾的原因.
+
 curiousefficiency.org
+
 Shared by @myusuf3
  
 
-- [Things from Python I'd miss in Go](http://www.yosefk.com/blog/things-from-python-id-miss-in-go.html)
-If you switched from Python to Go what would be the features you would miss from Python in Go? This is the question the author addresses in this post.
+- [在 Go 中俺最思念的 Python 特性](http://www.yosefk.com/blog/things-from-python-id-miss-in-go.html)
+
+
+如果亲,已经切换到 Go 语言中,
+那么一定异常的想念这些事儿.
+
 yosefk.com
+
 Shared by @mgrouchy
  
 
-- [Parallel Programming in Python](http://sebastianraschka.com/Articles/2014_multiprocessing_intro.html)
-A very complete introduction to parallel programming in Python using Python's multiprocessing module. This introduction takes you from the specifics about the multiprocessing module to its application.
+- [并行编程在 Python](http://sebastianraschka.com/Articles/2014_multiprocessing_intro.html)
+
+非常常备的介绍用 `multiprocessing` 进行并行编程的 Python 技巧,
+对此内置的神奇模块进行了深入的分析.
+
+
 sebastianraschka.com
+
 Shared by @mgrouchy
  
 
-- [Python Classes and Object Oriented Programming](http://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
-Everything you wanted to know about Object Oriented Programming in Python. Great introduction.
+- [Python 类和 OOP](http://www.jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
+
+一切有关 Python OOP 的事儿,
+都在这儿了.
+
 jeffknupp.com
+
 Shared by @mgrouchy
  
 
-- [Why Every Language Needs Its Underscore](http://hackflow.com/blog/2014/06/22/why-every-language-needs-its-underscore/)
-Interesting article about the funcy library and how it is analogous to the Underscore.js library. Its purpose is to make your life easier when writing code and give you a series of functional tools to write cleaner, more understandable code.
+- [为毛所有语言都需要 Underscore](http://hackflow.com/blog/2014/06/22/why-every-language-needs-its-underscore/)
+
+有关 `funcy` 库如何实现 Underscore.js 类似功能的,
+为了你的生源更加轻松,
+`funcy` 提供了一系列功能,
+令代码更加简洁易懂.
+
+
 hackflow.com
+
 Shared by @mgrouchy
  
 
--[Why Python (or any decent language) Doesn't Need Blocks](http://stupidpythonideas.blogspot.it/2014/06/why-python-or-any-decent-language.html)
-Very opinionated article on the hype of blocks in other languages and why they are no better than functions.
+-[为毛 Python (或其它类似语言)不需要 Blocks](http://stupidpythonideas.blogspot.it/2014/06/why-python-or-any-decent-language.html)
+
+对各种 Block 概念炒作文章的回应,
+说清楚了,为毛用不上.
+
 blogspot.it
+
 Shared by @myusuf3
  
 
-- [Using Docker as a Python Development Environment](http://continuousdelivery.uglyduckling.nl/uncategorized/using-docker-as-a-python-development-environment/)
-Docker is all the new hotness, check out this post detailing how to use Docker for your Python development environment.
+- [将 Docker 用作 Python 开发环境](http://continuousdelivery.uglyduckling.nl/uncategorized/using-docker-as-a-python-development-environment/)
+
+Docker 真心热了,
+此文详尽的描述了
+如何使用 Docker 作为 Python 开发环境!
+
 uglyduckling.nl
+
 Shared by @mgrouchy
  
 
-- [Anti-Patterns in Python Programming](http://lignos.org/py_antipatterns/)
-A look at some common Python programming anti-patterns and how to correct those common mistakes.
+- [Python 的反模式编程](http://lignos.org/py_antipatterns/)
+
+学习一下常见的反模式编程,
+以及怎么纠正之.
+
 lignos.org
+
 Shared by @mgrouchy
  
 
-- [Decorators and Functional Python](http://www.brianholdefehr.com/decorators-and-functional-python)
-How can Python's decorators help us thing in a functional way? Great information about Python decorators and how how they can teach us to think about functional concepts like higher order functions and closures.
+- [Python 的装饰符函式](http://www.brianholdefehr.com/decorators-and-functional-python)
+
+Python 的装饰符是如何帮助我们简化代码的?
+以及如何通过装饰符来
+理解函式/髙阶函式以及闭包的伟大!
+
 brianholdefehr.com
+
 Shared by @mgrouchy
  
 
-- [The Forgotten Optional `else` in Python Loops](http://shahriar.svbtle.com/pythons-else-clause-in-loops)
-I love this article, if you always felt dirty creating variable to keep track of conditionals, else clause reprise y'all.
+- [Python 循环中被遗忘的 `else` ](http://shahriar.svbtle.com/pythons-else-clause-in-loops)
+
+大爱此文,
+如果你总是创建胜数据来跟踪条件语句,
+`else` 能改善之.
+
 svbtle.com
+
 Shared by @myusuf3
  
 
-- [7 Python Regular Expressions Examples](http://www.thegeekstuff.com/2014/07/python-regex-examples/)
-Get the lowdown on using Regular expressions in Python.
+- [7 条 Python 正则表达式案例](http://www.thegeekstuff.com/2014/07/python-regex-examples/)
+
+获取 Python 中正则表达式的高级用法.
+
 thegeekstuff.com
+
 Shared by @mgrouchy
  
 
-- [Method decorators in Python](http://agiliq.com/blog/2014/07/method-decorators-in-python/)
-Decorators is probably the most popular topic for Python programming blogs. We can probably take this as a sign that not everyone understands them yet so check out this post on method decorators.
+- [Python 中的函式装饰](http://agiliq.com/blog/2014/07/method-decorators-in-python/)
+
+`Decorators` 一直是各种 Python 文章中讨论的热点,
+此文能很好的帮助人们理解什么是 `装饰符`
+
+
 agiliq.com
+
 Shared by @mgrouchy
  
 
-- [How to argue for Python’s use](http://nothingbutsnark.svbtle.com/how-to-argue-for-pythons-use)
-Python core developer Brett Cannon gives you some ammunition next time someone asks you "Why use Python?". Nice contrast of the reasons why Go is a good language and why you might still want to use Python.
+- [如何应对有关 Python 的语言争论](http://nothingbutsnark.svbtle.com/how-to-argue-for-pythons-use)
+
+Python 核心开发者 Brett Cannon
+给出这篇雄文,
+用以回应: "为毛要用 Python?"
+, 或是 "Go 是门很好的语言,但是,你依然可以联合使用 Python."
+
 svbtle.com
+
 Shared by @mgrouchy
  
 
-- [Become A Better Programmer - How To Read Source Code](http://pythonpracticeprojects.com/how-to-read-source-code.html)
-Reading source code is one of the most useful skills to learn for any programmer. In this post the author gives some nice tips to step up your code reading game.
+- [变成更好的程序员 - 如何读代码](http://pythonpracticeprojects.com/how-to-read-source-code.html)
+
+源代码阅读是所有程序猿必须的能力,
+此文作者给出了一些实用技巧来加强你的代码阅读效能.
+
+
 pythonpracticeprojects.com
+
 Shared by @mgrouchy
  
 
-- [Simple Python Parallelism](http://scottsievert.github.io/blog/2014/07/30/simple-python-parallelism/)
-Nice tutorial of how to easily parallelize tasks in Python with the languages `multiprocessing` library without getting bogged down learning other parallization frameworks.
+- [Python 的简单并行](http://scottsievert.github.io/blog/2014/07/30/simple-python-parallelism/)
+
+如何轻松的掌握 Python 中并行任务?
+掌握内置的 `multiprocessing` 库以及其它合适的框架.
+
+
 github.io
+
 Shared by @mgrouchy
  
 
-- [Making database-backed dashboards in 3 minutes](http://maxmautner.com/post/92930043315/making-database-backed-dashboards-in-3-minutes)
-Very simple tutorial to create Matplotlib graphs and ship them as part of email reports and web dashboards.
+- [3 分钟构建有数据库支持的 dashboards](http://maxmautner.com/post/92930043315/making-database-backed-dashboards-in-3-minutes)
+
+非常简单的教程,
+如何用 `Matplotlib` 图表和样式,
+完成一个邮件和web 的 dashboards.
+
+
 maxmautner.com
+
 Shared by @myusuf3
  
 
-- [Getting Started with Python Internals](http://akaptur.github.io/blog/2014/08/03/getting-started-with-python-internals/)
-Nice guide to get you ready to jump in and start working with Python internals.
+- [开始用 Python Internals](http://akaptur.github.io/blog/2014/08/03/getting-started-with-python-internals/)
+
+
+有关 Python `Internals` 的入门引导.
+
 github.io
+
 Shared by @mgrouchy
  
 
-- [Python for Programmers](http://rustyrazorblade.com/2014/08/python-for-programmers/)
-A nice collection of all the things you probably wanted to know when you started writing python programs.
+- [程序员的 Python](http://rustyrazorblade.com/2014/08/python-for-programmers/)
+
+针对初学者收集的,
+所有开始折腾 Python 时,
+应该知道的事儿.
+
 rustyrazorblade.com
+
 Shared by @mgrouchy
  
 
-- [Refactoring monolithic if/else filters with closures](http://www.startmake.com/refactoring-monolithic-ifelse-filters-with-closures/)
-Nice little example on how to refactor your monolithic if/else clauses for filtering data. Provides a small albeit contrived example to illustrate the issue.
+- [用 closures 重构单调的 if/else 过滤](http://www.startmake.com/refactoring-monolithic-ifelse-filters-with-closures/)
+
+点赞文,
+提供了实例来说明如何用 `closures`
+重构单纯的大批 `if/else` 语句.
+
 startmake.com
+
 Shared by @scottallenon
  
 
-- [Teaching an old dog new tricks - or, how I learned to love Python's str.format, and gave up on %](http://blog.lerner.co.il/teaching-old-dog-new-tricks-learned-love-str-format-gave/)format, and gave up on %
-Very nice guide about changing your ways from using '%' to format Strings in Python and use string.format instead.
+- [老程序猿的新技巧](http://blog.lerner.co.il/teaching-old-dog-new-tricks-learned-love-str-format-gave/)
+
+很赞的经验,
+如何用 `str.format` 替代经典的 `%` 样儿的格式化字符串
+
 lerner.co.il
+
 Shared by @mgrouchy
  
 
-- [How to Use Python Regular Expressions to Parse a Text File (Practical Use Case Scenario with Python Reg-Ex Re Split Sub)](http://www.thegeekstuff.com/2014/08/parse-text-file-using-python/)
-Great tutorial. Guides you step by step to parsing and cleaning up the resulting text from text files with Python regular expressions.
+- [如何用 Python 正则表达式解析文本文件](http://www.thegeekstuff.com/2014/08/parse-text-file-using-python/)
+
+(Practical Use Case Scenario with Python Reg-Ex Re Split Sub)
+
+很赞的教程,
+引导我们如何基于 正则表达式 来逐步清理文本数据.
+
 thegeekstuff.com
+
 Shared by @mgrouchy
  
 
-- [Higher Order Functions and List Comprehensions in Python](http://erokar.svbtle.com/beyond-the-forloop-higher-order-functions-in-python)
+- [Python 中的髙阶函式和列表推导](http://erokar.svbtle.com/beyond-the-forloop-higher-order-functions-in-python)
+
 svbtle.com
+
 Shared by @myusuf3
  
 
-- [How to Supercharge Your Python Shell with a .pythonrc](http://dlo.me/archives/2014/09/08/pythonrc/)
-Awesome small little way to make your python shell so much more convenient.
+- [如何用 .pythonrc 提升你的 Python 命令行](http://dlo.me/archives/2014/09/08/pythonrc/)
+
+超赞的小技巧,能将 Python Shell 搞的如此 Bigger ;-)
+
 dlo.me
-Shared by @myusuf3
- 
 
-- [Python Bad Practice, A Concrete Case](https://julien.danjou.info/blog/2014/python-bad-practice-concrete-case)
-Awesome run down of bad practice Python, with concrete examples!
+Shared by @myusuf3
+
+
+(`是也乎:` 
+不过王道是 `IPy[:] notebook`) 
+
+- [实例说明不好 Python 的作法](https://julien.danjou.info/blog/2014/python-bad-practice-concrete-case)
+
+
+很赞的用实例, 逐条演示为毛这么来很挫.
+
 danjou.info
+
 Shared by @myusuf3
  
 
-- [Python Single Line For Loops](http://blog.teamtreehouse.com/python-single-line-loops)
-Nice introduction to list comprehensions here for the new Python programmer.
+- [Python 单行循环](http://blog.teamtreehouse.com/python-single-line-loops)
+
+为新 Python 程序猿准备的列表推导介绍.
+
 teamtreehouse.com
+
 Shared by @mgrouchy
  
 
-- [Guido van Rossum On Finding His Way](https://medium.com/dropbox-makers/guido-van-rossum-on-finding-his-way-e018e8b5f6b1)
-The Python creator and Dropbox engineer reflects on his early days in programming.
+- [Guido van Rossum 在找路](https://medium.com/dropbox-makers/guido-van-rossum-on-finding-his-way-e018e8b5f6b1)
+
+
+Python 创始人以及 Dropbox 工程师,
+回顾早期的 Python 思想.
+
 medium.com
+
 Shared by @myusuf3
  
 
-- [Tutorial I Wish I Had When Tackling AJAX and Django](http://aliteralmind.wordpress.com/2014/09/21/jquery_django_tutorial/)
-Beginners tutorial on how to use AJAX and Django!
+- [AJAX 和 Django 怎么开始?](http://aliteralmind.wordpress.com/2014/09/21/jquery_django_tutorial/)
+
+针对小白的 Django 教程,
+怎么用起来 AJAX ?
+
 wordpress.com
+
 Shared by @myusuf3
  
 
-- [Celery In Production](http://www.caktusgroup.com/blog/2014/09/29/celery-production/)
-How Caktus Group uses Celery in production!
+- [产品中的芹菜](http://www.caktusgroup.com/blog/2014/09/29/celery-production/)
+
+Caktus 团队如何在产品中折腾 
+Celery (`芹菜`)的!
+
 caktusgroup.com
+
 Shared by @myusuf3
  
 
 - [Maybe in Python](http://senko.net/maybe-monad-in-python)
+
 senko.net
+
 Shared by @myusuf3
  
 
-- [Asyncio Implementation Overview](http://www.bitdance.com/blog/2014/09/30_01_asycio_overview/)
-Awesome article for understanding asyncio! For the beginner to async programming but adequately experienced python developers.
+- [Asyncio 实施概要](http://www.bitdance.com/blog/2014/09/30_01_asycio_overview/)
+
+
+理解 `asyncio` 的爽文!
+对异步编程的初学者非常有用.
+
 bitdance.com
+
 Shared by @myusuf3
  
 
-- [Django vs Flask vs Pyramid: Choosing a Python Web Framework](https://www.airpair.com/python/posts/django-flask-pyramid)
-Comparing the big 3 Python web frameworks!
+- [Django vs Flask vs Pyramid: Python Web 框架的选择](https://www.airpair.com/python/posts/django-flask-pyramid)
+
+
 airpair.com
+
 Shared by @myusuf3
  
 
-- [Five mini programming projects for the Python beginner](https://medium.com/learning-journalism-tech/five-mini-programming-projects-for-the-python-beginner-21492f6ce0f3)
-New to Python programming? Here are five projects to help get you started.
+- [为 Python 新人准备的5个小项目](https://medium.com/learning-journalism-tech/five-mini-programming-projects-for-the-python-beginner-21492f6ce0f3)
+
+Python 新人?
+从这5个项目入手吧!
+
 medium.com
+
 Shared by @mgrouchy
  
 
-- [Simple Interactive Data Analysis with Python](http://pbpython.com/simple-data-analysis.html)
-Simple article for the simple basics of python interactivity and the awesomeness that is IPython so if you haven't tried it out yet. Great place to start!
+- [用 Python 进行简单互动式数据分析](http://pbpython.com/simple-data-analysis.html)
+
+
+通过极赞的 IPython 我们
+可以进行互动式的数据分析,
+从未体验过,从这儿开始吧.
+
 pbpython.com
+
 Shared by @myusuf3
  
 
-- [In Python, it's all about the attributes](http://blog.lerner.co.il/python-attributes/)
-Very detailed post about attributes in Python. Good read!
+- [Python 里,其实都是 attributes](http://blog.lerner.co.il/python-attributes/)
+
+非常详细的分析,
+有关 Python 的属性, 值得研读!
+
 lerner.co.il
+
 Shared by @mgrouchy
  
 
-- [Advanced use of Python decorators and metaclasses](http://lgiordani.com/blog/2014/10/14/decorators-and-metaclasses/)
-Got the basics of Python decorators and Metaclasses down? If so time to step up your Python game with more advanced techniques.
+- [Python 修饰符和元类的高级用法](http://lgiordani.com/blog/2014/10/14/decorators-and-metaclasses/)
+
+已经掌握了 修饰符和元类的基础用法?
+是时候加强这方面的技能了.
+
+
 lgiordani.com
+
 Shared by @tw_lgiordani
  
 
-- [Django vs Flask vs Pyramid: Choosing a Python Web Framework](http://www.airpair.com/python/posts/django-flask-pyramid)
-This post presents a nice comparison to help you choose the between the Django, Flask and Pyramid web frameworks.
-airpair.com
-Shared by @elldudley
- 
+- [Python 的 Fluent Interface](http://kracekumar.com/post/100897281440/fluent-interface-in-python)
 
-- [Fluent interface in python](http://kracekumar.com/post/100897281440/fluent-interface-in-python)
 kracekumar.com
+
 Shared by @mgrouchy
+
+(`是也乎:`
+即 `链式调用`
+比如: `Poem('The Road Not Taken').indent(4).suffix('Robert Frost')`
+
+已经有专著在撰写中了:
+[Fluent Python - O'Reilly Media](http://shop.oreilly.com/product/0636920032519.do?code=DEAL)
+)
  
 
-- [Building Web Applications with Django and AngularJS](https://thinkster.io/brewer/angular-django-tutorial/)
-Now this is a very detailed guide to building web apps with Django and Angular.js. Definitely worth checking out.
+- [用 Django 和 AngularJS 构建 Web 应用](https://thinkster.io/brewer/angular-django-tutorial/)
+
+结合 Django 和 AngularJS 这两大热点技术来构建 Web 应用,
+这是篇极详尽的说明.
+
 thinkster.io
+
 Shared by @mgrouchy
  
+(`是也乎:`
+详细到没朋友哪...
+)
 
-- [Python Comprehension Syntax](https://www.airpair.com/python/posts/python-comprehension-syntax)
-Nice comprehensive tutorial of Comprehension and Generator syntax in Python.
+
+- [Python 理解语法](https://www.airpair.com/python/posts/python-comprehension-syntax)
+
+点赞文,
+有关 Python 语法解析和生成的完备教程.
+
 airpair.com
+
 Shared by @elldudley
  
 
-- [Virtualenv the Docker way](http://blog.atte.ro/2014/11/16/docker-virtualenv.html)
-Some neat tricks for working with Virtualenv inside your docker containers.
+- [Virtualenv 的 Docker 姿势](http://blog.atte.ro/2014/11/16/docker-virtualenv.html)
+
+
+在 Docker 容器中的 Virtualenv 技巧
+
 atte.ro
+
 Shared by @mgrouchy
  
 
-- [Modern guide to getting started with Data Science and Python](http://twiecki.github.io/blog/2014/11/18/python-for-data-science/)
-Nice post, but I dont agree with his tempered advice for newbies not to take a look at numpy and matplotlib! Good read though!
+- [数据科学和 Python 的现代化入门手册](http://twiecki.github.io/blog/2014/11/18/python-for-data-science/)
+
+好文,
+虽然不完全同意作者不建议新人看 numpy 和 matplotlib.
+但是,真心值得研读的好文!
+
 github.io
+
 Shared by @myusuf3
  
 
-- [Multiprocessing and Memory](http://www.yseam.com/blog/MM.html)
-Multiprocessing in Python doesn't get much HYPE. Here is a cool little post how it can be effective in a ton of spots.
+- [Multiprocessing 就内存](http://www.yseam.com/blog/MM.html)
+
+
+Multiprocessing 在 Python 世界并没有得到过多关注,
+其实这方面有太多可以折腾的了.
+
 yseam.com
+
 Shared by @myusuf3
  
 
-- [Recommended Django Project Layout](http://www.revsys.com/blog/2014/nov/21/recommended-django-project-layout/)
-Unsure on how to setup your Django project?
+- [推荐的 Django 项目分布](http://www.revsys.com/blog/2014/nov/21/recommended-django-project-layout/)
+
+不确定如何配置你的 Django 工程?
+看这篇文章就对了.
+
 revsys.com
+
 Shared by @myusuf3
  
 
-- [Top 10 Python idioms I wish I'd learned earlier](http://prooffreaderplus.blogspot.ca/2014/11/top-10-python-idioms-i-wished-id.html)
-A nice collection of Python idioms that are very nice to know! Check out the discussion section for further discussion of this post on reddit.
+- [俺最希望一开始就知道的 10 个 Python 知识点](http://prooffreaderplus.blogspot.ca/2014/11/top-10-python-idioms-i-wished-id.html)
+
+在 reddit 上引发热议的问题,
+非常实用的知识点列举.
+
 blogspot.ca
+
 Shared by @mgrouchy
  
 
-- [The Future of Asynchronous IO in Python](https://medium.com/@paulcolomiets/the-future-of-asynchronous-io-in-python-ce200536d847)
-Real nice overview of common design patterns of the past and a look at the emergent patterns in Asynchronous IO in the future.
+- [Python 中的异步 IO](https://medium.com/@paulcolomiets/the-future-of-asynchronous-io-in-python-ce200536d847)
+
+对过去常见的异步模型进行了完备的概述,
+并对未来的异步 IO 进行了很好的设想.
+
 medium.com
+
 Shared by @mgrouchy
  
 
--[A Python Internals Adventure](http://flowerhack.dreamwidth.org/3594.html)
-Awesome article on diving into python internals and CPython.
+-[Python 内在探索](http://flowerhack.dreamwidth.org/3594.html)
+
+深入 CPython 内部机理的好文章.
+
 dreamwidth.org
+
 Shared by @myusuf3
  
 
-- [Retries in Requests](http://www.coglib.com/~icordasc/blog/2014/12/retries-in-requests.html)
-Nice dive into one of the advanced features of the requests library, retries. Nice example to get you started here if this is something you need in your next project.
+- [Requests 的重试](http://www.coglib.com/~icordasc/blog/2014/12/retries-in-requests.html)
+
+探讨了 `requests` 库一个重要的高级特性,
+重试!
+这绝对是你项目中需要的!
+
+
 coglib.com
+
 Shared by @sigmavirus24
  
 
-- [Why is Object-Oriented Programming Useful?](http://inventwithpython.com/blog/2014/12/02/why-is-object-oriented-programming-useful-with-an-role-playing-game-example/)
-Nice little article on OOP for beginners.
+- [为毛 OOP 有用?](http://inventwithpython.com/blog/2014/12/02/why-is-object-oriented-programming-useful-with-an-role-playing-game-example/)
+
+
+针对小白的 OOP 导入.
+
 inventwithpython.com
+
 Shared by @myusuf3
  
  
-- [Deploying a Django app on Dokku](https://realpython.com/blog/python/deploying-a-django-app-on-dokku/)
-Get up and running with your favorite django applications on Dokku. Very cool!
+- [在 Dokku 中部署 Django 应用](https://realpython.com/blog/python/deploying-a-django-app-on-dokku/)
+
+在 Dokku 中跑起来你喜欢的 Django 应用,
+很 COOL!
+
 realpython.com
+
 Shared by @myusuf3
  
 
-- [Django and Flask: Why and When To Use Each](https://www.hakkalabs.co/articles/django-and-flask)
-Cool talk, on when to use which framework and when to switch!
+- [Django 和 Flask: 为何以及何时用](https://www.hakkalabs.co/articles/django-and-flask)
+
+很关键的思考,
+何时我们应该切换框架.
+
 hakkalabs.co
+
 Shared by @myusuf3
  
 
-- [10 Myths of Enterprise Python](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/)
-Nice breakdown of myths from PayPal Engineering.
+- [企业级 Python 的 10 个神话](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/)
+
+来自 PayPal 工程师的破妄体验.
+
 paypal-engineering.com
+
 Shared by @myusuf3
  
 
-- [14 Best Pandas Features](http://www.bigdataexaminer.com/14-best-python-pandas-features/)
-Nice breakdown of 14 great(and possibly best) Panda's features. Discover what you might be missing out on.
+- [14 个最赞的 Pandas 特性](http://www.bigdataexaminer.com/14-best-python-pandas-features/)
+
+
+14 个最伟大的(可能也是最好的) Pandas 特性,
+看看你错过了哪些个?
+
 bigdataexaminer.com
+
 Shared by @mgrouchy
  
 
-- [The Top Mistakes Developers Make When Using Python for Big Data Analytics](https://www.airpair.com/python/posts/top-mistakes-python-big-data-analytics)
+- [大数据分析中最常见的Python 开发错误](https://www.airpair.com/python/posts/top-mistakes-python-big-data-analytics)
 
-Nice breakdown of common mistakes that developers often make when working with Python for big data analytics.
+
+用 Python 进行大数据分析时,最常见的错误,
+给出了详细的解析说明.
+
 airpair.com
+
 Shared by @elldudley
  
 
 - [json vs simplejson vs ujson](https://medium.com/@jyotiska/json-vs-simplejson-vs-ujson-a115a63a9e26)
-Very detailed rundown with benchmarks of the differences between common python JSON parsing libraries. SPOILER: ujson is the fastest by a considerable margin.
+
+非常详细的 JSON 解析库对比,
+结论很重要: `ujson` 是最快的!
 
 medium.com
 
@@ -1239,6 +1752,10 @@ Python 官方文档,不应该缺少完本的中译!
 - [Astral](https://app.astralapp.com/dashboard) ~ 经过 周刊的疯狂推荐,你一定积累了无数加星的 github 项目,早已无法快速定位某个方面的项目了,肿么办? 使用这个第三方标签/搜索/索引服务吧!
 
 ----
+
+150112 [Zoom.Quiet](http://zoomquiet.io/) 用时 198 分钟 完成快译99%.
+
+150110 [Zoom.Quiet](http://zoomquiet.io/) 用时 77 分钟 完成快译42%.
 
 150107 [Zoom.Quiet](http://zoomquiet.io/) 用时 47 分钟 完成快译20%.
 
