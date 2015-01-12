@@ -5,10 +5,11 @@ Slug: issue-147-top2014
 
 [TOC]
 
+![Image_202014_01_22_20at_2010.45.04_20AM9789bf.png（PNG 图像，860x97 像素）](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)
+
 # Hi Pythonistas!
 
 亲,
-
 
 这是我们的2014年度综合最赞,
 感谢赞助商 
@@ -293,159 +294,315 @@ Shared by @mgrouchy
  
 
 - [battleschool](https://github.com/spencergibb/battleschool)
-This is neat. Set up your development environment using ansible in a similar way you would set up your machine with something like Boxen.
+
+用 ansible 对你的开发环境进行明快的迁移/部署,
+就象 Boxen,
+的教程.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [awesome-python](https://github.com/vinta/awesome-python)
-A curated list of awesome Python resources, frameworks, libraries and software.
+
+
+有关 Python 最赞的资源收集,
+包含库/软件 等等.
+
 github.com
+
 Shared by @mgrouchy
- 
+
+(`是也乎:`
+
+2014 突然风行各种 `awesome-*` 
+甚至于 Django 都有一个专门的最赞列表,
+而且是常更新的,值得长期收藏.
+)
+
+
+
 
 - [inbox](https://github.com/inboxapp/inbox)
-Inbox platform launched earlier this week, with tons of SDKs and libraries! This is the one in Python. Great premise and should enable people to do some great stuff!
+
+
+Inbox 平台发布不久,
+包含了大量的 SDK 和库,
+旨在帮助大家用 Py 完成些伟大的东西,不要在意细节...
+
 github.com
+
 Shared by @myusuf3
  
 
 - [py-must-watch](https://github.com/s16h/py-must-watch)
-A great collection of must watch Python videos. Great resource to start levelling up your Python knowledge.
+
+超赞的视频收集,
+特别对想升级 Py 知识的而言.
+
 github.com
+
 Shared by @STajbakhsh
  
+(`是也乎:`
+当然墙外的...)
+
 
 - [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
-A curated list of awesome Machine Learning frameworks, libraries and software.
+
+极赞的有关机械学习的所有框架/库/软件的列表!
+
 github.com
+
 Shared by @myusuf3
  
 
 - [python-fields](https://github.com/ionelmc/python-fields)
-Writing container classes often requires the writing of significant amounts of boilerplate. Avoid all of that with the fields module which offers a way to avoid it.
+
+
+容器类的撰写总是面临大量的类似代码,
+python-fields 提供了一种简洁的方法来避免.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [awesome-django](https://github.com/rosarior/awesome-django)
-Over the last few issues there have been other "awesome" collections. If you are into Django, this is the one for you!
+
+
+是也乎,各种 `awesome` 怎么可以没有 Django 的呢,
+所以,这就是了...
+
 github.com
+
 Shared by @myusuf3
  
 
 - [Toga](http://pybee.org/toga/)
-A Python native, OS native GUI toolkit. Very cool project for building Native GUI apps with Python.
+
+Python 原生的, OS 本地 GUI 工具包.
+非常COOL.
+
 pybee.org
+
 Shared by @mgrouchy
  
 
 - [doorman](https://github.com/halitalptekin/doorman)
-Keeps your secrets, secret. Allows you to put the keys, passwords and things you want to keep secret in a config file and then hide and show your secrets.
+
+
+在配置文件中,
+加密口令等等机密信息.
+同时,不影响正当使用.
+
 github.com
+
 Shared by @halitalptekin
+
+(`是也乎:`
+一种专用 模板语言)
  
 
 - [vim-bootstrap](https://github.com/avelino/vim-bootstrap)
-A simple website that helps you bootstrap your .vimrc for your preferred language.
+
+简单的网站,
+引导你完成 `.vimrc` 对开发语言的配置.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [python-patterns](https://github.com/faif/python-patterns)
-A collection of common Python design patterns and idioms.
+
+对设计模式 Python 实践的收集
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [flask-xxl](https://github.com/jstacoder/flask-xxl)
-Interesting. A best practices approach to creating large web apps, with the goal of making flask feel more like django.
+
+
+很得趣,
+以最佳实践的形式,
+引导如何用 Flask 象 Django 一样,
+构建大型应用.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [discover-flask](https://github.com/realpython/discover-flask)
-A weekly series of Screencasts covering an introduction to Flask.
+
+
+Flask 的周刊,
+包含各种截屏和介绍.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [awesome-sqlalchemy](https://github.com/dahlia/awesome-sqlalchemy)
-Lots of really awesome SQLAlchemy resources.
+
+又一个 `awesome` 这次索引了所有 
+SQLAlchemy 资源.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [lenscap](https://github.com/honza/lenscap)
-Lenscap is a static site generator for creating beautiful photo narratives
+
+
+专注生成美丽的照片展览的静态网站生成工具.
+
 github.com
+
 Shared by @myusuf3
  
+(`是也乎:`
+可惜没有时间线效果那么 bigger 哪,,,
+e.g:
+[大小丸子🐒:"情人节快乐;-)" | MoMoKo.in | 丸子家.在内](http://momoko.in/family/family-timeline.html)
+)
 
 - [schematics](https://github.com/schematics/schematics)
-A Python library to combine types into structures, validate them, and transform your data based on simple descriptions.
+
+
+用合成类型进行结构描述的库,
+基于结构化的描述,
+完成验证和数据转换.
+
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [home-assistant](https://github.com/balloob/home-assistant)
-Home automation with Python.
+
+用 Python 完成家庭智能化.
+
 github.com
+
 Shared by @mgrouchy
  
 
-- [500 Lines or Less](https://github.com/aosabook/500lines)
-Awesome repository of how things work with computers and software. I am sure we have shared this before but its definitely worth another look.
+- [500 行以内](https://github.com/aosabook/500lines)
+
+
+通过计算机和软件能作什么?
+这是一个非常赞的收集,
+相信你值得认真研究一下, 500行以内的代码能作到些什么.
+
+
 github.com
+
 Shared by @myusuf3
  
+(`是也乎:`
+
+代码就是魔法禁咒,
+看看这些短而又力的咒语吧,
+这就是人类的未来.
+
+)
 
 - [tortilla](https://github.com/redodo/tortilla)
-Very cool project for consuming APIs made easy. Give it a look if you are tried of writing API wrappers.
+
+
+令接口的暴露无法自在的项目,
+协助你 Pythonic 的完成 API 的发布.
+
 github.com
+
 Shared by @myusuf3
  
 
 - [iterstuff](https://github.com/mobify/iterstuff)
-A collection of tools for working with iterators.
+
+
+有关 迭代 的工具集
+
 github.com
+
 Shared by @benlast
+
+(`是也乎:`
+
+是否能自如的使用 iterators 是 Pythonista 从入门到可运营的一个门槛.
+)
 
 ## 文章
 
-- [Python 201: Properties](http://www.blog.pythonlibrary.org/2014/01/20/python-201-properties/)
+- [Python 201: 性能](http://www.blog.pythonlibrary.org/2014/01/20/python-201-properties/)
+
 pythonlibrary.org
+
 Shared by @myusuf3
  
 
-- [Reasons for Using IPython Interactively](http://fastml.com/why-ipy-reasons-for-using-ipython-interactively/)
-You might have heard all the talk about the wonderful IPython notebooks, here are some reasons why you should check out the IPython interactive shell.
+- [得用 IPython 交互环境的原因](http://fastml.com/why-ipy-reasons-for-using-ipython-interactively/)
+
+你可能听说过 IPython 的神奇,
+这儿有详细的爽点描述,
+`IPy[:]` 你值得拥有!
+
 fastml.com
+
 Shared by @myusuf3
  
 
-- [A Django Code Organization Strategy](http://redbeacon.github.io/2014/01/28/Fat-Models-a-Django-Code-Organization-Strategy/)
-I like to see this type of writing when is comes to software and how it is laid out. This covers various options and solving problems and proposes a few solutions. Favourite is in the comments.
+- [Django 代码组织策略](http://redbeacon.github.io/2014/01/28/Fat-Models-a-Django-Code-Organization-Strategy/)
+
+
+俺最喜欢研读 有关 软件和代码布局相关的文章,
+这包含了各种问题和各种决策的纠结,
+当然,更爱的是这种文章之后的各种神评论.
+
+
+
 github.io
+
 Shared by @myusuf3
  
 
-- [How to Save 90% on Your S3 Bill](http://www.appneta.com/blog/s3-list-get-bucket-default/)
-Awesome find, everyone hosting anything on S3 will want to read this.
+- [如何为你的 S3 节省 90% 的开销](http://www.appneta.com/blog/s3-list-get-bucket-default/)
+
+实用! 每个 AWS 用户都应该学习之!
+
 appneta.com
+
 Shared by @myusuf3
  
 
-- [Full Stack Python](http://www.fullstackpython.com/)
-A great guide of dealing with the full stack required with creating a Python web application. Topics cover the entire stack from servers, web frameworks, security and source control.
+- [全桟 Python](http://www.fullstackpython.com/)
+
+构建一个 Python Web 应用所涉及的完备的技能树的伟大指南.
+涵盖了 从服务端/框架/安全/源代码管理等等.
+
 fullstackpython.com
+
 Shared by @mgrouchy
  
-
+(`是也乎:`
+`#图样图森破`了,
+没有产品/市场技术的 全桟工程师,
+照样被 PM 虐的...)
 
 - [Setting up Sublime Text 3 for Full Stack Python Development](https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/)
+
 Fantastic guide to help you get up and running with Sublime Text for your next Python project.
+
 realpython.com>
+
 Shared by @mgrouchy
  
 
@@ -1051,6 +1208,12 @@ Shared by @mgrouchy
 
 ## 蠎中国.年度最赞
 
+- [binux/pyspider](https://github.com/binux/pyspider)
+
+认真到给出全E文文档的国人作品
+[pyspider](http://docs.pyspider.org/en/latest/)
+而且已经发布了服务, [TRY IT NOW!](http://demo.pyspider.org/)
+
 - [PythonYiyi/translation](https://github.com/PythonYiyi/translation)
 
 严格的说不是 2014 发布的,但是,代码的确是在 2014 完成的.
@@ -1071,6 +1234,7 @@ Python 官方文档,不应该缺少完本的中译!
 
 # 是也乎
 大妈私人推荐:
+
 
 - [Astral](https://app.astralapp.com/dashboard) ~ 经过 周刊的疯狂推荐,你一定积累了无数加星的 github 项目,早已无法快速定位某个方面的项目了,肿么办? 使用这个第三方标签/搜索/索引服务吧!
 

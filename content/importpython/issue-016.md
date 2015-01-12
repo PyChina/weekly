@@ -3,7 +3,7 @@ Slug: importpython-16
 Date: 2015-01-09 20:20
 Tags: Weekly,ImportPython,Zh 
 
-![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/w/420)
+![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210)
 
 
 原文: [Import Python Weekly Newsletter - Issue No 16](http://importpython.com/newsletter/no/16/)
