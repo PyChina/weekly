@@ -37,272 +37,13 @@ Slug: issue-147-top2014
 - 目测,今年是直接统计订阅文章中的链接点击数量,得出的 最赞内容,没有去年人工分类了,大妈任性的对文章进行了简单分类,期望帮助大家感受到 Python 这年关注的领域大致范畴.
 
 ## 项目
-- [robobrowser](https://github.com/jmcarp/robobrowser)
-
-基于 Requests 和 BeautifulSoup 的网络爬虫库,
-类似 Mechanize, 不过有 测试/文档,以及更加 Pythonic 的界面.
-
-github.com
-
-Shared by @whatthecarp
- 
-
-- [mining](https://github.com/avelino/mining)
-
-github.com
-
-Shared by @mgrouchy
-
-(`是也乎:`
-商业智能服务哪! 纯 Py 完成的. )
-
-- [wagtail](https://github.com/torchbox/wagtail)
-Wagtail 是 Django 
-完成的 CMS.
-界面设计更加出色, 是 Django CMS 的可替代品.
-
-github.com
-
-Shared by @tomd
- 
-
-- [huey](https://github.com/coleifer/huey)
-
-Python 的多线程 任务队列.
-
-github.com
-
-Shared by @myusuf3
-
-(`是也乎:`
-项目名称来自作者的喵
-![huey](https://camo.githubusercontent.com/671f46789e5addd8f49c74eeb22cee99ef68d323/687474703a2f2f6d656469612e636861726c65736c65696665722e636f6d2f626c6f672f70686f746f732f7468756d626e61696c732f494d475f32303133303430325f3135343835385f363530783635302e6a7067))
- 
-
-- [Flask API](http://www.flaskapi.org/)
-
-大爱 Django REST 框架的你,
-现在可以在 Flask 上享用类似的 API 了.
-
-flaskapi.org
-
-Shared by @myusuf3
- 
-
-- [Mario Level 1 In Python](https://github.com/justinmeister/Mario-Level-1)
-Recreating the first level in Mario using PyGame. Awesome for anyone interested in build a 2D platformer.
-
-用 PyGame 重制的 Mario 第一关游戏,
-对2D游戏有兴趣,是个很赞的基础.
-
-github.com
-
-Shared by @myusuf3
- 
-
-- [Algorithms](https://github.com/prakhar1989/Algorithms)
-
-针对 Python 收集的有关 数据分析和算法.
-
-github.com
-
-Shared by @myusuf3
- 
-
-- [rumps](https://github.com/jaredks/rumps)
-
-用 Python 实现的  Mac OSX 状态栏应用!
-
-github.com
-
-Shared by @myusuf3
-
-
-- [psdash](https://github.com/Jahaja/psdash)
-
-漂亮的 Flask 实现的 web 仪表盘,
-可展示 psutil 输出的各种系统数据.
-
-github.com
-
-Shared by @mgrouchy
- 
-(`是也乎:`
-glances 的 web 版本 :D
-)
-
-- [500 Lines or Less](https://github.com/aosabook/500lines)
-
-超赞的收集,
-展示用电脑和软件可以折腾出来,
-真心值得收藏.
-
-github.com
-
-Shared by @myusuf3
- 
-
-- [IPython Notebook Themes](https://github.com/nsonnad/base16-ipython-notebook)
-
-
-对 IPython Notebook 的定制样式,
-赞的!
-
-github.com
-
-Shared by @myusuf3
- 
-(`是也乎:`
-![ocean-dark](https://github.com/nsonnad/base16-ipython-notebook/raw/master/screenshots/ocean-dark.png)
-
-这是真爱
-)
-
-- [Jarvis](https://github.com/debugger22/Jarvis)
-
-DIY 一个 `Jarvis样` 的私人助理, 当然用 Python!
-
-github.com
-
-Shared by @mgrouchy
- 
-
-- [Python Practice Projects](http://pythonpracticeprojects.com/)
-
-Python 实践系列项目,
-帮助你磨练提高!
-
-pythonpracticeprojects.com
-
-Shared by @mgrouchy
- 
-
-- [Flask-Foundation](https://github.com/JackStouffer/Flask-Foundation)
-
-
-Flask 脚手架,是你开始应用构建的最佳基础.
-
-github.com
-
-Shared by @mgrouchy
  
 
 
-- [Stellar](https://github.com/fastmonkeys/stellar)
 
-高速数据库快照工具,
-就象为数据库定制的 git ;-)
-
-github.com
-
-Shared by @versae
-
-(`是也乎:`
-当然的支持 PostgreSQL and MySQL )
-
-- [percol](https://github.com/mooz/percol)
-
-漂亮的, 终端上的互动式 grep 工具.
-REAME 中有详细介绍和演示.
-
-github.com
-
-Shared by @mgrouchy
-
-(`是也乎:`
-![githubusercontent](https://camo.githubusercontent.com/006cf03e9f0a069217c3c4b41c07743afc9c0ed5/687474703a2f2f6d6f6f7a2e6769746875622e696f2f706572636f6c2f706572636f6c5f6f766572766965772e676966)
-
-支持 tmux/zsh 哗...
-) 
-
-- [magpie](https://github.com/charlesthomas/magpie)
-
-Git-Backed Evernote 替代.
-
-github.com
-
-Shared by @myusuf3
- 
-(`是也乎:`
-一直以来有N 多程序猿在尝试这事儿:
-
-- http://simplenote.com/
-- https://github.com/FoxUSA/OpenNote
-- https://github.com/Laverna/laverna
-- https://github.com/gollum/gollum
-- https://github.com/grena/gruik/
-- https://dragdis.com/
-- ...
-)
+### AWESOME
 
 
-
-- [Explore Flask](http://exploreflask.com/)
-
-Flask 探索之书, 已经免费在线发布,
-是时候升级这方面的知识了;
-
-exploreflask.com
-
-Shared by @mgrouchy
- 
-
-- [The Stolen Crown RPG](https://github.com/justinmeister/The-Stolen-Crown-RPG)
-
-爽!
-Python 实现的 RPG幻想大作.
-
-github.com
-
-Shared by @mgrouchy
- 
-
-- [django-quicky](https://github.com/sametmax/django-quicky)
-
-令你专注业务构建的工具集合,
-不再关心那些细节!
-成吨的实用功能加速你的出品速度!
-
-github.com
-
-Shared by @myusuf3
- 
-
-- [doitlive](https://github.com/sloria/doitlive)
-
-终端上的演示工具. COOL 到没有朋友哪.
-可以模拟 shell 脚本的运行!
-就好象现场输入代码运行一样!
-
-github.com
-
-Shared by @myusuf3
-
-
-- [45 分钟数据科学介绍.](https://github.com/DrSkippy/Data-Science-45min-Intros)
-
-刚好一节课的,
-IPython Notebook 幻灯,
-从基本编程开始,
-系统的介绍了统计和机器学习技术!
-
-
-
-github.com
-
-Shared by @mgrouchy
- 
-
-- [battleschool](https://github.com/spencergibb/battleschool)
-
-用 ansible 对你的开发环境进行明快的迁移/部署,
-就象 Boxen,
-的教程.
-
-github.com
-
-Shared by @mgrouchy
- 
 
 - [awesome-python](https://github.com/vinta/awesome-python)
 
@@ -323,17 +64,51 @@ Shared by @mgrouchy
 
 
 
+- [500 行以内](https://github.com/aosabook/500lines)
 
-- [inbox](https://github.com/inboxapp/inbox)
+通过计算机和软件能作什么?
+这是一个非常赞的收集,
+相信你值得认真研究一下, 500行以内的代码能作到些什么.
 
-
-Inbox 平台发布不久,
-包含了大量的 SDK 和库,
-旨在帮助大家用 Py 完成些伟大的东西,不要在意细节...
 
 github.com
 
 Shared by @myusuf3
+ 
+(`是也乎:`
+
+代码就是魔法禁咒,
+看看这些短而又力的咒语吧,
+这就是人类的未来.
+
+)
+
+
+- [IPython Notebook Themes](https://github.com/nsonnad/base16-ipython-notebook)
+
+
+对 IPython Notebook 的定制样式,
+赞的!
+
+github.com
+
+Shared by @myusuf3
+ 
+(`是也乎:`
+![ocean-dark](https://github.com/nsonnad/base16-ipython-notebook/raw/master/screenshots/ocean-dark.png)
+
+这是真爱
+)
+
+
+- [Python Practice Projects](http://pythonpracticeprojects.com/)
+
+Python 实践系列项目,
+帮助你磨练提高!
+
+pythonpracticeprojects.com
+
+Shared by @mgrouchy
  
 
 - [py-must-watch](https://github.com/s16h/py-must-watch)
@@ -358,17 +133,6 @@ github.com
 Shared by @myusuf3
  
 
-- [python-fields](https://github.com/ionelmc/python-fields)
-
-
-容器类的撰写总是面临大量的类似代码,
-python-fields 提供了一种简洁的方法来避免.
-
-github.com
-
-Shared by @mgrouchy
- 
-
 - [awesome-django](https://github.com/rosarior/awesome-django)
 
 
@@ -380,40 +144,6 @@ github.com
 Shared by @myusuf3
  
 
-- [Toga](http://pybee.org/toga/)
-
-Python 原生的, OS 本地 GUI 工具包.
-非常COOL.
-
-pybee.org
-
-Shared by @mgrouchy
- 
-
-- [doorman](https://github.com/halitalptekin/doorman)
-
-
-在配置文件中,
-加密口令等等机密信息.
-同时,不影响正当使用.
-
-github.com
-
-Shared by @halitalptekin
-
-(`是也乎:`
-一种专用 模板语言)
- 
-
-- [vim-bootstrap](https://github.com/avelino/vim-bootstrap)
-
-简单的网站,
-引导你完成 `.vimrc` 对开发语言的配置.
-
-github.com
-
-Shared by @mgrouchy
- 
 
 - [python-patterns](https://github.com/faif/python-patterns)
 
@@ -422,6 +152,90 @@ Shared by @mgrouchy
 github.com
 
 Shared by @mgrouchy
+
+- [awesome-sqlalchemy](https://github.com/dahlia/awesome-sqlalchemy)
+
+又一个 `awesome` 这次索引了所有 
+SQLAlchemy 资源.
+
+github.com
+
+Shared by @mgrouchy
+
+
+
+### Django vs others
+
+
+- [wagtail](https://github.com/torchbox/wagtail)
+
+Wagtail 是 Django 
+完成的 CMS.
+界面设计更加出色, 是 Django CMS 的可替代品.
+
+github.com
+
+Shared by @tomd
+
+
+
+- [Flask API](http://www.flaskapi.org/)
+
+大爱 Django REST 框架的你,
+现在可以在 Flask 上享用类似的 API 了.
+
+flaskapi.org
+
+Shared by @myusuf3
+ 
+
+- [django-quicky](https://github.com/sametmax/django-quicky)
+
+令你专注业务构建的工具集合,
+不再关心那些细节!
+成吨的实用功能加速你的出品速度!
+
+github.com
+
+Shared by @myusuf3
+ 
+ 
+
+- [psdash](https://github.com/Jahaja/psdash)
+
+漂亮的 Flask 实现的 web 仪表盘,
+可展示 psutil 输出的各种系统数据.
+
+github.com
+
+Shared by @mgrouchy
+ 
+(`是也乎:`
+glances 的 web 版本 :D
+)
+
+
+
+- [Flask-Foundation](https://github.com/JackStouffer/Flask-Foundation)
+
+
+Flask 脚手架,是你开始应用构建的最佳基础.
+
+github.com
+
+Shared by @mgrouchy
+ 
+
+
+- [Explore Flask](http://exploreflask.com/)
+
+Flask 探索之书, 已经免费在线发布,
+是时候升级这方面的知识了;
+
+exploreflask.com
+
+Shared by @mgrouchy
+
  
 
 - [flask-xxl](https://github.com/jstacoder/flask-xxl)
@@ -448,30 +262,83 @@ github.com
 Shared by @mgrouchy
  
 
-- [awesome-sqlalchemy](https://github.com/dahlia/awesome-sqlalchemy)
 
-又一个 `awesome` 这次索引了所有 
-SQLAlchemy 资源.
+
+
+### 工程
+
+ 
+
+- [battleschool](https://github.com/spencergibb/battleschool)
+
+用 ansible 对你的开发环境进行明快的迁移/部署,
+就象 Boxen,
+的教程.
 
 github.com
 
 Shared by @mgrouchy
  
 
-- [lenscap](https://github.com/honza/lenscap)
+- [Stellar](https://github.com/fastmonkeys/stellar)
+
+高速数据库快照工具,
+就象为数据库定制的 git ;-)
+
+github.com
+
+Shared by @versae
+
+(`是也乎:`
+当然的支持 PostgreSQL and MySQL )
 
 
-专注生成美丽的照片展览的静态网站生成工具.
+- [inbox](https://github.com/inboxapp/inbox)
+
+
+Inbox 平台发布不久,
+包含了大量的 SDK 和库,
+旨在帮助大家用 Py 完成些伟大的东西,不要在意细节...
 
 github.com
 
 Shared by @myusuf3
  
+- [python-fields](https://github.com/ionelmc/python-fields)
+
+
+容器类的撰写总是面临大量的类似代码,
+python-fields 提供了一种简洁的方法来避免.
+
+github.com
+
+Shared by @mgrouchy
+ 
+
+- [doorman](https://github.com/halitalptekin/doorman)
+
+
+在配置文件中,
+加密口令等等机密信息.
+同时,不影响正当使用.
+
+github.com
+
+Shared by @halitalptekin
+
 (`是也乎:`
-可惜没有时间线效果那么 bigger 哪,,,
-e.g:
-[大小丸子🐒:"情人节快乐;-)" | MoMoKo.in | 丸子家.在内](http://momoko.in/family/family-timeline.html)
-)
+一种专用 模板语言)
+ 
+- [vim-bootstrap](https://github.com/avelino/vim-bootstrap)
+
+简单的网站,
+引导你完成 `.vimrc` 对开发语言的配置.
+
+github.com
+
+Shared by @mgrouchy
+
+
 
 - [schematics](https://github.com/schematics/schematics)
 
@@ -485,35 +352,6 @@ github.com
 
 Shared by @mgrouchy
  
-
-- [home-assistant](https://github.com/balloob/home-assistant)
-
-用 Python 完成家庭智能化.
-
-github.com
-
-Shared by @mgrouchy
- 
-
-- [500 行以内](https://github.com/aosabook/500lines)
-
-
-通过计算机和软件能作什么?
-这是一个非常赞的收集,
-相信你值得认真研究一下, 500行以内的代码能作到些什么.
-
-
-github.com
-
-Shared by @myusuf3
- 
-(`是也乎:`
-
-代码就是魔法禁咒,
-看看这些短而又力的咒语吧,
-这就是人类的未来.
-
-)
 
 - [tortilla](https://github.com/redodo/tortilla)
 
@@ -540,7 +378,216 @@ Shared by @benlast
 是否能自如的使用 iterators 是 Pythonista 从入门到可运营的一个门槛.
 )
 
+
+### CLI
+
+- [percol](https://github.com/mooz/percol)
+
+漂亮的, 终端上的互动式 grep 工具.
+REAME 中有详细介绍和演示.
+
+github.com
+
+Shared by @mgrouchy
+
+(`是也乎:`
+![githubusercontent](https://camo.githubusercontent.com/006cf03e9f0a069217c3c4b41c07743afc9c0ed5/687474703a2f2f6d6f6f7a2e6769746875622e696f2f706572636f6c2f706572636f6c5f6f766572766965772e676966)
+
+支持 tmux/zsh 哗...
+) 
+
+
+
+- [magpie](https://github.com/charlesthomas/magpie)
+
+Git-Backed Evernote 替代.
+
+github.com
+
+Shared by @myusuf3
+ 
+(`是也乎:`
+一直以来有N 多程序猿在尝试这事儿:
+
+- http://simplenote.com/
+- https://github.com/FoxUSA/OpenNote
+- https://github.com/Laverna/laverna
+- https://github.com/gollum/gollum
+- https://github.com/grena/gruik/
+- https://dragdis.com/
+- ...
+)
+
+
+- [doitlive](https://github.com/sloria/doitlive)
+
+终端上的演示工具. COOL 到没有朋友哪.
+可以模拟 shell 脚本的运行!
+就好象现场输入代码运行一样!
+
+github.com
+
+Shared by @myusuf3
+
+
+- [lenscap](https://github.com/honza/lenscap)
+
+
+专注生成美丽的照片展览的静态网站生成工具.
+
+github.com
+
+Shared by @myusuf3
+ 
+(`是也乎:`
+可惜没有时间线效果那么 bigger 哪,,,
+e.g:
+[大小丸子🐒:"情人节快乐;-)" | MoMoKo.in | 丸子家.在内](http://momoko.in/family/family-timeline.html)
+)
+
+
+
+### 网络
+
+- [robobrowser](https://github.com/jmcarp/robobrowser)
+
+基于 Requests 和 BeautifulSoup 的网络爬虫库,
+类似 Mechanize, 不过有 测试/文档,以及更加 Pythonic 的界面.
+
+github.com
+
+Shared by @whatthecarp
+ 
+
+
+- [huey](https://github.com/coleifer/huey)
+
+Python 的多线程 任务队列.
+
+github.com
+
+Shared by @myusuf3
+
+(`是也乎:`
+项目名称来自作者的喵
+![huey](https://camo.githubusercontent.com/671f46789e5addd8f49c74eeb22cee99ef68d323/687474703a2f2f6d656469612e636861726c65736c65696665722e636f6d2f626c6f672f70686f746f732f7468756d626e61696c732f494d475f32303133303430325f3135343835385f363530783635302e6a7067))
+ 
+
+
+### AI
+
+- [mining](https://github.com/avelino/mining)
+
+github.com
+
+Shared by @mgrouchy
+
+(`是也乎:`
+商业智能服务哪! 纯 Py 完成的. )
+
+
+- [Jarvis](https://github.com/debugger22/Jarvis)
+
+DIY 一个 `Jarvis样` 的私人助理, 当然用 Python!
+
+github.com
+
+Shared by @mgrouchy
+ 
+
+
+
+- [home-assistant](https://github.com/balloob/home-assistant)
+
+用 Python 完成家庭智能化.
+
+github.com
+
+Shared by @mgrouchy
+ 
+
+
+
+### 数据科学
+
+
+- [Algorithms](https://github.com/prakhar1989/Algorithms)
+
+针对 Python 收集的有关 数据分析和算法.
+
+github.com
+
+Shared by @myusuf3
+ 
+- [45 分钟数据科学介绍.](https://github.com/DrSkippy/Data-Science-45min-Intros)
+
+刚好一节课的,
+IPython Notebook 幻灯,
+从基本编程开始,
+系统的介绍了统计和机器学习技术!
+
+
+
+github.com
+
+Shared by @mgrouchy
+
+
+### GUI & GAME
+
+
+- [rumps](https://github.com/jaredks/rumps)
+
+用 Python 实现的  Mac OSX 状态栏应用!
+
+github.com
+
+Shared by @myusuf3
+
+
+
+- [The Stolen Crown RPG](https://github.com/justinmeister/The-Stolen-Crown-RPG)
+
+爽!
+Python 实现的 RPG幻想大作.
+
+github.com
+
+Shared by @mgrouchy
+ 
+
+- [Mario Level 1 In Python](https://github.com/justinmeister/Mario-Level-1)
+
+
+用 PyGame 重制的 Mario 第一关游戏,
+对2D游戏有兴趣,是个很赞的基础.
+
+github.com
+
+Shared by @myusuf3
+
+
+
+- [Toga](http://pybee.org/toga/)
+
+Python 原生的, OS 本地 GUI 工具包.
+非常COOL.
+
+pybee.org
+
+Shared by @mgrouchy
+
+
+
+ 
+
+ 
+
+
 ## 文章
+
+
+### Py2/3/4...
 
 - [Python 201: 性能](http://www.blog.pythonlibrary.org/2014/01/20/python-201-properties/)
 
@@ -548,39 +595,6 @@ pythonlibrary.org
 
 Shared by @myusuf3
  
-
-- [得用 IPython 交互环境的原因](http://fastml.com/why-ipy-reasons-for-using-ipython-interactively/)
-
-你可能听说过 IPython 的神奇,
-这儿有详细的爽点描述,
-`IPy[:]` 你值得拥有!
-
-fastml.com
-
-Shared by @myusuf3
- 
-
-- [Django 代码组织策略](http://redbeacon.github.io/2014/01/28/Fat-Models-a-Django-Code-Organization-Strategy/)
-
-
-俺最喜欢研读 有关 软件和代码布局相关的文章,
-这包含了各种问题和各种决策的纠结,
-当然,更爱的是这种文章之后的各种神评论.
-
-
-
-github.io
-
-Shared by @myusuf3
- 
-
-- [如何为你的 S3 节省 90% 的开销](http://www.appneta.com/blog/s3-list-get-bucket-default/)
-
-实用! 每个 AWS 用户都应该学习之!
-
-appneta.com
-
-Shared by @myusuf3
  
 
 - [全桟 Python](http://www.fullstackpython.com/)
@@ -610,39 +624,7 @@ Shared by @mgrouchy
 大妈还是推荐 [Leo](http://wiki.woodpecker.org.cn/moin/LeoEnvironment) 文学化编程环境
 ) 
 
-- [以正确的姿势启动 Python 项目](http://jeffknupp.com/blog/2014/02/04/starting-a-python-project-the-right-way/)
 
-
-有想法,要用 Python 来完成原型,
-那这篇文章一定要看哪.
-
-jeffknupp.com
-
-Shared by @mgrouchy
-
-(`是也乎:`
-论 `八股文` 的形成,
-一个 可公运行/可改进/可部署 的 Py 项目,
-应该长什么样儿,包含什么东西,
-真心是只有吃过各种亏的 Pythonista 才明的事儿;
-另外推荐:
-)
- 
-
-- [14 个极简 Python Web 框架](http://codecondo.com/14-minimal-web-frameworks-for-python/)
-
-
-想尝试比 Django 轻的 web 框架?
-这儿有一系列可选框架的对比.
-
-codecondo.com
-
-Shared by @alexivanovs
- 
-
-(`是也乎:`
-Python 世界就这么任性, 无论重的中的轻的,什么级别的 框架,都是一堆堆的...
-但是,此文少了 Bottle 是名不副实的..눈_눈_ ;-)
 
 - [向 Python 道别](http://www.ianbicking.org/blog/2014/02/saying-goodbye-to-python.html)
 
@@ -653,36 +635,8 @@ ianbicking.org
 Shared by @myusuf3
  
 
-- [55 行代码完成的芹菜-样儿 Python 任务队列](http://www.jeffknupp.com/blog/2014/02/11/a-celerylike-python-task-queue-in-55-lines-of-code/)
 
 
-超赞的教程,
-有关如何用 Python 创建一个任务队列.
-
-jeffknupp.com
-
-Shared by @mgrouchy
- 
-
-- [俺们肿么将 Gevent 整快的](http://engineering.pinterest.com/post/65713073803/how-we-use-gevent-to-go-fast)
-
-Pinterest 回顾了怎么用 gevent 搞掂了网站吞吐量的事儿,
-包含了迁移过程所面临的各种挑战...
-
-pinterest.com
-
-Shared by @myusuf3
- 
-
-- [SQLAlchemy 的单元测试](http://alextechrants.blogspot.ca/2014/01/unit-testing-sqlalchemy-apps-part-2.html)
-
-如果对 SQLAlchemy 应用进行测试?
-此文详述了.
-
-blogspot.ca
-
-Shared by @mgrouchy
- 
 
 - [如何创建一个 Python 库?](http://pypix.com/python/create-python-library/)
 
@@ -692,40 +646,10 @@ Shared by @mgrouchy
 pypix.com
 
 Shared by @myusuf3
- 
-
-- [有关 Python  在统计学方面介绍](http://www.datarobot.com/blog/introduction-to-python-for-statistical-learning/)
-
-类似 numpy, pandas 和 matplotlab 的绝赞工具,
-怎么在统计学领域的折腾的推介.
-
-datarobot.com
-
-Shared by @mgrouchy
- 
-
-- [实时应用架构学习](http://lincolnloop.com/blog/architecting-realtime-applications/)
-
-讨论 Python 各种技术完成实时系统的各种局限性,
-干货,
-值得研读.
 
 
-lincolnloop.com
 
-Shared by @myusuf3
- 
 
-- [Unyielding](https://glyph.twistedmatrix.com/2014/02/unyielding.html)
-
-Glyph 
-就有关 唱衰 Twisted 的言论,
-写了一篇伟大的文章,
-充分探讨了 Python 的并发性.
-
-twistedmatrix.com
-
-Shared by @mgrouchy
  
 
 - [并发 Python : 线程介绍](http://www.blog.pythonlibrary.org/2014/02/24/python-concurrency-an-intro-to-threads/)
@@ -740,6 +664,8 @@ pythonlibrary.org
 Shared by @mgrouchy
  
 
+
+
 - [Python 的属性](http://www.programiz.com/python-programming/property)
 
 很 Nice 的对 Python 属性的完备介绍
@@ -750,30 +676,8 @@ programiz.com
 Shared by @myusuf3
  
 
-- [用 Scikit-Learn 构建机械学习模块](http://www.garysieling.com/blog/generating-machine-learning-models-scikit-learn)
 
 
-在作者
-关于 `构建决策树` 
-系列文章最后,
-作者给出了如何产生机器学习模型
-的一个很好的解释,
-基于 scikit-learn.
-
-
-garysieling.com
-
-Shared by @mgrouchy
- 
-
-- [理解 Django 的 TTD](http://arunrocks.com/understanding-tdd-with-django/)
-
-如果正在为 Django 工程中开展 `TTD` ,
-这是最好的起点.
-
-arunrocks.com
-
-Shared by @mgrouchy
  
 
 - [轻松加速 Python ](http://lukauskas.co.uk/articles/2014/02/12/how-to-make-python-faster-without-trying-that-much/)
@@ -788,15 +692,6 @@ lukauskas.co.uk
 Shared by @myusuf3
  
 
-- [python 和 asyncio 的高速爬虫](http://compiletoi.net/fast-scraping-in-python-with-asyncio.html)
-
-
-如何通过 asyncio 构建能异步下载网页的高速爬虫.
-
-compiletoi.net
-
-Shared by @mgrouchy
- 
 
 - [Python 的元编程](http://impythonist.wordpress.com/2014/03/02/meta-programming-with-python/)
 
@@ -807,6 +702,9 @@ wordpress.com
 
 Shared by @myusuf3
  
+
+
+
 
 - [用深入黑箱方式来理解 Python](http://blog.hakril.net/articles/0-understanding-python-by-breaking-it.html)
 
@@ -819,40 +717,7 @@ hakril.net
 Shared by @mgrouchy
  
 
-- [谁需要数据库?](http://getsilvi.com/blog/2014/03/20/who-needs-a-database/)
 
-有趣的思想实验,
-讨论怎么完全淘汰数据库, 
-虽然有点儿问题,
-但是,足够有趣,
-值得研讨看怎么走到最后一步的.
-
-getsilvi.com
-
-Shared by @myusuf3
- 
-
-- [故事性日志3: Types](http://www.hybridcluster.com/blog/logging-storytelling-3-types/)
-
-你可思考过什么是和运行时一致的优秀的日志输出?
-此系列文章,帮助你充分思考这一问题.
-
-hybridcluster.com
-
-Shared by @mgrouchy
- 
-
-- [2048 游戏的 AI ](http://diaryofatinker.blogspot.it/2014/03/an-artificial-intelligence-for-2048-game.html)
-
-2048 游戏很是热了一段时间,
-有各种的实现案例,
-这是一个用 AI 来解决的方案.
-很 COOL.
-
-blogspot.it
-
-Shared by @mgrouchy
- 
 
 - [Python 中 20 点赞函式](http://thelivingpearl.com/2014/03/24/20-good-functions-to-know-in-python/)
 
@@ -864,39 +729,7 @@ thelivingpearl.com
 Shared by @myusuf3
  
 
-- [Python 项目手册](http://infinitemonkeycorps.net/docs/pph/)
 
-超赞的手册,
-引导我们从一个 Python 脚本,
-一步步变成一个项目,
-包含仓库创建/持续测试/包装/发布 你的代码.
-
-infinitemonkeycorps.net
-
-Shared by @mgrouchy
- 
-
-- [半小时以内创建 Flask 应用](https://stormpath.com/blog/build-a-flask-app-in-30-minutes/)
-
-任性的开始你的第一个 Flask 应用!
-
-stormpath.com
-
-Shared by @goStormpath
- 
-
-- [构造有目的的单元测试](http://www.appneta.com/blog/purposeful-unit-testing/)
-
-好文,
-指导我们写出更好的单元测试代码,
-防止问题回归,
-用断言保卫你的代码.
-
-
-appneta.com
-
-Shared by @mgrouchy
- 
 
 - [Python 2.x 中的 OOP 概念  - 第一部分](http://lgiordani.github.io/blog/2014/03/05/oop-concepts-in-python-2-dot-x-part-1/)
 
@@ -924,32 +757,9 @@ Shared by @myusuf3
 drdobbs.com
 
 Shared by @myusuf3
- 
-
-- [理解 Gunicorn 的并发模式](http://words.volant.is/articles/understanding-gunicorns-async-worker-concurrency-model/)
-
-点赞好文,
-触及 
-gunicorn
-并发模式的细节.
-
-volant.is
-
-Shared by @myusuf3
- 
-
-- [用 Python, D3, RabbitMQ 实现数据的实时可视化](http://www.brettdangerfield.com/post/realtime_data_tag_cloud/)
 
 
-用 RabbitMQ 和 Python 完成对 
-twitter数据流的实时可视化,
-最终是用 
-D3.js 来渲染.
 
-brettdangerfield.com
-
-Shared by @myusuf3
- 
 
 - [Python 数据结构不慢](http://matthewrocklin.com/blog/work/2014/05/01/Fast-Data-Structures/)
 
@@ -962,17 +772,9 @@ Shared by @myusuf3
 matthewrocklin.com
 
 Shared by @mgrouchy
- 
 
-- [Flask 的小笔记应用](http://charlesleifer.com/blog/saturday-morning-hack-a-little-note-taking-app-with-flask/)
 
-非常适合初学者看的 Flask 入门项目,
-详尽的描述了一个简单 笔记应用的构建过程.
 
-charlesleifer.com
-
-Shared by @myusuf3
- 
 
 - [模块属性 | 代理范式](http://jtushman.github.io/blog/2014/05/02/module-properties/)
 
@@ -1020,6 +822,8 @@ Shared by @mgrouchy
 
 )
 
+
+
 - [Python 偏函式 很有趣!](http://pydanny.com/python-partials-are-fun.html)
 
 
@@ -1035,17 +839,8 @@ Shared by @mgrouchy
 就是又一个偷懒的姿势,
 用内置的 `functools.partial` 自动生成一系列函式.) 
 
-- [定制一个高速 Django 应用](http://reinout.vanrees.org/weblog/2014/05/06/making-faster.html)
 
 
-非常走心的文章,
-作者引导你分析加速 Django 的各种技巧,
-都是非常实用的.
-
-vanrees.org
-
-Shared by @
- 
 
 - [Python 的动态编程](http://www.jminuscula.es/blog/2014/05/07/dynamic-programming-with-python/)
 
@@ -1058,6 +853,11 @@ Shared by @jminuscula
 
 (`是也乎:`
 杯具的是当前文章  404 了)
+ 
+
+
+
+
 
 - [为毛俺要推广 Python](http://lorenabarba.com/blog/why-i-push-for-python/#.U3FMdNVey9I.google_plusone_share)
 
@@ -1069,26 +869,9 @@ lorenabarba.com
 Shared by @mgrouchy
  
 
-- [Dockerizing Python Web 应用](http://blogs.aws.amazon.com/application-management/post/Tx1ZLAHMVBEDCOC/Dockerizing-a-Python-Web-App)
 
-Docker 已经成为热点技术,
-文章介绍了如何将 Python 应用通过 Docker 部署在 AWS 上.
 
-amazon.com
 
-Shared by @mgrouchy
- 
-
-- [如何组织你的 Python 应用代码](http://pythonthusiast.pythonblogs.com/230_pythonthusiast/archive/1395_how_python_organize_your_application_code.html)
-
-如果你正要开始一个 Python 应用,
-此文不容错过!
-给你一个正确的姿势开始折腾.
-
-pythonblogs.com
-
-Shared by @mgrouchy
- 
 
 - [Python 的函式重载](http://lgiordani.github.io/blog/2014/05/19/method-overriding-in-python/)
 
@@ -1099,29 +882,7 @@ github.io
 Shared by @tw_lgiordani
  
 
-- [为毛俺用 Gevent?](http://blog.hownowstephen.com/post/50743415449/gevent-tutorial)
 
-
-有关如何基于 Gevent 构建一个简单的网络爬虫系统,
-给出了丰富的背景资料,
-全面分析了利弊,
-给出了详细的教程,令人真正明白怎么运行起来.
-
-hownowstephen.com
-
-Shared by @mgrouchy
- 
-
-- [在 Python 中用 Mocks](http://www.drdobbs.com/testing/using-mocks-in-python/240168251)
-
-成吨的资料和案例,
-如果你正在折腾怎么进行模拟,
-此文大善!
-
-drdobbs.com
-
-Shared by @myusuf3
- 
 
 - [Python 3的10个超赞特性](http://asmeurer.github.io/python3-presentation/python3-presentation.pdf)
 
@@ -1139,6 +900,8 @@ Shared by @myusuf3
 - 有旧代码继承的, Py2 就好
 
 )
+
+
 
 - [Crossbar.io 是 Python Web 应用的未来嘛?](http://tavendo.com/blog/post/is-crossbar-the-future-of-python-web-apps/)
 
@@ -1225,16 +988,6 @@ blogspot.it
 Shared by @myusuf3
  
 
-- [将 Docker 用作 Python 开发环境](http://continuousdelivery.uglyduckling.nl/uncategorized/using-docker-as-a-python-development-environment/)
-
-Docker 真心热了,
-此文详尽的描述了
-如何使用 Docker 作为 Python 开发环境!
-
-uglyduckling.nl
-
-Shared by @mgrouchy
- 
 
 - [Python 的反模式编程](http://lignos.org/py_antipatterns/)
 
@@ -1311,28 +1064,8 @@ pythonpracticeprojects.com
 Shared by @mgrouchy
  
 
-- [Python 的简单并行](http://scottsievert.github.io/blog/2014/07/30/simple-python-parallelism/)
-
-如何轻松的掌握 Python 中并行任务?
-掌握内置的 `multiprocessing` 库以及其它合适的框架.
 
 
-github.io
-
-Shared by @mgrouchy
- 
-
-- [3 分钟构建有数据库支持的 dashboards](http://maxmautner.com/post/92930043315/making-database-backed-dashboards-in-3-minutes)
-
-非常简单的教程,
-如何用 `Matplotlib` 图表和样式,
-完成一个邮件和web 的 dashboards.
-
-
-maxmautner.com
-
-Shared by @myusuf3
- 
 
 - [开始用 Python Internals](http://akaptur.github.io/blog/2014/08/03/getting-started-with-python-internals/)
 
@@ -1342,7 +1075,10 @@ Shared by @myusuf3
 github.io
 
 Shared by @mgrouchy
- 
+
+
+
+
 
 - [程序员的 Python](http://rustyrazorblade.com/2014/08/python-for-programmers/)
 
@@ -1395,17 +1131,7 @@ svbtle.com
 Shared by @myusuf3
  
 
-- [如何用 .pythonrc 提升你的 Python 命令行](http://dlo.me/archives/2014/09/08/pythonrc/)
 
-超赞的小技巧,能将 Python Shell 搞的如此 Bigger ;-)
-
-dlo.me
-
-Shared by @myusuf3
-
-
-(`是也乎:` 
-不过王道是 `IPy[:] notebook`) 
 
 - [实例说明不好 Python 的作法](https://julien.danjou.info/blog/2014/python-bad-practice-concrete-case)
 
@@ -1426,6 +1152,9 @@ teamtreehouse.com
 Shared by @mgrouchy
  
 
+
+
+
 - [Guido van Rossum 在找路](https://medium.com/dropbox-makers/guido-van-rossum-on-finding-his-way-e018e8b5f6b1)
 
 
@@ -1435,53 +1164,17 @@ Python 创始人以及 Dropbox 工程师,
 medium.com
 
 Shared by @myusuf3
- 
 
-- [AJAX 和 Django 怎么开始?](http://aliteralmind.wordpress.com/2014/09/21/jquery_django_tutorial/)
 
-针对小白的 Django 教程,
-怎么用起来 AJAX ?
-
-wordpress.com
-
-Shared by @myusuf3
- 
-
-- [产品中的芹菜](http://www.caktusgroup.com/blog/2014/09/29/celery-production/)
-
-Caktus 团队如何在产品中折腾 
-Celery (`芹菜`)的!
-
-caktusgroup.com
-
-Shared by @myusuf3
- 
 
 - [Maybe in Python](http://senko.net/maybe-monad-in-python)
 
 senko.net
 
 Shared by @myusuf3
- 
-
-- [Asyncio 实施概要](http://www.bitdance.com/blog/2014/09/30_01_asycio_overview/)
 
 
-理解 `asyncio` 的爽文!
-对异步编程的初学者非常有用.
 
-bitdance.com
-
-Shared by @myusuf3
- 
-
-- [Django vs Flask vs Pyramid: Python Web 框架的选择](https://www.airpair.com/python/posts/django-flask-pyramid)
-
-
-airpair.com
-
-Shared by @myusuf3
- 
 
 - [为 Python 新人准备的5个小项目](https://medium.com/learning-journalism-tech/five-mini-programming-projects-for-the-python-beginner-21492f6ce0f3)
 
@@ -1491,18 +1184,6 @@ Python 新人?
 medium.com
 
 Shared by @mgrouchy
- 
-
-- [用 Python 进行简单互动式数据分析](http://pbpython.com/simple-data-analysis.html)
-
-
-通过极赞的 IPython 我们
-可以进行互动式的数据分析,
-从未体验过,从这儿开始吧.
-
-pbpython.com
-
-Shared by @myusuf3
  
 
 - [Python 里,其实都是 attributes](http://blog.lerner.co.il/python-attributes/)
@@ -1524,35 +1205,9 @@ Shared by @mgrouchy
 lgiordani.com
 
 Shared by @tw_lgiordani
- 
 
-- [Python 的 Fluent Interface](http://kracekumar.com/post/100897281440/fluent-interface-in-python)
 
-kracekumar.com
 
-Shared by @mgrouchy
-
-(`是也乎:`
-即 `链式调用`
-比如: `Poem('The Road Not Taken').indent(4).suffix('Robert Frost')`
-
-已经有专著在撰写中了:
-[Fluent Python - O'Reilly Media](http://shop.oreilly.com/product/0636920032519.do?code=DEAL)
-)
- 
-
-- [用 Django 和 AngularJS 构建 Web 应用](https://thinkster.io/brewer/angular-django-tutorial/)
-
-结合 Django 和 AngularJS 这两大热点技术来构建 Web 应用,
-这是篇极详尽的说明.
-
-thinkster.io
-
-Shared by @mgrouchy
- 
-(`是也乎:`
-详细到没朋友哪...
-)
 
 
 - [Python 理解语法](https://www.airpair.com/python/posts/python-comprehension-syntax)
@@ -1563,49 +1218,9 @@ Shared by @mgrouchy
 airpair.com
 
 Shared by @elldudley
- 
-
-- [Virtualenv 的 Docker 姿势](http://blog.atte.ro/2014/11/16/docker-virtualenv.html)
 
 
-在 Docker 容器中的 Virtualenv 技巧
 
-atte.ro
-
-Shared by @mgrouchy
- 
-
-- [数据科学和 Python 的现代化入门手册](http://twiecki.github.io/blog/2014/11/18/python-for-data-science/)
-
-好文,
-虽然不完全同意作者不建议新人看 numpy 和 matplotlib.
-但是,真心值得研读的好文!
-
-github.io
-
-Shared by @myusuf3
- 
-
-- [Multiprocessing 就内存](http://www.yseam.com/blog/MM.html)
-
-
-Multiprocessing 在 Python 世界并没有得到过多关注,
-其实这方面有太多可以折腾的了.
-
-yseam.com
-
-Shared by @myusuf3
- 
-
-- [推荐的 Django 项目分布](http://www.revsys.com/blog/2014/nov/21/recommended-django-project-layout/)
-
-不确定如何配置你的 Django 工程?
-看这篇文章就对了.
-
-revsys.com
-
-Shared by @myusuf3
- 
 
 - [俺最希望一开始就知道的 10 个 Python 知识点](http://prooffreaderplus.blogspot.ca/2014/11/top-10-python-idioms-i-wished-id.html)
 
@@ -1627,7 +1242,7 @@ medium.com
 Shared by @mgrouchy
  
 
--[Python 内在探索](http://flowerhack.dreamwidth.org/3594.html)
+- [Python 内在探索](http://flowerhack.dreamwidth.org/3594.html)
 
 深入 CPython 内部机理的好文章.
 
@@ -1636,16 +1251,7 @@ dreamwidth.org
 Shared by @myusuf3
  
 
-- [Requests 的重试](http://www.coglib.com/~icordasc/blog/2014/12/retries-in-requests.html)
 
-探讨了 `requests` 库一个重要的高级特性,
-重试!
-这绝对是你项目中需要的!
-
-
-coglib.com
-
-Shared by @sigmavirus24
  
 
 - [为毛 OOP 有用?](http://inventwithpython.com/blog/2014/12/02/why-is-object-oriented-programming-useful-with-an-role-playing-game-example/)
@@ -1656,6 +1262,239 @@ Shared by @sigmavirus24
 inventwithpython.com
 
 Shared by @myusuf3
+ 
+### 工程
+
+
+
+- [如何为你的 S3 节省 90% 的开销](http://www.appneta.com/blog/s3-list-get-bucket-default/)
+
+实用! 每个 AWS 用户都应该学习之!
+
+appneta.com
+
+Shared by @myusuf3
+
+
+
+- [以正确的姿势启动 Python 项目](http://jeffknupp.com/blog/2014/02/04/starting-a-python-project-the-right-way/)
+
+
+有想法,要用 Python 来完成原型,
+那这篇文章一定要看哪.
+
+jeffknupp.com
+
+Shared by @mgrouchy
+
+(`是也乎:`
+论 `八股文` 的形成,
+一个 可公运行/可改进/可部署 的 Py 项目,
+应该长什么样儿,包含什么东西,
+真心是只有吃过各种亏的 Pythonista 才明的事儿;
+另外推荐:
+
+- [rcarmo/ink-bottle](https://github.com/rcarmo/ink-bottle)
+- [jacebrowning/template-python](https://github.com/jacebrowning/template-python)
+- [audreyr/cookiecutter](https://github.com/audreyr/cookiecutter)
+
+)
+
+
+
+
+
+- [55 行代码完成的芹菜-样儿 Python 任务队列](http://www.jeffknupp.com/blog/2014/02/11/a-celerylike-python-task-queue-in-55-lines-of-code/)
+
+
+超赞的教程,
+有关如何用 Python 创建一个任务队列.
+
+jeffknupp.com
+
+Shared by @mgrouchy
+
+
+
+
+- [实时应用架构学习](http://lincolnloop.com/blog/architecting-realtime-applications/)
+
+讨论 Python 各种技术完成实时系统的各种局限性,
+干货,
+值得研读.
+
+
+lincolnloop.com
+
+Shared by @myusuf3
+ 
+
+
+
+- [Unyielding](https://glyph.twistedmatrix.com/2014/02/unyielding.html)
+
+Glyph 
+就有关 唱衰 Twisted 的言论,
+写了一篇伟大的文章,
+充分探讨了 Python 的并发性.
+
+twistedmatrix.com
+
+Shared by @mgrouchy
+ 
+
+
+
+
+- [故事性日志3: Types](http://www.hybridcluster.com/blog/logging-storytelling-3-types/)
+
+你可思考过什么是和运行时一致的优秀的日志输出?
+此系列文章,帮助你充分思考这一问题.
+
+hybridcluster.com
+
+Shared by @mgrouchy
+
+
+
+
+
+- [Python 项目手册](http://infinitemonkeycorps.net/docs/pph/)
+
+超赞的手册,
+引导我们从一个 Python 脚本,
+一步步变成一个项目,
+包含仓库创建/持续测试/包装/发布 你的代码.
+
+infinitemonkeycorps.net
+
+Shared by @mgrouchy
+
+
+
+
+ 
+- [构造有目的的单元测试](http://www.appneta.com/blog/purposeful-unit-testing/)
+
+好文,
+指导我们写出更好的单元测试代码,
+防止问题回归,
+用断言保卫你的代码.
+
+
+appneta.com
+
+Shared by @mgrouchy
+ 
+
+
+
+- [用 Python, D3, RabbitMQ 实现数据的实时可视化](http://www.brettdangerfield.com/post/realtime_data_tag_cloud/)
+
+
+用 RabbitMQ 和 Python 完成对 
+twitter数据流的实时可视化,
+最终是用 
+D3.js 来渲染.
+
+brettdangerfield.com
+
+Shared by @myusuf3
+ 
+
+
+- [如何组织你的 Python 应用代码](http://pythonthusiast.pythonblogs.com/230_pythonthusiast/archive/1395_how_python_organize_your_application_code.html)
+
+如果你正要开始一个 Python 应用,
+此文不容错过!
+给你一个正确的姿势开始折腾.
+
+pythonblogs.com
+
+Shared by @mgrouchy
+
+
+
+
+- [在 Python 中用 Mocks](http://www.drdobbs.com/testing/using-mocks-in-python/240168251)
+
+成吨的资料和案例,
+如果你正在折腾怎么进行模拟,
+此文大善!
+
+drdobbs.com
+
+Shared by @myusuf3
+ 
+
+
+
+
+ 
+- [如何用 .pythonrc 提升你的 Python 命令行](http://dlo.me/archives/2014/09/08/pythonrc/)
+
+超赞的小技巧,能将 Python Shell 搞的如此 Bigger ;-)
+
+dlo.me
+
+Shared by @myusuf3
+
+
+(`是也乎:` 
+不过王道是 `IPy[:] notebook`) 
+
+
+
+- [产品中的芹菜](http://www.caktusgroup.com/blog/2014/09/29/celery-production/)
+
+Caktus 团队如何在产品中折腾 
+Celery (`芹菜`)的!
+
+caktusgroup.com
+
+Shared by @myusuf3
+ 
+
+
+
+
+
+#### Docker
+
+
+- [Dockerizing Python Web 应用](http://blogs.aws.amazon.com/application-management/post/Tx1ZLAHMVBEDCOC/Dockerizing-a-Python-Web-App)
+
+Docker 已经成为热点技术,
+文章介绍了如何将 Python 应用通过 Docker 部署在 AWS 上.
+
+amazon.com
+
+Shared by @mgrouchy
+ 
+
+
+- [将 Docker 用作 Python 开发环境](http://continuousdelivery.uglyduckling.nl/uncategorized/using-docker-as-a-python-development-environment/)
+
+Docker 真心热了,
+此文详尽的描述了
+如何使用 Docker 作为 Python 开发环境!
+
+uglyduckling.nl
+
+Shared by @mgrouchy
+
+
+- [Virtualenv 的 Docker 姿势](http://blog.atte.ro/2014/11/16/docker-virtualenv.html)
+
+
+在 Docker 容器中的 Virtualenv 技巧
+
+atte.ro
+
+Shared by @mgrouchy
+
+
+
  
  
 - [在 Dokku 中部署 Django 应用](https://realpython.com/blog/python/deploying-a-django-app-on-dokku/)
@@ -1668,15 +1507,8 @@ realpython.com
 Shared by @myusuf3
  
 
-- [Django 和 Flask: 为何以及何时用](https://www.hakkalabs.co/articles/django-and-flask)
 
-很关键的思考,
-何时我们应该切换框架.
 
-hakkalabs.co
-
-Shared by @myusuf3
- 
 
 - [企业级 Python 的 10 个神话](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/)
 
@@ -1686,6 +1518,362 @@ paypal-engineering.com
 
 Shared by @myusuf3
  
+
+### Django & Falsk in Web
+
+
+- [Django 代码组织策略](http://redbeacon.github.io/2014/01/28/Fat-Models-a-Django-Code-Organization-Strategy/)
+
+
+俺最喜欢研读 有关 软件和代码布局相关的文章,
+这包含了各种问题和各种决策的纠结,
+当然,更爱的是这种文章之后的各种神评论.
+
+
+
+github.io
+
+Shared by @myusuf3
+
+
+ 
+
+
+
+- [理解 Django 的 TTD](http://arunrocks.com/understanding-tdd-with-django/)
+
+如果正在为 Django 工程中开展 `TTD` ,
+这是最好的起点.
+
+arunrocks.com
+
+Shared by @mgrouchy
+ 
+
+
+
+- [半小时以内创建 Flask 应用](https://stormpath.com/blog/build-a-flask-app-in-30-minutes/)
+
+任性的开始你的第一个 Flask 应用!
+
+stormpath.com
+
+Shared by @goStormpath
+ 
+
+- [Flask 的小笔记应用](http://charlesleifer.com/blog/saturday-morning-hack-a-little-note-taking-app-with-flask/)
+
+非常适合初学者看的 Flask 入门项目,
+详尽的描述了一个简单 笔记应用的构建过程.
+
+charlesleifer.com
+
+Shared by @myusuf3
+ 
+
+
+
+- [定制一个高速 Django 应用](http://reinout.vanrees.org/weblog/2014/05/06/making-faster.html)
+
+
+非常走心的文章,
+作者引导你分析加速 Django 的各种技巧,
+都是非常实用的.
+
+vanrees.org
+
+Shared by @
+ 
+
+
+
+
+- [AJAX 和 Django 怎么开始?](http://aliteralmind.wordpress.com/2014/09/21/jquery_django_tutorial/)
+
+针对小白的 Django 教程,
+怎么用起来 AJAX ?
+
+wordpress.com
+
+Shared by @myusuf3
+ 
+
+
+
+
+- [Django vs Flask vs Pyramid: Python Web 框架的选择](https://www.airpair.com/python/posts/django-flask-pyramid)
+
+
+airpair.com
+
+Shared by @myusuf3
+ 
+
+
+
+- [用 Django 和 AngularJS 构建 Web 应用](https://thinkster.io/brewer/angular-django-tutorial/)
+
+结合 Django 和 AngularJS 这两大热点技术来构建 Web 应用,
+这是篇极详尽的说明.
+
+thinkster.io
+
+Shared by @mgrouchy
+ 
+(`是也乎:`
+详细到没朋友哪...
+)
+
+
+
+
+
+- [推荐的 Django 项目分布](http://www.revsys.com/blog/2014/nov/21/recommended-django-project-layout/)
+
+不确定如何配置你的 Django 工程?
+看这篇文章就对了.
+
+revsys.com
+
+Shared by @myusuf3
+ 
+
+
+
+- [Django 和 Flask: 为何以及何时用](https://www.hakkalabs.co/articles/django-and-flask)
+
+很关键的思考,
+何时我们应该切换框架.
+
+hakkalabs.co
+
+Shared by @myusuf3
+
+ 
+ 
+
+### Web
+
+
+
+- [14 个极简 Python Web 框架](http://codecondo.com/14-minimal-web-frameworks-for-python/)
+
+
+想尝试比 Django 轻的 web 框架?
+这儿有一系列可选框架的对比.
+
+codecondo.com
+
+Shared by @alexivanovs
+ 
+
+(`是也乎:`
+Python 世界就这么任性, 无论重的中的轻的,什么级别的 框架,都是一堆堆的...
+但是,此文少了 Bottle 是名不副实的..눈_눈_ ;-)
+
+
+- [俺们肿么将 Gevent 整快的](http://engineering.pinterest.com/post/65713073803/how-we-use-gevent-to-go-fast)
+
+Pinterest 回顾了怎么用 gevent 搞掂了网站吞吐量的事儿,
+包含了迁移过程所面临的各种挑战...
+
+pinterest.com
+
+Shared by @myusuf3
+
+
+
+
+- [python 和 asyncio 的高速爬虫](http://compiletoi.net/fast-scraping-in-python-with-asyncio.html)
+
+
+如何通过 asyncio 构建能异步下载网页的高速爬虫.
+
+compiletoi.net
+
+Shared by @mgrouchy
+
+
+
+ 
+
+- [理解 Gunicorn 的并发模式](http://words.volant.is/articles/understanding-gunicorns-async-worker-concurrency-model/)
+
+点赞好文,
+触及 
+gunicorn
+并发模式的细节.
+
+volant.is
+
+Shared by @myusuf3
+ 
+
+
+
+
+- [为毛俺用 Gevent?](http://blog.hownowstephen.com/post/50743415449/gevent-tutorial)
+
+
+有关如何基于 Gevent 构建一个简单的网络爬虫系统,
+给出了丰富的背景资料,
+全面分析了利弊,
+给出了详细的教程,令人真正明白怎么运行起来.
+
+hownowstephen.com
+
+Shared by @mgrouchy
+
+
+
+
+
+- [Python 的简单并行](http://scottsievert.github.io/blog/2014/07/30/simple-python-parallelism/)
+
+如何轻松的掌握 Python 中并行任务?
+掌握内置的 `multiprocessing` 库以及其它合适的框架.
+
+
+github.io
+
+Shared by @mgrouchy
+ 
+
+
+
+
+- [3 分钟构建有数据库支持的 dashboards](http://maxmautner.com/post/92930043315/making-database-backed-dashboards-in-3-minutes)
+
+非常简单的教程,
+如何用 `Matplotlib` 图表和样式,
+完成一个邮件和web 的 dashboards.
+
+
+maxmautner.com
+
+Shared by @myusuf3
+ 
+
+
+- [Asyncio 实施概要](http://www.bitdance.com/blog/2014/09/30_01_asycio_overview/)
+
+
+理解 `asyncio` 的爽文!
+对异步编程的初学者非常有用.
+
+bitdance.com
+
+Shared by @myusuf3
+ 
+
+
+
+- [Python 的 Fluent Interface](http://kracekumar.com/post/100897281440/fluent-interface-in-python)
+
+kracekumar.com
+
+Shared by @mgrouchy
+
+(`是也乎:`
+即 `链式调用`
+比如: `Poem('The Road Not Taken').indent(4).suffix('Robert Frost')`
+
+已经有专著在撰写中了:
+[Fluent Python - O'Reilly Media](http://shop.oreilly.com/product/0636920032519.do?code=DEAL)
+)
+ 
+
+- [Multiprocessing 和内存](http://www.yseam.com/blog/MM.html)
+
+
+Multiprocessing 在 Python 世界并没有得到过多关注,
+其实这方面有太多可以折腾的了.
+
+yseam.com
+
+Shared by @myusuf3
+
+
+
+
+- [Requests 的重试](http://www.coglib.com/~icordasc/blog/2014/12/retries-in-requests.html)
+
+探讨了 `requests` 库一个重要的高级特性,
+重试!
+这绝对是你项目中需要的!
+
+
+coglib.com
+
+Shared by @sigmavirus24
+
+
+
+- [json vs simplejson vs ujson](https://medium.com/@jyotiska/json-vs-simplejson-vs-ujson-a115a63a9e26)
+
+非常详细的 JSON 解析库对比,
+结论很重要: `ujson` 是最快的!
+
+medium.com
+
+Shared by @mgrouchy
+
+
+### IPy.数据科学
+
+
+- [得用 IPython 交互环境的原因](http://fastml.com/why-ipy-reasons-for-using-ipython-interactively/)
+
+你可能听说过 IPython 的神奇,
+这儿有详细的爽点描述,
+`IPy[:]` 你值得拥有!
+
+fastml.com
+
+Shared by @myusuf3
+
+
+
+- [有关 Python  在统计学方面介绍](http://www.datarobot.com/blog/introduction-to-python-for-statistical-learning/)
+
+类似 numpy, pandas 和 matplotlab 的绝赞工具,
+怎么在统计学领域的折腾的推介.
+
+datarobot.com
+
+Shared by @mgrouchy
+
+
+
+ 
+- [用 Python 进行简单互动式数据分析](http://pbpython.com/simple-data-analysis.html)
+
+
+通过极赞的 IPython 我们
+可以进行互动式的数据分析,
+从未体验过,从这儿开始吧.
+
+pbpython.com
+
+Shared by @myusuf3
+
+
+
+
+
+- [数据科学和 Python 的现代化入门手册](http://twiecki.github.io/blog/2014/11/18/python-for-data-science/)
+
+好文,
+虽然不完全同意作者不建议新人看 numpy 和 matplotlib.
+但是,真心值得研读的好文!
+
+github.io
+
+Shared by @myusuf3
+
+
+
+
 
 - [14 个最赞的 Pandas 特性](http://www.bigdataexaminer.com/14-best-python-pandas-features/)
 
@@ -1698,6 +1886,9 @@ bigdataexaminer.com
 Shared by @mgrouchy
  
 
+
+
+
 - [大数据分析中最常见的Python 开发错误](https://www.airpair.com/python/posts/top-mistakes-python-big-data-analytics)
 
 
@@ -1707,16 +1898,70 @@ Shared by @mgrouchy
 airpair.com
 
 Shared by @elldudley
+
+
+### AI
+
+
  
+- [用 Scikit-Learn 构建机械学习模块](http://www.garysieling.com/blog/generating-machine-learning-models-scikit-learn)
 
-- [json vs simplejson vs ujson](https://medium.com/@jyotiska/json-vs-simplejson-vs-ujson-a115a63a9e26)
 
-非常详细的 JSON 解析库对比,
-结论很重要: `ujson` 是最快的!
+在作者
+关于 `构建决策树` 
+系列文章最后,
+作者给出了如何产生机器学习模型
+的一个很好的解释,
+基于 scikit-learn.
 
-medium.com
+
+garysieling.com
 
 Shared by @mgrouchy
+
+
+
+
+- [2048 游戏的 AI ](http://diaryofatinker.blogspot.it/2014/03/an-artificial-intelligence-for-2048-game.html)
+
+2048 游戏很是热了一段时间,
+有各种的实现案例,
+这是一个用 AI 来解决的方案.
+很 COOL.
+
+blogspot.it
+
+Shared by @mgrouchy
+ 
+
+
+
+### DB
+
+
+
+- [SQLAlchemy 的单元测试](http://alextechrants.blogspot.ca/2014/01/unit-testing-sqlalchemy-apps-part-2.html)
+
+如果对 SQLAlchemy 应用进行测试?
+此文详述了.
+
+blogspot.ca
+
+Shared by @mgrouchy
+ 
+
+
+- [谁需要数据库?](http://getsilvi.com/blog/2014/03/20/who-needs-a-database/)
+
+有趣的思想实验,
+讨论怎么完全淘汰数据库, 
+虽然有点儿问题,
+但是,足够有趣,
+值得研讨看怎么走到最后一步的.
+
+getsilvi.com
+
+Shared by @myusuf3
 
 
 ## 蠎中国.年度最赞
@@ -1746,12 +1991,25 @@ Python 官方文档,不应该缺少完本的中译!
 
 
 # 是也乎
-大妈私人推荐:
+
+整体上, 2014 是更加热闹的一年, 快译了所有周刊的大妈,私人感受:
+
+- Python 自身的奥妙远没有挖掘透
+- IPython 和数据科学已经完成绑定
+- Docker 神奇的成为了主流
+- Django 和 Flask 继续瑜亮,无有其它新框架冒头
+- 国人作品慢慢也有了国际声音
+
+欢迎大家留言,分享你的 2014 Pythonic 体验!
+
+## 私人推荐:
 
 
 - [Astral](https://app.astralapp.com/dashboard) ~ 经过 周刊的疯狂推荐,你一定积累了无数加星的 github 项目,早已无法快速定位某个方面的项目了,肿么办? 使用这个第三方标签/搜索/索引服务吧!
 
-----
+## 修订
+
+150113 [Zoom.Quiet](http://zoomquiet.io/) 用时 24 分钟 完成自制分类.
 
 150112 [Zoom.Quiet](http://zoomquiet.io/) 用时 198 分钟 完成快译99%.
 
