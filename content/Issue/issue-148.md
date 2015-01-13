@@ -263,17 +263,23 @@ Shared by @mgrouchy
  
 
 
-- [干翻 JavaScript 页面渲染终极指南](http://impythonist.wordpress.com/2015/01/06/ultimate-guide-for-scraping-javascript-rendered-web-pages/)
+- [抓取有 JavaScript 渲染页面终极指南](http://impythonist.wordpress.com/2015/01/06/ultimate-guide-for-scraping-javascript-rendered-web-pages/)
 
-这得多大恨哪,,,
-给出了详细的实例,
-来说明怎么折腾 JS 令其发疯...
+如果页面是由 JS 渲染的,
+一般很难直接获取渲染后的数据,
+此文给出了详细的说明,以及实例.
+
 
 wordpress.com
 
 Shared by @Narenarya3
  
-
+(`是也乎:`
+感谢 `Ficapy` 细心看出问题,
+文章主要内容是使用 pyQT4自带webkit完成解析后获得 html 数据的,
+其实,另外有很多 `无头浏览器` 更加轻便,可以使用,
+比如说: [PhantomJS](http://phantomjs.org/)
+)
 
 ## DAMA
 (`大妈私人无责任播报`)
@@ -287,6 +293,7 @@ Shared by @Narenarya3
 
 # 是也乎
 
+- 150113 [Zoom.Quiet](http://zoomquiet.org/) fixed chaosa.
 - 150112 [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
 - 150112 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
 
