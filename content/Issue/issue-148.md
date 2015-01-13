@@ -6,7 +6,7 @@ Tags: Weekly,Pycoder,Zh
 ![04_20AM9789bf](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)
 
 
-- 原文: [Pycoder's Weekly (Issue #146): Adorn](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=d973d8a93e&e=889f3f6a05)
+- 原文: [Pycoder's Weekly (Issue #148): New Year](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=f065557c20&e=889f3f6a05)
 
 ##  搜罗Py万物 的周刊
 

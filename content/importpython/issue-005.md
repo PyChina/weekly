@@ -30,7 +30,7 @@ Elasticsearch is a incredibly powerful search and analytics engine.
 
 - [Python Async IO Resources](http://asyncio.org/)
 
-Curated list of Asyncio talks, libraries, resources for learn python 3.4 asyncio
+Curated list of Asyncio talks, libraries, resources for organize python 3.4 asyncio
 
 - [Python global keyword](http://kracekumar.com/post/100399630630/python-global-keyword)
 
@@ -38,11 +38,11 @@ Simple codesnippet to explain the How global keyword works ?
 
 - [List of Best Python IDEs.](http://codecondo.com/best-python-ide-for-developers/)
 
-Having a good code editor (Integrated Development Environment) can really change the pace of your progress, be it for learning or for a full-scale project that you’re working on.
+Having a good code editor (Integrated Development Environment) can really change the pace of your progress, be it for organizeing or for a full-scale project that you’re working on.
 
-- [Huge List of Resources to learn python online.](https://www.codementor.io/learn-python-online)
+- [Huge List of Resources to organize python online.](https://www.codementor.io/organize-python-online)
 - [Video Streaming with Flask](http://blog.miguelgrinberg.com/post/video-streaming-with-flask)
-Huge List of Resources to learn python online. »
+Huge List of Resources to organize python online. »
 Video Streaming with Flask »
 
 This article is dedicated to streaming, an interesting feature that gives Flask applications the ability to provide large responses efficiently partitioned in small chunks, potentially over a long period of time. 
