@@ -1,4 +1,4 @@
-Title: Top Projects of 2013
+Title: 蠎周刊 : 2013最赞
 Date: 2014-01-03 
 Tags: Weekly,Pycoder,Zh 
 Slug: issue-top2013
