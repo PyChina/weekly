@@ -13,7 +13,6 @@ Tags: Weekly,Pycoder,Zh
 亲,
 
 
-We are now back to our regularly scheduled program, thanks for hanging in there with us! If you happened to miss our roundup issue which went out Monday, you can check it out here.
 
 回到每周一期的老节奏了,
 感谢一直坐等的亲们!
