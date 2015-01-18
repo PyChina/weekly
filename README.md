@@ -32,6 +32,7 @@ main loop:
 1. edit some .md in `content/`
 1. `fab build && fab serve` for test local
 1. `cd output` this is another repo. yet!
+1. mark the article you have applied on GitCafe Ticket
 1. git add->ci->push
 1. `fab deploy` published all
 
