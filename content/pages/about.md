@@ -89,15 +89,18 @@ Slug: about
 - 如果人多了也就不用每周来翻译了,是也乎?
 
 
-
+### 如何参与翻译  
 仓库在:
 
 [CPyUG/weekly - GitCafe](https://gitcafe.com/CPyUG/weekly)
 
 想贡献的,使用标准的 Github 式的对话方式:
 
-`frok->commit->pull request` 流程就好 ;-)
-
+`frok->commit->pull request` 流程就好 ;-)  
+- `importpython`目录存放的是importpython中的文章  
+- `issue`目录存放的是Pycoder中的文章  
+- `PgWeekly`目录存放的是PgWeekly中的文章  
+这些目录中有些文章是没有翻译的，所以很容易找到，找到后在`gitcafe`的`Ticket`中注明已经认领翻译的文章，避免别人重复翻译，浪费资源呐
 
 ## contact
 
