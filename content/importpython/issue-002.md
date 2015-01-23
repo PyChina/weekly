@@ -69,7 +69,7 @@ Odoo (原来的OpenERP). 帮助你做生意的开源APP.
 
 - [Guido van Rossum »](https://twitter.com/gvanrossum/status/517418015613538304)
 
-PY2(pyhton2) 的使用者: 做你喜欢的东西并开始使用 "from __future__ import print_function"
+PY2(pyhton2) 的使用者: 做你喜欢的东西并开始使用 "from \__future\__ import print_function"
 
 - [Harry Potter and Python »](http://9gag.com/gag/aKgj6M3?ref=tp)
 
