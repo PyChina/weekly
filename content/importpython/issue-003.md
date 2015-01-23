@@ -16,7 +16,8 @@ Slug: importpython-3
 
 - [Python 3.4.2 Released](https://www.python.org/downloads/release/python-342/)
 
-Python 3.4.2 has many bugfixes and other small improvements over 3.4.1. One new feature for Mac OS X users: the OS X installers are now distributed as signed installer package files compatible with the OS X Gatekeeper security feature.
+Python3.4.2修复了3.4.1中很多bug，并且还有其他的一些提升。对于OS X系统的用户有个新特性：OS X的installers 是一个单独的安装文件包 并且兼容OS X Gatekeeper安全特性。 
+
 
 ## 该读
 ~ 文章, Blog, 教程...
@@ -24,47 +25,53 @@ Python 3.4.2 has many bugfixes and other small improvements over 3.4.1. One new 
 - [Little Planet Projection](https://www.richwareham.com/articles/2014/09/29/little-planet-projection)
 
 A Little Planet Panorma using Python and Scikit Image.
+一个使用Python和Scikit Image 的小星球Panorma（有点没懂）
 
 - [Python Puzzlers](https://speakerdeck.com/alangpierce/python-puzzlers/)
 
-Set of 6 puzzles that expose some pitfalls and oddities in the Python programming language. For each puzzle, you're given some Python code, and your task is to figure out what happens when the code is run.
+包含了6个谜题，揭示了Python语言编程中的一些陷阱和古怪。 每个谜题中，给你了一些Python代码，你的任务就是指出代码运行之后会发生什么。
 
 - [Django Authentication Workflow](http://makkalot.github.io/posts/2014/Jul/13/django-auth-workflow/)
 
-Brief overview of the Django User Authentication Workflow.
+简要的综述了Django用户认证的流程。
 
 - [Django models, encapsulation and data integrity](http://www.dabapps.com/blog/django-models-and-encapsulation/)
 
 As codebases grow it becomes difficult to make any cast-iron guarantees that you really are enforcing application-level data integrity.
-
+随着代码库的增长就变得难有保证，你就强制应用级的数据完整性。
 
 ## 代码
 ~ 包/模块/库/片段...
 
 - [Pykov](https://github.com/riccardoscalco/Pykov)
     - 163 Stars, Trending for 2 Day
-Pykov is a tiny Python module on finite regular Markov chains.
+
+Pykov 是一个有限马尔可夫链的小模块
 
 - [Shadowsocks](https://github.com/clowwindy/shadowsocks)
     - 3201 Stars, Trending for 2 Days
-A fast tunnel proxy that helps you bypass firewalls.
+    
+快速的隧道代理助你翻越防火长城
 
 - [t_dict](https://github.com/vandersonmota/t_dict)
     - 32 Stars, Trending for 1 Day
-Traversable Python Dictionaries.
+    
+Traversable Python Dictionaries. （有点不明白）
 
 - [Mastering Bitcon Book's Code -](https://github.com/aantonop/bitcoinbook/tree/develop/code) 
     - 492 Stars, Trending for 1 Day
 
-Mastering Bitcoin is a book for developer. It's early draft is on github. Source code is written in Python.
+Mastering Bitcoin是一个面向开发者的书。 早期的草稿放在gitub上，源码是用Python写的。
 
 - [Sorted Containers](https://github.com/grantjenks/sorted_containers)
     - 182 Stars, Trending for 1 Day
-Python Sorted Container Types: SortedList, SortedDict, and SortedSet written in pure Python, but as fast as C implementations.
+    
+Python可排序的容器类型：SortedList, SortedDict, and SortedSet使用纯python编写，但是速度跟用C实现一样快
 
 - [Ripple](https://github.com/web-i/ripple)
     - 1 Stars
-A meta web framework for Python. 
+
+Python的一个meta web 框架
 
 
 
@@ -73,7 +80,8 @@ A meta web framework for Python.
 
 - [Glyph Lefkowitz, Creator of Twisted](http://www.binpress.com/blog/2014/10/07/binpress-podcast-episode-14-glyph-lefkowitz-twisted/)
 
-Glyph covers why creators have a responsibility to users of their open source projects, why he simultaneously admires and critiques open source communities, and why the open source world should look to its free software roots. He also explains how he took over the Python IRC channel to promote Twisted, how the project was born, why it has a bright future, and much more. 
+Glyph 解释了为什么开源项目的创造者要对项目的用户负责， 为什么他既欣赏同时又批评开源社区 和为什么开源世界应该看到自由软件的根源。
+他还阐述了他接管Python IRC频道来促进Twisted项目，这个项目怎么样诞生，为什么会有一个光明的未来或者更好。
 
 
 ## 曰了
@@ -81,11 +89,11 @@ Glyph covers why creators have a responsibility to users of their open source pr
 
 - [Victor Stinner »](https://mail.python.org/pipermail/python-dev/2014-October/136607.html)
 
-Status of C compilers for Python on Windows
+Windows可用于Python的编译器的现状
 
 - [Ola Sitarska »](https://twitter.com/olasitarska/status/520256058334650368)
 
-380 women and girls applied for @DjangoGirls in Warsaw. 
+380位女性和女生参加了在华沙的  @DjangoGirls
 
 ## 本周之星
 ~ 一周 Python 程序员之选
