@@ -13,7 +13,9 @@ Tags: Weekly,Pycoder,Zh
 
 亲,
 
-150 Issues! Wow, thanks for sticking with us, we hope to make it for 150 more!
+150 期了! Wow, 
+感谢大家和我们一起坚持下来,
+希望又更多的 150.
 
 大家多分享[文章](http://pycoders.com/submissions/) 
 俺们才折腾的出又一周的美好呢.
@@ -28,15 +30,22 @@ Tags: Weekly,Pycoder,Zh
 ## 新闻
 
 
-- [PyCon Sweden 2015](http://www.pycon.se/)
-There is a CFP for PyCon Sweden 2015! If you itching to give your first talk or seasoned speaker! Give it a look!
+- [PyCon 瑞典 2015](http://www.pycon.se/)
+
+PyCon 瑞典 2015 的 CFP! 
+如果你想掺合, 赶紧上看一眼呗.
+
 pycon.se
+
 Shared by @myusuf3
  
 
-- [Support Django](https://www.djangoproject.com/fundraising/)
+- [Django 支持](https://www.djangoproject.com/fundraising/)
+
 Django Fellowship is raising funds for continued full time development for Django! First 3 month have been successful! Support Django!
+
 djangoproject.com
+
 Shared by @myusuf3
  
 
