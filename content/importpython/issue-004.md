@@ -13,8 +13,8 @@ Tags: Weekly,ImportPython,Zh
 
 - [Python Tools For Visual Studio - Release 2.1](https://pytools.codeplex.com/releases/view/109707)
 
-Python Tools for Visual Studio (PTVS) is an open-source plug-in for Visual Studio which supports programming with the Python language. PTVS supports a broad range of features including CPython/IronPython, editing, IntelliSense, interactive debugging, profiling, Microsoft Azure, IPython, and cross-platform debugging support. 
-
+Python Tools for Visual Studio (PTVS)是一个Visual Studio的开源插件，用来支持Python语言的开发。
+PTVS 拥有一系列的功能，包括CPython/IronPython，编辑，智能提示，交互式调试，性能分析，Microsoft Azure，Ipython 和支持跨平台调试。
 
 
 
@@ -23,24 +23,24 @@ Python Tools for Visual Studio (PTVS) is an open-source plug-in for Visual Studi
 
 - [PDF of Python Cheatsheet or Quick Reference.](http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf)
 
-Very handy and help reference cheatsheet for newbie python developers. Print one and keep it with you.
+对于Python开发新手非常方面和有帮助的参考。 打印一份，好好利用吧
 
 - [Advanced Use of Python Decorators and Metaclasses](http://lgiordani.com/blog/2014/10/14/decorators-and-metaclasses/) »
 
-Show how to use metaclasses and decorators to create a powerful class that can be inherited and customized by easily adding decorated methods. Code is in Python 3.
+告诉你如何使用元类和装饰器来创建强大的class，这些class可以通过添加装饰器方法被继承和定制。 Python3 的代码。（对大家提升非常有用啊）
 
 - [Supercharge Your Python Shell](http://dlo.me/archives/2014/09/08/pythonrc/) »
 
-Did you know about .pythonrc ? Read on and customize your python shell. It's a good every day python productivity hack.
+你知道什么是 .pythonrc 吗？ 阅读和定制你的Python shell。 是一个非常好的每日 python 生产力 hack.
 
 - [A Python guide to handling HTTP request failures](https://www.mobify.com/blog/http-requests-are-hard/) »
 
-A lot of things can go wrong when requesting information over HTTP from a remote web server: requests timeout, servers fail, government operatives cut undersea cables.
+当你通过HTTP向远程服务器请求信息的时候会发生很多错误：请求超时， 服务器宕机， 或者是政府切断了海底光缆。
 
 - [How To Use the Django One-Click Install Image](https://www.digitalocean.com/community/tutorials/how-to-use-the-django-one-click-install-image) »
 
-Looking to host your new Django Project on the web ?. DigitalOcean is one of the best priced servers and here is quick guide on their Django VPS Image and it's usage. Note you get Django, Gunicorn, Nginx configured and working out of the box.
-
+在寻找新主机在部署你的新Django web应用？DigitalOcean 是性价比最好的之一，这里有一份他们的Django VPS镜像快速使用手册。
+使用时注意配置好Django，Gunicorn，Nginx。
 
 
 ## 代码
@@ -48,51 +48,66 @@ Looking to host your new Django Project on the web ?. DigitalOcean is one of the
 
 - [pritunl](https://github.com/pritunl/pritunl)
     - 338 Stars, Trending for 1 Day
-Enterprise VPN Server.
+
+企业级VPN服务
 
 - [fobi](http://pythonhosted.org/django-fobi/)
     - 5 Stars
-django-fobi (later on named just fobi) is a customisable, modular, user- and developer- friendly form builder application for Django. With fobi you can build Django forms using an intiutive GUI, save or mail posted form data. API allows you to build your own form elements and form handlers (mechanisms for handling the submitted form data).
+
+django-fobi（后来就叫fobi)是一个个定制化的， 模块化的，对开发者友好的Django应用构建器。
+fobi可以让你用直观的桌面(GUI)方式建立Django forms，保存或者用邮件发布你的数据。API允许构建自己的表单元素和表单处理器（处理所提交的表单数据的机制）
 
 - [PyDbLite](https://github.com/PierreQuentel/PyDbLite) 
     - 4 Stars
-A fast, pure Python in-memory database engine.
+
+快速的，纯Python的内存数据库引擎。
 
 - [asciinema-cli](https://github.com/asciinema/asciinema-cli)
     - 329 Stars, Trending for 2 Day
-Command-line recorder for asciinema.org service. Screencasting for commandline. Check demo - https://asciinema.org/. It's very useful check it out.
+
+asciinema.org 服务的命令行记录器。Screencasting 命令行。
+查看demo -https://asciinema.org/ 看看吧，非常有用
 
 - [pydub](https://github.com/jiaaro/pydub) 
     - 845 Stars, Trending for 3 Days
-Manipulate audio with a simple and easy high level interface.
+
+用简单和高级的接口操纵声音
 
 - [Django Smart Autoregister](http://paulocheque.github.io/django-smart-autoregister/)
     - 19 Stars
-It is a Django tool that automatically configure the ModelAdmin classes of your application using some good patterns.
+
+它是一个Django 工具，可以使用一些好的模式来自动配置django 应用中的ModelAdmin类。
 
 - [Scrap Google Results using selenium](https://github.com/DanMcInerney/search-google/blob/master/search-google.py)
-Small script to scrap google results and specify no of pages to scrap. Note Google is know to ban IP addresses that make unusual no of high requests.
+
+用来拆解google搜索结果或者指定不拆解的小脚本，注意Google会对请求频率异常的IP进行封锁。
 
 - [Django-pushy.](https://github.com/rakanalh/django-pushy)
     - 49 Stars
-Python / Django app that provides push notifications functionality with celery. The main purpose of this app is to help you send push notifications to your users at scale. If you have lots of registered device keys, django-pushy will split your keys into smaller groups which run in parallel making the process of sending notifications faster.
+
+使用celery 提供Python / Django app 推送通告的功能。这个app的主要用途是上帮助你发送推送通知到一定规模的用户。
+如果你有很多设备注册keys，django-pushy 可以把这些keys拆分成小组，然后并行发送，使得整个推送更快。
 
 - [Pyleus: An Open-source Framework for Building Storm Topologies in Pure Python](http://engineeringblog.yelp.com/2014/10/introducing-pyleus.html)
-Pyleus is a new open-source framework that aims to do for Storm what mrjob, another open-source Yelp project, does for Hadoop: let developers process large amounts of data in pure Python and iterate quickly, spending more time solving business-related problems and less time concerned with the underlying platform. 
+
+Pyleus是一个新的开源框架，旨在为Storm（另一个开源Yelp project,对于Hadoop）。 可以让开发者使用纯Python操作大规模数据，快速迭代，更多的时间来解决业务相关问题，更少的时间关心底层的平台。
 
 
-## 播了
-~ Podcast
+## 社区儿
 
+- [Call for volunteers for DjangoCon US 2015 »](https://www.djangoproject.com/weblog/2014/oct/10/call-volunteers-djangocon-us-2015/)
 
-## 曰了
-~ Tweets
+"如果你乐于助人，请加入DjangoCon组织的mailing list - https://groups.google.com/group/djangocon-organizers 让大家知道你是多么热心"
 
+## 讨论
 
-## 本周之星
-~ 一周 Python 程序员之选
+- [Problems with Teaching Python in School »](http://www.reddit.com/r/Python/comments/2j0rl3/problems_with_teaching_python_in_school/)
 
-## 将来之书
+一个老师分享了他每天在学校教学Python的挑战。reddit上很有教育的讨论。
+
+- [\#PyConIE »](https://twitter.com/hashtag/PyConIE?src=hash)
+
+Pycon Ireland @pyconireland 举办了他们的 2014 Pycon。 上tweets看看他们做了啥吧
 
 # 是也乎
 
