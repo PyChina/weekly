@@ -9,7 +9,7 @@ Slug: importpython-2
 
 
 
-原文: [newsletter](http://importpython.com/static/files/issue2.html)
+原文: [importpython-2](http://importpython.com/static/files/issue2.html)
 
 
 ## 该读
@@ -91,5 +91,5 @@ PY2(pyhton2) 的使用者: 做你喜欢的东西并开始使用 "from \__future\
 # 是也乎
 ~ 参考: [为毛又一个蠎周刊?](importpython-why)
 
-- 141202 用时 .57分钟完成翻译.
+- 150123 来自 [635e235e](https://gitcafe.com/CPyUG/weekly/commit/635e235eb1b42c3f43d62ff73c5c48a89eb6854c) 的 `PR`
 - 141202 [Zoom.Quiet](http://zoomquiet.io) 用时7分钟完成格式化.
