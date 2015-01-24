@@ -5,7 +5,7 @@ Slug: importpython-2
 
 ![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/80)
 
-## Hi
+## 大家好,
 
 
 
@@ -17,25 +17,23 @@ Slug: importpython-2
 
 - [Reddit API Access](http://blog.thehumangeo.com/2014/09/23/supercharging-your-reddit-api-access/)
 
-Explaining How to Access Reddit through their API using PRAW (Python Reddit API Wrapper).
+解释了怎么用PRAW来使用它们的API访问Reddit(Python Reddit API 封装)
 
 - [Multiple Template Engines for Django](https://www.indiegogo.com/projects/multiple-template-engines-for-django)
 
-Crowdfunding Campaign for getting multiple template engine for django. Jinja2 being the Template. Campaign by Aymeric Augustin.
+Django支持多个模板引擎的众筹活动。 Jinja2将会是模板。 由Aymeric Augustin发起。
 
 - [Upgrading Your Django Reusable App To Support Django 1.7](https://www.twilio.com/blog/2014/10/upgrading-your-django-reusable-app-to-support-django-1-7.html)
 
-Guide to make django app <=1.6 work with 1.7. Focus on datamigrations.
-
+Django项目从1.6以及以下版本升级到1.7的一个指南。重点在数据迁移。
 
 - [Sharq - Rate Limited Queueing System using Redis.](http://sharq.io/)
 
-creating new queues dynamically and updating rate limits in real time, with zero configuration.
+动态创建新队列和实时限制更新速率，零配置
 
 - [Microsoft Visual C++ Compiler for Python 2.7](https://mail.python.org/pipermail/distutils-sig/2014-September/024885.html)
 
-Microsoft has released a compiler package for Python 2.7 to make it easier for people to build and distribute their C extension modules on Windows.
-
+微软发布了一个Pyhton2.7的编译包，它可以让大家在windows上更容易的建立和发布C扩展模块
 
 ## 代码
 ~ 包/模块/库/片段...
@@ -44,38 +42,38 @@ Microsoft has released a compiler package for Python 2.7 to make it easier for p
 - [Taiga](https://github.com/taigaio/taiga-back)
     - 518 Stars, Trending for 2 Days
 
-Project management web application with scrum in mind! Built on top of Django and AngularJS (Backend Code).
+记住scrum的web型项目管理工具， 建立在Django和AngularJS（后端代码）上。
 
 - [GoAgent](https://github.com/goagent/goagent)
     - 11 Stars, Trending for 1 Days
 
-Google App Engine Proxy
+GAE代理
 
 - [Python Prompt Toolkit](https://github.com/jonathanslenders/python-prompt-toolkit)
     - 763 Stars, Trending for 4 Days
 
-Library for building powerful interactive command lines in Python
+使用Python建立交互式命令行的库
 
 - [Odoo](https://github.com/odoo/odoo)
     - 1329 Stars, Trending for 2 Days
 
-Odoo (formerly OpenERP). Open Source Apps To Grow Your Business.
+Odoo (原来的OpenERP). 帮助你做生意的开源APP.
 
 - [inbox](https://github.com/inboxapp/inbox)
     - 1622 Stars, Trending for 5 Days
 
-The next-generation email platform 
+下一代邮件平台
 
 ## 曰了
 ~ Tweets
 
 - [Guido van Rossum »](https://twitter.com/gvanrossum/status/517418015613538304)
 
-PY2 users: do yourself a favor and start using "from __future__ import print_function"
+PY2(pyhton2) 的使用者: 做你喜欢的东西并开始使用 "from \__future\__ import print_function"
 
 - [Harry Potter and Python »](http://9gag.com/gag/aKgj6M3?ref=tp)
 
-Somethings are worth seeing. Or may be not.
+一些该看或者不该看的
     
 ## 本周之星
 ~ 一周 Python 程序员之选
