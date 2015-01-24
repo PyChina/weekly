@@ -97,9 +97,9 @@ Slug: about
 想贡献的,使用标准的 Github 式的对话方式:
 
 `frok->commit->pull request` 流程就好 ;-)  
-- `importpython`目录存放的是importpython中的文章  
-- `issue`目录存放的是Pycoder中的文章  
-- `PgWeekly`目录存放的是PgWeekly中的文章  
+- `importpython`目录存放的是[importpython](http://importpython.com/newsletter/archive/)中的文章  
+- `issue`目录存放的是[Pycoder](http://pycoders.com/archive/)中的文章  
+- `PgWeekly`目录存放的是[PgWeekly](http://postgresweekly.com/issues)中的文章  
 这些目录中有些文章是没有翻译的，所以很容易找到，找到后在`gitcafe`的`Ticket`中注明已经认领翻译的文章，避免别人重复翻译，浪费资源呐
 
 ## contact
