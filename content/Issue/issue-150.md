@@ -15,7 +15,7 @@ Tags: Weekly,Pycoder,Zh
 
 150 期了! Wow, 
 感谢大家和我们一起坚持下来,
-希望又更多的 150.
+希望有更多的 150.
 
 大家多分享[文章](http://pycoders.com/submissions/) 
 俺们才折腾的出又一周的美好呢.
@@ -153,7 +153,7 @@ Shared by @mgrouchy
 
 ## 文章
 
--[6 Python 技能技巧](http://blog.newrelic.com/2015/01/21/python-performance-tips/)
+- [6 Python 性能技巧](http://blog.newrelic.com/2015/01/21/python-performance-tips/)
 
 
 新技巧,令你的 Python 代码快速起来!
