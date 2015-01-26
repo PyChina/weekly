@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% set PAGINATOR = 20 %}
 {% block content %}
     {% if articles %}
         {% for article in (articles_page.object_list if articles_page else articles) %}
@@ -16,6 +17,11 @@
 
     {% if articles_page and articles_paginator.num_pages > 1 %}
         <ul class="pagination">
+            {% set range_l = articles_page.number - PAGINATOR // 2 %}
+            {% set range_l = range_l if range_l > 0 else 1 %}
+            {% set range_r = range_l + PAGINATOR %}
+            {% set range_r = articles_paginator.num_pages if range_r > articles_paginator.num_pages else range_r %}
+
             {% if articles_page.has_previous() %}
                 {% set num = articles_page.previous_page_number() %}
                 <li class="prev"><a href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html">&laquo;</a>
@@ -23,7 +29,7 @@
             {% else %}
                 <li class="prev disabled"><a href="#">&laquo;</a></li>
             {% endif %}
-            {% for num in range( 1, 1 + articles_paginator.num_pages ) %}
+            {% for num in range(range_l, range_r) %}
                 <li class="{{ 'active' if num == articles_page.number else '' }}"><a
                         href="{{ SITEURL }}/{{ page_name }}{{ num if num > 1 else '' }}.html">{{ num }}</a></li>
             {% endfor %}
