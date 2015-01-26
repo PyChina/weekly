@@ -11,7 +11,7 @@ Tags: Weekly,ImportPython,Zh
 ## 发了
 ~ Just Out
 
-- [Python Tools For Visual Studio - Release 2.1](https://pytools.codeplex.com/releases/view/109707)
+- [Visual Studio的Python工具2.1版本发布](https://pytools.codeplex.com/releases/view/109707)
 
 Python Tools for Visual Studio (PTVS)是一个Visual Studio的开源插件，用来支持Python语言的开发。
 PTVS 拥有一系列的功能，包括CPython/IronPython，编辑，智能提示，交互式调试，性能分析，Microsoft Azure，Ipython 和支持跨平台调试。
@@ -21,23 +21,23 @@ PTVS 拥有一系列的功能，包括CPython/IronPython，编辑，智能提示
 ## 该读
 ~ 文章, Blog, 教程...
 
-- [PDF of Python Cheatsheet or Quick Reference.](http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf)
+- [PDF版Python快速参考手册](http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf)
 
 对于Python开发新手非常方面和有帮助的参考。 打印一份，好好利用吧
 
-- [Advanced Use of Python Decorators and Metaclasses](http://lgiordani.com/blog/2014/10/14/decorators-and-metaclasses/) »
+- [Python装饰器和元类高级用法](http://lgiordani.com/blog/2014/10/14/decorators-and-metaclasses/) »
 
 告诉你如何使用元类和装饰器来创建强大的class，这些class可以通过添加装饰器方法被继承和定制。 Python3 的代码。（对大家提升非常有用啊）
 
-- [Supercharge Your Python Shell](http://dlo.me/archives/2014/09/08/pythonrc/) »
+- [让你的Python Shell 大不相同](http://dlo.me/archives/2014/09/08/pythonrc/) »
 
 你知道什么是 .pythonrc 吗？ 阅读和定制你的Python shell。 是一个非常好的每日 python 生产力 hack.
 
-- [A Python guide to handling HTTP request failures](https://www.mobify.com/blog/http-requests-are-hard/) »
+- [Python处理失败的HTTP请求指南](https://www.mobify.com/blog/http-requests-are-hard/) »
 
 当你通过HTTP向远程服务器请求信息的时候会发生很多错误：请求超时， 服务器宕机， 或者是政府切断了海底光缆。
 
-- [How To Use the Django One-Click Install Image](https://www.digitalocean.com/community/tutorials/how-to-use-the-django-one-click-install-image) »
+- [怎样使用Django一键安装镜像](https://www.digitalocean.com/community/tutorials/how-to-use-the-django-one-click-install-image) »
 
 在寻找新主机在部署你的新Django web应用？DigitalOcean 是性价比最好的之一，这里有一份他们的Django VPS镜像快速使用手册。
 使用时注意配置好Django，Gunicorn，Nginx。
@@ -95,13 +95,13 @@ Pyleus是一个新的开源框架，旨在为Storm（另一个开源Yelp project
 
 ## 社区儿
 
-- [Call for volunteers for DjangoCon US 2015 »](https://www.djangoproject.com/weblog/2014/oct/10/call-volunteers-djangocon-us-2015/)
+- [US 2015 DjangoCon 招募志愿者 »](https://www.djangoproject.com/weblog/2014/oct/10/call-volunteers-djangocon-us-2015/)
 
 "如果你乐于助人，请加入DjangoCon组织的mailing list - https://groups.google.com/group/djangocon-organizers 让大家知道你是多么热心"
 
 ## 讨论
 
-- [Problems with Teaching Python in School »](http://www.reddit.com/r/Python/comments/2j0rl3/problems_with_teaching_python_in_school/)
+- [在学校教学Python遇到的问题 »](http://www.reddit.com/r/Python/comments/2j0rl3/problems_with_teaching_python_in_school/)
 
 一个老师分享了他每天在学校教学Python的挑战。reddit上很有教育的讨论。
 
@@ -115,3 +115,4 @@ Pycon Ireland @pyconireland 举办了他们的 2014 Pycon。 上tweets看看他�
 
 - 141204 用时 .57分钟完成翻译.
 - 141204 [Zoom.Quiet](http://zoomquiet.io) 用时7分钟完成格式化.
+- 150126 [orangleliu](http://orangleliu.info) 补译
