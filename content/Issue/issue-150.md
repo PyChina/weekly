@@ -176,7 +176,7 @@ Shared by @mgrouchy
 
 
 详细的教程,
-指引你在 Falsk 应用中,
+指引你在 Flask 应用中,
 使用 芹菜.
 
 miguelgrinberg.com
