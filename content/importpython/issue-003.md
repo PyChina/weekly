@@ -112,6 +112,6 @@ Effective Python
 # 是也乎
 ~ 参考: [为毛又一个蠎周刊?](importpython-why)
 
-- 141204 用时 .57分钟完成翻译.
+- 150123 来自`PR` [85a2f73f](https://gitcafe.com/CPyUG/weekly/commit/85a2f73fd5bb091748c88394801a6a2bd6f2e030)
 - 141204 [Zoom.Quiet](http://zoomquiet.io) 用时7分钟完成格式化.
 - 150126 [orangleliu](http://orangleliu.info) 补译

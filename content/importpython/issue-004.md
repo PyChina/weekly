@@ -113,6 +113,6 @@ Pycon Ireland @pyconireland 举办了他们的 2014 Pycon。 上tweets看看他�
 
 ~ 参考: [为毛又一个蠎周刊?](importpython-why)
 
-- 141204 用时 .57分钟完成翻译.
+- 150123 来自 `PR` [87d20fa4](https://gitcafe.com/CPyUG/weekly/commit/87d20fa44e701ae2eac84439811f54fab6b75a20)
 - 141204 [Zoom.Quiet](http://zoomquiet.io) 用时7分钟完成格式化.
 - 150126 [orangleliu](http://orangleliu.info) 补译
