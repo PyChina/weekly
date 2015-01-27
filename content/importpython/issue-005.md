@@ -1,7 +1,7 @@
 Title: 蠎加载 5
 Slug: importpython-5
 Date: 2014-10-23
-Tags: Weekly,ImportPython,Zh 
+Tags: Weekly,ImportPython,Zh
 
 ![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/80)
 
@@ -12,41 +12,39 @@ Tags: Weekly,ImportPython,Zh
 ## 发了
 ~ Just Out
 
-- [Django - Release 1.7.1](https://docs.djangoproject.com/en/1.7/releases/1.7.1/)
+- [Django 1.7.1 发布](https://docs.djangoproject.com/en/1.7/releases/1.7.1/)
 
-Django 1.7.1 fixes several bugs in 1.7.
+Django1.7.1 修复了1.7 版本中的几个bug。
 
 
 ## 该读
 ~ 文章, Blog, 教程...
 
-- [Hidden features of Python](http://stackoverflow.com/questions/101268/hidden-features-of-python#)
+- [Python 隐藏的特性](http://stackoverflow.com/questions/101268/hidden-features-of-python#)
 
-What are the lesser-known but useful features of the Python programming language?. Question asked six year ago on stackoverflow. Must Read.
+Python 编程语言有哪些鲜为人知而又十分有用的特性呢？ 6年前发布在 stackoverflow 上的这个问题，非常有必要读一读。
 
-- [Using ElasticSearch via Python.](http://engineroom.trackmaven.com/blog/first-monthly-challenge-elasticsearch/)
+- [通过Python使用Elasticsearch ](http://engineroom.trackmaven.com/blog/first-monthly-challenge-elasticsearch/)
 
-Elasticsearch is a incredibly powerful search and analytics engine.
+Elasticsearch 是一个极为强大的搜索和分析引擎。
 
-- [Python Async IO Resources](http://asyncio.org/)
+- [Python Async IO 资源](http://asyncio.org/)
 
-Curated list of Asyncio talks, libraries, resources for organize python 3.4 asyncio
+整合了大量的关于python3.4 asyncio 的演讲，类库，资源。
 
-- [Python global keyword](http://kracekumar.com/post/100399630630/python-global-keyword)
+- [Python 全局变量](http://kracekumar.com/post/100399630630/python-global-keyword)
 
-Simple codesnippet to explain the How global keyword works ?
+用简单的代码片段来解释全局变量是如何工作的？
 
-- [List of Best Python IDEs.](http://codecondo.com/best-python-ide-for-developers/)
+- [Python 最好的IDE 集合](http://codecondo.com/best-python-ide-for-developers/)
 
-Having a good code editor (Integrated Development Environment) can really change the pace of your progress, be it for organizeing or for a full-scale project that you’re working on.
+拥有一个好的代码编辑器（集成开发环境）真的可以改变你的开发速度，因为它能把工作的项目完全整合起来。
 
-- [Huge List of Resources to organize python online.](https://www.codementor.io/organize-python-online)
-- [Video Streaming with Flask](http://blog.miguelgrinberg.com/post/video-streaming-with-flask)
-Huge List of Resources to organize python online. »
-Video Streaming with Flask »
+- [大量的python在线学习教程](https://www.codementor.io/organize-python-online)
 
-This article is dedicated to streaming, an interesting feature that gives Flask applications the ability to provide large responses efficiently partitioned in small chunks, potentially over a long period of time. 
+- [Flask 处理视频流](http://blog.miguelgrinberg.com/post/video-streaming-with-flask)
 
+这个篇文章着眼于流媒体，一个有趣的功能是让 Flask 应用可以把一个很大的 response 在一段很长的时间内切分成小块来响应。
 
 ## 代码
 ~ 包/模块/库/片段...
@@ -85,7 +83,7 @@ A cool logging replacement for Python.
 
 - [cropman](https://github.com/ufoym/cropman)
     - 281 Stars
-Face-aware image cropping. 
+Face-aware image cropping.
 
 ## 播了
 ~ Podcast
