@@ -38,7 +38,7 @@ Elasticsearch 是一个极为强大的搜索和分析引擎。
 
 - [Python 最好的IDE 集合](http://codecondo.com/best-python-ide-for-developers/)
 
-拥有一个好的代码编辑器（集成开发环境）真的可以改变你的开发速度，因为它能把工作的项目完全整合起来。
+拥有一个好的代码编辑器（集成开发环境）真的可以改变你的开发速度，因为它能把工作项目完全整合起来。
 
 - [大量的python在线学习教程](https://www.codementor.io/organize-python-online)
 
@@ -57,49 +57,56 @@ Elasticsearch 是一个极为强大的搜索和分析引擎。
 - [q - Text as Data](http://harelba.github.io/q/)
     - 338 Stars, Trending for 1 Day
 
-q is a command line tool that allows direct execution of SQL-like queries on CSVs/TSVs (and any other tabular text files).
-q 是一个可以直接在 CSVs/TSVs
+q 是一个可以直接在 CSVs/TSVs(任何其他表格形式的文本文件）文件上执行类似 SQL 查询的命令行工具。
 
 - [fig](https://github.com/docker/fig)
     - 3294 Stars
-Fast, isolated development environments using Docker
+
+使用Docker建立快速，隔离的开发环境
 
 - [prospector](https://github.com/landscapeio/prospector)
     - 241 Stars
-Inspects Python source files and provides information about type and location of classes, methods etc
+    
+检查 Python 源码，并提供类型，classes定位，方法等信息。
 
 - [Pixie](https://github.com/pixie-lang/pixie)
     - 249 Stars
+
 A small fast, native lisp with "magical" powers.
+一个小巧，快速，充满魔法力量的原始lisp。
 
 - [beets](https://github.com/sampsyo/beets)
     - 3247 Stars
-Beets is the media library management system for obsessive-compulsive music geeks. The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes. It then provides a bouquet of tools for manipulating and accessing your music.
+
+Beets 是一个面向具有强迫症音乐极客的多媒体管理系统。beets 的目标是让你的音乐收藏变得一劳永逸。
+它可以自动分类和导入媒体信息，提供了一系列编辑和访问音乐的工具。
 
 - [Gamification Server](https://github.com/ngageoint/gamification-server)
     - 43 Stars
-Server to track gamification elements (badges, points, tags) to work pages or apps.
+
+在网页或者app中追踪游戏元素（徽章，点，标记）的服务
 
 - [Logbook](https://github.com/mitsuhiko/logbook)
     - 635 Stars
-A cool logging replacement for Python.
+
+一个很酷的logging库，用来替换Python 内置logging库
 
 - [cropman](https://github.com/ufoym/cropman)
     - 281 Stars
-Face-aware image cropping.
+
+图像面部自动截取（看github的例子还挺准）
 
 ## 播了
 ~ Podcast
 
+[Django 自动化部署攻略»](http://www.reddit.com/r/django/comments/2k2gz5/strategies_on_automated_django_deployment/)
 
-## 曰了
-~ Tweets
-
+讨论了现有的Django自动化部署方案。 在Reddit上
 
 ## 本周之星
 ~ 一周 Python 程序员之选
-
-## 将来之书
+![start](https://avatars2.githubusercontent.com/u/2022803?v=2&s=100)
+Victor Felder
 
 # 是也乎
 
@@ -107,3 +114,4 @@ Face-aware image cropping.
 
 - 141204 用时 .57分钟完成翻译.
 - 141204 [Zoom.Quiet](http://zoomquiet.io) 用时7分钟完成格式化.
+- 150127 [orangleliu](http://orangleliu.info) 补译
