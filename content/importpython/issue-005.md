@@ -51,11 +51,14 @@ Elasticsearch 是一个极为强大的搜索和分析引擎。
 
 - [Doga](https://github.com/pravj/Doga)
     - 194 Stars
-HTTP log monitoring console for Humans. Trivia Doga is named after a Indian comic book superhero character.
+
+更好用的 HTTP log 监控控制台。Trivia Doga 是以印度漫画超级英雄人物来命名的。
 
 - [q - Text as Data](http://harelba.github.io/q/)
     - 338 Stars, Trending for 1 Day
+
 q is a command line tool that allows direct execution of SQL-like queries on CSVs/TSVs (and any other tabular text files).
+q 是一个可以直接在 CSVs/TSVs
 
 - [fig](https://github.com/docker/fig)
     - 3294 Stars
