@@ -14,7 +14,7 @@ Slug: importpython-3
 ## 发了
 ~ Just Out
 
-- [Python 3.4.2 Released](https://www.python.org/downloads/release/python-342/)
+- [Python 3.4.2 发布](https://www.python.org/downloads/release/python-342/)
 
 Python3.4.2修复了3.4.1中很多bug，并且还有其他的一些提升。对于OS X系统的用户有个新特性：OS X的installers 是一个单独的安装文件包 并且兼容OS X Gatekeeper安全特性。 
 
@@ -22,20 +22,20 @@ Python3.4.2修复了3.4.1中很多bug，并且还有其他的一些提升。对�
 ## 该读
 ~ 文章, Blog, 教程...
 
-- [Little Planet Projection](https://www.richwareham.com/articles/2014/09/29/little-planet-projection)
+- [小星球投影](https://www.richwareham.com/articles/2014/09/29/little-planet-projection)
 
 A Little Planet Panorma using Python and Scikit Image.
 一个使用Python和Scikit Image 的小星球Panorma（有点没懂）
 
-- [Python Puzzlers](https://speakerdeck.com/alangpierce/python-puzzlers/)
+- [Python谜题](https://speakerdeck.com/alangpierce/python-puzzlers/)
 
 包含了6个谜题，揭示了Python语言编程中的一些陷阱和古怪。 每个谜题中，给你了一些Python代码，你的任务就是指出代码运行之后会发生什么。
 
-- [Django Authentication Workflow](http://makkalot.github.io/posts/2014/Jul/13/django-auth-workflow/)
+- [Django 身份验证流程](http://makkalot.github.io/posts/2014/Jul/13/django-auth-workflow/)
 
 简要的综述了Django用户认证的流程。
 
-- [Django models, encapsulation and data integrity](http://www.dabapps.com/blog/django-models-and-encapsulation/)
+- [Django 模型，封装和数据完整性](http://www.dabapps.com/blog/django-models-and-encapsulation/)
 
 As codebases grow it becomes difficult to make any cast-iron guarantees that you really are enforcing application-level data integrity.
 随着代码库的增长就变得难有保证，你就强制应用级的数据完整性。
@@ -78,7 +78,7 @@ Python的一个meta web 框架
 ## 播了
 ~ Podcast
 
-- [Glyph Lefkowitz, Creator of Twisted](http://www.binpress.com/blog/2014/10/07/binpress-podcast-episode-14-glyph-lefkowitz-twisted/)
+- [Glyph Lefkowitz ,Twisted的发明者](http://www.binpress.com/blog/2014/10/07/binpress-podcast-episode-14-glyph-lefkowitz-twisted/)
 
 Glyph 解释了为什么开源项目的创造者要对项目的用户负责， 为什么他既欣赏同时又批评开源社区 和为什么开源世界应该看到自由软件的根源。
 他还阐述了他接管Python IRC频道来促进Twisted项目，这个项目怎么样诞生，为什么会有一个光明的未来或者更好。
@@ -114,3 +114,4 @@ Effective Python
 
 - 150123 来自`PR` [85a2f73f](https://gitcafe.com/CPyUG/weekly/commit/85a2f73fd5bb091748c88394801a6a2bd6f2e030)
 - 141204 [Zoom.Quiet](http://zoomquiet.io) 用时7分钟完成格式化.
+- 150126 [orangleliu](http://orangleliu.info) 补译
