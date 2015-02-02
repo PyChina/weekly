@@ -1,4 +1,4 @@
-Title: 蠎加载 Issue 7
+Title: 蠎加载 7
 Slug: importpython-7
 Date: 2000-11-6
 Tags: Weekly,ImportPython,Zh 
@@ -12,22 +12,22 @@ Tags: Weekly,ImportPython,Zh
 ## 发了
 ~ Just Out
 
-- [PyPy IO improvements](http://morepypy.blogspot.in/2014/11/pypy-io-improvements.html)
+- [PyPy IO的改进](http://morepypy.blogspot.in/2014/11/pypy-io-improvements.html)
 
-PyPy is a fast, compliant alternative implementation of the Python language (2.7.8 and 3.2.5). It has several advantages over the standard Python Interpreter. They just reported better IO improvement and garbage collection. Check the benchmark of CPython vs PyPy.
+PyPy是一个速度快，兼容性好替代Python(2.7.8和3.2.5)的实现。相对于标准的Python解释器，它有几个优势。例如：更好的IO实现和垃圾回收机制。快来悄悄Cpython VS PyPy的比较吧～
 
 ## 该读
 ~ 文章, Blog, 教程...
 
-- [Five Great Python Interview Question](http://www.toptal.com/python/interview-questions) »
+- [六大Python面试问题(原来又增加了一条～)](http://www.toptal.com/python/interview-questions) »
 
-So you know Python Programming, Do You ?. Have a look at these small code snippets and predict the output of the python programs.
+So...你懂Python编程，是吧！那来看看这些小的代码片段，预测一下输出的结果吧
 
-- [Encrypted SQLite Databases with Python and SQLCipher](http://charlesleifer.com/blog/encrypted-sqlite-databases-with-python-and-sqlcipher/) »
+- [使用Python和SQLCipher加密SQLite](http://charlesleifer.com/blog/encrypted-sqlite-databases-with-python-and-sqlcipher/) »
 
-SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. It doesn't offer the ability to encrypt the data that resides in the flat file. This is where SQLCipher comes in. This articles shows us how to use it.
+SQLite是一个独立的，不需要服务和配置，并且还支持事务的数据库引擎。它却没有提供对数据文件加密的功能，那么这就有SQLCipher的用武之地了。这篇文章就是向我们介绍如何去使用它。
 
-- [11 Must-Read Blogs for Python Developers](http://codecondo.com/blogs-for-python-developers/) »
+- [11个Python开发者必读博客](http://codecondo.com/blogs-for-python-developers/) »
 
 Roundup of weblogs to read for Python developers.
 
