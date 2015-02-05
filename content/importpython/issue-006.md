@@ -80,7 +80,6 @@ Kevin McAlear  使用 Python，机器学习来找出不断提出负面新闻的�
 
 - [Python Wear 的新生 »](https://plus.google.com/+Importpythongoogle/posts/9FLi6bnfgix) »
 
-Yes you read that correct. Have a look. She's adorable and the code is pythonic.
 读这个就对了。 看一看，她是很可爱的，代码很pythonic 。
 
 ## 播了
@@ -94,7 +93,6 @@ Yes you read that correct. Have a look. She's adorable and the code is pythonic.
 [![Adam Tauber](https://avatars2.githubusercontent.com/u/20240?v=2&s=100)](https://github.com/asciimoo?tab=repositories)
 
 Adam Tauber
-
 
 # 是也乎
 ~ 参考: [为毛又一个蠎周刊?](importpython-why)
