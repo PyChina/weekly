@@ -110,7 +110,9 @@ TEMPLATE_PAGES = {
         "404.html": "404.html",
         }
 
-STATIC_PATHS = ['_images', '_files'
+STATIC_PATHS = ['_images'
+    , '_files'
+    , '_drafts'
     , '_extra/robots.txt'
     , '_extra/favicon.ico'
     ]
