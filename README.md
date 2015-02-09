@@ -93,6 +93,33 @@ main loop:
 - 样式: `_themes/pelican-bootstrap3/`
 - 插件: `_plugins/`
 
+
+### 贡献
+
+提交你的贡献到`CPyUG / weekly`，先确保自己的仓库与上游仓库同步
+
+    # 在 Fork 的代码库中添加上游代码库的 remote 源，（操作一次就可以，以后不必每次添加）
+    git remote add upstream https://gitcafe.com/CPyUG/weekly.git
+
+    # 查看添加的上游仓库
+    git remote -v
+
+    # 提交本地修改
+    git add .
+    git commit -m "****"
+
+    # 同步上游版本
+    git remote update upstream
+    git rebase upstream/master
+
+    # push代码到gitcafe
+    git push origin master
+
+    # pull request
+    在自己gitcafe项目仓库下提交pull request到上游仓库
+
+ 
+
 ## changelog
 
 - 131219 base pelican build and through qiniu.com publish
