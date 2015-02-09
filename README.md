@@ -94,9 +94,9 @@ main loop:
 - 插件: `_plugins/`
 
 
-### 贡献力量
+### 贡献
 
-提交你的力量到`CPyUG / weekly`，先确保自己的仓库与上游仓库同步
+提交你的贡献到`CPyUG / weekly`，先确保自己的仓库与上游仓库同步
 
     # 在 Fork 的代码库中添加上游代码库的 remote 源，（操作一次就可以，以后不必每次添加）
     git remote add upstream https://gitcafe.com/CPyUG/weekly.git
