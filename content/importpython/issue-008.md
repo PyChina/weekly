@@ -1,6 +1,6 @@
 Title: 蠎加载 8
 Slug: importpython-8
-Date: 2014-11-13 24:42
+Date: 2014-11-13 23:32
 Tags: Weekly,ImportPython,Zh 
 
 ![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/80)
