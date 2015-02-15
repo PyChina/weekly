@@ -294,8 +294,9 @@ Shared by @myusuf3
 ## DAMA
 (`大妈私人无责任播报`)
 
-- 福利: ![wb_font](150215-wb_font.png)
+- 福利: 
 
+![wb_font 在 subl](http://zoomq.qiniudn.com/ZQCollection/snap/150215-wb_font.png)
 
 ### PS:
 
