@@ -25,27 +25,46 @@ Tags: Weekly,Pycoder,Zh
 
 ## 新闻
 
-- [April is adopt Pytest Month](http://pytest.org/latest/adopt.html) 
-Working together with helpers and partners, the Pytest project is looking to drive adoption in April. Check out the link for more details and sign up to be a helper or partner if you or your project fit the bill.
+- [Pytest Month 就在四月](http://pytest.org/latest/adopt.html) 
+
+Pytest 在小伙伴们的帮助下,准备在四月正式发布了.
+详细链接中, 如果你的项目需要靠谱测试组件的,应该关注了!
+
 pytest.org
+
 Shared by @mgrouchy
  
 
-- [Pyston 0.3: Self-hosting Sufficiency](http://blog.pyston.org/2015/02/24/pyston-0-3-self-hosting-sufficiency/)
-Pyston 0.3 is out and now all its internal scripts can be run on Pyston. This is a huge milestone for the fledgling Python implementation. Click through to follow along.
+- [Pyston 0.3: 自举充分](http://blog.pyston.org/2015/02/24/pyston-0-3-self-hosting-sufficiency/)
+
+Pyston 0.3 已经发布,
+所有内部脚本已经完全自我驱动.
+对于全新的 Python 实现, 这是一个巨大的里程碑.
+
 pyston.org
+
 Shared by @mgrouchy
  
 
-- [Django 1.8 beta 1 and 1.7.5 Released!](https://www.djangoproject.com/weblog/2015/feb/25/releases/)
-Django 1.8 has been designated as Django’s second “Long-Term Support” (LTS) release. As well a bug fix release for 1.7 branch!
+- [Django 1.8 beta 1 和 1.7.5 发布!](https://www.djangoproject.com/weblog/2015/feb/25/releases/)
+
+Django 1.8 已经指定为第二个 `长期支持`(LTS)版本.
+另外,也发布了一个 1.7 的 bugfix 分支.
+
 djangoproject.com
+
 Shared by @myusuf3
  
 
-- [Python Release Python 3.4.3](https://www.python.org/downloads/release/python-343/)
-Python 3.4.3 has many bugfixes and other small improvements over 3.4.2. Linked is the entire changelog if you are looking for a list.
+- [Python 3.4.3 发布](https://www.python.org/downloads/release/python-343/)
+
+Python 3.4.3 包含很多问题修订,
+以及对 3.4.2 的小改进.
+链接包含了详进的改变记录.
+
+
 python.org
+
 Shared by @mgrouchy
  
 
@@ -54,7 +73,7 @@ Shared by @mgrouchy
 ## 讨论
 
 
-- [PEP 448 (Additional Unpacking Generalizations) Accepted for Python 3.5](http://www.reddit.com/r/Python/comments/2x8d64/pep_448_additional_unpacking_generalizations/)
+- [PEP 448 (追加 Unpacking Generalizations) 已为 Python 3.5 接受](http://www.reddit.com/r/Python/comments/2x8d64/pep_448_additional_unpacking_generalizations/)
 
 reddit.com
 
@@ -70,87 +89,179 @@ Shared by @myusuf3
 ## 项目
 
 - [geocoder](https://github.com/DenisCarriere/geocoder)
-geocoder is a geocoding library, written in python, simple and consistent.
+
+geocoder 为地理编码库,
+python 完成的, 简洁和一致的.
+
 github.com
+
 Shared by @myusuf3
  
 
 - [argcomplete](https://github.com/kislyuk/argcomplete)
-This provides easy, extensible command line tab completion of arguments for your Python script. This definitely needs to support docopt.
+
+为你的 Python 脚本提供简洁,可扩展命令选项支持,
+无须运用 docopt 之类.
+
+
 github.com
+
 Shared by @myusuf3
  
+(`是也乎:`
+
+可引入  IPython, 能自动完成!
+
+    #!/usr/bin/env python
+    # PYTHON_ARGCOMPLETE_OK
+    import argcomplete, argparse, requests, pprint
+
+    def github_org_members(prefix, parsed_args, **kwargs):
+        resource = "https://api.github.com/orgs/{org}/members".format(org=parsed_args.organization)
+        return (member['login'] for member in requests.get(resource).json() if member['login'].startswith(prefix))
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--organization", help="GitHub organization")
+    parser.add_argument("--member", help="GitHub member").completer = github_org_members
+
+    argcomplete.autocomplete(parser)
+    args = parser.parse_args()
+
+    pprint.pprint(requests.get("https://api.github.com/users/{m}".format(m=args.member)).json())
+
+
+然后就能:
+
+    ./describe_github_user.py --organization heroku --member <TAB>
+
+)
 
 - [unicode_mayo](https://github.com/eyalr/unicode_mayo)
-Incredibly useful project here. If you ever had problems dealing with unicode strings in your project check this out. In your development environment, use it as a wrapper around unicode strings to see if they're accidentally coming in to contact with byte strings.
+
+
+非常有用, 专注 unicode 字符串问题,
+嘦在开发环境中, 对你的字符串进行包装,
+就能感知是否已经失常.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [compose](https://github.com/docker/compose)
-Compose is a tool for defining and running complex applications with Docker.
+
+Compose 是用来将应用定义/运行在 Docker 中的工具.
+
 github.com
+
 Shared by @myusuf3
  
 
 - [py2deb](https://github.com/paylogic/py2deb)
-Python to Debian package converter.
+
+
+Python 实现的 Debian 包含转换器.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [audiogrep](https://github.com/antiboredom/audiogrep)
-This is insanely cool. lets you search through audio for different words. I would recommend you check out this blog post as well for what is possible. awesome project!
+
+恰如其名, 能对音频文件内容进行关键词搜索的神奇工具.
+值得体验!
+
 github.com
+
 Shared by @myusuf3
  
 
 - [reinforce](https://github.com/NathanEpstein/reinforce)
-A 'plug and play' reinforcement learning library in Python. Infers a Markov Decision Process from data and solves for the optimal policy.
+
+`即插即用` 型学习库,
+用马尔可夫决策过程的进行数据和求解最优策略推断.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [django-hijack](https://github.com/arteria/django-hijack)
-Django-hijack allows superusers to hijack (=login as) and work on behalf of other users without knowing their credentials
+
+Django-hijack 允许超级用户劫持帐号(等若用户登录)
+模拟用户操作,而不需要用户的凭据.
+
 github.com
+
 Shared by @myusuf3
 
 ## 文章
 
-- [A friendly introduction to linear regression](http://www.dataschool.io/linear-regression-in-python/)
-Nice little IPython notebook if you looking for a primer for linear regression in Python.
+- [介绍一种友好的线性回归](http://www.dataschool.io/linear-regression-in-python/)
+
+非常可爱的 IPython notebook 文书,
+展现了如何舒服的折腾出线性回归情景
+
 dataschool.io
+
 Shared by @myusuf3
  
 
-- [Real Life Mocking](http://engineroom.trackmaven.com/blog/real-life-mocking/)
-Nice blog post demonstrating the uses of mock with trying to get around slow HTTP requests.
+- [真实生活中的 Mocking](http://engineroom.trackmaven.com/blog/real-life-mocking/)
+
+非常漂亮的示范,
+如何用 mock 来绕过缓慢的 HTTP 请求.
+
+
 trackmaven.com
+
 Shared by @myusuf3
  
 
-- [Macro-benchmark with Django, Flask and AsyncIO (aiohttp.web+API-Hour)](http://blog.gmludo.eu/2015/02/macro-benchmark-with-django-flask-and-asyncio.html)
-Interesting benchmark here comparing web frameworks Django, Flask and the asyncio based aiohttp.web + API-Hour. Click through for to check out the results and methodology.
+- [Django, Flask 和 AsyncIO 的微对比 (aiohttp.web+API-Hour)](http://blog.gmludo.eu/2015/02/macro-benchmark-with-django-flask-and-asyncio.html)
+
+很有趣的对比,
+详情链接中.
+包含结论和方法.
+
 gmludo.eu
+
 Shared by @mgrouchy
  
 
-- [Design for client-side applications in Python (but applicable to other languages too)](http://pydev.blogspot.ca/2015/02/design-for-client-side-applications-in.html)
-Nice post about some concepts to think about and consider if you are looking to create a client side Python application.
+- [设计客户端 Python 应用 (也适用其它语言实现)](http://pydev.blogspot.ca/2015/02/design-for-client-side-applications-in.html)
+
+一些很好的概念和考虑,
+有助于创建一个好用的客户端.
+
 blogspot.ca
+
 Shared by @mgrouchy
  
 
-- [The problem with packaging in Python](http://blog.ionelmc.ro/2015/02/24/the-problem-with-packaging-in-python/)
-A look at some of the problems with packaging in Python, including interface issues amongst other things. Also a look at what a solution or the potential promised land looks like.
+- [Python 打包的问题](http://blog.ionelmc.ro/2015/02/24/the-problem-with-packaging-in-python/)
+
+对Python 中打包的系列问题思考.
+也对比了各种可选方案和期待的情景.
+
 ionelmc.ro
+
 Shared by @mgrouchy
  
+(`是也乎:`
+细思恐极的事儿,
+所有开放语言的相同命题:`如何才能挖一个自个儿填的了的坑?!`
+)
 
-- [Optimizing Python in the Real World: NumPy, Numba, and the NUFFT](https://jakevdp.github.io/blog/2015/02/24/optimizing-python-with-numpy-and-numba/)
-Legit post by Jake! Where he implements NUFFT (Non-uniform Fast Fourier Transform) in pure Python and discusses optimizations that can be made throughout.
+- [现实世界的 Python 优化: NumPy, Numba, 以及 NUFFT](https://jakevdp.github.io/blog/2015/02/24/optimizing-python-with-numpy-and-numba/)
+
+由 Jake 授权发布! 
+依用 Python 完成了 NUFFT（非均匀快速傅立叶变换）!
+并讨论了如何进行优化.
+
 github.io
+
 Shared by @myusuf3
 
 
