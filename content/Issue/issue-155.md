@@ -1,6 +1,6 @@
 Title: 蠎周刊 155: Nimoy
-Slug: issue-154
-Date: 2015-02-28 08:08
+Slug: issue-155
+Date: 2015-03-02 08:08
 Tags: Weekly,Pycoder,Zh 
 
 
