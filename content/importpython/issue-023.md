@@ -158,5 +158,5 @@ Songza 的命令行客户端,
 ~ 参考: [为毛又一个蠎周刊?](importpython-why)
 
 
-- 150228 [Zoom.Quiet](http://zoomquiet.io) 用时 42 分钟完成快译.
+- 150305 [Zoom.Quiet](http://zoomquiet.io) 用时 42 分钟完成快译.
 - 150228 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
