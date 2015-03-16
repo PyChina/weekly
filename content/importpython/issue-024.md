@@ -6,7 +6,7 @@ Tags: Weekly,ImportPython,Zh
 ![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210)
 
 
-- 原文: 
+- 原文: [Import Python Weekly Newsletter - Issue No 24](http://importpython.com/newsletter/no/24/)
 
 ## 该读
 ~ 文章, Blog, 教程...

@@ -82,7 +82,80 @@ Shared by @mgrouchy
 (`是也乎:`
 大爱好问, 值得逐一收藏下来!
 
+最方便内置服务器:
 
+> python3 -m http.server
+> python -m SimpleHTTPServer
+
+最方便内置 邮件 发送:
+
+> python -m smtpd -c DebuggingServer -n
+
+俺在哪儿:
+
+> from os.path import expanduser
+> home_dir = expanduser('~')
+
+丫在哪儿:
+
+    cdp () {
+        cd "$(python -c "import os.path as _, ${1}; \
+                print(_.dirname(_.realpath(${1}.__file__[:-1])))"
+            )"
+    }
+
+    ~ $ cdp os
+    /usr/lib/python2.7 $
+
+    ~ $ cdp os.path
+    /usr/lib/python2.7 $
+
+
+人性化排序:
+
+    >>> from distutils.version import StrictVersion
+    >>> versions = ['1.3.12', '1.3.3', '1.2.5', '1.2.15', '1.2.3', '1.2.1']
+    >>> versions.sort(key=StrictVersion)
+    >>> print versions
+    ['1.2.1', '1.2.3', '1.2.5', '1.2.15', '1.3.3', '1.3.12']
+
+
+    >>> l = ['v1.3.12', 'v1.3.3', 'v1.2.5', 'v1.2.15', 'v1.2.3', 'v1.2.1']
+    >>> l.sort(key=LooseVersion)
+    >>> l
+    ['v1.2.1', 'v1.2.3', 'v1.2.5', 'v1.2.15', 'v1.3.3', 'v1.3.12']
+
+
+
+终端真数学:
+
+    $ pmath '3 + 4'
+    7
+    $ pmath -f'.4f' 'pow(2000, 1/3)'
+    12.5992
+    $ pmath -f'.4f' 'sin(pi/2)'
+    1.0000
+    $ pmath -c 'exp(1j*pi).real'
+    -1.0
+    $ pmath 'x=3;x+2'
+    5
+    $ echo '3+4' | pmath
+    7
+
+
+
+最方便合成器:
+
+> ''.join(itertools.islice(handle, lines))
+
+
+最方便 实时分析:
+
+> import pdb; pdb.set_trace()
+> or in IPython:
+> import ipdb; ipdb.set_trace()
+
+...
 
 )
 
