@@ -14,7 +14,6 @@ Tags: Weekly,Pycoder,Zh
 亲,
 
 
-
 大家多分享[文章](http://pycoders.com/submissions/) 
 俺们才折腾的出又一周的美好呢.
 
@@ -27,39 +26,65 @@ Tags: Weekly,Pycoder,Zh
 ## 新闻
 
 
-- [Django: Wall of Superpowers!](http://djangowos.com/)
-March to Python 3 continues! Check out the wall of "superpowers".
+- [Django: 功夫网!](http://djangowos.com/)
+
+三月将继续 Py 3 的征程,
+请检出 功夫网!
+
 djangowos.com
+
 Shared by @nathforge
  
 
-- [Django Security Releases and Advisory Issued!](https://www.djangoproject.com/weblog/2015/mar/09/security-releases/)
-Using Django you will definitely want to read this!
+- [Django 安全版本以及增益提案!](https://www.djangoproject.com/weblog/2015/mar/09/security-releases/)
+
+Django 党必读!
+
 djangoproject.com
+
 Shared by @myusuf3
  
 
 
-- [Python Release Python 3.5.0a2](https://www.python.org/downloads/release/python-350a2/)
+- [Python 发布 3.5.0a2](https://www.python.org/downloads/release/python-350a2/)
 
-Alpha release #2 for Python 3.5.0 series is out. New features over 3.4 include things like new matrix multiplication operator(@), % formatting for byte arrays and more. Click through for the entire changelog and more information.
+Alpha 版本第2号,
+已经从 3.5.0 分支上发布.
+3.4 基础上新增 矩阵乘运算符(`@`),
+`%` 字节数组,等等.
+细节点击进入.
+
+
 python.org
+
 Shared by @mgrouchy
  
 
-- [EuroPython 2015: Call for Proposal Dates Available](http://blog.europython.eu/post/113424757152/europython-2015-call-for-proposal-dates-available)
-CFP for EuroPython has been issued! You should totally do a talk!
+- [EuroPython 2015: 主题召集启动](http://blog.europython.eu/post/113424757152/europython-2015-call-for-proposal-dates-available)
+
+CFP 的 EuroPython 已经启动,
+你应该抢先注册!
+
 europython.eu
+
 Shared by @mgrouchy
   
 
 
 ## 讨论
 
-- [Nifty Python scripts you would like to share?](http://www.reddit.com/r/Python/comments/2ysd91/what_are_some_nifty_python_snippets_that_you_have/)
+- [有哪些漂亮的 Py 脚本是你忍不住想分享的!?](http://www.reddit.com/r/Python/comments/2ysd91/what_are_some_nifty_python_snippets_that_you_have/)
+
 reddit.com
+
 Shared by @mgrouchy
   
+(`是也乎:`
+大爱好问, 值得逐一收藏下来!
+
+
+
+)
 
 ## 工作
 
@@ -70,94 +95,161 @@ Shared by @mgrouchy
 ## 项目
 
 - [python-flamegraph](https://github.com/evanhempel/python-flamegraph)
-Statistical profiler which outputs in format suitable for FlameGraph
+
+能输出 FlameGraph 兼容的剖析统计数据.
+
 github.com
+
 Shared by @myusuf3
  
+(`是也乎:`
+简单的说,  Python 运行时也能用 火焰图来观察了!
+
+![python-flamegraph](https://github.com/evanhempel/python-flamegraph/raw/master/docs/attic-create.png)
+
+`<3`
+
+)
 
 - [django-api](https://github.com/bipsandbytes/django-api)
-Useful! Specify and validate your Django APIs in a single block of code.
+
+实用!
+将你的 Django 接口整理在单一代码块中!
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [django-linguist](https://github.com/ulule/django-linguist)
-An application to manage translations in Django models! Avidazen!
+
+专注管理 Django 模型转换的应用!
+
 github.com
+
 Shared by @myusuf3
  
 
 - [pyhipku](https://github.com/lord63/pyhipku)
-This is fun. Encode any IP address as a haiku. Check out the demo here!
+
+将任意 IP 转换为 俳句(hipku)  的包,
+细节链接之内.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [Wooey](https://github.com/mfitzp/wooey)
-Automated web UIs for running your command line python scripts.
+
+
+通过 web 界面自动化运行命令行脚本.
+
 github.com
+
 Shared by @mgrouchy
 
 
 
 ## 文章
 
-- [Deploying Python Applications with Docker - A Suggestion](https://glyph.twistedmatrix.com/2015/03/docker-deploy-double-dutch.html)
-A template for deploying Python applications into Docker containers.
+- [通过 Docker 部署 Python 应用的建议](https://glyph.twistedmatrix.com/2015/03/docker-deploy-double-dutch.html)
+
+针对用 Docker 来部署 Python 应用,给出了一个模板容器.
+
 twistedmatrix.com
+
 Shared by @myusuf3
  
 
-- [Markowitz Portfolio Optimization](https://plot.ly/ipython-notebooks/markowitz-portfolio-optimization/)
-For you quants out there as well as those interested in using plotly with IPython notebooks!
+- [Markowitz 投资优化组合](https://plot.ly/ipython-notebooks/markowitz-portfolio-optimization/)
+
+为你和客户以及对 plotly 有兴趣的 IPython notebook 案例
+
 plot.ly
+
 Shared by @myusuf3
  
 
-- [Debugging Your Python Code.](http://howchoo.com/g/zgi2y2iwyze/debugging-your-python-code)
-Legit introduction to using pdb for beginners.
+- [调试你的 Python 代码.](http://howchoo.com/g/zgi2y2iwyze/debugging-your-python-code)
+
+对新人合理的介绍 pdb 进行调试.
+
 howchoo.com
+
 Shared by @myusuf3
  
 
--[GPU-Accelerated Graph Analytics in Python with Numba](http://devblogs.nvidia.com/parallelforall/gpu-accelerated-graph-analytics-python-numba/)
+-[Python 用 Numba 进行 GPU-加速的图形分析](http://devblogs.nvidia.com/parallelforall/gpu-accelerated-graph-analytics-python-numba/)
+
 nvidia.com
+
 Shared by @mgrouchy
  
 
-- [Stop the “Works on My Machine” Syndrome](http://pythonforengineers.com/stop-the-works-on-my-machine-syndrome/)
-Its always the worst when you write some code that works for you and another developer tries it out and it fails on their machine. Here are some strategies to make sure your python code works for everyone and not just for you.
+- [治愈 "俺的工厂" 综合症](http://pythonforengineers.com/stop-the-works-on-my-machine-syndrome/)
+
+每当你的代码只能在自个儿的机械中运行时,
+那感觉总是无比苦涩的,
+此文给出了一些策略,确保我们的代码是通行的.
+
 pythonforengineers.com
+
 Shared by @mgrouchy
  
 
-- [Use Twilio and your phone to make audioblog posts](http://techstonia.github.io/twilio-voice-blog.html)
-This is pretty boss!! Twilio and a little Python and you have audio blog. Star date 0 (January 1, 2323)
+- [用 Twilio 和手机制造语音日志](http://techstonia.github.io/twilio-voice-blog.html)
+
+非常赞!
+Twilio 加上一点点 Python 脚本,
+你就拥有了一个音频博客!
+
 github.io
+
 Shared by @myusuf3
  
 
-- [How to Use Mechanical Turk with Python and Boto to Crowdsource Tasks](http://scottlobdell.me/2015/03/use-mechanical-turk-python-boto-crowdsource-tasks/)
-Cool tutorial for how to set up a django app to use Amazon’s Mechanical Turk in order to crowdsource small tasks on the cheap.
+- [如何使用 Mechanical Turk 和 Boto 发布众包任务](http://scottlobdell.me/2015/03/use-mechanical-turk-python-boto-crowdsource-tasks/)
+
+非常 COOL 的教程!
+展示如何用 Django 构建应用,
+在 Amazon 的 Mechanical Turk 中
+组织廉价众包任务.
+
 scottlobdell.me
+
 Shared by @mgrouchy
  
 
-- [Let’s Build A Web Server. Part 1.](http://ruslanspivak.com/lsbaws-part1/)
-Awesome article about building a web server, with some pretty comical illustrations.
+- [来构建 web 服务吧 - 第一部分](http://ruslanspivak.com/lsbaws-part1/)
+
+很赞的教程,
+有关如何构建一个发布各种漫画的 web 服务.
+
 ruslanspivak.com
+
 Shared by @myusuf3
  
 
--[Safely applying monkey patches in Python.](http://blog.dscpl.com.au/2015/03/safely-applying-monkey-patches-in-python.html)
-Ahh monkey patching. Read this article to get some tips to safely apply monkey patches in your python code by creating a decorator with the wrapt project.
+- [在 Python 中安装应用 monkey 补丁.](http://blog.dscpl.com.au/2015/03/safely-applying-monkey-patches-in-python.html)
+
+嗯啍 monkey 补丁!
+本文论及补丁的多种使用方式,
+其中有一种是为当前应用追加监控仪表盘...
+
 dscpl.com.au
+
 Shared by @mgrouchy
  
 
-- [Item 40: Consider Coroutines to Run Many Functions Concurrently](http://www.effectivepython.com/2015/03/10/consider-coroutines-to-run-many-functions-concurrently/)
-An excerpt from the book Effective Python, really great info on using coroutines to run functions concurrently, cool example implementing Conway's game of life.
+- [项目 40: 协程运行多种功能](http://www.effectivepython.com/2015/03/10/consider-coroutines-to-run-many-functions-concurrently/)
+
+来及好书 `Effective Python` ,
+讨论如何使用协程同时运行多个功能,
+实例代码来自 Conway 的游戏人生.
+
 effectivepython.com
+
 Shared by @mgrouchy
  
 
@@ -175,7 +267,7 @@ Shared by @mgrouchy
 
 # 是也乎
 
-- 150314 [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
+- 150316 [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
 - 150314 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
 
     
