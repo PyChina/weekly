@@ -94,11 +94,6 @@ Monkey 补丁的用途远不只是问题修复.
 另一个不常见的情况是为现有应用追加仪表盘,
 以追加监察功能.
 
-- [用 Fabric 在 Ubuntu 上自动部署 Django](http://ilian.io/automated-deployment-with-ubuntu-fabric-and-django/)
-    + django,deployment
-
-几个月前,俺只是体验 Fabric 一个简单的脚本来自动化创建一个 Django 项目.
-现在,已经变成一个值得推广的全功能栈的 Django 工程部署自动化框架了.
 
 ## 项目
 ~ 包/模块/库/片段...
@@ -165,6 +160,19 @@ ASCII 编码的 GeoJSON.
 来自 [猎豹移动 - 全球最大的移动工具开发商](http://www.cmcm.com/zh-cn/cm-backup/) ...
 
 
+
+### 回收
+
+- [用 Fabric 在 Ubuntu 上自动部署 Django](http://ilian.io/automated-deployment-with-ubuntu-fabric-and-django/)
+    + django,deployment
+
+几个月前,俺只是体验 Fabric 一个简单的脚本来自动化创建一个 Django 项目.
+现在,已经变成一个值得推广的全功能栈的 Django 工程部署自动化框架了.
+
+
+(`是也乎:`
+3年前的老文...
+经举报,下架 ;-)
 
 # 是也乎
 ~ 参考: [为毛又一个蠎周刊?](importpython-why)
