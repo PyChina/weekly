@@ -13,8 +13,8 @@ Tags: Weekly,Pycoder,Zh
 
 亲,
 
-
-Its that time of year again, time to take a break from your brackets to check out what happened in Python world this week! Enjoy!
+又是一年春花时,
+是时候从代码中抬头看看世界在发生什么了哈!
 
 大家多分享[文章](http://pycoders.com/submissions/) 
 俺们才折腾的出又一周的美好呢.
@@ -29,15 +29,28 @@ Its that time of year again, time to take a break from your brackets to check ou
 
 
 
-- [Security releases issued for Django](https://www.djangoproject.com/weblog/2015/mar/18/security-releases/)
-Another week, another new security release for Django. Upgrade your Django version where appropriate to Django 1.4.20, 1.6.11, 1.7.7 or 1.8c1.
+- [Django 再发安全版本](https://www.djangoproject.com/weblog/2015/mar/18/security-releases/)
+
+又一周, Django 发布了一堆安全升级,适当的情况下,
+及时升级吧,亲! Django 1.4.20, 1.6.11, 1.7.7 or 1.8c1.
+
 djangoproject.com
+
 Shared by @mgrouchy
  
+(`是也乎:`
+细思恐极的是, Django 这么热烈的进行安全版本的高速发布,
+意味着原先都有多少安全隐患哪)
 
-- [Requests Vulnerability Disclosed](http://docs.python-requests.org/en/latest/community/updates/#id1)
-Time to upgrade to Requests 2.6.0, there was a vulnerability in the handling of cookies on redirect. Click through for more details, but more importantly upgrade your projects using Requests.
+
+- [Requests 漏洞批露](http://docs.python-requests.org/en/latest/community/updates/#id1)
+
+是时候升级到 Requests 2.6.0 了!
+对 cookie 的处理以往有漏洞哪.
+详细在链接内.
+
 python-requests.org
+
 Shared by @mgrouchy
  
 
@@ -45,134 +58,232 @@ Shared by @mgrouchy
 
 ## 讨论
 
-- [what is the "unique" python feature that makes you love it?](http://www.reddit.com/r/Python/comments/2zg57n/learning_python_coming_from_many_other_languages/)
+- [Python 哪个 "独特" 的特性令你深深的爱上了她?](http://www.reddit.com/r/Python/comments/2zg57n/learning_python_coming_from_many_other_languages/)
+
 reddit.com
+
 Shared by @myusuf3
  
+
+(`是也乎:`
+reddit 上列出了很多梗, IPython 提及的次数不少,
+对于大妈私人而言按动心程度:
+
+> 缩进
+> 内置库
+> 动态
+
+)
 
 ## 项目
 
 - [cerberus](https://github.com/nicolaiarocci/cerberus)
-A validation too for Python dictionaries.
+
+对 Python 字典数据能进行类型控制的库.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [PyTricks](https://github.com/brennerm/PyTricks)
-A pretty nice collection of less popular features and tricks for Python.
+
+这是反复推荐的收集 Py 相关技巧和冷门知识的仓库.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [AstroBuild](https://github.com/lhartikk/AstroBuild)
-Deploy your code based on the planets alignments.
+
+基于 planets alignments 进行项目部署
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [governor](https://github.com/compose/governor)
-Very useful if you are looking to get your Postgres on. This is a Template for PostgreSQL HA with etcd.
+
+针对 etcd 构建的部署模板,
+专门支持 PostgreSQL HA!
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [django-db-mailer](https://github.com/LPgenerator/django-db-mailer)
-Interesting project. Allows you to create your email template from an admin and store the template in the database. Also supports sending messages in the background and a bunch of other nice features. Check it out.
+
+得趣的项目,
+支持你在管理员界面中创建邮件模板,存储在 DB 中,
+并支持各种发送功能.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [holoviews](https://github.com/ioam/holoviews)
-From the README, holoviews is a "Composable, declarative data structures for building complex visualizations easily."
+
+自述中曰: holoviews 
+乃:"可组合的,数据结构声明,用以方便构建复杂的可视化"
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [equals](https://github.com/toddsifleet/equals)
-Fuzzy equality objects for testing, a stricter version of Mock.Any.
+
+模糊对等测试支持
+Mock.Any 的严格版本.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [django-GNU-Terry-Pratchett](https://github.com/aaronbassett/django-GNU-Terry-Pratchett)
-Sir Terry Pratchett has passed away. As per this reddit thread, add the 'X-Clacks-Overhead' header to your Django application honour Terry Pratchett.
+
+Sir Terry Pratchett 己作古.
+这个 reddit 线索中,
+追加 `X-Clacks-Overhead` 标签来纪念 Terry Pratchett 吧.
+
 github.com
+
 Shared by @aaronbassett
  
 
 - [aiomysql](https://github.com/aio-libs/aiomysql)
-Library for using a MySQL database from asyncio.
+
+通过 asyncio 来使用 MySQL 的库.
+
 github.com
+
 Shared by @isinf
 
+(`是也乎:`
+支持 Py3, 从请求方进行异步,能提高 MySQL 的能量嘛?)
 
 ## 文章
 
 
-- [Finding temp file creators](http://nedbatchelder.com//blog/201503/finding_temp_file_creators.html)
-In this post the author noticed that the test suite for his project was leaving behind temporary files and decides to monkeypatch a helper in mkdtmp to find out what callers were creating the temp files. Cool post.
+- [发现谁创建了临时文件](http://nedbatchelder.com//blog/201503/finding_temp_file_creators.html)
+
+笔者注意到项目中有很多临时文件,在测试过程中产生,
+于是, 利用 `monkeypatch` 追加了一个 `mkdtmp` 事务,
+来追踪临时文件的生产.
+佷 COOL.
+
 nedbatchelder.com
+
 Shared by @mgrouchy
  
 
-- [PyMongo And Key Order In Subdocuments](http://emptysqua.re/blog/pymongo-key-order/)
-A detailed look into the question "Why does my query work in the shell but not PyMongo?".
+- [PyMongo 子文档的键序](http://emptysqua.re/blog/pymongo-key-order/)
+
+发源自一个好问题:
+"为毛查询总是在 shell 中折腾,
+而不能在 PyMongo 中!?"
+
 emptysqua.re
+
 Shared by @mgrouchy
  
 
 - [Ordering issues when monkey patching in Python.](http://blog.dscpl.com.au/2015/03/ordering-issues-when-monkey-patching-in.html)
+
 An approach to solve ordering issues when monkey patches are applied by the use of post import hooks.
+
 dscpl.com.au
+
 Shared by @mgrouchy
  
 
-- [Real-time notifications on Django using gevent-socketio and RabbitMQ](http://www.machinalis.com/blog/rt-notifications-gevent-gis/)
-Very complete tutorial to get realtime event notifications working on a GeoDjango based site. Uses socket.io, gevent and rabbitmq to make the magic happen.
+- [在 Django 中使用 gevent-socketio 和 RabbitMQ 实现实时消息](http://www.machinalis.com/blog/rt-notifications-gevent-gis/)
+
+非常完备的教程,
+展示了如何在 Django 中组合应用 gevent-socketio 和 RabbitMQ 
+令实时通知变得如此简单.
+
 machinalis.com
+
 Shared by @mgrouchy
  
 
-- [My approach to Class Based Views](http://lukeplant.me.uk/blog/posts/my-approach-to-class-based-views/)
-Luke Plant gives you his DIY approach to dealing with class based views in Django.
+- [俺的 Class Based Views](http://lukeplant.me.uk/blog/posts/my-approach-to-class-based-views/)
+
+Luke Plant 展示如何自制 approach
+来在 Django 中折腾 class based views .
+
 lukeplant.me.uk
+
 Shared by @mgrouchy
  
 
-- [Mapping Your Music Collection](http://www.christianpeccei.com/musicmap/)
-a look at an interesting way to visualize your music collection with numpy and other tools.
+- [映射你的音乐收藏](http://www.christianpeccei.com/musicmap/)
+
+通过 numpy 和其它工具,
+对你收藏的音乐进行可视化映射.
+
 christianpeccei.com
-Shared by @mgrouchy
- 
 
-- [Threading and Multiprocessing Tutorial for Python](http://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python)
-Very detailed guide for beginners who want to learn about concurrency and parallelism in Python
+Shared by @mgrouchy
+
+(`是也乎:`
+
+![music map small](http://www.christianpeccei.com/musicmap/res/img/musicmapsmall.png)
+
+基于 频谱 分析出音乐情绪的倾向性,
+来组织为色谱矩阵.
+
+)
+
+- [Threading 和 Multiprocessing 教程](http://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python)
+
+教程针对初学者非常友好.
+涉及对 Python 中并行计算的详尽介绍.
+
+
 toptal.com
+
 Shared by @mgrouchy
  
 
-- [Mining Twitter Data with Python](http://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/)
-This is the first part of a three part series for mining twitter with Python. Each part of the series takes you through steps in the process from collecting data, pre-processing the data you collected to doing some basic analysis of term frequencies in your data.
+- [用 Py 对 Twitter 数据进行分析](http://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/)
+
+这是系列文章中第一部分,
+将用三篇文章,展示如何组合使用 Py 相关工具,
+对 Twitter 公开数据,
+分析出有趣的结论.
+
 marcobonzanini.com
+
 Shared by @myusuf3
 
-
+(`是也乎:`
+唯一问题是,没有用 IPython notebook 发布,
+差评!-)
 
 
 ## DAMA
 (`大妈私人无责任播报`)
 
-![PyCon Asia-Pacific 2015](http://zoomq.qiniudn.com/CPyUG/PyCon2015China/pycon-apac2015-logo.png)
 
-- [亚太Py大会 6-5~7 在台北举行!](http://pycontw.blogspot.tw/2015/02/pycon-asia-pacific-2015-in-taiwan-save.html)
+### 工作
 
-[PyCon APAC/Taiwan 2015 - Call for Proposals](https://tw.pycon.org/2015apac/en/call-for-proposals/) 议题召集已经释放,想去宝岛体验社区交流的,可以下手了!
+- [猎豹广州团队急召](https://github.com/cheetahmobile/CMBM/wiki/BmGzHr)
+
+来自 [猎豹移动 - 全球最大的移动工具开发商](http://www.cmcm.com/zh-cn/cm-backup/) 
+最后一周急招5名 gopher/pythonista !
 
 
 # 是也乎
 
-- 150316 [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
-- 150314 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
+- 150325 [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
+- 150321 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
 
     
  
