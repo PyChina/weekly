@@ -1,6 +1,6 @@
-Title: 蠎加载 25
-Slug: importpython-25
-Date: 2015-03-20 21:12
+Title: 蠎加载 26
+Slug: importpython-26
+Date: 2015-04-04 23:32
 Tags: Weekly,ImportPython,Zh 
 
 ![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210)
