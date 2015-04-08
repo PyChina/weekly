@@ -277,7 +277,17 @@ Shared by @myusuf3
 biesnecker.com
 
 Shared by @myusuf3
- 
+
+
+(`是也乎:`
+
+![echo4-biesnecker](![150407-echo4-biesnecker_com.png](http://pyconcn.qiniudn.com/zoomquiet/res/snap/150407-echo4-biesnecker_com.png?imageView2/2/w/150))
+
+细思恐极,这世界太疯狂!
+随便一个外国人都能使用中文了,
+我们还有什么理由不用 E文的!?
+
+)
 
 - [介绍 Python 中的函式编程](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming)
 
