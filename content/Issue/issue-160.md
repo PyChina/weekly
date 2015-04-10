@@ -281,7 +281,7 @@ Shared by @myusuf3
 
 (`是也乎:`
 
-![150407-echo4-biesnecker_com.png](http://pyconcn.qiniudn.com/zoomquiet/res/snap/150407-echo4-biesnecker_com.png?imageView2/2/w/150)
+![150407-echo4-biesnecker_com.png](http://pyconcn.qiniudn.com/zoomquiet/res/snap/150407-echo4-biesnecker_com.png?imageView2/2/w/420)
 
 细思恐极,这世界太疯狂!
 随便一个外国人都能使用中文了,
@@ -333,6 +333,7 @@ Shared by @myusuf3
 
 # 是也乎
 
+- 150407 [Zoom.Quiet](http://zoomquiet.org/) 追加意外 echo
 - 150404 [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
 - 150404 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
 
