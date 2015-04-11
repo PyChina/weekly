@@ -15,6 +15,7 @@ Tags: Weekly,Pycoder,Zh
 
 Mahdi is at PYCON 2015 in Montreal! Say hi if you see him! Now on to the newsletter
 
+
 大家多分享[文章](http://pycoders.com/submissions/) 
 俺们才折腾的出又一周的美好呢.
 
@@ -27,23 +28,36 @@ Mahdi is at PYCON 2015 in Montreal! Say hi if you see him! Now on to the newslet
 ## 新闻
 
 - [PyCon APAC/Taiwan 2015](https://tw.pycon.org/2015apac/en/registration/)
-Early bird registration is open for PyCon APAC/Taiwan 2015, early bird registration runs until the 21st.
+
+早鸟注册已经开放, 只到本月 21 号.
+
 pycon.org
+
 Shared by @mgrouchy
  
 - [PyCon 2015 Videos](https://www.youtube.com/channel/UCgxzjK6GuOHVKR_08TT4hJQ)
-Posted as they are available!
+
+实时发布哪...
+
 youtube.com
+
 Shared by @mgrouchy
  
-- [DjangoCon US 2015 Call for Proposals](https://www.djangoproject.com/weblog/2015/apr/02/djangocon-us-2015-call-for-proposals/)
-Time to submit your talk proposals!
+- [DjangoCon US 2015 议题召唤](https://www.djangoproject.com/weblog/2015/apr/02/djangocon-us-2015-call-for-proposals/)
+
+是时间提交你的议题了.
+
 djangoproject.com
+
 Shared by @mgrouchy
  
-- [Announcing PyMongo 3](http://emptysqua.re/blog/announcing-pymongo-3/)
-PyMongo 3 is out, click through for full details.
+- [发布 PyMongo 3](http://emptysqua.re/blog/announcing-pymongo-3/)
+
+PyMongo 3 已发布,
+细节链接中.
+
 emptysqua.re
+
 Shared by @mgrouchy
 
 
@@ -51,12 +65,16 @@ Shared by @mgrouchy
 ## 讨论
 
 
-- [Python in GIS](http://www.reddit.com/r/Python/comments/31znqr/python_in_gis/)
+- [Python 在 GIS](http://www.reddit.com/r/Python/comments/31znqr/python_in_gis/)
+
 reddit.com
+
 Shared by @myusuf3
  
-- [Books on hacking and security using Python](http://www.reddit.com/r/Python/comments/31q3x0/books_on_hacking_and_security_using_python/)
+- [有关 hack 和安全的 Py 图书](http://www.reddit.com/r/Python/comments/31q3x0/books_on_hacking_and_security_using_python/)
+
 reddit.com
+
 Shared by @mgrouchy
  
 
@@ -82,15 +100,20 @@ Shared by @mgrouchy
 
 
 - [barf-project](https://github.com/programa-stic/barf-project)
-A multiplatform open source Binary Analysis and Reverse engineering Framework.
+
+多平台开源二进制分析和逆向工程框架.
+
 github.com
+
 Shared by @mgrouchy
  
 - [boltons](https://github.com/mahmoud/boltons)
-A collection of things that would be useful in the stdlib but aren't there. Pretty nice collection of BSD licensed tools here. Check out the full docs here.
-[full docs here](https://boltons.readthedocs.org/en/latest/)
+
+Boltons是拥有超过100个BSD许可的纯Python实用工具集合,
+[文档在此](https://boltons.readthedocs.org/en/latest/)
 
 github.com
+
 Shared by @mgrouchy
 
 (`是也乎:`
@@ -100,71 +123,159 @@ pip 不招人待见的事儿太多了,,
 
  
 - [serpy](https://github.com/clarkduvall/serpy)
-Ridiculously fast object serialization for complex datatypes like Django models, custom classes, etc.
+
+能对类似 Django 模块/自定类 等 复杂数据类型进行高速序列化.
+
+
 github.com
+
 Shared by @mgrouchy
  
 - [NCutil](https://github.com/jacobsalmela/NCutil)
-Very cool! A Notification Center utility for OSX, allows you to Add/remove apps, set alert styles and suppress app store notifications. Supports Mavericks and Yosemite.
+
+非常赞的, 支持 Mavericks 和 Yosemite ,
+针对 OSX 提醒中心,
+允许 追加/删除应用也支持 app store 的提醒接入.
+
 github.com
+
 Shared by @mgrouchy
  
 - [soupy](https://github.com/ChrisBeaumont/soupy)
-Soupy is a wrapper around BeautifulSoup that makes it easier to build complex queries when wrangling web data.
+
+对 BeautifulSoup 的完整包装,
+支持对 web 数据构建复杂的查询.
+
 github.com
+
 Shared by @mgrouchy
- 
+
+(`是也乎:`
+
+```
+from soupy import Soupy, Q
+
+html = """
+<div id="main">
+  <div>The web is messy</div>
+  and full of traps
+  <div>but Soupy loves you</div>
+</div>"""
+
+print(Soupy(html).find(id='main').children
+      .each(Q.text.strip()) # extract text from each node, trim whitespace
+      .filter(len)          # remove empty strings
+      .val())               # dump out of Soupy
+
+# ['The web is messy', 'and full of traps', 'but Soupy loves you']
+```
+
+果断 jQ 样哪...
+
+)
+
 - [nameko](https://github.com/onefinestay/nameko)
-Python framework for building microservices.
+
+又一个微服务构建框架.
+
 github.com
+
 Shared by @myusuf3
  
 - [guardrail](https://github.com/jmcarp/guardrail)
-guardrail is a Python library for managing object-level permissions which framework and db agnostic.
+
+对象级权限管理库,
+和db 无关,可独立使用的.
+
 github.com
+
 Shared by @myusuf3
 
 
 ## 文章
 
 - [Nameko for Microservices](http://lucumr.pocoo.org/2015/4/8/microservices-with-nameko/)
-Really nice introduction to Nameko. A new project that aims to allow users to build microservices and focus on logic application logic and deal less with spending a lot of time bending your web framework stack to your will.
+
+Nameko(滑菇) 的详细介绍,
+支持用户快速构建微服务,
+专注业务逻辑,
+将各种协议细节都给简化了.
+
 pocoo.org
+
 Shared by @mgrouchy
  
-- [Automatic patching of Python applications.](http://blog.dscpl.com.au/2015/04/automatic-patching-of-python.html)
-Continuation of the post last time which delved deeper into monkey patching
+(`是也乎:`
+
+![Nameko](http://img3.douban.com/lpic/s24587198.jpg)
+
+小而美味;
+支持 AMQP 上的 RPC;
+内置测试框架...
+
+强化的 bottle,好象
+)
+
+
+- [Py 应用的自动补丁.](http://blog.dscpl.com.au/2015/04/automatic-patching-of-python.html)
+
+对 猴式 补丁的最后一篇讨论
+
 dscpl.com.au
+
 Shared by @myusuf3
  
-- [Numba vs Cython: How to Choose](http://eng.climate.com/2015/04/09/numba-vs-cython-how-to-choose/)
-How do you choose between Numba and Cython for accelerating your numeric Python code, this article intends to give you some tips.
+- [Numba vs Cython: 如何选择](http://eng.climate.com/2015/04/09/numba-vs-cython-how-to-choose/)
+
+用 Python 进行数学处理时,
+如何在 Numba 和 Cython 之间选择?!
+作者给出了一些建议.
+
 climate.com
+
 Shared by @mgrouchy
  
 - [vim-yapf](https://github.com/mindriot101/vim-yapf#why-you-may-not-need-this-plugin)
-A plugin for vim to include the yapf python formatter.
+
+为 vim 准备的 yapf Python 格式化
+
 github.com
+
 Shared by @mgrouchy
  
 - [Classy CBV](http://ccbv.co.uk/)
-Resource and missing documentation for Django Class Based Views.
+
+
+Django Class Based Views 相关资源和迷失的文档
+
 ccbv.co.uk
+
 Shared by @mgrouchy
  
-- [Exploring Python 3’s Asyncio by Example](http://www.giantflyingsaucer.com/blog/?p=5557)
-Nice walkthrough with examples of Python 3's asyncio. If you are interested in asyncio, this is a really nice read.
+- [实例体验 Py3 的 Asyncio](http://www.giantflyingsaucer.com/blog/?p=5557)
+
+如果对 Py3 中的 Asyncio 开发有兴趣,
+此篇大善.
+
 giantflyingsaucer.com
+
 Shared by @mgrouchy
  
-- [Let’s Build A Web Server. Part 2.](http://ruslanspivak.com/lsbaws-part2/)
-Ruslan is back with part 2 Let's Build a Web Server. Legit illustrations!
+- [构建 Web 服务: 第二部分.](http://ruslanspivak.com/lsbaws-part2/)
+
+Ruslan 重启这一系列,
+此篇包含了精美插图.
+
 ruslanspivak.com
+
 Shared by @myusuf3
  
-- [Stochastic Processes in Python](http://www.stuartreid.co.za/random-walks-down-wall-street-stochastic-processes-in-python/)
-Nice article about popular stochastic processes used by Quants.
+- [Python 中的随机过程](http://www.stuartreid.co.za/random-walks-down-wall-street-stochastic-processes-in-python/)
+
+使用 Quants 处理随机过程的好文章.
+
 stuartreid.co.za
+
 Shared by @myusuf3
  
 
@@ -178,7 +289,7 @@ Shared by @myusuf3
 
 # 是也乎
 
-- 1504?? [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
+- 150411 [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
 - 150411 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
 
     
