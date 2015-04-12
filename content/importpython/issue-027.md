@@ -13,81 +13,137 @@ Tags: Weekly,ImportPython,Zh
 
 
 
--[Talk Python To Me Podcast: Python and MongoDB](http://www.talkpythontome.com/episodes/show/2/python-and-mongodb)
+- [俺的播客聊 Python : Python 和 MongoDB](http://www.talkpythontome.com/episodes/show/2/python-and-mongodb)
     - mongodb
-In this show we speak with Jesse Davis from MongoDB. Jesse is the maintainer for a number of popular open-source projects including the Python MongoDB driver known as PyMongo.
 
-- [Power up your virtualenv](http://www.reddit.com/r/Python/comments/31pcor/power_up_your_virtualenv/)
+本次节目嘉宾是来自 MongoDB 的 Jesse Davis.
+Jesse 是几个流行开源库的维护人,
+包括 Mongo 的 Py 驱动库: PyMongo .
+
+- [提升 virtualenv](http://www.reddit.com/r/Python/comments/31pcor/power_up_your_virtualenv/)
     + virtualenv
-I discovered virtualenvwrapper in early 2012, it’s been my tool of choice when working with python since then. Now,mkvirtualenvis the first command I type when starting a project. Here is what my current workflow looks like.
 
-- [A curated list of awesome Flask resources and plugins](https://github.com/humiaozuzu/awesome-flask)
+2012 年俺发现了 virtualenvwrapper,
+然后就变成了俺的首选工具.
+至今每天第一个命令就是: mkvirtualenvis .
+在这儿分享一些基于 virtualenv 的工作流.
+
+(`是也乎:`
+
+其实现在流行的是 pyenv 了,将环境和工程分离,可以随意装配.
+)
+
+- [很赞的 Flask 资源及插件列表](https://github.com/humiaozuzu/awesome-flask)
     + flask
-Bookmark and contribute.
 
-- [Announcing The PyCharm 4.5 EAP](http://feedproxy.google.com/~r/Pycharm/~3/El5bzWiRejE/)
+包含书签和贡献.
+
+- [PyCharm 4.5 EAP 发布](http://feedproxy.google.com/~r/Pycharm/~3/El5bzWiRejE/)
     + pycharm
-It’s an exciting day for us at JetBrains PyCharm, as the first PyCharm 4.5 public preview build 141.583 is finally available for download! Head on over to the download section of the PyCharm Early Access Preview (EAP) page.
 
-- [Games Of Chance in Python](http://www.checkio.org/blog/games-chance/)
-Texas hold'em is a variation of the standard card game of poker. Two cards are dealt face down to each player and then five community cards are placed face-up by the dealer. With these cards, we need to define what combination a player has.
+对 JetBrains PyCharm 而言是兴奋的一天,
+第一个 PyCharm 4.5 公开预览版(第141.583次构建)可以下载了!
+放在 EAP(Early Access Preview) 目录.
 
-- [Manage Python Script Options](http://blog.endpoint.com/2015/04/manage-python-script-options.html)
+
+- [Python 中的游戏机会](http://www.checkio.org/blog/games-chance/)
+
+德州扑克是标准卡牌游戏的变种,
+两张填起来,其它5张公开,基于这些,你得决策怎么赢.
+
+
+- [管理 Python 脚本选项](http://blog.endpoint.com/2015/04/manage-python-script-options.html)
     + core python
-A good write up on How to handle command line arguments with Python ?.
 
-- [Your Django Story: Meet Agata](http://blog.djangogirls.org/post/115670880808)
+有更好的方式来管理 Python 命令行参数嘛?!
+
+
+
+- [你的 Django 故意: Meet Agata](http://blog.djangogirls.org/post/115670880808)
     + interview
-Agata is a software developer working at 10Clouds and also a proud Django Girls Wroc?aw coach. She graduated with a degree in Electronics and Computer Engineering from Warsaw University of Technology. I had my first chance to start coding at university. I absolutely hated it. Had a chance to work with great coders who encouraged me to learn and meet the Warsaw Python community. And then Python, this beautiful language, made me fall in love with coding.
 
-- [PgConf 2015 NYC Recap](http://blog.endpoint.com/2015/04/pgconf-2015-nyc-recap.html)
-I recently just got back from PGConf 2015 NYC. It was an invigorating, fun experience, both attending and speaking at the conference. What follows is a brief summary of some of the talks I saw, as well as some insights/thoughts.
+Agata 是 10Clouds 的软件工程师,
+也是位傲骄的 Django Girls Wroc 教练.
+毕业于华沙大学的电子和计算机工程技术系.
+毕业后不得不开始编程时,很反感的.
+幸好华沙Python社区的程序猿们感化了她,
+最终 Python 这门美好的语言, 多拥有了一位美丽的程序媛. 
 
-- [Creating Python Snaps](http://www.wefearchange.org/2015/04/creating-python-snaps.html)
-There's a lot of interesting technology here; pex for building single file executables of Python applications, and Snappy Ubuntu Core for atomic, transactional system updates and lightweight application deployment to the cloud and things. These allow you to get started doing some basic deployments of Python applications. 
+
+- [PgConf 2015 NYC 重温](http://blog.endpoint.com/2015/04/pgconf-2015-nyc-recap.html)
+
+俺刚刚从 NY PGConf 2015 回来,
+真心是段奇妙的经历,
+在此俺尝试分享有所触动的见解/想法.
+
+- [创建 Python Snaps](http://www.wefearchange.org/2015/04/creating-python-snaps.html)
+
+又涌现出很多有趣的技术;
+pex 创建可执行的 Python 单一应用文件,
+配合原子的 Snappy Ubuntu Core ,
+能传送系统更新或轻量应用部署到云或是其它环境中.
+这令我们有更多的姿势快速完成 Python 基础部署.
 
 
 ## 项目
 ~ 包/模块/库/片段...
 
-- [shittydb](https://github.com/theseoafs/shittydb)
+- [shittydb](https://github.com/theseoafs/shittydb) 
     - 61 Stars, 18 Fork
-A confoundingly fast key-value store
+
+嗯啍,快速 KV 存储.
 
 - [soupy](https://github.com/ChrisBeaumont/soupy)
     - 50 Stars, 1 Fork
-Easier wrangling of web data.
+
+易折腾的 web 数据包裹.
 
 - [libextract](https://github.com/libextract/libextract)
     - 26 Stars, 3 Fork
-Extracts text from articles.
+
+自在的提取文章文本.
 
 - [cleveland](https://github.com/biesnecker/cleveland)
     - 17 Stars, 0 Fork
-Simple asyncio-based actors.
+
+简单 asyncio-based actors.
 
 - [python-xss-filter](https://github.com/phith0n/python-xss-filter)
     - 12 Stars, 4 Fork
-Based on native Python module HTMLParser purifier of HTML, To Clear all javascript in html
+
+基于 HTMLParser 的原生 HTML 净化器,
+清取所有 javascript .
+
+(`是也乎:`
+
+内什么, 现在没有动态 JS 输出的网页,不多了...
+
+)
+
 
 - [Flask-aiohttp](https://github.com/Hardtack/Flask-aiohttp)
     - 10 Stars, 1 Fork
-Asynchronous Flask using aiohttp
+
+使用 aiohttp 的异步 Flask .
 
 - [django-prometheus](https://github.com/korfuri/django-prometheus)
     - 6 Stars, 2 Fork
-Export Django monitoring metrics for Prometheus.io
+
+Export Django 
+针对 Prometheus.io 的监测指标 
 
 - [SendMail](https://github.com/filcuc/SendMail)
     - 3 Stars, 0 Fork
-Small python script that uses Google OAuth 2.0 authentication for sending email with your google account
+
+小脚本, 用 Google OAuth 2.0 认证, 用你的 google 帐号发送邮件.
 
 - [ansible-hadoop](https://github.com/rackerlabs/ansible-hadoop)
     - 2 Stars, 4 Fork
-Best practice hadoop implementation using Ansible. These Ansible playbooks will build a Hadoop cluster (Hortonworks Data Platform). You can pre-build a Rackspace cloud environment or run the playbooks against an existing environment. 
 
-
-
+用 Ansible 进行 hadoop 的最佳实践.
+这组 Ansible 剧本能快速创建 Hadoop 集群
+(Hortonworks 数据平台).
+帮助在 Rackspace 云环境中构建可运行的环境.
 
 
 ## 工作
@@ -111,5 +167,5 @@ Best practice hadoop implementation using Ansible. These Ansible playbooks will 
 
 # 是也乎
 
-- 1504?? [Zoom.Quiet](http://zoomquiet.io) 用时 42 分钟完成快译.
+- 150412 [Zoom.Quiet](http://zoomquiet.io) 用时 42 分钟完成快译.
 - 150410 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
