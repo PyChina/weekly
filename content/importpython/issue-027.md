@@ -162,7 +162,7 @@ Export Django
 ## DAMA
 (`大妈私人无责任播报`)
 
-~ 参考: [为毛又一个蠎周刊?](importpython-why)
+~ 参考: [为毛又来个 Py 周刊? |蠎周刊 |汇集全球蠎事儿 !-)](http://weekly.pychina.org/importpython/importpython-why)
 
 
 # 是也乎
