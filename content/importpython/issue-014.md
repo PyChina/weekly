@@ -53,7 +53,7 @@ Docker 能在帮助开发者完成 web 应用的开发和服务部署,
 
 (`是也乎:`上周的蠎周刊已经曰过了,,,很神奇的数据类型..)
 
-This post discusses Python’s NotImplemented built-in constant/type; what it is, what it means and when it should be used.
+This post discusses Python's NotImplemented built-in constant/type; what it is, what it means and when it should be used.
 
 - [你的 Django 故事: 遇见 Dori Czapari](http://importpython.com/click/track/a63acf3afd6a77e38ce715cc683c238359006c28?source=blog.djangogirls.org)
     - django,interview
@@ -81,7 +81,7 @@ Packt 出版社联系了俺,
 
 (`是也乎:` 上周蠎周刊就曰过了,的确很 brain break 的思路.)
 
-How complicated can one make print "Hello World" ?. This entry got first place in this Code Golf contest to create the weirdest obfuscated program that prints the string “Hello world!”. The Author decided to write up an explanation of how the hell it works. So, here’s the entry, in Python 2.7.
+How complicated can one make print "Hello World" ?. This entry got first place in this Code Golf contest to create the weirdest obfuscated program that prints the string "Hello world!". The Author decided to write up an explanation of how the hell it works. So, here's the entry, in Python 2.7.
 
 - [Why zip when you can map ?](http://importpython.com/click/track/57ebdf0ad4f6daeebcdcd321a1e0268c3c0aadac?source=wordaligned.org)
 

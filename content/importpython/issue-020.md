@@ -86,7 +86,7 @@ Wingware 发布 Wing IDE 5.1 版本!
 - [flask 的先进理念](http://www.syncano.com/advanced-concepts-flask/)
     - flask
 
-A lot of the concepts we mention in this article can be found in Armin Ronacher’s presentation on advanced Flask patterns. Mr.Ronacher did great job enumerating the concepts. Advanced Flask concepts are used to build applications that scale, so let’s talk a little bit about what scaling an application means.
+A lot of the concepts we mention in this article can be found in Armin Ronacher's presentation on advanced Flask patterns. Mr.Ronacher did great job enumerating the concepts. Advanced Flask concepts are used to build applications that scale, so let's talk a little bit about what scaling an application means.
 
 (`是也乎:`
 参考 [HOA.9 LitePyCon | GDG Livin ZhuHai Life;-)](http://blog.zhgdg.org/2014-08/et-hoa9-summary/)  赖总 "python web dev 的困惑与突破" 

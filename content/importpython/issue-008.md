@@ -24,7 +24,7 @@ It all started with a bet long time ago. One of my friends couldn't believe that
 
 - [Do Not Disturb.](http://blog.rht.com/humor-disturb-python/) »
 
-Python: A little misunderstanding can create the ultimate “do not disturb” sign.
+Python: A little misunderstanding can create the ultimate "do not disturb" sign.
 
 - [Using Pandas To Create an Excel Diff](http://pbpython.com/excel-diff-pandas.html) »
 
@@ -36,11 +36,11 @@ Every year approximately 20% of airline flights are delayed or cancelled, result
 
 - [Building Web Applications with Django and AngularJS](https://thinkster.io/brewer/angular-django-tutorial/)  »
 
-This tutorial you will build a simplified Google+ clone called “Not Google Plus” with Django and AngularJS.
+This tutorial you will build a simplified Google+ clone called "Not Google Plus" with Django and AngularJS.
 
 - [A Python Toolbox](http://blog.bfontaine.net/2014/11/11/a-python-toolbox/) »
 
-"In this post I’ll share some tools I use to ease and speed-up my workflow, either in the Python code or in the development environment."
+"In this post I'll share some tools I use to ease and speed-up my workflow, either in the Python code or in the development environment."
 
 - [Supervised Learning: Support Vector Machines](http://nbviewer.ipython.org/github/fonnesbeck/Bios366/blob/master/notebooks/Section6_4-Support-Vector-Machines.ipynb)  »
 

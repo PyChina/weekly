@@ -307,8 +307,8 @@ PEP483/PEP484~PEP3107
 
 - [pyigdc](https://github.com/hujun-open/pyigdc)
 
-最近写了一个UPnP IGDv1 client，既可以当一个命令行的client，也可以作为一个lib用。纯python， 除python内置模块外无第三方依赖，单个py文件。 主要面向开发者和一些对 UPnP IGD协议感兴趣的同学。
-`注：` UPnP IGD就是一个在NAT设备上开port forward的协议，很多联网游戏,p2p软件都用。如果对协议本身感兴趣的话，看这里：http://upnp.org/specs/gw/igd1/
+最近写了一个UPnP IGDv1 client,既可以当一个命令行的client,也可以作为一个lib用. 纯python, 除python内置模块外无第三方依赖,单个py文件.  主要面向开发者和一些对 UPnP IGD协议感兴趣的同学. 
+`注:` UPnP IGD就是一个在NAT设备上开port forward的协议,很多联网游戏,p2p软件都用. 如果对协议本身感兴趣的话,看这里:http://upnp.org/specs/gw/igd1/
 
 (`是也乎:`
 

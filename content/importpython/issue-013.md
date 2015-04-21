@@ -108,7 +108,7 @@ Mochi is a dynamically typed programming language for functional programming and
 
 (`是也乎:`蠎周刊也曰了,纯geek 的浏览器, 小白退散!-)
 
-qutebrowser is a keyboard-focused browser with with a minimal GUI. It’s based on Python, PyQt5 and QtWebKit and free software, licensed under the GPL. It was inspired by other browsers/addons like dwb and Vimperator/Pentadactyl.
+qutebrowser is a keyboard-focused browser with with a minimal GUI. It's based on Python, PyQt5 and QtWebKit and free software, licensed under the GPL. It was inspired by other browsers/addons like dwb and Vimperator/Pentadactyl.
 
 - [Dshell](http://importpython.com/click/track/1afb1846ffbd711807f26ff6a4781f707c63c639?source=github.com)
     - 13 Stars, 2 Fork
@@ -153,7 +153,7 @@ Quill 是免费/开源的 WYSIWYG 编辑器.
 [@_marcelo_d](https://twitter.com/_marcelo_d/status/545723728869728256)
 
 (`是也乎:`
-![B5JOXCoIAAEjlrC.png（PNG 图像，459x303 像素）](https://pbs.twimg.com/media/B5JOXCoIAAEjlrC.png)
+![B5JOXCoIAAEjlrC.png(PNG 图像,459x303 像素)](https://pbs.twimg.com/media/B5JOXCoIAAEjlrC.png)
 
 答案是这么的无法直视...
 )

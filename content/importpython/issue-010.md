@@ -12,30 +12,30 @@ ImportPython
 
 - [Python 2.7.9rc1](https://www.python.org/downloads/release/python-279rc1/)
 
-Python 2.7.9rc1 是下一个Python2.7 系列bug修复版的候选版本的首选。  这个修复版将包含几个空前的变化。
+Python 2.7.9rc1 是下一个Python2.7 系列bug修复版的候选版本的首选.   这个修复版将包含几个空前的变化. 
 
 ## 该读
 ~ 文章, Blog, 教程...
 
 - [10个真希望我早点学会Python技巧](http://nbviewer.ipython.org/github/Prooffreader/Misc_ipynb/blob/master/top_10_python_idioms.ipynb) »
 
-使用ipython notebook 来展示了基本的python使用技巧。 对于python学习和有python编程经验的人都是很好的文章。
+使用ipython notebook 来展示了基本的python使用技巧.  对于python学习和有python编程经验的人都是很好的文章. 
 
 - [用Nginx来限速](http://lincolnloop.com/blog/rate-limiting-nginx/) »
 
-用一个明确的阀值来限制请求的速率和阻止某些请求。使用nginx本身来实现相对于使用框架要简单的多。
+用一个明确的阀值来限制请求的速率和阻止某些请求. 使用nginx本身来实现相对于使用框架要简单的多. 
 
 - [Django 请求响应循环](http://irisbeta.com/article/245366784/the-django-request-response-cycle/) »
 
-总结Django请求响应过程中发生了什么。
+总结Django请求响应过程中发生了什么. 
 
 - [处理 Django的查询重命名是很困难的](http://lukeplant.me.uk/blog/posts/handling-django%27s-get_query_set-rename-is-hard/) »
 
-Django1.6中处理查询 (get_query_set) 的重命名是很棘手的事情 - 比表面看起来还要难。 Luke Plant 说明了原因？
+Django1.6中处理查询 (get_query_set) 的重命名是很棘手的事情 - 比表面看起来还要难.  Luke Plant 说明了原因?
 
 - [在睡衣中教Python](http://therealkatie.net/blog/2014/nov/17/teaching-python-your-pjs/) »
 
-在学习python遇到的挑战。 其中一些在面对 Python 本地用户组的时候也遇到了。读读这边文章看看 Katie 是怎么克服这些困难的。
+在学习python遇到的挑战.  其中一些在面对 Python 本地用户组的时候也遇到了. 读读这边文章看看 Katie 是怎么克服这些困难的. 
 
 - [通过Hodrick普雷斯科特过滤器来预测趋势](http://bugra.github.io/work/notes/2014-11-24/trend-estimation-via-hodrick-prescott-filter/) »
 
@@ -46,9 +46,9 @@ trends and patterns in time-series signals enable people to respond these change
 
 Support of asynchronous I/O in Python is decent. Author talks above looking beyond putting a queue for tasks that consume longer cpu cycles or have to wait for I/O. The articles looks at the Python Async world through the spectacle of Software Architecure of Today that rely upon Microservices.
 
-- [PyData NYC (我做了一个Pyhton机器学习的演讲，哦也)](http://jvns.ca/blog/2014/11/27/pydata-nyc-i-gave-a-machine-learning-talk-yay/)  »
+- [PyData NYC (我做了一个Pyhton机器学习的演讲,哦也)](http://jvns.ca/blog/2014/11/27/pydata-nyc-i-gave-a-machine-learning-talk-yay/)  »
 
-另一篇关于 PyData NY 大会的博客。Julia Evans 在大会上分享了她在机器学习领域的经验。
+另一篇关于 PyData NY 大会的博客. Julia Evans 在大会上分享了她在机器学习领域的经验. 
 
 - [使用Python 和 Haskell 分析 Apache 日志](http://www.matthieuamiguet.ch/blog/apache-log-analysis-haskell-python) »
 
@@ -84,7 +84,7 @@ python 解析可读的日期
 - [topmodel](https://github.com/stripe/topmodel)
     - 33 Stars, 1 Fork
 
-二元分类器的评价标准，所以你不必
+二元分类器的评价标准,所以你不必
 
 - [RaspberryPiThermostat](https://github.com/Willseph/RaspberryPiThermostat)
     - 20 Stars, 6 Fork
@@ -99,7 +99,7 @@ python 解析可读的日期
 - [captcha](https://github.com/lepture/captcha)
     - 18 Stars, 0 Fork
 
-一个验证码库，可以产生声音和图像验证码
+一个验证码库,可以产生声音和图像验证码
 
 - [python-data-science-workshop](https://github.com/justmarkham/python-data-science-workshop)
     - 13 Stars, 3 Fork
@@ -134,14 +134,14 @@ Sign bitcoin multisig transactions (P2SH spends) from your Coinkite shared accou
 - [django-social-publisher](https://github.com/suselrd/django-social-publisher)
     - 3 Stars, 1 Fork
 
-使用allauth 令牌简单的提交到社交网站。几种媒体类型（图片，视频，文本）和 几个频道（脸上，推特等）
+使用allauth 令牌简单的提交到社交网站. 几种媒体类型(图片,视频,文本)和 几个频道(脸上,推特等)
 
 ## 曰了
 ~ Tweets
 
 - [Guido van Rossum](https://twitter.com/gvanrossum/status/537678882217132032)
 
-Python 2.7.9 发布候选 1 --  新的安全特性，请测试
+Python 2.7.9 发布候选 1 --  新的安全特性,请测试
 
 
 ## 本周之星
@@ -157,7 +157,7 @@ Python 2.7.9 发布候选 1 --  新的安全特性，请测试
 
 - [条款和条件,隐私政策](http://importpython.com/terms-conditions-privacy)
 
-    我们已经更新了条款，条件和隐私政策
+    我们已经更新了条款,条件和隐私政策
 
 # 是也乎
 ~ 参考: [为毛又一个蠎周刊?](http://importpython.com/blog/post/why-another-python-newsletter)

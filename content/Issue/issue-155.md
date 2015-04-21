@@ -257,7 +257,7 @@ Shared by @mgrouchy
 - [现实世界的 Python 优化: NumPy, Numba, 以及 NUFFT](https://jakevdp.github.io/blog/2015/02/24/optimizing-python-with-numpy-and-numba/)
 
 由 Jake 授权发布! 
-依用 Python 完成了 NUFFT（非均匀快速傅立叶变换）!
+依用 Python 完成了 NUFFT(非均匀快速傅立叶变换)!
 并讨论了如何进行优化.
 
 github.io

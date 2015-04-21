@@ -5,7 +5,7 @@ Slug: issue-147-top2014
 
 [TOC]
 
-![Image_202014_01_22_20at_2010.45.04_20AM9789bf.png（PNG 图像，860x97 像素）](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)
+![Image_202014_01_22_20at_2010.45.04_20AM9789bf.png(PNG 图像,860x97 像素)](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)
 
 # Hi Pythonistas!
 

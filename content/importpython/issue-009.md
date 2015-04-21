@@ -12,9 +12,9 @@ ImportPython
 ## 该读
 ~ 文章, Blog, 教程...
 
-- [Why Python Just Wasn’t Enough for AppsFlyer](http://www.takipiblog.com/clojure-at-scale-why-python-just-wasnt-enough-for-appsflyer/) »
+- [Why Python Just Wasn't Enough for AppsFlyer](http://www.takipiblog.com/clojure-at-scale-why-python-just-wasnt-enough-for-appsflyer/) »
 
-At AppsFlyer we actually started our code base in Python. Two years later this wasn’t enough to handle the growing number of users and requests. We started to encounter issues like one of the critical Python processes taking too long to digest the incoming messages, caused mainly by string manipulations and Python’s own memory management system.
+At AppsFlyer we actually started our code base in Python. Two years later this wasn't enough to handle the growing number of users and requests. We started to encounter issues like one of the critical Python processes taking too long to digest the incoming messages, caused mainly by string manipulations and Python's own memory management system.
 
 - [PyData Silicon Valley 2014](http://bugra.github.io/work/notes/2014-05-12/pydata-silicon-valley-2014/) »
 

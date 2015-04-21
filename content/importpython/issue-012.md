@@ -78,7 +78,7 @@ Django: Under the Hood
 
 - [10 大企业 Python 传说](http://importpython.com/click/track/d6ac46d0ceaf64f354fdb5b6e80318b059a505c0?source=www.paypal-engineering.com)
 
-"I joined PayPal a few years ago, and chose Python to work on internal applications, but I’ve personally found production PayPal Python code from nearly 15 years ago. Here are the 10 myths I’ve had to debunk the most in eBay and PayPal’s enterprise environments." - Mahmoud Hashemi
+"I joined PayPal a few years ago, and chose Python to work on internal applications, but I've personally found production PayPal Python code from nearly 15 years ago. Here are the 10 myths I've had to debunk the most in eBay and PayPal's enterprise environments." - Mahmoud Hashemi
 
 (`是也乎:`
 蠎周刊也曰过...)

@@ -159,7 +159,7 @@ Dan Sanderson 同学,
     - 187 Stars, 10 Fork
 
 对 ReCaptcha 系统逆向出来的
-新 "“captchaless"
+新 ""captchaless"
 
 - [spectra](https://github.com/jsvine/spectra)
     - 142 Stars, 2 Fork

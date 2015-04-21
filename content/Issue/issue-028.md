@@ -50,7 +50,7 @@ Mahdi and Mike
 
 ## 讨论
 
-- [做一个网页爬虫，从何学起](http://www.reddit.com/r/Python/comments/yfe5u/ask_rpython_making_a_web_bot_where_do_i_start/) (reddit.com)
+- [做一个网页爬虫,从何学起](http://www.reddit.com/r/Python/comments/yfe5u/ask_rpython_making_a_web_bot_where_do_i_start/) (reddit.com)
 
 
 ## 项目

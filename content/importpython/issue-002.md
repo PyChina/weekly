@@ -21,19 +21,19 @@ Slug: importpython-2
 
 - [Django多模板引擎](https://www.indiegogo.com/projects/multiple-template-engines-for-django)
 
-Django支持多个模板引擎的众筹活动。 Jinja2将会是模板。 由Aymeric Augustin发起。
+Django支持多个模板引擎的众筹活动.  Jinja2将会是模板.  由Aymeric Augustin发起. 
 
 - [更新你的可重用Djanog APP到Django1.7版本](https://www.twilio.com/blog/2014/10/upgrading-your-django-reusable-app-to-support-django-1-7.html)
 
-Django项目从1.6以及以下版本升级到1.7的一个指南。重点在数据迁移。
+Django项目从1.6以及以下版本升级到1.7的一个指南. 重点在数据迁移. 
 
 - [Sharq - 基于Redis的限制速率的队列系统](http://sharq.io/)
 
-动态创建新队列和实时限制更新速率，零配置
+动态创建新队列和实时限制更新速率,零配置
 
 - [微软 Visual C++ 编译版Python2.7](https://mail.python.org/pipermail/distutils-sig/2014-September/024885.html)
 
-微软发布了一个Pyhton2.7的编译包，它可以让大家在windows上更容易的建立和发布C扩展模块
+微软发布了一个Pyhton2.7的编译包,它可以让大家在windows上更容易的建立和发布C扩展模块
 
 ## 代码
 ~ 包/模块/库/片段...
@@ -42,7 +42,7 @@ Django项目从1.6以及以下版本升级到1.7的一个指南。重点在数�
 - [Taiga](https://github.com/taigaio/taiga-back)
     - 518 Stars, Trending for 2 Days
 
-记住scrum的web型项目管理工具， 建立在Django和AngularJS（后端代码）上。
+记住scrum的web型项目管理工具, 建立在Django和AngularJS(后端代码)上. 
 
 - [GoAgent](https://github.com/goagent/goagent)
     - 11 Stars, Trending for 1 Days

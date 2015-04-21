@@ -66,7 +66,7 @@ djangocon.eu
 Shared by @myusuf3
  
 
-- [Python 3.5 包含 ‘type hinting’](http://sdtimes.com/python-3-5-include-type-hinting/)
+- [Python 3.5 包含 'type hinting'](http://sdtimes.com/python-3-5-include-type-hinting/)
 
 MyPy 风类型提示将正式进入 Py 3.5 版本.
 此功能的追加旨在提升 编辑器和 IDE 

@@ -145,7 +145,7 @@ Shared by @mgrouchy
 感受一下相关的 logo 
 ![githubusercontent](https://camo.githubusercontent.com/bd0c2916fdd6b11fe20382d4d5e724ff0e66e2e4/68747470733a2f2f7261772e6769746875622e636f6d2f77696c6c79673330322f636c69702e70792f6d61737465722f636c69702d6c6f676f2e706e67)
 
-![click.png（PNG 图像，420x175 像素）](http://click.pocoo.org/3/_static/click.png)
+![click.png(PNG 图像,420x175 像素)](http://click.pocoo.org/3/_static/click.png)
 
 对于这种使用装饰符来名声的,
 大家好象更加喜欢使用基于文档的 [docopt](http://docopt.org/)
@@ -236,7 +236,7 @@ stormpath.com
 Shared by @rdegges
  
 
-- [编程令机械人玩 “Sushi Go Round” Flash 游戏](http://inventwithpython.com/blog/2014/12/17/programming-a-bot-to-play-the-sushi-go-round-flash-game/)
+- [编程令机械人玩 "Sushi Go Round" Flash 游戏](http://inventwithpython.com/blog/2014/12/17/programming-a-bot-to-play-the-sushi-go-round-flash-game/)
 
 非常伟大的,
 很漂亮的代码,构建一机械人, 通过 PyAutoGUI 玩 flask 游戏.
