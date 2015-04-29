@@ -26,28 +26,28 @@ Tags: Weekly,Pycoder,Zh
 
 ## 新闻
 
-- [PyCon India 2015 call for proposals](https://in.pycon.org/cfp/pycon-india-2015/proposals/)
-PyCon India 2015 is happening October 2nd -5th in Bangalore. Call for proposals is open now, so its time to submit yours!
-pycon.org
-Shared by @kracetheking
+- [PyCon印度2015内容征集](https://in.pycon.org/cfp/pycon-india-2015/proposals/)  
+    -   PyCon印度2015将在10月2号到5号在班加罗尔举办。现在分享内容征集已经开发，快来报名吧。　　
+    -   pycon.org
+    -   Shared by @kracetheking
  
 
-- [Django Birthday](https://djangobirthday.com/)
-Interested in celebrating Django's 10th birthday in Lawrence, Kansas? If so, click through to register!
-djangobirthday.com
-Shared by @mgrouchy
+- [Django生日](https://djangobirthday.com/)  
+    -   是否感兴趣来 Lawrence　Kansas庆祝Django的第十个生日，如果感兴趣就开来注册报名吧!
+    -   djangobirthday.com
+    -   Shared by @mgrouchy
  
 
-- [Security Advisory: Arbitrary file inclusion through docutils](https://www.djangoproject.com/weblog/2015/apr/21/docutils-security-advisory/)
-A Django Security advisory to configure your Django project safely when using docutils.
-djangoproject.com
-Shared by @myusuf3
+- [安全顾问:通过将docutils放入任意文件](https://www.djangoproject.com/weblog/2015/apr/21/docutils-security-advisory/)
+    - Django的安全顾问使用docutils配置您的Django项目安全。
+    -   djangoproject.com
+    -   Shared by @myusuf3
  
 
-- [Jython 2.7 release candidate 3 available!](http://fwierzbicki.blogspot.ca/2015/04/jython-27-release-candidate-3-available.html)
-Time to check out Jython 2.7 RC3, report any problems if you encounter them.
-blogspot.ca
-Shared by @myusuf3
+- [Jython2.7 RC３已经发布啦!](http://fwierzbicki.blogspot.ca/2015/04/jython-27-release-candidate-3-available.html)
+    -   是时候来使用Jython2.7 RC3了，有什么问题请及时反馈。
+    -   blogspot.ca
+    -   Shared by @myusuf3
 
 
 (`是也乎:`
@@ -58,7 +58,7 @@ Shared by @myusuf3
 
 ## 讨论
 
-- [Google Python Style Guide](http://www.reddit.com/r/Python/comments/33gg02/google_python_style_guide/)
+- [谷歌Python规范教程](http://www.reddit.com/r/Python/comments/33gg02/google_python_style_guide/)
 reddit.com
 Shared by @mgrouchy
 
@@ -84,52 +84,52 @@ Shared by @mgrouchy
 ## 项目
 
 
-- [ramlfications](https://github.com/spotify/ramlfications/)
-A reference implementation of the a RAML parser in Python.
-github.com
-Shared by @roguelynn
+-   [ramlfications](https://github.com/spotify/ramlfications/)
+    -   RAML解析器Python实现的参考。
+    -   github.com
+    -   Shared by @roguelynn
  
 
-- [juicebox](https://github.com/jpadilla/juicebox)
-A virtual machine designed for Programming workshops so you can focus on the programming and not trying to set up miscellaneous environments.
-github.com
-Shared by @jpadilla_
+-   [juicebox](https://github.com/jpadilla/juicebox)
+    -   为编程团队设计的虚拟机,这样你就可以专注于编程,而不是浪费时间在环境搭建上
+    -   github.com
+    -   Shared by @jpadilla_
  
 
-- [Rodeo: A data science IDE for Python](http://blog.yhathq.com/posts/introducing-rodeo.html)
-An IDE by ŷhat expressly built for doing Data Science in Python. They are suggesting you think of it as a light weight alternative to the IPython Notebook.
-yhathq.com
-Shared by @mgrouchy
+-   [Rodeo: A data science IDE for Python](http://blog.yhathq.com/posts/introducing-rodeo.html)
+    -   一个ŷhat打造的专门用于数据科学的Python IDE.他们建议你把它看作一个重量轻IPython Notebook的替代品。
+    -   yhathq.com
+    -   Shared by @mgrouchy
  
 
-- [pipreqs](https://github.com/bndr/pipreqs)
-Generate yourself a requirements.txt based on the imports in your project. Useful!
-github.com
-Shared by @mgrouchy
+-   [pipreqs](https://github.com/bndr/pipreqs)
+    -   基于项目中的import生成自己的requirements.txt.刚需！   
+    -   github.com
+    -   Shared by @mgrouchy
  
 
-- [thefu*k](https://github.com/nvbn/thefuck)
-An app which corrects your previous console command.
-github.com
-Shared by @mgrouchy
+-   [thefu*k](https://github.com/nvbn/thefuck)
+    -   一个命令行纠错应用
+    -   github.com
+    -   Shared by @mgrouchy
  
 
-- [django-seed](https://github.com/Brobin/django-seed)
-Generate fake/test data for your Django database.
-github.com
-Shared by @mgrouchy
+-   [django-seed](https://github.com/Brobin/django-seed)
+    -   为你的Django数据库生成测试数据
+    -   github.com
+    -   Shared by @mgrouchy
  
 
--[color-thief-py](https://github.com/fengsp/color-thief-py)
-Grabs the dominant color or a representative color palette from an image.
-github.com
-Shared by @mgrouchy
+-   [color-thief-py](https://github.com/fengsp/color-thief-py)
+    -   一个提取图片主色调的工具
+    -   github.com
+    -   Shared by @mgrouchy
  
 
--[credstash](https://github.com/LuminalOSS/credstash)
-A little utility for managing credentials in the cloud with AWS.
-github.com
-Shared by @mgrouchy
+-   [credstash](https://github.com/LuminalOSS/credstash)
+    -   一个AWS上的证书管理小工具
+    -   github.com
+    -   Shared by @mgrouchy
 
 
 
@@ -147,5 +147,3 @@ Shared by @mgrouchy
 - 1504?? [Zoom.Quiet](http://zoomquiet.org/) 用时 42 分钟 完成快译.
 - 150427 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
 
-    
- 
