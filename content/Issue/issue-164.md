@@ -7,7 +7,7 @@ Tags: Weekly,Pycoder,Zh
 ![Pycoder's Weekly](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)
 
 
-- 原文: [Pycoders Weekly (Issue #163): Reptile](http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&id=b7fdecf11e&e=889f3f6a05)
+- 原文: [Pycoders Weekly (Issue #164): Avengers](http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&id=14ac0e8c11)
 
 ##  搜罗Py万物 的周刊
 
@@ -27,15 +27,16 @@ Tags: Weekly,Pycoder,Zh
 ## 新闻
 
 
-- [Data Science From Scratch: First Principles with Python](http://joelgrus.com/2015/04/26/data-science-from-scratch-first-principles-with-python/)
+- [Data Science From Scratch: First Principles with Python(从零开始学习数据科学)](http://joelgrus.com/2015/04/26/data-science-from-scratch-first-principles-with-python/)
 
-Book has been released! Different approach to teaching, than I am used to seeing. Looking forward to reading this book!
-joelgrus.com
+本书已发布！跟我以前看到的相比使用了不同的教学方式。期待阅读这本书！  
+joelgrus.com  
 Shared by @myusuf3
  
-- [TurboGears release 2.3.5 is now available on PyPi!](https://plus.google.com/+turbogears/posts/UVSdg9rJiUz)
-Use TurboGears? Check out the new release!
-google.com
+- [TurboGears 2.3.5发布, 已上PyPi!](https://plus.google.com/+turbogears/posts/UVSdg9rJiUz)
+
+TurboGears用户?快下载最新版本吧！  
+google.com  
 Shared by @mgrouchy
  
 (`是也乎:`
@@ -44,9 +45,10 @@ Shared by @mgrouchy
 )
 
 
-- [PyDev 4.0 released.](http://pydev.blogspot.com.br/2015/04/pydev-40-released-yay.html)
-PyDev 4.0 is out, if thats your jam, go take a look!
-blogspot.com.br
+- [PyDev 4.0发布.](http://pydev.blogspot.com.br/2015/04/pydev-40-released-yay.html)
+
+PyDev 4.0已经发布，如果是你的菜，就去看看吧!  
+blogspot.com.br  
 Shared by @mgrouchy
  
 
@@ -54,9 +56,10 @@ Shared by @mgrouchy
 
 ## 讨论
 
-- [What are your favorite *little* tricks?](http://www.reddit.com/r/Python/comments/34cdfm/what_are_your_favorite_little_tricks/)
-Or not so little!
-reddit.com
+- [你最喜欢的小窍门儿是什么？](http://www.reddit.com/r/Python/comments/34cdfm/what_are_your_favorite_little_tricks/)
+
+或许没那么小！  
+reddit.com  
 Shared by @myusuf3
 
 
@@ -86,72 +89,84 @@ Shared by @myusuf3
 
 
 - [flashlight](https://github.com/nate-parrott/Flashlight)
-The missing Spotlight plugin system
-github.com
+
+Spotlight插件  
+github.com  
 Shared by @myusuf3
  
 - [pyvim](https://github.com/jonathanslenders/pyvim)
-A vim clone in Python. Do we need to say anything else?
-github.com
+
+Python版Vim。还需要说什么?  
+github.com  
 Shared by @mgrouchy
  
-- [Automate the Boring Stuff with Python](http://automatetheboringstuff.com/)
-Book for Python beginners available for free. Looks pretty nice, definitely worth checking out!
-automatetheboringstuff.com
-Shared by @mgrouchy
+- [Automate the Boring Stuff with Python(自动化的枯燥无味)](http://automatetheboringstuff.com/)
 
+对于Python初学者的免费书。看起来非常不错,绝对值得一试!  
+automatetheboringstuff.com  
+Shared by @mgrouchy
 
 
 - [eg](https://github.com/srsudar/eg)
-Tool to display useful examples on the command line.
-github.com
+
+在命令行显示可用例子的工具  
+github.com  
 Shared by @mgrouchy
  
 - [plyer](https://github.com/kivy/plyer)
-Plyer is a platform-independent api to use features commonly found on various platforms, notably mobile ones, in Python.
-github.com
+
+Plyer是一个跨平台的Python api，尤其手机平台  
+github.com  
 Shared by @mgrouchy
 
 
 ## 文章
 
-- [Using Docker and Docker Compose for local Django development (replacing virtualenv)](https://www.calazan.com/using-docker-and-docker-compose-for-local-django-development-replacing-virtualenv/#.VULF_bAmduE.reddit)
-Wondering what this Docker thing is all about and how you can use it for your Python dev environments? Then this post is for you, detailed guide to get you up and running.
-calazan.com
+- [使用Docker和Docker Compose来代替virtualenv搭建本地Django开发环境](https://www.calazan.com/using-docker-and-docker-compose-for-local-django-development-replacing-virtualenv/#.VULF_bAmduE.reddit)
+
+想知道如何使用Docker搭建你的Python本地开发环境么？这篇文章就是你的不二之选  
+calazan.com  
 Shared by @mgrouchy
  
--[Python without an operating system](http://lwn.net/SubscriberLink/641244/5d1d6d20aeb0a647/)
-Nice article about a PyCon talk on making Python run without an operating system. More specifically getting the Python interpreter to run on the GRUB boot loader.
-lwn.net
+- [无需操作系统的Python](http://lwn.net/SubscriberLink/641244/5d1d6d20aeb0a647/)
+
+一篇好文章关于PyCon上的一个话题:让Python运行没有一个操作系统的环境当中。更具体地说让Python解释器运行GRUB引导加载程序中。  
+lwn.net  
 Shared by @mgrouchy
  
-- [Good Test, Bad Test](http://late.am/post/2015/04/20/good-test-bad-test.html)
-Nice discussion around test you want vs. test you want less.
-late.am
+- [好的测试还是坏的测试](http://late.am/post/2015/04/20/good-test-bad-test.html)
+
+很好的讨论，测试你想要的还是测试你想减少的。  
+late.am  
 Shared by @myusuf3
  
-- [Selenium Test case in Python with HTMLTestRunner](http://scrolltest.com/selenium-test-case-in-python/)
-How to test web apps with python and HTMLTestRunner
-scrolltest.com
+- [用Python中的HTMLTestRunner编写Selenium测试用例](http://scrolltest.com/selenium-test-case-in-python/)
+
+如何用Python和htmltestrunner对Web应用程序进行测试  
+scrolltest.com  
 Shared by @myusuf3
  
-- [Wagtail 1.0 (beta) best Django CMS?](http://www.revsys.com/blog/2015/apr/29/wagtail-best-django-cms/)
-Review and information about the 1.0 of the Django CMS Wagtail.
-revsys.com
+- [Wagtail 1.0 (beta)，最好的CMS?](http://www.revsys.com/blog/2015/apr/29/wagtail-best-django-cms/)
+
+Django CMS Wagtail 1.0的回顾和信息  
+revsys.com  
 Shared by @mgrouchy
  
-- [Up and running with Vagrant and Django](http://impythonist.in/up-and-running-with-vagrant-and-django/)
-Nice tutorial for those of you new vagrant and Django.
-impythonist.in
+- [启动并运行Vagrant和Django](http://impythonist.in/up-and-running-with-vagrant-and-django/)
+
+一个vagrant和Django菜鸟的绝佳教程  
+impythonist.in  
 Shared by @myusuf3
  
-- [Introduction to Whoosh!](http://sowingseasons.com/blog/introduction-to-whoosh.html)
-Whoosh is a Python full text indexing and searching library in Python. This is a detailed introduction to get started with it.
-sowingseasons.com
+- [Whoosh介绍!](http://sowingseasons.com/blog/introduction-to-whoosh.html)
+
+Whoosh是一个Python全文索引和搜索库。本篇将详细介绍如何开始使用它。  
+sowingseasons.com  
 Shared by @mgrouchy
  
-- [Python How To: Group and Count with Dictionaries](https://codefisher.org/catch/blog/2015/04/22/python-how-group-and-count-dictionaries/)
-codefisher.org
+- [如何使用Python中的字典库实现分组和计数](https://codefisher.org/catch/blog/2015/04/22/python-how-group-and-count-dictionaries/)
+
+codefisher.org  
 Shared by @myusuf3
 
 
