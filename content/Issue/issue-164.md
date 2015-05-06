@@ -29,13 +29,13 @@ Tags: Weekly,Pycoder,Zh
 
 - [Data Science From Scratch: First Principles with Python(从零开始学习数据科学)](http://joelgrus.com/2015/04/26/data-science-from-scratch-first-principles-with-python/)
 
-本书已发布！跟我以前看到的相比使用了不同的教学方式。期待阅读这本书！  
+本书已发布!跟我以前看到的相比使用了不同的教学方式. 期待阅读这本书!  
 joelgrus.com  
 Shared by @myusuf3
  
 - [TurboGears 2.3.5发布, 已上PyPi!](https://plus.google.com/+turbogears/posts/UVSdg9rJiUz)
 
-TurboGears用户?快下载最新版本吧！  
+TurboGears用户?快下载最新版本吧!  
 google.com  
 Shared by @mgrouchy
  
@@ -47,7 +47,7 @@ Shared by @mgrouchy
 
 - [PyDev 4.0发布.](http://pydev.blogspot.com.br/2015/04/pydev-40-released-yay.html)
 
-PyDev 4.0已经发布，如果是你的菜，就去看看吧!  
+PyDev 4.0已经发布,如果是你的菜,就去看看吧!  
 blogspot.com.br  
 Shared by @mgrouchy
  
@@ -56,9 +56,9 @@ Shared by @mgrouchy
 
 ## 讨论
 
-- [你最喜欢的小窍门儿是什么？](http://www.reddit.com/r/Python/comments/34cdfm/what_are_your_favorite_little_tricks/)
+- [你最喜欢的小窍门儿是什么?](http://www.reddit.com/r/Python/comments/34cdfm/what_are_your_favorite_little_tricks/)
 
-或许没那么小！  
+或许没那么小!  
 reddit.com  
 Shared by @myusuf3
 
@@ -96,13 +96,13 @@ Shared by @myusuf3
  
 - [pyvim](https://github.com/jonathanslenders/pyvim)
 
-Python版Vim。还需要说什么?  
+Python版Vim. 还需要说什么?  
 github.com  
 Shared by @mgrouchy
  
 - [Automate the Boring Stuff with Python(自动化的枯燥无味)](http://automatetheboringstuff.com/)
 
-对于Python初学者的免费书。看起来非常不错,绝对值得一试!  
+对于Python初学者的免费书. 看起来非常不错,绝对值得一试!  
 automatetheboringstuff.com  
 Shared by @mgrouchy
 
@@ -115,7 +115,7 @@ Shared by @mgrouchy
  
 - [plyer](https://github.com/kivy/plyer)
 
-Plyer是一个跨平台的Python api，尤其手机平台  
+Plyer是一个跨平台的Python api,尤其手机平台  
 github.com  
 Shared by @mgrouchy
 
@@ -124,19 +124,19 @@ Shared by @mgrouchy
 
 - [使用Docker和Docker Compose来代替virtualenv搭建本地Django开发环境](https://www.calazan.com/using-docker-and-docker-compose-for-local-django-development-replacing-virtualenv/#.VULF_bAmduE.reddit)
 
-想知道如何使用Docker搭建你的Python本地开发环境么？这篇文章就是你的不二之选  
+想知道如何使用Docker搭建你的Python本地开发环境么?这篇文章就是你的不二之选  
 calazan.com  
 Shared by @mgrouchy
  
 - [无需操作系统的Python](http://lwn.net/SubscriberLink/641244/5d1d6d20aeb0a647/)
 
-一篇好文章关于PyCon上的一个话题:让Python运行没有一个操作系统的环境当中。更具体地说让Python解释器运行GRUB引导加载程序中。  
+一篇好文章关于PyCon上的一个话题:让Python运行没有一个操作系统的环境当中. 更具体地说让Python解释器运行GRUB引导加载程序中.   
 lwn.net  
 Shared by @mgrouchy
  
 - [好的测试还是坏的测试](http://late.am/post/2015/04/20/good-test-bad-test.html)
 
-很好的讨论，测试你想要的还是测试你想减少的。  
+很好的讨论,测试你想要的还是测试你想减少的.   
 late.am  
 Shared by @myusuf3
  
@@ -146,7 +146,7 @@ Shared by @myusuf3
 scrolltest.com  
 Shared by @myusuf3
  
-- [Wagtail 1.0 (beta)，最好的CMS?](http://www.revsys.com/blog/2015/apr/29/wagtail-best-django-cms/)
+- [Wagtail 1.0 (beta),最好的CMS?](http://www.revsys.com/blog/2015/apr/29/wagtail-best-django-cms/)
 
 Django CMS Wagtail 1.0的回顾和信息  
 revsys.com  
@@ -160,7 +160,7 @@ Shared by @myusuf3
  
 - [Whoosh介绍!](http://sowingseasons.com/blog/introduction-to-whoosh.html)
 
-Whoosh是一个Python全文索引和搜索库。本篇将详细介绍如何开始使用它。  
+Whoosh是一个Python全文索引和搜索库. 本篇将详细介绍如何开始使用它.   
 sowingseasons.com  
 Shared by @mgrouchy
  

@@ -190,7 +190,7 @@ francoismaillet.com
 Shared by @mgrouchy
  
 
-- [向 Py3 移植如同 “eating your vegetables”](http://nothingbutsnark.svbtle.com/porting-to-python-3-is-like-eating-your-vegetables)
+- [向 Py3 移植如同 "eating your vegetables"](http://nothingbutsnark.svbtle.com/porting-to-python-3-is-like-eating-your-vegetables)
 
 为毛向 Py3 移植进程这么慢?
 显然,呵呵了...
