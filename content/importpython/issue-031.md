@@ -98,6 +98,12 @@ Hello Web App is written for non-programmers by a designer, and will walk you th
     - 68 Stars, 10 Fork
 Easy Card is a smart card system widely used by Taiwanese, mainly for transportation purpose. However, unlike the PASMO card in Japan or T-Money in Korea, the Easy Card was lock out from reading via normal NFC readers. In other words, you can't check your balance with an app. That'd be a big issue if you are usually in a hurry and don't have the time to go to the MRT station just for it.
 
+
+(`是也乎:`
+
+`悠遊卡餘額明細查詢` ~ 嗯啍?! 台湾弟兄的作品...
+)
+
 - [Robinhood](https://github.com/rohanpai/Robinhood)
     - 37 Stars, 7 Fork
 Python Framework to make trades with Robinhood Private API See Blog Post: https://medium.com/@rohanpai25/reversing-robinhood-free-accessible-automated-stock-trading-f40fba1e7d8b
