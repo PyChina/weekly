@@ -12,35 +12,34 @@ Tags: Weekly,ImportPython,Zh
 ~ 文章, Blog, 教程...
 
 
-- [Using Docker and Docker Compose for local Django development (replacing virtualenv) | Calazan.com](https://www.calazan.com/using-docker-and-docker-compose-for-local-django-development-replacing-virtualenv/#.VULF_bAmduE.reddit)
+- [[使用Docker和Docker Compose来代替virtualenv搭建本地Django开发环境](https://www.calazan.com/using-docker-and-docker-compose-for-local-django-development-replacing-virtualenv/#.VULF_bAmduE.reddit)
     + django, flask
-Django and Flask are two well known Python web frameworks. There are lot of benchmarks claim Flask is 2x faster for simple JSON Response, one such is Techempower. After looking into the source, it struck me Django can do better!
 
-Using Docker and Docker Compose for local Django development (replacing virtualenv) | Calazan.com
-django
-I'm not going to go into detail on how Docker and Docker Compose (formerly known as Fig) work as the Docker website already covers these. But I will explain how I set this up for an open-source Django app I've built, YouTube Audio Downloader, so you can try it out as well.
+Django和Flask是众所周知的两个Python Web框架。有很多项目使Flask对简单的JSON响应提高2倍，比如techempower。在了解过这些项目后，我觉得Django可以做的更好更好！
+我不会讲一些Docker网站已经有了的原理性知识。但我会解释我是如何建立YouTube音频下载的Django程序，你可以试试。
 
-- [Django Performance: 4 Simple Things](http://revsys.com/blog/2015/may/06/django-performance-simple-things/)
+
+- [提升Django性能四件事儿](http://revsys.com/blog/2015/may/06/django-performance-simple-things/)
     + django, performance
-    
-Below are four simple things you can do to quickly and easily improve the performance of your sites. They’re so simple you should make them part of your standard setup.
+以下给出让你轻松快速地提高你网站性能的四件事儿。
 
-- [Selenium Testcase with Nose in Python](http://scrolltest.com/selenium-testcase-with-nose-in-python/)
+- [使用Python中的Nose编写Selenium测试用例](http://scrolltest.com/selenium-testcase-with-nose-in-python/)
     + testing
-Nose makes Testing with Python wonderful. It basically extends the Unittest and provides features such as running only failed test, skip Test cases, running test based on priorities, REGEX pattern that makes Tester’s life easy
+Nose让Python测试变得更美好。基本上它扩展了Unittest和提供的特性,如只运行失败的测试,跳过测试用例,运行测试基于优先级,正则表达式模式等,让测试人员的生活更美好
 
-- [PyCon India 2015 is happening on Oct 2, 3, 4. Call For Proposals is open!](https://in.pycon.org/cfp/pycon-india-2015/proposals/)
+
+- [PyCon India 2015将在十月二三四号举办!](https://in.pycon.org/cfp/pycon-india-2015/proposals/)
     + pycon
-PyCon India, the premier conference in India on using and developing the Python programming language is conducted annually by the Python developer community. It attracts the best Python programmers across the country and abroad.
+PyCon India,Python开发者社区为印度Pythonista举办的开发者盛会，会有大批Python大神前来.
 
-- [PyCon India 2015 Registration Opened](https://in.explara.com/e/pycon-india-2015)
+- [PyCon India 2015公开注册](https://in.explara.com/e/pycon-india-2015)
     + pycon
-Early Bird Tickets On Sale. Get them before they are over.
+票已开始预售，不要错过
 
 
-- [Jython 2.7.0 final released!](http://fwierzbicki.blogspot.com/2015/05/jython-270-final-released.html)
+- [Jython 2.7.0最终版发布!](http://fwierzbicki.blogspot.com/2015/05/jython-270-final-released.html)
     + jython
-On behalf of the Jython development team, I'm pleased to announce that the final release of Jython 2.7.0 is available! It's been a long road to get to 2.7, and it's finally here.
+代表Jython开发团队,我很高兴地宣布,Jython 2.7.0可用的最终版本在经历了一个漫长的道路后终于发布了!
 
 (`是也乎:`
 
@@ -80,7 +79,9 @@ There are Python libraries that provide cryptography services: M2Crypto, PyCrypt
 
 - [Hello Web App](http://hellowebapp.com/)
     + Tracy Osborn
-Hello Web App is written for non-programmers by a designer, and will walk you through every step you need before launching your web app live to real customers. This book doesn't walk you through a specific tutorial, but instead uses a generic example to allow you to create something using Python and Django that interests you. Check the http://importpython.com/blog/ for an interview with the author of Hello Web App. 
+    
+Hello Web应用程序由一个设计师为非程序员编写的,并将指导您完成每一步之前你需要启动你的Web应用程序到拥有真正的用户。这本书并没有使用一个特定的教程,而是使用一个通用的示例来指引你通过Python和Django实现你感兴趣的东西。对作者的采访:http://importpython.com/blog/
+
 
 (`是也乎:`
 
@@ -110,7 +111,7 @@ Python Framework to make trades with Robinhood Private API See Blog Post: https:
 
 - [HardenFlash](https://github.com/HaifeiLi/HardenFlash)
     - 19 Stars, 6 Fork
-Patching Flash binary to stop Flash exploits and zero-days
+修复Flash exploits和zero-days的补丁
 
 - [wordcloudbot](https://github.com/decause/wordcloudbot)
     - 4 Stars, 0 Fork
@@ -118,19 +119,21 @@ A systemd service that listens to fedmsg for IRC meeting logs, generates a word 
 
 - [marvelous](https://github.com/dcloud/marvelous)
     - 3 Stars, 0 Fork
-Python bindings for Marvel Comics API
+绑定Marvel Comics的API
 
 - [pyrthon](https://github.com/tobgu/pyrthon)
     - 2 Stars, 0 Fork
-Pyrthon is a utility library that substitutes python collection literals with their Pyrsistent counterparts.
+代替Pyrsistent的工具库.
+
 
 - [pyqtconsole](https://github.com/marcus-oscarsson/pyqtconsole)
     - 2 Stars, 0 Fork
-pyqtconosle is a light weight python console for Qt applications. Its made to be easy to embed in other Qt applications and comes with some examples that shows how this can be done. The interpreter can run in a separate thread, in the UI main thread or in a gevent task. Support for asyncio might also be added in the future.
+QT应用重量轻的Python控制台。通过一些例子说明如何可以轻松的将其嵌入在其他的Qt应用程序中。解释器可以运行在一个单独的线程，在UI主线程或在Gevent任务。未来也可能增加对asyncio的支持。
+
 
 - [python](https://github.com/mfrance0916/python)
     - 2 Stars, 0 Fork
-personal python bioinformatics scripts
+个人写的生物信息学脚本
 
 (`是也乎:`
 项目名称选择这种和语言一样的,只能说
@@ -140,19 +143,19 @@ personal python bioinformatics scripts
 
 - [GRE.py](https://github.com/saru95/GRE.py)
     - 1 Stars, 0 Fork
-GRE Word of the Day notifier for OSX .
+Mac上的GRE单词学习小软件
 
 - [pygments-markdown-lexer](https://github.com/jhermann/pygments-markdown-lexer)
     - 1 Stars, 0 Fork
-A Markdown lexer for Pygments to highlight Markdown code snippets.
+Pygments对Markdown代码进行高亮的词法解释器
 
 - [normalizr](https://github.com/davidmogar/normalizr)
      1 Stars, 2 Fork
-Normalizr is a Python library for text normalization that allows the next actions: Remove accents. Remove extra whitespaces. Remove hyphens. Remove punctuation. Remove stop words (from 13 different languages). Remove symbols.
+Python对文本进行规范化的库.现有删除多余的空格,删除连字符,删除标点符号,(来自13个不同的语言)删除停用词,删除符号功能。下一步准备实现消除口音的功能。
 
 - [phrack_reader](https://github.com/Qingluan/phrack_reader)
     - 1 Stars, 0 Fork
-this is for hacker easy read phrack ezine ,welcom to figure out bug . 
+方便大神们阅读phrack ezine的东东，欢迎提bug
 
 
 
