@@ -14,7 +14,6 @@ Tags: Weekly,Pycoder,Zh
 亲,
 
 
-
 大家多分享[文章](http://pycoders.com/submissions/) 
 俺们才折腾的出又一周的美好呢.
 
@@ -26,9 +25,13 @@ Tags: Weekly,Pycoder,Zh
 
 ## 新闻
  
-- [Ubuntu Plans For Python 3 By Default For Ubuntu 16.04 LTS](http://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-16.04-Python-Plans)
-The train is heading (if somewhat slowly) towards Python 3. Check this out for more information about Ubuntu's plans to move to a default Python 3.
+- [Ubuntu 计划在 16.04 LTS 将 Python 3 作为默认版本](http://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-16.04-Python-Plans)
+
+虽然有点儿慢, 但, 的确是大事儿.
+详细链接中...
+
 phoronix.com
+
 Shared by @mgrouchy
  
 
@@ -39,9 +42,9 @@ Shared by @mgrouchy
 )
 
 
-- [Rendering IPython notebooks on GitHub](https://blog.jupyter.org/2015/05/07/rendering-notebooks-on-github/)
+- [IPython notebooks 在 GitHub 上渲染](https://blog.jupyter.org/2015/05/07/rendering-notebooks-on-github/)
 
-IPython notebooks will now render in Github!
+IPython notebooks 将能由 Github 代理渲染了!
 
 jupyter.org
 
@@ -57,29 +60,47 @@ github 想作最大的托管+演示平台!
 jupyter 准备作最灵活的演示后台!
 )
 
-- [Apply for financial aid for DjangoCon US 2015!](https://www.djangoproject.com/weblog/2015/may/05/apply-financial-aid-djangocon-us-2015/)
-Applications for financial aid to DjangoCon are open!
+- [DjangoCon US 2015 申请财政援助!](https://www.djangoproject.com/weblog/2015/may/05/apply-financial-aid-djangocon-us-2015/)
+
+为了正常召开,申请了财政援助...
+
 djangoproject.com
+
 Shared by @myusuf3
  
 
+(`是也乎:`
+
+所以, USA 是开放的....
+)
+
+
 - [CFFI 1.0 beta 1](http://morepypy.blogspot.ca/2015/05/cffi-10-beta-1.html)
-We are approaching version 1.0 if CFFI, if you are interested, check out 1.0 beta 1. More information in the post.
+
+马上就能发布 1.0 了,
+如果对 CFFI 有兴趣, 详细链接中...
+
 blogspot.ca
+
 Shared by @mgrouchy
 
 
 ## 讨论
 
 
-- [Python 3 or Python 2.7 for newbie?](http://www.reddit.com/r/Python/comments/35a3n5/python_3_or_python_27_for_newbie/)
-Python 3 vs. Python 2! Fight!
+- [对新手 Python 3 或 Python 2.7 ?](http://www.reddit.com/r/Python/comments/35a3n5/python_3_or_python_27_for_newbie/)
+
+Python 3 vs. Python 2! 不服来战!
+
 reddit.com
+
 Shared by @myusuf3
  
 
-- [Why "1000000000000000 in range(1000000000000001)" is so fast](http://www.reddit.com/r/Python/comments/352szm/why_1000000000000000_in_range1000000000000001_is/)
+- [为毛 "1000000000000000 in range(1000000000000001)" 这么快?](http://www.reddit.com/r/Python/comments/352szm/why_1000000000000000_in_range1000000000000001_is/)
+
 reddit.com
+
 Shared by @mgrouchy
  
 
@@ -108,14 +129,28 @@ Shared by @mgrouchy
 
 
 - [xpyth](https://github.com/hchasestevens/xpyth)
-A module for querying DOM tree and writing XPath expressions using Python generators.
+
+
+使用生成器完成的模块,
+能对 DOM 树进行查询,并生成 XPath 表达式.
+
 github.com
+
 Shared by @mgrouchy
  
+(`是也乎:`
+
+只是,这年头,还有什么项目在用 XML 哪...
+)
+
 
 - [p](https://github.com/qw3rtman/p)
-This is pretty cool. Dead Simple Interactive Python Version Management.
+
+有点小酷,
+简单的要死的 Python 版本管理.
+
 github.com
+
 Shared by @myusuf3
  
 (`是也乎:`
@@ -126,77 +161,135 @@ Shared by @myusuf3
 
 
 - [PathPicker](https://github.com/facebook/PathPicker)
-Facebook PathPicker is a simple command line tool that solves the perpetual problem of selecting files out of bash output. Pretty awesome package!
+
+Facebook 的 PathPicker 
+是个简单的命令行工具,
+但是,解决了从 bash 输出中选择文件的老大难问题,
+非常赞!
+
+
+
 github.com
+
 Shared by @myusuf3
  
 
 - [usbkill](https://github.com/hephaest0s/usbkill)
-usbkill is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
+
+usbkill 是种防攻击小工具,
+响应你的 USB 端口变化,
+立即关闭电脑!
+
 github.com
+
 Shared by @myusuf3
  
 
 - [passpie](https://github.com/marcwebbie/passpie)
-if you want password management in the terminal, look no further.
+
+想在终端管理口令嘛?!
+这是你所需要的.
+
 github.com
+
 Shared by @myusuf3
  
 
 - [gplearn](https://github.com/trevorstephens/gplearn)
-Genetic Programming in Python, with a scikit-learn inspired API
+
+Python 中的遗传编程,
+基于 scikit-learn 启发式 API
+
 github.com
+
 Shared by @mgrouchy
 
 ## 文章
 
-- [Understanding Python execution from inside: A Python assembly tracer](http://blog.hakril.net/articles/2-understanding-python-execution-tracer.html)
-Very cool.Nice look at Python execution from the inside. In the article the author creates a new opcode for CPython to create a new Bytecode-level tracing api.
+- [从内部理解 Python 的运行: 示踪剂](http://blog.hakril.net/articles/2-understanding-python-execution-tracer.html)
+
+非常 COOL,
+作者创建了一个全新的操作码,
+能进行字节级的追踪接口实现.
+
 hakril.net
+
 Shared by @mgrouchy
  
 
-- [Spark Streaming With Python and Kafka](http://rustyrazorblade.com/2015/05/spark-streaming-with-python-and-kafka/)
-Awesome article on streaming with kafka and spark!
+- [Spark 流式接入 Python 和 Kafka](http://rustyrazorblade.com/2015/05/spark-streaming-with-python-and-kafka/)
+
+非常赞的文章! 怎么结合 kafka 以及 spark!
+
 rustyrazorblade.com
+
 Shared by @myusuf3
  
 
-－[Optimize Python with Closures](http://late.am/post/2015/05/07/optimize-python-with-closures.html)
-Informative post about using Closures in Python to optimize your Python code.
+－[用 闭包 优化 Python](http://late.am/post/2015/05/07/optimize-python-with-closures.html)
+
+分享相关技巧.
+
 late.am
+
 Shared by @mgrouchy
  
 
-－ [Selenium Testcase with Nose in Python](http://scrolltest.com/selenium-testcase-with-nose-in-python/)
-For you nose lovers out there, this is a really great tutorial with examples to create Selenium Testcases with Nose.
+－ [在 Nose 中结合 Selenium 测试案例](http://scrolltest.com/selenium-testcase-with-nose-in-python/)
+
+如果你是 nose 爱好者,
+那么此教程就非常赞了,
+展示如何将 Selenium Testcases 结合进来.
+
 scrolltest.com
+
 Shared by @mgrouchy
  
 
-- [Python & RSA algorithm](http://blog.brainattica.com/rsa-with-cryptography-python-library/)
-A look at the Python Cryptography library and using the RSA algorithm.
+- [Python & RSA 算法](http://blog.brainattica.com/rsa-with-cryptography-python-library/)
+
+看看 Python 的加密库, 怎么运用 RSA 算法的.
+
 brainattica.com
+
 Shared by @mgrouchy
  
 
-- [Create Python code checks ('lints') up to 100x faster](http://blog.quantifiedcode.com/create-python-code-checks-lints-100-times-faster/)
-A look at a nice approach to speed up linters using Cody.
+- [创建快100倍的 Python 代码检查 ('lints')](http://blog.quantifiedcode.com/create-python-code-checks-lints-100-times-faster/)
+
+用 Cody 来加速的案例.
+
 quantifiedcode.com
+
 Shared by @mgrouchy
  
 
-- [Combinatorial Generation Using Coroutines With Examples in Python](http://sahandsaba.com/combinatorial-generation-using-coroutines-in-python.html)
+- [实例说明 Python 中如何利用 组合生成器 来进行协同.](http://sahandsaba.com/combinatorial-generation-using-coroutines-in-python.html)
+
 sahandsaba.com
+
 Shared by @mgrouchy
  
+(`是也乎:`
 
-- [Using mod_wsgi-express as a development server.](http://blog.dscpl.com.au/2015/05/using-modwsgi-express-as-development.html)
-Simple tutorial to get mod_wsgi-express running as a development server.
+Combinatorial Generation !
+
+就是 Lisp 立命之术,作者也宣称,使用 combinatorics 才是真正的爽脆...
+
+)
+
+- [将 mod_wsgi-express 作为开发服务器.](http://blog.dscpl.com.au/2015/05/using-modwsgi-express-as-development.html)
+
+简洁的教程,介绍如何基于
+mod_wsgi-express 构建开发服务器.
+
 dscpl.com.au
+
 Shared by @mgrouchy
  
-
+(`是也乎:`
+Apache ?! 呵呵...
+)
 
 ## DAMA
 (`大妈私人无责任播报`)
@@ -205,6 +298,6 @@ Shared by @mgrouchy
 
 # 是也乎
 
-- 1505?? 老高/[Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
+- 150512 [Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
 - 150511 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
 
