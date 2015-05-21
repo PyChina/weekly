@@ -26,22 +26,33 @@ Tags: Weekly,Pycoder,Zh
 ## 新闻
 
 - [Vistual Studio的Python插件](http://microsoft.github.io/PTVS/)
+
 让Visual Studio变成Python IDE的免费开源插件
-Free, open source plugin that turns Visual Studio into a Python IDE
+
 github.io
+
 Shared by @myusuf3
 
+
+(`是也乎:`
+
+好东西,可惜迟了20年才释放,根本没有什么机会了...
+)
 
 ## 讨论
 
 
 - [为毛[]比list()更快](http://www.reddit.com/r/Python/comments/35ytab/why_is_faster_than_list/)
+
 reddit.com
+
 Shared by @mgrouchy
  
 
 - [如何让你的库兼容Python2.6](http://www.reddit.com/r/Python/comments/35ozgt/charging_for_supporting_python_26_in_your_library/)
+
 reddit.com
+
 Shared by @mgrouchy
  
 
@@ -69,64 +80,100 @@ Shared by @mgrouchy
 ## 项目
 
 - [imapy](https://github.com/vladimarius/imapy)
+
 简单好用的IMAP库
-An attempt to make an IMAP library that has a nice interface and is easy to use.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [clize](https://github.com/epsy/clize)
-A library that attempts to make command line argument parsing a zero effort endeavour.
+
+又一个尝试简化 CLI 界面参数处理的库.
+
 github.com
+
 Shared by @mgrouchy
  
+(`是也乎:`
+
+综合运用了 修饰符以及注释文本.
+
+可惜,和 docopt 相比,还是比较反人性...
+
+)
+
 
 - [cutter](https://github.com/paradoxxxzero/cutter/)
+
 列表对象的语法糖，让列表遍历更简单
-Some syntactic sugar for list like objects in Python to help ease list traversal.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [keras](https://github.com/fchollet/keras/)
+
 基于Theano的一个深度学习框架，是一个高度模块化的神经网络库.
-Theano-based Deep Learning library (convnets, recurrent neural networks, and more).
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [pygrabbit](https://github.com/eka/pygrabbit)
+
 抓取所给web页面中最能代表其内容的一张图片
-PyGrabbit is a simple link scrapper It will try to return the best image(s) that represent the content on a given web page or not.
+
 github.com
+
 Shared by @myusuf3
  
 
 - [img2xls](https://github.com/Dobiasd/img2xls)
+
 将图片转换为Excel的形式去显示，额滴神啊!
-Convert images to colored cells in an Excel spreadsheet. Because? Why not!
+
 github.com
+
 Shared by @myusuf3
  
+(`是也乎:`
+
+![img2xls](https://github.com/Dobiasd/img2xls/raw/master/screenshot.png)
+
+
+嗯啍,这是 Excel 的一种隐藏合理用法的哪,
+日本有艺术家用这种 Excel 点彩画法,折腾出来过非常赞的图画的哪!
+只能说人家 Excel 的接口设计太科学,可以随意折腾不死哪!
+)
 
 - [wcleaner](https://github.com/ruiqi/wcleaner)
+
 非常有用的小工具。命令行下的磁盘空间清洁工具。 
-Pretty useful little utility. A command line disk space cleaner.
+
 github.com
+
 Shared by @ruiqilee
  
 
 - [transactions](https://github.com/ascribe/transactions)
+
 比特币交易库
-A library to help you simply create and push transactions to the bitcoin network.
+
 github.com
+
 Shared by @rodmar_
  
 
 - [pyenforcement](https://github.com/marknca/pyenforcement)
+
 用于访问OpenDNS服务接口的Python模块
-A python module for accessing the OpenDNS Security Platform API.
+
 github.com
+
 Shared by @myusuf3
 
 
@@ -137,72 +184,105 @@ Shared by @myusuf3
 
 
 - [一个简单的Python面向对象开发实例（TDD）- 第1部分](http://lgiordani.com/blog/2015/05/13/python-oop-tdd-example-part1/)
-一篇很好的教程讲述如何使用面向对象思想和驱动测试开发来开发一个Python包。
-Nice introductory total to develop a Python package using some object oriented programming concepts and Test Driven Development.
+
+一篇很好的教程,
+讲述如何使用 OOP 思想和 TDD 来开发一个Python包。
+
 lgiordani.com
+
 Shared by @@tw_lgiordani
  
 
 - [如何用Python处理Selenium中的Alerts和Select](http://scrolltest.com/how-to-handle-alerts-select-with-selenium-in-python/)
-下次使用selenium测试你web应用时候的一些主要提示
-Some protips next time you are doing some selenium testing of your web application.
+
+用selenium测试你web应用时,
+应该知道的一些提示的主要处理方法. 
+
 scrolltest.com
+
 Shared by @mgrouchy
  
 
 - [使用Python创建一个简单的虚拟机](https://csl.name/post/vm/)
+
 超级好文章！介绍了如何使用Python创建一个简单的虚拟机，值得一读！
-This is a pretty cool article. This tutorial shows you how to make a simple virtual machine with Python (specifically a stack machine). Good read!
+
 csl.name
+
 Shared by @mgrouchy
  
 
 - [Django Postgres新特性带来的快乐](https://realpython.com/blog/python/fun-with-djangos-new-postgres-features/#.VVIGsJDn7jU.reddit)
+
 很不错的Django 1.8的PostgreSQL新功能演示。
-Pretty nice walkthrough of Django 1.8's new PostgreSQL features.
+
 realpython.com
+
 Shared by @mgrouchy
  
 
 - [通过K-Means分类查找哈利波特中的章节](http://dogdogfish.com/2015/05/11/finding-topics-in-harry-potter-using-k-means-clustering/)
+
 喜欢哈利波特和机器学习？这篇文章正是你的菜！
-Like Harry Potter and Machine Learning? This article is for you!
+
 dogdogfish.com
+
 Shared by @mgrouchy
  
 
 - [使用Python和OpenCV 5分钟内创建一个人脸识别接口](http://www.pyimagesearch.com/2015/05/11/creating-a-face-detection-api-with-python-and-opencv-in-just-5-minutes/)
+
 PyImageSearch总是带来惊喜，最新特性，他将展示如何用Python和Opencv创建一个简单的人脸识别接口。
-Always awesome stuff coming from PyImageSearch, in one of his latest, he shows you how to create a simple face detection api with Python and opencv.
+
 pyimagesearch.com
+
 Shared by @mgrouchy
  
 
 - [将夏日旅行可视化](http://geoffboeing.com/2014/08/visualizing-summer-travels/)
+
 讲述如何通过地图和Python获取旅行数据的一系列好文！值得一读！
-Awesome series of articles on capturing travel data with maps and python! Great reads!
+
 geoffboeing.com
+
 Shared by @myusuf3
- 
+
+(`是也乎:`
+
+程序猿旅行必备技能!
+
+) 
 
 - [TaskBuster Django教程](http://www.marinamele.com/taskbuster-django-tutorial)
+
 Marina带我们开始Django1.8和Python3的学习！
-Marina takes us through how to get a Django 1.8 and Python 3 up and running!
+
 marinamele.com
+
 Shared by @myusuf3
+
+(`是也乎:`
+
+妺子的教程!
+
+)
  
 
 - [科学中的Python3:开始迁移!](http://astrofrog.github.io/blog/2015/05/09/2015-survey-results/)
+
 一份关于Python3在2012年和今年一月的数据收集报告
-a great summation of survey data collect 2012 and this past January on Python 3 adoption.
+
 github.io
+
 Shared by @myusuf3
  
 
 - [Django Anti-Patterns](http://docs.quantifiedcode.com/python-code-patterns/django/index.html)
+
 不要在Django项目中去做的几件事儿
-A nice collection of things that you shouldn't be doing in your Django apps/projects!
+
 quantifiedcode.com
+
 Shared by @mgrouchy
 
 ## DAMA
@@ -212,5 +292,5 @@ Shared by @mgrouchy
 
 # 是也乎
 
-- 15051? [Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
+- 150521 spawnris/[Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
 - 150516 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
