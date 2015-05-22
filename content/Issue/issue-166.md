@@ -263,8 +263,11 @@ Shared by @myusuf3
 
 (`是也乎:`
 
-妺子的教程!
+![Marina Mele](https://lh3.googleusercontent.com/-NHn2xEqvEIM/TlPyXH_wz9I/AAAAAAAAC58/OYKbQMWCkNo/w650-h648-no/foto1.jpg)
 
+妺子的教程! 手绘了很多封面...
+
+![TaskBuster Django Tutorial | Marina Mele's site](https://lh3.googleusercontent.com/proxy/X7TahcE3OtGSdCxFoIMHpm29Y6GMw_PtuGeBNiEZ1pr066eNP1R-pZmBHeHId8KUV3A7vjepu81frN-Grg5TXeyh2cjiUgww4Sa-4hCWCtWG_sTw6Zwg6G8TCSs=w346-h349-p)
 )
  
 
