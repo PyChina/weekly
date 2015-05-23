@@ -11,65 +11,122 @@ Tags: Weekly,ImportPython,Zh
 ## 该读
 ~ 文章, Blog, 教程...
 
-- [Rendering IPython notebooks on GitHub -- starting today](https://blog.jupyter.org/2015/05/07/rendering-notebooks-on-github/)
-We are pleased to announce that, starting today, and as announced on the GitHub blog, Jupyter/IPython notebook (.ipynb) files will render directly on GitHub. This feature works for notebooks in any of the supported Jupyter programming languages on both public and private repos.
+- [今天 IPython notebooks 正式成为 GitHub 支持格式](https://blog.jupyter.org/2015/05/07/rendering-notebooks-on-github/)
 
-- [Pipelining - A Successful Data Processing Model (example in python)](http://blog.stuartowen.com/pipelining-a-successful-data-processing-model)
-    + python
-Pipelining is the decomposition of a larger task into smaller, distinct tasks, so that they may be calculated in parallel. The idea proliferated in computing when CPU technology blossomed, and a fast-but-general model for computing large problems was needed.
-
-- [Implementing Decorators in Python](https://youtu.be/fAiN-iEsGBA)
-    + video
-A look at implementing decorators in Python using functional programming concepts and when they can be useful.
-
-- [Webcast: Teach Your Kids to Code: Turtle Graphics for Kids in Python](http://www.oreilly.com/pub/e/3422)
-In this webcast, you will learn how to engage children from pre-K through college with short, interactive, visual programs for every age level.
-
-- [Django 1.8 and Python 3: Complex app tutorial, end-to-end | Hacker News](http://marinamele.com/taskbuster-django-tutorial)
-    + django
-I am really excited to present this Django tutorial, made with Django 1.8 and Python 3. In this tutorial, I will show you how to create a Django Project from scratch. I will focus in a simple Task manager project, but the idea is that you can follow this tutorial while building your own project.
-
-- [Learning Lua as a Python Developer](http://bugra.github.io/work/notes/2015-05-09/learning-lua-as-a-python-developer/)
-    + core python
-This post would be to tell a tutorial on Lua from a Pythonista, comparing Lua features with various Python features and try to create various associations. Make no mistake, I will actually go through basic concepts but somehow comparing the Lua with Python all the time.
-
-- [Use closure for your Django context processors](http://www.peterbe.com/plog/closure-django-context-processors)
-    + django
-When all the templates in your big complicated website renders, it's quite possible that some pages don't need everything you set up in your context processors. That might mean a heck of a lot of extra computation when it won't ever be displayed.
-
-- [What is the appeal of dynamically-typed languages? (using Python as an example)](http://www.reddit.com/r/Python/comments/35iamd/what_is_the_appeal_of_dynamicallytyped_languages/)
-I genuinely wish I understood the appeal of unityped languages better. Can someone who really knows both well-typed and unityped explain?
-
-- [Python 2.7.10 release candidate 1 available](http://feedproxy.google.com/~r/PythonInsider/~3/FTlNOgFndNo/python-2710-release-candidate-1.html)
-    + core python
-, new release
-A release candidate of of Python 2.7.10 has been released. Please download it and test it with your application.
-
-- [Auto generate requirements.txt for your Python Projects](http://www.idiotinside.com/2015/05/10/python-auto-generate-requirements-txt/)
-    + python
-
-Any application typically has a set of dependencies that are required for that application to work. The requirements file is a way to specify and install specific set of package dependencies at once.
+官方 blog 非常高兴的宣布,
+在 github 所有仓库中的 Jupyter/IPython notebook (.pynb) 文档,
+将直接得到渲染!
 
 (`是也乎:`
-必须用!
+
+![150522-pynb-github](http://zoomq.qiniudn.com/ZQCollection/snap/150522-pynb-github.png)
+
+真的!!!
 )
 
 
-- [Optimise Python with closures](https://wrongsideofmemphis.wordpress.com/2015/05/08/optimise-python-with-closures/)
+- [Pipelining - 一种成功的数据处理模式 (python案例)](http://blog.stuartowen.com/pipelining-a-successful-data-processing-model)
+    + python
+
+所谓 "流水线" 就是将大任务分解为更小的一系列任务,
+以便并行计算,
+这在 CPU 设计领域一直在蓬勃发展,
+但是,对于一般计算范畴还没通用解决方案.
+笔者分享了一般化的考虑.
+
+- [实现 Python 的修饰符](https://youtu.be/fAiN-iEsGBA)
+    + video
+
+看看用函式化编程概念,如何在 Py 中完成修饰符功能.
+
+- [Webcast: 教孩子编程 之 Python 中的小乌龟](http://www.oreilly.com/pub/e/3422)
+
+在这一网络广播中,
+教你如何引导学前儿童,
+用可视化交互式式环境来学习编程思想.
+
+
+- [Django 1.8 和 Python 3: 端到端的复杂应用教程 | Hacker News](http://marinamele.com/taskbuster-django-tutorial)
+    + django
+
+非常激动的分享大家最新的 Django 教程,
+可以带领大家用 Django 1.8 在 Python 3 下面,
+从头建立一个应用,
+特别关注管理器的使用.
+目标是每个人跟教程走下来同时也建立好了自个儿的应用.
+
+- [以 Python 程序猿角度来学习 Lua](http://bugra.github.io/work/notes/2015-05-09/learning-lua-as-a-python-developer/)
     + core python
-This blog post by Dan Crosta is interesting. It talks about how is possible to optimise Python code for operations that get called multiple times avoiding the usage of Object Orientation and using Closures instead.
 
-- [Announcing libbson and libmongoc 1.1.5](http://feedproxy.google.com/~r/emptysquare/~3/WrU_HqoQEl0/)
+此 Lua 教程是面向 Pythonista 的,
+针对各种 Lua 的特性和概念,对比 Python 中的,
+以便快速建立基本概念,复用经验.
+
+- [关闭你的 Django 上下文处理器](http://www.peterbe.com/plog/closure-django-context-processors)
+    + django
+
+当你有复杂的网站模板要渲染时,
+可能有很多自动处理的计算,
+这意味着很多额外的计算,而且计算结果永远不会显示出来.
+
+- [动态类型语言的吸引力是什么?!(以 Python 为例)](http://www.reddit.com/r/Python/comments/35iamd/what_is_the_appeal_of_dynamicallytyped_languages/)
+
+动态类型研究好在哪儿? 有人能说明白卟!?
+
+(`是也乎:`
+
+至今也只有4个回复的好问题...
+
+目测好象八成,真的没有什么明显的好处...
+
+)
+
+- [Python 2.7.10 候选版 1 发布](http://feedproxy.google.com/~r/PythonInsider/~3/FTlNOgFndNo/python-2710-release-candidate-1.html)
+    + core python, new release
+
+嗯啍,欢迎下载测试
+
+- [为你的工程自动生成 requirements.txt](http://www.idiotinside.com/2015/05/10/python-auto-generate-requirements-txt/)
+    + python
+
+任何应用都依赖一组特定的组件才能运行.
+requirements.txt 就是声明这组依赖关系的文件,
+并能为 pip 理解,自动完成部署.
+
+可惜....多数情况下只能由人工编写.很不靠谱.
+
+(`是也乎:`
+必须用!
+
+)
+
+
+- [用 闭包 优化 Python ](https://wrongsideofmemphis.wordpress.com/2015/05/08/optimise-python-with-closures/)
+    + core python
+
+Dan Crosta 的分享非常有趣.
+讨论了到底有多少次 Python 内部调用是不必要的,
+以及如何用闭包来替代 OOP ,从而优化性能.
+
+- [libbson 和 libmongoc 1.1.5 发布](http://feedproxy.google.com/~r/emptysquare/~3/WrU_HqoQEl0/)
     + mongodb
-libbson is a C library for creating, parsing, and manipulating BSON documents. libmongoc is the C Driver for MongoDB, a library for building high-performance applications that communicate with MongoDB in the C language. It also serves as the base for drivers in some higher-level languages.
 
-- [Finding topics in Harry Potter using K-Means clustering.](http://dogdogfish.com/2015/05/11/finding-topics-in-harry-potter-using-k-means-clustering/)
+libbson是用于创建/分析和操作BSON文档的C库.
+libmongoc是MongoDB的C驱动库.
+用以构建与MongoDB沟通的C语言高性能应用程序.
+同时也可以为其它高级语言使用.
+
+- [用 K-Means 聚类算法来分析 Harry Potter 的内容主题](http://dogdogfish.com/2015/05/11/finding-topics-in-harry-potter-using-k-means-clustering/)
     + machine learning
+
 I’ll open up with the money-shot – these are all of the clusters that I was able to find using the whole Harry Potter and grouping by chapter. Find the repository associated with this article in our projects list.
 
-- [Topic modeling for the newbie](http://feedproxy.google.com/~r/oreilly/radar/atom/~3/bZH8jjcd51A/topic-modeling-for-the-newbie.html)
+- [主题建模的新手](http://feedproxy.google.com/~r/oreilly/radar/atom/~3/bZH8jjcd51A/topic-modeling-for-the-newbie.html)
     + machine learning
-A more sophisticated approach to understanding our users’ interests might try to identify the topics that underlie those interests. A technique called Latent Dirichlet Analysis (LDA) is commonly used to identify common topics in a set of documents. 
+
+又一更加复杂的用户兴趣分析方法,
+即所谓 Latent Dirichlet Analysis (LDA) 技术,
+通过对一组文本的分析,得到其背后的共同主题利益.
 
 
 
@@ -77,7 +134,19 @@ A more sophisticated approach to understanding our users’ interests might try 
 
 - [Hello Web App](http://hellowebapp.com/)
     + Tracy Osborn
-Hello Web App is written for non-programmers by a designer, and will walk you through every step you need before launching your web app live to real customers. This book doesn't walk you through a specific tutorial, but instead uses a generic example to allow you to create something using Python and Django that interests you. Check the http://importpython.com/blog/ for an interview with the author of Hello Web App. 
+
+"Hello Web App"
+是为非程序猿设计,
+会引导你完成构建 web 应用的所有过程,
+不是通过特定的教程,
+而是一个实际的通用实例,
+由读者亲手在 Django 基础上创建自己兴趣的网站.
+
+嗯啍,请关注 
+
+http://importpython.com/blog/
+
+有作者的访谈.
 
 
 ## 项目
@@ -85,47 +154,84 @@ Hello Web App is written for non-programmers by a designer, and will walk you th
 
 - [django-hackathon-starter](https://github.com/DrkSephy/django-hackathon-starter)
     - 75 Stars, 12 Fork
-A boilerplate for Django web applications
+
+又一个 Django 应用样板
 
 - [ptf](https://github.com/trustedsec/ptf)
     - 28 Stars, 6 Fork
-The Penetration Testers Framework (PTF) is a way for modular support for up-to-date tools. PTF attempts to install all of your penetration testing tools (latest and greatest), compile them, build them, and make it so that you can install/update your distribution on any machine.
+
+渗透测试框架(PTF ~ Penetration Testers Framework)
+是先进的模块化测试工具.
+
+PTF 为你的测试自动安装/编译/构建所有测试,
+能安装/更新到你的所有主机上.
+
 
 - [HarryPotterClusters](https://github.com/Kali89/HarryPotterClusters)
     - 21 Stars, 0 Fork
-All the Harry Potter clusters you could ever want.
+
+你应该想要的 哈利·波特集群!
 
 - [isthisipbad](https://github.com/jgamblin/isthisipbad)
     - 15 Stars, 6 Fork
-Python Script to Check IP Against Blacklist. Is This IP Bad? is a python script that will check an IP against popular IP and DNS blacklists.
+
+用 Python 脚本来检查 IP 地址污染问题,
+基于一组流行的 IP/DNS 黑名单.
+是 IP 坏了,还是其它什么问题?!
 
 - [notebooks](https://github.com/censusreporter/notebooks)
     - 12 Stars, 0 Fork
-A collection of Jupyter notebooks demonstrating ways to analyze Census data. Census Reporter invites you to make pull requests for notebooks demonstrating methods for analyzing Census data. What that looks like remains to be seen! Join in if you want to help figure it out.
+
+收集的 Jupyter notebooks ,
+有关人口普查问题的探查.
+引用的是 Census 报告数据.
+详细链接中有述.
 
 - [aeneas](https://github.com/readbeyond/aeneas)
     - 10 Stars, 2 Fork
-aeneas is a Python library and a set of tools to automagically synchronize audio and text
+
+aeneas 收集了一组工具,
+来对音频和文本进行同步.
+
 
 - [brute_force_plotter](https://github.com/eyadsibai/brute_force_plotter)
     - 4 Stars, 0 Fork
-Tool to visualize data quickly with no brain usage for plots creation
+
+用傻瓜化方式快速建立数据可视化.
 
 - [gitini](https://github.com/saru95/gitini)
     - 3 Stars, 0 Fork
-The missing Git repository initialization tool .
+
+遗失的 git 仓库初始化工具.
 
 - [youtube-dl-subscriptions](https://github.com/mewfree/youtube-dl-subscriptions)
     - 1 Stars, 0 Fork
-Download all new videos from your YouTube subscriptions
+
+从你的 youtube 订阅下载所有最新视频
+
+(`是也乎:`
+
+放心,从国内不可用.
+)
 
 - [ratex](https://github.com/jeffsp/ratex)
     - 1 Stars, 0 Fork
-A web application for setting a trek route, correlating it with exercise activities, and plotting its progress in a map view. Written in Python using the Flask microframework.
+
+以 Flask 中间件实现的一个 web 应用,
+能导入一次旅行的路线数据,
+自动绘到地图上.
 
 - [PageRank](https://github.com/ashkonf/PageRank)
     - 1 Stars, 0 Fork
-A Python implementation of Google's famous PageRank algorithm. 
+
+用 Python 实现的 Google's 著名算法 PageRank .
+
+(`是也乎:`
+
+嗯啍?! 人家本来就是 Python 实现的哪,,,
+是也乎,再制版, 原版是不给看的了...
+
+)
 
 
 ## DAMA
@@ -152,6 +258,6 @@ A Python implementation of Google's famous PageRank algorithm.
 
 # 是也乎
 
-- 1505?? spawnris/[Zoom.Quiet](http://zoomquiet.io) 联合完成
+- 150523 [Zoom.Quiet](http://zoomquiet.io) 联合完成
 - 150515 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
 
