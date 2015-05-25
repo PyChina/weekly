@@ -74,20 +74,18 @@ Shared by @mgrouchy
 ## 工作
 
 
+- [猎豹广州团队急召](https://github.com/cheetahmobile/CMBM/wiki/BmGzHr)
+
+来自 [猎豹移动 - 全球最大的移动工具开发商](http://www.cmcm.com/zh-cn/cm-backup/) ...
+急招 5+ 名有服务端开发经验的 **Pythonista/gopher**!
+
 - [猎豹深圳团队急召](https://github.com/cheetahmobile/CMBM/wiki/BmSzHr)
 
 来自 [猎豹移动 - 全球最大的移动工具开发商](http://www.cmcm.com/zh-cn/cm-backup/) 
 急招 N 名有服务端开发经验的 **gopher**!
 
 
-- [猎豹广州团队急召](https://github.com/cheetahmobile/CMBM/wiki/BmGzHr)
 
-来自 [猎豹移动 - 全球最大的移动工具开发商](http://www.cmcm.com/zh-cn/cm-backup/) ...
-四月急招 5+ 名有服务端开发经验的 **Pythonista/gopher**!
-
-- [SeaSun 珠海急招](https://github.com/cheetahmobile/CMBM/wiki/SeaSunZh)
-
-急招 10+名 有服务端开发经验的 **工程师** 待遇上不封顶!
 
 
 ## 项目

@@ -12,56 +12,127 @@ Tags: Weekly,ImportPython,Zh
 ~ 文章, Blog, 教程...
 
 
-- [PyCharm 4.5: All Python Tools in One Place](https://www.jetbrains.com/pycharm/whatsnew/?rss)
-PyCharm 4.5 unites even more tools and features for productive Python, Django and Web development that work together smoothly to offer you a unique coding experience.
+- [PyCharm 4.5: 集中提供所有 Py 工具](https://www.jetbrains.com/pycharm/whatsnew/?rss)
+
+PyCharm 4.5 包含更多生产力工具,
+特别是和 Django 一起工作时...
+
 
 - [PyCon Sweden 2015](http://ilian.io/pycon-sweden-2015/)
     + pycon
-In a few words PyCon Sweden 2015 was awesome. Honestly, this was my first Python conference ever but I really hope it won't be the last. Outside the awesome talks and great organisation it was really nice to spend some time with similar minded people and talk about technology, the universe and everything else.
 
-- [Fun with Django's New Postgres Features - Real Python](https://realpython.com/blog/python/fun-with-djangos-new-postgres-features/)
+对 PyCon 瑞典的感受? 就一个字: `真棒` !
+这是笔者首次参加的 PyCon,
+真心希望还有下一次,
+能和各种伟大的人物在一些讨论把村/宇宙和一切,感觉不能更加好了!
+
+- [Django 最新 Postgres 功能之趣 - Real Python](https://realpython.com/blog/python/fun-with-djangos-new-postgres-features/)
     + postgres
-This blog post covers how to use the new PostgreSQL-specific ModelFields introduced in Django 1.8 – the ArrayField, HStoreField, and Range Fields.
 
-- [Celery and the Flask Application Factory Pattern](http://blog.miguelgrinberg.com/post/celery-and-the-flask-application-factory-pattern)
+本文介绍了 Django 1.8 针对 Postgres 发布的最新功能:
+ModelFields,
+包含 ArrayField, HStoreField, 以及 Range Fields 特性.
+
+
+
+- [Celery 和 Flask 应用的工厂模式](http://blog.miguelgrinberg.com/post/celery-and-the-flask-application-factory-pattern)
     + flask
-Several readers asked how this integration can be done when using a large Flask application organized around the application factory pattern. It is non-trivial to make Celery, which does not have a dedicated Flask extension, delay access to the application until the factory function is invoked.
 
-- [Interested in organizing DjangoCon Europe 2016?](https://www.djangoproject.com/weblog/2015/may/18/interested-organizing-djangocon-europe-2016/)
+总是有读者询问如何在 Flask 应用中,
+利用工厂模式,包含进来更多的特性.
+
+Celery 一向很难被包含到现行框架中,
+因为有个延迟访问的问题,
+直到 工厂模式 的引入.
+
+- [有兴趣来组织 DjangoCon 欧洲 2016?](https://www.djangoproject.com/weblog/2015/may/18/interested-organizing-djangocon-europe-2016/)
     + django
-DjangoCon Europe 2015 is just a few short weeks away - but we need to start planning for next year! Each DjangoCon Europe event is run by a different volunteer organizing committee.
 
-- [Survival Analysis with IPython: R vs. Python](https://plot.ly/ipython-notebooks/survival-analysis-r-vs-python/)
+DjangoCon Europe 2015 
+再几周就要举行了,
+但是,我们已经开始筹备明年的了!
+每次筹委会都是志愿者组成的,所以,你也有机会!
+
+
+- [有关 IPython 的生存分析 : R vs. Python](https://plot.ly/ipython-notebooks/survival-analysis-r-vs-python/)
     + ipython
-In this notebook we introduce Survival Analysis using both R and Python. We will compare programming languages and leverage Plotly's Python and R APIs to convert graphics to interactive Plotly objects.
 
-- [Podcast conversation about teaching python with Grok Learning](http://www.talkpythontome.com/episodes/show/8/teaching-python-at-grok-learning-and-classrooms)
+在此 notebook 中, 
+尝试对比 R 和 Python,
+作为开发语言,以及图形化平台等等方面,进行了深入分析.
+
+
+- [有关利用 Grok Learning 进行 Py 教学的广播](http://www.talkpythontome.com/episodes/show/8/teaching-python-at-grok-learning-and-classrooms)
     + podcast
-Australia is making text-based computer programming a core requirement for high school students? Grok Learning is building the platform to make teaching it to kids a joy for teachers and students. Our guest, Dr. James Curran is a key player in both of these projects.
 
-- [Opbeat talks to Lincoln Loop](https://twitter.com/opbeat/status/598174804349308928/photo/1)
+澳大利亚 已经要求高中学生必须掌握一种编程语言了?!
+
+Dr. James Curran 正在构建一个 Grok Learning 平台,
+以及辅助教程,让学生们轻松的完成学习.
+
+
+
+- [Opbeat 谈论 Lincoln Loop](https://twitter.com/opbeat/status/598174804349308928/photo/1)
     + performance
-Founder of Lincoln Loop, Peter Baumgartner (@ipmb), talks about their stack and shares his 3 top tips for optimising Django applications. Filmed at Pycon in Montreal.
 
-- [Comparing the weather of places I've lived in using pandas/notebook](https://blog.wearewizards.io/comparing-the-weather-of-places-ive-lived-in)
+来自 Pycon 蒙特利尔的视频.
+
+Peter Baumgartner (@ipmb) Lincoln Loop 创始人,
+谈论堆桟技术,
+以及3 种优化 Django 应用的技巧.
+
+
+- [用 pandas/notebook 来分析俺住过的地方气候](https://blog.wearewizards.io/comparing-the-weather-of-places-ive-lived-in)
     + ipython
-I have lived in 4 countries on 3 continents (so far). When people ask me about these places, the first thing that comes to my mind is the weather. Having lived in these places I knew roughly how they compared but was curious about the exact numbers. What better way than to visualize data than a ipython notebook!
 
-- [On parsing C, type declarations and fake headers](http://eli.thegreenplace.net/2015/on-parsing-c-type-declarations-and-fake-headers/)
+
+俺住过3大洲4个国家,
+每当人们问及时,能想起来的总是天气,
+那么如何简洁的对比这些地方的气候呢?
+
+嗯啍!? 还有什么比在 notebook 上 用 pandas 快速可视化表述更加方便的呢?
+
+
+- [解析 C, 类型声明以及 fake headers](http://eli.thegreenplace.net/2015/on-parsing-c-type-declarations-and-fake-headers/)
     + core python
-pycparser has become fairly popular in the past couple of years (especially following its usage in cffi). This means I get more questions by email, which leads me to getting tired of answering the same questions. So this blog post is a one-stop shop for the (by far) most frequently asked question about pycparser - how to handle headers that your code #includes.
 
-- [Run OS command with timeout on a list of files using several threads (Python)](http://code.activestate.com/recipes/579056-run-os-command-with-timeout-on-a-list-of-files-usi/)
+pycparser 过去几年间已经流行起来了(特别是配合 cffi 使用).
+就也意味着作者越来越多的收集各种邮件发送过来的提问.
+
+所以,这里提供了一篇最全面的 FAQ 集锦,你值得拥有!
+
+
+
+- [用线程(Py的)列表文件来处理 OS 命令的超时](http://code.activestate.com/recipes/579056-run-os-command-with-timeout-on-a-list-of-files-usi/)
     + core python
-This hack runs a command sequentially on a list of files using two simultaneous threads. If one of the commands takes more than a set time, it's killed and the program goes for the next file. EDITED to add some exception handling.
 
-- [Python coroutines with async and await](http://lwn.net/SubscriberLink/643786/9c0bd83dff0df3b8/)
+通过两个并行的线程文件,
+当其中一个超时时,程序进入下一个,
+并能编辑/追加异常处置.
+
+- [Python coroutines 和异步以及等待](http://lwn.net/SubscriberLink/643786/9c0bd83dff0df3b8/)
     + core python
-It is already possible to create coroutines for asynchronous processing in Python. But a recent proposal would elevate coroutines to a full-fledged language construct, rather than treat them as a type of generator as they are currently. Two new keywords, async and await, would be added to the language to support coroutines as first-class Python features.
 
-- [PyDev of the Week: Vasudev Ram](http://feedproxy.google.com/~r/TheMouseVsThePython/~3/KRxZ8XxqVgM/)
+Python 已经能创建 coroutines 来异步处理.
+只是还没有提升到语言层面,
+只是个类型生成器.
+
+现在提议追加两个关键词: async 以及 await,
+彻底解决这事儿!
+
+
+(`是也乎:`
+细思恐极的是, Guido 老爹一直也是 golang-style 哪,
+内置库可以自在点,但是,关键字,那是真心越少越好.
+所以,....
+)
+
+- [当周 PyDev: Vasudev Ram](http://feedproxy.google.com/~r/TheMouseVsThePython/~3/KRxZ8XxqVgM/)
     + interview
-This week we welcome Vasudev Ram (@vasudevram) as our PyDev of the Week. Vasudev is a freelance developer who blogs on lots of different software topics, including Python. He is the creator of xtopdf. 
+
+Vasudev Ram (@vasudevram) 作为当周 PyDev 之星,
+一直在 blog 中坚把分享各种技术内容,
+也是 xtopdf 的创始人.
 
 ## New Books
 
@@ -71,44 +142,65 @@ This week we welcome Vasudev Ram (@vasudevram) as our PyDev of the Week. Vasudev
 
 - [slack-overflow](https://github.com/karan/slack-overflow)
     - 342 Stars, 12 Fork
-A programmer's best friend, now in Slack.
+
+程序猿最好的朋友!?现在是 Slack.
 
 - [dnsdiff](https://github.com/joshenders/dnsdiff)
     - 199 Stars, 6 Fork
-Utility to diff the responses between two nameservers
+
+对 DNS 进行 diff.
 
 - [pynab](https://github.com/aldanor/pynab)
     - 32 Stars, 0 Fork
-A minimalistic library designed to provide native access to YNAB data from Python
+
+对 YNAB 数据进行访问的简约 Py 库.
+
 
 - [wepy](https://github.com/DeliangFan/wepy)
     - 16 Stars, 4 Fork
-wepy is a weather client for the terminal.
+
+天气查询客户端, CLI 的
+
 
 - [hn](https://github.com/walkr/hn)
     - 11 Stars, 1 Fork
-read HN from the command line
+
+在命令行中阅读 HN 
 
 - [embedding-matching-word-segmenter](https://github.com/Jianqiang/embedding-matching-word-segmenter)
     - 9 Stars, 3 Fork
-Code for the ACL-2015 paper "Accurate Linear-Time Chinese Word Segmentation via Embedding Matching"
+
+来自讨文 ACL-2015 的代码: "Accurate Linear-Time Chinese Word Segmentation via Embedding Matching"
 
 - [badactors](https://github.com/jgamblin/badactors)
     - 8 Stars, 1 Fork
-Create a list of bad actors from public IP blacklist.
+
+建立公共 IP 黑名单
+
+
 
 - [simplesam](https://github.com/mdshw5/simplesam)
     - 8 Stars, 0 Fork
-Simple pure Python SAM parser and objects for working with SAM records
+
+简单的纯 SAM 解析器,以及记录对象
+
 
 - [marker](https://github.com/pindexis/marker)
     - 8 Stars, 1 Fork
-Bookmark your terminal commands.
+
+终端里的书签
+
 
 - [oi](https://github.com/walkr/oi)
     - 8 Stars, 0 Fork
-python library for writing long running processes with a cli interface 
 
+有 CLI 界面的,可长期运行的应用进程编辑框架
+
+
+(`是也乎:`
+
+这个可以!
+)
 
 ## DAMA
 (`大妈私人无责任播报`)
@@ -117,23 +209,22 @@ python library for writing long running processes with a cli interface
 
 ### 工作
 
--   [猎豹深圳团队急召](https://github.com/cheetahmobile/CMBM/wiki/BmSzHr)
-
-来自 [猎豹移动 - 全球最大的移动工具开发商](http://www.cmcm.com/zh-cn/cm-backup/)   
-四月急招 N 名有服务端开发经验的 **gopher**!
-
-
 -   [猎豹广州团队急召](https://github.com/cheetahmobile/CMBM/wiki/BmGzHr)
 
 来自 [猎豹移动 - 全球最大的移动工具开发商](http://www.cmcm.com/zh-cn/cm-backup/) ...  
-四月急招 5+ 名有服务端开发经验的 **Pythonista/gopher**!
+急招 5+ 名有服务端开发经验的 **Pythonista/gopher**!
 
--   [SeaSun 珠海急招](https://github.com/cheetahmobile/CMBM/wiki/SeaSunZh)  
 
-四月急招 10+名 有服务端开发经验的 **工程师** 待遇上不封顶!
+-   [猎豹深圳团队急召](https://github.com/cheetahmobile/CMBM/wiki/BmSzHr)
+
+来自 [猎豹移动 - 全球最大的移动工具开发商](http://www.cmcm.com/zh-cn/cm-backup/)   
+急招 N 名有服务端开发经验的 **gopher**!
+
+
+
 
 # 是也乎
 
-- 1505?? spawnris/[Zoom.Quiet](http://zoomquiet.io) 联合完成
+- 150525 [Zoom.Quiet](http://zoomquiet.io) 完成
 - 150522 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
 
