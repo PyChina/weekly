@@ -120,7 +120,7 @@ Shared by @mgrouchy
 - [为艺(Wegenart)教育科技 急召](https://github.com/ZoomQuiet/zoomquiet/wiki/Hr4Wegenart)
 
 来自帝都 音乐教育领域 O2O 创业团队,颜值最高的创业团队;
-诚聘移动端工程师 3 名, 年薪280K 起,还有期权!
+急招 **前端** 和 **Python后端工程师** 若干名, 年薪280K 起,还有期权!
 
 有意者及时邮件 `zoomquiet+hr[AT]gmail.com`
 
