@@ -1,5 +1,5 @@
-Title: 蠎周刊 169: 乳酪
-Slug: issue-169
+Title: 蠎周刊 168: 乳酪
+Slug: issue-168
 Date: 2015-06-08 19:19
 Tags: Weekly,Pycoder,Zh 
 
