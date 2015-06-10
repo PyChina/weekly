@@ -103,7 +103,7 @@ Shared by @mgrouchy
 
 - [cutter](https://github.com/paradoxxxzero/cutter/)
 
-列表对象的语法糖，让列表遍历更简单
+列表对象的语法糖,让列表遍历更简单
 
 github.com
 
@@ -112,7 +112,7 @@ Shared by @mgrouchy
 
 - [keras](https://github.com/fchollet/keras/)
 
-基于Theano的一个深度学习框架，是一个高度模块化的神经网络库.
+基于Theano的一个深度学习框架,是一个高度模块化的神经网络库.
 
 github.com
 
@@ -130,7 +130,7 @@ Shared by @myusuf3
 
 - [img2xls](https://github.com/Dobiasd/img2xls)
 
-将图片转换为Excel的形式去显示，额滴神啊!
+将图片转换为Excel的形式去显示,额滴神啊!
 
 github.com
 
@@ -148,7 +148,7 @@ Shared by @myusuf3
 
 - [wcleaner](https://github.com/ruiqi/wcleaner)
 
-非常有用的小工具。命令行下的磁盘空间清洁工具。 
+非常有用的小工具. 命令行下的磁盘空间清洁工具.  
 
 github.com
 
@@ -179,10 +179,10 @@ Shared by @myusuf3
 
 
 
-- [一个简单的Python面向对象开发实例（TDD）- 第1部分](http://lgiordani.com/blog/2015/05/13/python-oop-tdd-example-part1/)
+- [一个简单的Python面向对象开发实例(TDD)- 第1部分](http://lgiordani.com/blog/2015/05/13/python-oop-tdd-example-part1/)
 
 一篇很好的教程,
-讲述如何使用 OOP 思想和 TDD 来开发一个Python包。
+讲述如何使用 OOP 思想和 TDD 来开发一个Python包. 
 
 lgiordani.com
 
@@ -201,7 +201,7 @@ Shared by @mgrouchy
 
 - [使用Python创建一个简单的虚拟机](https://csl.name/post/vm/)
 
-超级好文章！介绍了如何使用Python创建一个简单的虚拟机，值得一读！
+超级好文章!介绍了如何使用Python创建一个简单的虚拟机,值得一读!
 
 csl.name
 
@@ -210,7 +210,7 @@ Shared by @mgrouchy
 
 - [Django Postgres新特性带来的快乐](https://realpython.com/blog/python/fun-with-djangos-new-postgres-features/#.VVIGsJDn7jU.reddit)
 
-很不错的Django 1.8的PostgreSQL新功能演示。
+很不错的Django 1.8的PostgreSQL新功能演示. 
 
 realpython.com
 
@@ -219,7 +219,7 @@ Shared by @mgrouchy
 
 - [通过K-Means分类查找哈利波特中的章节](http://dogdogfish.com/2015/05/11/finding-topics-in-harry-potter-using-k-means-clustering/)
 
-喜欢哈利波特和机器学习？这篇文章正是你的菜！
+喜欢哈利波特和机器学习?这篇文章正是你的菜!
 
 dogdogfish.com
 
@@ -228,7 +228,7 @@ Shared by @mgrouchy
 
 - [使用Python和OpenCV 5分钟内创建一个人脸识别接口](http://www.pyimagesearch.com/2015/05/11/creating-a-face-detection-api-with-python-and-opencv-in-just-5-minutes/)
 
-PyImageSearch总是带来惊喜，最新特性，他将展示如何用Python和Opencv创建一个简单的人脸识别接口。
+PyImageSearch总是带来惊喜,最新特性,他将展示如何用Python和Opencv创建一个简单的人脸识别接口. 
 
 pyimagesearch.com
 
@@ -237,7 +237,7 @@ Shared by @mgrouchy
 
 - [将夏日旅行可视化](http://geoffboeing.com/2014/08/visualizing-summer-travels/)
 
-讲述如何通过地图和Python获取旅行数据的一系列好文！值得一读！
+讲述如何通过地图和Python获取旅行数据的一系列好文!值得一读!
 
 geoffboeing.com
 
@@ -251,7 +251,7 @@ Shared by @myusuf3
 
 - [TaskBuster Django教程](http://www.marinamele.com/taskbuster-django-tutorial)
 
-Marina带我们开始Django1.8和Python3的学习！
+Marina带我们开始Django1.8和Python3的学习!
 
 marinamele.com
 
