@@ -119,7 +119,7 @@ libmongoc是MongoDB的C驱动库.
 - [用 K-Means 聚类算法来分析 Harry Potter 的内容主题](http://dogdogfish.com/2015/05/11/finding-topics-in-harry-potter-using-k-means-clustering/)
     + machine learning
 
-I’ll open up with the money-shot – these are all of the clusters that I was able to find using the whole Harry Potter and grouping by chapter. Find the repository associated with this article in our projects list.
+I'll open up with the money-shot – these are all of the clusters that I was able to find using the whole Harry Potter and grouping by chapter. Find the repository associated with this article in our projects list.
 
 - [主题建模的新手](http://feedproxy.google.com/~r/oreilly/radar/atom/~3/bZH8jjcd51A/topic-modeling-for-the-newbie.html)
     + machine learning
