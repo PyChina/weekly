@@ -138,7 +138,7 @@ Shared by @mgrouchy
 
 (`是也乎:`
 
-Bootle 和 Whoosh 实现!
+Bottle 和 Whoosh 实现!
 )
 
 - [mailthon](https://github.com/eugene-eeo/mailthon)
