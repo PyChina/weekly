@@ -1,15 +1,13 @@
-Title: 蠎周刊 168: 乳酪
+Title: 蠎周刊 168: Codex
 Slug: issue-168
-Date: 2015-06-08 19:19
+Date: 2015-06-23 21:12
 Tags: Weekly,Pycoder,Zh 
 
 
 ![Pycoder's Weekly](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)
 
 
-- 原文: [Pycoders Weekly (Issue #169): Cheese](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=a0c695a7f6&e=889f3f6a05)
-
-
+- 原文: [Pycoders Weekly (Issue #168): Codex](http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&id=3269eb9cac&e=889f3f6a05)
 
 ##  搜罗Py万物 的周刊
 
@@ -27,84 +25,47 @@ Tags: Weekly,Pycoder,Zh
 
 ## 新闻
 
-- [PyPy 2.6.0发布](http://morepypy.blogspot.ca/2015/06/pypy-260-release.html)
-
-最新版本PyPy已发布,代号Cameo Charm. 快来点击链接查看新特性吧!
-
-blogspot.ca
-
+- [Python 2.7.10 released](https://www.python.org/downloads/release/python-2710/)
+This is a bugfix release for the 2.7.x series.
+python.org
 Shared by @mgrouchy
  
 
-- [热烈祝贺PSF新董事会成立!](http://pyfound.blogspot.ca/2015/06/congratualations-to-new-board-of.html)
-
-PSF的新董事会成立啦!感谢即将离开的小伙伴在过去的付出并欢迎新成员的加入!
-
-blogspot.ca
-
+- [Python 3.5.0b1 Released!](https://www.python.org/downloads/release/python-350b1/)
+Check out list of features after the jump!
+python.org
 Shared by @myusuf3
  
 
-- [Python 101: Episode #4 – The if Statement](http://www.blog.pythonlibrary.org/2015/06/02/python-101-episode-4-the-if-statement/)
-
-Python101视频第四集已经释放.
-
-是学习if语句的时刻了, 再次刷新咱们的知识!
-
-
-pythonlibrary.org
-
+- [PyDev 4.1.0 released!](http://pydev.blogspot.ca/2015/05/pydev-410-code-completion-improvements.html)
+Latest version includes code completion improvements, Python 3.5 grammar and more.
+blogspot.ca
 Shared by @mgrouchy
  
 
-- [OpenCV 3.0发布](http://opencv.org/opencv-3-0.html)
-
-类库OpenVC3.0发布,快来看看有哪些变化!
-
-opencv.org
-
+- [Episode #9 Docker for the Python Developer](http://www.talkpythontome.com/episodes/show/9/docker-for-the-python-developer)
+Learn something about Docker from Patrick Chanezon, member of technical staff at Docker inc.
+talkpythontome.com
 Shared by @mgrouchy
  
-
-- [DjangoCon US开始报名!](https://www.djangoproject.com/weblog/2015/may/22/djangocon-us-registration-open/)
-
-史上最低价格,快来报名DjangoCon US 2015!
-
-djangoproject.com
-
-Shared by @mgrouchy
- 
-
-- [Pycast: Python & Data Science Screencasts Kickstarter](https://www.kickstarter.com/projects/127250310/pycast-python-and-data-science-screencasts)
-
-快速入门Python和数据科学的视频教程!
-
-kickstarter.com
-
-Shared by @mgrouchy
-
-
 
 
 ## 讨论
-
-- [Python 3: 当前管理虚拟环境和包的最佳方案是什么?](http://www.reddit.com/r/Python/comments/38hchz/python_3_current_best_practices_for_managing/)
+- [Python bug: Can assign [] = (), but not () = []](http://www.reddit.com/r/Python/comments/37fmfn/python_bug_can_assign_but_not/)
 
 reddit.com
 
 Shared by @mgrouchy
  
 
-- [namedtuple的介绍](http://www.reddit.com/r/Python/comments/38ee9d/intro_to_namedtuple/)
-
+- [In praise of Django](http://www.reddit.com/r/Python/comments/37d03r/in_praise_of_django/)
 reddit.com
-
 Shared by @mgrouchy
-
 
 
 
 ## 工作
+
 
 
 - [猎豹广州团队急召](https://github.com/cheetahmobile/CMBM/wiki/BmGzHr)
@@ -124,167 +85,96 @@ Shared by @mgrouchy
 
 有意者及时邮件 `zoomquiet+hr[AT]gmail.com`
 
+
+
+
 ## 项目
 
-
-- [i2o](https://github.com/Avocarrot/i2o)
-
-通过webhook实现语音播报!
-
+- [marker](https://github.com/pindexis/marker)
+This project allows you to bookmark your terminal commands. Supports fuzzy matching, aliases and a bunch of other nice features.
 github.com
-
-Shared by @myusuf3
- 
-
-- [question](https://github.com/blha303/question)
-
-漂亮的 快速提问接口. Flask实现
-
-
-github.com
-
 Shared by @mgrouchy
  
 
-- [mkdocs](https://github.com/mkdocs/mkdocs/)
-
-想使用Markdown来书写你的项目文档么?mkdocs正是你要的平台!超赞的项目!
-
+- [profiling](https://github.com/what-studio/profiling)
+The profiling package is an interactive Python profiler. Pretty freaking legit! I wonder how it works with web applications.
 github.com
-
-Shared by @myusuf3
- 
-(`是也乎:`
-
-一见心喜的工具,去年 PyCon2014China 的官网原型就是使用这个工具的!
-
-可惜....没有 Markdoc 简洁.
-
-[Index | Zoom.Quiet Personal Static Wiki](http://wiki.zoomquiet.io/)
-)
-
-
-- [RedditStorage](https://github.com/Rossem/RedditStorage)
-
-通过这个工具允许您将文件存储在Reddit和创建您自己的私人subreddit. 
-
-github.com
-
-Shared by @mgrouchy
- 
-
-- [cyborg](https://github.com/orf/cyborg)
-
-异步的Python3爬虫框架
-
-github.com
-
-Shared by @mgrouchy
- 
-
-- [Airflow: a workflow management platform](http://nerds.airbnb.com/airflow/)
-
-超级赞!
-AirBNB Airflow
-用 Python 实现的工作流程管理系统,
-
-所有任务都将以 Python 的形式该系统上被执行. 
-
-值得研究.
-
-
-airbnb.com
-
 Shared by @myusuf3
  
 
-- [wordinserter](https://github.com/orf/wordinserter)
-
-让你 word 文档支持 Markdown和HTML 嵌入的给力工具
-
+- [PyLaTeX](https://github.com/JelteF/PyLaTeX)
+A Python library for creating LaTeX files
 github.com
-
-Shared by @myusuf3
+Shared by @mgrouchy
  
 
-- [hashfs](https://github.com/dgilland/hashfs)
-
-Python实现的支持文件内容定位的文件管理系统
-
+- [clf](https://github.com/ncrocfer/clf)
+Search and view results from commandlinefu.com in your terminal.
 github.com
-
 Shared by @mgrouchy
+ 
+
+- [autocanary](https://github.com/firstlook/autocanary)
+Makes generating machine-readable, digitally signed warrant canary statements simpler. Click through to the README for more details.
+github.com
+Shared by @mgrouchy
+
 
 
 ## 文章
 
+- [Rust for Python Programmers](http://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/)
+Looking to pick up a side language like Rust! Check this post out! Introduction to the Rust Language for a Pythonista!
+pocoo.org
+Shared by @myusuf3
+ 
 
-- [Get back up and try again: retrying in Python](https://julien.danjou.info/blog/2015/python-retrying)
-
-教你如何使用 retrying 库 用装饰器实现 重试
-
-danjou.info
-
+- [Tornado Locks And Queues (The End Of Toro)](http://emptysqua.re/blog/tornado-locks-and-queues/)
+Tornado 4.2 is out and now has locks and queues. The code adopted into Tornado core is from the Toro project, so it looks like Toro has reached the end of its life. Click through to learn more.
+emptysqua.re
 Shared by @mgrouchy
  
 
-- [Python 2.7性能提升](http://lwn.net/SubscriberLink/646888/26048607aedebe3d/)
-
-文章描述了对Python2.7.11的升级将使整个Python2.7系得以加速,其中包括了延迟和指数退避功能的实现. 
-
-
-
-lwn.net
-
+- [Djangui, empower your python scripts with Django!](http://pyinformatics.blogspot.ca/2015/05/djangui-empower-your-python-scripts.html)
+This is a walkthrough of a pretty useful little project that exposes your Python scripts with a simple Django admin UI.
+blogspot.ca
 Shared by @mgrouchy
  
 
-- [通过K-means集群实现音调的区分和可视化](http://www.galvanize.com/blog/2015/05/28/classifying-and-visualizing-musical-pitch-with-k-means-clustering/)
+- [Performance monitoring of real WSGI application traffic.](http://blog.dscpl.com.au/2015/05/performance-monitoring-of-real-wsgi.html)
+Interested in measuring performance of a WSGI app in production accurately! Take a look.
+dscpl.com.au
+Shared by @myusuf3
+ 
 
-galvanize.com
+- [Let's modernize the way we handle frontend code with Django](http://owaislone.org/blog/modern-frontends-with-django/)
+This articles departs from how most of handle static files in our Python web apps. Interesting thoughts here.
+owaislone.org
+Shared by @myusuf3
+ 
 
+- [Guide For Data Exploration In Python](http://www.analyticsvidhya.com/blog/2015/04/comprehensive-guide-data-exploration-sas-using-python-numpy-scipy-matplotlib-pandas/)
+Very detailed guide to exploring your data with all the top datascience tools like Numpy, Matplotlib and Pandas.
+analyticsvidhya.com
 Shared by @mgrouchy
  
 
-- [比较Python和R语言在数据科学中的异同](http://blog.dominodatalab.com/comparing-python-and-r-for-data-science/)
-
-很赞的比对,让你在从事数据科学工作时作出适合自己的选择
-
-dominodatalab.com
-
+- [Open-Sourcing Your Own Python Library 101](https://www.endgame.com/blog/open-sourcing-your-own-python-library-101)
+Want to open source your next Python library? This guide is for you!
+endgame.com
 Shared by @mgrouchy
  
 
-(`是也乎:`
-
-大妈刚刚在6.6~7 北大内部进行的 第8届 R 语言大会上使用了这一素材在演讲中:
-
-[幻灯](http://zoomq.qiniudn.com/CPyUG/150607-RConChina/RorPython_whynot_v150607.pdf);[录音](http://zoomq.qiniudn.com/CPyUG/150607-RConChina/150607_rcon_p9_am1_ipynb.MP3);-)
-
-
-PS:
-霹雳虎也低调参加了,作为北大校友
-
-)
-
-- [CPython internals: A ten-hour codewalk through the Python interpreter source code](http://pgbovine.net/cpython-internals.htm)
-
-10小时 CPython 解释器的源码剖析视频!
-
-
-pgbovine.net
-
-Shared by @mgrouchy
+- [Basic motion detection and tracking with Python and OpenCV](http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/)
+Awesome article as always from PyImageSearch for basic motion detection with raspberry pi and camera!
+pyimagesearch.com
+Shared by @myusuf3
  
 
-- [Python优化 - 案例研究](https://www.airpair.com/python/posts/optimizing-python-code)
-
-通过不断的测试和对代码的分析,给出一份非常详尽的代码优化案例
-
-airpair.com
-
-Shared by @airpair
-
+- [PyCon Sweden 2015 videos](https://www.youtube.com/channel/UCH_2cuWzFMyCPvm75lJJ6wg/videos)
+Missed PyCon Sweden, don't miss out any longer, check out the videos!
+youtube.com
+Shared by @halflings
 
 
 
@@ -295,5 +185,5 @@ Shared by @airpair
 
 # 是也乎
 
-- 150610 老高/[Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
-- 150608 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
+- 1506?? [Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
+- 150623 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
