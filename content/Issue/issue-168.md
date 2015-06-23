@@ -25,41 +25,58 @@ Tags: Weekly,Pycoder,Zh
 
 ## 新闻
 
-- [Python 2.7.10 released](https://www.python.org/downloads/release/python-2710/)
-This is a bugfix release for the 2.7.x series.
+- [Python 2.7.10 发布](https://www.python.org/downloads/release/python-2710/)
+
+2.7.x 系列的修订版本.
+
 python.org
+
 Shared by @mgrouchy
  
 
-- [Python 3.5.0b1 Released!](https://www.python.org/downloads/release/python-350b1/)
-Check out list of features after the jump!
+- [Python 3.5.0b1 发布!](https://www.python.org/downloads/release/python-350b1/)
+
+
+特性细节链接中
+
 python.org
+
 Shared by @myusuf3
  
 
-- [PyDev 4.1.0 released!](http://pydev.blogspot.ca/2015/05/pydev-410-code-completion-improvements.html)
-Latest version includes code completion improvements, Python 3.5 grammar and more.
+- [PyDev 4.1.0 发布!](http://pydev.blogspot.ca/2015/05/pydev-410-code-completion-improvements.html)
+
+最新版本,包含自动化完成,
+以及 Python 3.5 grammar 和更多特性
+
 blogspot.ca
+
 Shared by @mgrouchy
  
 
-- [Episode #9 Docker for the Python Developer](http://www.talkpythontome.com/episodes/show/9/docker-for-the-python-developer)
-Learn something about Docker from Patrick Chanezon, member of technical staff at Docker inc.
+- [Episode #9 为 Python 程序猿的 Docker ](http://www.talkpythontome.com/episodes/show/9/docker-for-the-python-developer)
+
+来自 Docker 公司的 Patrick Chanezon 发布的系列教程.
+
+
 talkpythontome.com
+
 Shared by @mgrouchy
  
 
 
 ## 讨论
-- [Python bug: Can assign [] = (), but not () = []](http://www.reddit.com/r/Python/comments/37fmfn/python_bug_can_assign_but_not/)
+- [Python 问题: 无法 [] = (), 却 () = []](http://www.reddit.com/r/Python/comments/37fmfn/python_bug_can_assign_but_not/)
 
 reddit.com
 
 Shared by @mgrouchy
  
 
-- [In praise of Django](http://www.reddit.com/r/Python/comments/37d03r/in_praise_of_django/)
+- [Django 之赞](http://www.reddit.com/r/Python/comments/37d03r/in_praise_of_django/)
+
 reddit.com
+
 Shared by @mgrouchy
 
 
@@ -91,89 +108,142 @@ Shared by @mgrouchy
 ## 项目
 
 - [marker](https://github.com/pindexis/marker)
-This project allows you to bookmark your terminal commands. Supports fuzzy matching, aliases and a bunch of other nice features.
+
+支持命令行终端中各种书签操作.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [profiling](https://github.com/what-studio/profiling)
-The profiling package is an interactive Python profiler. Pretty freaking legit! I wonder how it works with web applications.
+
+交互式 Python 分析器,
+非常想知道如何结合到 web 应用中...
+
 github.com
+
 Shared by @myusuf3
  
 
 - [PyLaTeX](https://github.com/JelteF/PyLaTeX)
-A Python library for creating LaTeX files
+
+专注用 Py 创建 LaTeX 文件的库.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [clf](https://github.com/ncrocfer/clf)
-Search and view results from commandlinefu.com in your terminal.
+
+在 CLI 中搜索 commandlinefu.com
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [autocanary](https://github.com/firstlook/autocanary)
-Makes generating machine-readable, digitally signed warrant canary statements simpler. Click through to the README for more details.
+
+生成机器可读的有数字签名的 canary 样本数据,
+细节链接中.
+
 github.com
+
 Shared by @mgrouchy
 
 
 
 ## 文章
 
-- [Rust for Python Programmers](http://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/)
-Looking to pick up a side language like Rust! Check this post out! Introduction to the Rust Language for a Pythonista!
+- [给 Python 程序猿 用的 Rust](http://lucumr.pocoo.org/2015/5/27/rust-for-pythonistas/)
+
+从 Pythonista 视角的 Rust 介绍文档!
+
 pocoo.org
+
 Shared by @myusuf3
  
 
-- [Tornado Locks And Queues (The End Of Toro)](http://emptysqua.re/blog/tornado-locks-and-queues/)
-Tornado 4.2 is out and now has locks and queues. The code adopted into Tornado core is from the Toro project, so it looks like Toro has reached the end of its life. Click through to learn more.
+- [Tornado 锁和队列 (The End Of Toro)](http://emptysqua.re/blog/tornado-locks-and-queues/)
+
+
+Tornado 4.2 已经发布,
+包含了  锁和队列, 通过纳入 Toto 项目,
+细节链接中.
+
 emptysqua.re
+
 Shared by @mgrouchy
  
 
-- [Djangui, empower your python scripts with Django!](http://pyinformatics.blogspot.ca/2015/05/djangui-empower-your-python-scripts.html)
-This is a walkthrough of a pretty useful little project that exposes your Python scripts with a simple Django admin UI.
+- [Djangui, 将你的脚本结合到 Django 中!](http://pyinformatics.blogspot.ca/2015/05/djangui-empower-your-python-scripts.html)
+
+非常有用的小项目,
+用一个简单的 Django 管理界面,可以立即公开你的脚本.
+
 blogspot.ca
+
 Shared by @mgrouchy
  
 
-- [Performance monitoring of real WSGI application traffic.](http://blog.dscpl.com.au/2015/05/performance-monitoring-of-real-wsgi.html)
-Interested in measuring performance of a WSGI app in production accurately! Take a look.
+- [对 WSGI 应用进行流量的性能监测](http://blog.dscpl.com.au/2015/05/performance-monitoring-of-real-wsgi.html)
+
+很有趣, 对 WSGI 的流量进行精确测量!
+
 dscpl.com.au
+
 Shared by @myusuf3
  
 
-- [Let's modernize the way we handle frontend code with Django](http://owaislone.org/blog/modern-frontends-with-django/)
-This articles departs from how most of handle static files in our Python web apps. Interesting thoughts here.
+- [现代化处置 Django 中的前端资源](http://owaislone.org/blog/modern-frontends-with-django/)
+
+如何处理 Django 应用中大量的静态文件!?
+本文给出了独特的解决方案.
+
 owaislone.org
+
 Shared by @myusuf3
  
 
-- [Guide For Data Exploration In Python](http://www.analyticsvidhya.com/blog/2015/04/comprehensive-guide-data-exploration-sas-using-python-numpy-scipy-matplotlib-pandas/)
-Very detailed guide to exploring your data with all the top datascience tools like Numpy, Matplotlib and Pandas.
+- [Python 数据探索指南](http://www.analyticsvidhya.com/blog/2015/04/comprehensive-guide-data-exploration-sas-using-python-numpy-scipy-matplotlib-pandas/)
+
+非常详细的描述了如何使用流行的数据分析工具来探索你的数据,
+涉及 Numpy, Matplotlib 和 Pandas.
+
 analyticsvidhya.com
+
 Shared by @mgrouchy
  
 
-- [Open-Sourcing Your Own Python Library 101](https://www.endgame.com/blog/open-sourcing-your-own-python-library-101)
-Want to open source your next Python library? This guide is for you!
+- [私人库开源指南](https://www.endgame.com/blog/open-sourcing-your-own-python-library-101)
+
+想开源你的 Python 库?
+这一指南正是你需要的!
+
 endgame.com
+
 Shared by @mgrouchy
  
 
-- [Basic motion detection and tracking with Python and OpenCV](http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/)
-Awesome article as always from PyImageSearch for basic motion detection with raspberry pi and camera!
+- [Python 和 OpenCV 完成基本运动监测](http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/)
+
+非常赞的文章!
+用 raspberry pi 和 相机,
+完成基础的运动监测.
+
 pyimagesearch.com
+
 Shared by @myusuf3
  
 
-- [PyCon Sweden 2015 videos](https://www.youtube.com/channel/UCH_2cuWzFMyCPvm75lJJ6wg/videos)
-Missed PyCon Sweden, don't miss out any longer, check out the videos!
+- [PyCon Sweden 2015 视频](https://www.youtube.com/channel/UCH_2cuWzFMyCPvm75lJJ6wg/videos)
+
+身不能往,心可复习之!
+
 youtube.com
+
 Shared by @halflings
 
 
@@ -181,9 +251,9 @@ Shared by @halflings
 ## DAMA
 (`大妈私人无责任播报`)
 
-
+嗯哼,5.29 的周刊,不知道怎么的错过了,当成169的内容一路下去,今天整理 171 时,才发觉,追回!
 
 # 是也乎
 
-- 1506?? [Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
+- 150623 [Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
 - 150623 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
