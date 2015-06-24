@@ -24,15 +24,33 @@ Tags: Weekly,Pycoder,Zh
 
 
 ## 新闻
+- [django-webtest寻找项目维护者django-webtest - Maintainers wanted](https://github.com/kmike/django-webtest/issues/36)
+Django Webtest的作者Mikhail Korobov正在寻找继续维护项目的人
+Django Webtest author Mikhail Korobov is looking for maintainers to help take over maintenance of the project. 
+github.com
+Shared by @mgrouchy
+ 
 
+- [Django软件基金会宣布多样性声明 Django Software Foundation announces Diversity Statement](https://www.djangoproject.com/weblog/2015/jun/16/django-software-foundation-announces-diversity-sta/) 
+按PEP8中的"显式由于隐式",点击查看更多详情
+As per PEP8 "Explicit is better than implicit", you can check out the complete diversity statement here.
+djangoproject.com
+Shared by @mgrouchy
+ 
+
+- [EuroPython 2015: 教育峰会 EuroPython 2015: Educational Summit](http://blog.europython.eu/post/121091940532/europython-2015-educational-summit) 
+EuroPython 2015教育峰会已经举办。此次是与树莓派基金会共同主办。点击查看细节。
+The educational summit at EuroPython 2015 has been announced. This is being organized together with the Raspberry Pi Foundation. Click through for all the details. 
+europython.eu
+Shared by @ben_nuttall
 
 ## 讨论
-
+- [为何尽量避免在Python中使用"is" Why you should almost never use “is” in Python](http://www.reddit.com/r/Python/comments/3a2jlj/why_you_should_almost_never_use_is_in_python/) 
+reddit.com
+Shared by @mgrouchy
 
 
 ## 工作
-
-
 - [猎豹广州团队急召](https://github.com/cheetahmobile/CMBM/wiki/BmGzHr)
 
 来自 [猎豹移动 - 全球最大的移动工具开发商](http://www.cmcm.com/zh-cn/cm-backup/) ...
@@ -53,17 +71,118 @@ Tags: Weekly,Pycoder,Zh
 
 
 ## 项目
+- [pex](https://github.com/pantsbuild/pex) 
+生成.pex文件的工具和库
+A library and tool for generating .pex (Python EXecutable) files!
+github.com
+Shared by @myusuf3
+ 
 
+- [gradify](https://github.com/fraser-hemp/gradify) 
+Pretty cool tool, allows you to produce CSS Gradients as placeholders for images. 
+github.com
+Shared by @mgrouchy
+ 
 
+- [highlander](https://github.com/chriscannon/highlander) 
+A Python decorator that helps ensure that a Python Process is running only once. 
+github.com
+Shared by @mgrouchy
+ 
 
+- [valchemist](https://github.com/prahladyeri/valchemist) 
+A Flask web app to seamlessly create sqlalchemy models by dragging/dropping objects in a canvas.
+github.com
+Shared by @mgrouchy
+ 
 
+- [baldr](https://github.com/motet/baldr) 
+An open source flight simulator for aerial drones written entirely in Python.
+github.com
+Shared by @myusuf3
+ 
 
+- [pymc3](https://github.com/pymc-devs/pymc3) 
+A python module for Bayesian statistical modeling and model fitting which focuses on advanced Markov chain Monte Carlo fitting algorithms. 
+github.com
+Shared by @mgrouchy
+ 
+
+- [sparkit-learn](https://github.com/lensacom/sparkit-learn) 
+Sparkit-learn aims to provide scikit-learn functionality and API on PySpark. The main goal of the library is to create an API that stays close to sklearns'.
+github.com
+Shared by @fulibacsi
+ 
+
+- [Postie](https://github.com/itsnauman/Postie) 
+Utility for batch sending emails and text messages
+github.com
+Shared by @itsnauman
+ 
 ## 文章
+- [Beyond Request-Response](http://www.aeracode.org/2015/6/17/beyond-request-response/) 
+Pretty interesting read on proposed change to Django Request-Response cycle.
+aeracode.org
+Shared by @myusuf3
+ 
+- [The Traveling Tesla Salesman](http://mortada.net/drafts/the-traveling-tesla-salesman.html) 
+Looking at the Travelling Salesman Problem where the salesman visits Tesla superchargers. 
+mortada.net
+Shared by @mgrouchy
+ 
 
+- [Python's Web Framework Benchmarks](http://klen.github.io/py-frameworks-bench/) 
+YAPWFB, I know what you are thinking what is Falcon?
+github.io
+Shared by @myusuf3
+ 
 
+- [Pandas Categoricals](http://matthewrocklin.com/blog/work/2015/06/18/Categoricals/) 
+Nice introduction on how to use pandas categoricals for improved speeds.
+matthewrocklin.com
+Shared by @myusuf3
+ 
 
+- [Timezones and Python](https://julien.danjou.info/blog/2015/python-and-timezones) 
+Dealing with timezones can be a nightmare, here are some problems you often encounter and recommendations for dealing with them in your Python application. 
+danjou.info
+Shared by @mgrouchy
+ 
 
+- [Why sys.setdefaultencoding() will break code](https://anonbadger.wordpress.com/2015/06/16/why-sys-setdefaultencoding-will-break-code/) 
+Here is why using sys.setdefaultencoding() in your programs should be avoided.
+wordpress.com
+Shared by @mgrouchy
+ 
 
+- [Cutting Off the Internet, Part I](http://www.coglib.com/~icordasc/blog/2015/06/cutting-off-the-internet-part-i.html) 
+Part 1 of a pretty useful general look at testing Python applications that use Requests, without using the internet. 
+coglib.com
+Shared by @sigmavirus24
+ 
+
+- [Interactive 2D/3D visualizations of Python projects](https://www.quantifiedcode.com/app/code-is-beautiful) 
+Interesting visualizations of Python projects at quantified code. Check them out!
+quantifiedcode.com
+Shared by @cneumann81
+ 
+
+- [Using Python and QGIS for geospatial visualizations ](https://www.airpair.com/python/posts/using-python-and-qgis-for-geospatial-visualization)
+This is a case study presented as a tutorial. It will guide you through obtaining, cleaning, augmenting and visualizing a geospatial dataset.
+airpair.com
+Shared by @elldudley
+ 
+
+- [5 Simple Rules For Building Great Python Packages](http://axialcorps.com/2013/08/29/5-simple-rules-for-building-great-python-packages/) 
+Follow these rules to improve your Python packages. 
+axialcorps.com
+Shared by @mgrouchy
+ 
+
+- [ROC Curves in Python and R](http://blog.yhathq.com/posts/roc-curves.html) 
+yhathq.com
+Shared by @mgrouchy
+ 
 ## DAMA
 (`大妈私人无责任播报`)
 
