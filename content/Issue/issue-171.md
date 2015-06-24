@@ -79,107 +79,123 @@ Shared by @myusuf3
  
 
 - [gradify](https://github.com/fraser-hemp/gradify) 
+超级炫酷的工具，通过生成css来实现图片渐变效果
 Pretty cool tool, allows you to produce CSS Gradients as placeholders for images. 
 github.com
 Shared by @mgrouchy
  
 
-- [highlander](https://github.com/chriscannon/highlander) 
+- [highlander](https://github.com/chriscannon/highlander)
+确保一个python进程只运行一次的Python装饰器
 A Python decorator that helps ensure that a Python Process is running only once. 
 github.com
 Shared by @mgrouchy
  
 
-- [valchemist](https://github.com/prahladyeri/valchemist) 
+- [valchemist](https://github.com/prahladyeri/valchemist)
+通过拖拽canvas中对象来无缝创建sqlalchemy模型的Flask应用
 A Flask web app to seamlessly create sqlalchemy models by dragging/dropping objects in a canvas.
 github.com
 Shared by @mgrouchy
  
 
 - [baldr](https://github.com/motet/baldr) 
+开源的飞行模拟器
 An open source flight simulator for aerial drones written entirely in Python.
 github.com
 Shared by @myusuf3
  
 
 - [pymc3](https://github.com/pymc-devs/pymc3) 
+实现贝叶斯统计建模和先进的马尔可夫链蒙特卡罗拟合算法的Python模块。
 A python module for Bayesian statistical modeling and model fitting which focuses on advanced Markov chain Monte Carlo fitting algorithms. 
 github.com
 Shared by @mgrouchy
  
 
 - [sparkit-learn](https://github.com/lensacom/sparkit-learn) 
+Sparkit-learn旨在提供scikit-lear在PySpark上的功能和API。该库的主要目标是创建一个接近sklearns“的API。
 Sparkit-learn aims to provide scikit-learn functionality and API on PySpark. The main goal of the library is to create an API that stays close to sklearns'.
 github.com
 Shared by @fulibacsi
  
 
 - [Postie](https://github.com/itsnauman/Postie) 
+批量发送邮件和短信的工具
 Utility for batch sending emails and text messages
 github.com
 Shared by @itsnauman
  
 ## 文章
 - [Beyond Request-Response](http://www.aeracode.org/2015/6/17/beyond-request-response/) 
+大胆提出改变Django请求应答模式的趣文
 Pretty interesting read on proposed change to Django Request-Response cycle.
 aeracode.org
 Shared by @myusuf3
  
-- [The Traveling Tesla Salesman](http://mortada.net/drafts/the-traveling-tesla-salesman.html) 
+- [旅行商问题The Traveling Tesla Salesman](http://mortada.net/drafts/the-traveling-tesla-salesman.html) 
 Looking at the Travelling Salesman Problem where the salesman visits Tesla superchargers. 
 mortada.net
 Shared by @mgrouchy
  
 
-- [Python's Web Framework Benchmarks](http://klen.github.io/py-frameworks-bench/) 
+- [Python Web框架压力测试 Python's Web Framework Benchmarks](http://klen.github.io/py-frameworks-bench/) 
+YAPWFB, 我知道你在想Falcon是什么鬼
 YAPWFB, I know what you are thinking what is Falcon?
 github.io
 Shared by @myusuf3
  
 
 - [Pandas Categoricals](http://matthewrocklin.com/blog/work/2015/06/18/Categoricals/) 
+如何使用pandas categoricals来提升速度
 Nice introduction on how to use pandas categoricals for improved speeds.
 matthewrocklin.com
 Shared by @myusuf3
  
 
 - [Timezones and Python](https://julien.danjou.info/blog/2015/python-and-timezones) 
+Python处理常见时区问题的集锦
 Dealing with timezones can be a nightmare, here are some problems you often encounter and recommendations for dealing with them in your Python application. 
 danjou.info
 Shared by @mgrouchy
  
 
-- [Why sys.setdefaultencoding() will break code](https://anonbadger.wordpress.com/2015/06/16/why-sys-setdefaultencoding-will-break-code/) 
+- [为何使用sys.setdefaulting()会破坏你的代码Why sys.setdefaultencoding() will break code](https://anonbadger.wordpress.com/2015/06/16/why-sys-setdefaultencoding-will-break-code/) 
+为什么避免在代码中使用sys.setdefaultencoding()。
 Here is why using sys.setdefaultencoding() in your programs should be avoided.
 wordpress.com
 Shared by @mgrouchy
  
 
-- [Cutting Off the Internet, Part I](http://www.coglib.com/~icordasc/blog/2015/06/cutting-off-the-internet-part-i.html) 
+- [断网,第一部分Cutting Off the Internet, Part I](http://www.coglib.com/~icordasc/blog/2015/06/cutting-off-the-internet-part-i.html) 
+可在离线状态使用请求对Python应用进行测试
 Part 1 of a pretty useful general look at testing Python applications that use Requests, without using the internet. 
 coglib.com
 Shared by @sigmavirus24
  
 
-- [Interactive 2D/3D visualizations of Python projects](https://www.quantifiedcode.com/app/code-is-beautiful) 
+- [可交互2d/3D可视化Python项目 Interactive 2D/3D visualizations of Python projects](https://www.quantifiedcode.com/app/code-is-beautiful)
+Quantified code上的可交互可视化Python项目，快来体验吧！
 Interesting visualizations of Python projects at quantified code. Check them out!
 quantifiedcode.com
 Shared by @cneumann81
  
 
-- [Using Python and QGIS for geospatial visualizations ](https://www.airpair.com/python/posts/using-python-and-qgis-for-geospatial-visualization)
+- [使用Python和QGIS实现地理空间可视化Using Python and QGIS for geospatial visualizations ](https://www.airpair.com/python/posts/using-python-and-qgis-for-geospatial-visualization)
+本教程是一科研案例,它将指引大家如何通过对数据集中的数据收集，过滤，加工来实现数据的可视化
 This is a case study presented as a tutorial. It will guide you through obtaining, cleaning, augmenting and visualizing a geospatial dataset.
 airpair.com
 Shared by @elldudley
  
 
-- [5 Simple Rules For Building Great Python Packages](http://axialcorps.com/2013/08/29/5-simple-rules-for-building-great-python-packages/) 
+- [构建优质Python包的5个简单原则 5 Simple Rules For Building Great Python Packages](http://axialcorps.com/2013/08/29/5-simple-rules-for-building-great-python-packages/) 
+遵循以下规则来提升你的Python包质量吧
 Follow these rules to improve your Python packages. 
 axialcorps.com
 Shared by @mgrouchy
  
 
-- [ROC Curves in Python and R](http://blog.yhathq.com/posts/roc-curves.html) 
+- [Python和R语言当中的ROC曲线 ROC Curves in Python and R](http://blog.yhathq.com/posts/roc-curves.html) 
 yhathq.com
 Shared by @mgrouchy
  
