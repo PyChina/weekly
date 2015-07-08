@@ -154,45 +154,91 @@ Daniel and Tommy 向学生展示 git 的各种奇迹.
 - [pcbre](https://github.com/davidcarne/pcbre)
     - 21 Stars, 3 Fork
 
-An integrated printed circuit board reverse engineering toolkit
+集成印刷电路板逆向工程工具包
 
-- [Toontown-Level-Editor]() - 16 Stars, 8 Fork
-Working version of Disney's Toontown Level Editor, which is found in Panda3D 1.6.2.
 
-- [vial-http]() - 12 Stars, 0 Fork
-Simple http rest tool for vim
+- [Toontown-Level-Editor](https://github.com/JawhnL5/Toontown-Level-Editor)
+    - 16 Stars, 8 Fork
 
-- [django-admin-tools]() - 9 Stars, 1 Fork
-Extends the Django Admin to include a extensible dashboard and navigation menu
+Disney 的 Toontown 关卡编辑器,
+基于 Panda3D 1.6.2
 
-- [es-graphite-shim]() - 8 Stars, 3 Fork
-An ElasticSearch / Graphite shim which translates graphite requests into ElasticSearch data queries for a given mapping
 
-- [rgp]() - 8 Stars, 0 Fork
-RGP provides a simple directed graph database built on top of Redis and utilizes a set of Python classes as its interface. Both vertices and edges can have data and can be queried when traversing the graph.
+- [vial-http](https://github.com/baverman/vial-http)
+    - 12 Stars, 0 Fork
 
-- [pbl]() - 7 Stars, 0 Fork
-a python library for building playlists
+为 vim 准备的 http rest 工具
 
-- [ebook-isbn]() - 7 Stars, 0 Fork
-An eBook tool to extract ISBN or Metadata form eBook and rename them by using ISBN database and Metadata
+- [django-admin-tools](https://github.com/django-admin-tools/django-admin-tools)
+    - 9 Stars, 1 Fork
 
-- [TakeStock]() - 6 Stars, 0 Fork
-This project provides support for the emailing of Stock reports. It scrapes the NASDAQ site for the earnings date and gets stock prices using a web service.
+扩展了 Django 的管理器.
+追加了 扩展面板以及菜单
 
-- [codeofconductlink]() - 6 Stars, 5 Fork
-A software community tracker to highlight projects with a Code of Conduct and underrepresented authors and contributors.
+- [es-graphite-shim](https://github.com/distributed-system-analysis/es-graphite-shim)
+    - 8 Stars, 3 Fork
 
-- [django-dynamic-preferences]() - 4 Stars, 0 Fork
-Dynamic global and instance settings for your django project
+ElasticSearch / Graphite 插件
 
-- [RedditTwitterPoster]() - 2 Stars, 0 Fork
-A python-based script that takes link posts from a subreddit and posts them as embedded media on Twitter
+能将 Graphite 查询转换为 ElasticSearch 映射
 
-- [jwords]() - 1 Stars, 0 Fork
-A small program written in python to help you memorize words.
+- [rgp](https://github.com/emehrkay/rgp)
+    - 8 Stars, 0 Fork
 
-- [markiavelli]() - 1 Stars, 0 Fork
+RGP 在 Redis 基础上提供了简单的向量图数据库.
+发布一组 Py 函式为界面.
+可以基于顶点和边进行查询.
+
+- [pbl](https://github.com/plamere/pbl)
+    - 7 Stars, 0 Fork
+
+构建 playlists 的库.
+
+
+- [ebook-isbn](https://github.com/EugenePig/ebook-isbn)
+    - 7 Stars, 0 Fork
+
+eBook 工具.
+能自动从 ISBN 提取元数据并重命名
+
+
+- [TakeStock](https://github.com/sgerhardt/TakeStock)
+    - 6 Stars, 0 Fork
+
+项目提供股票的邮件报告.
+通过抓取 NASDAQ 网站数据,
+来获取股票价格等信息
+
+
+- [codeofconductlink](https://github.com/emilyhorsman/codeofconductlink)
+    - 6 Stars, 5 Fork
+
+对软件社区进行追踪,自动分析出 成员的代码贡献
+
+(`是也乎:`
+
+嗯哼?! 国内的 [gurudigger](http://gurudigger.com/) 已经折腾了很多年了
+)
+
+- [django-dynamic-preferences](https://github.com/EliotBerriot/django-dynamic-preferences)
+    - 4 Stars, 0 Fork
+
+为 Django 项目进行动态全局/实例配置.
+
+- [RedditTwitterPoster](https://github.com/rbalakit/RedditTwitterPoster)
+    - 2 Stars, 0 Fork
+
+从 reddit 订阅并发布为 twitter 嵌入式消息
+
+
+- [jwords](https://github.com/kungsalman/jwords)
+    - 1 Stars, 0 Fork
+
+小程序,用来辅助单词记忆
+
+- [markiavelli](https://github.com/justincosentino/markiavelli)
+    - 1 Stars, 0 Fork
+
 A Reddit bot that posts to /r/politics using text generated with Markov chains.
 
 # 是也乎
