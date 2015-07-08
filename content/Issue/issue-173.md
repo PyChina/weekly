@@ -24,23 +24,24 @@ Tags: Weekly,Pycoder,Zh
 
 
 ## 新闻
-- [Django安全咨询]()
-It appears that Django's simple_tag decorator for creating custom template tags does not run auto-escaping on its contents.The behaviour for this will be changed in Django 1.9, but in the meantime time to check your code that uses simple_tag to ensure your code isn't vulnerable. 
+- [Django安全咨询](https://www.djangoproject.com/weblog/2015/jun/29/simple_tag-security-advisory/)  
+Django1.9将改变通过simple_tag修饰符来创建自定义模板标签的功能,于此同时将会扫描你的代码是否使用simeple_tag来提升你代码的健壮性
+It appears that Django's simple_tag decorator for creating custom template tags does not run auto-escaping on its contents.The behaviour for this will be changed in Django 1.9, but in the meantime time to check your code that uses simple_tag to ensure your code isn't vulnerable.
 djangoproject.com
 Shared by @mgrouchy
- 
-- [Django开发者社区调研结果]()
-结果在此! 
+
+- [Django开发者社区调研结果](https://docs.google.com/forms/d/1Owv-Y_beohyCm9o2xPamdBnvjreNYoWai3rDloKZxWw/viewanalytics)  
+结果在此!
 The results are in!
 google.com
 Shared by @myusuf3
 
 ## 讨论
-- [当小白站在你身边，搞点啥才能让他们感受到编程的乐趣]()  
+- [当小白站在你身边，搞点啥才能让他们感受到编程的乐趣](https://www.reddit.com/r/Python/comments/3bgjud/you_sit_down_with_your_machine_and_a_person_who/)
 reddit.com
 Shared by @myusuf3
- 
-- [iPython notebook,命令行iPython,你更喜欢哪个？为啥]()  
+
+- [iPython notebook,命令行iPython,你更喜欢哪个？为啥](https://www.reddit.com/r/Python/comments/3be5z2/do_you_prefer_ipython_notebook_over_ipython/)
 Shared by @myusuf3
 
 ## 工作
@@ -64,73 +65,76 @@ Shared by @myusuf3
 
 
 ## 项目
-- [ripozo]()   
-Python实现的快速构建REST,Hypermedia接口的工具  
+- [ripozo](https://github.com/vertical-knowledge/ripozo)
+Python实现的快速构建REST,Hypermedia接口的工具
 A tool for quickly creating REST and Hypermedia APIs in Python!
 github.com
 Shared by @myusuf3
- 
-- [nplusone]()
-针对Python ORM n+1问题的检测库，其中包含对SQLAlchemy, Peewee以及Django ORM  
+
+- [nplusone](https://github.com/jmcarp/nplusone)
+针对Python ORM n+1问题的检测库，支持SQLAlchemy, Peewee以及Django ORM
 This is a library for detecting the n+1 queries problem in Python ORMs, including SQLAlchemy, Peewee, and the Django ORM.
 github.com
 Shared by @myusuf3
- 
-- [autosub]()
-自动为视频文件生成字幕 
-Auto-generated subtitles for any video file 
+
+- [autosub](https://github.com/agermanidis/autosub)
+自动为视频文件生成字幕
+Auto-generated subtitles for any video file
 github.com
 Shared by @mgrouchy
- 
-- [cli-github]()
-命令行版github 
+
+- [cli-github](https://github.com/harshasrinivas/cli-github)
+命令行版github
 Github within the CLI for you console nerds.
 github.com
 Shared by @myusuf3
- 
-- [kerf]() 
+
+- [kerf](https://github.com/kevinlawler/kerf)
+时序数据库,也被认为Linux/OSX/BSD/iOS/Android上的xxxxx数据库.C语言编写，支持Json和SQL
 Kerf is a time-series database. It also boasts being a columnar tick database for Linux/OSX/BSD/iOS/Android. It is written in C and speaks JSON and SQL.
 github.com
 Shared by @mgrouchy
- 
-- [django-webpack-loader]()
+
+- [django-webpack-loader](https://github.com/owais/django-webpack-loader)
+如何设置webpack让你的django项目变得更轻松自在
 Setting up webpack and django for ease and profit!
 github.com
 Shared by @myusuf3
- 
+
 
 ## 文章
-- [用Seaborn让你的Google表单数据可视化]()  
+- [用Seaborn让你的Google表单数据可视化](http://pbpython.com/pandas-google-forms-part2.html)
 上次我们讨论了如何从Google表单获得数据，这次我们将讲述如何用Seaborn来将这些数据可视化
 Last time we discussed gathering data from Google Forms. We will then be taking that data and visualizing it with Seaborn.
 pbpython.com
 Shared by @myusuf3
- 
-- [手势输入]()  
+
+- [手势输入](http://nbviewer.ipython.org/url/norvig.com/ipython/Gesture%20Typing.ipynb)
 Ipython notebook上关于手势输入分析
-Awesome IPython notebook answering some interesting questions about gesture typing! 
+Awesome IPython notebook answering some interesting questions about gesture typing!
 ipython.org
 Shared by @myusuf3
- 
-- [深入浅出Fibonacci]()   
+
+- [深入浅出Fibonacci](http://blog.senko.net/progressive-fibonacci)
 各种Fibonacci实现,哪个最好？点进去看看吧
-Awesome article on calculating Fibonacci for various criterion. 
+Awesome article on calculating Fibonacci for various criterion.
 senko.net
 Shared by @mgrouchy
- 
-- [Introduction to Property Based Testing With Hypothesis ]()  
-Nice introduction on how to use Hypothesis to test your properties in your code base! Helps you find bug you wouldn't have otherwise, maybe. 
+
+- [对装饰器进行基于假设的检测 ](https://medium.com/@MattBachmann/introduction-to-property-based-testing-with-hypothesis-2479e83ffcc7) 
+使用Hypothesis测试你代码中的装饰器，找出你代码角落里的bug
+Nice introduction on how to use Hypothesis to test your properties in your code base! Helps you find bug you wouldn't have otherwise, maybe.
 medium.com
 Shared by @myusuf3
- 
-- [Python descriptors让世界更美好]()  
+
+- [Python descriptors让世界更美好](http://www.smallsurething.com/python-descriptors-made-simple/)
 讲解Python descriptors的好文章
-Informative article on Python descriptors. 
+Informative article on Python descriptors.
 smallsurething.com
 Shared by @mgrouchy
- 
-- [django-slow-tests]()  
-找出你最慢的测试 
+
+- [django-slow-tests](https://github.com/realpython/django-slow-tests)
+找出你最慢的测试
 Locate your slowest tests.
 github.com
 Shared by @myusuf3
@@ -141,4 +145,4 @@ Shared by @myusuf3
 # 是也乎
 
 - 150625 老高/[Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
-- 150623 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.
+- 150623 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.%
