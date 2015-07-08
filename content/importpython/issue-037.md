@@ -1,62 +1,103 @@
-Title: 蠎加载 36
-Slug: importpython-36
-Date: 2015-06-19 14:41
+Title: 蠎加载 37
+Slug: importpython-37
+Date: 2015-06-26 14:41
 Tags: Weekly,ImportPython,Zh
 
 ![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210)
 
 
-- 原文: [Import Python Weekly Newsletter - Issue No 36](http://importpython.com/newsletter/no/36/)
+- 原文: [Import Python Weekly Newsletter - Issue No 37](http://importpython.com/newsletter/no/37/)
 
 
 ## 该读
 ~ 文章, Blog, 教程...
 
-- [TIL there is a way to package whole Python virtualenv in a zip file, it's called PEX and it's been used by Twitter since 2011](http://importpython.com/blog/post/conversation-liza-avramenko-founder-checkio-empire-code-games-python-programmers)
+- [Twitter 从 2011 起就用 PEX 方式将整个儿 Python virtualenv 打到一个 zip 中](https://pex.readthedocs.org/en/latest/index.html)
 
-pex contains the Python packaging and distribution libraries originally available through the twitter commons but since split out into a separate project. The most notable components of pex are the .pex (Python EXecutable) format and the associated pex tool which provide a general purpose Python environment virtualization solution similar in spirit to virtualenv. PEX files have been used by Twitter to deploy Python applications to production since 2011. 
+pex 包括 Python 的包管理和分发,
+原先是 Twitter 内部公用服务,已经开源为独立项目.
+
+核心组件是和 .pex(Python EXecutable) 相关的 PEX 工具.
+提供了类似 virtualenv 的通用虚拟环境.
+
+Twitter 已规模使用了4年!
+
+(`是也乎:`
+
+电影: [WTF is PEX? - YouTube](https://www.youtube.com/watch?v=NmpnGhRwsu0)
+
+嗯哼,就是利用了 Python 内置的 zip 无缝解压能力,
+将一切随时用 PEX 折腾到可命名/可执行/可升级/可部署的 .zip 文档中.
+
+)
+
+- [LOST 演员基本分析 - IPython Notebook](http://nbviewer.ipython.org/github/pmbaumgartner/LOST/blob/master/WE%20HAVE%20TO%20GO%20BACK.ipynb)
+    - ipynb
+
+不禁在想 LOST 演员们的事业发展,现在如何?!
+于是基于 IMDB 数据分析了一下下
 
 
-- [LOST Actors' Basic Analysis - IPython Notebook](http://reinout.vanrees.org/weblog/2015/06/16/djangorecipe-gunicorn.html)
-
-I got to thinking: how have all of the actors fared in their post-LOST careers? I scraped all of this data from IMDB, following this process. 
-
-- [Integrating mod_wsgi-express as a Django admin command.](http://nothingbutsnark.svbtle.com/python-3-support-on-pypi)
+- [mod_wsgi-express 集成为 Django 管理命令](http://blog.dscpl.com.au/2015/04/integrating-modwsgi-express-as-django.html)
 	+ mod_wsgi
-Integrating mod_wsgi-express into the Django site itself so that it can be executed as a Django management command. By integrating mod_wsgi-express in this way it can directly interrogate the Django settings module for your Django project to obtain the information it wants. 
-- [virtualenvwrapper.django 0.4.1
-](http://podcastinit.podbean.com/e/episode-10-brian-granger-and-fernando-perez-of-the-ipython-project-1434193715/)
+
+通过这种集成命令,
+可以直接查询 Django 的模块配置.
+
+- [virtualenvwrapper.django 0.4.1](http://feeds.doughellmann.com/~r/DougHellmann/~3/NTInBNBM7so/virtualenvwrapper-django-0-4-1.html)
 	+ django
-virtualenvwrapper.django is a template plugin for virtualenvwrapper to create new Django projects automatically. When used with mkproject, it installs Django into the new virtualenv then runs django-admin.py to create a new project skeleton. 
-- [Djangocon: Using Python to load-test web apps - Yulia Zozulya](http://podcastinit.podbean.com/e/episode-11-naomi-ceder-lynn-root-and-tracy-osborn-on-diversity-in-the-python-community/)
+
+virtualenvwrapper.django 
+作为模板插件,配合 virtualenvwrapper
+可以高速完成 virtualenv 的环境部署
+
+
+- [Djangocon: 对 web 应用进行负载测试 - Yulia Zozulya](http://reinout.vanrees.org/weblog/2015/06/02/07-load-test.html)
     + testing
-Using python for your load testing is handy. You use the same language that you use for development. You can more easily write small functions to help you. 
+
+其实用 Python 来构建负载测试也很容易的.
 
 
-- [IPython Tips and Tricks](http://www.meetup.com/seattle-python-data-science/events/223183575/)
+- [IPython 技巧](http://blog.endpoint.com/2015/06/ipython-tips-and-tricks.html)
     + ipython
-IPython is an advanced interactive python shell. It is a powerful tool which has many more features. However, here I would like to share some of the cool tricks of IPython. 
+
+IPython 是种魔性交互界面.
+强大到无法想象...
 
 
-- [PyCharm 4.5.3 RC发布](https://github.com/jorisvandenbossche/2015-PyDataParis/)
+
+- [PyCharm 4.5.3 RC 发布](http://feedproxy.google.com/~r/Pycharm/~3/SaURFg9dISo/)
     + pycharm
-今天，我们发布了4.5.3 PyCharm RC漏洞修复更新。发行说明中列出了从以前的PyCharm4.5.2更新所有修补程序。其中最引人注目的是：对一些Django支持的修复，主要涉及新manage.py
-Today we’ve published the PyCharm 4.5.3 RC bug-fix update. The Release notes lists all fixes from the previous PyCharm 4.5.2 update. The most notable among them are: a number of fixes for Django support, mostly related to the new manage.py Continue reading 
 
-- [Django线路图](http://people.duke.edu/~ccc14/sta-663/index.html)
+今天 PyCharm 4.5.3RC发布了漏洞修复更新. 
+发行说明中列出了从以前的PyCharm4.5.2更新所有修补程序. 
+
+其中最引人注目的是:对一些Django支持的修复,主要涉及
+manage.py 的持续读写.
+
+
+- [Django线路图](https://www.djangoproject.com/weblog/2015/jun/25/roadmap/)
     + django
-通过对3000Django开发者的调查和在Django开发者邮件列表讨论，Django团队公布了特性计划列表（根据需要变化）。
-Following over 3,000 responses to the Django Developers Community Survey and a long discussion on the django-developers mailing list, the Django team has adopted the following release schedule (subject to change as needed). 
 
-- [Echo, 一个集成路由的微型框架，1.0版本已发布](https://www.airpair.com/python/posts/using-python-and-qgis-for-geospatial-visualization)
+通过对3000Django开发者的调查和在Django开发者邮件列表讨论,Django团队公布了特性计划列表(根据需要变化). 
+
+
+- [Echo, 一个集成路由的微型框架,1.0版本已发布](http://labstack.com/blog/echo-production-ready/)
     + webframwork
-我们很高兴地宣布EchoV1.0.0已经发布。自从Echo诞生以来，我们已经经历了多次迭代，接受来自世界各地的人们的反馈，解决了Issue并接收pull-request超过100个。
-We are pleased to announce the first production release of Echo v1.0.0. Since Echo’s inception, we have gone through several iterations, embraced feedback from people around the world and closed over 100 issues and pull-requests. 
 
+Echo 高兴地宣布 V1.0.0 发布. 自从Echo诞生以来,我们已经经历了多次迭代,接受来自世界各地的人们的反馈,解决了Issue并接收pull-request超过100个. 
 
-- [扩展Django - 80亿页面浏览量| Disqus:官方博客]()
+(`是也乎:`
+
+又一个框架轮子
+)
+
+- [扩展Django - 80亿页面浏览量| Disqus:官方博客](http://blog.disqus.com/post/62187806135/scaling-django-to-8-billion-page-views)
     + django
-As we’re approaching 8 billion page views per month and 45k requests per second, we’ve learned a couple things about delivering comments to a lot of different people. Disqus is very well known for using Django for almost all of our web traffic, and that continues to be a thing today. 
+
+每月请求已近 80亿, 45K/秒.
+我们坚持使用 Django.
+当然也学到了更多技巧.
 
 
 ### 工作
@@ -84,25 +125,35 @@ As we’re approaching 8 billion page views per month and 45k requests per secon
 ## 项目
 ~ 包/模块/库/片段...
 
-- [telebot]()
-- 95 Stars, 16 Fork
-Telegram机器人，可使用GoogleAppEngine快速安装
-Telegram Bot starter kit. Very easy to install with Google App Engine.
+- [telebot](https://github.com/yukuku/telebot)
+    - 95 Stars, 16 Fork
 
-- [2015-06-22-s2i2-git]()
-- 35 Stars, 8 Fork
-This is a project for s2i2 teaching git. This was a sample repo from Daniel and Tommy to show the students the wonder of git. Really, github should be paying us.
+Telegram机器人,可使用GoogleAppEngine快速安装
 
-- [shadertoy-render]()
-- 27 Stars, 0 Fork
-Render a ShaderToy script directly to a video file.
 
-- [engarde]()
-- 22 Stars, 1 Fork
-A library for defensive data analysis.
+- [2015-06-22-s2i2-git](https://github.com/chendaniely/2015-06-22-s2i2-git)
+    - 35 Stars, 8 Fork
 
-- [pcbre]()
-- 21 Stars, 3 Fork
+s2i2 的 git 教学项目.
+Daniel and Tommy 向学生展示 git 的各种奇迹.
+
+如此酷炫,以至 github 应该付费给我们.
+
+
+- [shadertoy-render](https://github.com/alexjc/shadertoy-render)
+    - 27 Stars, 0 Fork
+
+用 ShaderToy 直接渲染成视频
+
+- [engarde](https://github.com/TomAugspurger/engarde)
+    - 22 Stars, 1 Fork
+
+防守数据分析库.
+
+
+- [pcbre](https://github.com/davidcarne/pcbre)
+    - 21 Stars, 3 Fork
+
 An integrated printed circuit board reverse engineering toolkit
 
 - [Toontown-Level-Editor]() - 16 Stars, 8 Fork
@@ -146,5 +197,5 @@ A Reddit bot that posts to /r/politics using text generated with Markov chains.
 
 # 是也乎
 
-- 150624 老高/[Zoom.Quiet](http://zoomquiet.io) 联合完成
-- 150619 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
+- 1507?? 老高/[Zoom.Quiet](http://zoomquiet.io) 联合完成
+- 150704 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
