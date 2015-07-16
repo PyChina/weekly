@@ -243,5 +243,5 @@ A Reddit bot that posts to /r/politics using text generated with Markov chains.
 
 # 是也乎
 
-- 1507?? 老高/[Zoom.Quiet](http://zoomquiet.io) 联合完成
+- 150708 老高/[Zoom.Quiet](http://zoomquiet.io) 联合完成
 - 150704 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.

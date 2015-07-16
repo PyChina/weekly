@@ -5,7 +5,8 @@ from fabric.api import env, lcd, local, task
 
 # Local path configuration (can be absolute or relative to fabfile)
 env.input_path = 'content'
-env.deploy_path = 'output'
+env.deploy_pages = 'pages'
+env.deploy_7niu = '7niu'
 env.qiniu_bin = '/opt/bin/7niu_package_darwin_amd64/qrsync'
 env.qiniu_conf = '../7niu4pychina.json'
 
@@ -22,39 +23,24 @@ def cd_app_root(func):
 @task
 @cd_app_root
 def pub7niu():
-    build()
+    build7niu()
     local('pwd && '
         '{qiniu_bin} {qiniu_conf} && '
         'date '.format(**env)
     )
-
 @task
 @cd_app_root
-def build():
+def build7niu():
     local(
-        'pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env)
+        'pelican {input_path} -o {deploy_7niu} -s pelicanconf.py'.format(**env)
     )
-
-
-@task
-@cd_app_root
-def serve():
-    local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
-
-
-@task
-@cd_app_root
-def reserve():
-    build()
-    serve()
-
 
 @task
 @cd_app_root
 def pub2cafe():
     build()
     local(
-        'cd {deploy_path} && '
+        'cd {deploy_pages} && '
         'pwd && '
         # 'git pu && '
         'git add --all . && '
@@ -64,7 +50,24 @@ def pub2cafe():
         'git pu && '
         'pwd '.format(**env)
     )
+@task
+@cd_app_root
+def build4cafe():
+    local(
+        'pelican {input_path} -o {deploy_pages} -s pelicanconf.py'.format(**env)
+    )
 
+'''
+@task
+@cd_app_root
+def serve():
+    local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
+@task
+@cd_app_root
+def reserve():
+    build()
+    serve()
+'''
 
 
 @task
@@ -75,5 +78,3 @@ def install_deps():
         'Markdown '
         'pelican'
     )
-
-
