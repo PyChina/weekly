@@ -183,7 +183,16 @@ Shared by @mgrouchy
 Fun! An implementation of DeepDream but for videos.
 github.com
 Shared by @myusuf3
- 
+
+
+(`是也乎:`
+
+![深梦demo](https://camo.githubusercontent.com/dcf15823a576975a5bd2d1af1696a25a07b7e6aa/687474703a2f2f6d656469612e67697068792e636f6d2f6d656469612f6c34316c537a6a5473474a63497a704b672f67697068792e676966)
+
+
+嗯哼,就是在同一画面中尽可能的嵌入更多的意向,,,
+
+) 
 
 - [django-q](https://github.com/Koed00/django-q)
 A multiprocessing task queue for Django.
