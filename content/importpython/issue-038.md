@@ -214,5 +214,5 @@ Yahoo_finance api
 
 # 是也乎
 
-- 1507?? 老高/[Zoom.Quiet](http://zoomquiet.io) 联合完成
+- 150717 [Zoom.Quiet](http://zoomquiet.io) 联合完成
 - 150707 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
