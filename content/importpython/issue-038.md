@@ -14,52 +14,102 @@ Tags: Weekly,ImportPython,Zh
 ## 该读
 ~ 文章, Blog, 教程...
 
-- [Build a better batching UI with Morepath and Jinja2](http://blog.startifact.com/posts/morepath-batching-example.html)
+- [用 Morepath + Jinja2 构建更好的用户界面](http://blog.startifact.com/posts/morepath-batching-example.html)
     - web framework
-Morepath is a Python web micro framework with some very interesting capabilities. What we'll look at today is what you can do with Morepath's link generation in a server-driven web application. While Morepath is an excellent fit to create REST APIs, it also works well server applications. So let's look at how Morepath can help you to create a batching UI.
 
-- [pip -t: A simple and transparent alternative to virtualenv](http://blog.zoomeranalytics.com/pip-install-t/)
+Morepath 是又一个 Python web 框架,
+虽然 Morepath 非常适合打造 REST API,
+其实也是很好的服务应用平台.
+这里来展示如何基于 Morepath 创建批处理 UI.
+
+
+
+- [pip -t: 对 virtualenv 的简洁替代](http://blog.zoomeranalytics.com/pip-install-t/)
     - pip
-Often, virtualenv is overkill for the basic task of installing project dependencies and keeping them isolated. We present a simple alternative.
 
-- [Proxying to a Python web application running in Docker.](http://blog.dscpl.com.au/2015/06/proxying-to-python-web-application.html)
+通常 virtualenv 是唯一的隔离不同 Python 项目环境依赖的方案.
+现在有种神奇的替代方案.
+
+(`是也乎:`
+
+目测受 node_model 启发.
+
+)
+
+- [代理在 Docker 中运行的 Python web 应用.](http://blog.dscpl.com.au/2015/06/proxying-to-python-web-application.html)
     - docker
-I have seen a few questions of late being posed about how to setup Apache to proxy to a Python web application running in a Docker container. The questions seem to be the result of people who have in the past previously run Apache/mod_wsgi on the host, with potentially multiple Python web applications, now making use of Docker to break out the individual web applications into separate containers.
 
-- [Python 101: Episode #7 – Exception Handling](http://feedproxy.google.com/~r/TheMouseVsThePython/~3/V8q86BPZaOs/)
+俺见过几个问题,都引发自在 Docker 运行的 Python web 应用,
+用 Apache 难以合理代理.
+
+其实,这都是以往在主机上习惯用 Apache/mod_wsgi 进行发布的结果.
+其实,现在用 Docker 已经打破了,传统的部署思路.
+改进了!
+
+- [Python 101: 节目 #7 – 异常捕获](http://feedproxy.google.com/~r/TheMouseVsThePython/~3/V8q86BPZaOs/)
     - core python, video
-I recently recorded the next episode of Python 101. This one is on Exception Handling. I hope you like it.
 
-- [Testing Django applications using Hypothesis](https://skillsmatter.com/skillscasts/6475-testing-django-applications-using-hypothesis)
+最新节目,介绍异常处理,希望大家喜欢.
+
+- [用 Hypothesis 测试 Django 应用](https://skillsmatter.com/skillscasts/6475-testing-django-applications-using-hypothesis)
     - django, testing
-David MacIver will be discussing testing Django applications using Hypothesis.
 
-- [Installing a custom Python version into a Docker image.](http://blog.dscpl.com.au/2015/06/installing-custom-python-version-into.html)
+David MacIver 
+讨论如何用 Hypothesis 测试 Django 应用的
+ 
+
+- [在 Docker 镜像中安装定制版本的 Python.](http://blog.dscpl.com.au/2015/06/installing-custom-python-version-into.html)
     - core python
-It is a growing problem with Linux distributions that many packages they ship quickly become out of date, and due to the policies of how the Linux distributions are managed, the packages do not get updates. The only hope for getting a newer version of a package is to wait for the next version of the Linux distribution and hope that they include the version of the package you do want.
 
-- [Your Django Story: Meet Iulia Chiriac](http://blog.djangogirls.org/post/122760203063)
-Iulia is a full-stack web developer and open-source enthusiast. She’s been working with Python for the last three years (and loving every minute of it), but before that she tried a series of other languages and technologies, including C/C++, C#, PHP and Java. Iulia currently work as a web developer for the Romanian company Eau de Web (http://www.eaudeweb.ro), based in Bucharest.
+对于 Linux 发行版本,内置的软件很快就会过时,
+这个问题日益严重.
+基于 Linux 的包管理策略,除非发行商,升级版本,否则,
+我们无法通过包安装到最新版本软件.
 
-- [Django Security advisory: simple_tag does not do auto-escaping](https://www.djangoproject.com/weblog/2015/jun/29/simple_tag-security-advisory/)
+必须解决了!
+
+- [Django 故事: Iulia Chiriac](http://blog.djangogirls.org/post/122760203063)
+
+Iulia 是位全桟式 web 工程师,
+以及开源爱好者.
+过去三年中每一分钟都沉浸在 Python 中.
+
+之前,当然也体验过很多语言,包含 C/C++/C#/PHP 和 JAVA .
+目前,就职于 总部在 Bucharest 的罗马尼亚公司 Eau de Web (http://www.eaudeweb.ro)
+
+- [Django 安全顾问: simple_tag 不能 auto-escaping](https://www.djangoproject.com/weblog/2015/jun/29/simple_tag-security-advisory/)
     - django
-As per our documentation, the simple_tag decorator used for creating custom template tags does not run auto-escaping on its contents (up to and including Django 1.8). The team has noticed, however, that this makes it very easy to introduce XSS vulnerabilities when using simple_tag, and we have found examples of vulnerable code in the wild.
 
-- [Learning resource at Intermediate to Advanced level. Experiences and Recommendations.](http://www.reddit.com/r/Python/comments/3bcfba/learning_resource_at_intermediate_to_advanced/)
+文档中曰过,用以创建自定义模板的 simple_tag
+修饰器,不能自动对其内容进行转义(Django 1.8).
+这使得非常容易被 XSS 攻击.
+具体示例链接中.
+
+- [Python 学习中不同层次的经验和建议.](http://www.reddit.com/r/Python/comments/3bcfba/learning_resource_at_intermediate_to_advanced/)
     - core python
-Discussion on reddit. Worth reading and participating in.
 
-- [Use pylint and flask without spurious errors](https://github.com/jschaf/pylint-flask)
+reddit 热议中,值得关注.
+
+- [用 pylint 和 flask 远离错误](https://github.com/jschaf/pylint-flask)
     - flask
-pylint-flask is Pylint plugin for improving code analysis when editing code using Flask. Inspired by pylint-django.
 
-- [EuroPython 2015: Call for On-site Volunteers](http://blog.europython.eu/post/122845271022)
+pylint-flask 是 Pylint 插件,
+专注针对 Flask 应用进行分析,
+基于 pylint-django 的启发.
+
+
+- [EuroPython 2015: 网站义工召集](http://blog.europython.eu/post/122845271022)
     - community
-EuroPython is organized and run by volunteers from the Python community, but we’re only a few and we will need more help to make the conference run smoothly.
 
-- [Python descriptors made simple](http://www.smallsurething.com/python-descriptors-made-simple/)
+EuroPython 也是由社区志愿者组织和运行的,
+当然只需要少数给力的志愿者,所以,来吧!
+
+- [令 Python 描述简单](http://www.smallsurething.com/python-descriptors-made-simple/)
     - core python
-Descriptors, introduced in Python 2.2, provide a way to add managed attributes to objects. They are not used much in everyday programming, but it’s important to learn them to understand a lot of the “magic” that happens in the standard library and third-party packages. 
+
+在 Python 2.2 引入了全新的对象属性管理方法,
+以便在内置库和第三方库之间,
+减少 `魔法` 情况出没.
 
 
 
@@ -91,19 +141,33 @@ Descriptors, introduced in Python 2.2, provide a way to add managed attributes t
 
 - [cnn-vis](https://github.com/jcjohnson/cnn-vis)
     - 180 Stars, 18 Fork
-Inspired by Google's recent Inceptionism blog post, cnn-vis is an open-source tool that lets you use convolutional neural networks to generate images.
+
+受到谷歌最近 Inceptionism 
+博客文章的启发,
+
+cnn-vis 作为开源工具, 协助我们用 卷积神经网络来生成图像
+
+![cnn-vis](https://camo.githubusercontent.com/2c76373d72fa266e8a4c614e4b301c48cf1c10b0/687474703a2f2f63732e7374616e666f72642e6564752f70656f706c652f6a636a6f686e732f636e6e2d7669732d6578616d706c65732f6578616d706c6531322e706e67)
 
 - [autosub](https://github.com/agermanidis/autosub)
     - 72 Stars, 4 Fork
-Auto-generated subtitles for any video file
+
+为任意视频自动生成字幕文件
+
+(`是也乎:`
+
+喂! 字幕组怎么办!
+)
 
 - [cli-github](https://github.com/harshasrinivas/cli-github)
     - 71 Stars, 9 Fork
-Github within the CLI :computer:
+
+github 的 CLI 版本
 
 - [ascii_py](https://github.com/ProfOak/ascii_py)
     - 20 Stars, 0 Fork
-Make some ascii arts
+
+ASCII 艺术创造工具
 
 (`是也乎:`
 
@@ -117,19 +181,28 @@ Make some ascii arts
 
 - [django-rest-framework-braces](https://github.com/dealertrack/django-rest-framework-braces)
     - 13 Stars, 0 Fork
-Collection of utilities for working with django rest framework (DRF)
+
+DRF(Django REST 框架) 实用工具集锦
 
 - [geog](https://github.com/jwass/geog)
     - 10 Stars, 0 Fork
-Quick and easy geographical functions in Python
+
+在 Python 中快速搞掂地理功能
 
 - [scli](https://github.com/davecarpie/scli)
     - 7 Stars, 0 Fork
-A selectable, scrollable list interface for terminal applications built using curses
+
+用 curses 构建的可选择/滚动的终端列表!
+
+![scli](https://camo.githubusercontent.com/73a473a0193f8110b1e5fd53a126255c2a984527/687474703a2f2f692e696d6775722e636f6d2f504569335139382e706e67)
 
 - [Stock_advisor](https://github.com/robbiebarrat/Stock_advisor)
     - 3 Stars, 0 Fork
-This program uses the Yahoo_finance api for python to get basic stock info for a company the user inputs, and then looks at how the company's stock has been doing to give the user advice on whether they should buy some of that company or not. 
+
+基于
+Yahoo_finance api 
+获得公司股票基本信息,
+然后综合给出购买建议.
 
 ## DAMA 无责任推荐
 

@@ -92,19 +92,30 @@ In this part of the TaskBuster Django Tutorial, we’ll talk about International
 
 - [Animator5D](https://github.com/bencbartlett/Animator5D)
     - 55 Stars, 4 Fork
-Very simple-to-use framework for rendering 5-dimensional animations (x, y, z, time, some color value) as an animated gif. This requires ImageMagick to combine the frames, but you can still render them without having it installed and just combine them with some online gif maker.
+
+非常易用的 5维 gif 动画生成器
+(X,Y,Z,时间,颜色).
+
+依赖 ImageMagick 和框架的结合.
+
 
 - [rpforest](https://github.com/lyst/rpforest)
     - 27 Stars, 6 Fork
-It is a forest of random projection trees
+
+生成随机森林投影
+
+![rpforest](https://github.com/lyst/rpforest/raw/master/rpforest.jpg)
 
 - [Salary-API](https://github.com/narenaryan/Salary-API)
     - 11 Stars, 4 Fork
-Chicago city employees Salary API built in one hour with Python and Flask under 35 lines of code
+
+芝加哥市职工工资API,
+用 Python 基于 Flask 仅一小时内完成.
 
 - [technetium](https://github.com/DrkSephy/technetium)
     - 11 Stars, 2 Fork
-Bitbucket Centralized Issue Tracker and Report Generation
+
+Bitbucket Centralized 的提案追踪和报告生成器
 
 (`是也乎:`
 
@@ -113,32 +124,46 @@ K.K 发明的 `科技元素` 终于被抢先用上了
 
 - [sempervirens](https://github.com/njsmith/sempervirens)
     - 10 Stars, 4 Fork
-An experimental prototype for gathering anonymous, opt-in usage data for open scientific software
+
+为开放数据科学, 收集实验性质数据的工具
 
 - [screenshot.py](https://github.com/jabbalaci/screenshot.py)
     - 10 Stars, 0 Fork
-Taking a screenshot of a webpage.
+
+抓网页为截屏
+
 
 - [pyprice](https://github.com/Parkayun/pyprice)
     - 8 Stars, 0 Fork
-stock price index wrapper.
+
+股票价格指数的包装
+
 
 - [data-analytics-course](https://github.com/captainsafia/data-analytics-course)
     - 6 Stars, 1 Fork
-A repository for data analytics with the Python stack
+
+用 Python 桟来进行数据分析的仓库
 
 - [csv2tex](https://github.com/mithodin/csv2tex)
     - 6 Stars, 1 Fork
-Convert your data files to LaTeX tabular
+
+将 csv 数据变成 LaTeX 表格, WoW!
+
 
 - [sympy-pycon](https://github.com/aktech/sympy-pycon)
     - 5 Stars, 3 Fork
-PyCon India - SymPy Presentation
+
+PyCon 印度 - SymPy 幻灯
 
 - [pireal](https://github.com/centaurialpha/pireal)
     - 5 Stars, 0 Fork
-Educational tool for working with relational algebra 
 
+关系代数的教育工具
+
+(`是也乎:`
+
+![pireal logo](https://github.com/centaurialpha/pireal/raw/master/src/images/pireal_banner.png)
+)
 
 
 ## DAMA 无责任推荐
