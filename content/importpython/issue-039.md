@@ -9,7 +9,6 @@ Tags: Weekly,ImportPython,Zh
 - 原文: [Import Python Weekly Newsletter - Issue No 39](http://importpython.com/newsletter/no/39/)
 
 
-**翻译ing...**
 
 ## 该读
 ~ 文章, Blog, 教程...
