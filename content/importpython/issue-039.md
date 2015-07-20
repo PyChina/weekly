@@ -72,40 +72,83 @@ Raspberry Pi
 )
 
 
-- [Searching for Approximate Nearest Neighbours](http://developers.lyst.com/2015/07/10/ann/)
+- [搜索 Approximate 最近邻居](http://developers.lyst.com/2015/07/10/ann/)
     - machine learning    
 
-The essence of approximate nearest neighbour search consists in roughly dividing the search space into a number of buckets that contain points that are close to each other, and then only looking within a given bucket when performing a search. This gives us speed (we only have to scan the contents of a given bucket) at the expense of accuracy (it's possible for a point's nearest neighbours to lie in a different bucket).
+最近邻居算法有很多,
+最常见的是先分离空间为多个"桶",
+然后在内进一步评估.
+这令计算速度是以精确度为代价的...
 
-- [Getting started with Celery and Redis](http://agiliq.com/blog/2015/07/getting-started-with-celery-and-redis/)
+细节链接中.
+
+- [芹菜和 Redis 使用入门](http://agiliq.com/blog/2015/07/getting-started-with-celery-and-redis/)
     - redis, celery
-This Article focuses on When to use Celery? Why to use Celery ?. A simple celery program. Having a slow script and making it faster using celery. Celery configuration and code in different files. Using celery with tasks spanned across multiple modules. Using celery with a package. Redis and celery on separate machine. Web-application/script and celery on separate machines.
 
-- [Decorator for defining functions with keyword-only arguments (Python)](http://code.activestate.com/recipes/579079-decorator-for-defining-functions-with-keyword-only/)
+文章论及何时应该用芹菜?为什么要用?...
+
+芹菜是 Python 世界著名的分布式计算框架,
+一个原先缓慢的脚本,进入 芹菜 后能获得速度量级的提升!
+芹菜又天然支持多种后端, Redis 是其中最简洁的一种.
+如何配置 Redis 在不同的机器中, 通过 芹菜良好的协同起来?
+
+细节链接中.
+
+
+- [唯一键函式修饰符 (Python)](http://code.activestate.com/recipes/579079-decorator-for-defining-functions-with-keyword-only/)
     - core python
-Python2.x implementation of python3's keyword-only arguments (aka arguments that must be specified as keywords, and are not automatically filled in by positional arguments - see PEP 3102).
 
-- [Episode #16 Python at Netflix - [Talk Python To Me Podcast]](http://www.talkpythontome.com/episodes/show/16/python-at-netflix)
-Podcast by the folks a talkpythontome
+Python2.x 实施 python3's keyword-only arguments 
+(即, 必须指定关键字,不受位置影响 - 参考 PEP 3102).
 
-- [Elliott's Dev Blog: Azure AD in Django with Python Social Auth](http://www.elliottmiller.me/2015/06/azure-ad-in-django-with-python-social.html)
-    - django
-Azure Active Directory (AAD) support was recently added to the Python-Social-Auth library. I was really impressed by how easy it was to get Azure Authentication up and running in a Django application. I'd like to call out this blog post for its very good introduction to using Python-Social-Auth in a Django App, and it made my exploration of this library a lot easier.
-
-- [Episode 15 - Damien George Talks To Us About MicroPython](http://podcastinit.podbean.com/e/episode-15-damien-george-talks-to-us-about-micropython/)
+- [节目 15 - Damien George 曰 MicroPython](http://podcastinit.podbean.com/e/episode-15-damien-george-talks-to-us-about-micropython/)
     - podcast
-Podcast with Damien on MicroPython. Python Interpreter running on micro-controller. Look Ma, No OS.
 
-- [Scientific computing in Python](http://feedproxy.google.com/~r/TheEndeavour/~3/ioZwJmNKjaM/)
-Scientific computing in Python is expanding and maturing rapidly. Last week at the SciPy 2015 conference there were about twice as many people as when I’d last gone to the conference in 2013. You can get some idea of the rapid develop of the scientific Python stack and its future direction by watching the final keynote of the conference by Jake VanderPlas.
+不依赖 OS 的微型 Python 控制器.
 
-- [Sane Password Strength Validation for Django with zxcvbn | scot hacker's foobar blog](http://birdhouse.org/blog/2015/06/16/sane-password-strength-validation-for-django-with-zxcvbn/)
+- [节目 #16 Python 在 Netflix - [播客:跟俺说 Python]](http://www.talkpythontome.com/episodes/show/16/python-at-netflix)
+
+
+- [Elliott 开发 Blog: Azure AD 在 Django 社会化验证](http://www.elliottmiller.me/2015/06/azure-ad-in-django-with-python-social.html)
     - django
-A while back, Dropbox released a very smart password validation library called zxcvbn (check the bottom left row of your keyboard) which measures strength as “entropy,” rather than as a function of adherence to a particular set of rules. Running zxcvbn on the backend eliminates the dictionary size problem, but introduces a new one: You want to be able to preserve back-end field validation but still provide real-time feedback in the client. I’ve put together a kit for Django that satisfies both goals (yes there are other Django implementations for zxcvbn but none of them worked quite how I wanted).
 
-- [Django Tutorial | Internationalization & Localization](http://www.marinamele.com/taskbuster-django-tutorial/internationalization-localization-languages-time-zones)
+Azure Active Directory (AAD) 
+已进入 Python-Social-Auth 库.
+将其结合到 Django 应用中, 出乎意料的轻松!
+这篇文章比库文档更加直白的说明了整个儿过程.
+
+
+- [Python 中的科学计算](http://feedproxy.google.com/~r/TheEndeavour/~3/ioZwJmNKjaM/)
+
+科学计算在 Python 中迅速成熟中!
+
+上周在 SciPy 2015 大会,比去年增长了两倍!
+笔者连续参加了三年, 
+Jake VanderPlas 的演讲, 深刻的揭示了,
+科学计算能力桟在 Python 世界的发展.
+
+
+- [用 zxcvbn 进行 Django 的口令强度检验 | scot hacker's foobar blog](http://birdhouse.org/blog/2015/06/16/sane-password-strength-validation-for-django-with-zxcvbn/)
+    - django
+
+Dropbox 刚刚发布了非常智能的口令强度检验库: zxcvbn
+(check the bottom left row of your keyboard)
+
+在后台运行的 zxcvbn 消除了字典的依赖,
+而是引入了全部的概念:
+保持后端检验的同时,确保前端的及时响应.
+
+作者将具包装为了 Django 工具包,
+同时满足以上两种期待.
+
+(当然,必须的,有其它 zxcvbn 实现,只是还没看到过.)
+
+- [Django 教程| i18N 和 L10N ](http://www.marinamele.com/taskbuster-django-tutorial/internationalization-localization-languages-time-zones)
     + django
-In this part of the TaskBuster Django Tutorial, we’ll talk about Internationalization, Localization and Time Zones. We will define two different languages for our website, create urls specific for each of them, and make our website to support these two languages. Moreover, we’ll talk about the time zone and how we can show the local time on a template. 
+
+讨论国际化和本地化以及时区,
+展示如何为我们的网站创建针对每个人的网址/语言界面.
+以及如何根据时区显示本地时间的模板.
 
 
 ### 工作
