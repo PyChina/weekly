@@ -15,23 +15,66 @@ Tags: Weekly,ImportPython,Zh
 ~ 文章, Blog, 教程...
 
 
-- [Get started with functional programming in Python - Free Book from Orielly](http://feedproxy.google.com/~r/oreilly/radar/atom/~3/dPL7jUJwgss/get-started-with-functional-programming-in-python.html)
+- [Orielly 免费书 - 开始用 Python 进行函式编程](http://feedproxy.google.com/~r/oreilly/radar/atom/~3/dPL7jUJwgss/get-started-with-functional-programming-in-python.html)
     + book review
-Functional Programming in Python provides readers with an excellent introduction to how to write Python in a more functional style, and when doing so make projects easier to create and maintain. Did we mention it's FREE.
 
-- [Python 3.5 Promises New Syntax Features](http://www.infoq.com/news/2015/07/Python-35)
+本书为读者展示了如何用函式编程来令项目更加易于创建和维护.
+嗯哼,免费的!
+
+(`是也乎:`
+
+原版可爱的 Python 作者!
+
+国内下载: [eBOOK-2015-07-19.zip](http://zoomq.qiniudn.com/ZQCollection/pdf/eBOOK-2015-07-19.zip)
+)
+
+- [Python 3.5 承诺新语法特性](http://www.infoq.com/news/2015/07/Python-35)
     - core python
-In the article What’s New In Python 3.5 core developer Benjamin Petersen details new syntax features, and new library modules, as well as new built-in features and significantly improved library features.
 
-- [Debugging Python Code on Raspberry Pi with Wing IDE](http://wingware.blogspot.com/2015/07/debugging-python-code-on-raspberry-pi.html)
-The Raspberry Pi is not really capable of running Wing IDE itself, but you can set up Wing IDE on a computer connected to the Raspberry Pi to work on and debug Python code remotely.
+3.5 核心开发者 Benjamin Peterse 曰了,
+新语法特性以及新内建模块,等等,将显著提高库的效能.
 
-- [EuroPython 2015: Guidebook (mobile schedule) available](http://blog.europython.eu/post/124165903022)
+(`是也乎:`
+
+这是向 go 看齐的节奏哪....
+
+)
+
+- [在树莓派上用 Wing IDE 来调试 Python 代码](http://wingware.blogspot.com/2015/07/debugging-python-code-on-raspberry-pi.html)
+
+
+Raspberry Pi 
+并不是真的能跑  Wing IDE,
+但是,通过远程工程的配置,可以连接到远程代码进行调试.
+
+(`是也乎:`
+
+坊间传说,世界上最远的调试是从地球调试月球轨道上的 LISP 应用...
+
+)
+
+
+- [EuroPython 2015: 指南 (移动版) 发布](http://blog.europython.eu/post/124165903022)
     - conference
-Nice Features, Maps of the venue, Full schedule, Create your personal schedule (My Schedule) ,Watch Twitter updates and tweet right in the guidebook, Contact other attendees who have sign in to the guidebook, Useful information (Contacts, CoC, FAQ, City Infos, etc.), Offline use (for the native apps).
+
+大会新功能,
+包含会场地图/完整的时间表/可创建个人日程/订阅 Twitter 标签,
+可登录联络其它参会人员,
+常用信息(联系人,CoC,FAQ,城市信息....)
+而且能脱机使用(原生 app.)
+
+
+(`是也乎:`
+
+自从 Google I/O 2012 提供了大会专用 App. 后,
+这已经成为了技术大会的标准配置了.
+
+)
+
 
 - [Searching for Approximate Nearest Neighbours](http://developers.lyst.com/2015/07/10/ann/)
     - machine learning    
+
 The essence of approximate nearest neighbour search consists in roughly dividing the search space into a number of buckets that contain points that are close to each other, and then only looking within a given bucket when performing a search. This gives us speed (we only have to scan the contents of a given bucket) at the expense of accuracy (it's possible for a point's nearest neighbours to lie in a different bucket).
 
 - [Getting started with Celery and Redis](http://agiliq.com/blog/2015/07/getting-started-with-celery-and-redis/)
@@ -170,5 +213,5 @@ PyCon 印度 - SymPy 幻灯
 
 # 是也乎
 
-- 1507?? 老高/[Zoom.Quiet](http://zoomquiet.io) 联合完成
+- 150720 [Zoom.Quiet](http://zoomquiet.io) 完成快译
 - 150717 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
