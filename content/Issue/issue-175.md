@@ -26,29 +26,32 @@ Lots of articles/projects shared with us this week! Keep them coming, we love se
 
 ## 新闻
 
-- [PyCon Canada 2015 Call for Proposals](https://docs.google.com/forms/d/1AM7NHDsEjRdiW5RHojiZsw-lF0bBfKKnYPS8Tig8yDY/viewform?c=0&w=1)
+- [PyCon Canada 2015报名](https://docs.google.com/forms/d/1AM7NHDsEjRdiW5RHojiZsw-lF0bBfKKnYPS8Tig8yDY/viewform?c=0&w=1)
+PyCon2015加拿大开始接收报名，截止时间，8月14日。快来报名吧！
 Call for Proposals for PyCon Canada 2015 is open now with the deadline of August 14th. Act fast and get your proposals in now!
 google.com
 Shared by @mgrouchy
  
 - [PyTexas 2015](https://www.pytexas.org/2015/)
+PyTexas2015的折扣票在星期日7月19日停止销售
 Registration deadline for Earlybird pricing is this Sunday July 19th!
 pytexas.org
 Shared by @mgrouchy
  
 - [PyCon Ireland 2015](http://python.ie/pycon-2015/)
+python爱尔兰社区宣布PyCon爱尔兰2015将于10月24至25日在都柏林举办，欢迎大家报名和赞助。
 PyCon Ireland 2015 announced! Organized by Python Ireland this conference takes place on the 24th-25th of October, 2015 in Dublin, Ireland. Check out the call for proposals(Deadline July 31st) and call for sponsors
 python.ie
 Shared by @pythonireland
 
 ## 讨论
 
-- [Good Python code bases to read?](https://news.ycombinator.com/item?id=9896369)
+- [什么项目的Python代码值得去学习](https://news.ycombinator.com/item?id=9896369)
 ycombinator.com
 Shared by @mgrouchy
  
 
-- [What does your GUI look like? Post your screenshots](https://www.reddit.com/r/Python/comments/3d9ge9/what_does_your_gui_look_like_post_your_screenshots/)
+- [你的界面是怎样的？请上传截图](https://www.reddit.com/r/Python/comments/3d9ge9/what_does_your_gui_look_like_post_your_screenshots/)
 reddit.com
 Shared by @mgrouchy
 
@@ -126,31 +129,37 @@ Shared by @sigmavirus24
 ## 项目
 
 - [django-spurl](https://github.com/j4mie/django-spurl)
+用于处理URL的Django模板库
 A Django template library for manipulating URLs!
 github.com
 Shared by @myusuf3
  
 - [backtrader](https://github.com/mementum/backtrader)
+Python测试库的交易策略。
 Python Backtesting library for trading strategies.
 github.com
 Shared by @mgrouchy
  
 - [cointrol](https://github.com/jkbrzt/cointrol)
+能显示实时仪表数据的比特币挖矿机器人
 Bitcoin trading bot with a real-time dashboard for Bitstamp.
 github.com
 Shared by @mgrouchy
  
 - [ytfs](https://github.com/rasguanabana/ytfs)
+超级酷!一个能以文件方式对YouTube进行搜索并播放影片的文件系统
 So cool! A File system which enables you to search and play movies from YouTube as files!
 github.com
 Shared by @mgrouchy
  
 - [shortuuid](https://github.com/stochastic-technologies/shortuuid/)
+简单明了的Python库，可以帮你成安全的uuid
 shortuuid is a simple python library that generates concise, unambiguous, URL-safe UUIDs.
 github.com
 Shared by @myusuf3
  
 - [django-location-field](https://github.com/caioariede/django-location-field)
+集成Google Maps的部件和地域定位
 Location field and widget integrated with Google Maps
 github.com
 Shared by @caioariede
