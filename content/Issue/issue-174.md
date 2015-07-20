@@ -27,36 +27,41 @@ Tags: Weekly,Pycoder,Zh
 
 
 - [PyTexas 2015](https://pytexas.org/2015/)
+截止至7月19日，PyTexas2015门票在earlybird上折扣出售。希望大家能够积极参与讨论。如果你的公司愿意赞助本次活动，请联系网站下面菜单栏中的邮件地址。
 PyTexas 2015 Tickets are on sale and are on earlybird discount until July 19th. Call for proposals are open so submit a talk today! If your company wants to sponsor please submit to the sponsorship email on the website under sponsor menu.
 pytexas.org
 Shared by @pytexas
  
 
 - [Mezzanine 4.0 is released](https://groups.google.com/forum/#!topic/mezzanine-users/q8Cu1obn2BA)
+基于Djano的CMS,Mezzanine4.0已经发布了，还等什么！
 Version 4.0 of Mezzanine, a CMS for Django has been released! Check it out!
 google.com
 Shared by @mgrouchy
  
 
-- [Podcast.__init__ - Episode 14 - Allen Downey on Teaching Computer Science with Python](http://podcastinit.podbean.com/e/episode-14-allen-downey-on-teaching-computer-science-with-python/)
-Episode 14 of Podcast.__init__ is out, in this episode Allen Downey is interviewed about teaching computer science with Python.
+- [Podcast.__init__  14课 - Allen Downey讲述计算机科学中的Python](http://podcastinit.podbean.com/e/episode-14-allen-downey-on-teaching-computer-science-with-python/)
+Podcast.__init__ 的14课发布了,本课Allen Downey将为大家讲述计算机科学中的Python
 podbean.com
 Shared by @myusuf3
  
 
-- [Django Security releases issued: 1.8.3, 1.7.9, 1.4.21](https://www.djangoproject.com/weblog/2015/jul/08/security-releases/)
+- [Django1.8.3, 1.7.9,1.4.21都存在安全隐患](https://www.djangoproject.com/weblog/2015/jul/08/security-releases/)
+是时候升级你的Django啦
 Time to update your Django versions!
 djangoproject.com
 Shared by @mgrouchy
  
 
 -[Talk Python to Me Podcast - Episode #15 - Python at Spotify, PSF, and PyLadies](http://www.talkpythontome.com/episodes/show/15/python-at-spotify-psf-and-pyladies)
+我的播客第15集发布了，PSF成员Lynn Root将和我们一起讨论Python在Sportify上的问题
 Episode 15 of Talk Python to Me Podcast is out! In this issue they talk to Lynn Root about Python at Spotify, her role as a board member at the PSF and more!
 talkpythontome.com
 Shared by @mgrouchy
  
 
-- [Python 3.5.0b3 Released!](https://www.python.org/downloads/release/python-350b3/)
+- [Python 3.5.0b3发布!](https://www.python.org/downloads/release/python-350b3/)
+Python 3.5.0b3发布了!快来看看有什么惊喜!
 Beta 3 of Python 3.5.0 has been released, click through for all the changes in Python 3.5.0.
 python.org
 Shared by @myusuf3
@@ -64,12 +69,12 @@ Shared by @myusuf3
 ## 讨论
 
 
-- [Frustrated with the setup of matplotlib](https://www.reddit.com/r/Python/comments/3coawj/frustrated_with_the_setup_of_matplotlib/)
+- [matplotlib安装失败肿么办](https://www.reddit.com/r/Python/comments/3coawj/frustrated_with_the_setup_of_matplotlib/)
 reddit.com
 Shared by @mgrouchy
  
 
-- [How long did it take for you to "get" python?](https://www.reddit.com/r/Python/comments/3c0cm7/how_long_did_it_take_for_you_to_get_python_being/)
+- [掌握Python你花了多久](https://www.reddit.com/r/Python/comments/3c0cm7/how_long_did_it_take_for_you_to_get_python_being/)
     + reddit.com
 Shared by @mgrouchy
 
@@ -98,13 +103,15 @@ Shared by @mgrouchy
 ## 文章
 
 
-- [Background tasks in Python 3.5](http://www.curiousefficiency.org/posts/2015/07/asyncio-background-calls.html)
+- [使用Python 3.5来完成后台任务](http://www.curiousefficiency.org/posts/2015/07/asyncio-background-calls.html)
+本文描述了如何使用Python3.5中的asyncio来异步的处理后台任务
 In this post the author addresses how you would do background tasks in Python 3.5 with asyncio.
 curiousefficiency.org
 Shared by @mgrouchy
  
 
-- [How We Deploy Python Code Without Git](https://nylas.com/blog/packaging-deploying-python)
+- [如何不使用git来部署你的Python代码](https://nylas.com/blog/packaging-deploying-python)
+打包你的Python代码到Debian包中貌似比通过git实现部署要爽的多
 This is great! Package your Python code in Debian Packages for deployment rather than deploying using Git. Check this out!
 nylas.com
 Shared by @mgrouchy
@@ -127,25 +134,28 @@ Debian 死粉的选择! 看起来很美,但是无法通用到其它 OS 中哪,,,
 )
 
 
-- [Find what indentation your files use](http://www.peterbe.com/plog/find-what-indentation-your-files-use)
+- [找出你文件中使用的缩进](http://www.peterbe.com/plog/find-what-indentation-your-files-use)
+识别你文件中代码的缩进方式
 Clever script to find out what kind of indentation your files use.
 peterbe.com
 Shared by @myusuf3
  
 
-- [Asynchronous Tasks with Django and Celery - Real Python](https://realpython.com/blog/python/asynchronous-tasks-with-django-and-celery/)
+- [Real Python-使用Django和celery实现任务的异步执行](https://realpython.com/blog/python/asynchronous-tasks-with-django-and-celery/)
+教你如何使用Celery让你的Django应用异步的去执行任务
 Great guide to get you started with Celery in your Django application for running Asynchronous tasks.
 realpython.com
 Shared by @mjhea0
  
 
-- [Let’s Build A Simple Interpreter. Part 2.](http://ruslanspivak.com/lsbasi-part2/)
+- [然我们一起来编写一个简单的解释器. Part 2.](http://ruslanspivak.com/lsbasi-part2/)
+编写解释器系列第二部分。本系列作者正式"让我们一起编写一个web服务器"系列的作者，他的文章都非常棒！
 Part two of the series on building an interpreter. These articles are great, from the same author who brought you the "Lets build a web server" series of articles.
 ruslanspivak.com
 Shared by @mgrouchy
  
 
-- [Currying explained for Python programmers](http://ayberkt.me/2015/06/23/currying-for-python-programmers/)
+- [告诉Python程序员什么是柯里化](http://ayberkt.me/2015/06/23/currying-for-python-programmers/)
 ayberkt.me
 Shared by @mgrouchy
 
@@ -162,24 +172,28 @@ Shared by @mgrouchy
  
 
 - [Wooey](https://github.com/wooey/Wooey)
+很酷的项目，灵感来源于gooey,提供了一个执行命令行脚本的web接口
 Cool project, inspired by gooey, wooey provides a web interface to run command line scripts.
 github.com
 Shared by @mgrouchy
  
 
 - [ptop](https://github.com/black-perl/ptop)
+Python实现的任务管理器
 A task manager, written in python.
 github.com
 Shared by @myusuf3
  
 
-- [interactive-coding-challenges](https://github.com/donnemartin/interactive-coding-challenges)
+- [交互式编程挑战](https://github.com/donnemartin/interactive-coding-challenges)
+一系列的交互式编码挑战。通常重点是在编码和比赛中发现的算法和数据结构。
 A series of interactive coding challenges. Focuses on algorithms and data structures that are typically found in coding interviews and competitions.
 github.com
 Shared by @mgrouchy
  
 
 - [DeepDreamVideo](https://github.com/graphific/DeepDreamVideo)
+有趣，实现DeepDream的视频
 Fun! An implementation of DeepDream but for videos.
 github.com
 Shared by @myusuf3
@@ -195,12 +209,14 @@ Shared by @myusuf3
 ) 
 
 - [django-q](https://github.com/Koed00/django-q)
+为Django准备的多进程任务队列
 A multiprocessing task queue for Django.
 github.com
 Shared by @mgrouchy
  
 
 - [dusty](https://github.com/gamechanger/dusty)
+基于Docker的开发环境构建工具
 Docker-powered development environments.
 github.com
 Shared by @myusuf3
