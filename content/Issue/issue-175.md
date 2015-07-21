@@ -27,7 +27,7 @@ Lots of articles/projects shared with us this week! Keep them coming, we love se
 ## 新闻
 
 - [PyCon Canada 2015报名](https://docs.google.com/forms/d/1AM7NHDsEjRdiW5RHojiZsw-lF0bBfKKnYPS8Tig8yDY/viewform?c=0&w=1)
-PyCon2015加拿大开始接收报名，截止时间，8月14日。快来报名吧！
+PyCon2015加拿大开始接收报名,截止时间,8月14日. 快来报名吧!
 Call for Proposals for PyCon Canada 2015 is open now with the deadline of August 14th. Act fast and get your proposals in now!
 google.com
 Shared by @mgrouchy
@@ -39,7 +39,7 @@ pytexas.org
 Shared by @mgrouchy
  
 - [PyCon Ireland 2015](http://python.ie/pycon-2015/)
-python爱尔兰社区宣布PyCon爱尔兰2015将于10月24至25日在都柏林举办，欢迎大家报名和赞助。
+python爱尔兰社区宣布PyCon爱尔兰2015将于10月24至25日在都柏林举办,欢迎大家报名和赞助. 
 PyCon Ireland 2015 announced! Organized by Python Ireland this conference takes place on the 24th-25th of October, 2015 in Dublin, Ireland. Check out the call for proposals(Deadline July 31st) and call for sponsors
 python.ie
 Shared by @pythonireland
@@ -51,7 +51,7 @@ ycombinator.com
 Shared by @mgrouchy
  
 
-- [你的界面是怎样的？请上传截图](https://www.reddit.com/r/Python/comments/3d9ge9/what_does_your_gui_look_like_post_your_screenshots/)
+- [你的界面是怎样的?请上传截图](https://www.reddit.com/r/Python/comments/3d9ge9/what_does_your_gui_look_like_post_your_screenshots/)
 reddit.com
 Shared by @mgrouchy
 
@@ -135,7 +135,7 @@ github.com
 Shared by @myusuf3
  
 - [backtrader](https://github.com/mementum/backtrader)
-Python测试库的交易策略。
+Python测试库的交易策略. 
 Python Backtesting library for trading strategies.
 github.com
 Shared by @mgrouchy
@@ -153,7 +153,7 @@ github.com
 Shared by @mgrouchy
  
 - [shortuuid](https://github.com/stochastic-technologies/shortuuid/)
-简单明了的Python库，可以帮你成安全的uuid
+简单明了的Python库,可以帮你成安全的uuid
 shortuuid is a simple python library that generates concise, unambiguous, URL-safe UUIDs.
 github.com
 Shared by @myusuf3
