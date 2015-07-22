@@ -39,7 +39,7 @@ pytexas.org
 Shared by @mgrouchy
  
 - [PyCon Ireland 2015](http://python.ie/pycon-2015/)
-python爱尔兰社区宣布PyCon爱尔兰2015将于10月24至25日在都柏林举办,欢迎大家报名和赞助. 
+Python爱尔兰社区宣布PyCon爱尔兰2015将于10月24至25日在都柏林举办,欢迎大家报名和赞助. 
 PyCon Ireland 2015 announced! Organized by Python Ireland this conference takes place on the 24th-25th of October, 2015 in Dublin, Ireland. Check out the call for proposals(Deadline July 31st) and call for sponsors
 python.ie
 Shared by @pythonireland
@@ -51,7 +51,7 @@ ycombinator.com
 Shared by @mgrouchy
  
 
-- [你的界面是怎样的?请上传截图](https://www.reddit.com/r/Python/comments/3d9ge9/what_does_your_gui_look_like_post_your_screenshots/)
+- [你的界面是怎样的?快上传截图秀一秀](https://www.reddit.com/r/Python/comments/3d9ge9/what_does_your_gui_look_like_post_your_screenshots/)
 reddit.com
 Shared by @mgrouchy
 
@@ -77,52 +77,60 @@ Shared by @mgrouchy
 
 ## 文章
 
-- [Building a Movie Recommendation Service](https://www.codementor.io/spark/tutorial/building-a-recommender-with-apache-spark-python-example-app-part1)
+- [编写一个电影推荐服务](https://www.codementor.io/spark/tutorial/building-a-recommender-with-apache-spark-python-example-app-part1)
+讲述如何使用Apache,Spark,Flask实现一个电影推荐服务的好文章
 Nice article serious on Building a Movie Recommendation service with Apache Spark and Flask. Check out Part 1 and Part 2.
 codementor.io
 Shared by @mgrouchy
  
-- [Random Forest in scikit-learn](http://alexhwoods.com/2015/07/01/random-forest-in-scikit-learn/)
+- [基于scikit-learn实现的随机森林](http://alexhwoods.com/2015/07/01/random-forest-in-scikit-learn/)
+随机森林是一种用于分类、回归分析和特征选择的机器学习技术。本文中,作者展示了如何使用python和scikit-learn来实现这门技术。
 Random Forest is a machine learning technique used for classification, regression, and feature selection. In this article, the author shorts how to implement this in Python using scikit-learn.
 alexhwoods.com
 Shared by @mgrouchy
  
-- [Opbeat talks to Andrew Godwin](https://opbeat.com/blog/posts/opbeat-talks-to-andrew-godwin/)
+- [Andrew Godwin访谈](https://opbeat.com/blog/posts/opbeat-talks-to-andrew-godwin/)
+Andrew Godin,Django核心贡献者&Eventbrite工程师。视频中他讲述了如何在Heroku进行Python开发。
 Great talk/interview with Andrew Godwin, Django Core Contributor & Eventbrite Engineer. In the video he talks about building a Heroku for Python and much more!
 opbeat.com
 Shared by @mgrouchy
  
-- [Want to understand Python's comprehensions? Think like an accountant.](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/)
+- [想理解Python的列表推导式，要学会像会计一样去思考](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/)
+介绍Python列表推导式的好文章，快来升级你的知识储备吧！
 A guide to help understand Python's list comprehensions, check it out to upgrade your knowledge.
 lerner.co.il
 Shared by @mgrouchy
  
 - [Pyxley](http://multithreaded.stitchfix.com/blog/2015/07/16/pyxley/)
+Python实现的面板，功能全面
 Python Powered Dashboards! This is pretty legit!
 stitchfix.com
 Shared by @myusuf3
  
-- [GUI Automation With Python](http://hugo-dc.com/posts/2015-07-14-gui-automation-with-python.html)
-Nice article covering tools for GUI automation!
+- [使用Python实现图形界面自动化](http://hugo-dc.com/posts/2015-07-14-gui-automation-with-python.html)
+有关图形界面自动化的好文章
 hugo-dc.com
 Shared by @myusuf3
  
-- [A Neural Network in 11 lines of Python](http://iamtrask.github.io/2015/07/12/basic-python-network/)
+- [11行代码实现的神经网络](http://iamtrask.github.io/2015/07/12/basic-python-network/)
+基于BP算法实现的简易神经网络
 Super simple neural network trained with back propagation with great write up! Worth.
 github.io
 Shared by @myusuf3
  
-- [7 Python Tools All Data Scientists Should Know How to Use](http://www.galvanize.com/blog/2015/07/14/seven-python-tools-all-data-scientists-should-know-how-to-use/#.VaXlI_mqqkp)
+- [数据科学必知必会的7件Python工具](http://www.galvanize.com/blog/2015/07/14/seven-python-tools-all-data-scientists-should-know-how-to-use/#.VaXlI_mqqkp)
+Buzzeed上关于数据科学的文章，值得一读
 BuzzFeed for Data Science Tools! Good read!
 galvanize.com
 Shared by @myusuf3
  
-- [arrows - Yet another twitter/Python Data Analysis](http://rajk.me/arrows/)
+- [arrows - 又一twitter数据分析工具](http://rajk.me/arrows/)
+基于pandas和maps实现，能对推特上美国大选相关的数据进行实时分析
 Pretty cool analysis of twitter data for the upcoming US election! Completes with pandas and maps!
 rajk.me
 Shared by @myusuf3
  
-- [Moving PEP8 to the PyCQA](http://www.coglib.com/~icordasc/blog/2015/07/moving-pep8-to-the-pycqa.html)
+- [PEP8将迁移至PyCQA](http://www.coglib.com/~icordasc/blog/2015/07/moving-pep8-to-the-pycqa.html)
 coglib.com
 Shared by @sigmavirus24
 
@@ -135,13 +143,13 @@ github.com
 Shared by @myusuf3
  
 - [backtrader](https://github.com/mementum/backtrader)
-Python测试库的交易策略. 
+关于交易策略的Python测试库. 
 Python Backtesting library for trading strategies.
 github.com
 Shared by @mgrouchy
  
 - [cointrol](https://github.com/jkbrzt/cointrol)
-能显示实时仪表数据的比特币挖矿机器人
+能通过仪表方式显示实时数据的比特币挖矿机器人
 Bitcoin trading bot with a real-time dashboard for Bitstamp.
 github.com
 Shared by @mgrouchy
@@ -159,7 +167,7 @@ github.com
 Shared by @myusuf3
  
 - [django-location-field](https://github.com/caioariede/django-location-field)
-集成Google Maps的部件和地域定位
+集成了Google Maps的部件和地域定位功能
 Location field and widget integrated with Google Maps
 github.com
 Shared by @caioariede
