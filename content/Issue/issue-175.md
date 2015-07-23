@@ -13,7 +13,9 @@ Tags: Weekly,Pycoder,Zh
 
 亲,
 
-Lots of articles/projects shared with us this week! Keep them coming, we love seeing what everyone is working on. Enjoy and have a great weekend!
+
+又一堆好文/项目在这周被发掘!
+享受她们吧,学习的周末总是美好的!
 
 大家多分享[文章](http://pycoders.com/submissions/)
 俺们才折腾的出又一周的美好呢.
@@ -27,32 +29,49 @@ Lots of articles/projects shared with us this week! Keep them coming, we love se
 ## 新闻
 
 - [PyCon Canada 2015报名](https://docs.google.com/forms/d/1AM7NHDsEjRdiW5RHojiZsw-lF0bBfKKnYPS8Tig8yDY/viewform?c=0&w=1)
+
 PyCon2015加拿大开始接收报名,截止时间,8月14日. 快来报名吧!
-Call for Proposals for PyCon Canada 2015 is open now with the deadline of August 14th. Act fast and get your proposals in now!
+
 google.com
+
 Shared by @mgrouchy
  
 - [PyTexas 2015](https://www.pytexas.org/2015/)
+
 PyTexas2015的折扣票在星期日7月19日停止销售
-Registration deadline for Earlybird pricing is this Sunday July 19th!
+
 pytexas.org
+
 Shared by @mgrouchy
  
 - [PyCon Ireland 2015](http://python.ie/pycon-2015/)
+
 Python爱尔兰社区宣布PyCon爱尔兰2015将于10月24至25日在都柏林举办,欢迎大家报名和赞助. 
-PyCon Ireland 2015 announced! Organized by Python Ireland this conference takes place on the 24th-25th of October, 2015 in Dublin, Ireland. Check out the call for proposals(Deadline July 31st) and call for sponsors
+
+
 python.ie
+
 Shared by @pythonireland
 
 ## 讨论
 
 - [什么项目的Python代码值得去学习](https://news.ycombinator.com/item?id=9896369)
+
 ycombinator.com
+
 Shared by @mgrouchy
- 
+
+(`是也乎:`
+
+果断有 flask/bottle/request ...
+小而美的基础工具/框架!
+
+)
 
 - [你的界面是怎样的?快上传截图秀一秀](https://www.reddit.com/r/Python/comments/3d9ge9/what_does_your_gui_look_like_post_your_screenshots/)
+
 reddit.com
+
 Shared by @mgrouchy
 
 ## 工作
@@ -78,98 +97,138 @@ Shared by @mgrouchy
 ## 文章
 
 - [编写一个电影推荐服务](https://www.codementor.io/spark/tutorial/building-a-recommender-with-apache-spark-python-example-app-part1)
+
 讲述如何使用Apache,Spark,Flask实现一个电影推荐服务的好文章
-Nice article serious on Building a Movie Recommendation service with Apache Spark and Flask. Check out Part 1 and Part 2.
+
 codementor.io
+
 Shared by @mgrouchy
  
 - [基于scikit-learn实现的随机森林](http://alexhwoods.com/2015/07/01/random-forest-in-scikit-learn/)
-随机森林是一种用于分类、回归分析和特征选择的机器学习技术。本文中,作者展示了如何使用python和scikit-learn来实现这门技术。
-Random Forest is a machine learning technique used for classification, regression, and feature selection. In this article, the author shorts how to implement this in Python using scikit-learn.
+
+随机森林是一种用于分类,回归分析和特征选择的机器学习技术. 本文中,作者展示了如何使用python和scikit-learn来实现这门技术. 
+
 alexhwoods.com
+
 Shared by @mgrouchy
  
 - [Andrew Godwin访谈](https://opbeat.com/blog/posts/opbeat-talks-to-andrew-godwin/)
-Andrew Godin,Django核心贡献者&Eventbrite工程师。视频中他讲述了如何在Heroku进行Python开发。
-Great talk/interview with Andrew Godwin, Django Core Contributor & Eventbrite Engineer. In the video he talks about building a Heroku for Python and much more!
+
+Andrew Godin,Django核心贡献者&Eventbrite工程师. 视频中他讲述了如何在Heroku进行Python开发. 
+
 opbeat.com
+
 Shared by @mgrouchy
  
-- [想理解Python的列表推导式，要学会像会计一样去思考](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/)
-介绍Python列表推导式的好文章，快来升级你的知识储备吧！
-A guide to help understand Python's list comprehensions, check it out to upgrade your knowledge.
+- [理解Python列表推导式:要像会计一样去思考](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/)
+
+介绍Python列表推导式的好文章,快来升级你的知识储备吧!
+
 lerner.co.il
+
 Shared by @mgrouchy
  
 - [Pyxley](http://multithreaded.stitchfix.com/blog/2015/07/16/pyxley/)
-Python实现的面板，功能全面
-Python Powered Dashboards! This is pretty legit!
+
+Python实现的面板,功能全面
+
 stitchfix.com
+
 Shared by @myusuf3
  
 - [使用Python实现图形界面自动化](http://hugo-dc.com/posts/2015-07-14-gui-automation-with-python.html)
+
 有关图形界面自动化的好文章
+
 hugo-dc.com
+
 Shared by @myusuf3
  
 - [11行代码实现的神经网络](http://iamtrask.github.io/2015/07/12/basic-python-network/)
+
 基于BP算法实现的简易神经网络
-Super simple neural network trained with back propagation with great write up! Worth.
+
 github.io
+
 Shared by @myusuf3
  
 - [数据科学必知必会的7件Python工具](http://www.galvanize.com/blog/2015/07/14/seven-python-tools-all-data-scientists-should-know-how-to-use/#.VaXlI_mqqkp)
-Buzzeed上关于数据科学的文章，值得一读
-BuzzFeed for Data Science Tools! Good read!
+
+Buzzeed上关于数据科学的文章,值得一读
+
+
 galvanize.com
+
 Shared by @myusuf3
  
 - [arrows - 又一twitter数据分析工具](http://rajk.me/arrows/)
-基于pandas和maps实现，能对推特上美国大选相关的数据进行实时分析
-Pretty cool analysis of twitter data for the upcoming US election! Completes with pandas and maps!
+
+基于pandas和maps实现,能对推特上美国大选相关的数据进行实时分析
+
 rajk.me
+
 Shared by @myusuf3
  
 - [PEP8将迁移至PyCQA](http://www.coglib.com/~icordasc/blog/2015/07/moving-pep8-to-the-pycqa.html)
+
 coglib.com
+
 Shared by @sigmavirus24
 
 ## 项目
 
 - [django-spurl](https://github.com/j4mie/django-spurl)
+
 用于处理URL的Django模板库
-A Django template library for manipulating URLs!
+
 github.com
+
 Shared by @myusuf3
  
 - [backtrader](https://github.com/mementum/backtrader)
+
 关于交易策略的Python测试库. 
-Python Backtesting library for trading strategies.
+
 github.com
+
 Shared by @mgrouchy
  
 - [cointrol](https://github.com/jkbrzt/cointrol)
+
 能通过仪表方式显示实时数据的比特币挖矿机器人
-Bitcoin trading bot with a real-time dashboard for Bitstamp.
+
 github.com
+
 Shared by @mgrouchy
  
 - [ytfs](https://github.com/rasguanabana/ytfs)
+
 超级酷!一个能以文件方式对YouTube进行搜索并播放影片的文件系统
-So cool! A File system which enables you to search and play movies from YouTube as files!
+
 github.com
+
 Shared by @mgrouchy
  
 - [shortuuid](https://github.com/stochastic-technologies/shortuuid/)
-简单明了的Python库,可以帮你成安全的uuid
-shortuuid is a simple python library that generates concise, unambiguous, URL-safe UUIDs.
+
+简单明了的Python库,可以帮你成 网址安全的短uuid
+
 github.com
+
 Shared by @myusuf3
  
+(`是也乎:`
+
+必须用!
+
+)
+
 - [django-location-field](https://github.com/caioariede/django-location-field)
+
 集成了Google Maps的部件和地域定位功能
-Location field and widget integrated with Google Maps
+
 github.com
+
 Shared by @caioariede
 
 ## DAMA
@@ -177,5 +236,5 @@ Shared by @caioariede
 
 # 是也乎
 
-- 1507?? 老高/[Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
+- 150723 老高/[Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
 - 150720 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.%
