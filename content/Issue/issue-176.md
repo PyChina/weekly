@@ -28,15 +28,15 @@ Tags: Weekly,Pycoder,Zh
 
 ## 新闻
 - [PyCon 2015 China](http://cn.pycon.org/en/)
-
+PyCon2015中国发布!由PyChina.org组织的PyCon2015中国将于9月12日到19日在中国的北京/上海/广州举办。快来报名吧(8月21号截止)。
 PyCon2015 China announced! PyCon2015 China is organized by PyChina.org and takes place on the 12th-19th of September, 2015 in Beijing/Shanghai/Guangzhou, China. Check out the call for proposals(Deadline August 21st) and call for sponsors.
 
 pycon.org
 
 Shared by @zoomq
  
-- [Wagtail 1.0 Released!](https://wagtail.io/blog/wagtail-10/)
-
+- [Wagtail 1.0发布!](https://wagtail.io/blog/wagtail-10/)
+开源CMS Wagtail 1.0版本发布!
 Version 1.0 of open source CMS Wagtail has been released!
 wagtail.io
 Shared by @chhantyal
@@ -45,11 +45,11 @@ Shared by @chhantyal
 
 ## 讨论
 
-- [What is the most complex thing you've ever created?](https://www.reddit.com/r/Python/comments/3ed5bf/what_is_the_most_complex_thing_youve_ever_created/)
+- [你创建的最复杂的项目是什么](https://www.reddit.com/r/Python/comments/3ed5bf/what_is_the_most_complex_thing_youve_ever_created/)
 reddit.com
 Shared by @mgrouchy
  
-- [To those who have a career in Python post a little description on your role, interested in the kinds of jobs python programmers do!](https://www.reddit.com/r/Python/comments/3e239y/to_those_who_have_a_career_in_python_post_a/)
+- [从事Python开发的同学们来描述下自己的职位，说说都在做些什么有趣的事](https://www.reddit.com/r/Python/comments/3e239y/to_those_who_have_a_career_in_python_post_a/)
 reddit.com
 Shared by @myusuf3
 
@@ -77,47 +77,56 @@ Shared by @myusuf3
 ## 文章
 
 
-- [Komodo 9.2 Beta (Pre-Release)](http://komodoide.com/blog/komodo-9-2-pre-release-ready-for-testing/)
+- [Komodo 9.2 Beta发布](http://komodoide.com/blog/komodo-9-2-pre-release-ready-for-testing/)
+Komodo最后测试版本9.2发布,点击查看详情!
 The latest beta for Komodo 9.2 is out. Head over to the the blog for more details and to download the release to try it out.
 komodoide.com
 Shared by @myusuf3
  
-- [Image Fields with Django Rest Framework](http://www.machinalis.com/blog/image-fields-with-django-rest-framework/)
+- [Django REST框架中的Image字段](http://www.machinalis.com/blog/image-fields-with-django-rest-framework/)
+教你如何在Django REST中实用Image字段
 Tutorial to get your started with Image Fields in the amazing Django REST Framework.
 machinalis.com
 Shared by @mgrouchy
  
-- [Thoughts on Nylas’ “How We Deploy Code”](http://tartley.com/?p=1623)
+- [关于Nylas的“如何部署代码”的看法](http://tartley.com/?p=1623)
+关于Nylas解决如何不使用Git进行Python代码部署的看法
 Some thoughts of the popular "How we Deploy Python Code (Without using Git)" Post.
 tartley.com
 Shared by @mgrouchy
  
-- [The uWSGI Swiss Army Knife](https://lincolnloop.com/blog/uwsgi-swiss-army-knife/)
+- [uWSGI瑞士军刀](https://lincolnloop.com/blog/uwsgi-swiss-army-knife/)
+很棒的文章，展示了如何在uWSGI中填充多个角色。值得一读!
 Awesome article that lays out the way uWSGI can fill multiple roles in your stack! Worth the read!
 lincolnloop.com
 Shared by @myusuf3
  
-- [Exploring the shapes of stories using Python and sentiment APIs](https://indico.io/blog/plotlines/)
+- [使用Python和情感分析接口来创建故事的评分图](https://indico.io/blog/plotlines/)
+很有趣的文章，利用Python情感分析接口来绘制出故事的评分图
 Super interesting article on plotting the shape of stories using sentiment analysis!
 indico.io
 Shared by @myusuf3
  
-- [Flask web application with charts using chart.js](https://pythonspot.com/flask-and-great-looking-charts-using-chart-js/)
+- [在Flask应用中实用char.js制图](https://pythonspot.com/flask-and-great-looking-charts-using-chart-js/)
+有没有想过让你的Flask应用支持漂亮的图表?看看这篇文章就知道了,这是一个很好的教程教你如何在Flask应用中使用chart.js.
 Ever wonder how to get some pretty charts into your Flask Application? Look no further than this post, this has a great tutorial for getting started with chart.js in your Flask app.
 pythonspot.com
 Shared by @mgrouchy
  
-- [My Python Code is Slow? Tips for Profiling](http://marcobonzanini.com/2015/01/05/my-python-code-is-slow-tips-for-profiling/)
+- [剖析下你的代码为什么这么慢](http://marcobonzanini.com/2015/01/05/my-python-code-is-slow-tips-for-profiling/)
+如何分析你Python项目的技巧和策略收集
 A collection of tips and strategies for Profiling your next (or current) Python application!
 marcobonzanini.com
 Shared by @mgrouchy
  
-- [Python vs R for Data Science: Data Frames I](https://www.codementor.io/python/tutorial/python-vs-r-for-data-science-data-frames-i)
+- [数据科学,Python VS R语言:数据帧](https://www.codementor.io/python/tutorial/python-vs-r-for-data-science-data-frames-i)
+数据帧介绍，相关操作的Python和R语言对比
 Introduction to Data Frames and how they contrast with their R counterpart!
 codementor.io
 Shared by @myusuf3
  
 - [trendvis](https://github.com/matplotlib/trendvis)
+基于matplotlib实现的可创建信息密集，迷你图像，可视化定量的绘图包
 This is a plotting package that uses matplotlib to create information-dense, sparkline-like, quantitative visualizations
 github.com
 Shared by @myusuf3
@@ -127,26 +136,31 @@ Shared by @myusuf3
 
 
 - [ibis](https://github.com/cloudera/ibis)
+Python数据分析库,使纯Python工作流的大数据系统能发挥出最佳的性能和可伸缩性.
 This is a Python data analysis library enabling a 100% Python user workflow on top of big data systems for maximum performance and scalability.
 github.com
 Shared by @myusuf3
  
 - [pyintercept](https://github.com/caioariede/pyintercept)
+拦截函数调用的Python脚本
 Intercept function calls from Python scripts
 github.com
 Shared by @caioariede
  
 - [jirafs](https://github.com/coddingtonbear/jirafs)
+感念整洁，使用本地存储文本文件来处理Jira ticket
 Neat concept, Edit Jira Tickets using locally stored text files.
 github.com
 Shared by @latestrevision
  
 - [docli](https://github.com/yspanchal/docli)
+Digital Ocean命令行接口，详细命令请查看github docs。
 A command line interface for Digital Ocean! Check out the github docs for all the supported commands.
 github.com
 Shared by @ys_panchal
  
 - [underwear](https://github.com/makaimc/underwear)
+方便部署Python实现的web应用到一台或者多台Linux服务器上的Python库
 Underwear is a library for easily deploying any Python-powered web application to one or more Linux servers.
 github.com
 Shared by @myusuf3
@@ -158,11 +172,13 @@ Shared by @myusuf3
 )
 
 - [scrapyz](https://github.com/ssteuteville/scrapyz)
+web爬虫框架scrapy扩展,用于减少使用scrapy创建简单爬虫时候的代码量
 This is an extension for the python web scraping framework scrapy. The aim of this package is to cut down on the amount of code needed to create simple spiders with scrapy.
 github.com
 Shared by @myusuf3
  
 - [bson](https://github.com/py-bson/bson)
+Python实现的独立的BSON编码器，不依赖MongoDB。
 An independent BSON codec for Python that doesn't depend on MongoDB.
 github.com
 Shared by @mgrouchy
@@ -174,11 +190,13 @@ Shared by @mgrouchy
 
 
 - [letsencrypt](https://github.com/letsencrypt/letsencrypt)
+为Apache/Nginx服务器安装SSL/TLS证书的配置工具
 A tool to update Apache/Nginx configurations to install SSL/TLS certificates on servers.
 github.com
 Shared by @mgrouchy
  
 - [dockercli](https://github.com/j-bennet/dockercli)
+支持语法高亮和自动补全的Docker命令行接口!实用！
 A Docker command line interface which includes syntax highlighting and autocompletion. Useful!
 github.com
 Shared by @mgrouchy
