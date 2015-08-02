@@ -1,13 +1,13 @@
-Title: 蠎周刊 177: UTF
-Slug: issue-177
-Date: 2015-07-31 11:11
+Title: 蠎周刊 176: Gelato
+Slug: issue-176
+Date: 2015-07-27 11:11
 Tags: Weekly,Pycoder,Zh
 
 
 ![Pycoder's Weekly](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)
 
 
-- 原文: [Pycoders Weekly (Issue #177): UTF](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=d06430eb4f)
+- 原文: [Pycoders Weekly (Issue #176): Gelato](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=339bb6cb74&e=889f3f6a05)
 
 ##  搜罗Py万物 的周刊
 
@@ -27,28 +27,31 @@ Tags: Weekly,Pycoder,Zh
 
 
 ## 新闻
+- [PyCon 2015 China](http://cn.pycon.org/en/)
+PyCon2015中国发布!由PyChina.org组织的PyCon2015中国将于9月12日到19日在中国的北京/上海/广州举办。快来报名吧(8月21号截止)。
+PyCon2015 China announced! PyCon2015 China is organized by PyChina.org and takes place on the 12th-19th of September, 2015 in Beijing/Shanghai/Guangzhou, China. Check out the call for proposals(Deadline August 21st) and call for sponsors.
 
-- [Guido在EuroPython 2015](https://lwn.net/Articles/651967/) 
-Guido老爹在EuroPython2015的演讲概述
-A roundup of Guido's Keynote at EuroPython 2015. 
-lwn.net
-Shared by @mgrouchy
+pycon.org
+
+Shared by @zoomq
  
-- [Python 3.5.0b4 Released!](https://www.python.org/downloads/release/python-350b4/)
-python3.5.0的最后一个测试版发布。点击查看详情
-The latest Python 3.5.0 beta is out. Click through to check out more details. 
-python.org
-Shared by @mgrouchy
+- [Wagtail 1.0发布!](https://wagtail.io/blog/wagtail-10/)
+开源CMS Wagtail 1.0版本发布!
+Version 1.0 of open source CMS Wagtail has been released!
+wagtail.io
+Shared by @chhantyal
+
+
 
 ## 讨论
 
-- [判断一个数字是否为回文数字的最少代码](https://www.reddit.com/r/Python/comments/3f1b00/shortest_code_to_test_whether_a_number_is/) 
-reddit.com
-Shared by @myusuf3
- 
-- [GvR: "别浪费时间再改善IDLE上了，这过程又漫长又无意义，还是创建一个新的才是王道 "](https://www.reddit.com/r/Python/comments/3eym0t/gvr_dont_waste_time_improving_idle_the_process_is/)
+- [你创建的最复杂的项目是什么](https://www.reddit.com/r/Python/comments/3ed5bf/what_is_the_most_complex_thing_youve_ever_created/)
 reddit.com
 Shared by @mgrouchy
+ 
+- [从事Python开发的同学们来描述下自己的职位，说说都在做些什么有趣的事](https://www.reddit.com/r/Python/comments/3e239y/to_those_who_have_a_career_in_python_post_a/)
+reddit.com
+Shared by @myusuf3
 
 
 ## 工作
@@ -73,114 +76,130 @@ Shared by @mgrouchy
 
 ## 文章
 
-- [编写具有可读性的Python正则表达式](http://tonysyu.github.io/readable-regular-expressions-in-python.html)
-如何命名正则表达式
-Introduction to named regular expressions! 
-github.io
-Shared by @myusuf3
- 
-- [如何使用Python绘制一个NBA的球员得分统计图](http://savvastjortjoglou.com/nba-shot-sharts.html)
-很好的教程教你使用Matplotlib,pandas和seaborn通过NBA.com的数据来创建得分统计图.如果你对数据可视化感兴趣，这是一篇值得一读的文章
-Great guide to creating shot charts using Data from NBA.com, Matplotlib, Pandas and Seaborn. If you are interested in visualizing data with Python this is a worthwhile read!
-savvastjortjoglou.com
-Shared by @mgrouchy
- 
-- [Python中的配置](http://blog.thehumangeo.com/2015/07/28/profiling-in-python/)
-教你如何配置你的Python应用.包括如何使用cProfeile和PyCallGraph工具和如何处理它们产生的数据.
-Very nice guide on how to Profile your Python applications. Includes an intro to using tools like cProfile and PyCallGraph and what to do with the information that comes from those tools. 
-thehumangeo.com
-Shared by @mgrouchy
- 
-- [如何获取你所要用到的Python](http://holdenweb.blogspot.ca/2015/02/how-to-get-almost-all-python-you-might.html) 
-如何使用Anaconda来设置Python环境的视频教程
-A video guide to get a Python environment set up with Anaconda. 
-blogspot.ca
-Shared by @mgrouchy
- 
-- [Switching Eds: 使用Python,dlib和OpenCV来对面部进行变换](http://matthewearl.github.io/2015/07/28/switching-eds-with-python/) 
-文章介绍了如何使用作者编写的Python脚本通过dlib和OpenCV实现面部变换。
-This article gives you a walk through of how the author wrote a Python script to swap faces in pictures with dlib and OpenCV.
-github.io
-Shared by @myusuf3
- 
-- [Matplotlib Basemap Toolkit中的酒吧座标绘制地图](http://ramiro.org/notebook/mapping-pubs/) 
-非常赞的文章，作者使用了酒吧座标绘制出了英国和爱尔兰的地图
-Very cool article. Using pub locations the author creates a map of Britain and Ireland. 
-ramiro.org
-Shared by @mgrouchy
- 
-- [回文数测试挑战](http://szborows.blogspot.ca/2015/07/palindrome-number-test-in-python.html)
-试图用最小的方式(最少代码)来实现回文数的检验
-Walk through an attempt to solve the problem of determining if a number is a palindromic number and then try to make the resulting solution as small as possible. 
-blogspot.ca
-Shared by @mgrouchy
- 
-- [使用spaCy处理NLP](http://nicschrading.com/project/Intro-to-NLP-with-spaCy/) 
-介绍如何使用spaCy进行自然语言处理和使用Scikit-learn进行机器学习
-"An introduction to spaCy for natural language processing and machine learning with special help from Scikit-learn".
-nicschrading.com
-Shared by @mgrouchy
- 
-- [有意义的测试二连击](http://mekhami.com/unit/testing/doubles/2015/07/30/Meaningful-Test-Doubles.html)
-教你如何使用Mocks和Stubs测试你的Python应用
-A guide to using Test Doubles (Mocks and Stubs) for testing your Python applications. 
-mekhami.com
-Shared by @mgrouchy
- 
-- [两年Celery使用总结三个小技巧](https://library.launchkit.io/three-quick-tips-from-two-years-with-celery-c05ff9d7f9eb)
-很棒的技巧！如果你的项目在使用celery,读过这篇文章你会有所收获
-Great tips! If you are using Celery in your application there is probably something to be learned from this!
-launchkit.io
-Shared by @mgrouchy
- 
-- [使用Python中的Ranking来实现一个搜索引擎](http://aakashjapi.com/fuckin-search-engines-how-do-they-work/)
-如何编写一个用于查找本地文件的搜索引擎，Python实现。好文！
-How to make a search engine for local text files, using Python! Nice read.
-aakashjapi.com
-Shared by @myusuf3
- 
-- [Scrapy: 入门](https://seanmckaybeck.com/scrapy-the-basics.html)
-使用scrapy爬取/r/learnpython的小教程
-Small tutorial with scrapy to scrape /r/learnpython
-seanmckaybeck.com
-Shared by @myusuf3
 
-- [使用Mock来替代tests进行单元测试吧](http://hernantz.github.io/mock-yourself-not-your-tests.html) 
-github.io
-Shared by @hernantz
+- [Komodo 9.2 Beta发布](http://komodoide.com/blog/komodo-9-2-pre-release-ready-for-testing/)
+Komodo最后测试版本9.2发布,点击查看详情!
+The latest beta for Komodo 9.2 is out. Head over to the the blog for more details and to download the release to try it out.
+komodoide.com
+Shared by @myusuf3
+ 
+- [Django REST框架中的Image字段](http://www.machinalis.com/blog/image-fields-with-django-rest-framework/)
+教你如何在Django REST中实用Image字段
+Tutorial to get your started with Image Fields in the amazing Django REST Framework.
+machinalis.com
+Shared by @mgrouchy
+ 
+- [关于Nylas的“如何部署代码”的看法](http://tartley.com/?p=1623)
+关于Nylas解决如何不使用Git进行Python代码部署的看法
+Some thoughts of the popular "How we Deploy Python Code (Without using Git)" Post.
+tartley.com
+Shared by @mgrouchy
+ 
+- [uWSGI瑞士军刀](https://lincolnloop.com/blog/uwsgi-swiss-army-knife/)
+很棒的文章，展示了如何在uWSGI中填充多个角色。值得一读!
+Awesome article that lays out the way uWSGI can fill multiple roles in your stack! Worth the read!
+lincolnloop.com
+Shared by @myusuf3
+ 
+- [使用Python和情感分析接口来创建故事的评分图](https://indico.io/blog/plotlines/)
+很有趣的文章，利用Python情感分析接口来绘制出故事的评分图
+Super interesting article on plotting the shape of stories using sentiment analysis!
+indico.io
+Shared by @myusuf3
+ 
+- [在Flask应用中实用char.js制图](https://pythonspot.com/flask-and-great-looking-charts-using-chart-js/)
+有没有想过让你的Flask应用支持漂亮的图表?看看这篇文章就知道了,这是一个很好的教程教你如何在Flask应用中使用chart.js.
+Ever wonder how to get some pretty charts into your Flask Application? Look no further than this post, this has a great tutorial for getting started with chart.js in your Flask app.
+pythonspot.com
+Shared by @mgrouchy
+ 
+- [剖析下你的代码为什么这么慢](http://marcobonzanini.com/2015/01/05/my-python-code-is-slow-tips-for-profiling/)
+如何分析你Python项目的技巧和策略收集
+A collection of tips and strategies for Profiling your next (or current) Python application!
+marcobonzanini.com
+Shared by @mgrouchy
+ 
+- [数据科学,Python VS R语言:数据帧](https://www.codementor.io/python/tutorial/python-vs-r-for-data-science-data-frames-i)
+数据帧介绍，相关操作的Python和R语言对比
+Introduction to Data Frames and how they contrast with their R counterpart!
+codementor.io
+Shared by @myusuf3
+ 
+- [trendvis](https://github.com/matplotlib/trendvis)
+基于matplotlib实现的可创建信息密集，迷你图像，可视化定量的绘图包
+This is a plotting package that uses matplotlib to create information-dense, sparkline-like, quantitative visualizations
+github.com
+Shared by @myusuf3
 
 
 ## 项目
 
-- [mycli](https://github.com/dbcli/mycli) 
-MySQL命令行客户端，支持语法高亮和自动补全,类似对应PostgreSQL的pgcli
-A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting. MySQL equivalent to pgcli
+
+- [ibis](https://github.com/cloudera/ibis)
+Python数据分析库,使纯Python工作流的大数据系统能发挥出最佳的性能和可伸缩性.
+This is a Python data analysis library enabling a 100% Python user workflow on top of big data systems for maximum performance and scalability.
 github.com
-Shared by @mgrouchy
+Shared by @myusuf3
  
-- [django-input-mask](https://github.com/caioariede/django-input-mask)
-方便为你Django应用中的input元素自订制属性
-A collection of easy-to-extend-widgets for applying masks to input elements in your Django application.
+- [pyintercept](https://github.com/caioariede/pyintercept)
+拦截函数调用的Python脚本
+Intercept function calls from Python scripts
 github.com
 Shared by @caioariede
  
-- [python-semantic-release](https://github.com/relekang/python-semantic-release) 
-非常实用，可以根据语义自动控制你Python项目的版本
-This is pretty useful. This project will allow you to do automatic semantic versioning for your Python projects. 
+- [jirafs](https://github.com/coddingtonbear/jirafs)
+感念整洁，使用本地存储文本文件来处理Jira ticket
+Neat concept, Edit Jira Tickets using locally stored text files.
 github.com
-Shared by @relekang
+Shared by @latestrevision
  
-- [dnsq](https://github.com/mailgun/dnsq)
-dns查询工具
-From the crew at mailgun a DNS Query tool.
+- [docli](https://github.com/yspanchal/docli)
+Digital Ocean命令行接口，详细命令请查看github docs。
+A command line interface for Digital Ocean! Check out the github docs for all the supported commands.
 github.com
-Shared by @shaunpud
+Shared by @ys_panchal
  
-- [django_linter](https://github.com/geerk/django_linter)
-Django项目检测工具，用于找出你Django项目中的常见错误.
-A linter for your Django projects. This project aims to save you from making common mistakes. 
+- [underwear](https://github.com/makaimc/underwear)
+方便部署Python实现的web应用到一台或者多台Linux服务器上的Python库
+Underwear is a library for easily deploying any Python-powered web application to one or more Linux servers.
 github.com
-Shared by @geerk
+Shared by @myusuf3
+ 
+(`是也乎:`
+
+底裤....这名儿起的太有感觉了!
+
+)
+
+- [scrapyz](https://github.com/ssteuteville/scrapyz)
+web爬虫框架scrapy扩展,用于减少使用scrapy创建简单爬虫时候的代码量
+This is an extension for the python web scraping framework scrapy. The aim of this package is to cut down on the amount of code needed to create simple spiders with scrapy.
+github.com
+Shared by @myusuf3
+ 
+- [bson](https://github.com/py-bson/bson)
+Python实现的独立的BSON编码器，不依赖MongoDB。
+An independent BSON codec for Python that doesn't depend on MongoDB.
+github.com
+Shared by @mgrouchy
+ 
+(`是也乎:`
+
+好东西总是能走出自个儿的新路!
+)
+
+
+- [letsencrypt](https://github.com/letsencrypt/letsencrypt)
+为Apache/Nginx服务器安装SSL/TLS证书的配置工具
+A tool to update Apache/Nginx configurations to install SSL/TLS certificates on servers.
+github.com
+Shared by @mgrouchy
+ 
+- [dockercli](https://github.com/j-bennet/dockercli)
+支持语法高亮和自动补全的Docker命令行接口!实用！
+A Docker command line interface which includes syntax highlighting and autocompletion. Useful!
+github.com
+Shared by @mgrouchy
 
 
 
@@ -191,3 +210,4 @@ Shared by @geerk
 
 - 1507?? 老高/[Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
 - 150727 [Zoom.Quiet](http://zoomquiet.org/) 用时 7 分钟 完成格式转抄.%
+
