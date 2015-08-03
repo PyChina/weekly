@@ -227,7 +227,16 @@ MySQL命令行客户端,支持语法高亮和自动补全,类似对应PostgreSQL
 github.com
 
 Shared by @mgrouchy
- 
+
+
+(`是也乎:`
+
+![mycli show](https://github.com/dbcli/mycli/raw/master/screenshots/main.gif)
+
+嗯哼, IPy 的扩展应用
+
+)
+
 - [django-input-mask](https://github.com/caioariede/django-input-mask)
 
 方便为你Django应用中的input元素自订制属性
