@@ -38,7 +38,7 @@ def build7niu():
 @task
 @cd_app_root
 def pub2cafe():
-    build()
+    build4cafe()
     local(
         'cd {deploy_pages} && '
         'pwd && '
