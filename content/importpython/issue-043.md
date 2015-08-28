@@ -208,5 +208,5 @@ GifBook: 从视频和字幕文件生成 gif 动画!
 
 # 是也乎
 
-- 15082? [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
+- 150821 [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
 - 150821 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
