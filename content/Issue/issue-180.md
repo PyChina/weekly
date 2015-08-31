@@ -28,7 +28,7 @@ Tags: Weekly,Pycoder,Zh
 
 ## 新闻
 
-- [Django安全版本发布：1.8.4, 1.7.10, 1.4.22](https://www.djangoproject.com/weblog/2015/aug/18/security-releases/)
+- [Django安全版本发布:1.8.4, 1.7.10, 1.4.22](https://www.djangoproject.com/weblog/2015/aug/18/security-releases/)
 
 是时候升级你的Django版本了,点击查看详情
 
@@ -45,7 +45,7 @@ reddit.com
 Shared by @myusuf3
  
 
-- [又一reddit机器人，将上传的图片和最热评论制作为memes图(恶搞热图)](https://www.reddit.com/r/Python/comments/3hqwmo/i_made_a_reddit_bot_that_creates_memes_out_of/) 
+- [又一reddit机器人,将上传的图片和最热评论制作为memes图(恶搞热图)](https://www.reddit.com/r/Python/comments/3hqwmo/i_made_a_reddit_bot_that_creates_memes_out_of/) 
 
 reddit.com
 
@@ -82,7 +82,7 @@ Shared by @mgrouchy
 
 - [ORMs详解](http://www.vertabelo.com/blog/technical-articles/orms-under-the-hood) 
 
-你是否想过ORM是如何工作的？文章描述了ORM的构成和工作,一些现有ORM的介绍以及使用SQLAlchemy的一些例子
+你是否想过ORM是如何工作的?文章描述了ORM的构成和工作,一些现有ORM的介绍以及使用SQLAlchemy的一些例子
 
 vertabelo.com
 
@@ -106,7 +106,7 @@ Shared by @myusuf3
 
 - [使用Python实现分层模型A/B测试](http://blog.dominodatalab.com/ab-testing-with-hierarchical-models-in-python/) 
 
-<<使用Beta-二项式分层模型的方法进行A/B测试，以方便在进行多个假设时纠正常见的错误>>文章作者的又一好文
+<<使用Beta-二项式分层模型的方法进行A/B测试,以方便在进行多个假设时纠正常见的错误>>文章作者的又一好文
 
 
 dominodatalab.com
@@ -116,7 +116,7 @@ Shared by @mgrouchy
 
 - [用Python制作Powerpoint演示文稿](http://pbpython.com/creating-powerpoint.html)
 
-很酷的工具，使用Python, pptx, pandas, 
+很酷的工具,使用Python, pptx, pandas, 
 numpy, matplotlib 和 seaborn 
 创建Powerpoint演示文稿 
 
@@ -133,7 +133,7 @@ Shared by @mgrouchy
 
 - [<<Python进阶>>发布](https://github.com/yasoob/intermediatePython) 
 
-为中级Python开发者提供的书籍，但是内容适用于各个层次的Python开发者
+为中级Python开发者提供的书籍,但是内容适用于各个层次的Python开发者
 
 github.com
 
@@ -188,7 +188,7 @@ Shared by @myusuf3
 
 - [HTTPLang](https://github.com/Max00355/HTTPLang) 
 
-Python实现的脚本语言，用来编写Http请求的例程
+Python实现的脚本语言,用来编写Http请求的例程
 
 github.com
 
@@ -257,7 +257,7 @@ Shared by @truecoldmind
 
 - [closeio/redis-hashring](https://github.com/closeio/redis-hashring)
 
-实现了一致性哈希环的Python库，可以使用redis实现分布式应用的构建
+实现了一致性哈希环的Python库,可以使用redis实现分布式应用的构建
 
 github.com
 
