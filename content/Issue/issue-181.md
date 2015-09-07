@@ -7,7 +7,9 @@ Tags: Weekly,Pycoder,Zh
 ![Pycoder's Weekly](https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png)
 
 
-- 原文: [Pycoders Weekly (Issue #181): Hopping](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=d0ee2a6163)
+- 原文: [Pycoders Weekly (Issue #181): Hopping ](http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&id=d0ee2a6163&e=889f3f6a05)
+
+
 
 ## 搜罗Py万物 的周刊
 
