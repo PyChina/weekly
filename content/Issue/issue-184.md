@@ -176,6 +176,14 @@ wordpress.com
 
 Shared by @Narenarya3
  
+(`是也乎:`
+
+![massively scalable RESTFul Moster](https://impythonist.files.wordpress.com/2015/09/mattias-adolfsson5.jpg?w=450&h=422&crop=1)
+
+嗯哼!
+
+)
+
 
 - [使用PyPy创建一个独立使用的Python3应用](http://www.giantflyingsaucer.com/blog/?p=5680)
 
