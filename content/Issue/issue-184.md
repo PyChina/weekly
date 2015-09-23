@@ -30,36 +30,46 @@ Tags: Weekly,Pycoder,SZ
 
 ## 新闻
 - [瑞士Python Summit接受报名](http://www.python-summit.ch/pages/call-for-proposals.html)
-Call for Proposals - Swiss Python Summit 
-首届瑞士PyCon将于2016年2月5日在拉珀斯维尔的HSR大学应用科学学院举办.打算前往参加或者主题分享的朋友可以点击链接报名。
-The first Swiss Python Conference is coming up February 5th, 2016 at HSR University of Applied Sciences in Rapperswil. Thinking about attending and want to give a talk, click through to submit a talk proposal!
+
+首届瑞士PyCon将于2016年2月5日在拉珀斯维尔的HSR大学应用科学学院举办.打算前往参加或者主题分享的朋友可以点击链接报名. 
+
 python-summit.ch
+
 Shared by @myusuf3
  
 
 - [Python 3.5.0发布!](https://www.python.org/downloads/release/python-350/) 
-RC版本结束。Python3.5.0正式发布，点击查看详情。
-No more RC's, the release of Python 3.5.0 is upon us! Click through to check out the release notes and download. 
+
+RC版本结束. Python3.5.0正式发布,点击查看详情. 
+
 python.org
+
 Shared by @myusuf3
  
 
 - [新的PSF社区邮件列表](http://pyfound.blogspot.ca/2015/09/new-psf-community-mailing-list.html) 
-想知道PSF的最新动态？快来加入新的邮件列表吧
-Trying to follow along with whats happening in the PSF? Check out the new PSF community mailing list. 
+
+想知道PSF的最新动态?快来加入新的邮件列表吧
+
 blogspot.ca
+
 Shared by @mgrouchy
  
 
 - [Jython 2.7.1 beta1发布!](http://fwierzbicki.blogspot.ca/2015/09/on-behalf-of-jython-development-team-im.html) 
-点击查看详情，欢迎提交代码和bug!
-Click through for more details about the release. Get the code and report any bugs!
+
+点击查看详情,欢迎提交代码和bug!
+
 blogspot.ca
+
 Shared by @mgrouchy
 
 ## 讨论
+
 - [提倡微软在windows中内置Python](https://www.reddit.com/r/Python/comments/3l0o5p/ask_microsoft_to_include_python_in_windows_by/)
+
 reddit.com
+
 Shared by @myusuf3
 
 
@@ -85,127 +95,166 @@ Shared by @myusuf3
 ## 文章
 
 - [Ball Tracking with OpenCV](http://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/)
+
 PyImageSearch上总是有很多有趣的东东!第100篇播客的作者演示了如何使用计算机视觉技术和OpenCV追踪一个彩色球.
-Always something cool coming from PyImageSearch! For the blogs 100th post the author demonstrates how you would track a coloured ball using computer vision techniques and OpenCV. 
+
 pyimagesearch.com
+
 Shared by @myusuf3
  
 
 - [为你的Pandas脚本添加一个简易图形界面](http://pbpython.com/pandas-gui.html)
-很简单的教程教你如何运行Gooey为你的Pandas脚本创建一个简易图形界面。
-Pretty straightforward tutorial to get up and running with Gooey for create a simple GUI for your Pandas scripts. 
+
+很简单的教程教你如何运行Gooey为你的Pandas脚本创建一个简易图形界面. 
+
 pbpython.com
+
 Shared by @mgrouchy
  
 
 - [编写随机走势假说](http://www.turingfinance.com/hacking-the-random-walk-hypothesis/)
-了解随机走势假说,创建一个测试套件,以确定随机性,然后做一些实验来确定金融市场的随机性。
-Learn about the Random Walk Hypothesis, about the creation of a test suite to determine randomness and then do some experiments to determine the randomness of financial markets. 
+
+了解随机走势假说,创建一个测试套件,以确定随机性,然后做一些实验来确定金融市场的随机性. 
+
 turingfinance.com
+
 Shared by @mgrouchy
  
 
 - [使用机器学习来提供建议](https://www.codementor.io/python/tutorial/build-data-products-django-machine-learning-clustering-user-preferences)
-code mentor的另一篇好文。非常漂亮的和详细的教程向您展示了如何使用机器学习来提供红酒用户的用户反馈。
 
-Another nice tutorial over at code mentor. Very nice and detailed tutorial shows you how to use machine learning to provide in this case wine recommendations to users based on users wine review data. 
+code mentor的另一篇好文. 非常漂亮的和详细的教程向您展示了如何使用机器学习来提供红酒用户的用户反馈. 
+
+
 codementor.io
+
 Shared by @myusuf3
  
 
 - [新书章节: "使用asyncio编写web爬虫"](http://emptysqua.re/blog/500-lines-web-crawler-asyncio-coroutines/)
-A. Jesse Jiryu Davis和Guido van Rossum(Guido老爹)编写,<<500行之内>>的一章，值得一读!
-Written by A. Jesse Jiryu Davis and Guido van Rossum, a chapter in the upcoming 500 lines or less book. Worth reading. 
+
+A. Jesse Jiryu Davis和Guido van Rossum(Guido老爹)编写,
+<<500行之内>>的一章,值得一读!
+
 emptysqua.re
+
 Shared by @mgrouchy
  
 
 - [Python中使用SQLite JSON扩展](http://charlesleifer.com/blog/using-the-sqlite-json-extension-with-python/) 
-很好的教程演示了如何安装和使用SQLite的JSON扩展。
-Very good tutorial demonstrating how to work with and install SQLite's new JSON Extension. 
+
+很好的教程演示了如何安装和使用SQLite的JSON扩展. 
+
 charlesleifer.com
+
 Shared by @myusuf3
  
 
-- [直循环：如何使用Pandas和NumPy将矢量化数据整合](http://blog.datascience.com/straightening-loops-how-to-vectorize-data-aggregation-with-pandas-and-numpy/)
-在软件中寻找循环的替代品。这些替代品可以提供多个数量级的性能改进，以及显着的代码可读性。
-A look at alternatives to loops in your software. These alternatives can offer performance improvements of multiple orders of magnitude as well as significant readability improvements in the code you write. 
+- [直循环:如何使用Pandas和NumPy将矢量化数据整合](http://blog.datascience.com/straightening-loops-how-to-vectorize-data-aggregation-with-pandas-and-numpy/)
+
+在软件中寻找循环的替代品. 这些替代品可以提供多个数量级的性能改进,以及显着的代码可读性. 
+
 datascience.com
+
 Shared by @mgrouchy
  
 
 - [使用Blaze and Impala分析reddit的1.7条评论](http://blaze.github.io/blog/2015/09/16/reddit-impala/)
-如果你对Blaze生态系统很感兴趣,那么你有福了。在这篇文章中作者展示了如何使用Blaze和Impala分析Reddit评论。作者详细描述了从安装依赖到对数据进行分析的整个过程。
-If you are interested in the Blaze Ecosystem this will be very relevant to your interests. In this post the author demonstrates how to analyze Reddit comments with with Blaze and impala. The author starts from Installing dependencies and continues to preparing the data and finally the analysis. 
+
+如果你对Blaze生态系统很感兴趣,那么你有福了. 在这篇文章中作者展示了如何使用Blaze和Impala分析Reddit评论. 作者详细描述了从安装依赖到对数据进行分析的整个过程. 
+
 github.io
+
 Shared by @mgrouchy
  
 
 - [使用Falcon和PyPy构建大规模可伸缩RESTFul API](https://impythonist.wordpress.com/2015/09/12/build-massively-scalable-restful-api-with-falcon-and-pypy/)
-我们很少能见到Falcon相关的文章，这篇文章讲述如何使用Falcon和PyPy构建API，写的很棒，值得一读
-We don't see too many blog posts talking about Falcon and this is a great post discussing building an API with Falcon and PyPy, worth reading!
+
+我们很少能见到Falcon相关的文章,这篇文章讲述如何使用Falcon和PyPy构建API,写的很棒,值得一读
+
 wordpress.com
+
 Shared by @Narenarya3
  
 
 - [使用PyPy创建一个独立使用的Python3应用](http://www.giantflyingsaucer.com/blog/?p=5680)
+
 giantflyingsaucer.com
+
 Shared by @chadlung
 
 ## 项目
 - [html5ever-python](https://github.com/SimonSapin/html5ever-python) 
+
 html5ever的Python绑定,Rust编写CFFI实现的高性能HTML5解析器
-Python bindings for html5ever, a high performance HTML5 parser written in Rust, using CFFI. 
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [pyNES](http://gutomaia.net/pyNES/) 
-帅气！用Python写一些NES游戏来缅怀下你逝去的童年，当然前提是你够老~
-Amazing! Capture some of that childhood nostalgia (if you are old enough) and write NES Games in Python. 
+
+帅气!用Python写一些NES游戏来缅怀下你逝去的童年,当然前提是你够老~
+
 gutomaia.net
+
 Shared by @mgrouchy
  
 
 - [prettyconf](https://github.com/osantana/prettyconf) 
-代码设置和分离的可扩展库，可帮助你遵循12Factor应用准则.
-A extensible library for Settings and Code separation. Meant to follow the 12Factor app recommendations. 
+
+代码设置和分离的可扩展库,可帮助你遵循12Factor应用准则.
+
 github.com
+
 Shared by @myusuf3
  
 
 - [PeachPy](https://github.com/Maratyszcza/PeachPy)
-Python编写高性能组装框架内核。PeachPy可以直接生成ELF, MS COFF和Mach-O对象文件和装配清单Golang工具链。
-A Python framework for writing high-performance assembly kernels. PeachPy can directly generate ELF, MS COFF and Mach-O object files and assembly listings for Golang toolchain.
+
+Python编写高性能组装框架内核. PeachPy可以直接生成ELF, MS COFF和Mach-O对象文件和装配清单Golang工具链. 
+
 github.com
+
 Shared by @myusuf3
  
 
 - [lightfm](https://github.com/lyst/lightfm) 
-LightFM的Python实现，混合推荐算法
-A Python implementation of LightFM, a hybrid recommendation algorithm.
+
+LightFM的Python实现,混合推荐算法
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [armada](https://github.com/armadaplatform/armada) 
-完整的开发，部署，配置，搜索微服务方案。制定使你的平台更面向服务的良好做法。
-A complete solution for development, deployment, configuration and discovery of microservices. Develop good practices in making your platform more service oriented. 
+
+完整的开发,部署,配置,搜索微服务方案. 制定使你的平台更面向服务的良好做法. 
+
 github.com
+
 Shared by @myusuf3
  
 
 - [videodigest](https://github.com/agermanidis/videodigest)
-很酷的工具!通过视频字幕确定视频中最重要的一句话，然后根据字幕的位置创建影片集锦.点击查看详情和示例
-This is pretty cool! Looks at a video's subtitles to determine the most important sentences in a video then creates a video of the regions where those sentences take place! Click through to the README to check out some examples. 
+
+很酷的工具!通过视频字幕确定视频中最重要的一句话,然后根据字幕的位置创建影片集锦.点击查看详情和示例
+
 github.com
+
 Shared by @myusuf3
  
 
 - [Pineapple](http://nwhitehead.github.io/pineapple/) 
-非常赞.OSX上Jupyter notebooks用Python做数据科学的独立开发环境.
-Very cool. A standalone development environment on OSX for Jupyter notebooks for doing data science in Python. 
+
+非常赞!
+OSX 上 Jupyter notebooks 用
+Python 做数据科学的独立开发环境.
+
 github.io
+
 Shared by @mgrouchy
 
 
@@ -214,5 +263,5 @@ Shared by @mgrouchy
 
 # 是也乎
 
-- 150914 老高/[Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
-- 150912 老高 用时 17 分钟 完成格式转抄.
+- 150923 老高/[Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
+- 150921 老高 用时 17 分钟 完成格式转抄.
