@@ -1,5 +1,5 @@
 Title: 蠎周刊 189: Let's Discuss 
-Slug: issue-185
+Slug: issue-189
 Date: 2015-10-24 10:50
 Tags: Weekly,Pycoder,SZ
 
