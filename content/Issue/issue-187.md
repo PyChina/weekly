@@ -1,5 +1,4 @@
-Title: 蠎周刊 187: Server
-Slug: issue-187
+Title: 蠎周刊 187: Server Slug: issue-187
 Date: 2015-10-25 10:50
 Tags: Weekly,Pycoder,SZ
 
@@ -29,25 +28,29 @@ Tags: Weekly,Pycoder,SZ
 
 
 ## 新闻
-- [six 1.10.0]() 
+- [six 1.10.0发布](https://mail.python.org/pipermail/python-announce-list/2015-October/010936.html) 
+Six1.10.0版本发布，同时兼容Python2和Python3，点击下载！
 Version 1.10.0 of Six, the Python 2 and 3 compatibility library, has been released. Check it out!
 python.org
 Shared by @mgrouchy
  
 
-- [PyPy memory and warmup improvements (2) - Sharing of Guards]() 
+- [PyPy内存和预热时间优化(2)](http://morepypy.blogspot.ca/2015/10/pypy-memory-and-warmup-improvements-2.html) 
+PyPy升级一览，包括内存使用和预热时间的优化
 A look at some PyPy updates including optimized memory consumption and warmup time improvements. 
 blogspot.ca
 Shared by @mgrouchy
  
 
-- [PyDev 4.4.0 released]() 
+- [PyDev 4.4.0发布](http://pydev.blogspot.com.br/2015/10/pydev-440-released.html) 
+如果你是PyDev用户，是时候升级你的版本了。PyDev4.4.0已经发布!点击查看详情！
 If you are a PyDev user, time to update your versions. PyDev 4.4.0 is out! Click through to the post for more details about this release!
 blogspot.com.br
 Shared by @myusuf3
  
 
-- [PyCon Canada 2015 Schedule released]() 
+- [PyCon Canada 2015议程发布](https://2015.pycon.ca/en/schedule/) 
+如标题所示，想参加的朋友赶紧开始计划你的行程吧
 As the title says, if you are attending its time to start picking what talks you are going to attend. 
 pycon.ca
 Shared by @ryan__weir
@@ -55,7 +58,7 @@ Shared by @ryan__weir
 
 ## 讨论
 
-Would it be better to use try...except rather than using if...else for error checking? 
+- [用try...except来进行错误检验是否会比用if...else更好？](https://www.reddit.com/r/Python/comments/3o36h8/would_it_be_better_to_use_tryexcept_rather_than/)
 reddit.com
 Shared by @myusuf3
 
@@ -80,116 +83,137 @@ Shared by @myusuf3
 
 ## 项目
 
-schedule 
+- [schedule](https://github.com/dbader/schedule)
+任务计划工具，可代替cron，也许你的下个项目中可以用到 
 Job Scheduling for humans. An alternative to cron and maybe useful in your next project?
 github.com
 Shared by @mgrouchy
  
 
-bqplot 
+- [bqplot](https://github.com/bloomberg/bqplot) 
+Bloomberg小组开源的IPython/Jupyter Notebooks绘图库
 Plotting library for IPython/Jupyter Notebooks open sourced by the team at Bloomberg.
 github.com
 Shared by @myusuf3
  
 
-pywat quiz 
+- [pywat quiz](https://github.com/cosmologicon/pywat/blob/master/quiz.md) 
+关于Python中的边缘案例和陷阱的有趣测验
 Fun little quiz about edgecases and gotchas in Python!
 github.com
 Shared by @mgrouchy
  
 
-graphene 
+- [graphene](https://github.com/graphql-python/graphene/) 
+用于快速创建GraphQL schemas/types的Python库
 Graphene is a Python library for creating GraphQL schemas/types easily. 
 github.com
 Shared by @mgrouchy
  
 
-getlyrics 
+- [getlyrics](https://github.com/blha303/getlyrics)
+为歌曲下载歌词到标准输出的工具 
 Tool to download lyrics for sounds and output them to STDOUT.
 github.com
 Shared by @mgrouchy
  
 
-st2 
+- [st2](https://github.com/StackStorm/st2) 
+运维的IFFTTT,不可思议，阅读README查看更多详情
 IFTTT for Ops, pretty amazing, click through to the README for lots of info. 
 github.com
 Shared by @mgrouchy
  
 
-chcli 
+- [chcli](https://github.com/architv/chcli) 
+黑客的命令行挑战，如果你喜欢完成编程挑战，这一定是你的菜！
 A CLI for command line challenges for Hackers. If you are the type of person who loves completing programming challenges, this is for you!
 github.com
 Shared by @mgrouchy
  
 
-sync-engine 
+- [sync-engine](https://github.com/nylas/sync-engine)
+建立在电子邮件同步引擎之上一个RESTful API，允许开发者在电子邮件的上层创建应用。
 A Restful API built on top of an email sync-engine to allow developers to build applications on top of email. 
 github.com
 Shared by @mgrouchy
  
 
-Pipe 
+- [Pipe](https://github.com/JulienPalard/Pipe)
+在Python中使用中缀表示法的库
 A library to allow the use of infix notation in Python. 
 github.com
 Shared by @myusuf3
  
 
-pigar 
+- [pigar](https://github.com/Damnever/pigar) 
+用来生成你Python项目依赖的复杂工具
 A sophisticated tool to generate requirements for your Python project. 
 github.com
 Shared by @myusuf3
  
 
-onedrive-sdk 
+- [onedrive-sdk](https://github.com/OneDrive/onedrive-sdk-python) 
+为想将OneDrive嵌入到Python应用的用户提供的OneDrive SDK
 A OneDrive sdk for Python for those that want to incorporate OneDrive into your Python applications. 
 github.com
 Shared by @mgrouchy
  
 
-orthographic-pedant 
+- [orthographic-pedant](https://github.com/thoppe/orthographic-pedant) 
+有用的工具，纠正Github在Pull Request的错别字
 Useful tool that corrects common typos in Github Pull Requests. 
 github.com
 Shared by @nicoddemus
 
+
 ## 文章
 
-An Intro to argparse 
+- [argparse的介绍](http://www.blog.pythonlibrary.org/2015/10/08/a-intro-to-argparse/) 
+教你如何在你的下个Python应用中开始使用argparse
 Learn how to get started with argparse in your next Python application. 
 pythonlibrary.org
 Shared by @mgrouchy
 
 
-Writing a fuzzy receipt parser in Python 
+- [用Python编写一个模糊的收据分析器](http://tech.trivago.com/2015/10/06/python_receipt_parser/) 
+扫描收据关于Hackathon项目很酷的文章。在解决这个问题时，很好的看了实施、问题和解决方案。
+很酷的文章关于收据扫描的hackthon项目。学习如何在实现时遇到问题该如何去解决。
 Cool article about a hackathon project for scanning receipts. Nice look at implementation, problems and solutions when trying to solve this problem. 
 trivago.com
 Shared by @mgrouchy
 
 
-Data Science for Losers 
+- [屌丝看的数据科学](http://blog.brakmic.com/data-science-for-losers/)
+还是不清楚为什么说是写给屌丝的，不过是一篇非常好的关于Python中数据科学工具的介绍，值得一读！ 
 Still not sure why this article is for losers, but its a nice introduction to data science tools in Python. Worth the read!
 brakmic.com
 Shared by @mgrouchy
 
 
-Importing ipython notebook into another notebook 
+- [在其他notebook中导入iPython notebookk](http://www.motleytech.net/en/2015/09/14/importing-ipython-notebook-another-notebook/) 
+简单的教程，教你如何在另一个notebook中导入一个iPython(jupyter) notebook。
 Simple tutorial that shows you how to import an iPython (jupyter) notebook into another one. 
 motleytech.net
 Shared by @myusuf3
 
 
-LinkedIn Social Authentication in Django 
+- [Django接入LinkedIn认证](https://realpython.com/blog/python/linkedin-social-authentication-in-django/) 
+教你如何在你的Django项目中接入LinkedIn登录授权
 Tutorial to get LinkedIn login working in your Django project. 
 realpython.com
 Shared by @mgrouchy
 
 
-Making unittests better with Docker 
+- [使用Docker让单元测试变得更好](http://www.talperry.com/2015/10/03/python-unittests-with-docker/) 
+使用docker来提升你单元检测的一些建议
 Some nice advice for improving your unittests with docker. 
 talperry.com
 Shared by @myusuf3
 
 
-Processing webhook events using Wishbone Part 1: Accept and validate 
+- [使用Wishbone处理webhook事件第一部分: 接收和校验](http://smetj.net/processing_webhooks_using_wishbone_part_1.html)
+"使用Wishbone处理webhook"系列文章第一篇 
 First part in a series of using Wishbone to process webhooks. 
 smetj.net
 Shared by @smetj
