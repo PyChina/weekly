@@ -225,6 +225,5 @@ Shared by @_fengsp
 (`大妈私人无责任播报`)
 
 # 是也乎
-
-- 151121 [Zoom.Quiet](http://zoomquiet.org/) 先后用时 42 分钟 完成快译.
-- 151121 老高 用时 17 分钟 完成格式转抄.
+- 1511?? ?? 先后用时 42 分钟 完成快译.
+- 151121 [Zoom.Quiet](http://zoomquiet.org/) 用时 17 分钟 完成格式转抄.
