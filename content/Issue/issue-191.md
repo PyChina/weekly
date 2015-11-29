@@ -4,7 +4,7 @@ Date: 2015-11-07 22:50
 Tags: Weekly,Pycoder,ZH
 
 
-![PycodersWeekly.png（PNG 图像，860x97 像素）](http://zoomq.qiniucdn.com/logos/PycodersWeekly.png?imageView2/2/w/360)
+![PycodersWeekly.png(PNG 图像,860x97 像素)](http://zoomq.qiniucdn.com/logos/PycodersWeekly.png?imageView2/2/w/360)
 
 
 

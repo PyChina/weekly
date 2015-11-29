@@ -4,7 +4,7 @@ Date: 2015-10-25 10:50
 Tags: Weekly,Pycoder,SZ
 
 
-![PycodersWeekly.png（PNG 图像，860x97 像素）](http://zoomq.qiniucdn.com/logos/PycodersWeekly.png?imageView2/2/w/360)
+![PycodersWeekly.png(PNG 图像,860x97 像素)](http://zoomq.qiniucdn.com/logos/PycodersWeekly.png?imageView2/2/w/360)
 
 
 - 原文: [Pycoders Weekly (Issue #188): Jays](http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&id=fd953514fa)
