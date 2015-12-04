@@ -14,43 +14,98 @@ Tags: Weekly,ImportPython,Zh
 ~ 文章, Blog, 教程...
 
 
-- [Django Under The Hood Conference Videos](https://opbeat.com/events/duth/)
+- [Django 引擎盖下: 会议视频](https://opbeat.com/events/duth/)
     + video
-Django: Under the Hood second edition concluded. It's a conference for experienced Django developers. One that talks/focuses on the internals of Django, and help to shape its future. If you are a Django developer you want to take out time and watch these. Videos brought to you by OpBeat, an application monitoring platform built for Django.
 
-- [Optimizing Slow Django REST Framework Performance](https://ses4j.github.io/2015/11/23/optimizing-slow-django-rest-framework-performance/)
+Django: 引擎盖下 第二版.
+侧重 Django 的本来策略.
+如果你是位 Django 工程师, 应该认真看看.
+感觉赞助商 OpBeat ~ 专注 Django 应用的监控平台.
+
+- [优化缓慢的 Django REST 框架性能](https://ses4j.github.io/2015/11/23/optimizing-slow-django-rest-framework-performance/)
     + REST
-Even seemingly simple, straightforward usage of the Django REST Framework and its nested serializers can kill performance of your API endpoints. And that matters: if your web server is wasting its time inefficiently responding to a REST API call, it will drag the rest of the server's responsiveness down with it.
 
-- [Python 3.5 type hinting in PyCharm 5](http://blog.jetbrains.com/pycharm/2015/11/python-3-5-type-hinting-in-pycharm-5/)
+看起来很简单的, REST 框架及其可嵌套的序列化,
+就足以杀光接口性能.
+记住,如果 Web 服务器将时间浪费在 REST 接口调用上,
+那么整体性能必然下降.
+
+
+- [Python 3.5 类型提示在 PyCharm 5](http://blog.jetbrains.com/pycharm/2015/11/python-3-5-type-hinting-in-pycharm-5/)
     + pycharm
-Python 3.5 introduces type hinting to help code-writing during development. Let’s take a look at this feature and show it in action.
 
-- [Getting started with Docker, Compose and Django - howchoo](http://howchoo.com/g/y2y1mtkznda/getting-started-with-docker-compose-and-django)
+Python 3.5 引入了类型提示,
+以便支持 IDE , PyCharm 已经实现了对应功能.
+
+- [基于Docker, Compose 和 Django 的开发入门 - howchoo](http://howchoo.com/g/y2y1mtkznda/getting-started-with-docker-compose-and-django)
     + django
-This guide shows you how to set up a Django application and development environment using Docker.
 
-- [Python's 'Surprise' Imports](http://blog.doismellburning.co.uk/pythons-surprise-imports/)
+展示了如何基于 Docker 构建 Django 开发环境
+
+
+- [Python 的 '惊喜' 导入](http://blog.doismellburning.co.uk/pythons-surprise-imports/)
     + django
-Django recommends that you use, for example, django.utils.timezone.now to ensure you always get “the right now” (i.e. timezone-aware). So you might, as with the code example above, extrapolate that timezone.datetime(2015, 1, 1) will give you a timezone-aware “1st of January 2015” datetime object.
 
-- [Django 1.9 released](https://www.djangoproject.com/weblog/2015/dec/01/django-19-released/)
-After 10 and a half months of development, the Django team is happy to announce the release of Django 1.9. As always, the release notes cover everything in-depth, but the major highlights are: Support for performing actions after a transaction commit. Support for password validation. Permission mixins for class-based views. New styling for contrib.admin. Support for running tests in parallel.
 
-- [How to compute the intersection of two sorted lists (in Python)](http://ptspts.blogspot.com/2015/11/how-to-compute-intersection-of-two.html)
-This blog post explains how to compute the sorted intersection of two sorted lists, and it shows a fast Python implementation. The time complexity is O(min(n + m, n · log(m)), where n is the minimum of the list lengths, and m is the maximum of the list lengths.
+Django 有各种开发推荐,
+比如, 用 `django.utils.timezone.now` 来获得当前日期,
+但是, 实际上...
 
-- [Your Django Story: Meet Kinga Kiczkowska](http://www.reddit.com/r/pyladies/comments/3uu57j/your_django_story_meet_kinga_ki?czkowska/)
+recommends that you use, for example, django.utils.timezone.now to ensure you always get “the right now” (i.e. timezone-aware). So you might, as with the code example above, extrapolate that timezone.datetime(2015, 1, 1) will give you a timezone-aware “1st of January 2015” datetime object.
+
+
+(`是也乎:`
+
+`django.utils.timezone.datetime` 的故事...
+)
+
+- [Django 1.9 发布](https://www.djangoproject.com/weblog/2015/dec/01/django-19-released/)
+
+经过10个半月的开发,
+Django 团队终于宣布 1.9 发布了.
+和以往版本一样, 发布说明中包含了各种深入细节.
+主要亮点在:
+
+    支持执行后操作
+    事务提交
+    密码验证
+    允许mix-in 基础类
+    全新 contrib.admin 样式
+    支持并行测试
+    ...
+
+- [如何求两个有序列表的交 (在 Python)](http://ptspts.blogspot.com/2015/11/how-to-compute-intersection-of-two.html)
+
+文章解释了有序列表求交原理,
+并展示了 Python 实现的快速版本.
+时间复杂度仅为 : 
+
+    O(min(n + m, n · log(m))
+    其中 n 为最小列表长度
+    m为列表长度最大值
+
+
+- [你的 Django 故事: 遇见 Kinga Kiczkowska](http://www.reddit.com/r/pyladies/comments/3uu57j/your_django_story_meet_kinga_ki?czkowska/)
     + interview
-Kinga is a Django Girls workshop organiser & coach, a novice programmer and a student of Computer Security & Forensics at Edinburgh Napier University. After hours, she likes to unwind with an Oliver Sacks’ book and a surprisingly diversified playlist.
 
-- [Answers to Django Security Questions](http://kevinlondon.com/2015/10/16/answers-to-django-security-questions.html)
+Kinga 是 Django Girls 的教练/组织者,
+同时也是 爱丁堡龙比亚大学 的计算机安全及取证系学生以.
+
+- [Django 的安全性问题回答](http://kevinlondon.com/2015/10/16/answers-to-django-security-questions.html)
     + django
-How much do you know about Django’s security protections? Do you feel confident that you could secure a Django application from attackers?
 
-- [PyDev of the Week: Nick Coghlan](http://feedproxy.google.com/~r/TheMouseVsThePython/~3/nm8O00hOGUc/)
+你知道多少 Django 安全性问题?
+你有信心攻破 Django 应用嘛?
+
+
+- [当周 PyDev: Nick Coghlan](http://feedproxy.google.com/~r/TheMouseVsThePython/~3/nm8O00hOGUc/)
     + interview
-This week we welcome Nick Coghlan (@ncoghlan_dev) as our PyDev of the Week. Nick is a core developer of the Python language. He also write a pretty intense Python blog. Lets take some time to hear what he has to say. 
+
+Nick Coghlan (@ncoghlan_dev) 
+入选择当周蠎星.
+他是 Python 语言核心开发者,
+同时也发布有非常激烈的 Python 技术blog.
+来听听他又说了什么.
 
 
 ### 工作
@@ -62,31 +117,51 @@ This week we welcome Nick Coghlan (@ncoghlan_dev) as our PyDev of the Week. Nick
 
 - [microservices](https://github.com/umermansoor/microservices)
     - 237 Stars, 15 Fork
-Example of Microservices written using Flask.
+
+基于 Flask 构建微服务的实例.
 
 - [musicbot](https://github.com/szastupov/musicbot)
     - 157 Stars, 9 Fork
-Telegram Music Catalog Bot
+
+Telegram 音乐目录机器人
 
 - [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow)
     - 152 Stars, 17 Fork
-Multi-layer Recurrent Neural Networks (LSTM, RNN) for character-level language models in Python using Tensorflow
+
+多层回归神经网络（LSTM，RNN）
+用 Python 实现的 Tensorflow 模型
+
+
 
 - [vocabulary](https://github.com/prodicus/vocabulary)
     - 140 Stars, 8 Fork
-Python Module to get Meaning, Synonym, Antonym, Part of speech, Usage examples, Pronunciation and hyphenation for a given word
+
+Python 模块,
+对给定的字 获得 语义/同义/反义/词性/用法示例/发音/断字...
+
 
 - [article-date-extractor](https://github.com/Webhose/article-date-extractor)
     - 30 Stars, 2 Fork
-Automatically extracts and normalizes an online article or blog post publication date
+
+自动提取和标准化在线文章/blog 的发表日期.
+
 
 - [django-package-monitor](https://github.com/yunojuno/django-package-monitor)
     - 10 Stars, 0 Fork
-A Django app for keeping track of dependency updates
+
+Django 应用的依赖模块跟踪监控!
+
+(`是也乎:`
+
+细思恐极,Dajngo 应用的依赖已经复杂到需要专用服务来监察了了...
+
+)
+
 
 - [emailhunter-clone](https://github.com/alirezasamar/emailhunter-clone)
     - 8 Stars, 0 Fork
-A Clone of emailhunter.co Awesome Service
+
+emailhunter.co 一个很赞服务的 Clone 
 
 ## DAMA 无责任推荐
 
