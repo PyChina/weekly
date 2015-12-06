@@ -31,19 +31,19 @@ Tags: Weekly,Pycoder,ZH
 
 ## 新闻
 
-- [GPIO Zero: 用于物理计算Python API]() 
+- [GPIO Zero: 用于物理计算Python API](https://www.raspberrypi.org/blog/gpio-zero-a-friendly-python-api-for-physical-computing/) 
 帅呆了。使用树莓派来物理计算的Python API。点击查看详情
 This is amazing. A friendly Python API for physical computing with the Raspberry PI. Check it out. 
 raspberrypi.org
 Shared by @ben_nuttall
  
-- [Django 1.9发布]() 
+- [Django 1.9发布](https://www.djangoproject.com/weblog/2015/dec/01/django-19-released/) 
 点击查看Django1.9的新特性并升级你的Django版本吧!
 Check out the new hotness in Django 1.9. Upgrade your versions or click through for more details!
 djangoproject.com
 Shared by @mgrouchy
  
-- [PyPy上可用的Python包]() 
+- [PyPy上可用的Python包](http://packages.pypy.org/) 
 是否想知道有哪些Python包在PyPy上可用？点击查看详情
 Wondering what python packages are installable on PyPy? Check this out.
 pypy.org
@@ -53,11 +53,11 @@ Shared by @mgrouchy
 
 ## 讨论
 
-GvR: The transition to Python 4 won't be like the transition to Python 3 ("we've learned our lesson") 
+- [GvR: 到Python4的过度不会再如到Python3一般 ("我们吸取的教训")](https://www.reddit.com/r/Python/comments/3v62ac/gvr_the_transition_to_python_4_wont_be_like_the/)
 reddit.com
 Shared by @mgrouchy
  
-- [TIL 'import antigravity']() 
+- [TIL 'import antigravity'](https://www.reddit.com/r/Python/comments/3v4bfa/til_import_antigravity/) 
 reddit.com
 Shared by @myusuf3
 
@@ -84,39 +84,44 @@ Shared by @myusuf3
 
 ## 文章
 
-- [使用Python和py2app创建独立的Mac OS X应用]
+- [使用Python和py2app创建独立的Mac OS X应用](https://www.metachris.com/2015/11/create-standalone-mac-os-x-applications-with-python-and-py2app/)
 很酷。如果你正打算创建一个独立的OS X应用，这篇文章正适合你!教程中作者使用py2app创建一个Tkinter mac桌面应用和包。
 This is pretty cool. If you are looking to create distributable standalone apps for OSX this is the article for you. In this tutorial the author creates a simple Tkinter mac desktop app and packages with py2app. 
 metachris.com
 Shared by @mgrouchy
  
-If I were designing Python's import from scratch 
+- [如何从头设计Python的import](http://www.snarky.ca/if-i-were-designing-imort-from-scratch)
+Python核心开发者Brett Cannon关于如何从头设计Python的import的一些想法。
 Some thoughts from core Python developer Brett Cannon of how he would design Python's import if he were starting from scratch. 
 snarky.ca
 Shared by @mgrouchy
  
-- [Django REST框架性能调优]() 
+- [Django REST框架性能调优](https://ses4j.github.io/2015/11/23/optimizing-slow-django-rest-framework-performance/) 
 Django REST框架性能调优介绍及一些常见问题的解决方案。
 A look at Django REST Framework performance and how to fix some common performance problems that pop up. 
 github.io
 Shared by @mgrouchy
  
-Python List Comprehensions: Explained Visually 
+- [Python列表推导式: 更直观的解释](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
+你真的理解列表推导式和装饰器么？也许并没有！这篇文章用可视化的方式帮你理解列表推导式。 
 Can we do an issue without explaining List comprehensions or decorators? Probably not! This is another nice article looking at List Comprehensions in a visual way. 
 treyhunner.com
 Shared by @mgrouchy
  
-Better tests for Redis integrations with redislite 
+- [使用redislite更好的测试redis集成](http://www.obeythetestinggoat.com/better-tests-for-redis-integrations-with-redislite.html)
+介绍了一个叫redislite的很酷的工具, 教你如何用它来巩固你的redis代码库。
 Introduces a pretty cool tool called redislite and teaches how to use it to solidify your redis code base.
 obeythetestinggoat.com
 Shared by @myusuf3
  
-Using Numba for Performance Gains 
+[使用Numba改善性能](http://nbviewer.ipython.org/github/postelrich/fin_examples/blob/master/cva/cva1.ipynb)
+文章讲述了如何使用Numba最小代价来提升性能
 This post looks at how Numba can be used to speed up a finance example with minimal effort.
 ipython.org
 Shared by @myusuf3
  
-Visualize sklearn trees with D3 
+- [使用D3将sklearn包中的树可视化](http://planspace.org/20151129-see_sklearn_trees_with_d3/) 
+可见分类树使用的实际规则，很酷！
 So cool. See the actual rules that classification trees use!
 planspace.org
 Shared by @myusuf3
@@ -126,47 +131,56 @@ Shared by @myusuf3
  
 ## 项目
 
--[glances]() 
+-[glances](https://github.com/nicolargo/glances)
+Python实现的基于cureses库的系统跨平台监控工具。 
 A cross-platform curses-based system monitoring tool written in Python.
 github.com
 Shared by @mgrouchy
  
-acme-tiny 
+- [acme-tiny](https://github.com/diafygi/acme-tiny) 
+Let's Encrypt难以置信了。用着个小脚本可以在Let's Encrypt发布和更新我们的TLS证书。
 Let's Encrypt is incredible. This tiny script can be used to issue and renew TLS certs from Let's Encrypt. 
 github.com
 Shared by @mgrouchy
  
-microservices 
+- [microservices](https://github.com/umermansoor/microservices)
+使用Flask编写微服务的例子 
 Examples of Microservices written using Flask. 
 github.com
 Shared by @myusuf3
  
-conan 
+- [conan](https://github.com/conan-io/conan)
+开源的分布式C/C++包管理器 
 A distributed, open source, package manager for C/C++. Interesting.
 github.com
 Shared by @myusuf3
  
-pick 
+- [pick](https://github.com/bndw/pick)
+OSX和Linux上的迷你密码管理器 
 Minimal password manager for OS X and Linux 
 github.com
 Shared by @myusuf3
  
-vocabulary 
+- [vocabulary](https://github.com/prodicus/vocabulary) 
+Python字典模块。能给出某个词的含义和同义词等。
 Python Module to get Meanings, Synonyms and what not for a given word. Your Python module dictionary!
 github.com
 Shared by @mgrouchy
  
-python-rapidjson 
+- [python-rapidjson](https://github.com/kenrobbins/python-rapidjson)
+RapidJSON的Python包装。RapidJSON是个极速的C++ json序列化库。 
 Python wrapper around RapidJSON. RapidJSON is an extremely fast C++ json serialization library. 
 github.com
 Shared by @myusuf3
  
-ripozo-oasis 
+- [ripozo-oasis](https://github.com/timmartin19/ripozo-oasis)
+号称"使用10行代码就实现数据库RESTFul接口的"项目 
 This project boasts "How to turn your database into a ReSTful API in under 10 lines of code" check it out!
 github.com
 Shared by @ripozoframework
  
-deepdreamer 
+- [deepdreamer](https://github.com/kesara/deepdreamer)
+使用谷歌的DeepDream简单配置Python程序。 
 Easy to configure Python program that make use of Google's DeepDream.
 github.com
 Shared by @kesara_nr
@@ -176,5 +190,5 @@ Shared by @kesara_nr
 
 # 是也乎
 
-- 151129 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
-- 151121 Spawnris(老高) 用时 17 分钟 完成格式转抄.
+- 151207 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
+- 151206 Spawnris(老高) 用时 17 分钟 完成格式转抄.
