@@ -1,6 +1,6 @@
 Title: 蠎加载 53
 Slug: importpython-53
-Date: 2015-13-04 14:42
+Date: 2015-12-04 14:42
 Tags: Weekly,ImportPython,Zh
 
 ![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210)
