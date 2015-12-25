@@ -13,40 +13,95 @@ Tags: Weekly,ImportPython,Zh
 ~ 文章, Blog, 教程...
 
 
-- [Mobile facebook application with django allauth for sign in or up](http://bytefilia.com/titanium-mobile-facebook-application-django-allauth-sign-sign/)
-These past weeks I have been investigating some technologies for a titanium client-server mobile social application with a rest backend. I have come up with a nice config for django with allauth and the rest_framework, all used without too much work form the titanium side. Here are my findings on the subject for a titanium alloy mobile facebook application with django allauth for sign up.
+- [用 Django allauth 进行 facebook 移动应用调查](http://bytefilia.com/titanium-mobile-facebook-application-django-allauth-sign-sign/)
 
-- [Running IPython as a Docker container under OpenShift.](http://blog.dscpl.com.au/2015/12/running-ipython-as-docker-container.html)
+过去几周, 对 titanium C/S 移动社交应用进行了调查,
+通过简单的  Django allauth 配置就能快速进行.
+
+
+- [将 IPython 作为 OpenShift 中的 Docker 容器来运行.](http://blog.dscpl.com.au/2015/12/running-ipython-as-docker-container.html)
     + docker
-I hope this will be useful in guiding people to build better Docker images which are more portable to different ways that Docker can be used. This is going to be much more important going forward as Docker starts to be incorporated into more high level platforms for hosting containers.
 
-- [6 Machine Learning Visualizations made in Python and R](http://moderndata.plot.ly/machine-learning-visualizations-made-in-python-and-r/)
-These 6 visualizations were created in Plotly between 2014 and 2016 and are in some way related to machine learning. They were created using Plotly’s free and open-source graphing libraries for Python and R.
+希望大家能有更多的姿势来任性的使用 Docker,
+OpenShift 中将对更多高层次可托管容器提供服务.
 
-- [Your Django Story: Meet Anna Schneider](http://blog.djangogirls.org/post/135640345113)
+- [6 种机器学习可视化模式用 Python 以及 R 来现实](http://moderndata.plot.ly/machine-learning-visualizations-made-in-python-and-r/)
+
+这6种可视化,是2014年至2016年间使用 Plotly 来完成的,
+Plotly 是基于 Python 以及 R 的开源图形库.
+
+- [你的 Django 故事: 遇见 Anna Schneider](http://blog.djangogirls.org/post/135640345113)
     + djangogirls
-Anna Schneider is the CTO of WattTime, a tech nonprofit that cuts the carbon footprint of smart devices. She taught herself Python during her PhD in biophysics, then taught herself Django two years ago while co-founding WattTime.
 
-- [Introducing Lektor — A Static File Content Management System For Python](http://lucumr.pocoo.org/2015/12/21/introducing-lektor)
-A content management system that uses flat files as source files like most other systems, but it has a locally hosted admin panel that a non programmer can use. You install the application, double click on the project, a browser opens and you can edit the pages. It builds in the background into static HTML files and there is a publish button to ship it up to a server. For collaboration one can use Dropbox.
+Anna Schneider 是 WattTime 的 CTO,
+一个技术非营利组织, 旨在减少智能设备的碳足迹!
+在她生物物理学博士期间,自学了 Python,
+两年前又自学了 Django,
+进一步创立了 WattTime!
 
-- [Reflecting on My Time as Caktus' Open Source Fellow](https://www.caktusgroup.com/blog/2015/12/21/reflecting-my-time-caktus-open-source-fellow/)
-My name is Ben Phillips and I am Caktus' Open Source Fellow. As my fellowship comes to a close, I wanted to reflect on my time at Caktus and to share my experience and some of what I've learned here.
 
-- [My top 5 'new' python modules of 2015](http://blog.rtwilson.com/my-top-5-new-python-modules-of-2015/)
+- [介绍 Lektor — 静态文件管理系统](http://lucumr.pocoo.org/2015/12/21/introducing-lektor)
+
+内容管理系统, 类似其它同类系统使用文件作为源.
+但是,有本地托管的管理面板, 
+以便非程序员使用.
+当前可安装/双击/打开浏览器/编辑页面,
+基于静态 HTML 页面,
+并用发布按钮发布到服务器,
+兼容 Dropbox 后端.
+
+
+(`是也乎:`
+
+pocoo 出品,必属上品!
+又得及时上手一种仙器矣.
+
+![](https://raw.githubusercontent.com/lektor/lektor-archive/master/screenshots/admin.png)
+
+简单的说,又一个静态wiki
+)
+
+
+
+- [作为 Caktus' 开源研究员重构我的时间](https://www.caktusgroup.com/blog/2015/12/21/reflecting-my-time-caktus-open-source-fellow/)
+
+Ben Phillips 是 Caktus' 开源研究员. 
+当奖学金即将结束时,
+认真反省了过往的时间以及经验.
+
+- [2015 心目中最赞 '新' Python 模块](http://blog.rtwilson.com/my-top-5-new-python-modules-of-2015/)
     + core python
-As I’ve been blogging a lot more about Python over the last year, I thought I’d list a few of my favourite ‘new’ Python modules from 2015. These aren’t necessarily modules that were newly released in 2015, but modules that were ‘new to me’ this year – and may be new to you too!
 
-- [Creating NBA shot charts with Python](http://www.danvatterott.com/blog/2015/12/22/creating-nba-shot-charts/)
-Here I create shot charts depicting both shooting percentage and the number of shots taken at different court locations
+过去一年中写了很多 blogging,
+应该能列出年度最佳模块.
+虽然都在 2015 发布了版本,是 '新的' ;-)
+当然对于读者可能是 '真的新'
 
-- [Let’s Build A Simple Interpreter. Part 1 to Part 7. [Python and Rust]](http://ruslanspivak.com/lsbasi-part7/)
-If you don’t know how compilers work, then you don’t know how computers work. If you’re not 100% sure whether you know how compilers work, then you don’t know how they work.” — Steve Yegge So, do you know how compilers and interpreters work? And I mean, are you 100% sure that you know how they work? If you don’t. Do not worry. If you stick around and work through the series and build an interpreter and a compiler with me you will know how they work in the end. And you will become a confident happy camper too.
+- [用 Python 创建 NBA 射栏榜](http://www.danvatterott.com/blog/2015/12/22/creating-nba-shot-charts/)
+
+通过统计不同场次中的照片,
+构造了射栏统计图,对比双方的投篮命中率.
+
+- [构建简单 Interpreter. 第 1 ~ 7. [Python 和 Rust]](http://ruslanspivak.com/lsbasi-part7/)
+
+"如果你并不理解编译器如何工作的,
+那么其实你并不理解计算机的工作.
+如何你无法 100% 的理解计算机的工作,
+那么就无法理解程序猿的工作" - Steve Yegge
+
+所以,想知道编译器/解释器的工作?
+意思是 100% 的清楚?
+别担心, 通过一系列 解释器和编译器的构建练习,
+你必定能理解他们的工作,从而变的自信又快乐!
 
 
-- [Sophy: fast Python bindings for Sophia Database](http://www.reddit.com/r/Python/comments/3xilqu/sophy_fast_python_bindings_for_sophia_database/)
 
-Sophia is a powerful key/value database with loads of features packed into a simple C API. In order to use this database in some upcoming projects I've got planned, I decided to write some Python bindings and the result is sophy. In this post, I'll describe the features of Sophia database, and then show example code using sophy, the Python wrapper. 
+- [Sophy: 高速 Sophia 数据 Python 绑定库](http://www.reddit.com/r/Python/comments/3xilqu/sophy_fast_python_bindings_for_sophia_database/)
+
+Sophia 是种强力 K/V 数据库,
+通过简洁的 C 接口发布了丰富的功能.
+为了使用之,作者构建了 Python 绑定.
+文章中介绍了 Sophia 数据库,以及如何通过 Sophy 来使用.
 
 
 ### 工作
@@ -60,23 +115,34 @@ Sophia is a powerful key/value database with loads of features packed into a sim
 
 - [lektor](https://github.com/lektor/lektor)
     - 909 Stars, 29 Fork
-The lektor static file content management system
+
+静态文件的内容管理系统
 
 - [ispy](https://github.com/dellis23/ispy)
     - 756 Stars, 26 Fork
-A python script for monitoring the output of other terminals and processes.
+
+用于监测其他终端和流程的输出
 
 - [ComicFetcher](https://github.com/XIAZY/ComicFetcher)
     - 13 Stars, 1 Fork
-A crawler to collect comics from comic.ck101.com
+
+从 comic.ck101.com 收集漫画的抓取工具
+
 
 - [dj-ango](https://github.com/pydanny/dj-ango)
     - 11 Stars, 0 Fork
-Simplifying the import structure of Django.
+
+Django 的简化输入结构
 
 - [Python-Packet-Sniffer](https://github.com/buckyroberts/Python-Packet-Sniffer)
     - 6 Stars, 0 Fork
-Python network packet sniffer.
+
+Python的网络数据包嗅探器
+
+(`是也乎:`
+
+Wow!
+)
 
 ## DAMA 无责任推荐
 
