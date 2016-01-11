@@ -13,43 +13,90 @@ Tags: Weekly,ImportPython,Zh
 
 
 
-- [Development and Deployment of Cookiecutter-Django via Docker - Real Python](https://realpython.com/blog/python/development-and-deployment-of-cookiecutter-django-via-docker/)
+- [用 Cookiecutter-Django 通过 Docker 进行开发和部署 - Real Python](https://realpython.com/blog/python/development-and-deployment-of-cookiecutter-django-via-docker/)
     + django
-Let’s look at how to bootstrap a Django Project pre-loaded with the basic requirements needed in order to quickly get a project up and running. Further, beyond the project structure, most bootstrapped projects also take care of setting up the development and production environment settings, without troubling the user much – so we’ll look at that as well.
 
-- [Book Review: Web Scraping with Python](http://toddhayton.com/2016/01/04/book-review-web-scraping-with-python/)
+能快速引导新人完成一个 Django 项目的启动和运行是非常有必要的.
+这其实需要非常合理的预安装,
+通过实例来看看怎么折腾这事儿....
+
+- [书评: 用 Python 进行网页抓取](http://toddhayton.com/2016/01/04/book-review-web-scraping-with-python/)
     + python
-The book is terrific and manages to cover a lot of important scraping topics in just 140 pages. The author provides enough information so that by the end of the book you've got an arsenal of techniques and code for scraping a variety of websites. At the same time, the book avoids getting bogged down on any one topic.
 
-- [Beautiful, fully-customizable choropleth maps in Python + matplotlib + basemap (with ipython notebook in github repo)](http://geoffboeing.com/2015/12/world-population-projections/)
+了不起的好书,
+包涵了很多重要主题,
+在短短 140 页中,作者提供出足够的信息,
+并在结尾给出了关键技术/代码相关资源.
+
+(`是也乎:`
+
+同创业项目一样,图书也倾向小而美...
+
+)
+
+- [美妙的完全可定制的等值线图生成,用 Python + matplotlib + basemap (在 github repo 中直接上 ipython notebook)](http://geoffboeing.com/2015/12/world-population-projections/)
     + python
-The U.N. world population prospects data set depicts the U.N.’s projections for every country’s population, decade by decade through 2100. The 2015 revision was recently released, and I analyzed, visualized, and mapped the data (methodology and code described below).
 
-- [Integrating Facebook Login in AngularJS App with Satellizer](http://www.toptal.com/angular-js/facebook-login-angularjs-app-satellizer)
-Satellizer, an easy to use token-based authentication module for AngularJS, simplifies the process of implementing authentication mechanism in AngularJS, The library comes with built-in support for Google, Facebook, LinkedIn, Twitter, Instagram, GitHub, Bitbucket, Yahoo, Twitch, and Microsoft (Windows Live) accounts.
+联合国世界人口展望数据集,描述了 U.N 
+对每个国家的人口直到 2100 年的预测,
+最近刚刚发布了修订版本.
+作者分析/可视化/数据映射方法和代码如下...
 
-- [Serializing Authenticated User Data With Django REST Framework](http://gregblogs.com/tlt-serializing-authenticated-user-data-with-django-rest-framework/)
+
+- [在 AngularJS App 中用 Satellizer 整合入 Facebook 登录](http://www.toptal.com/angular-js/facebook-login-angularjs-app-satellizer)
+
+Satellizer 是 AngularJS 中易用的令牌式认证模块,
+简化了认证的实施过程,
+内置有 google/Facebook/LinkedIn/Twitter/Insagram/Github/Bitbucket
+/Yahoo/Twitch 以及 M$(Windows Live) 帐号.
+
+
+- [用 Django REST 框架序列化用户身份信息](http://gregblogs.com/tlt-serializing-authenticated-user-data-with-django-rest-framework/)
     + django
-I have a user-agnostic set of data: data that has nothing to do with the user viewing the site. I want to make that data somewhat personal by adding attributes (fields) to the data that suit an authenticated (logged-in) user. Django REST framework easily allows me to serialize the data model. The serialized data has fields corresponding with data model fields.
 
-- [Your Django Story: Meet K. Rain Leander](http://blog.djangogirls.org/post/136629466373)
+想管理一种用户无关的数据:非用户查看网站的数据.
+本来想通过扩展定制字段来进行,
+但是, Django 的 REST 框架,可以更加简单的完成!
+
+- [你的 Django 故事: 遇见 K. Rain Leander](http://blog.djangogirls.org/post/136629466373)
     + interview
-K. Rain Leander is a systematic, slightly psychic, interdisciplinary developer evangelist with a Bachelor’s in dance and a Master’s in IT. An epic public speaker, she has disappeared within a box stuffed with swords, created life, and went skydiving with the Queen. Seriously. Rain is an active technical contributor with RDO manager, OpenStack, Django Girls, and Project DO.
 
-- [Disabling Migrations While Testing](http://albertoconnor.ca/blog/2016/Jan/6/disabling-migrations-while-testing)
+K. Rain Leander 
+是位系统的跨学科的开发者和布道师,
+同时拥有 IT 和 舞蹈硕士学位.
+史诗般的公共演说家.
+头脑里塞满了各种东西...
+进一步的还是 RDD 经理,
+OpenStack/Django女孩 技术贡献者.
+
+
+
+- [测试中禁用迁移](http://albertoconnor.ca/blog/2016/Jan/6/disabling-migrations-while-testing)
     + django
-If you have a large Django 1.7+ project with a lot of migrations running test even with --keepdb can be slow just because the new migration framework has to order the migrations even if there is nothing to do.
 
-- [Python Module of the Week for Python 3](http://feedproxy.google.com/~r/PyMOTW/~3/ATlwJ72Lxmo/)
-    + python
-Over the last several years since my book, The Python Standard Library by Example, was published many folks I’ve talked with at conferences or by email have asked when I would be updating the content for Python 3. I’ve been putting off that work, mostly because of other projects. I’m happy to announce that I’ve finally started updating the content and intend to publish updates weekly.
+如果你有一个大型 Django 1.7+ 系统,
+即使有 `--keepdb` 参数,运行测试依然非常慢.
+因为,新的迁移框架并没有真正作什么.
 
-- [Elements of Python Style](https://github.com/amontalenti/elements-of-python-style)
+- [本周 Py3 模块之星](http://feedproxy.google.com/~r/PyMOTW/~3/ATlwJ72Lxmo/)
     + python
+
+过去几年间, Python 标准模块以身作则,
+总是对兼容迁移拖延不止....
+现在,终于可以高兴的宣告, 终于开始规模化的迁移了,
+准备每周发布更新!
+
+- [Python 风格要素](https://github.com/amontalenti/elements-of-python-style)
+    + python
+
+该文件超出了 PEP8 的内容,
+给出了作者认为伟大的 Python 风格的核心.
+
 This document goes beyond PEP8 to cover the core of what I think of as great Python style. It is opinionated, but not too opinionated. It goes beyond mere issues of syntax and module layout, and into areas of paradigm, organization, and architecture. I hope it can be a kind of condensed "Strunk & White" for Python code.
 
-- [Pymux: a tmux clone in pure Python](http://www.reddit.com/r/Python/comments/3z9rwt/pymux_a_tmux_clone_in_pure_python/)
-A terminal multiplexer (like tmux) in Python 
+- [Pymux: 纯粹 Py 实现的 tmux clone](http://www.reddit.com/r/Python/comments/3z9rwt/pymux_a_tmux_clone_in_pure_python/)
+
+多终端复用器的 Py 实现
 
 ### 工作
 
@@ -62,39 +109,64 @@ A terminal multiplexer (like tmux) in Python
 
 - [docker-autocompose](https://github.com/Red5d/docker-autocompose)
     - 31 Stars, 1 Fork
-Generate a docker-compose yaml definition from a running container
+
+从运行中的 Docker 容器中, 自动生成 docker-compose yaml 定义,
+
 
 - [import_from_github_com](https://github.com/nvbn/import_from_github_com)
     - 19 Stars, 0 Fork
-Python module finder/loader from github, like in golang
+
+从 github 中搜索/加载 模块,
+就象 golang
+
+(`是也乎:`
+
+Wow ! 这样好嘛!?
+
+`(Please don't use it)`
+
+人家也曰了实话了...
+
+)
 
 - [New-Year-Tower-Light](https://github.com/ladyada/New-Year-Tower-Light)
     - 16 Stars, 2 Fork
+
 IoT Tower alert we did this last night of 2015!!
 
 - [Job-Parser](https://github.com/basalamader/Job-Parser)
     - 15 Stars, 7 Fork
-small web parser that gets all the top jobs and visualizes the various salaries for each position
+
+通过小型 web 分析器
+获得所有高层职位并可视化各个层次的工资情况
+
 
 - [django-sequences](https://github.com/aaugustin/django-sequences)
     - 12 Stars, 0 Fork
-Generate gap-less sequences of integer values.
+
+生成整型 gap-less 序列.
 
 - [PenBox](https://github.com/x3omdax/PenBox)
     - 10 Stars, 6 Fork
+
+所有渗透测试需要的所有工具!
+
 A tool that has all the tools , penetration tester's repo
 
 - [GoFeather](https://github.com/frou/GoFeather)
     - 9 Stars, 0 Fork
-Alternate Go mode for Sublime Text 3
+
+为 Sublime Text 3 完成的 Go 模式的拟造
 
 - [PyFladesk-rss-reader](https://github.com/smoqadam/PyFladesk-rss-reader)
     - 7 Stars, 0 Fork
-simple rss reader by PyFladesk
+
+简单 rss reader 用 PyFladesk 完成
 
 - [Mosaicer](https://github.com/texruska/Mosaicer)
     - 6 Stars, 1 Fork
-A quick and dirty mosaic generating program
+
+快而糙的 mosaic 生成
 
 ## DAMA 无责任推荐
 
