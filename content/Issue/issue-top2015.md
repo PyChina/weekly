@@ -39,60 +39,70 @@ Like what we are doing? Have any comments or suggestions? Check us out on twitte
 ## 项目
  
 - [Delorean](https://github.com/myusuf3/delorean/)
+让时区操作更简单
 Timezones Made Easy
 github.com
 Shared by @myusuf3
  
 
 - [huptime](https://github.com/amscanne/huptime)
+零停机重启工具
 This is pretty neat. A Utility for zero downtime restarts of unmodified programs.
 github.com
 Shared by @mgrouchy
  
 
 - [ptpython](https://github.com/jonathanslenders/ptpython)
+新一代REPL神器，自带自动补全，批量编辑，语法检验等功能.
 An attempt to make a better Python REPL, includes features like autocompletion, multiline editing, syntax validation and more.
 github.com
 Shared by @mgrouchy
  
 
 - [mkcast](https://github.com/KeyboardFire/mkcast)
+记录键盘输入并创建终端录屏GIF的神器!
 Very cool. This tool allows you to create GIF screencasts of a terminal allowing you to overlay key presses.
 github.com
 Shared by @mgrouchy
  
 
 - [PyDark](https://github.com/SirFroweey/PyDark)
+Pygame和Python实现的2D多人网游
 An online 2D multiplayer game written with Python and Pygame.
 github.com
 Shared by @mgrouchy
  
 
 - [geoplotlib](https://github.com/andrea-cuttone/geoplotlib)
+Python实现的地理数据可视化的工具集
 A collection of tools for visualizing geographical data in Python.
 github.com
 Shared by @mgrouchy
  
 
 - [flit](https://github.com/takluyver/flit)
+简化Python模块打包的工具
 Flit is an attempt at simplifying packaging for Python modules.
 github.com
 Shared by @mgrouchy
  
 
 - [boltons](https://github.com/mahmoud/boltons)
+大量BSD许可的Python实用工具集,标准库没有的，这里都有
 A collection of things that would be useful in the stdlib but aren't there. Pretty nice collection of BSD licensed tools here. Check out the full docs here.
 github.com
 Shared by @mgrouchy
  
 
 - [parserator](https://github.com/datamade/parserator)
+特定领域文本解析器
 This is pretty legit! A toolkit for making domain-specific probabilistic parsers! Not sure why, bunch of examples after the jump.
 github.com
 Shared by @myusuf3
  
 
 - [pipreqs](https://github.com/bndr/pipreqs)
+根据项目中导入的模块生成你自己的requirements.txt
 Generate yourself a requirements.txt based on the imports in your project. Useful!
 github.com
 Shared by @mgrouchy
@@ -111,18 +121,21 @@ Shared by @mgrouchy
  
 
 - [mkdocs](https://github.com/mkdocs/mkdocs/)
+使用Markdown编写项目文档的平台
 Nice project. A platform for doing your project documentation with Markdown.
 github.com
 Shared by @myusuf3
  
 
 - [selene](https://github.com/yashaka/selene)
+基于Python和Selenium的编写的简洁UI测试的框架
 A framework for writing concise UI tests with Python and Selenium.
 github.com
 Shared by @andybak
  
 
 - [ytfs](https://github.com/rasguanabana/ytfs)
+像操作文件一样搜索并播放YouTube上的电影
 So cool! A File system which enables you to search and play movies from YouTube as files!
 github.com
 Shared by @mgrouchy
@@ -411,36 +424,42 @@ Shared by @mgrouchy
  
 
 - [question](https://github.com/blha303/question)
+用于快速提问的Flask web server
 Neat. A Flask web server for quickly asking someone a question.
 github.com
 Shared by @mgrouchy
  
 
 - [Airflow: a workflow management platform](http://nerds.airbnb.com/airflow/)
+Airflow则是Airbnb内部发起、排序、监控data pipeline的工具
 This is great. From the crew at AirBNB Airflow is a workflow management platform built in Python and all the jobs executed in the platform are written in Python. Definitely worth a look.
 airbnb.com
 Shared by @myusuf3
  
 
 - [ptop](https://github.com/black-perl/ptop)
+Python实现的任务管理器
 A task manager, written in python.
 github.com
 Shared by @myusuf3
  
 
 - [Pyxley](http://multithreaded.stitchfix.com/blog/2015/07/16/pyxley/)
+致力于创建仪表的Python库！
 Python Powered Dashboards! This is pretty legit!
 stitchfix.com
 Shared by @myusuf3
  
 
 - [hug](https://github.com/timothycrosley/hug)
+Python下极简创建Web API的工具包
 Drastically simplify Python API development with this Project. Click through to see some examples in the projects documentation.
 github.com
 Shared by @mgrouchy
  
 
 - [flexx](https://github.com/zoofIO/flexx)
+基于Web技术的Python UI 工具箱
 Flexx is a pure Python toolkit for creating graphical user interfaces (GUI's), that uses web technology for its rendering.
 github.com
 Shared by @myusuf3
@@ -449,12 +468,12 @@ Shared by @myusuf3
 - [prettyconf](https://github.com/osantana/prettyconf)
 A extensible library for Settings and Code separation. Meant to follow the 12Factor app recommendations.
 [12Factor](http://12factor.net/)
-
 github.com
 Shared by @myusuf3
  
 
 - [tasktiger](https://github.com/closeio/tasktiger)
+基于redis的Python任务队列, 可替换Celery的方案,由Close.io的crew开发并使用.
 A Python task queue backed by redis. Used and developed by the crew at Close.io and meant to be an alternative to using something like Celery.
 github.com
 Shared by @thomas_st
@@ -467,48 +486,56 @@ Shared by @mgrouchy
  
 
 - [schedule](https://github.com/dbader/schedule)
+代替cron的定时任务系统
 Job Scheduling for humans. An alternative to cron and maybe useful in your next project?
 github.com
 Shared by @mgrouchy
  
 
 - [Watson](https://github.com/TailorDev/Watson)
+终端时间管理软件
 A pretty nice looking CLI time tracking app. \
 github.com
 Shared by @julienmaupetit
  
 
 - [ohmu](https://github.com/paul-nechifor/ohmu)
+磁盘空间终端可视化工具
 Pretty cool, get a visualization of your Disk space on the command line.
 github.com
 Shared by @mgrouchy
  
 
 - [Legofy](https://github.com/JuanPotato/Legofy)
+图像乐高化工具
 Fun project that makes an image look like it has been created with Lego's!
 github.com
 Shared by @mgrouchy
  
 
 - [remi](https://github.com/dddomodossola/remi)
+迷你Python GUI库
 Impressively small, platform independent python GUI library.
 github.com
 Shared by @mgrouchy
  
 
 - [sen](https://github.com/TomasTomecek/sen)
+方便管理docker引擎的终端接口
 Pretty nice looking terminal interface for docker engine.
 github.com
 Shared by @myusuf3
  
 
 - [glances](https://github.com/nicolargo/glances)
+Python实现的基于curses库的跨平台系统监控软件
 A cross-platform curses-based system monitoring tool written in Python.
 github.com
 Shared by @mgrouchy
  
 
 - [ping-me](https://github.com/OrkoHunter/ping-me)
+终端备忘录
 Get all of your reminders done just by a single line command on your favorite terminal screen.
 github.com
 Shared by @mgrouchy
@@ -521,10 +548,12 @@ Shared by @mgrouchy
  
 
 - [py-spin](https://github.com/lord63/py-spin)
+
 Spinners in your terminal.
 github.com
 Shared by @mgrouchy
   
+
 ## 文章
 
 - [Using Celery With Flask](http://blog.miguelgrinberg.com/post/using-celery-with-flask)
