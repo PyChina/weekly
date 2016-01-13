@@ -556,7 +556,8 @@ Shared by @mgrouchy
 
 ## 文章
 
-- [Using Celery With Flask](http://blog.miguelgrinberg.com/post/using-celery-with-flask)
+- [Flask中使用Celery](http://blog.miguelgrinberg.com/post/using-celery-with-flask)
+详细的教程指引你如何在Flask 应用中使用Celery.
 Detailed tutorial to help you get starting using Celery with your next Flask application.
 miguelgrinberg.com
 Shared by @mgrouchy
@@ -1005,193 +1006,225 @@ hackflow.com
 Shared by @myusuf3
  
 
-- [Python: faster way](http://pythonfasterway.uni.me/)
+- [Python: 如何更快](http://pythonfasterway.uni.me/)
+如何让你的Python更快
 Really cool reference of common things you might do in Python and the faster, more "optimized" way to do them.
 uni.me
 Shared by @mgrouchy
  
 
-- [PyFormat: Using % and .format() for great good!](http://pyformat.info/)
+- [PyFormat: 运用 % 和 .format() 令世界更好!](http://pyformat.info/)
+网站展示了新老字符串格式化接口的实用例子。
 This site we try to show you the most common use-cases covered by the old and new style string formatting API with practical examples. For those of your looking for a refresher take a gander.
 pyformat.info
 Shared by @myusuf3
  
 
-- [The Little Book of Python Anti-Patterns — Python Anti-Patterns](http://docs.quantifiedcode.com/python-anti-patterns/index.html)
+- [有本小书: Python Anti-Patterns](http://docs.quantifiedcode.com/python-anti-patterns/index.html)
+Python编程中不该做的几件事儿
 Fantastic collection of the "what not to do's" of Python programming.
 quantifiedcode.com
 Shared by @quantifiedcode
  
 
-- [Using Docker and Docker Compose for local Django development (replacing virtualenv)](https://www.calazan.com/using-docker-and-docker-compose-for-local-django-development-replacing-virtualenv/#.VULF_bAmduE.reddit)
+- [使用Docker和Docker Compose来代替virtualenv搭建本地Django开发环境](https://www.calazan.com/using-docker-and-docker-compose-for-local-django-development-replacing-virtualenv/#.VULF_bAmduE.reddit)
+想知道如何使用Docker搭建你的Python本地开发环境么?这篇文章就是你的不二之选
 Wondering what this Docker thing is all about and how you can use it for your Python dev environments? Then this post is for you, detailed guide to get you up and running.
 calazan.com
 Shared by @mgrouchy
  
 
-- [Good Test, Bad Test](http://late.am/post/2015/04/20/good-test-bad-test.html)
+- [测试的好与坏](http://late.am/post/2015/04/20/good-test-bad-test.html)
+很好的讨论,是应该测试你想要的还是测试你不想要的.
 Nice discussion around test you want vs. test you want less.
 late.am
 Shared by @myusuf3
  
 
-- [Optimize Python with Closures](http://late.am/post/2015/05/07/optimize-python-with-closures.html)
+- [使用闭包来优化你的Python代码](http://late.am/post/2015/05/07/optimize-python-with-closures.html)
+教你如何闭包来优化你的Python代码
 Informative post about using Closures in Python to optimize your Python code.
 late.am
 Shared by @mgrouchy
  
 
-- [A simple example of Python OOP development (with TDD) - Part 1](http://lgiordani.com/blog/2015/05/13/python-oop-tdd-example-part1/)
+- [Python面向对象开发实例(TDD)- 第1部分](http://lgiordani.com/blog/2015/05/13/python-oop-tdd-example-part1/)
+一篇很好的教程, 讲述如何使用 OOP 思想和 TDD 来开发一个Python包.
 Nice introductory total to develop a Python package using some object oriented programming concepts and Test Driven Development.
 lgiordani.com
 Shared by @@tw_lgiordani
  
 
-- [Fun with Django's New Postgres Features](https://realpython.com/blog/python/fun-with-djangos-new-postgres-features/)
+- [Django Postgres新特性带来的快乐](https://realpython.com/blog/python/fun-with-djangos-new-postgres-features/)
+Django 1.8的PostgreSQL新功能演示.
 Pretty nice walkthrough of Django 1.8's new PostgreSQL features.
 realpython.com
 Shared by @mgrouchy
  
 
-- [Guide For Data Exploration In Python](http://www.analyticsvidhya.com/blog/2015/04/comprehensive-guide-data-exploration-sas-using-python-numpy-scipy-matplotlib-pandas/)
+- [Python数据探索指南](http://www.analyticsvidhya.com/blog/2015/04/comprehensive-guide-data-exploration-sas-using-python-numpy-scipy-matplotlib-pandas/)
+非常详细的描述了如何使用流行的数据分析工具来探索你的数据,涉及 Numpy, Matplotlib 和 Pandas.
 Very detailed guide to exploring your data with all the top datascience tools like Numpy, Matplotlib and Pandas.
 analyticsvidhya.com
 Shared by @mgrouchy
  
 
-- [5 Simple Rules For Building Great Python Packages](http://axialcorps.com/2013/08/29/5-simple-rules-for-building-great-python-packages/)
+- [构建优质Python包的5个简单原则](http://axialcorps.com/2013/08/29/5-simple-rules-for-building-great-python-packages/)
+遵循以下原则来提升你Python包的质量
 Follow these rules to improve your Python packages.
 axialcorps.com
 Shared by @mgrouchy
  
 
-- [Python's Web Framework Benchmarks](http://klen.github.io/py-frameworks-bench/)
+- [Python的Web框架压测](http://klen.github.io/py-frameworks-bench/)
+YAPWFB, 我知道你在想: "Falcon是什么鬼?!"
 YAPWFB, I know what you are thinking what is Falcon?
 github.io
 Shared by @myusuf3
  
 
-- [pip -t: A simple and transparent alternative to virtualenv](http://blog.zoomeranalytics.com/pip-install-t/)
+- [pip -t: 代替virtualenv, 更简单, 更透明](http://blog.zoomeranalytics.com/pip-install-t/)
+教你如何使用pip -t 作为virtualenv的轻量级替代品
 A guide/howto for pip -t as a lightweight alternative to virtualenvs.
 zoomeranalytics.com
 Shared by @mgrouchy
  
 
-- [Python descriptors made simple](http://www.smallsurething.com/python-descriptors-made-simple/)
+- [Python描述符](http://www.smallsurething.com/python-descriptors-made-simple/)
+又一讲解Python描述符的好文章
 Informative article on Python descriptors.
 smallsurething.com
 Shared by @mgrouchy
  
 
-- [Background tasks in Python 3.5](http://www.curiousefficiency.org/posts/2015/07/asyncio-background-calls.html)
+- [用Python 3.5处理后台任务](http://www.curiousefficiency.org/posts/2015/07/asyncio-background-calls.html)
+本文描述了如何使用Python3.5中的asyncio来异步的处理后台任务
 In this post the author addresses how you would do background tasks in Python 3.5 with asyncio.
 curiousefficiency.org
 Shared by @mgrouchy
  
 
-- [My Python Code is Slow? Tips for Profiling](http://marcobonzanini.com/2015/01/05/my-python-code-is-slow-tips-for-profiling/)
+- [你的代码很慢？让我们来剖析一下](http://marcobonzanini.com/2015/01/05/my-python-code-is-slow-tips-for-profiling/)
+Python项目的分析技巧和策略集锦
 A collection of tips and strategies for Profiling your next (or current) Python application!
 marcobonzanini.com
 Shared by @mgrouchy
  
 
-- [Readable regular expressions in Python](http://tonysyu.github.io/readable-regular-expressions-in-python.html)
+- [如何用Python编写具有可读性的正则表达式](http://tonysyu.github.io/readable-regular-expressions-in-python.html)
+正则表达式的正确命名方式
 Introduction to named regular expressions!
 github.io
 Shared by @myusuf3
  
 
-- [ORMs under the hood](http://www.vertabelo.com/blog/technical-articles/orms-under-the-hood)
+- [ORMs详解](http://www.vertabelo.com/blog/technical-articles/orms-under-the-hood)
+你是否想过ORM是如何工作的?文章描述了ORM的构成和工作原理,以及一些现有ORM的介绍和使用SQLAlchemy的一些用例
 Ever wonder how ORM's work? This takes a look at how ORM's work and are constructed, also has a brief look at available ORM's out there and some sample code with SQLAlchemy.
 vertabelo.com
 Shared by @mgrouchy
  
 
-- [Build massively scalable RESTFul API with Falcon and PyPy](https://impythonist.wordpress.com/2015/09/12/build-massively-scalable-restful-api-with-falcon-and-pypy/)
+- [使用Falcon和PyPy构建大规模弹性RESTFul API](https://impythonist.wordpress.com/2015/09/12/build-massively-scalable-restful-api-with-falcon-and-pypy/)
+我们很少能见到Falcon相关的文章,而这篇文章讲述如何使用Falcon和PyPy构建API,写的很棒,值得一读
 We don't see too many blog posts talking about Falcon and this is a great post discussing building an API with Falcon and PyPy, worth reading!
 wordpress.com
 Shared by @Narenarya3
  
 
-- [Design Patterns Explained - A repository for learning Python from scratch](http://www.pysnap.com/design-patterns-explained/)
+- [设计模式解读 - 从零开始学习Python](http://www.pysnap.com/design-patterns-explained/)
+非常实用. 大量设计模式的Python实现.
 Very useful. A large collection of design pattern explained, including their python implementation.
 pysnap.com
 Shared by @mgrouchy
  
 
-- [Random Forests in Python](http://blog.yhathq.com/posts/random-forests-in-python.html)
+- [Python实现的随机森林](http://blog.yhathq.com/posts/random-forests-in-python.html)
+Python和随机森林介绍
 Introduction to Random Forests and Python
 yhathq.com
 Shared by @myusuf3
  
 
 - [Python zip( ) Fu](http://pavdmyt.com/python-zip-fu/)
+Python中使用zip技巧集锦!
 A bunch of tips and uses for Python's zip function!
 pavdmyt.com
 Shared by @mgrouchy
  
 
-- [Profiling Python in Production](https://nylas.com/blog/performance)
+- [Python生产环境配置](https://nylas.com/blog/performance)
+教你如何在生产环境配置你的Python应用,值得一读!
 Fantastic guide to get you going profiling your Python applications, great read!
 nylas.com
 Shared by @mgrouchy
  
 
-- [Getting started with machine learning in Python](https://www.dataquest.io/blog/getting-started-with-machine-learning-python/)
+- [Python机器学习入门](https://www.dataquest.io/blog/getting-started-with-machine-learning-python/)
+机器学习入门
 Beginners guide to machine learning!
 dataquest.io
 Shared by @myusuf3
  
 
-- [Don’t use pickle — use Camel](http://eev.ee/blog/2015/10/15/dont-use-pickle-use-camel/)
+- [拒绝pickle — 用Camel](http://eev.ee/blog/2015/10/15/dont-use-pickle-use-camel/)
+PSA:拒绝使用pickle. 文章告诉大家千万不要使用pickle,并学会如何使用Camel来代替pickle
 PSA: Don't use pickle. Really don't use pickle but in this article the author demonstrates how to use an alternative, Camel.
 eev.ee
 Shared by @mgrouchy
  
 
-- [Python 101: Lambda Basics](http://www.blog.pythonlibrary.org/2015/10/28/python-101-lambda-basics/)
+- [Python 101: Lambda基础](http://www.blog.pythonlibrary.org/2015/10/28/python-101-lambda-basics/)
+对Lambda表达式感到好奇?只有语法概念?看看这篇文章,来学习下Python中lambda表达式的基本知识吧.
 Wondering about Lambdas? Just trying to wrap your head around the syntax? Check out this post and learn all the basics of Python Lambdas.
 pythonlibrary.org
 Shared by @mgrouchy
  
 
-- [Building Simple Command Line Interfaces in Python](https://stormpath.com/blog/building-simple-cli-interfaces-in-python/)
+- [使用Python构建简单命令行接口](https://stormpath.com/blog/building-simple-cli-interfaces-in-python/)
+文章介绍了如何使用docopt来快速构建命令行界面,以及构造简单程序的经验.
 This article shows you how to build simple command line programs with python and docopt -- and how to structure your programs for simplicity.
 stormpath.com
 Shared by @rdegges
  
 
-- [Building Interactive Dashboards with Jupyter](http://blog.dominodatalab.com/interactive-dashboards-in-jupyter/)
+- [使用Jupyter创建交互式仪表](http://blog.dominodatalab.com/interactive-dashboards-in-jupyter/)
+很赞的实用教程，教你如何使用jupyter创建交互式仪表
 Fantastic tutorial for creating really useful interactive dashboards in jupyter.
 dominodatalab.com
 Shared by @mgrouchy
  
 
-- [5 easy to fix code review finds that boost your software security](https://www.quantifiedcode.com/blog/5-easy-to-fix-code-review-finds-that-boost-your-software-security)
+- [5招快速定位你代码中的安全问题](https://www.quantifiedcode.com/blog/5-easy-to-fix-code-review-finds-that-boost-your-software-security)
+这有一些方法,方便你在代码审查的时候快速定位你代码中存在的安全问题
 Here are some easy targets to identify security problems during routine code reviews.
 quantifiedcode.com
 Shared by @quantifiedcode
  
 
-- [Python's Hidden Regular Expression Gems](http://lucumr.pocoo.org/2015/11/18/pythons-hidden-re-gems/)
+- [你不知道的Python正则表达式心得](http://lucumr.pocoo.org/2015/11/18/pythons-hidden-re-gems/)
+一些使用Python正则表达式模块的技巧
 A look at some of the niceties in Python's Regular Expression module.
 pocoo.org
 Shared by @mgrouchy
  
 
-- [Python List Comprehensions: Explained Visually](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
+- [Python列表推导式: 更直观的理解](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
+你真的理解列表推导式和装饰器么?也许并没有!这篇文章用可视化的方式帮你重新理解列表推导式.
 Can we do an issue without explaining List comprehensions or decorators? Probably not! This is another nice article looking at List Comprehensions in a visual way.
 treyhunner.com
 Shared by @mgrouchy
  
 
-- [Visualize sklearn trees with D3](http://planspace.org/20151129-see_sklearn_trees_with_d3/)
+- [D3实现的Scikit-Learn决策树可视化](http://planspace.org/20151129-see_sklearn_trees_with_d3/)
+好文，看实际情况中分类树的使用规则!
 So cool. See the actual rules that classification trees use!
 planspace.org
 Shared by @myusuf3
  
 
-- [Machine Learning For Complete Beginners](http://pythonforengineers.com/machine-learning-for-complete-beginners/)
+- [机器学习初学者教程](http://pythonforengineers.com/machine-learning-for-complete-beginners/)
+一套不错的机器学习教程，适合初学者
 A fantastic set of guides for the complete beginner to learn something about Machine Learning.
 pythonforengineers.com
 Shared by @mgrouchy
