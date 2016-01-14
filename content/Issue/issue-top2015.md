@@ -109,12 +109,14 @@ Shared by @mgrouchy
  
 
 - [usbkill](https://github.com/hephaest0s/usbkill)
+防攻击工具，根据你USB端口变化来关闭计算机
 usbkill is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
 github.com
 Shared by @myusuf3
  
 
 - [marker](https://github.com/pindexis/marker)
+命令行中的书签操作
 This project allows you to bookmark your terminal commands. Supports fuzzy matching, aliases and a bunch of other nice features.
 github.com
 Shared by @mgrouchy
@@ -142,210 +144,251 @@ Shared by @mgrouchy
  
 
 - [python-semantic-release](https://github.com/relekang/python-semantic-release)
+非常实用,可以根据语义自动控制你Python项目的版本
 This is pretty useful. This project will allow you to do automatic semantic versioning for your Python projects.
 github.com
 Shared by @relekang
  
 
 - [yagmail](https://github.com/kootenpv/yagmail)
+用法简单的邮件发送库
 A library who's goal is to make sending emails as simple as possible.
 github.com
 Shared by @mgrouchy
  
 
 - [pyfolio](https://github.com/quantopian/pyfolio)
+Python库,用于金融投资组合的绩效和风险分析! 很酷!快来试用吧!
 pyfolio is a Python library for performance and risk analysis of financial portfolios! Very cool! Definitely on my list of things to play with!
 github.com
 Shared by @myusuf3
  
 
 - [Pylsy](https://github.com/Leviathan1995/Pylsy)
+实用，终端下的表格制作工具
 Useful. Tool to help you draw tables in your terminal.
 github.com
 Shared by @mgrouchy
  
 
 - [pigar](https://github.com/Damnever/pigar)
+用来生成你Python项目依赖的复杂工具
 A sophisticated tool to generate requirements for your Python project.
 github.com
 Shared by @myusuf3
  
 
 - [chcli](https://github.com/architv/chcli)
+黑客们的命令行挑战,如果你喜欢完成编程挑战,这一定是你的菜!
 A CLI for command line challenges for Hackers. If you are the type of person who loves completing programming challenges, this is for you!
 github.com
 Shared by @mgrouchy
  
 
 - [gping](https://github.com/orf/gping)
+图形版ping指令
 The ping command with graphs!
 github.com
 Shared by @mgrouchy
  
 
 - [pykcd](https://github.com/JacobLandau/pykcd)
+XKCD的Python接口
 Python interface for the XKCD API
 github.com
 Shared by @myusuf3
  
 
 - [zerotest](https://github.com/jjyr/zerotest)
+懒人专用工具,像老板一样测试你的API server
 Lazy guy's testing tool, test your API server like a boss.
 github.com
 Shared by @myusuf3
  
 
 - [skflow](https://github.com/google/skflow)
+TensorFlow的简化接口,让人们方便进行预测分析和数据挖掘
 This is a simplified interface for TensorFlow, to get people started on predictive analytics and data mining.
 github.com
 Shared by @mgrouchy
  
 
 - [zerodb](https://github.com/zero-db/zerodb)
+Python实现的端对端加密数据库
 An end-to-end encrypted database written in Python.
 github.com
 Shared by @mgrouchy
  
 
 - [pyperform](https://github.com/lobocv/pyperform)
+非常简洁的方式来进行Python代码性能测试,
 An easy and convenient way to performance test python code. Definitely take a look at README after the jump. I like this.
 github.com
 Shared by @myusuf3
  
 
 - [Joblib](https://github.com/joblib/joblib)
+让Python函数象流水线任务般运行.
 Run Python functions as pipeline jobs.
 github.com
 Shared by @mgrouchy
  
 
 - [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
+使用Ipython Notebook创建的Kalman过滤器.
+根据描述:"需要最低限制的数学知识, 专注直觉经验, 而不是传统证明式的学习"
 This is a Kalman Filter textbook using Ipython Notebook for its creation. From the Description: "This book takes a minimally mathematical approach, focusing on building intuition and experience, not formal proofs".
 github.com
 Shared by @mgrouchy
  
 
 - [juicebox](https://github.com/jpadilla/juicebox)
+为编程团队设计的虚拟机,这样你就可以专注于编程,而不是浪费时间在环境搭建上
 A virtual machine designed for Programming workshops so you can focus on the programming and not trying to set up miscellaneous environments.
 github.com
 Shared by @jpadilla_
  
 
 - [redash](https://github.com/EverythingMe/redash)
+方便查询现行数据库的 web 应用!
+提供数据集可视化的不同渠道.
+Redshift 和 Postresql 风格.
 A web application that allows to easily query an existing database, share the dataset and visualize it in different ways. Redshift with Postresql style of reading.
 github.com
 Shared by @myusuf3
  
 
 - [data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
+一个非常不可思议的项目,不断更新python notebook, 超级炫酷的功能!
 This is a pretty incredible project that continually updates python notebook showing off functionality of pretty awesome open source projects!
 github.com
 Shared by @myusuf3
  
 
 - [dusty](https://github.com/gamechanger/dusty)
+基于docker的开发环境构建工具
 Docker-powered development environments.
 github.com
 Shared by @myusuf3
  
 
 - [Ibis](https://github.com/cloudera/ibis)
+Python数据分析库,使纯Python工作流的大数据系统能发挥出最佳的性能和可伸缩性.
 This is a Python data analysis library enabling a 100% Python user workflow on top of big data systems for maximum performance and scalability.
 github.com
 Shared by @myusuf3
  
 
 - [underwear](https://github.com/makaimc/underwear)
+方便部署Python web应用到多台服务器而实现的Python库
 Underwear is a library for easily deploying any Python-powered web application to one or more Linux servers.
 github.com
 Shared by @myusuf3
  
 
 - [pyscaffold](https://github.com/blue-yonder/pyscaffold)
+PyScaffold 帮助你快速安装一个新的 Python 项目!
 PyScaffold helps you to easily setup a new Python project!
 github.com
 Shared by @myusuf3
  
 
 - [pywebhooks](https://github.com/chadlung/pywebhooks)
+Flask实现的webhook服务
 A simple Flask based webhook service.
 github.com
 Shared by @chadlung
  
 
 - [bidict](https://github.com/jab/bidict)
+双路切片数据查找支持
 2-way dict which has support for a slice syntax.
 github.com
 Shared by @mgrouchy
  
 
 - [Flask-Boost](https://github.com/hustlzp/Flask-Boost)
+Flask 应用生成器!
+确保你的工具箱中配置有最合适的工具,
+以便加速开发节奏.
 Flask application generation for speeding up your development time and making sure your toolbox is filled with all the right tools.
 github.com
 Shared by @mgrouchy
  
 
 - [Rodeo: A data science IDE for Python](http://blog.yhathq.com/posts/introducing-rodeo.html)
+一个ŷhat打造的专门用于数据科学的Python IDE.他们建议你把它看作一个重量轻IPython Notebook的替代品. 
 An IDE by ŷhat expressly built for doing Data Science in Python. They are suggesting you think of it as a light weight alternative to the IPython Notebook.
 yhathq.com
 Shared by @mgrouchy
  
 
 - [profiling](https://github.com/what-studio/profiling)
+交互式 Python 分析器, 非常想知道如何结合到 web 应用中...
 The profiling package is an interactive Python profiler. Pretty freaking legit! I wonder how it works with web applications.
 github.com
 Shared by @myusuf3
  
 
 - [interactive-coding-challenges](https://github.com/donnemartin/interactive-coding-challenges)
+一系列的交互式编码挑战. 通常重点是在编码和比赛中发现的算法和数据结构. 
 A series of interactive coding challenges. Focuses on algorithms and data structures that are typically found in coding interviews and competitions.
 github.com
 Shared by @mgrouchy
  
 
 - [searchcmd](https://github.com/jimmyppi/searchcmd)
+帅到哭的工具. 可以在命令行状态下就搜索出某个指令的正确使用姿势,可以跟长长的man说bye bye了
 This is pretty amazing. Allows you from the command line to search how to do that thing you forgot to do on the command line. Great examples in the README!
 github.com
 Shared by @jimmyppi
  
 
 - [HTTPLang](https://github.com/Max00355/HTTPLang)
+Python实现的脚本语言,用来编写Http请求的例程
 A scripting language written in Python to make writing HTTP Request routines simpler.
 github.com
 Shared by @mgrouchy
  
 
 - [armada](https://github.com/armadaplatform/armada)
+完整的开发,部署,配置,搜索微服务方案. 制定使你的平台更面向服务的良好做法. 
 A complete solution for development, deployment, configuration and discovery of microservices. Develop good practices in making your platform more service oriented.
 github.com
 Shared by @myusuf3
  
 
 - [pyNES](http://gutomaia.net/pyNES/)
+帅气!用Python写一些NES游戏来缅怀下你逝去的童年,当然前提是你够老~
 Amazing! Capture some of that childhood nostalgia (if you are old enough) and write NES Games in Python.
 gutomaia.net
 Shared by @mgrouchy
  
 
 - [zulip](https://github.com/zulip/zulip)
+Dropbox小组使用Python和Dropbox编写的开源组聊天工具. 看起来不错,尤其是对于那些喜欢类slack工具的小组. 
 Open source group chat written in Python and Django by the Dropbox team. This looks pretty great, especially if your team isnt already hooked on slack or its ilk.
 github.com
 Shared by @shoma
  
 
 - [ufora](https://github.com/ufora/ufora)
+数据科学中Python的编译和自动并行
 Compiled, automatically parallel Python for data science
 github.com
 Shared by @mgrouchy
  
 
 - [code_py](https://github.com/chrisalbon/code_py)
+有关数据科学的代码片段集
+
 A collection of well-commented code snippits for data science
 github.com
 Shared by @myusuf3
  
 
 - [API-Hour](https://github.com/Eyepea/API-Hour)
+用来编写daemons的轻量框架
 A lightweight framework for writing efficient daemons.
 github.com
 Shared by @mgrouchy
