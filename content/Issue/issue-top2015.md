@@ -11,20 +11,20 @@ Slug: issue-198-top2015
 
 亲,
 
-We are back in action and looking forward to a great 2015! This issue contains the articles and projects that were the most popular of 2015, if you missed some issues or wanted the "best of" this is the issue for you.
+俺们又来回顾 2015 ,又一个伟大的年份儿!
+包去年最受欢迎的文章和项目,
+如果你错过了几期, 就这一期不会丢失 2015 最好的.
 
-Plus we got some shirts for you guys and gals! Pick yours up at here! 
+嗯哼,还为你和你的MM 准备了一批纪念 T裇,从[这儿](https://teespring.com/pycoders4)
+获取.
 
-[here](https://teespring.com/pycoders4)
 
+任何时候, 如果想分享好物给大家, 在[这儿](http://pycoders.com/submissions/)提交!
 If you want to end up in the next issue, or in this issue next year, share an article with us and get highlighted as a contributor.
 
-[article](http://pycoders.com/submissions/)
-
-
-Like what we are doing? Have any comments or suggestions? Check us out on twitter! 
-  
+喜欢我们收集的? 任何意见/建议,通过 
 [twitter](http://www.twitter.com/pycoders)
+来吧!
 
 
 --
@@ -37,39 +37,84 @@ Like what we are doing? Have any comments or suggestions? Check us out on twitte
 
 
 ## 项目
- 
-- [Delorean](https://github.com/myusuf3/delorean/)
-让时区操作更简单
-Timezones Made Easy
-github.com
-Shared by @myusuf3
- 
+~ 大妈的直觉分类,以便查找
+
+### Django
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    forever. Django!
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+### 运维
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    DevOPS.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 
 - [huptime](https://github.com/amscanne/huptime)
+
 零停机重启工具
-This is pretty neat. A Utility for zero downtime restarts of unmodified programs.
+
 github.com
+
 Shared by @mgrouchy
+
+### 小工具
+
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    tiny cool tools
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- [Delorean](https://github.com/myusuf3/delorean/)
+
+让时区操作更简单
+
+github.com
+
+Shared by @myusuf3
+ 
  
 
 - [ptpython](https://github.com/jonathanslenders/ptpython)
+
 新一代REPL神器，自带自动补全，批量编辑，语法检验等功能.
-An attempt to make a better Python REPL, includes features like autocompletion, multiline editing, syntax validation and more.
+
 github.com
+
 Shared by @mgrouchy
  
 
 - [mkcast](https://github.com/KeyboardFire/mkcast)
+
 记录键盘输入并创建终端录屏GIF的神器!
-Very cool. This tool allows you to create GIF screencasts of a terminal allowing you to overlay key presses.
+
 github.com
+
 Shared by @mgrouchy
  
 
+### 实作
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    cool proj.
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 - [PyDark](https://github.com/SirFroweey/PyDark)
+
 Pygame和Python实现的2D多人网游
-An online 2D multiplayer game written with Python and Pygame.
+
 github.com
+
 Shared by @mgrouchy
  
 
