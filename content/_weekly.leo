@@ -591,7 +591,7 @@ Shared by @mgrouchy
 - 160114 Spawnris(老高) 先后用时 42 * 5分钟 完成快译.
 - 160109 [Zoom.Quiet](http://zoomquiet.io/) 用时 42 分钟 完成 md 格式化.
 
-</t>
+ </t>
 <t tx="zoomq.20160107145614.18">## 文章
 
 - [开源应用程序架构 (卷2): SQLAlchemy](http://aosabook.org/en/sqlalchemy.html)

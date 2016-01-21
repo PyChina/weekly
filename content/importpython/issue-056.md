@@ -120,7 +120,7 @@ top3 是 Wooey/Channels/healthchecks.io
 (`是也乎:`
 
 
-![](https://camo.githubusercontent.com/3c5e3c5941d02a01338d22d763790c953dfa5fba/68747470733a2f2f63646e2e7261776769742e636f6d2f686172646d6172752f736b657463682d726e6e2f6d61737465722f6578616d706c652f747261696e696e672e737667)
+![sketch-rnn](https://camo.githubusercontent.com/3c5e3c5941d02a01338d22d763790c953dfa5fba/68747470733a2f2f63646e2e7261776769742e636f6d2f686172646d6172752f736b657463682d726e6e2f6d61737465722f6578616d706c652f747261696e696e672e737667)
 
 
 )
@@ -159,7 +159,7 @@ qBittorrent Web API (v3.1.x 以上版本兼容) 的 Python 包装
 
 (`是也乎:`
 
-![](https://camo.githubusercontent.com/99d9b2c9654c4779ff64955da66d5b0640f60a3c/687474703a2f2f736175726176746f6d2e636f6d2f7374617469632f696d672f6769666d61696c2e676966)
+![gifmail](https://camo.githubusercontent.com/99d9b2c9654c4779ff64955da66d5b0640f60a3c/687474703a2f2f736175726176746f6d2e636f6d2f7374617469632f696d672f6769666d61696c2e676966)
 
 可是,这是为什么哪,,,
 )
@@ -177,7 +177,7 @@ qBittorrent Web API (v3.1.x 以上版本兼容) 的 Python 包装
 
 (`是也乎:`
 
-![](https://github.com/ellisonbg/vizarray/raw/master/docs/images/example1.png)
+![vizarray](https://github.com/ellisonbg/vizarray/raw/master/docs/images/example1.png)
 )
 
 - [termdic](https://github.com/hzwer/termdic)
@@ -188,7 +188,7 @@ qBittorrent Web API (v3.1.x 以上版本兼容) 的 Python 包装
 (`是也乎:`
 
 
-![](https://github.com/hzwer/termdic/raw/master/example.png)
+![termdic](https://github.com/hzwer/termdic/raw/master/example.png)
 
 国货, 使用有道api
 )

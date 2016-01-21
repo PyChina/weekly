@@ -56,7 +56,7 @@ Anna Schneider 是 WattTime 的 CTO,
 pocoo 出品,必属上品!
 又得及时上手一种仙器矣.
 
-![](https://raw.githubusercontent.com/lektor/lektor-archive/master/screenshots/admin.png)
+![admin.png](https://raw.githubusercontent.com/lektor/lektor-archive/master/screenshots/admin.png)
 
 简单的说,又一个静态wiki
 )
