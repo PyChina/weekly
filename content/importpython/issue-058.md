@@ -13,57 +13,126 @@ Tags: Weekly,ImportPython,Zh
 
 
 
-- [ImportPython Job Board Update For Our Readers](http://www.importpython.com/jobboard/)
+- [ImportPython 工作委员会更新 以飨读者](http://www.importpython.com/jobboard/)
     + job market
-It's been approx six months since the launch of the free Import Python Job Board. We have received three emails from job posters thanking us for helping them find developers. We couldn't be more happy. There are 25 job posting and on average 3 applicants per posting. If you are hiring in any part of the world. Do post your opening on the 100% free job board. We will even feature it in the newsletter for free.
 
-- [Discussion - What do you believe WSGI 2.0 should and should not do? Should we do it at all ?](https://mail.python.org/pipermail/web-sig/2016-January/005357.html)
+工作栏启用已有半年,
+至少收到了3封正式的感谢信,因为帮助团队找到了合适的程序猿.
+无法更加高兴了!
+去年一共25则岗位信息,平均每期3则.
+如果你对全球靠谱的程序猿/媛有需求,
+请尝试我们这儿完全免费的工作栏吧!
+
+(`是也乎:`
+
+只是鉴于中文世界,大家都没什么好渠道直接肉身翻越出去,
+所以,工作栏这一章节,一般是清空的,间或有朋友委托发布过几则信息.
+当然的,如果你想在 蠎周刊上发布免费的 Pythonista 招聘信息,请向大妈邮件说明:
+
+    zoomquiet+HR[AT]gmail.com
+
+)
+
+
+- [讨论 - 对于 WSGI 2.0 你认为应该和不应该的?!](https://mail.python.org/pipermail/web-sig/2016-January/005357.html)
     + web framework
-It’s a new year, and that means it’s time for another attempt to get WSGI 2.0 off the ground. Many of you may remember that we attempted to do this last year with Rob Collins leading the charge, but unfortunately personal commitments made it impossible for Rob to keep pushing that attempt forward. Since then, the need for a revision of WSGI has become even more apparent. Casual discussion on the web has indicated that application developers are uncomfortable with the limitations of WSGI. These limitations are providing an incentive for both application developers and server developers to take an end-run around WSGI in an attempt to get a framework that is more suitable for the modern web. A great example of the result of WSGI’s deficiencies is Andrew Godwin’s channels work for Django, which represents a paradigm shift in application development that takes it far away from what WSGI is today.
 
-- [Testing Web Apps with Python, Selenium, Django. Interview with Harry Percival.](http://pythontesting.net/podcast/harry-percival-pt009/)
+又是新的一年, 对于 WSGI 2.0 也更加急迫了.
+可惜的是过去一年, 在 Rob Collins 领导下并没有完成相关承诺.
+在网络中引发的讨论,也反映出开发者们对 WSGI 的限制很不舒服,
+直接体现在应用和服务开发者都在尝试就 WSGI 的退出整理为一个框架,
+以便更加契合现代 web 开发.
+特别是  Andrew Godwin 在 Django 中提出的 channels 概念,
+这代表应用开发者在远离 WSGI 的一种选择....
+
+
+- [用 Python, Selenium, Django 测试 Web Apps. 对 Harry Percival 的采访.](http://pythontesting.net/podcast/harry-percival-pt009/)
     + podcast
-If you develop and/or test web applications, especially django, you will probably enjoy this episode. Harry Percival is none other then the author of "The GOAT book" :)
 
-- [[Tutorial]: Deploying Python 3, Django, PostgreSQL to AWS Elastic Beanstalk | Jameson Ricks](https://jamesonricks.com/?p=159)
-    + django
-, aws
-We all know Amazon Web Services frequently changes how things are done. Most of the tutorials I found online for deploying Django to Elastic Beanstalk with PostgreSQL were outdated, using Python 2.7 and Django 1.7. There’s a few things that are different when deploying to Python 3 that I had to figure out.
+如果在开发/测试 web 应用,特别是基于 Django 的,
+一定非常喜欢这一期的内容.
 
-- [Understanding CPython by Patching – part 1](https://orenmn.wordpress.com/2016/01/16/understanding-cpython-by-patching-part-4/)
+嗯哼, Harry Percival 还是 "The GOAT book" 的作者 !-)
+
+
+- [[教程]: 部署 Python 3, Django, PostgreSQL 到 AWS Elastic Beanstalk | Jameson Ricks](https://jamesonricks.com/?p=159)
+    + django , aws
+
+大家都知道 AWS 的服务切换是怎么来的.
+能搜索出来有关使用 Elastic Beanstalk 部署 Django 应用的文章都太老旧了,
+所以最新的有关 Python 3 的部署手册来了
+
+
+- [通过补丁来理解 CPython – 第一部分](https://orenmn.wordpress.com/2016/01/16/understanding-cpython-by-patching-part-4/)
     + core python
-During the last year or so, I have made some attempts to become familiar with CPython (henceforth, I would refer to the CPython implementation of the awesome python 3 simply as CPython). This is a four series article worth reading.
 
-- [Introducing Getting Started with PyCharm video tutorials](http://feedproxy.google.com/~r/Pycharm/~3/jF-S83DB134/)
+过去一年多的时间里, 作者对 CPython 进行了一些尝试
+整理为四篇文章的系列,值得一观!
+
+(注意,提及的精彩之处都是在 Python 3 背景中的 CPython). 
+
+
+- [PyCharm 入门视频教程](http://feedproxy.google.com/~r/Pycharm/~3/jF-S83DB134/)
     + pycharm
-Many of our users have been asking us to create a set of video tutorials covering PyCharm functionality and features. Today we’re happy to announce the very first Getting Started with PyCharm series of nine short video tutorials.
 
-- [Pragmatic Python GIL in 3 Minutes](https://blog.ssundarraj.me/the-python-gil-in-2-minutes-80d74d56a1a0)
+一直以来都是用户在热烈的为 PyCharm 制作教程的,
+现在终于有官方的系列视频教程了!
+
+- [3分钟实用 Python GIL](https://blog.ssundarraj.me/the-python-gil-in-2-minutes-80d74d56a1a0)
     + gil
-Multithreading is a source of confusion for many developers both novice and experienced. The Python GIL adds another layer of confusion. It’s not explained in a succinct and understandable manner in many places. The fact is that there is very little to be confused about. I’ll attempt to explain it, or at least the parts that impact day to day applications, within two minutes.
 
-- [SQL query inspector for Django](https://github.com/dobarkod/django-queryinspect#readme)
+多线程一直是很多新人或是老手都困惑的概念.
+Python 使用的 GIL 又追加了一层混乱.
+从来没有被清晰的阐述过.
+那么尝试用 3分钟 说清楚这几个对象!
+
+(`是也乎:`
+
+又一位印度程序猿在 PyCon 上的演讲;
+当然不止 3分钟,哥整整曰了46分钟!
+
+)
+
+- [Django 中的 SQL 查询检验器](https://github.com/dobarkod/django-queryinspect#readme)
     + django
-Query Inspector is a Django application providing middleware for inspecting and reporting SQL queries executed for each web request.
 
-- [Resources for learning functional programming in Python?](http://www.reddit.com/r/Python/comments/4144js/resources_for_learning_functional_programming_in/)
+Query Inspector 是个中间件,
+对 Django 应用中所有 web 请求涉及的 SQL 查询进行检验和报告.
+
+- [在 Python 中学习函数式编程的资源?](http://www.reddit.com/r/Python/comments/4144js/resources_for_learning_functional_programming_in/)
     + core python
-Discussion on reddit on resources for learning FP in Python.
 
-- [Deploying a Django App with No Downtime](https://medium.com/@healthchecks/deploying-a-django-app-with-no-downtime-f4e02738ab06#.1fcfu4907)
+来自伟大的 reddit!
+
+- [无需停机平滑部署 Django 应用](https://medium.com/@healthchecks/deploying-a-django-app-with-no-downtime-f4e02738ab06#.1fcfu4907)
     + django
-When healthchecks.io started to receive more than 1 request per second, it became clear I could not just go on carelessly restarting web servers after code deploys. For a monitoring service, it would be bad form to miss even a few HTTP requests. And, going forward, if the server gets busier, the problem only becomes bigger.
 
-- [Now accepting Financial Aid applications](http://pycon.blogspot.com/2016/01/now-accepting-financial-aid-applications.html)
+当 healthchecks.io 
+开始承受每秒超过一次要求时,
+就不能随意重启服务了.
+对于监控服务,当然不能错过任何一次 http 请求!
+所以,...
+
+
+- [PyCon 现在接受财政援助](http://pycon.blogspot.com/2016/01/now-accepting-financial-aid-applications.html)
     + pycon
-If you are looking to visit / have a ticket and deserve to get aid, do apply. 
+
+如果你在寻求 票务或是其它财务援助,现在就有了.
 
 
 ## 新书
 ~ New Books
 
-- [Real-World Machine Learning](http://importpython.com/books/525/real-world-machine-learning/)
-In a world where big data is the norm and near-real-time decisions are crucial, machine learning (ML) is a critical component of the data workflow. Machine learning systems can quickly crunch massive amounts of information to offer insights and make decisions in a way that matches or even surpasses human cognitive abilities. These systems use sophisticated computational and statistical tools to build models that can recognize and visualize patterns, predict outcomes, forecast values, and make recommendations.
+- [现实世界的机器学习](http://importpython.com/books/525/real-world-machine-learning/)
+
+现今, 大数据已经是 `近实时` 决策关键支撑了,
+机器学习(ML)是数据工作流的重要组成部分.
+
+ML 可以快速从海量信息中提取和匹配决策,
+甚至于超过人的直觉认知.
+
+这些系统使用复杂的计算和统计工具来建立模型,
+可以识别可视化的模式,预测结果,并提出建议!
 
 ## 项目
 ~ 包/模块/库/片段...
@@ -72,7 +141,9 @@ In a world where big data is the norm and near-real-time decisions are crucial, 
 
 - [TrumpScript](https://github.com/samshadwell/TrumpScript)
     - 1033 Stars, 48 Fork
-Make Python great again. Editor note to non american readers: Please read on Donald trump to get a sense of what this repo is about.
+
+令 Python 再次伟大!
+特别针对美国读者: 请认真理解 Donald trump 吧!
 
 (`是也乎`:
 
@@ -87,35 +158,47 @@ Make Python great again. Editor note to non american readers: Please read on Don
 
 - [spaceShooter](https://github.com/prodicus/spaceShooter)
     - 71 Stars, 11 Fork
-The classic retro game recreated using Pygame and python
+
+用 Pygame 重制的经典游戏!
 
 - [pick](https://github.com/wong2/pick)
     - 59 Stars, 3 Fork
-a small library to help you create curses based interactive selection list in the terminal
+
+帮助我们在终端中进行交互式列表选择的库.
+
 
 - [tornaREST](https://github.com/nekocode/tornaREST)
     - 44 Stars, 4 Fork
-:cyclone: A simple RESTful Web Service build with Tornado.
+
+:cyclone: 基于 Tornado 实现的简洁 RESTful web 服务.
 
 - [kaggle-right-whale](https://github.com/felixlaumon/kaggle-right-whale)
     - 25 Stars, 5 Fork
+
 2nd place solution to the Kaggle Right Whale challenge
 
 - [reality-of-Dream-of-Red-Mansions](https://github.com/Huangtuzhi/reality-of-Dream-of-Red-Mansions)
     - 20 Stars, 12 Fork
-Comparision analysis of words use between 1~80 chapters and 80~120 chapters of ?A Dream of Red Mansions?.
+
+对红楼梦前80章和后40章的用词进行比对!
 
 - [PrettyPandas](https://github.com/HHammond/PrettyPandas)
     - 17 Stars, 0 Fork
-A Pandas Styler class for making beautiful tables
+
+美化 Pandas 表格输出的样式表
+
 
 - [github_reviewer](https://github.com/gabrielhora/github_reviewer)
     - 16 Stars, 1 Fork
-Use GitHub Webhooks and Commit Status API to control pull requests reviews
+
+使用 GitHub Webhooks 以及 Commit Status API 
+来控制 pull requests 的评审
+
 
 - [fython](https://github.com/nicolasessisbreton/fython)
     - 9 Stars, 0 Fork
-Fython is Fortran with a Python syntax
+
+fython 就是用 Python 语法的 Fortran 
 
 (`是也乎:`
 
@@ -151,7 +234,7 @@ Delivery confirmation for Logen(https://www.ilogen.com)
 
 # 是也乎
 
-- 16012? [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
+- 160122 [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
 - 160122 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
 
 
