@@ -207,18 +207,22 @@ fython 就是用 Python 语法的 Fortran
 
 - [git-money](https://github.com/21hackathon/git-money)
     - 7 Stars, 0 Fork
-Git Money lets people make money off their pull requests on GitHub.
+
+通过 github 中的 pull requests 来赚钱!
 
 - [loadcf](https://github.com/singpenguin/loadcf)
     - 6 Stars, 1 Fork
-It is a python config file loader
+
+python 配置文件加载器
 
 - [notebook-api](https://github.com/jefersondaniel/notebook-api)
     - 5 Stars, 0 Fork
+
 Rest API for notes, uses Python Flask, Mongo, Behave and Docker-Compose
 
 - [logen-trace](https://github.com/perhapsspy/logen-trace)
     - 5 Stars, 0 Fork
+
 Delivery confirmation for Logen(https://www.ilogen.com)
 
 
