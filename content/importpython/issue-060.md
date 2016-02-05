@@ -12,56 +12,106 @@ Tags: Weekly,ImportPython,Zh
 ~ 文章, Blog, 教程...
 
 
-- [Project Jupyter and IPython Podcast Interview](https://talkpython.fm/episodes/show/44/project-jupyter-and-ipython)
+- [播客访问 Jupyter 和 IPython 项目](https://talkpython.fm/episodes/show/44/project-jupyter-and-ipython)
     + podcast
-One of the fastest growing areas in Python is scientific computing. In scientific computing with Python, there are a few key packages that make it special. These include NumPy / SciPy / and related packages. The one that brings it all together, visually, is IPython (now known as Project Jupyter). That's the topic on episode 44 of Talk Python To Me.
 
-- [Testing Django Views](http://kracekumar.com/post/138492827565)
+目下 Python 中增长最快的领域之一就是科学计算.
+其中有几个关键包: NumPy / SciPy / 及其相关组件,
+都集成在 IPython(更名为 Jupyter) 中,并能方便的可视化!
+44期节目探讨了这方面的发展.
+
+
+- [测试 Django Views](http://kracekumar.com/post/138492827565)
     + testing
-Rise of mobile and Single Page Application shifted majority of web development towards API centric development. Testing API is super simple with data in and data out, but testing a django view in classic web application is difficult since HTML is returned. REST semantics and status code helped to distinguish response without inspecting body.
+
+移动和 SPA(单页应用)已经是 web 开发中 API 为中心的主要命题了.
+这对于以往返回 html 页面的Django 应用而言,
+测试这种 view 是困难的,
+因为 REST 语义和 HTTP 状态码是关联的...
+
 
 - [Your Django Story: Meet Safia Abdalla](http://blog.djangogirls.org/post/138480005403)
     + interview
 Safia Abdalla is an energetic software engineer with an interest in data science for social good and delicious coffee. She is the organizer of PyData Chicago and the founder of dsfa, a consulting company providing data science services to small and medium local businesses. Safia is also a frequent conference speaker and open-source contributor who’s passionate about helping others to reach their maximum potential.
 
 - [How to no-mincss links with django-pipeline](http://www.peterbe.com/plog/how-to-no-mincss-links-with-django-pipeline)
-The title says it all :)
 
-- [Official Announcement - IPython 4.1.0 out!](https://mail.scipy.org/pipermail/ipython-dev/2016-February/017056.html)
+如题 :)
+
+- [官方公告 - IPython 4.1.0 放出!](https://mail.scipy.org/pipermail/ipython-dev/2016-February/017056.html)
     + new release
-As promised a few days ago, and as we did not get any outstanding bug reports, IPython 4.1.0 is now out !
 
-- [Understanding JSON Web Tokens with Example in Python](http://blog.apcelent.com/json-web-token-tutorial-example-python.html)
-In this article we are going to learn about securing our REST API with JSON Web Tokens. JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. JWT happens to be backed by companies like Firebase, Google, Microsoft, and Zendesk.
+前几天释放后,没有收到任何有效 bug 反馈,
+所以,嗯哼! IPython 4.1.0 is now out !
 
-- [High scalability - Async Python and Cassandra with Gevent](http://rustyrazorblade.com/2016/02/async-python-and-cassandra-with-gevent/)
+- [实例理解 Python 中的 JSON Web 令牌](http://blog.apcelent.com/json-web-token-tutorial-example-python.html)
+
+文章解析了如何使用 JSON Web Token 来保护我们的 REST 接口.
+JSON 网络令牌是 RFC 7519 提出的双向安全方案,
+JWT 已获得关键厂商的支持,包含 Firebase, Google, Microsoft, 以及 Zendesk.
+
+
+- [高可扩展 - Cassandra 和 Gevent 实现 Python 的异步](http://rustyrazorblade.com/2016/02/async-python-and-cassandra-with-gevent/)
     + concurrency
-Python's threading, GIL, and lack of async code in Python 2.7 can be very frustrating. Fortunately, there's been some great projects over the years that have either patched async calls into Python or been a totally separate distribution entirely. For instance, two alternative distributions, IronPython and Jython, don't have the GIL and it's associated problems. There's also Stackless Python, which manages microthreads at the interpreter level, avoiding heavy weight OS threads, in addition to other features.
 
-- [django-ses/django-ses: A Django email backend for Amazon's Simple Email Service](https://github.com/django-ses/django-ses)
+Python 2.7 中的线程/GIL/异步锁等等导致异步代码很折腾.
+好在艰难岁月中还是有靠谱方案的;
+比如 IronPython 和 Jython 就没有 GIL 以及相关问题.
+当然, 还有专用的 Stackless Python,
+通过微进程管理,避免操作重量级的操作系统进程,以及其它功能.
+
+
+- [django-ses/django-ses: Django 实现的 Amazon Simple Email Service 后端](https://github.com/django-ses/django-ses)
     + aws
-Django-SES is a drop-in mail backend for Django. Instead of sending emails through a traditional SMTP mail server, Django-SES routes email through Amazon Web Services' excellent Simple Email Service (SES).
 
-- [YPlan/django-ratelimit: Cache-based rate-limiting for Django](https://github.com/YPlan/django-ratelimit)
+Django-SES 是种 drop-in 邮件后台,
+不用传统的 SMTP 服务,
+而是基于很赞的 Amazon Simple Email Service (SES)
+
+
+- [YPlan/django-ratelimit: 为 Django 提供基于缓存的限速](https://github.com/YPlan/django-ratelimit)
     + django
-Django Ratelimit provides a decorator to rate-limit views. Limiting can be based on IP address or a field in the request--either a GET or POST variable.
 
-- [Smartyparse: dynamic object-oriented binary packing and unpacking](https://github.com/Muterra/py_smartyparse)
-SmartyParse is a binary packing/unpacking (aka building/parsing) library for arbitrary formats written for python >= 3.3. If you have a defined binary format (.tar, .bmp, byte-oriented network packets, etc) or are developing one, SmartyParse is a way to convert those formats to and from Python objects. Its most direct alternative is Construct, which is admittedly much more mature. 
+Django Ratelimit 
+提供修饰器来声明限制,
+可基于 IP 或请求, 无论 GET/POST 方法.
+
+- [Smartyparse: 面向对象的动态二进制打包和解包](https://github.com/Muterra/py_smartyparse)
+
+SmartyParse 
+是面向 3.3 以上 Python 的二进制 打包/解包（又名建筑/解析）格式库.
+如果需要定义二进制格式
+(.tar, .bmp, 字节式网络数据包..)
+或是开发专用格式,
+SmartyParse 能直接从 Python 对象转换成拟定格式.
+操作对象是 `Construct`
+
 
 
 ## 新书
 ~ New Books
 
-- [Flask Blueprints](http://importpython.com/books/520/flask-blueprints/)
+- [Flask 蓝图](http://importpython.com/books/520/flask-blueprints/)
 
-Structure, compose, and build powerful Flask HTML-based applications and JSON/XML-based APIs using advanced application design patterns.
+Structure, compose, 以及 build powerful Flask HTML-based 
+应用,
+基于高级应用设计模式完成 JSON/XML-based APIs .
 
 - [Flask Framework Cookbook](http://importpython.com/books/447/flask-framework-cookbook/)
-Flask Framework Cookbook takes you through a number of recipes that will help you understand the power of Flask and its extensions. You will start by seeing the different ways of configurations that a Flask application can make use of. You will learn how to work with templates and learn about the ORM and view layers.
 
-- [Geoprocessing with Python](http://importpython.com/books/526/geoprocessing-with-python/)
-Nearly every car, phone, or camera has a GPS sensor, and aerial photos, satellite imagery, and data representing political boundaries, roads, rivers, and streams are available for free download from many websites. Geoprocessing is the science of reading, analyzing, and presenting geospatial data programmatically.
+Flask Framework Cookbook 
+帮助我们了解 Flask 框架真正强大的扩展能力.
+能从不同途径理解 Flask 应用,
+也能学习到 模板/ORM 以及视图层的细节.
+
+- [用 Python 进行地理分析](http://importpython.com/books/526/geoprocessing-with-python/)
+
+几乎所有的汽车，手机，或者相机具有GPS传感器
+以及航空照片，卫星图像
+的数据都包含 国家界限，道路，河流和溪流...
+而且可以从很多网站免费下载!
+地理处理就是读取，分析和编程方式呈现地理空间数据的科学!
+
 
 
 ## 项目
@@ -71,7 +121,8 @@ Nearly every car, phone, or camera has a GPS sensor, and aerial photos, satellit
 
 - [GraphvizAnim](https://github.com/mapio/GraphvizAnim)
     - 230 Stars, 12 Fork
-A tool to create animated graph visualizations, based on graphviz.
+
+闭关锁国 graphviz 生成有动态效果图片的工具.
 
 (`是也乎:`
 
@@ -84,38 +135,86 @@ A tool to create animated graph visualizations, based on graphviz.
 
 - [himawaripy](https://github.com/boramalper/himawaripy)
     - 130 Stars, 33 Fork
-Put near-realtime picture of Earth as your desktop background
+
+将几近实时的地球图片设定为桌面背景!
+
+(`是也乎:`
+
+基于 [Himawari 8 (ひまわり8号)](https://en.wikipedia.org/wiki/Himawari_8)
+提供的图片资源...
+
+日本的公开数据资源这么高端了哪!!!
+)
+
 
 - [K3SimSearch](https://github.com/BichengLUO/K3SimSearch)
     - 42 Stars, 0 Fork
-K3SimSearch is a simple Python script as a dictionaray in which you can look up a GRE word and find its similar words
+
+简单的脚本,
+用 Python 从 GRE 单词中指出指定单词的同义词等等...
+
 
 - [tnote](https://github.com/prodicus/tnote)
     - 30 Stars, 7 Fork
-:clipboard: A command line note taking app so simple that even your granny will love it!
+
+:clipboard: 命令行记录本,
+好用到老奶奶也稀饭...
+
+(`是也乎:`
+
+```
+                            _________ _        _______ _________ _______ 
+                            \__   __/( (    /|(  ___  )\__   __/(  ____ \
+                               ) (   |  \  ( || (   ) |   ) (   | (    \/
+                               | |   |   \ | || |   | |   | |   | (__    
+                               | |   | (\ \) || |   | |   | |   |  __)   
+                               | |   | | \   || |   | |   | |   | (      
+                               | |   | )  \  || (___) |   | |   | (____/\
+                               )_(   |/    )_)(_______)   )_(   (_______/
+```
+
+参考演示: [tnote: A dead simple note taking app : v0.0.2 - asciinema](https://asciinema.org/a/35557)
+)
+
 
 - [zika-data](https://github.com/BuzzFeedNews/zika-data)
     - 27 Stars, 8 Fork
-Data — and pointers to data — related to the 2015–16 Zika virus outbreak.
+
+Data — 以及数据指向
+所有 2015–16 Zika 病毒相关的!
 
 - [camp](https://github.com/mpdehaan/camp)
     - 15 Stars, 0 Fork
-Computer Aided Music Production
+
+计算机辅助音乐创作
 
 - [Tasker](https://github.com/t0mj/Tasker)
     - 12 Stars, 4 Fork
-A CLI for managing daily tasks
+
+又一个日常任务管理 CLI 工具.
+
+(`是也乎:`
+
+![Tasker](https://cloud.githubusercontent.com/assets/7049067/12701187/d7bf58d6-c7c6-11e5-8e27-bbfc4f8ecc2e.png)
+
+是的,我们就是忍不住创建各种 DSL
+)
 
 - [livemark.vim](https://github.com/miyakogi/livemark.vim)
     - 12 Stars, 0 Fork
-Real time markdown preview vim plugin
+
+实时预览 MD 的 vim 插件
 
 - [spotify-music-downloader](https://github.com/xfilipe/spotify-music-downloader)
     - 9 Stars, 4 Fork
-This script download music playing on spotify (Linux) from youtube.
+
+脚本能从 youtube 中下载音乐,
+给 spotify(Linix 中) 播放.
+
 
 - [PythonBackupSystem](https://github.com/msfidelis/PythonBackupSystem)
     - 6 Stars, 2 Fork
+
 Rotinas de Backup Full e Diferencial feitas em Python #IndustriaFox
 
 
@@ -130,7 +229,7 @@ Rotinas de Backup Full e Diferencial feitas em Python #IndustriaFox
 
 # 是也乎
 
-- 16020? [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
+- 160205 [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
 - 160205 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
 
 
