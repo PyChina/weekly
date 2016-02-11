@@ -1,5 +1,5 @@
-Title: 蠎周刊 202: Learn on 
-Slug: issue-202
+Title: 蠎周刊 201: Winterlude
+Slug: issue-201
 Date: 2016-02-11 12:50
 Tags: Weekly,Pycoder,ZH
 
@@ -8,7 +8,7 @@ Tags: Weekly,Pycoder,ZH
 
 
 
-- 原文: [Pycoders Weekly (Issue #202): Learn on]()
+- 原文: [Pycoders Weekly (Issue #201): Winterlude](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=29180abb3b)
 
 
 
@@ -31,52 +31,24 @@ Tags: Weekly,Pycoder,ZH
 
 ## 新闻
 
-- [Delorean 0.6.0发布](https://github.com/myusuf3/delorean) 
-
-向1.0发布前进!带来很多细节上的改动和突破!感谢@califloridan
-
-github.com
-
+- [欢迎Warehouse的到来!](http://pyfound.blogspot.ca/2016/01/welcome-to-warehouse.html)
+下一代PyPI, 访问warehouse.python.org查看详情
+Warehouse is the new codebase being developed to power the Python Packaging Index (PyPI). Check it out, new fresh design over at warehouse.python.org, we have linked the source below in the projects section. 
+blogspot.ca
 Shared by @mgrouchy
- 
-- [PyMongo 3.2发布](https://emptysqua.re/blog/announcing-pymongo-3-2/) 
-
-PyMongo3.2发布.感兴趣的话,点击链接,查看详情吧!
-
-emptysqua.re
-
-Shared by @mgrouchy
- 
-- [Python 2.7.11发布](https://hg.python.org/cpython/raw-file/53d30ab403f1/Misc/NEWS)
-
-Python2.7.11已经发布,该版本为Python2.7.x的最后一个版本, 点击查看下详情! 
-
-python.org
-
-Shared by @myusuf3
 
 
 
 ## 讨论
 
-- [120G的csv文件-我该怎么用Python去处理它](https://www.reddit.com/r/Python/comments/3wa22v/120gb_csv_is_this_something_i_can_handle_in_python/) 
-
+- [资深Python工程师](https://www.reddit.com/r/Python/comments/433sr5/journeyman_python_programmer/) 
 reddit.com
-
 Shared by @mgrouchy
  
-- [改用Python3的理由](https://www.reddit.com/r/Python/comments/3w6zy0/one_more_reason_to_use_python_3/)
 
+- [Numba性能优化中Fortran代码的查阅](https://www.reddit.com/r/Python/comments/431tsm/numba_applied_to_high_intensity_computations_a/) 
 reddit.com
-
 Shared by @myusuf3
- 
-- [你是如何在工作中使用Python的](https://www.reddit.com/r/Python/comments/3vuhj9/how_do_you_use_python_in_your_job/) 
-
-reddit.com
-
-Shared by @mgrouchy
-
  
 
 ## 工作
@@ -100,126 +72,115 @@ Shared by @mgrouchy
 
 ## 文章
 
-- [宠物小精灵识别](https://medium.com/@dimart/pok%C3%A9mon-recognition-d3ad5cadc61e#.o0bgp8dc3)
-
-能通过小精灵图鉴来识别出名字的机器学习算法. 
-
-medium.com
-
-Shared by @dimart_spb
+- [使用Marathon API在Apache Mesos集群管理器开发Py3应用](http://www.giantflyingsaucer.com/blog/?p=5813)
+如标题所示，教你如何创建本地开发和测试环境的好教程
+As the title says, this is a great tutorial to get this setup going for a local environment for development and testing. 
+giantflyingsaucer.com
+Shared by @chadlung
  
-- [使用Django admin的9个理由](https://alexmorozov.github.io/why-you-should-use-the-django-admin-9-tips.html) 
-
-很多人认为Django admin不够灵活,作者试图用一些django admin的使用技巧来证明事实并非如此!
-
-github.io
-
-Shared by @mgrouchy
+- [Python vs Java: 动态类型，空格解析等其他差异](http://www.activestate.com/blog/2016/01/python-vs-java-duck-typing-parsing-whitespace-and-other-cool-differences)
+Java和Pytyhon不同之处的概述
+A look at some of the differences between Java and Python. 
+activestate.com
+Shared by @ActiveState
  
-
-- [使用Python创建高级Excel工作簿](http://pbpython.com/advanced-excel-workbooks.html)
-
-使用Python中的pandas和XlsxWriter制作excel的好文
-
+- [通过构建和使用加权平均函数来学习Pandas](http://pbpython.com/weighted-average.html)
+通过实现原理来理解Pandas的好文章
+Nice article on how implementing the fundamentals can help with your understanding of Pandas.
 pbpython.com
-
-Shared by @mgrouchy
- 
-- [垄断模拟](http://koaning.io/monopoly-simulations.html)
-
-koaning.io
-
-Shared by @mgrouchy
- 
-- [菜鸟的机器学习教程](http://pythonforengineers.com/machine-learning-for-complete-beginners/)
-
-菜鸟学习机器学习的最佳教程! 
-
-pythonforengineers.com
-
-Shared by @mgrouchy
- 
-- [Pytz和Django中的时区](http://tommikaikkonen.github.io/timezones/) 
-
-一篇文章带你深入了解Pytz和Django中的时区
-
-
-github.io
-
-Shared by @tommikaikkonen
- 
-- [用Python处理二进制数据](http://www.devdungeon.com/content/working-binary-data-python)
-
-devdungeon.com
-
 Shared by @myusuf3
-
-- [Python和OpenCV实现的局部二值模式()LBP](http://www.pyimagesearch.com/2015/12/07/local-binary-patterns-with-python-opencv/)
-
-图像结构和模式识别的高质量教程. 
-
-pyimagesearch.com
-
-Shared by @myusuf3
+ 
+- [让CPython提速5-10%](https://mail.python.org/pipermail/python-dev/2016-January/142945.html)
+提升CPython性能5-10%的补丁
+Breakdown of a patch that improves CPython performance by 5-10%.
+python.org
+Shared by @mgrouchy
 
 
  
 ## 项目
 
-- [zerodb](https://github.com/zero-db/zerodb)
-
-Python实现的端到端的加密数据库
-
+- [hashin](https://github.com/peterbe/hashin)
+代替peepin来记录包的哈希值在你的requirements.txt
+An alternative to peepin to allow you write hashed entries for packages in your requirements.txt. 
 github.com
-
-Shared by @mgrouchy
- 
-- [ping-me](https://github.com/OrkoHunter/ping-me) 
-
-终端屏幕上的日常提醒. 
-
-github.com
-
-Shared by @mgrouchy
- 
-- [braindump](https://github.com/levlaz/braindump) 
-
-方便你规划生活的开放记事平台
-
-github.com
-
-Shared by @mgrouchy
- 
-- [bashhub-client](https://github.com/rcaloras/bashhub-client) 
-
-bashhub客户端,支持云端历史存储(支持zsh!)
-
-github.com
-
-Shared by @mgrouchy
- 
-- [Mathics](https://github.com/mathics/Mathics) 
-
-代替Mathematica的轻量级通用计算机代数系统
-
-github.com
-
-Shared by @mgrouchy
- 
-- [maltrail](https://github.com/stamparm/maltrail)
-
-恶意流量检测系统
-
-github.com
-
 Shared by @myusuf3
  
-- [ssh2](https://github.com/soheil/ssh2) 
 
-快速登陆你的AWS服务器的选择
-
+- [AutoDeploy](https://github.com/mkalioby/AutoDeploy)
+建立一个类似于AWS CodeDeploy的企业内部自动化部署系统,
+Building an automated deployment system which is similar to AWS CodeDeploy but is hostable inside enterprise. 
 github.com
+Shared by @mgrouchy
+ 
 
+- [what-the-classics-know-of-blue](https://github.com/emdaniels/what-the-classics-know-of-blue)
+作者阅读business insider后，说我们不能看到蓝色，直到现代，并通过一些经典书籍得以证明。作者决定通过编写一个程序来测试这个前提，以寻找在古腾堡项目可用的文本中所提到的颜色的蓝色。
+This is great! After the author read a business insider post that stated we couldn't see blue until modern times, proven by looking at some classic books. The author decided to test this premise by writing a program to look for mentions of the colour blue in texts available in Project Gutenberg. 
+github.com
+Shared by @mgrouchy
+ 
+
+- [pwhatportis](https://github.com/ncrocfer/whatportis)
+用来搜索特定服务和端口号的命令行工具
+Command line tool to search port names and numbers associated with a particular service. 
+github.com
+Shared by @mgrouchy
+ 
+
+- [pandas-profiling](https://github.com/JosPolfliet/pandas-profiling)
+从pandas数据帧生成报告.df.describe()，一个好用而严谨的探索性数据分析函数.点击链接，查看详情
+Generates profile reports from a pandas DataFrame. The df.describe() function is great but a little basic for serious exploratory data analysis. For more details, click through to the README. 
+github.com
+Shared by @mgrouchy
+ 
+
+- [meza](https://github.com/reubano/meza)
+表格数据处理工具.可读取csv/xls/xlsx/mdb/dbf文件等 
+A toolkit for processing tabular data. Reads csv/xls/xlsx/mdb/dbf files, and more! 
+github.com
+Shared by @myusuf3
+ 
+
+- [warehouse](https://github.com/pypa/warehouse)
+下一代Python包管理仓库
+Code for the Next Generation Python Package Repository.
+github.com
+Shared by @mgrouchy
+ 
+
+- [json-sempai](https://github.com/kragniz/json-sempai)
+将JSON作为python模块使用的python库
+Cool little library that allows you to use JSON as if it were a python module. 
+github.com
+Shared by @mgrouchy
+ 
+
+- [classifier](https://github.com/bhrigu123/classifier)
+神器，看到它我就立即使用了，清理你那些懒得去清理的文件组织
+This is great! I used this immediately when I saw this, clean up your files organization because you are too lazy to do it yourself!
+github.com
+Shared by @mgrouchy
+ 
+
+- [simpletcp](https://github.com/gragas/simpletcp)
+Py3编写的迷你无阻塞TCP server
+A minimal non-blocking TCP server written for Python 3. 
+github.com
+Shared by @myusuf3
+ 
+
+- [autoinstaller](https://github.com/mdipierro/autoinstaller)
+让你快速从PyPi安装你需要的一切
+A package that installs from PyPi everything you need as soon as you try import it
+github.com
+Shared by @mgrouchy
+ 
+
+- [nlib](https://github.com/mdipierro/nlib)
+纯Python实现的数值计算库.numpy不可用时可以考虑它 
+It is a pure python library for numerical computations. When numpy is not available this is a nice choice! 
+github.com
 Shared by @mgrouchy
 
 ## DAMA
@@ -227,5 +188,5 @@ Shared by @mgrouchy
 
 # 是也乎
 
-- 151216 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
-- 151215 Spawnris(老高) 用时 17 分钟 完成格式转抄.
+- 160211 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
+- 160211 Spawnris(老高) 用时 17 分钟 完成格式转抄.
