@@ -8,7 +8,7 @@ Tags: Weekly,Pycoder,ZH
 
 
 
-- 原文: [Pycoders Weekly (Issue #202): Learn on]()
+- 原文: [Pycoders Weekly (Issue #202): Learn on](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=53e077220d)
 
 
 
@@ -31,52 +31,22 @@ Tags: Weekly,Pycoder,ZH
 
 ## 新闻
 
-- [Delorean 0.6.0发布](https://github.com/myusuf3/delorean) 
-
-向1.0发布前进!带来很多细节上的改动和突破!感谢@califloridan
-
-github.com
-
-Shared by @mgrouchy
+- [Scrapy Beta版开始支持Py3](http://doc.scrapy.org/en/stable/news.html#id1)
+点击链接查看详情
+scrapy.org
+Shared by @myusuf3
  
-- [PyMongo 3.2发布](https://emptysqua.re/blog/announcing-pymongo-3-2/) 
-
-PyMongo3.2发布.感兴趣的话,点击链接,查看详情吧!
-
-emptysqua.re
-
-Shared by @mgrouchy
- 
-- [Python 2.7.11发布](https://hg.python.org/cpython/raw-file/53d30ab403f1/Misc/NEWS)
-
-Python2.7.11已经发布,该版本为Python2.7.x的最后一个版本, 点击查看下详情! 
-
-python.org
-
+- [Django发布: 1.9.2(安全修复)和1.8.9(bug修复)](https://www.djangoproject.com/weblog/2016/feb/01/releases-192-and-189/)
+Django发布了针对安全问题的1.9.x版本和修复bug的1.8.x版本.是时候更新了!点击链接查看更多详情.
+djangoproject.com
 Shared by @myusuf3
 
 
 
 ## 讨论
-
-- [120G的csv文件-我该怎么用Python去处理它](https://www.reddit.com/r/Python/comments/3wa22v/120gb_csv_is_this_something_i_can_handle_in_python/) 
-
+- [Python新手该使用什么IDE](https://www.reddit.com/r/Python/comments/448it8/new_to_python_which_ide_should_i_use/)
 reddit.com
-
 Shared by @mgrouchy
- 
-- [改用Python3的理由](https://www.reddit.com/r/Python/comments/3w6zy0/one_more_reason_to_use_python_3/)
-
-reddit.com
-
-Shared by @myusuf3
- 
-- [你是如何在工作中使用Python的](https://www.reddit.com/r/Python/comments/3vuhj9/how_do_you_use_python_in_your_job/) 
-
-reddit.com
-
-Shared by @mgrouchy
-
  
 
 ## 工作
@@ -100,126 +70,104 @@ Shared by @mgrouchy
 
 ## 文章
 
-- [宠物小精灵识别](https://medium.com/@dimart/pok%C3%A9mon-recognition-d3ad5cadc61e#.o0bgp8dc3)
-
-能通过小精灵图鉴来识别出名字的机器学习算法. 
-
-medium.com
-
-Shared by @dimart_spb
- 
-- [使用Django admin的9个理由](https://alexmorozov.github.io/why-you-should-use-the-django-admin-9-tips.html) 
-
-很多人认为Django admin不够灵活,作者试图用一些django admin的使用技巧来证明事实并非如此!
-
-github.io
-
+- [mlxtend](https://github.com/rasbt/mlxtend)
+数据分析和机器学习库的辅助模块
+github.com
 Shared by @mgrouchy
  
-
-- [使用Python创建高级Excel工作簿](http://pbpython.com/advanced-excel-workbooks.html)
-
-使用Python中的pandas和XlsxWriter制作excel的好文
-
-pbpython.com
-
-Shared by @mgrouchy
- 
-- [垄断模拟](http://koaning.io/monopoly-simulations.html)
-
-koaning.io
-
-Shared by @mgrouchy
- 
-- [菜鸟的机器学习教程](http://pythonforengineers.com/machine-learning-for-complete-beginners/)
-
-菜鸟学习机器学习的最佳教程! 
-
-pythonforengineers.com
-
-Shared by @mgrouchy
- 
-- [Pytz和Django中的时区](http://tommikaikkonen.github.io/timezones/) 
-
-一篇文章带你深入了解Pytz和Django中的时区
-
-
-github.io
-
-Shared by @tommikaikkonen
- 
-- [用Python处理二进制数据](http://www.devdungeon.com/content/working-binary-data-python)
-
-devdungeon.com
-
+- [为Django迁移编写单元测试](https://www.caktusgroup.com/blog/2016/02/02/writing-unit-tests-django-migrations/)
+描述如何为Django迁移编写测试的博文
+caktusgroup.com
 Shared by @myusuf3
-
-- [Python和OpenCV实现的局部二值模式()LBP](http://www.pyimagesearch.com/2015/12/07/local-binary-patterns-with-python-opencv/)
-
-图像结构和模式识别的高质量教程. 
-
-pyimagesearch.com
-
+ 
+- [Stackless是什麽](http://cosmicpercolator.com/2016/02/02/what-is-stackless/)? 
+stackless扫盲
+cosmicpercolator.com
 Shared by @myusuf3
+ 
+- [使用Gevent实现Python和Cassandra异步操作](http://rustyrazorblade.com/2016/02/async-python-and-cassandra-with-gevent/)
+如何使用gevent最小化浪费的I/O时间
+rustyrazorblade.com
+Shared by @myusuf3
+ 
+- [使用Game Genie编写SMS游戏](https://www.twilio.com/blog/2015/08/romram-hacking-building-an-sms-powered-game-genie-with-lua-and-python.html)
+想法再多，不如来个酷炫的demo
+twilio.com
+Shared by @myusuf3
+ 
+- [现实生活中使用你的垃圾邮件过滤器](http://blog.cambridgecoding.com/2016/02/01/using-your-spam-filter-in-real-life/)
+第二部分描述了如何实现了你自己的垃圾邮件过滤器，并教你如何使用它来对你的邮件进行过滤
+cambridgecoding.com
+Shared by @mgrouchy
 
 
  
 ## 项目
 
-- [zerodb](https://github.com/zero-db/zerodb)
-
-Python实现的端到端的加密数据库
-
+- [whatportis]()
+用于查找运行中程序占用端口的终端工具
+awesome cli tool for finding what ports certain programs are running. 💯
 github.com
-
-Shared by @mgrouchy
- 
-- [ping-me](https://github.com/OrkoHunter/ping-me) 
-
-终端屏幕上的日常提醒. 
-
-github.com
-
-Shared by @mgrouchy
- 
-- [braindump](https://github.com/levlaz/braindump) 
-
-方便你规划生活的开放记事平台
-
-github.com
-
-Shared by @mgrouchy
- 
-- [bashhub-client](https://github.com/rcaloras/bashhub-client) 
-
-bashhub客户端,支持云端历史存储(支持zsh!)
-
-github.com
-
-Shared by @mgrouchy
- 
-- [Mathics](https://github.com/mathics/Mathics) 
-
-代替Mathematica的轻量级通用计算机代数系统
-
-github.com
-
-Shared by @mgrouchy
- 
-- [maltrail](https://github.com/stamparm/maltrail)
-
-恶意流量检测系统
-
-github.com
-
 Shared by @myusuf3
  
-- [ssh2](https://github.com/soheil/ssh2) 
-
-快速登陆你的AWS服务器的选择
-
+- [twtxt](https://github.com/buckket/twtxt) 
+黑客的微博工具
+Minimalist microblogging tool for hackers. 
 github.com
-
+Shared by @mgrouchy
+ 
+- [himawaripy](https://github.com/boramalper/himawaripy)
+有趣！将你的桌面背景设置为一张地球实时动态的图片，图片由Himawari8(日本气象卫星)提供
+Interesting! Adds a near-realtime picture of the earth to as your desktop background. Pictures from from Himawari 8 (A Japanese weather satellite).
+github.com
+Shared by @mgrouchy
+ 
+- [vote-knope](https://github.com/keith/vote-knope)
+拜托Github评论中+1的困扰
+Get rid of all the +1's from your Github issue comments. 
+github.com
+Shared by @mgrouchy
+ 
+- [viz](https://github.com/donnemartin/viz) 
+Github最新最受欢迎项目动态的交互式可视化
+Interactive visualizations and stats of GitHub's newest, most popular repos. 
+github.com
+Shared by @myusuf3
+ 
+- [GraphvizAnim](https://github.com/mapio/GraphvizAnim) 
+用于创建图形动画可视化，基于Graphviz和ImageMagick的gif渲染
+This is useful, creates animated graph visualizations, based on Graphviz and ImageMagick for gif rendering. 
+github.com
+Shared by @mgrouchy
+ 
+- [python-html-assert](https://github.com/robjohncox/python-html-assert)
+Python实现的HTML断言工具.测试版本
+Utility for asserting the structure and content of HTML in python. This is an alpha, but interesting project all the same!
+github.com
+Shared by @mgrouchy
+ 
+- [fate](https://github.com/mr-karan/fate) 
+能让你能在命令行浏览FontAwesome图标的小程序
+fate is a simple CLI program which let's you browse FontAwesome icons on your terminal
+github.com
+Shared by @myusuf3
+ 
+- [aio-libs](https://github.com/aio-libs)
+高质异步库集合
+A collection of high quality asyncio libraries.
+github.com
+Shared by @myusuf3
+ 
+- [PyDataset](https://github.com/iamaziz/PyDataset) 
+为Python padas帧结构中的大量数据提供即时访问
+Provides instant access to many datasets right from Python (in pandas DataFrame structure).
+github.com
+Shared by @mgrouchy
+ 
+- [dtags](https://github.com/joowani/dtags) 
+使用dtag给你的目录达标前来提高你的工作效率
+Add tags to your directories with dtag. Perfect for the person who is looking to optimize their workflow. 
+github.com
 Shared by @mgrouchy
 
 ## DAMA
@@ -227,5 +175,5 @@ Shared by @mgrouchy
 
 # 是也乎
 
-- 151216 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
-- 151215 Spawnris(老高) 用时 17 分钟 完成格式转抄.
+- 160211 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
+- 160211 Spawnris(老高) 用时 17 分钟 完成格式转抄.
