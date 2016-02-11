@@ -1,5 +1,5 @@
-Title: 蠎周刊 202: Learn on 
-Slug: issue-202
+Title: 蠎周刊 200: Two Hundred
+Slug: issue-200
 Date: 2016-02-11 12:50
 Tags: Weekly,Pycoder,ZH
 
@@ -8,7 +8,7 @@ Tags: Weekly,Pycoder,ZH
 
 
 
-- 原文: [Pycoders Weekly (Issue #202): Learn on]()
+- 原文: [Pycoders Weekly (Issue #200): Two Hundred](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=12da694704)
 
 
 
@@ -31,52 +31,22 @@ Tags: Weekly,Pycoder,ZH
 
 ## 新闻
 
-- [Delorean 0.6.0发布](https://github.com/myusuf3/delorean) 
-
-向1.0发布前进!带来很多细节上的改动和突破!感谢@califloridan
-
-github.com
-
+- [DSF对的DjangoCon Europe 2016的补助计划](https://www.djangoproject.com/weblog/2016/jan/21/djangocon-europe-grants-2016/)
+Django软件基金会提供了5000€给djangocon欧洲2016的参加者，以帮助他们满足出席的成本。如果你需要资金来帮助你参加djangocon, 点击了解详情。
+The Django Software Foundation has made 5000€ available for attendees of DjangoCon Europe 2016, to help meet the costs of attending. If you need funding to help attend DjangoCon you should click through to learn about applying. 
+djangoproject.com
 Shared by @mgrouchy
- 
-- [PyMongo 3.2发布](https://emptysqua.re/blog/announcing-pymongo-3-2/) 
-
-PyMongo3.2发布.感兴趣的话,点击链接,查看详情吧!
-
-emptysqua.re
-
-Shared by @mgrouchy
- 
-- [Python 2.7.11发布](https://hg.python.org/cpython/raw-file/53d30ab403f1/Misc/NEWS)
-
-Python2.7.11已经发布,该版本为Python2.7.x的最后一个版本, 点击查看下详情! 
-
-python.org
-
-Shared by @myusuf3
-
 
 
 ## 讨论
 
-- [120G的csv文件-我该怎么用Python去处理它](https://www.reddit.com/r/Python/comments/3wa22v/120gb_csv_is_this_something_i_can_handle_in_python/) 
-
+- [PyQt或PySide:学习哪个:Python](https://www.reddit.com/r/Python/comments/424n4y/pyqt_or_pyside_debate_over_which_to_learn/)
 reddit.com
-
-Shared by @mgrouchy
- 
-- [改用Python3的理由](https://www.reddit.com/r/Python/comments/3w6zy0/one_more_reason_to_use_python_3/)
-
-reddit.com
-
 Shared by @myusuf3
  
-- [你是如何在工作中使用Python的](https://www.reddit.com/r/Python/comments/3vuhj9/how_do_you_use_python_in_your_job/) 
-
+- [从Java转向Python真的值得吗?](https://www.reddit.com/r/Python/comments/420rli/webapp_switching_from_java_to_python_actually/)
 reddit.com
-
 Shared by @mgrouchy
-
  
 
 ## 工作
@@ -100,132 +70,136 @@ Shared by @mgrouchy
 
 ## 文章
 
-- [宠物小精灵识别](https://medium.com/@dimart/pok%C3%A9mon-recognition-d3ad5cadc61e#.o0bgp8dc3)
-
-能通过小精灵图鉴来识别出名字的机器学习算法. 
-
-medium.com
-
-Shared by @dimart_spb
- 
-- [使用Django admin的9个理由](https://alexmorozov.github.io/why-you-should-use-the-django-admin-9-tips.html) 
-
-很多人认为Django admin不够灵活,作者试图用一些django admin的使用技巧来证明事实并非如此!
-
-github.io
-
-Shared by @mgrouchy
- 
-
-- [使用Python创建高级Excel工作簿](http://pbpython.com/advanced-excel-workbooks.html)
-
-使用Python中的pandas和XlsxWriter制作excel的好文
-
-pbpython.com
-
-Shared by @mgrouchy
- 
-- [垄断模拟](http://koaning.io/monopoly-simulations.html)
-
-koaning.io
-
-Shared by @mgrouchy
- 
-- [菜鸟的机器学习教程](http://pythonforengineers.com/machine-learning-for-complete-beginners/)
-
-菜鸟学习机器学习的最佳教程! 
-
-pythonforengineers.com
-
-Shared by @mgrouchy
- 
-- [Pytz和Django中的时区](http://tommikaikkonen.github.io/timezones/) 
-
-一篇文章带你深入了解Pytz和Django中的时区
-
-
-github.io
-
-Shared by @tommikaikkonen
- 
-- [用Python处理二进制数据](http://www.devdungeon.com/content/working-binary-data-python)
-
-devdungeon.com
-
+- [Walrus, 一个轻量级redis工具](http://charlesleifer.com/blog/examples-of-using-walrus-a-lightweight-redis-toolkit/)
+Walrus用户应知的例子和漂亮的小功能
+Advocating for the user of walrus, tons of example and nifty little functions!
+charlesleifer.com
 Shared by @myusuf3
+ 
 
-- [Python和OpenCV实现的局部二值模式()LBP](http://www.pyimagesearch.com/2015/12/07/local-binary-patterns-with-python-opencv/)
 
-图像结构和模式识别的高质量教程. 
+- [一个Web开发者创建了一个Kivy应用](http://mattscodecave.com/posts/a-web-developer-builds-a-kivy-app.html)
+第一次Kivy开发经验分享
+Nice little rundown of first time experience with Kivy!
+mattscodecave.com
+Shared by @myusuf3
+ 
 
-pyimagesearch.com
+- [让我们一起编写一个简易解释器.第八部分](http://ruslanspivak.com/lsbasi-part8/)
+LBASI第八部分
+Part 8 of LBASI!
+ruslanspivak.com
+Shared by @mgrouchy
+ 
 
+- [使用Django进行原型设计](https://code.abhi.co/prototyping-django/)
+教你如何生成Python和Django的快速原型开发工具的好玩呢，可能带给你很多可借鉴的东西
+Cool article on how to generate quick prototyping tools with Python And Django! Might be a series you might want to follow.
+abhi.co
+Shared by @myusuf3
+ 
+- [Pros中的Scrapy技巧: 第一部分](http://blog.scrapinghub.com/2016/01/19/scrapy-tips-from-the-pros-part-1/)
+Scrapy Tips from the Pros: Part 1 
+scrapinghub.com
+Shared by @mgrouchy
+ 
+
+- [好奇评论的案例](http://inre.dundeemt.com/2016-01-20/the-case-of-the-curious-comment/)
+很酷的文章，你一定会感兴趣
+Pretty cool, article I would be interested in the response to this. 
+dundeemt.com
+Shared by @myusuf3
+ 
+
+- [使用图像特征分析股票图的相似性](https://indico.io/blog/clothing-similarity-how-a-program-is-more-fashionable-than-me/)
+非常酷，值得一读
+This is really cool! Great read.
+indico.io
 Shared by @myusuf3
 
 
  
 ## 项目
 
-- [zerodb](https://github.com/zero-db/zerodb)
-
-Python实现的端到端的加密数据库
-
+- [heroku-flask](https://github.com/abhiomkar/heroku-flask) 
+heroku下进行flask项目开发的套件
+A starter kit for using heroku to host your next flask project. 
 github.com
-
 Shared by @mgrouchy
  
-- [ping-me](https://github.com/OrkoHunter/ping-me) 
 
-终端屏幕上的日常提醒. 
-
-github.com
-
+- [A Pelican web editor](http://blog.ziade.org/2016/01/21/a-pelican-web-editor/) 
+pelican静态网站的web编辑器
+Cool little project for adding a web editor to the static site generator pelican. 
+ziade.org
 Shared by @mgrouchy
  
-- [braindump](https://github.com/levlaz/braindump) 
 
-方便你规划生活的开放记事平台
-
+- [TrumpScript](https://github.com/samshadwell/TrumpScript)
+请读README
+Just read the README.
 github.com
-
-Shared by @mgrouchy
- 
-- [bashhub-client](https://github.com/rcaloras/bashhub-client) 
-
-bashhub客户端,支持云端历史存储(支持zsh!)
-
-github.com
-
-Shared by @mgrouchy
- 
-- [Mathics](https://github.com/mathics/Mathics) 
-
-代替Mathematica的轻量级通用计算机代数系统
-
-github.com
-
-Shared by @mgrouchy
- 
-- [maltrail](https://github.com/stamparm/maltrail)
-
-恶意流量检测系统
-
-github.com
-
 Shared by @myusuf3
  
-- [ssh2](https://github.com/soheil/ssh2) 
 
-快速登陆你的AWS服务器的选择
-
+- [asyncssh](https://github.com/ronf/asyncssh)
+提供实现了SSHv2协议的异步客户端和服务器的Python库
+AsyncSSH is a Python package which provides an asynchronous client and server implementation of the SSHv2 protocol
 github.com
-
 Shared by @mgrouchy
+ 
+
+- [parsimonious](https://github.com/erikrose/parsimonious)
+目标成为最快的,对多人使用的纯Python实现的arbitrary-lookahead解析器
+Parsimonious aims to be the fastest arbitrary-lookahead parser written in pure Python—and the most usable.
+github.com
+Shared by @myusuf3
+ 
+
+- [folium](https://github.com/python-visualization/folium)
+Python数据. Leaflet.js地图
+Python Data. Leaflet.js Maps.
+github.com
+Shared by @mgrouchy
+ 
+
+- [deep-fonts](https://github.com/erikbern/deep-fonts)
+使用深度学习生成字体，相当不错
+Generate fonts using deep learning, pretty great!
+github.com
+Shared by @mgrouchy
+ 
+
+- [letsencrypt-aws](https://github.com/alex/letsencrypt-aws)
+使用AWS API编写用来自动更新你AWS上证书并加密的程序
+letsencrypt-aws is a program that can be run in the background which automatically provisions and updates certificates on your AWS infrastructure using the AWS APIs and Let's Encrypt.
+github.com
+Shared by @myusuf3
+ 
+
+- [lda2vec](https://github.com/cemoody/lda2vec)
+自然语言解释工具
+Tools for interpreting natural language
+github.com
+Shared by @mgrouchy
+ 
+
+- [python-streamexpect](https://github.com/digidotcom/python-streamexpect) 
+github.com
+Shared by @mgrouchy
+ 
+
+- [tornaREST](https://github.com/nekocode/tornaREST)
+基于Tornado web Server创建的简单的RESTful Web服务
+TornaREST is a simple RESTful Web Service build with Tornado Web Server!
+github.com
+Shared by @myusuf3
+ 
 
 ## DAMA
 (`大妈私人无责任播报`)
 
 # 是也乎
 
-- 151216 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
-- 151215 Spawnris(老高) 用时 17 分钟 完成格式转抄.
+- 160211 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
+- 160211 Spawnris(老高) 用时 17 分钟 完成格式转抄.
