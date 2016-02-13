@@ -1,5 +1,5 @@
-Title: 蠎周刊 202: Learn on 
-Slug: issue-202
+Title: 蠎周刊 203: Heart 
+Slug: issue-203
 Date: 2016-02-11 12:50
 Tags: Weekly,Pycoder,ZH
 
@@ -8,7 +8,7 @@ Tags: Weekly,Pycoder,ZH
 
 
 
-- 原文: [Pycoders Weekly (Issue #202): Learn on](http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&id=53e077220d)
+- 原文: [Pycoders Weekly (Issue #203): Heart](http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&id=b840145b68)
 
 
 
@@ -31,23 +31,31 @@ Tags: Weekly,Pycoder,ZH
 
 ## 新闻
 
-- [Scrapy Beta版开始支持Py3](http://doc.scrapy.org/en/stable/news.html#id1)
-点击链接查看详情
-scrapy.org
-Shared by @myusuf3
+- [PyCon7 - 日程发布](https://www.pycon.it/p3/schedule/pycon7/)
+你是否要来参加？日程表已经发布，看起来很棒！
+Are you attending? Here is the schedule, looks great!
+pycon.it
+Shared by @patrick91
  
-- [Django发布: 1.9.2(安全修复)和1.8.9(bug修复)](https://www.djangoproject.com/weblog/2016/feb/01/releases-192-and-189/)
-Django发布了针对安全问题的1.9.x版本和修复bug的1.8.x版本.是时候更新了!点击链接查看更多详情.
-djangoproject.com
-Shared by @myusuf3
 
+- [PyCon2016演讲日程发布](http://pycon.blogspot.ca/2016/02/announcing-pycon-2016-talks-schedule.html)
+要去参加在波特兰的PyCon2016么？日程表已放出！
+Announcing the PyCon 2016 Talks Schedule 
+Going to PyCon 2016 in Portland? The schedule is out!
+blogspot.ca
+Shared by @mgrouchy
 
 
 ## 讨论
-- [Python新手该使用什么IDE](https://www.reddit.com/r/Python/comments/448it8/new_to_python_which_ide_should_i_use/)
+
+- [PEP 0515 -- 强调数值型的字面值](https://www.reddit.com/r/Python/comments/4567ch/pep_0515_underscores_in_numeric_literals/)
 reddit.com
 Shared by @mgrouchy
  
+
+- [为什么Python不将x**2优化为x*x](https://www.reddit.com/r/Python/comments/4550c7/why_doesnt_python_optimize_x2_to_xx/)
+reddit.com
+Shared by @myusuf3
 
 ## 工作
 - [猎豹广州团队急召](https://github.com/cheetahmobile/CMBM/wiki/BmGzHr)
@@ -70,110 +78,165 @@ Shared by @mgrouchy
 
 ## 文章
 
-- [mlxtend](https://github.com/rasbt/mlxtend)
-数据分析和机器学习库的辅助模块
-github.com
+- [Numba中使用CFFI调用C类库](http://nbviewer.jupyter.org/github/synapticarbors/rmath-cffi-example/blob/master/rmath-cffi-example.ipynb)
+如题所示，深入介绍通过使用Numba中的CFFI调用C类库的好文
+As the title says, this is a nice in depth tutorial for using C libraries in Numba using CFFI.
+jupyter.org
 Shared by @mgrouchy
  
-- [为Django迁移编写单元测试](https://www.caktusgroup.com/blog/2016/02/02/writing-unit-tests-django-migrations/)
-描述如何为Django迁移编写测试的博文
-caktusgroup.com
-Shared by @myusuf3
- 
-- [Stackless是什麽](http://cosmicpercolator.com/2016/02/02/what-is-stackless/)? 
-stackless扫盲
-cosmicpercolator.com
-Shared by @myusuf3
- 
-- [使用Gevent实现Python和Cassandra异步操作](http://rustyrazorblade.com/2016/02/async-python-and-cassandra-with-gevent/)
-如何使用gevent最小化浪费的I/O时间
-rustyrazorblade.com
-Shared by @myusuf3
- 
-- [使用Game Genie编写SMS游戏](https://www.twilio.com/blog/2015/08/romram-hacking-building-an-sms-powered-game-genie-with-lua-and-python.html)
-想法再多，不如来个酷炫的demo
+
+- [使用Twilio Lookup验证手机号](https://www.twilio.com/blog/2016/02/how-to-verify-phone-numbers-in-python-with-the-twilio-lookup-api.html)
+使用Twilio Lookup的API接口来对手机号码进行验证
+Use the Twilio Lookup REST API with Python to verify phone numbers. 
 twilio.com
+Shared by @mgrouchy
+ 
+
+- [注册模式](http://next.kii.eliotberriot.com/stream/eliotberriot/items/25)
+Django应用中的"注册"的创建
+Great article on creating a "registy" in your Django application. 
+eliotberriot.com
+Shared by @mgrouchy
+ 
+
+- [用Python破解Worcester Wave温度计 - 第一部分](http://blog.rtwilson.com/hacking-the-worcester-wave-thermostat-in-python-part-1/)
+有趣，在家玩儿各种破解技术
+Always interesting to see what people can do when putting the effort in to hack their tech at home. Check out this post and Part 2. 
+rtwilson.com
+Shared by @mgrouchy
+ 
+
+- [使用micropython突破克隆](https://nvbn.github.io/2016/02/10/pyboard-breakout/)
+github.io
+Shared by @mgrouchy
+ 
+
+- [最后时刻完成你的幻灯:8步编写你的PyCon演讲幻灯](https://emptysqua.re/blog/how-i-write-a-conference-talk/)
+PyCon要来了，来学习下写幻灯的技巧吧
+Have a PyCon talk coming up, well this is the article for you, get some tips for writing your talk. 
+emptysqua.re
 Shared by @myusuf3
  
-- [现实生活中使用你的垃圾邮件过滤器](http://blog.cambridgecoding.com/2016/02/01/using-your-spam-filter-in-real-life/)
-第二部分描述了如何实现了你自己的垃圾邮件过滤器，并教你如何使用它来对你的邮件进行过滤
-cambridgecoding.com
-Shared by @mgrouchy
+
+- [Given-When-Then](http://pythontesting.net/strategy/given-when-then-2/)
+使用Given-When-Then策略为你的Python项目编写测试
+A look at using the Given-When-Then strategy for writing tests for your Python project. 
+pythontesting.net
+Shared by @myusuf3
 
 
  
 ## 项目
 
-- [whatportis]()
-用于查找运行中程序占用端口的终端工具
-awesome cli tool for finding what ports certain programs are running. 💯
+- [django-slack](https://github.com/lamby/django-slack) 
+很不错的项目.使用Django中的template标记语言来生成slack频道中的信息
+Nice project here. Allows you to use Django's template language to generate messages and put them in a slack channel. 
+github.com
+Shared by @lolamby
+ 
+
+- [leak](https://github.com/bmwant21/leak) 
+命令行上显示PyPy上类库信息的工具
+Useful, show you info about releases of packages on PyPy on the command line.
+github.com
+Shared by @bmwant
+ 
+
+- [maybe](https://github.com/p-e-w/maybe) 
+在命令行程序执行前判断它是什么
+See what a command line program does before you actually execute it. 
+github.com
+Shared by @mgrouchy
+ 
+
+- [bigchaindb](https://github.com/bigchaindb/bigchaindb)
+一个可伸缩的区块链数据库。
+A scalable blockchain database.
+github.com
+Shared by @BigchainDB
+ 
+
+- [orator](https://github.com/sdispater/orator)
+ORM,提供了简单的ActiveRecord实现
+An ORM, orator provides a simple ActiveRecord implementation. 
+github.com
+Shared by @mgrouchy
+ 
+
+- [xonsh](https://github.com/scopatz/xonsh)
+Python 风格的，兼容 BASH 的 SHELL 语言和命令提示。支持 Python 3.4
+a Python-ish, BASHwards-looking shell language and command prompt. The language used by xonsh is a superset of Python 3.4+ with shell primitives from Bash and IPython.
+github.com
+Shared by @mgrouchy
+ 
+
+- [zappa](https://github.com/Miserlou/Zappa)
+使用AWS Lambada和API Gateway来实现Python应用
+"Serverless" hosting for your Python apps using AWS Lambda + API Gateway.
 github.com
 Shared by @myusuf3
  
-- [twtxt](https://github.com/buckket/twtxt) 
-黑客的微博工具
-Minimalist microblogging tool for hackers. 
+
+- [redis-memory-analyzer](https://github.com/gamenet/redis-memory-analyzer)
+redis内存分析器，实时扫描键空间和总内存统计模式来分析内存使用瓶颈
+Redis memory profiler to find the RAM bottlenecks throw scaning key space in real time and aggregate RAM usage statistic by patterns.
 github.com
 Shared by @mgrouchy
  
-- [himawaripy](https://github.com/boramalper/himawaripy)
-有趣！将你的桌面背景设置为一张地球实时动态的图片，图片由Himawari8(日本气象卫星)提供
-Interesting! Adds a near-realtime picture of the earth to as your desktop background. Pictures from from Himawari 8 (A Japanese weather satellite).
-github.com
-Shared by @mgrouchy
- 
-- [vote-knope](https://github.com/keith/vote-knope)
-拜托Github评论中+1的困扰
-Get rid of all the +1's from your Github issue comments. 
-github.com
-Shared by @mgrouchy
- 
-- [viz](https://github.com/donnemartin/viz) 
-Github最新最受欢迎项目动态的交互式可视化
-Interactive visualizations and stats of GitHub's newest, most popular repos. 
+
+- [Terminal-on-FB-Messenger ](https://github.com/dhruvramani/Terminal-on-FB-Messenger)
+使用Fackbook messnger来运行你的命令行
+Run your terminal using Facebook messenger. 
 github.com
 Shared by @myusuf3
  
-- [GraphvizAnim](https://github.com/mapio/GraphvizAnim) 
-用于创建图形动画可视化，基于Graphviz和ImageMagick的gif渲染
-This is useful, creates animated graph visualizations, based on Graphviz and ImageMagick for gif rendering. 
+
+- [django-zappa](https://github.com/Miserlou/django-zappa)
+有趣的想法，用AWS Lambda和API Gateway来代替Django应用的服务器
+Interesting idea! Run a Django app "without a server" by deploying it to work with AWS Lambda + API Gateway. 
 github.com
 Shared by @mgrouchy
  
-- [python-html-assert](https://github.com/robjohncox/python-html-assert)
-Python实现的HTML断言工具.测试版本
-Utility for asserting the structure and content of HTML in python. This is an alpha, but interesting project all the same!
+
+- [asciimatics](https://github.com/peterbrittain/asciimatics)
+有点儿意思！跨平台的全屏ascii动画创建库，支持类curses操作 
+This is so much fun! Cross platform library that supports curses-like operations for creating fullscreen ascii animations, check out the README and this demo. 
 github.com
 Shared by @mgrouchy
  
-- [fate](https://github.com/mr-karan/fate) 
-能让你能在命令行浏览FontAwesome图标的小程序
-fate is a simple CLI program which let's you browse FontAwesome icons on your terminal
+
+- [vprof](https://github.com/nvdv/vprof)
+Python视觉分析器
+A visual profiler for Python.
 github.com
 Shared by @myusuf3
  
-- [aio-libs](https://github.com/aio-libs)
-高质异步库集合
-A collection of high quality asyncio libraries.
+
+- [Transcrypt](https://github.com/JdeH/Transcrypt)
+Python到Javascript的转换器。很酷！查看README了解详情
+Neat, Python to JavaScript transpiler. Too many cool things to even list here, check out the README for all the goodness. 
+github.com
+Shared by @TranscryptOrg
+ 
+
+- [pygraph](https://github.com/EntilZha/pygraph)
+python graphviz的命令行接口
+CLI interface to python graphviz. 
 github.com
 Shared by @myusuf3
  
-- [PyDataset](https://github.com/iamaziz/PyDataset) 
-为Python padas帧结构中的大量数据提供即时访问
-Provides instant access to many datasets right from Python (in pandas DataFrame structure).
+
+- [records](https://github.com/kennethreitz/records)
+Kenneth Reitz尝试为Humans库创建一个SQL
+From requests creator Kenneth Reitz an attempt to create a SQL for Humans library. 
 github.com
 Shared by @mgrouchy
  
-- [dtags](https://github.com/joowani/dtags) 
-使用dtag给你的目录达标前来提高你的工作效率
-Add tags to your directories with dtag. Perfect for the person who is looking to optimize their workflow. 
-github.com
-Shared by @mgrouchy
 
 ## DAMA
 (`大妈私人无责任播报`)
 
 # 是也乎
 
-- 160211 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
-- 160211 Spawnris(老高) 用时 17 分钟 完成格式转抄.
+- 160213 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
+- 160213 Spawnris(老高) 用时 17 分钟 完成格式转抄.
