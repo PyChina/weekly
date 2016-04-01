@@ -12,7 +12,7 @@ Tags: Weekly,ImportPython,Zh
 ## 该读
 ~ 文章, Blog, 教程...
 
-－ [你的 Django 故事: 遇见 Ana Krivokapi?](http://blog.djangogirls.org/post/106894578478)
+- [你的 Django 故事: 遇见 Ana Krivokapi?](http://blog.djangogirls.org/post/106894578478)
 
 Ann 是 Red Hat 的工程师,
 也是 `@OpenStack Horizon` 核心贡献者,
@@ -176,7 +176,7 @@ Pythonic 的可扩展的 马尔可夫链发生器.
 
 又一个不可变对象库.
 
-－ [k](https://github.com/bfontaine/k) 
+- [k](https://github.com/bfontaine/k) 
     - 2 Stars, 0 Fork
 
 Python 的枚举类型支持库.

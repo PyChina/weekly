@@ -77,7 +77,7 @@ qutebrowser 是拥有宏大社区异常活跃的项目:
 
 (`是也乎:`
 
-![](http://qutebrowser.org/img/cheatsheet-big.png)
+![cheatsheet-big](http://qutebrowser.org/img/cheatsheet-big.png)
 
 程序猿永远的野望! 用键盘控制一切...
 浏览器一直没有攻陷...所以 Pythoneer 来也...
@@ -184,7 +184,7 @@ Neural Variational Inference
 
 (`是也乎:`
 
-![](https://github.com/carpedm20/variational-text-tensorflow/raw/master/assets/model.png)
+![variational](https://github.com/carpedm20/variational-text-tensorflow/raw/master/assets/model.png)
 
 不知道能处理 红楼 卟!?
 

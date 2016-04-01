@@ -46,7 +46,7 @@ Toptal 工程师 Dario Bertini,
 
 (`是也乎:`
 
-![](https://assets.toptal.io/uploads/blog/image/92216/toptal-blog-image-1457618659472-be2f380fe3aad41333427ecd5a1ec5c5.jpg)
+![be2f380fe3aad41333427ecd5a1ec5c5](https://assets.toptal.io/uploads/blog/image/92216/toptal-blog-image-1457618659472-be2f380fe3aad41333427ecd5a1ec5c5.jpg)
 
 嗯哼, 包含非常 nice 的插图...
 只是 py3 这事儿,无论多美好,就是缺少 killer 级别的动力哪...

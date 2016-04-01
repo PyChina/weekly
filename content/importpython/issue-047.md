@@ -65,7 +65,7 @@ Paris.py 上一个非常赞的分享,
 昨天发布的 PyCharm Edu 2, 是第二个免费版本,
 专业又易用的 IDE, 内置了使用教程.
 
-－ [更好的交互式数据科学环境: Beaker 和 Rodeo](http://blog.dominodatalab.com/interactive-data-science/)
+- [更好的交互式数据科学环境: Beaker 和 Rodeo](http://blog.dominodatalab.com/interactive-data-science/)
 
 Domino 早已支持 IPython/Jupyter,
 不过,刚刚追加支持了全新界面: Beaker Notebooks, 和 Rodeo,
@@ -75,7 +75,7 @@ Domino 早已支持 IPython/Jupyter,
 那个 莲花公司的 Domino ?!
 )
 
-－ [用 Python 对 Markdown Headers 进行 Titlecases](http://pydanny.com/titlecasing-markdown-headers-with-python.html)
+- [用 Python 对 Markdown Headers 进行 Titlecases](http://pydanny.com/titlecasing-markdown-headers-with-python.html)
 
 问题就在如何从复合目录和文件中,
 用编程的方式,提取所有 md 文件的标准,进行自动化分析?
@@ -90,7 +90,7 @@ PeachPy 是专注编写高性能内核组件的 Python 模块
 将 C 的事儿都作了,让 go 无力可出
 )
 
-－ [构建自包含的 Python 3 应用来运行 PyPy](http://www.giantflyingsaucer.com/blog/?p=5680)
+- [构建自包含的 Python 3 应用来运行 PyPy](http://www.giantflyingsaucer.com/blog/?p=5680)
 
 之前作者曰过 如何构建一种 Python 3 微型环境
 (简单的 Minecraft 服务),
