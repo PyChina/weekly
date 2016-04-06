@@ -36347,6 +36347,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;/ul&gt;
 &lt;h2 id="changelog"&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;160401 ZoomQuiet 迁移发布到 github as gh_pages&lt;/li&gt;
 &lt;li&gt;140127 ZoomQuiet 增补宏观理解&lt;/li&gt;
 &lt;li&gt;140120 ZoomQuiet 复制到 QPython 的 Pelican 工程&lt;/li&gt;
 &lt;li&gt;131219 ZoomQuiet 为 &lt;a href="https://gitcafe.com/CPyUG/weekly/blob/master/README.md"&gt;CPyUG/weekly - GitCafe&lt;/a&gt; 创建&lt;/li&gt;
