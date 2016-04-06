@@ -6,6 +6,36 @@ from fabric.api import env, lcd, local, task
 # Local path configuration (can be absolute or relative to fabfile)
 env.input_path = 'content'
 env.deploy_pages = 'pages'
+
+
+def build():
+    local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
+
+def serve():
+    local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
+
+def reserve():
+    build()
+    serve()
+
+def gh_pages():
+    local('cd {deploy_path} && '
+            'pwd && '
+            'git st && '
+            'git add --all . && '
+            'git ci -am "re-build from local by markdoc @MBP111216ZQ" && '
+            #'git pu cafe gitcafe-page '
+            'git pu && '
+            'date '.format(**env)
+          )
+
+def pub():
+    build()
+    #CNAME()
+    gh_pages()
+
+    
+'''
 env.deploy_7niu = '7niu'
 env.qiniu_bin = '/opt/bin/7niu_package_darwin_amd64/qrsync'
 env.qiniu_conf = '../7niu4pychina.json'
@@ -57,7 +87,6 @@ def build4cafe():
         'pelican {input_path} -o {deploy_pages} -s pelicanconf.py'.format(**env)
     )
 
-'''
 @task
 @cd_app_root
 def serve():
@@ -67,8 +96,6 @@ def serve():
 def reserve():
     build()
     serve()
-'''
-
 
 @task
 def install_deps():
@@ -78,3 +105,5 @@ def install_deps():
         'Markdown '
         'pelican'
     )
+'''
+
