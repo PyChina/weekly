@@ -34,7 +34,6 @@ Tags: Weekly,Pycoder,ZH
 - [PyDev 4.5.5: 代码自动补全, pytest的集成, 对python3的解析, 调试器](http://pydev.blogspot.ca/2016/03/pydev-455-code-completion-pytest-python.html) 
 
 PyDev发布新版本。代码自动补全, pytest的集成, 对Python3的支持都得到了优化。
-A new release of PyDev is out the door with lots of new stuff, including code completion improvements, fixes for pytest integration, improved Python 3 parsing and more. 
 
 blogspot.ca
 
@@ -44,13 +43,17 @@ Shared by @mgrouchy
 - [pep8和pep257重命名为'pycodestyle`和`pydocstyle`](https://github.com/PyCQA/pycodestyle/issues/466) 
 
 是时候更新你的依赖了。pep8和pep257包分别重命名为`pycodestyle`和`pydocstyle`。点击查看详情。
-Time to update your dependencies. pep8 package and pep257 package renamed to 'pycodestyle` and `pydocstyle`, click through for more details. 
+
 
 github.com
 
 Shared by @mgrouchy`' 
 
 
+(`是也乎:`
+
+可惜了,原先的编号多 COOL 哪
+)
 
 ## 讨论
 
@@ -71,11 +74,17 @@ Shared by @mgrouchy
 - [参加PyCon有什么好处](https://www.reddit.com/r/Python/comments/4bckab/what_is_the_benefit_of_attending_pycon/)
 
 所有好处在此
-ALL THE BENEFITS!
+
 
 reddit.com
 
 Shared by @myusuf3
+
+
+(`是也乎:`
+
+可时能包含结识 MM 的收益,才是 PyCon 的真正飞跃之时...
+)
 
 ## 工作
 - [为艺(Wegenart)教育科技 急召](https://github.com/ZoomQuiet/zoomquiet/wiki/Hr4Wegenart)
@@ -91,7 +100,7 @@ Shared by @myusuf3
 - [Micropackages和开源代码的信任度](http://lucumr.pocoo.org/2016/3/24/open-source-trust-scaling/) 
 
 虽然'left-pad'事件不是发生在Python在身上，但还是值得一读
-Not Python specifically but with the recent npm 'left-pad' debacle, this is worth a read. 
+
 
 pocoo.org
 
@@ -101,7 +110,7 @@ Shared by @mgrouchy
 - [Python和最小惊讶原则](http://lucumr.pocoo.org/2011/7/9/python-and-pola/) 
 
 Python程序员需要了解的最小惊讶原则和Python的关联
-A look at the principle of least astonishment and how it relates to Python, and programmers coming to Python. 
+
 
 pocoo.org
 
@@ -111,7 +120,7 @@ Shared by @mgrouchy
 - [Python中的Mocking - 如何在测试中避免额外的代码](http://www.jamalmoir.com/2016/03/learn-to-mock-in-python.html) 
 
 模拟测试一直都是个热话题。速度还是上不去？这篇文章可以帮助你
-An oft talked about subject is Mocking. Still not up to speed? Check out this post to get started. 
+
 
 jamalmoir.com
 
@@ -121,7 +130,7 @@ Shared by @mgrouchy
 - [P值黑客](https://www.ibm.com/developerworks/community/blogs/jfp/entry/Green_dice_are_loaded_welcome_to_p_hacking?lang=en) 
 
 如何使用p值来证明一个假设是真的。值得一读
-A look at using p-values to demonstrate that a hypothesis is true (even when its not?). Great read. 
+
 
 ibm.com
 
@@ -131,7 +140,7 @@ Shared by @mgrouchy
 - [如何用Python和Django玩转ElasticSearch (第一部分) - Qbox](https://qbox.io/blog/how-to-elasticsearch-python-django-part1)
 
 通过本教程开始在你的Django应用中使用elasticsearch吧
-Get started integrating elasticsearch into your Django app with this tutorial. 
+
 
 qbox.io
 
@@ -141,7 +150,7 @@ Shared by @mgrouchy
 - [Python 反射: 如何列出模块并对函数进行检测](http://tomassetti.me/python-reflection-how-to-list-modules-and-inspect-functions/) 
 
 使用Python中反射来处理一些公共任务
-A look at reflection in Python and how to perform some common tasks.
+
 
 tomassetti.me
 
@@ -161,17 +170,17 @@ Shared by @mgrouchy
 - [加速Python和NumPy: C++方式](https://medium.com/coding-with-clarity/speeding-up-python-and-numpy-c-ing-the-way-3b9658ed78f4#.xdw1533iq)
 
 使用C扩展提升数学代码的性能
-Using C extensions to improve the performance of mathematical code!
+
 
 medium.com
 
 Shared by @myusuf3
         
 
-- [函数式编程: 概念, 惯用集和哲学](http://hkupty.github.io/2016/Functional-Programming-Concepts-Idioms-and-Philosophy/)
+- [函数式编程: 概念, 惯用法和哲学](http://hkupty.github.io/2016/Functional-Programming-Concepts-Idioms-and-Philosophy/)
 
 Python开发者所喜爱的函数式编程的思想。
-Introduction to you pythonistas interested in the functional way of thinking. 
+
 
 github.io
 
@@ -182,7 +191,7 @@ Shared by @myusuf3
 - [专家传授的爬虫技巧](https://blog.scrapinghub.com/2016/03/23/scrapy-tips-from-the-pros-march-2016-edition/)
 
 我们有很多方式去爬取一个网站，而专家提供的一些技巧会让你更上一层楼 。
-Many ways we scrape a website, and with a few tips from the pros you will be cooking.
+
 
 scrapinghub.com
 
@@ -194,7 +203,7 @@ Shared by @stummjr
 - [concentration](https://github.com/timothycrosley/concentration#concentration) 
 
 帮助你专注工作，杜绝偷懒的工具
-Stay focused on work when you want, and goof off when you don't. 
+
 
 github.com
 
@@ -204,7 +213,7 @@ Shared by @myusuf3
 - [quantum](https://github.com/karldray/quantum)
 
 利用量子关系来模拟方向因果关系
-Simulate reverse causality using quantum suicide.
+
 
 github.com
 
@@ -212,16 +221,17 @@ Shared by @myusuf3
   
 
 - [try](https://github.com/timofurrer/try)
+
 易用的Python包试用命令行工具
-try is an easy-to-use cli tool to try out python packages.
+
 github.com
+
 Shared by @tuxtimo
    
 
 - [dplython](https://github.com/dodger487/dplython)
 
 Python版Dplyr。让来自R语言社区的你感觉到Dplyr到Python的切换是如此轻松。
-Dplyr for Python. Those of you from the R community will find this familiar trying to bring the ease of Dplyr to Python.
 
 github.com
 
@@ -231,7 +241,6 @@ Shared by @myusuf3
 - [python-diskcache](https://github.com/grantjenks/python-diskcache/) 
 
 基于硬盘和文件的缓存
-Python disk and file-based cache.
 
 github.com
 
@@ -250,5 +259,5 @@ Shared by @kenstruys
 
 # 是也乎
 
-- 160403 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
+- 160407 Spawnris(老高)/[Zoom.Quiet](http://zoomquiet.io/)(大妈) 先后用时 42 分钟 完成快译.
 - 160403 Spawnris(老高) 用时 17 分钟 完成格式转抄.
