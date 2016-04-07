@@ -5,21 +5,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/index.html</loc>
-<lastmod>2016-04-06T18:10:33-00:00</lastmod>
+<lastmod>2016-04-07T11:57:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://weekly.pychina.org/archives.html</loc>
-<lastmod>2016-04-06T18:10:33-00:00</lastmod>
+<lastmod>2016-04-07T11:57:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://weekly.pychina.org/categories.html</loc>
-<lastmod>2016-04-06T18:10:33-00:00</lastmod>
+<lastmod>2016-04-07T11:57:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://weekly.pychina.org/design.html</loc>
 <lastmod>2013-12-19T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://weekly.pychina.org/issue/issue-210.html</loc>
+<lastmod>2016-04-03T13:50:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://weekly.pychina.org/issue/issue-209.html</loc>
+<lastmod>2016-04-03T10:50:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://weekly.pychina.org/issue/issue-208.html</loc>
+<lastmod>2016-04-03T09:50:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://weekly.pychina.org/issue/issue-207.html</loc>
+<lastmod>2016-04-03T08:50:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://weekly.pychina.org/issue/issue-206.html</loc>
+<lastmod>2016-04-03T07:50:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1643,7 +1678,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/issue/index.html</loc>
-<lastmod>2016-02-28T12:50:00+08:06</lastmod>
+<lastmod>2016-04-03T13:50:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1664,7 +1699,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/tag/zh.html</loc>
-<lastmod>2016-03-31T14:42:00+08:06</lastmod>
+<lastmod>2016-04-03T13:50:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1699,7 +1734,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/tag/pycoder.html</loc>
-<lastmod>2016-02-28T12:50:00+08:06</lastmod>
+<lastmod>2016-04-03T13:50:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1720,7 +1755,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/tag/weekly.html</loc>
-<lastmod>2016-03-31T14:42:00+08:06</lastmod>
+<lastmod>2016-04-03T13:50:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1734,7 +1769,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/author/zoomquiet.html</loc>
-<lastmod>2016-03-31T14:42:00+08:06</lastmod>
+<lastmod>2016-04-03T13:50:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
