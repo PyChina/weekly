@@ -5,7 +5,7 @@ from fabric.api import env, lcd, local, task
 
 # Local path configuration (can be absolute or relative to fabfile)
 env.input_path = 'content'
-env.deploy_pages = 'pages'
+env.deploy_path = 'output'
 
 
 def build():

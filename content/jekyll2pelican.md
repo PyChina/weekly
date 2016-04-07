@@ -280,6 +280,7 @@ fixed!
 
 ## Changelog
 
+- 160401 ZoomQuiet 迁移发布到 github as gh_pages
 - 140127 ZoomQuiet 增补宏观理解
 - 140120 ZoomQuiet 复制到 QPython 的 Pelican 工程
 - 131219 ZoomQuiet 为 [CPyUG/weekly - GitCafe](https://gitcafe.com/CPyUG/weekly/blob/master/README.md) 创建
