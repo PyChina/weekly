@@ -1,5 +1,324 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2016-04-03T13:50:00+08:00</updated><entry><title>蠎周刊 210: right-pad</title><link href="http://weekly.pychina.org/issue/issue-210.html" rel="alternate"></link><updated>2016-04-03T13:50:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-04-03:issue/issue-210.html</id><summary type="html">&lt;p&gt;&lt;img alt="PycodersWeekly.png(PNG 图像,860x97 像素)" src="http://zoomq.qiniucdn.com/logos/PycodersWeekly.png?imageView2/2/w/360" /&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2016-04-07T17:17:00+08:00</updated><entry><title>蠎加载 67</title><link href="http://weekly.pychina.org/importpython/importpython-67.html" rel="alternate"></link><updated>2016-04-07T17:17:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-04-07:importpython/importpython-67.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/67/"&gt;Import Python Weekly Newsletter - Issue No 67&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_1"&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.launchbit.com/taz/11284-6334-111"&gt;和 Slack 一起更好的工作&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Sponsor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Slack 能将团队的所有消息聚集在一起的工具.
+更少邮件/会议,嗯哼,作的更好.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;其实,好象并不怎么得力...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.reddit.com/r/Python/comments/4df3oq/how_should_i_prepare_for_python_interview/"&gt;应该如何准备 Python 面试 ? - Reddit Discussion.&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;interview&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;自学编程,两年前开始用 Django, Bootstrap, Python, Javascript.
+刚刚通知有个 Python 工程师的职位,
+那么应该如何准备?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://codesachin.wordpress.com/2016/04/03/a-practical-introduction-to-functional-programming-for-python-coders/"&gt;面向 Python 程序猿的 函式编程 介绍&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文章为已有 Python 编程经验的,给出了 函式编程 的介绍.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://i.imgur.com/1BKr16n.gif"&gt;Python 在 JavaScript | 特性! PyCharm 远程调试.&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pycharm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;新功能展示 gif 动画, PyCharm 全桟用户应该看看&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://eli.thegreenplace.net/2016/comparing-types-in-python-3/"&gt;Python 3 中的类型比较&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果在折腾 元编程, 一定发现需要一个类型排序.
+不是对象,而是类型.
+之前 Python2 的同类文章非常受欢迎,
+Eli Bendersky 又写出了面向 Python 3 的.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://mrafayaleem.com/2016/03/31/apache-kafka-producer-benchmarks/"&gt;Apache Kafka 生产者基线 - Java vs Jython vs Python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;benchmark&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文章中,针对 Java, Jython 和 Python 进行了基线评测.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://podcastinit.podbean.com/e/episode-51-pyjion-with-dino-viehland-and-brett-cannon/"&gt;51 集 - Pyjion 和 Dino Viehland 以及 Brett Cannon&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;podcast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为了提高 CPython 的性能,
+Dino Viehland 在暂定在 JIT 上进行改进.
+他的公司 M$ , 决定赞助这一想法.
+于是就有了 Pyjion 项目.
+这集中,采访了核心成员,讨论了最新进展,以及一路上的困难.
+当然,也跑题讨论了, 为什么 GIL 创造出来前,并没有想到这么可怕?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.launchbit.com/taz/11284-6191-111"&gt;构建实时 apps&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Sponsor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Syncano. Database. Backend. Middleware. Real-time. Support. Start for free!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.yhat.com/posts/data-normalization-in-python.html"&gt;用 Feather 进行数据标准化&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pandas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The 162 game marathon MLB season is officially underway. In honor of the opening of another season of America's Pasttime I was working on a post that uses data from the MLB. What I realized was that as I was writing the post, I found that I kept struggling with inconsistent data across different seasons. It was really annoying and finally it hit me: This is what I should be writing about! Why not just dedicate an entire post to normalizing data!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-scale-django-beyond-the-basics"&gt;如何扩展 Django: 超越基础 | DigitalOcean&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文章包含以下内容: 缓存技术,
+包括用 Varnish 高速缓存整个儿网站,
+或视图基础上进行缓存控制.
+静态文件传送给 CDN 而不是 Django.
+如何用 uWSGI 从网络服务器上运行 Django 来提高恬静.
+最后,可以了解到如何尽可能多的分配内存给 应用程序.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/nficano/python-lambda"&gt;Python-lambda: 10分钟以内完成第一个 Python 的 Lambda 微应用&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;aws&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AWS Lambda 是种支持 Python/Jana/Node.js 的无主机应用发布平台.
+只有在有请求时才真正运行的应用.
+编写 Lambda 应用比较简单,
+但是,绑定和部署没那么简单.
+Python-lambda 就是专门简化这方面麻烦的工具!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://feeds.wordaligned.org/~r/wordaligned/~3/OZXREqk3P9I/8-queens-puzzle"&gt;8 皇后问题&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Raymond Hettinger 将之前的方案,升级为 Python 3.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zerokspot.com/weblog/2016/04/04/channels-in-docker/"&gt;Channels 的 Docker 实例&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在 Budapest 举行的 DjangoCon Europe 2016 中 sprints 项目之一,
+Andrew Godwin 的 Channels 框架很可能进入 Django 1.10 版本特性.
+现在需要一个稳定的 WebSocket 方案,
+其中基于 docker-compose 的很不错.上周宣布&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.oreilly.com/pub/e/3704"&gt;Big Data Wrangling 和 Python Course&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;作者 Katharine Jarmul (Data Wrangling with Python) &lt;/p&gt;
+&lt;p&gt;将发布为期两天的课程, 包含数据采集和管理,
+使用 Pandas 进行数据分析,
+以及使用类似 Hadoop 和 PySpark 进行集成,
+地点在 NY.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://qbox.io/blog/elasticsearch-python-django-frontend-queries"&gt;如何在 Python 和 Django 中用 Elasticsearch, 第4部分 -创建前端&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这是最后一集, 讨论如何在前端增加功能项,包含查询/索引/更新...&lt;/p&gt;
+&lt;p&gt;In the previous posts in this series ( shared in the previous issue of the newsletter ) we created a basic Django app and populated a database with automatically generated data. We also added data to the elasticsearch index in bulk, wrote a basic command, and added a mapping to the elasticsearch index. In this final article we will add functional frontend items, write queries, allow the index to update, and discuss a bonus tip.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/airbnb/caravel"&gt;Airbnb 开源 Caravel, 基于 Python/Javascript 的数据探索/可视化平台!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Caravel is a data exploration platform designed to be visual, intuitive and interactive.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="sankey" src="http://airbnb.io/caravel/_images/sankey.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="force_directed" src="http://airbnb.io/caravel/_images/force_directed.png" /&gt;&lt;/p&gt;
+&lt;p&gt;类似 AJAX, Airbnb 组合现有的优秀框架,变成了一个任性的大数据通用分享平台!&lt;/p&gt;
+&lt;p&gt;后端:Flask+Pandas+SqlAlchemy; 前端: react+d3.js+nvd3.org&lt;/p&gt;
+&lt;p&gt;唯一原创的是 &lt;a href="http://druid.io/druid.html"&gt;Druid&lt;/a&gt; ~
+近线通用数据存储.
+异常活跃,已经有近千 Issue 了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/rochacbruno/dynaconf"&gt;rochacbruno/dynaconf: 为 Python 动态加载配置&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;dynaconf  是 OSM(对象设置映射器),
+可以读取从不同的数据源,
+比如 配置文件/环境变量/redis/memcached/ini文件/json文件/yaml文件,
+甚至于可以自定义格式.
+(别说要从 xml 读取!)&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;非常需要,但是,看起来还不成就.
+其实,最关键的是如何动态加载/更新
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://amitu.com/smarturls/"&gt;smarturls&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;smarturls 内置正则表达式模式库,
+来轻松为 Django 构建路径表.
+作者 Amit 是早期 Django 用户之一.
+另外还有作品: &lt;a href="https://github.com/amitu/importd"&gt;importd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Amit" src="https://avatars2.githubusercontent.com/u/58662?v=3&amp;amp;s=460" /&gt;&lt;/p&gt;
+&lt;p&gt;胡子不够哪...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h2 id="_2"&gt;新书&lt;/h2&gt;
+&lt;p&gt;~ New Books&lt;/p&gt;
+&lt;p&gt;NULL&lt;/p&gt;
+&lt;h2 id="_3"&gt;项目&lt;/h2&gt;
+&lt;p&gt;~ 包/模块/库/片段...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/infinet/rsync-time-machine"&gt;rsync-time-machine&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;42 Stars, 1 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Time Machine 样的备份.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/hardmaru/cppn-gan-vae-tensorflow"&gt;cppn-gan-vae-tensorflow&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;36 Stars, 7 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Train CPPNs 为 Generative Model, 
+使用 Generative Adversarial Networks 以及 Variational Autoencoder 
+技术生成高分辨率照片!&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="是也乎" src="https://camo.githubusercontent.com/71d9f802bb9af06ac24b9c87242196993406533b/68747470733a2f2f63646e2e7261776769742e636f6d2f686172646d6172752f6370706e2d67616e2d7661652d74656e736f72666c6f772f6d61737465722f6578616d706c65732f6f75747075745f6c696e6561722e676966" /&gt;&lt;/p&gt;
+&lt;p&gt;不明觉厉&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/mjtamlyn/django-serial-forms"&gt;django-serial-forms&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;35 Stars, 4 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Constructible, introspectable serializers and forms&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/zerok/channels-in-docker"&gt;channels-in-docker&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;8 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An example project for getting to know django channels.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;现在推广一个模块的标准三件套是:
+github/pip/docker !!!&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ajaxtpm/reCaptcha"&gt;reCaptcha&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;8 Stars, 4 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为了自动通过 Google reCaptcha v2 而创建的系统.
+包含 hashes/颜色直方 的宏大训练图像集.
+所有研究细节在: https://habrahabr.ru/post/280230/&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/fsr/stats"&gt;stats&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;6 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:chart_with_upwards_trend: &lt;/p&gt;
+&lt;p&gt;俺们办公室的状态数据.
+公开了光传感器从办公室收集的数据.
+并整理为卡片,为了给亲们任性的参观.
+因为并没有严格的作习规定...&lt;/p&gt;
+&lt;p&gt;Statistics from our office. This projects evaluates the data gathered by the light sensor in our office and punches them into a card. The intention behind this is to give folks, who want to visit us in our office, a recommendation on how likely it is that somebody will be there, since we don't have strict office hours. These statistics pose as an addition to the Buerostatus project, which gathers the data and gives live feedback on our website.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="stats" src="https://github.com/fsr/stats/raw/master/assets/example.png" /&gt;&lt;/p&gt;
+&lt;p&gt;传说中的 &lt;code&gt;NoZuoNoDie&lt;/code&gt; 嘛!?
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/rounds/couchbase-dump"&gt;couchbase-dump&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;6 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;对 couchbase buckets 的导出/入, 以及查阅的支持脚本&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/rbarrois/aionotify"&gt;aionotify&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;6 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Simple, asyncio-based inotify library for Python&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ferventdesert/tnpy"&gt;tnpy&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;5 Stars, 1 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文本分析引擎
+(匹配/改写/提取) (python edition)&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="tnpy" src="https://camo.githubusercontent.com/dfa0a0067f507296d4884f6f2400f40f71f0cd4a/687474703a2f2f7374617469632e7a7962756c756f2e636f6d2f627570747a796d2f6b736c3567677266636e3170736d646632663831693877672f666f6f2e706e67" /&gt;&lt;/p&gt;
+&lt;p&gt;国人作品!
+使用 qq 邮箱的 gitter ...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/gabdube/pyshaders"&gt;pyshaders&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;5 Stars, 1 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pythonic OpenGL shader wrapper for python&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/PyRag/pyrag-sports"&gt;pyrag-sports&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;3 Stars, 2 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CLI 工具,专门用来关注 football 和 cricket 信息.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;板球?! 好吧,印度人...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/klen/flask-pw"&gt;flask-pw&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;3 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Peewee ORM integration for Flask framework&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/requestsigdel/Earthquake-Notifier"&gt;Earthquake-Notifier&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;2 Stars, 2 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;地震通知!
+如果 感知到相关数据,
+立即发送短信到 美国地质勘探局 的电话!&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;细思恐极, 绝对需要哪! 
+等等! 原来是用 Raspberry Pi 制造的地震仪?!
+嚓! 官方信了才见鬼了...
+)&lt;/p&gt;
+&lt;h2 id="dama"&gt;DAMA 无责任推荐&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.livecoding.tv/2016/03/24/the-ten-10-best-python-productivity-tools-plugins-and-libraries"&gt;10个最好用的 Python 工具/插件/库 - Livecoding.tv Blog&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;以及同类最10好的 C/C++/C#/JAVA/JS/Angular/H5 推荐....&lt;/li&gt;
+&lt;li&gt;当然,都是 Livecoding.tv 一家之言...没有 github 的统计精确哈...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="_4"&gt;工作&lt;/h3&gt;
+&lt;p&gt;....&lt;/p&gt;
+&lt;h1 id="_5"&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;160408 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 42 分钟完成快译&lt;/li&gt;
+&lt;li&gt;160407 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟完成格式化.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="Weekly"></category><category term="ImportPython"></category><category term="Zh"></category></entry><entry><title>蠎周刊 210: right-pad</title><link href="http://weekly.pychina.org/issue/issue-210.html" rel="alternate"></link><updated>2016-04-03T13:50:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-04-03:issue/issue-210.html</id><summary type="html">&lt;p&gt;&lt;img alt="PycodersWeekly.png(PNG 图像,860x97 像素)" src="http://zoomq.qiniucdn.com/logos/PycodersWeekly.png?imageView2/2/w/360" /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&amp;amp;id=3832782ac4"&gt;Pycoders Weekly (Issue #210): right-pad&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
