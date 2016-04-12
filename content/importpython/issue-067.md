@@ -312,9 +312,18 @@ Peewee ORM integration for Flask framework
 
 ## DAMA 无责任推荐
 
-- [10个最好用的 Python 工具/插件/库 - Livecoding.tv Blog](http://blog.livecoding.tv/2016/03/24/the-ten-10-best-python-productivity-tools-plugins-and-libraries)
-    + 以及同类最10好的 C/C++/C#/JAVA/JS/Angular/H5 推荐....
-    + 当然,都是 Livecoding.tv 一家之言...没有 github 的统计精确哈...
+- [pyenv-mirror](https://github.com/huntzhan/pyenv-mirror)
+    + 7 Stars, 0 Fork
+
+快速制作 pyenv 环境镜像的工具
+
+(`是也乎:`
+
+国人作品, 在 CPyUG 列表反馈下, 24小时以内,兼容了 Python 2 ;-)
+
+嗯哼,当然的,没有 M$ 的支持.
+)
+
 
 ### 工作
 
