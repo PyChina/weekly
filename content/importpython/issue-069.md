@@ -303,7 +303,7 @@ CLI 脚本, 查询/分析 Sentry 收集的数据
 
 # 是也乎
 
-- 160421 [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
+- 160422 [Zoom.Quiet](http://zoomquiet.io) 92 分钟完成快译
 - 160421 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
 
 
