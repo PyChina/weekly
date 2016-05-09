@@ -22,7 +22,7 @@ django/flask/bottle ...
 
 
 
-- [Python 分类排序\](https://pythontips.com/2016/04/24/python-sorted-collections/)
+- [Python 分类排序](https://pythontips.com/2016/04/24/python-sorted-collections/)
     + core python
 
 对于 TIOBE 排行榜的其它语言,
