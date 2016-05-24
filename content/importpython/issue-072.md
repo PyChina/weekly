@@ -259,6 +259,8 @@ gensim ~ NLP 必用品
 
 以及: [20 Python libraries you can’t live without | Python Tips](https://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/)
 
+- [Python 技巧总结 | Taotao's Zone](http://litaotao.github.io/python-materials)
+    + 首次自我推荐 Py 原创好文章 ;-)
 - [pyenv-mirror](https://github.com/huntzhan/pyenv-mirror)
     + 7 Stars, 0 Fork
 
