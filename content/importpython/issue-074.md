@@ -156,9 +156,13 @@ CSV/HTML/JavaScript/JSON/Markdown/Excel/Pandas/Python/reStructuredText
 
 欢迎订阅 [python-cn(华蟒用户组,CPyUG 邮件列表) - Google 网上论坛](https://groups.google.com/forum/#!forum/python-cn) 和 Pyston 开发者直接沟通,嗯哼 ;-)
 
-### 工作
+- [混乱的 Python | Tyrant's Technology](http://t.cn/RUieq1O)
+- [Python 模块在全局作用域里应避免任何产生副作用的语句 | Tyrant's Technology](http://t.cn/RGxdl9n)
 
-....
+
+~ 嗯哼, 继续来自自荐的 [御宅暴君](http://acgtyrant.com/) 同学 ;-)
+
+
 
 
 # 是也乎
