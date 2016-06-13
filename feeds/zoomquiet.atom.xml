@@ -237,13 +237,13 @@ You're curious how web frameworks work because you want to become a better web d
 &lt;p&gt;Python Design Patterns. Here is an overview of several different design patterns and concepts in Python.&lt;/p&gt;
 &lt;h2 id="dama"&gt;DAMA 无责任推荐&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;贡献一个刚刚好的python仓库吧：https://github.com/shell909090/webserver&lt;ul&gt;
-&lt;li&gt;从头开始写一个web服务器，python代码刚刚好1046行&lt;/li&gt;
-&lt;li&gt;由著名的 7牛 CSO 分享&lt;/li&gt;
-&lt;li&gt;引发自 &lt;a href="https://book.douban.com/subject/26807339/"&gt;爱上Python&lt;/a&gt;&lt;code&gt;~送书换头像&lt;/code&gt; 活动&lt;/li&gt;
+&lt;li&gt;贡献一个刚刚好的python仓库吧：https://github.com/shell909090/webserver&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从头开始写一个web服务器，python代码刚刚好1046行
+由著名的 7牛 CSO 分享
+引发自 &lt;a href="https://book.douban.com/subject/26807339/"&gt;爱上Python&lt;/a&gt;&lt;code&gt;~送书换头像&lt;/code&gt; 活动&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h1 id="_4"&gt;是也乎&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;160613 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 92 分钟完成快译&lt;/li&gt;
