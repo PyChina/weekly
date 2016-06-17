@@ -204,6 +204,11 @@ DVCS 的连带伤害...
 &lt;li&gt;&lt;a href="https://speakerdeck.com/pycon2016"&gt;Pycon US 2016 视频和演讲幻灯&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;必须首先复习: &lt;a href="https://www.youtube.com/watch?v=YgtL4S7Hrwo"&gt;Guido van Rossum - Python Language - PyCon 2016&lt;/a&gt; 明确 Py2 何时正式放弃...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/CtripCloud/docker-make"&gt;CtripCloud/docker-make: a tool for managing docker image builds &amp;amp; push from a git repo.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;自动生成 yaml 配置文档, 来人性化解决 docker 镜像生成时的 tag 以及编译顺序依赖等问题
+一个刚刚发布的实用工具.国货,但文档是 E文的,为这儿先点个赞!&lt;/p&gt;
 &lt;h1 id="_4"&gt;是也乎&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;160616 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 42 分钟完成快译&lt;/li&gt;
