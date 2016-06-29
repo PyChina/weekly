@@ -246,7 +246,12 @@ Python Design Patterns. Here is an overview of several different design patterns
 
 ## DAMA 无责任推荐
 
-...
+- 贡献一个刚刚好的python仓库吧：https://github.com/shell909090/webserver
+
+> 从头开始写一个 web服务器，python代码刚刚好1046行
+> 由著名的 7牛 CSO 分享
+> 引发自 [爱上Python](https://book.douban.com/subject/26807339/)`~送书换头像` 活动
+
 
 # 是也乎
 
