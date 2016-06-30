@@ -31,7 +31,11 @@ Join Amit Saha, author of Doing Math with Python, in this hands-on webcast, and 
 (`是也乎:`
 
 `Doing Math with Python` 是新书,
+<<<<<<< HEAD
 介绍了一系列数学相关的库,最后也引向了机器学习的命题.
+=======
+介绍了一系列数学相关的库,最后也引向了机械学习的命题.
+>>>>>>> 05621f3c407be189efd9a1a68f20a4d5923eea9d
 )
 
 - [用户 python-social-auth Pipeline](http://godjango.com/122-custom-python-social-auth-pipeline/)

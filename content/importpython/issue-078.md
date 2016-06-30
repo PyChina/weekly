@@ -65,6 +65,7 @@ Today, I’m going to go over setting up a very simple way to spin up a Python F
 
 终于出现 pip 的二级工具了,
 配合 pyenv 应该真正笑醒...
+等等! 还是国人作品, 点赞!
 )
 
 
