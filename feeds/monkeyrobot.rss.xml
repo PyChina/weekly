@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>蠎周刊</title><link>http://weekly.pychina.org/</link><description></description><atom:link href="http://weekly.pychina.org/feeds/monkeyrobot.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 17 Nov 2013 00:00:00 +0800</lastBuildDate><item><title>MonkeyRobot</title><link>http://weekly.pychina.org/author/monkey-robot.html</link><description>&lt;h1 id="monkeyrobot"&gt;MonkeyRobot (小猴机器人)&lt;/h1&gt;
-&lt;p&gt;&lt;a href="ztl2004.github.io/MachineLearningWeekly/all_issues.html"&gt;机器学习周刊&lt;/a&gt;作者&lt;/p&gt;
-&lt;p&gt;Python无脑粉，机器学习，人工智能狂热分子&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;微博:  http://weibo.com/xiaohourobot&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">MonkeyRobot</dc:creator><pubDate>Sun, 17 Nov 2013 00:00:00 +0800</pubDate><guid>tag:weekly.pychina.org,2013-11-17:author/monkey-robot.html</guid><category>people</category></item></channel></rss>
