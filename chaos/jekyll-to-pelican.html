@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <title>How to from Jekyll jump into Pelican
+        |蠎周刊
+        |汇集全球蠎事儿 !-) </title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph tags -->
+
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="How to from Jekyll jump into Pelican"/>
+            <meta property="og:url" content="http://weekly.pychina.org/chaos/jekyll-to-pelican.html"/>
+            <meta property="og:description" content="如何从 Jekyll 转进入 Pelican 简述静态网站从 Jekyll 环境中迁移为 纯 Python Pelican... 为毛 社区在发展, 原先的 蠎周刊,为方便,使用了 gitcafe 内置的 Jekyll 服务, 所以,其实在使用 Ruby 自动编译和发布. 总是感觉不够纯粹 Pythonic ... 故而, 下决心完成迁移 整体 忽然发现,俺感觉很直觉的事儿,也写了文档, 但是,其它人真正首次上手全然一头雾水... 所以 学习学习再学习 - xiaolai 提出的,俺实在无法同意更多.. 这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。 用最直白的话来描述，就是： 初级的知识需要对高级知识深入了解才能真正深入了解 ——你看看这句话多拗口就多少有点概念了。 所以,还是按照 ..."/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://weekly.pychina.org/theme/css/bootstrap.readable.min.css" type="text/css"/>
+    <link href="http://weekly.pychina.org/theme/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://weekly.pychina.org/theme/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="http://weekly.pychina.org/theme/css/pygments/github.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://weekly.pychina.org/theme/css/style.css" type="text/css"/>
+
+<style type="text/css">
+
+#article-content li {
+    list-style: none;
+    margin: 2em 0em 0em -1em;
+}
+#article-content li a{
+    font-size: 120%;
+    background-color: #555;
+    color: #efe;
+}
+
+</style>
+
+        <link href="http://weekly.pychina.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="蠎周刊 ATOM Feed"/>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--
+<a href="http://weekly.pychina.org" class="navbar-brand">蠎周刊</a>
+            -->
+<a href="http://weekly.pychina.org" class="navbar-brand">
+    <img src="http://weekly.pychina.org/theme/logo.png"/>
+    蠎周刊
+    <span class="violet-site">pycoder's weekly 中译版 </span>
+</a>            
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="http://zoomquiet.io">Zoom.Quiet</a></li>
+                    <li><a href="http://pychina.org">PyChina</a></li>
+                        <li><a href="http://weekly.pychina.org/about.html">About</a></li>
+                        <li><a href="http://weekly.pychina.org/design.html">设计</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://weekly.pychina.org/archives.html"><i class="icon-th-list"></i>Archives</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+<!-- /.navbar -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://weekly.pychina.org/chaos/jekyll-to-pelican.html"
+                       rel="bookmark"
+                       title="Permalink to How to from Jekyll jump into Pelican">
+                        How to from Jekyll jump into Pelican
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+    <div class="toc">
+<ul>
+<li><a href="#jekyll-pelican">如何从 Jekyll 转进入 Pelican</a><ul>
+<li><a href="#_1">为毛</a></li>
+</ul>
+</li>
+<li><a href="#_2">整体</a><ul>
+<li><a href="#_3">已知条件</a></li>
+<li><a href="#pelican">Pelican行为</a></li>
+<li><a href="#_4">所以?方案!</a></li>
+<li><a href="#_5">宏观流程</a></li>
+</ul>
+</li>
+<li><a href="#_6">细节</a><ul>
+<li><a href="#_7">过程</a><ul>
+<li><a href="#theme">theme</a></li>
+<li><a href="#meta">meta</a></li>
+<li><a href="#fab">fab</a></li>
+</ul>
+</li>
+<li><a href="#_8">坑</a><ul>
+<li><a href="#disqus">DISQUS</a></li>
+<li><a href="#pages">pages</a></li>
+<li><a href="#category_feed_atom">CATEGORY_FEED_ATOM</a></li>
+<li><a href="#author">author</a></li>
+<li><a href="#toc">TOC</a></li>
+</ul>
+</li>
+<li><a href="#_9">参考:</a></li>
+<li><a href="#changelog">Changelog</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="article-content">
+                
+<h1 id="jekyll-pelican">如何从 Jekyll 转进入 Pelican</h1>
+<p>简述静态网站从 Jekyll 环境中迁移为 纯 Python 
+<a href="http://getpelican.com/">Pelican</a>...</p>
+<p><img alt=";" src="https://0.gravatar.com/avatar/0cb9d9d7e6b152d24d2b78c6464502a6?d=https%3A%2F%2Fidenticons.github.com%2Fc0b8694f59232c6681a92c4c9fec3e18.png&amp;r=x&amp;s=440"/></p>
+<h2 id="_1">为毛</h2>
+<p>社区在发展, 原先的 蠎周刊,为方便,使用了 gitcafe 内置的 Jekyll 服务,
+所以,其实在使用 Ruby 自动编译和发布.</p>
+<p>总是感觉不够纯粹 Pythonic ...</p>
+<p>故而, 下决心完成迁移</p>
+<h1 id="_2">整体</h1>
+<p>忽然发现,俺感觉很直觉的事儿,也写了文档,
+但是,其它人真正首次上手全然一头雾水...</p>
+<p>所以
+<a href="http://xiaolai.github.io/alpha/on-learning/">学习学习再学习 - xiaolai</a>
+提出的,俺实在无法同意更多..</p>
+<p><img alt="Impossible_staircase" src="http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg"/></p>
+<p>这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
+用最直白的话来描述，就是：</p>
+<div class="highlight"><pre><span></span>初级的知识需要对高级知识深入了解才能真正深入了解
+</pre></div>
+<p>——你看看这句话多拗口就多少有点概念了。</p>
+<p>所以,还是按照 easy 模式来,
+先简单的说,再往死里说折腾的技术细节...</p>
+<h2 id="_3">已知条件</h2>
+<p><a href="https://help.github.com/articles/user-organization-and-project-pages">User, Organization and Project Pages</a></p>
+<p>github 的 所谓 <code>pages</code> 服务的本质:</p>
+<ul>
+<li>云端的 Jekell 服务</li>
+<li>对约定的仓库,感知变化时,就尝试进行编译</li>
+<li>并自动完成发布(现在是到 github.io)</li>
+</ul>
+<p>这里的约定仓库,只有两种情况:</p>
+<ol>
+<li>用户/组织: <ul>
+<li>比如, 注册成的用户/组织 为 https://github.com/foo</li>
+<li>则, github 尝试进行 <code>pages</code> 发布的仓库为:</li>
+<li>https://github.com/foo/foo.github.io</li>
+<li>发布到:  https://foo.github.io</li>
+</ul>
+</li>
+<li>项目<ul>
+<li>任意一个项目仓库,比如, https://github.com/foo/foobar</li>
+<li>则, githuba 支持自动对此仓库的 <code>gh-pages</code> 分支进行 <code>pages</code> 编译</li>
+<li>而发布为: https://foo.github.io/foobar</li>
+</ul>
+</li>
+</ol>
+<h2 id="pelican">Pelican行为</h2>
+<p><a href="http://getpelican.com/">Pelican</a> 呢其实也只是
+Python 世界中大堆静态网站发布工具中的一个,
+为毛选中这个?
+只是因为 42分钟里,大妈将其折腾起来了,
+而且官方的文档/案例/样式,的确足够丰富,
+给人信心...</p>
+<p>而其本身对网站的约定非常简单:</p>
+<ul>
+<li>配置好 <code>pelicanconf.py</code></li>
+<li>在 <code>content</code> 目录中写作</li>
+<li>一键命令编译完成静态网络的生成,组织到 <code>output</code></li>
+</ul>
+<h2 id="_4">所以?方案!</h2>
+<p>基于以上的整体理解, 就可以决策怎么基于 github 的 <code>pages</code> 服务,
+来进行免费的网站发布了;</p>
+<p>目测也就两招:</p>
+<ol>
+<li>在用户/组织 的 <code>pages</code> 仓库中直接部署 Pelican 工程<ul>
+<li>只是要在根目录部署一个自动跳转到 <code>output</code> 子目录的 <code>index.html</code> 页面</li>
+<li>以便发布后可以略过根目录来访问编译结果的内容</li>
+<li>发布成 https://foo.github.io/output</li>
+</ul>
+</li>
+<li>用两个仓库, 将用户/组织 的 <code>pages</code> 仓库部署为 <code>output</code> 子目录<ul>
+<li>这样就能自动发布为 https://foo.github.io</li>
+</ul>
+</li>
+</ol>
+<p>很明显,第二种逼格较髙,所以,就这样办了!</p>
+<h2 id="_5">宏观流程</h2>
+<ol>
+<li>首次建立本地撰写环境:<ol>
+<li>安装好 <a href="http://getpelican.com/">Pelican</a></li>
+<li>分别clone 出两个仓库:<ul>
+<li>qpython-android.pelican </li>
+<li>qpython-android.github.io </li>
+</ul>
+</li>
+<li>先在 <code>qpython-android.pelican</code> 中测试确认好 pelical 工程可用,并尝试编译</li>
+<li>一切正确的话,将 <code>qpython-android.github.io</code> 复制覆盖为 <code>qpython-android.pelican/output</code></li>
+</ol>
+</li>
+<li>以后,日常的维护就再也不需要 <code>qpython-android.github.io</code> 了!<ol>
+<li>进入 <code>qpython-android.pelican/content</code> 创建/增补/修订 文章</li>
+<li>回到 <code>qpython-android.pelican</code> 执行 <code>fab build</code></li>
+<li>本地到 <code>output</code> 打开对应页面检查效果</li>
+<li>还是在 <code>qpython-android.pelican</code> 执行 <code>fab pub2hub</code> <ul>
+<li>完成对 <code>qpython-android.github.io</code> 仓库实际的 push </li>
+<li>即, 发布成网站: http://qpython-android.github.io</li>
+</ul>
+</li>
+<li>最后,在 <code>qpython-android.pelican</code> 进行正常的 <code>git add-&gt;ci-&gt;pu</code><ul>
+<li>对文章源文本完成到 <code>qpython-android.pelican</code> 仓库的提交</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<p>收功!</p>
+<h1 id="_6">细节</h1>
+<p>然后, 再分享俺的折腾过程...</p>
+<h2 id="_7">过程</h2>
+<p>整体上,其实就三步:</p>
+<ol>
+<li>选择一个 theme ,完成本地 demo 整明白怎么使用 Pelican</li>
+<li>将原先 Jekyll 格式的文章声明部分文本, 批量转化为 Pelican 的</li>
+<li>改进发布流程,自动化</li>
+</ol>
+<h3 id="theme">theme</h3>
+<p>综合对比了官网收集的一堆样式,选择了 <a href="https://github.com/DandyDev/pelican-bootstrap3">DandyDev</a> 的,根据说明,立即就完成了编译,本地检阅 ;-)</p>
+<h3 id="meta">meta</h3>
+<p>果断使用 Python 脚本,快速完成转换
+<a href="https://gitcafe.com/CPyUG/weekly/blob/master/_plugins/jekyll2pelican.py">jekyll2pelican.py</a></p>
+<h3 id="fab">fab</h3>
+<p>果断使用 <code>fabric</code> 进行自动化处理!</p>
+<ul>
+<li>参考: <a href="https://gitcafe.com/CPyUG/weekly/blob/master/fabfile.py">fabfile.py</a></li>
+<li>定制了 <code>pub2cafe</code> 完成自动化发布</li>
+</ul>
+<p>因为 <code>gitcafe</code> 只有用户同名-pages 服务,所以,对于当前 <code>蠎周刊</code> 的 Pelican 工程,
+用两个仓库,配合完成:</p>
+<div class="highlight"><pre><span></span>https://github.com/qpython-android/qpython-android.pelican.git
+    +- ..
+    +- pelicanconf.py   主配置文件
+    +- content          内容目录  
+    +- output           编译输出目录
+    |    `- https://github.com/qpython-android/qpython-android.github.io.git 
+    |                          |
+    |                          \-- 即合法的
+    +- .gitignore       配置忽略 output 目录
+    +- ...
+</pre></div>
+<p>这样一来,目录,就不用进入 <code>output</code> 目录进行 git 操作了
+平时的发布流程就是:</p>
+<ol>
+<li>在 <code>content</code> 目录对应分类子目录中创建 <code>*.md</code> 文本,组织文章</li>
+<li><code>fab build</code> 完成编译,本地检阅文章效果</li>
+<li><code>git add . &amp;&amp; git ci &amp;&amp; git pu</code> 将增补提交</li>
+<li><code>fab pub2cafe</code> 自动完成进入 <code>output</code> 后的一系列 git 操作</li>
+</ol>
+<p>对应的 配置中:</p>
+<div class="highlight"><pre><span></span><span class="c1">#DELETE_OUTPUT_DIRECTORY = True</span>
+</pre></div>
+<p>就绝对不能打开注释
+不然 <code>output</code> 目录清除,就没有了 <code>.git</code> 也就无法发布了...</p>
+<h2 id="_8">坑</h2>
+<p>整个过程中,遇到没有找到文档的小麻烦,自个儿解决了的....</p>
+<h3 id="disqus">DISQUS</h3>
+<p>果断遇到了 DISQUS 配置了,不生效的问题,上下折腾, 才发现很多人都遇到了这个问题,
+追踪到代码:</p>
+<div class="highlight"><pre><span></span><span class="c1">//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html</span>
+<span class="c1">//...</span>
+<span class="kd">var</span> <span class="nx">disqus_shortname</span> <span class="o">=</span> <span class="s1">'{{ DISQUS_SITENAME }}'</span><span class="p">;</span> <span class="c1">// required: replace example with your forum shortname</span>
+<span class="kd">var</span> <span class="nx">disqus_identifier</span> <span class="o">=</span> <span class="s1">'{{ article.slug }}'</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">disqus_url</span> <span class="o">=</span> <span class="s1">'{{ SITEURL }}/{{ article.url }}'</span><span class="p">;</span>
+</pre></div>
+<p>才发现 <code>SITEURL</code> 的配置是决定性的,
+一定要同 <code>DISQUS</code> 申请时的一致;
+本地编译后, 看一眼源代码,就知道是否靠谱了...</p>
+<h3 id="pages">pages</h3>
+<p>突然发现 <code>content/pages</code> 目录中的文本,是种特殊文章,不但可以出现在导航,而且使用专用的模板,
+所以,默认是没有 <code>DISQUS</code> 槽接的!</p>
+<ul>
+<li>参考,俺的<a href="https://gitcafe.com/CPyUG/weekly/blob/master/_themes/pelican-bootstrap3/templates/page.html">page.html</a> </li>
+<li>追加了仿制的: <a href="https://gitcafe.com/CPyUG/weekly/blob/master/_themes/pelican-bootstrap3/templates/includes/page_comments.html">includes/page_comments.html</a></li>
+</ul>
+<p>fixed!</p>
+<h3 id="category_feed_atom">CATEGORY_FEED_ATOM</h3>
+<p>一时手賎,打开了:</p>
+<div class="highlight"><pre><span></span><span class="na">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="s">'feeds/%s.atom.xml'</span>
+</pre></div>
+<p>结果,发现不能在模板里简单的完成分类子 RSS 的链接!</p>
+<div class="highlight"><pre><span></span>    <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">"icon-th icon-large"</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>Categories<span class="p">&lt;/</span><span class="nt">h4</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+{% for cat, null in categories %}
+    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"list-group-item"</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"{{ SITEURL }}/{{ cat.url }}"</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">"icon-folder-open icon-large"</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>{{ cat }}
+        <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"{{ SITEURL }}/feeds/{{ cat }}.atom.xml"</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">"icon-rss-sign"</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+{% endfor %}
+</pre></div>
+<p>因为这儿的 <code>{{ cat }}</code> 是分类的名称,可能包含大小写字母,
+而配置指导下生成的 RSS 文件是全小写的...</p>
+<p>纠结了一会儿,也没有查到对应的文档,突然想到各种内置对象都有的 <code>sulg</code> 属性!</p>
+<p>于是就猜对了...
+参考:
+<a href="https://gitcafe.com/CPyUG/weekly/blob/master/_themes/pelican-bootstrap3/templates/includes/sidebar.html#L22">includes/sidebar.html#22</a></p>
+<h3 id="author">author</h3>
+<p>原样式作者因为是个人网站,所以,无所谓 <code>Author</code> 的信息,
+但是,作为社区用共笔环境,就必须有所体现,
+在 <a href="https://gitcafe.com/CPyUG/weekly/blob/master/_themes/pelican-bootstrap3/templates/includes/article_info.html">includes / article_info.html</a>
+先打开作者的属性输出,</p>
+<p>然后,从别的 theme 工程中抄一个模板:
+<a href="https://gitcafe.com/CPyUG/weekly/blob/master/_themes/pelican-bootstrap3/templates/author.html">author.html</a></p>
+<p>即好!</p>
+<h3 id="toc">TOC</h3>
+<p>是的,以往 rST/t2t 时,甚至于 Word 时都有的 </p>
+<div class="highlight"><pre><span></span>TOC ~ 章节索引
+</pre></div>
+<p>肿么可以没有?!</p>
+<p>果断: <a href="https://github.com/getpelican/pelican-plugins/tree/master/extract_toc">pelican-plugins/extract_toc at master · getpelican/pelican-plugins</a> </p>
+<p>只是这货竟然是依赖 <code>beautifulsoup4</code> 的! 对于非 <code>UNIX/Linux/MAC</code> 用户而言,
+人艰不拆哪!!!</p>
+<h2 id="_9">参考:</h2>
+<ul>
+<li><a href="http://riku.gitcafe.com/pelican-gitcafe.html">使用 Pelican + GitCafe Page 创建 Blog</a></li>
+<li><a href="http://blog.imley.net/2013/01/03/disqus-thread-url-issue/#content">吐槽一下DISQUS的thread链接错误问题 | Ley's blog</a></li>
+<li><a href="http://raichev.net/blohg-to-pelican.html">Alex Raichev - Blog - Blohg to Pelican</a></li>
+</ul>
+<h2 id="changelog">Changelog</h2>
+<ul>
+<li>160401 ZoomQuiet 迁移发布到 github as gh_pages</li>
+<li>140127 ZoomQuiet 增补宏观理解</li>
+<li>140120 ZoomQuiet 复制到 QPython 的 Pelican 工程</li>
+<li>131219 ZoomQuiet 为 <a href="https://gitcafe.com/CPyUG/weekly/blob/master/README.md">CPyUG/weekly - GitCafe</a> 创建</li>
+</ul>
+</div>
+
+
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+<!--
+    <span class="label label-default">Date</span>
+-->
+    <span class="published">
+        <i class="icon-calendar"></i>2013-12-19 10:42
+    </span>
+
+
+    <span class="label">By</span>
+    <i class="icon-user"></i><a href="http://weekly.pychina.org/author/zoomquiet.html">Zoom.Quiet</a>
+
+    <span class="label label-default">Category</span>
+    <a href="http://weekly.pychina.org/chaos/index.html">Chaos</a>
+
+
+
+	<span class="label label-default">Tags</span>
+		<a href="http://weekly.pychina.org/tag/howto.html">howto</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/pelican.html">pelican</a>
+</footer><!-- /.post-info -->                    </div>
+                </div>
+
+            </div>
+            <!-- /.entry-content -->
+    <hr />
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+            var disqus_identifier = 'Chaos/13-12-19-jekyll-to-pelican';
+            var disqus_url = 'http://weekly.pychina.org/chaos/jekyll-to-pelican.html';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
+
+
+        </div>
+        <div class="col-lg-3 well well-sm" id="sidebar">
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><h4><i class="icon-comment icon-large"></i>Social</h4></li>
+                    <li class="list-group-item"><a href="https://gitcafe.com/CPyUG/weekly"><i
+                            class="icon-gitcafe-sign icon-large"></i>gitcafe
+                    </a></li>
+                    <li class="list-group-item"><a href="http://weekly.pychina.org/feeds/all.atom.xml"><i
+                            class="icon-rss-sign icon-large"></i>rss
+                    </a></li>
+                    <li class="list-group-item"><a href="https://gitcafe.com/CPyUG"><i
+                            class="icon-CPyUG-sign icon-large"></i>CPyUG
+                    </a></li>
+                    <li class="list-group-item"><a href="http://wiki.pychina.org"><i
+                            class="icon-Wiki-sign icon-large"></i>Wiki
+                    </a></li>
+                    <li class="list-group-item"><a href="http://weibo.com/openbookproject"><i
+                            class="icon-O.B.P-sign icon-large"></i>O.B.P
+                    </a></li>
+                    <li class="list-group-item"><a href="http://weibo.com/pyconcn"><i
+                            class="icon-weibo-sign icon-large"></i>weibo
+                    </a></li>
+                    <li class="list-group-item"><a href="http://wiki.woodpecker.org.cn/moin/CPUG"><i
+                            class="icon-啄木鸟-sign icon-large"></i>啄木鸟
+                    </a></li>
+
+
+            <li class="list-group-item"><h4>
+                <i class="icon-th icon-large"></i>Categories</h4></li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/author/index.html">
+                        <i class="icon-folder-open icon-large"></i>Author
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/author.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/chaos/index.html">
+                        <i class="icon-folder-open icon-large"></i>Chaos
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/chaos.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/importpython/index.html">
+                        <i class="icon-folder-open icon-large"></i>importpython
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/importpython.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/issue/index.html">
+                        <i class="icon-folder-open icon-large"></i>Issue
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/issue.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/pgweekly/index.html">
+                        <i class="icon-folder-open icon-large"></i>PgWeekly
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/pgweekly.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+
+            <li class="list-group-item"><a href="http://weekly.pychina.org/tags.html"><h4><i class="icon-tags icon-large"></i>Tags</h4></a></li>
+        </ul>
+    </section>
+<section>
+<ul class="list-group-zip">
+    <li class="list-group-item">
+        <h4><i class="icon-tint icon-large"></i>Powerded By</h4></li>
+
+    <li class="list-group-item-zip">
+        <a href="http://docs.getpelican.com">
+            Pelican
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <sup>theme base</sup>
+        <a href="https://github.com/DandyDev/pelican-bootstrap3">
+             DandyDev
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href="http://www.python.org/">
+            Python
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href="http://www.inkscape.org/">
+            inkscape
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href="http://git-scm.com/">
+            Git
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href="https://gitcafe.com/CPyUG">
+            GitCafe
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href="http://www.qiniu.com/about">
+            七牛
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href='http://www.catb.org/hacker-emblem/'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAIAAAD8q9/YAAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVR4nOWWMYqDQBSGBa1jEbxFwEKwM6VV8AIWWkis9RI5Q1JpYWGb0jLpBDtrc4BgkQMI+y+yQ3BmdBJiNsv+kOHNZJT3+X6fo2y3W+k/ScFvv9//dhpvUhiGisi+uq6zLHNdd7VaTd7xFYnNor6uQsCO41wulzzPm6aZOavZJQSsaRqAMc6dzRskBFwUxfl8tizroVvDQr3DSSD9+Ore+YMV+irSYpjTRyUErKrqZrNBcLvdbNu+Xq/H43HyfabFhKEfCj0dsDEvEZQQMBHqXJYlAvSw3W43uZ/u/7wvwgitxHKBNGuFieBq0zRRYXRskf0DEzJXet1DIpis8NOf0jHg0+kEM+u6Dif37zCmh8MB0yf8zBRJnYk0UlL6oQiKC5ymqe/7sixXVYXTGJyM2oLWMIyu65Ik8TxvEmYykDjvJ2/zyLqguMBt22IEG+oJDyPGiBgr5N+/KC5wEAQYl8vler1GTyYnLdQWtFEUvTHJV4oLvFgs4jjuY3CSnjzu5M8/ln8Df/IB+OX6Ah776L1W8pWtAAAAAElFTkSuQmCC"/>
+        </a>
+    </li>
+
+
+    <li class="list-group-item-zip">
+        <a href="http://zh.wikipedia.org/zh-cn/UTF-8">
+<img src="data:image/jpeg;base64,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"/>
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href='http://creativecommons.org/licenses/by-nc-sa/2.5/cn/'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAANDQwNDQ0NDg0ODg4PEA8REREZGRkgICAhISEiIiIkJSMnKCcuMC4xMzEzMzM5Ozk7PTtBQkFCQkJDQ0NERERLTEtVVVVbXltmZmZna2dydnF3d3d9gn2AgICGhoaHh4eIiIiPkI+UmZOZmZmqqqqrsaqzuLK6v7q7u7vFxsXGysbIzMjKzsrMzMzd3d3u7u7///+uXr4hAAAA1UlEQVR42q2T2Q6CMBBFR0VUXHCritQFgXGvnf//Oa2ZNEB4UXrTl97enkxmWnAvcioDRKMtJGwJL0V8duEvWWDqGR4TR4iXfUPgbEBWCjaIj1UzYCchFYDQAgJFYoL4PHF/OVTIG7sEMLEKcAdXCtYkpa+znGQH8XL7nvOyed7VGGVgDEqbqaxD+kh6iOc7V2hjfJfxVYNqKxSRr2VGsl2ukNO85/v1hu1hO6Hch0gLCF+0HBd6yLEfe4jTvuMpp62jBS6GDt4hxnBg3rzX9Kc4FTjXG9Q1UZbZlOQyAAAAAElFTkSuQmCC"/>
+        </a>
+    </li>
+
+</ul>
+</section>
+
+</aside>        </div>
+    </div>
+</div>
+
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="//libs.useso.com/js/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://weekly.pychina.org/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://weekly.pychina.org/theme/js/respond.min.js"></script>
+
+<!--
+    <script type="text/javascript">
+        var disqus_shortname = 'weeklypychinaorg';
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] ||
+             document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+ 
+-->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    
+
+</body>
+</html>
