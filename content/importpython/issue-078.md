@@ -217,8 +217,10 @@ A Python library, CLI, and API for fetching GitHub contribution streaks.
 必须首先复习: [Guido van Rossum - Python Language - PyCon 2016](https://www.youtube.com/watch?v=YgtL4S7Hrwo) 明确 Py2 何时正式放弃...
 
 
+
 # 是也乎
 
+- 160701 [Zoom.Quiet](http://zoomquiet.io) 重新部署 pyenv 本地环境发布
 - 160629 [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
 - 160624 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
 

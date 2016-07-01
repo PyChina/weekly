@@ -16,7 +16,7 @@ SITENOTE = u"pycoder's weekly 中译版"
 SITEURL = 'http://weekly.pychina.org'
 DISQUS_SITENAME = u"weeklypychinaorg" #填入你的Shortname
 
-MARKUP = ('md', 'rst',)#'rst', 'html', 
+MARKUP = ('md', 'rst')#'rst', 'html', 
 READERS = {
         'html': None,
 }
