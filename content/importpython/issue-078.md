@@ -208,14 +208,13 @@ A Python library, CLI, and API for fetching GitHub contribution streaks.
 
 ## DAMA 无责任推荐
 
+- [一个 Python requirements 工具 -- pigar - V2EX](http://www.v2ex.com/t/225127)
+
+就是这期的 pigar 国产的 ;-)
+
 - [Pycon US 2016 视频和演讲幻灯](https://speakerdeck.com/pycon2016)
 
 必须首先复习: [Guido van Rossum - Python Language - PyCon 2016](https://www.youtube.com/watch?v=YgtL4S7Hrwo) 明确 Py2 何时正式放弃...
-
-- [CtripCloud/docker-make: a tool for managing docker image builds & push from a git repo.](https://github.com/CtripCloud/docker-make)
-
-自动生成 yaml 配置文档, 来人性化解决 docker 镜像生成时的 tag 以及编译顺序依赖等问题
-一个刚刚发布的实用工具.国货,但文档是 E文的,为这儿先点个赞!
 
 
 # 是也乎
