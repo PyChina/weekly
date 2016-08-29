@@ -170,6 +170,10 @@ Facebook fastText 的 py 接口
 
 基于 SportVU 日志数据, 可视化 NBA 比赛
 
+(`是也乎:`
+
+![spurs](https://github.com/linouk23/NBA-Player-Movements/raw/master/examples/spurs.gif)
+)
 
 - [pic2text](https://github.com/winterfeel/pic2text)
     - 15 Stars, 12 Fork
