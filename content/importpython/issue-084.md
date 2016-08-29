@@ -206,7 +206,7 @@ Donald Trump's entire Twitter feed and the script used to scrape it.
 
 # 是也乎
 
-- 16080? [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
+- 160805 [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
 - 160804 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
 
 
