@@ -177,7 +177,12 @@ Github 年度报吿, 值得关注的是: [rdpeng (Roger D. Peng)](https://github
 这位华人,个人仓库有两个在 top10 名单中!
 你猜为毛!?
 
+- [karpathy/arxiv-sanity-preserver: Web interface for browsing, search and filtering recent arxiv submissions](https://github.com/karpathy/arxiv-sanity-preserver)
 
+使用 Python 开发的基于 NLP 技术, 自动化提取论文仓库核心内容搜索服务,以便大家快速定位对自己有用的论文!
+
+~ 介绍视频: [introduction video](https://youtu.be/S2GY3gh6qC8)
+作者很神奇...
 
 
 # 是也乎
