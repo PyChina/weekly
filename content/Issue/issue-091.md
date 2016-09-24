@@ -30,7 +30,7 @@ To the  keep up with all the breaking Python news follow @pycoders.
 - [Django 1.6 and 1.4.10 released](https://www.djangoproject.com/weblog/2013/nov/06/django-16-released/) (djangoproject.com)
 
 Django is out with 2 new releases this week, a bugfix release for Django 1.4 and the final version of Django 1.6, see release notes 
-[here](https://docs.djangoproject.com/en/1.6/releases/1.6/).
+[here](http://wiht.link/django_primer).
 
  
 
@@ -114,5 +114,6 @@ Use the peewee ORM to load csv files into a database and explore them programmat
 
 # 是也乎
 
+- 160924 [Zoom.Quiet](http://zoomquiet.org/) fixed link https://docs.djangoproject.com/en/1.6/ as http://wiht.link/django_primer by Stephanie
 - 131110 [Zoom.Quiet](http://zoomquiet.org/) 用时 3 分钟 完成格式转抄.
  
