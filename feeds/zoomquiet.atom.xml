@@ -43313,7 +43313,7 @@ Seaborn 提供高层次功能,
 &lt;li&gt;&lt;a href="https://www.djangoproject.com/weblog/2013/nov/06/django-16-released/"&gt;Django 1.6 and 1.4.10 released&lt;/a&gt; (djangoproject.com)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Django is out with 2 new releases this week, a bugfix release for Django 1.4 and the final version of Django 1.6, see release notes 
-&lt;a href="https://docs.djangoproject.com/en/1.6/releases/1.6/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="http://wiht.link/django_primer"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://pydev.blogspot.ca/2013/11/pydev-30.html"&gt;PyDev 3.0 Released&lt;/a&gt; (blogspot.ca)&lt;/li&gt;
 &lt;/ul&gt;
@@ -43380,6 +43380,7 @@ in Python can be very easy with help from the
 &lt;p&gt;Use the peewee ORM to load csv files into a database and explore them programmatically. Very neat, uses reddit public datasets to quickly determine things like average ratio of upvotes to downvotes and average number of comments. &lt;/p&gt;
 &lt;h1 id="_5"&gt;是也乎&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;160924 &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; fixed link https://docs.djangoproject.com/en/1.6/ as http://wiht.link/django_primer by Stephanie&lt;/li&gt;
 &lt;li&gt;131110 &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; 用时 3 分钟 完成格式转抄.&lt;/li&gt;
 &lt;/ul&gt;</summary><category term="Weekly"></category><category term="Pycoder"></category><category term="Zh"></category></entry><entry><title>Issue 90 ~ KitKat</title><link href="http://weekly.pychina.org/issue/issue-90.html" rel="alternate"></link><published>2013-11-01T00:00:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2013-11-01:issue/issue-90.html</id><summary type="html">&lt;h2 id="hi-pythonistas"&gt;Hi Pythonistas!&lt;/h2&gt;
 &lt;p&gt;来瞧瞧本周Python 社区发布了些什么事儿!&lt;/p&gt;
