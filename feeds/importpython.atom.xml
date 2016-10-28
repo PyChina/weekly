@@ -1,5 +1,183 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/importpython.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2016-10-23T23:32:00+08:00</updated><entry><title>蠎加载 95</title><link href="http://weekly.pychina.org/importpython/importpython-95.html" rel="alternate"></link><published>2016-10-23T23:32:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-10-23:importpython/importpython-95.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/importpython.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2016-10-28T11:11:00+08:00</updated><entry><title>蠎加载 96</title><link href="http://weekly.pychina.org/importpython/importpython-96.html" rel="alternate"></link><published>2016-10-28T11:11:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-10-28:importpython/importpython-96.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/96/"&gt;Import Python Weekly Newsletter - Issue No 96&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_1"&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://importpython.com/search/"&gt;搜索所有过往文章 Import Python Newsletters. By Tag, Keywords, Issue No.&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;importpython&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hello Subscribers. If you ever want to find an article we curated and don't rememeber the issue ?. Or you want to find all articles based on a tag/topic e.g. admin panel, PEP etc. Head to http://importpython.com/search/ . Please let us know your feedback / Bug if any.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;蠎周刊快速积累到 96 期了,果断官方给出了关键词搜索服务
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@adrian.hintermaier/python-iterators-and-iterables-need-not-be-the-same-5ba280e6514d#.i01eu9u4a"&gt;Python 的 iterators 和 iterables 需要相同嘛?!&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;iterator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So what are iterators and iterables, and are they distinct? They are distinct. Iterables are classes that implement the &lt;strong&gt;iter&lt;/strong&gt; method, a method which returns an iterator. Iterators are classes that implement the &lt;strong&gt;next&lt;/strong&gt; method (or next in Python 2), which continuously returns the next element until the end. So this begs the question, does an iterable also have to be an iterator? Or does an iterator also have to be an iterable?&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;命名是艺术也是命运,一个再好的功能,名字起错了,
+除了给人留下很多的口水仗机会,对开发只能是种心碍,还是人工的...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@kitsunde/checking-that-django-has-all-migrations-55a1c23c3a59#.jyuaskk5z"&gt;检查 Django 的所有迁移点.&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of our project are setup with continuous deployment on CircleCI. An occasional source of errors has been caused by missing model migrations because the migration wasn’t committed. There’s a simple solution by adding a migration check before deploying.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;随着 Django 的高速发展以及快速流传,
+不兼容的升级行为也越来越艺术化,
+得配合专门技艺...作死
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.reddit.com/r/Python/comments/59izbt/what_are_your_favorite_python/"&gt;你有哪些不常见的心爱 projects/notebooks/modules ?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;opensource project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reddit Discussion where Python developers are sharing their favourite projects/modules. Lot of noise but found python-dependency-injector to be interesting.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;挂出来的日子不长,但是 &lt;a href="https://github.com/ajalt/fuckitpy"&gt;fuckit&lt;/a&gt; 
+的确值得体验...当然只是 linux/mac 党可以体验的了
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/dev/peps/pep-0531/"&gt;PEP 531 -- Existence checking operators&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PEP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Inspired by PEP 505 and the related discussions, this PEP proposes the addition of two new logical operators to Python: &lt;/p&gt;
+&lt;p&gt;i) Existence-checking fallback: expr1 ?else expr2 &lt;/p&gt;
+&lt;p&gt;ii) Existence-checking precondition: expr1 ?and expr2. &lt;/p&gt;
+&lt;p&gt;As well as the following abbreviations for common existence checking expressions and statements &lt;/p&gt;
+&lt;p&gt;i) Existence-checking attribute access: &lt;code&gt;obj?.attr (for obj ?and obj.attr )&lt;/code&gt;
+ii) Existence-checking subscripting: &lt;code&gt;obj?[expr] (for obj ?and obj[expr] )&lt;/code&gt; 
+iii) Existence-checking assignment: &lt;code&gt;target ?= expr&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;受到动态的影响,运行时自省不足一定非常难受的,
+所以,py 又接受了两种存在检验器
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://repl.it/site/blog/python-import"&gt;所有 Python 包都能预安装的在线 REPL 环境 -- Repl.it&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REPL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At Repl.it, our goal is to make programming more accessible, and as part of this we aim to provide the full power of popular programming environments with no setup time. And no modern programming language is complete without third-party packages. That's why today we're making every Python package ever immediately available on repl.it. Just select the language (Python or Python3) and start importing packages.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;将整个儿 PyPi 事先都加载到目录中的在线 REPL,
+真心脑洞太大了...&lt;/p&gt;
+&lt;p&gt;问题是俺想基于这种零部署的环境,
+发布私人应用呢!?&lt;/p&gt;
+&lt;p&gt;不过,真心是个好想法...&lt;/p&gt;
+&lt;p&gt;而且提供20+种开发语言的 REPL
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.blog.pythonlibrary.org/2016/10/26/creating-graphs-with-python-and-goopycharts/"&gt;Mike Driscoll: 用Python和GooPyCharts创建图形&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;charts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I came across an interesting plotting library called GooPyCharts which is a Python wrapper for the Google Charts API. In this article, we will spend a few minutes learning how to use this interesting package.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@balazs.saros/improving-and-extending-the-search-functionality-of-pythons-pip-50d01a4a344f#.g6dmcbzbi"&gt;改进和扩展 pip 的搜索功能&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pip&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The main reason I’m in love with Python is the elegance and beauty of the design the language holds. Why not improve a bit on pip search to match the aesthetics? That’s why I created yip.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;已成痛点...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.vinta.com.br/blog/2016/python-api-clients-with-tapioca/"&gt;Python API 客户端和 Tapioca&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;opensource project, API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tapioca is a Python API client maker. It gathers most of the features API clients implement and puts them in an extensible core. Wrappers will then extend this core implementing only the specifics from each service (such as authentication and pagination) and get all the common API client features for free. Tapioca approach also comes in handy because regardless of the service, clients look the same in the way you interact with them.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Tapioca 是一个致力于彻底改变 API 开发模式的服务商,
+具体点,就是想接管所有互联网 API 的发布...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@tryexceptpass/python-introspection-with-the-inspect-module-2c85d5aa5a48#.kekht2lym"&gt;如何编写你自己的 Python 文档生成器?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Originating from the standard library, inspect not only lets you look at lower level python frame and code objects, it also provides a number of methods for examining modules and classes, helping you find the items that may be of interest. It’s what pydoc uses to generate the help files mentioned previously.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;给娇贵的 pydoc 生成可用文档的前置工具
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@raiderrobert/using-python-mock-in-unusual-ways-7b56fdaab319#.yc16sj4x4"&gt;使用 Python Mock 来折腾你的代码&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;mock&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I want to share 2 specific use cases that I recently encountered. &lt;/p&gt;
+&lt;p&gt;Case 1: Testing without calling a REST/SOAP API and &lt;/p&gt;
+&lt;p&gt;Case 2: Pretend that you have imported a library. &lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;很有脑洞的案例分享
+)&lt;/p&gt;
+&lt;h2 id="_2"&gt;活动&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~ Upcoming Conference / User Group Meet
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;??? 进入冬歇期了?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_3"&gt;项目&lt;/h2&gt;
+&lt;p&gt;~ 包/模块/库/片段...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/marcopaz/is-service-up"&gt;is-service-up&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;84 Stars, 6 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;IsServiceUp helps you monitor all the cloud services you rely on in a single web page. You can customize it with the services you want to monitor and host it on your own server.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;云服务用的多了也麻烦,这下有个单一页面可以同时监察所有涉及服务的状态了
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/shagunsodhani/CNN-Sentence-Classifier"&gt;CNN-Sentence-Classifier&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;25 Stars, 7 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;简化实现 “卷积神经网络的句子分类”论文&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/teknotus/verify-email"&gt;verify-email&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;6 Stars, 2 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;用于检查DKIM的工具 - 在电子表格中签名许多电子邮件和报告结果&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/takeflight/wagtailmodelchooser"&gt;wagtailmodelchooser&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;2 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Model choosers for Wagtail admin. A plugin for Wagtail that provides a ModelChooserPanel and ModelChooserBlock for arbitrary models. &lt;/p&gt;
+&lt;h1 id="_4"&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;161028 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 42 分钟完成快译&lt;/li&gt;
+&lt;li&gt;161028 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟完成格式化.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="Weekly"></category><category term="ImportPython"></category><category term="Zh"></category></entry><entry><title>蠎加载 95</title><link href="http://weekly.pychina.org/importpython/importpython-95.html" rel="alternate"></link><published>2016-10-23T23:32:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-10-23:importpython/importpython-95.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/95/"&gt;Import Python Weekly Newsletter - Issue No 95&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
