@@ -1,5 +1,233 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/zoomquiet.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2016-10-28T11:11:00+08:00</updated><entry><title>蠎加载 96</title><link href="http://weekly.pychina.org/importpython/importpython-96.html" rel="alternate"></link><published>2016-10-28T11:11:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-10-28:importpython/importpython-96.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/zoomquiet.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2016-11-05T15:51:00+08:00</updated><entry><title>蠎加载 97</title><link href="http://weekly.pychina.org/importpython/importpython-97.html" rel="alternate"></link><published>2016-11-05T15:51:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-11-05:importpython/importpython-97.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/97/"&gt;Import Python Weekly Newsletter - Issue No 97&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_1"&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TaipanRex/pyvisgraph"&gt;Pyvisgraph - Python 可见性图表&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;visualization, opensource project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a super cool project build by Christian. Pyvisgraph builds a visibility graph given a set of simple obstacle polygons and find the shortest path between two points. Christian uses it at work for mapping vessel voyages.( Vessel as in ships ). Here are two blog post by him talking about the algorithm behind his code &lt;/p&gt;
+&lt;p&gt;https://taipanrex.github.io/2016/09/17/Distance-Tables-Part-1-Defining-the-Problem.html &lt;/p&gt;
+&lt;p&gt;and &lt;/p&gt;
+&lt;p&gt;https://taipanrex.github.io/2016/10/19/Distanlogce-Tables-Part-2-Lees-Visibility-Graph-Algorithm.html .&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="example" src="https://github.com/TaipanRex/pyvisgraph/raw/master/docs/images/example.png" /&gt;&lt;/p&gt;
+&lt;p&gt;可见性,以往用来寻找可以看见灯塔的安全航线的技术,
+现在可以自动完成了.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@krishnateja_182/chat-bots-and-how-to-build-one-on-alexa-35772e429631#.hsod1cwhi"&gt;Chat bots 以及如何在 Alexa 上构建&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;chatbots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Talking to technology has taken a whole new level since Amazon has announced their voice assistant Alexa and opened up their platform for developers to build custom bots just like when Apple announced about app store for developers to create and sell apps. Here I wanted to talk about the ease of building an Alexa skill using python which could be used as information provider to a attendee for a conference.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Amazon 的语音助理 Alexa 平台化后,
+当然就可以任性的调教了...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ironboundsoftware.com/blog/2016/10/31/6-quick-python-debugging-tips/"&gt;6 个快速调试技巧&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;debugging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nick gives us quick tour of debugging in Python. print statements, logging, pdb, pdb++, Debugging from the REPL and more.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;再多的调试技巧,也无法弥补混乱的头脑写出的代码,
+所以,亲!最重要的调试技巧就是保持充分的睡眠哪!
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://lucumr.pocoo.org/2016/10/30/i-dont-understand-asyncio"&gt;俺就是整不明白 Python 的 Asyncio&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;async-io&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Armin Ronacher's creator of Flask takes at length candidly about How it's difficult for him to grasp Asyncio , it's shortcomings, how David Beazley's live demo hacked up asyncio replacement is twice as fast as it. Curator's Note - Personally I learned Asyncio from the book Fluent Python. However once I went beyond the simple examples and try building something non trivial I ended up switching to golang and getting my job done faster. One key reason is the benchmark showed my asyncio's throughput was an order of magnitude slower, code required a lot of hand holding for a new developer.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;创造者分享了为什么人们理解了异步都都去用 golang 了...
+这真是一个悲伤的故事.
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/rmotr-com/avoiding-being-bitten-by-python-161b063e7da2#.exz387rth"&gt;避免被 Python 咬屎&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Common pitfalls to avoid when writing Python software&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;py coding 时常见的错误
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/groveco/django-sql-explorer"&gt;django-sql-explorer&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Easily share data across your company via SQL queries. From Grove Collab.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://masnun.rocks/2016/11/02/deploying-django-channels-using-daphne/"&gt;用 Daphne 部署 Django Channels&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django channels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Daphne is a HTTP, HTTP2 and WebSocket protocol server for ASGI, and developed to power Django Channels. It supports automatic negotiation of protocols; there’s no need for URL prefixing to determine WebSocket endpoints versus HTTP endpoints. In this blog post Abu Ashraf shows us how to Deploy Django channels using Daphne.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Channels 如此重要,又如此难用,所以,
+Django 创建了: ASGI 协议的专用服务器 Daphne
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ccst.io/e/datetime"&gt;每周聊 Python: Dates 和 Times 在 Python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let's chat about working with dates and times in Python! We'll talk about parsing, formatting, timezones, and date arithmetic.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;简单的说,就是心塞,每次总感觉厂商有更加简洁的日期/时间处理手段的,,,
+然而...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@deniskasyanov/jupyter-notebook-tutorial-9c0ffa5ae9a1#.85l75dx3t"&gt;Jupyter Notebook 教程&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;jupyter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I want to share some concepts and ideas about using Jupyter Notebook that I would like to know when I started.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;medium 越来越好用了,所以,也早已被 功夫网 认证了...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@hakibenita/how-to-add-custom-action-buttons-to-django-admin-8d266f5b0d41#.6mo5v8pe1"&gt;如何在 Django 管理中追加自制按钮 - By Haki Benita&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django admin panel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this post Haki Benita shows us how he extended Django admin to include two Button which perform action on a record/row. It's a well written step by step article to accomplish the task.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://andreafortuna.org/streaming-media-contents-from-linux-to-chromecast-e938dec695f6#.lphwph8ri"&gt;将媒体内容从 Linux 折腾到 Chromecast&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;opensource project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Are you searching for an easy way to stream media files from your LinuxBox to a Chromecast ? You can use Stream2chromecast, a simple Python script that makes the task of streaming media files to a Chromecast device ridiculously easy.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;WIDI 世界中,怎么可以少 Python 脚本?!
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python"&gt;Pandas 教程: Python 中的 DataFrames&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pandas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Karlijn has written good article explaning what dataframes is and it's workings. If you don't know about Pandas and want to get a sense of what it's ?, then have a read.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/joowani/kq"&gt;用 Kafka 来构建 Python 中的简单 Job Queue&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;kafka, opensource project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;KQ (Kafka Queue) is a light-weight Python library which provides a simple API to queue and process jobs asynchronously in the background. It is backed by Apache Kafka and designed primarily for ease of use.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;KQ 一个专用模块,可以 Pythonic 化的使用 Kafka
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ipython-books.github.io/featured-01/"&gt;从 NumPy 榨取更多性能 &lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;numpy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is the first featured recipe from the IPython Cookbook, the definitive guide to high-performance scientific computing and data science in Python.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;来自 &lt;a href="http://ipython-books.github.io/cookbook/"&gt;IPython Cookbook&lt;/a&gt; 的经典技巧
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.famzah.net/2016/09/10/cpp-vs-python-vs-php-vs-java-vs-others-performance-benchmark-2016-q3/"&gt;C++ vs. Python vs. PHP vs. Java vs. Others 性能评测 (2016 Q3)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;benchmark&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The benchmarks here do not try to be complete, as they are showing the performance of the languages in one aspect, and mainly: loops, dynamic arrays with numbers, basic math operations.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;看起来 Py3 已经快过 Py2.7 了...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pune.pycon.org/"&gt;Pycon Pune 2017&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pycon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pycon Pune 2017 is announced. To be held on February 16-19 2017. Visit the website to know more.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;又是一月就开始的...总结去年的当然早点开始好,
+但是, PyConChian 的筹备节奏,我们只能程序猿节前后才可能折腾
+)&lt;/p&gt;
+&lt;h2 id="_2"&gt;项目&lt;/h2&gt;
+&lt;p&gt;~ 包/模块/库/片段...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/llSourcell/predicting_stock_prices"&gt;predicting_stock_prices&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;29 Stars, 14 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is the code for the Stock Price Prediction challenge for 'Learn Python for Data Science #3' by @Sirajology on YouTube. The code uses the scikit-learn machine learning library to train a support vector regression on a stock price dataset from Google Finance to predict a future price. In the video, I use scikit-learn to build an ML model, but for the challenge you'll use the Keras library.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;基于 Keras 和 Google 财经的数据,
+使用 scikit-learn 来完成预测
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/altair-viz/altair_widgets"&gt;altair_widgets&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;25 Stars, 1 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Interactive data exploration with Altair. Altair Widgets are a tool to easily allow to interact with Altair graphs in the Jupyter notebook.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;对 Altair 图表在 Jupyter 进行交互探索的工具&lt;/p&gt;
+&lt;p&gt;&lt;img alt="examples" src="https://github.com/altair-viz/altair_widgets/raw/master/examples/iris-basic.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/afiskon/py-vm"&gt;py-vm&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;19 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Simple CLI wrapper for VirtualBox. Could be considered a Vagrant replacement in many cases.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;又一个对 VirtualBox 进行 CLI 包装的工具
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/koslibpro/django-traffic"&gt;django-traffic&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;8 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A Django middleware that helps visualize your app's traffic in Kibana. In a nutshell, by using this middleware you need no more effort to stream your app's traffic in your ElasticSearch host(s) and use Kibana for visualizations around it.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;又一个重量级中间件,
+可视化 Kibana 的工作流
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/thecodershub/algorithms"&gt;algorithms&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;7 Stars, 46 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Collection of algorithms in multiple programming languages. Including Python. &lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;算法的对比学习
+)&lt;/p&gt;
+&lt;h1 id="_3"&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;161106 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 42 分钟完成快译&lt;/li&gt;
+&lt;li&gt;161106 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟完成格式化.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="Weekly"></category><category term="ImportPython"></category><category term="Zh"></category></entry><entry><title>蠎加载 96</title><link href="http://weekly.pychina.org/importpython/importpython-96.html" rel="alternate"></link><published>2016-10-28T11:11:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-10-28:importpython/importpython-96.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/96/"&gt;Import Python Weekly Newsletter - Issue No 96&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
