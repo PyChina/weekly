@@ -1,5 +1,246 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/importpython.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2016-11-17T17:42:00+08:00</updated><entry><title>蠎加载 99</title><link href="http://weekly.pychina.org/importpython/importpython-99.html" rel="alternate"></link><published>2016-11-17T17:42:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-11-17:importpython/importpython-99.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/importpython.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2016-11-23T13:31:00+08:00</updated><entry><title>蠎加载 100</title><link href="http://weekly.pychina.org/importpython/importpython-100.html" rel="alternate"></link><published>2016-11-23T13:31:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-11-23:importpython/importpython-100.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/100/"&gt;Import Python Weekly Newsletter - Issue No 100&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_1"&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://importpython.com/newsletter/quiz/"&gt;蠎加载百期知识竞赛&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;importpython&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It's been 2 years of curating ImportPython and today is the 100th Issue. Wow. What a moment ?. Here is a python quiz competition. Five random() participants who answer all questions correctly win complete bundle of Writing Idiomatic python book by Jeff Knupp. If you take the quiz at the end of it is a link with discount too. This quiz is an our attempt at having fun and saying thanks to all you readers of ImportPython. Do take to twitter with the hashtag #importpython100 happy to hear what you have to say.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;
+追查了一下, &lt;code&gt;2014-09-25&lt;/code&gt; 开始快译 &lt;a href="http://weekly.pychina.org/importpython/index.html"&gt;蠎加载&lt;/a&gt; 的, 
+嗯哼,&lt;code&gt;2012-02-17&lt;/code&gt; 开始翻译 &lt;a href="http://weekly.pychina.org/issue/index.html"&gt;蠎周刊&lt;/a&gt; 的,
+当然 蠎周刊 之前有朋友翻译过前20期,俺是从 77 期开始坚持翻译到 200期,引人了新的快译小伙伴,老高,
+然后,重心转移到 蠎加载;
+风格也从之前正文的翻译,慢慢变成了主要进行 &lt;code&gt;是也乎&lt;/code&gt; 的点评;
+不变的是很少有人提交 PR,想来也是因为这种周刊,实在只是个定时 技术新闻点收集,
+时效性太强,大家参与进来,并不能获得类似伟大的 &lt;code&gt;字幕组&lt;/code&gt; 那种可以长期流传,洗脑天下的乐趣.
+之于俺和小伙伴,最大的收获的确也就是:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;定期翻译,形成周自学节奏&lt;/li&gt;
+&lt;li&gt;了解 Python 领域的主流变化&lt;/li&gt;
+&lt;li&gt;积累 Python 技术演化趋势概念&lt;/li&gt;
+&lt;li&gt;架构选型时帮助扩大思考范围&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;简单的说,定期快译一个技术新闻周刊,是种非常好的强迫自学的形式;
+并不特别强烈的建议大家都来加入这种自学,毕竟太散了...
+但是,的确是一个有效无意识提高领域技术语感的好形式.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/rushter/MLAlgorithms"&gt;MLAlgorithms&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;machine learning, algorithms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minimal and clean examples of machine learning algorithms&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@lynzt/install-python-packages-from-github-5866d234c4e4"&gt;用 pip 从 github 安装 Python 模块&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pip, github&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;pip install --upgrade git+git://github.com/user/user_repository.git&lt;/code&gt; and you are done.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;现代语言生态的标志行为:加载 github 
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/the-python-corner/iterators-and-generators-in-python-2c3929a144b?source=rss------python-5"&gt;迭代器和生成器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core-python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Simple code snippets showing how iterators and generators work in Python.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.patricksoftwareblog.com/unit-testing-a-flask-application/"&gt;Patrick Kennedy: Flask 应用的单元测试&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;testing, flask&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This blog post provides an introduction to unit testing a Flask application. I’ve been on a big unit testing kick at work recently which is spilling over into updating the unit tests for my personal projects. Therefore, I thought it would be a good time to document the basics of unit testing a Flask application.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;是的 Flask 的单元测试生态并没有兴起...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.garysieling.com/blog/tensorflow-python-setup-digitalocean"&gt;DigitalOcean 中 Tensorflow 的 Python 支持&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;tensorflow, digitalocean&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following steps will install TensorFlow1 on a fresh Digital Ocean virtual machine running Ubuntu.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;数字海洋是唯一一个 AWS/GCP 之外最有成功相的 &lt;code&gt;*aaS&lt;/code&gt; 厂商了
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://pbpython.com/amortization-model.html"&gt;用 Pandas 构建财务模型 - By Chris Moffitt&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pandas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This specific post will discuss how to do financial modeling in pandas instead of Excel. For this example, I will build a simple amortization table in pandas and show how to model various outcomes.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;谁说社科生不玩程序的?! 这在经济领域现在是必须的强项了...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.snowboardingcoder.com/django/?p=54"&gt;定义过滤器和有序字典&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django, python3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This week I ran into a minor problem that took a surprising amount of time to resolve. Getting a Django template to produce a dict in sorted order. While there were answers out there, none seemed to match the environment that I am using (python 3, Django 1.10). After some experimentation, I finally came up with what I think is a good solution.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Django 中的模板看起来什么都能作,其实...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.dataquest.io/blog/web-scraping-tutorial-python/"&gt;使用 BeautifulSoup 的 Web Scraping 教程&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;beautifulsoup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this tutorial, we’ll show you how to perform web scraping using Python 3 and the BeautifulSoup library. We’ll be scraping weather forecasts from the National Weather Service, and then analyzing them using the Pandas library.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;国家天气局的数据抓取整理后给 美汤 分析.
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://tabletopwhale.com/2016/11/14/automated-color-palettes.html"&gt;在 Python 中构建动画 GIFs&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;gif&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I first wrote a Python script to make a GIF illustration for any 5-unit color scheme.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GIFs" src="http://tabletopwhale.com/img/colorpalette/29.gif" /&gt;
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.oreilly.com/ideas/how-to-get-superior-text-processing-in-python-with-pynini"&gt;如何通过 Pynini 在 Python 中获得卓越的文本分析能力 ?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;regex&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Regular expressions are the standard for string processing, but did you know you can often get better text untangling with Pynini's finite-state transducers ?&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;利用 Pynini 的有限状态机来替代正则表达式来处理文本.
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/python-pandemonium/cpython-memory-management-479e6cd86c9#.fdfvkwki9"&gt;CPython 内存管理&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;cpython&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This post is high level description of how CPython (just Python below) manages object life cycle.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在冯机框架之内, 执行效率总是得面对内存这一物理结构的额外问题
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://learnpythonthehardway.org/book/nopython3.html"&gt;针对 Python 3 的案例&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;python3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;"There is high probability that Python 3 is such a failure it will kill Python" - Zed Shaw. As Curator of a Python Newsletter for 2+ years I can tell you at-least 20-30% of all articles I read of late have code written only for Python 3. Just recently I was at Pycon India and met lot of student who never wrote a single line in 2.x. Startup founders starting with new development choosing Python 3. Lot of people are sleeping on Python 3. A year more and hopefully everyone will be awake.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;全球只有印度沉浸在 Py 3 的世界中..嗯哼,为什么?!&lt;/p&gt;
+&lt;p&gt;何况 Py 3 不是图灵完备的...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.edx.org/course/using-python-research-harvardx-ph526x"&gt;用 Python 进行研究 - 哈佛大学课程 - edx&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;course, mooc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Take your introductory knowledge of Python programming to the next level and learn how to use Python 3 for your research. You will learn Python 3 programming basics, Python tools (e.g., NumPy and SciPy modules) for research applications, How to apply Python research tools in practical settings.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;介绍学界在 py 3 生态中如何进行研究
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.machinalis.com/blog/watermarking-images-django/"&gt;在 Django 网站上水印图像&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pillow, watermarking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Have you ever noticed how stock photography sites add watermarks to the images shown on their catalogs ? They do that to make sure people don’t just take the free samples and use them without proper licensing. Turns out this is pretty easy to do it with Pillow.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.vinta.com.br/blog/2016/metaprogramming-and-django-using-decorators/"&gt;元编程和 Django - 使用 Decorators&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django, decorators&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The article starts of with an introduction snippet to decorators and then goes on to explore some real world examples in context of Django. Personally one good find in the article was boltons library.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://goo.gl/NGmw3L"&gt;JIRA 软件&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Sponsor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Start a free JIRA Software trial and get this shirt.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;收购 bitbucekt.org 的靠谱软件管理开发商.
+)&lt;/p&gt;
+&lt;h2 id="_2"&gt;好物&lt;/h2&gt;
+&lt;p&gt;~ 包/模块/库/片段...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/pypa/pipfile"&gt;pipfile&lt;/a&gt; &lt;ul&gt;
+&lt;li&gt;1187 Stars, 24 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A Pipfile, and its related Pipfile.lock, are a new (and much better!) replacement for pip's requirements.txt files.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;又一个 &lt;code&gt;requirements.txt&lt;/code&gt; 的替代品
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/joewalnes/greendots"&gt;greendots&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;56 Stars, 4 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Write with those green dots on your GitHub profile. This takes a message, encodes it to a simple bitmap font, and generates a bunch of git commits in the past.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="greendots" src="![Example" title="profile](https://github.com/joewalnes/greendots/blob/master/example.png" /&gt;)
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/juliascript/Algorithms-and-Data-Structures"&gt;Algorithms-and-Data-Structures&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;14 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A Trie, (also known as a prefix tree) is a special type of tree used to store associative data structures. A trie (pronounced try) gets its name from retrieval?—?its structure makes it a stellar matching algorithm. Repository for the article https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413#.e5281rxmo&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;前缀树之类的数据结构和算法的折腾
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MartinPyka/financial_life"&gt;financial-life&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;1 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;financial_life is an opinionated framework written in Python that allows to simulate monetary flows between different types of accounts. These simulations allow a deeper understanding of financial plans and a better comparison of financial products (in particular loan conditions) for personal circumstances. With financial_life you can&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;financial_life&lt;/code&gt; 是 Python 构建的模拟不同类型帐户货币流动的框架,
+用以进行金融产品的设计实验...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/waqasjaved160/flask-djcelery"&gt;flask-djcelery&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;1 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An example project for configuring Djcelery with Flask application and dynamically changing tasks via REST API and through django admin. &lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;自动打通 Falsk 和 Django 应用的框架.
+)&lt;/p&gt;
+&lt;h1 id="_3"&gt;是也乎&lt;/h1&gt;
+&lt;p&gt;~ (￣▽￣) 这么快就100期了?!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;161123 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 42 分钟完成快译&lt;/li&gt;
+&lt;li&gt;161123 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟完成格式化.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="Weekly"></category><category term="ImportPython"></category><category term="Zh"></category></entry><entry><title>蠎加载 99</title><link href="http://weekly.pychina.org/importpython/importpython-99.html" rel="alternate"></link><published>2016-11-17T17:42:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-11-17:importpython/importpython-99.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/99/"&gt;Import Python Weekly Newsletter - Issue No 99&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
