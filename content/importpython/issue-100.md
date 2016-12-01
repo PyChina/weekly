@@ -251,9 +251,17 @@ An example project for configuring Djcelery with Flask application and dynamical
 )
 
 
+
+
 # 是也乎
 ~ (￣▽￣) 这么快就100期了?!
 
+- [The End Of Coder Influence \| Zed A\. Shaw](https://zedshaw.com/2016/11/24/the-end-of-coder-influence/)
+
+(`嗯哼:`
+
+这真是一个悲哀的故事...
+)
 
 - 161123 [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
 - 161123 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
