@@ -1,5 +1,181 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 23 Nov 2016 13:31:00 +0800</lastBuildDate><item><title>蠎加载 100</title><link>http://weekly.pychina.org/importpython/importpython-100.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Thu, 01 Dec 2016 16:42:00 +0800</lastBuildDate><item><title>蠎加载 101</title><link>http://weekly.pychina.org/importpython/importpython-101.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/101/"&gt;Import Python Weekly Newsletter - Issue No 101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_1"&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://importpython.com/blog/post/quiz-results"&gt;Quiz Results&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;quiz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks everyone for participating in the quiz. Nico Ekkart, Chad Heyne, Artem Bezukladichnii, Andrew Nester and Kyle Monson Congrats. Your copies of Writing Idiomatic Python is on its way. The Answers are on the blog post. ImportPython Subscribers can get a copy of Writing Idiomatic Python for a special price at https://jeffknupp.com/writing-idiomatic-python-ebook-importpython-q2vwt5/ . Thank you Jeff.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;上次的问卷结果出来了...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nylas.com/blog/packaging-deploying-python"&gt;俺们如何部署 Python 代码 ? - Nylas&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;deployment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Building, packaging, and deploying Python using versioned artifacts in Debian packages. At Nylas, we’ve developed a better way to deploy Python code along with its dependencies, resulting in lightweight packages that can be easily installed, upgraded, or removed. And we’ve done it without transitioning our entire stack to a system like Docker, CoreOS, or fully-baked AMIs.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;老梗了,两年前就推荐过,这团队折腾到最后使用了 Debian 专用的 dh-virtualenv 工具,
+对于多数团队而言,嗯哼的...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://dbader.org/blog/python-code-linting#importpy"&gt;如何进行代码格式化令你的 Python 出色?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;code-quality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In Python code reviews I’ve seen over and over that it can be tough for developers to format their Python code in a consistent way: extra whitespace, irregular indentation, and other “sloppiness” then often leads to actual bugs in the program. Luckily automated tools can help with this common problem. Code linters make sure your Python code is always formatted consistently – and their benefits go way beyond that.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Flake8+Sublime 的培训课程广告
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://treyhunner.com/2016/11/check-whether-all-items-match-a-condition-in-python/"&gt;在 Python 中检查所有条件匹配 - By Trey Hunner&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core-python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use of any/all with generator expressions for improved readability and code clarity.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;运用内建函式 any/all
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://nlp.hivefire.com/articles/share/68754/"&gt;如何成为对冲基金的 Python 程序猿, by the CTO of AHL&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;interview&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We asked Collier what it takes to code in Python for a major quant fund. – And whether learning how to code as a second career after trading is actually viable. This is what he said.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;AHL?! 折腾宇宙奥密的 CTO 也转行基金了!?
+突然理解了 洪教授...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.southampton.ac.uk/~fangohr/teaching/python/book.html"&gt;计算科学和工程的 Python 3 &lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;book&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It's a free book available for download. This text summarises a number of core ideas relevant to Computational Engineering and Scientific Computing using Python. The emphasis is on introducing some basic Python (programming) concepts that are relevant for numerical algorithms. The later chapters touch upon numerical libraries such as &lt;code&gt;numpy&lt;/code&gt; and &lt;code&gt;scipy&lt;/code&gt; each of which deserves much more space than provided here. We aim to enable the reader to learn independently how to use other functionality of these libraries using the available documentation (online and through the packages itself).&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;免费图书,用 py3 来演示计算科学领域中各种常见任务的解决,
+也介绍了 numpy/scipy 等等关键库.
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.mirumee.com/django-fast-part-2-d73a4ecd61f3#.bzhwna1v0"&gt;Django, fast: part 2&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this second follow-up post Patryk Zawadzki makes use of wrk benchmarking tool and shows us the performance of gunicorn, uwsgi, PyPy. Besides benchmarking there is good insights into do's and don't of each deployment option.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;用标准的基准工具来测量 Django 的效能瓶颈
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://deeplearning.net/software/theano/tutorial/python-memory-management.html"&gt;Python 内存管理&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;memory management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One of the things you should know, or at least get a good feel about, is the sizes of basic Python objects. Another thing is how Python manages its memory internally.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;其实吧,看中国原创的 Python 源代码鉴赏 更加能明白
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@adityachhabra_73943/virtual-environments-f448f234271f"&gt;Python 和虚拟环境&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;virtual environment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A tour/tutorial of everything virtualenv.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;pyenv 早已是每天无法离开的命令了,当然, M$ 中嗯哼的.
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://oded.ninja/2016/11/30/__slots__-and-namedtuples/"&gt;聊哈对象 “优化”: &lt;strong&gt;slots&lt;/strong&gt; 以及 namedtuples.&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://programminghistorian.org/lessons/text-mining-with-extracted-features"&gt;用 HTRC 特性提取器在 Python 中折腾文本挖掘&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;data mining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We introduce a toolkit for working with the 13.6 million volume Extracted Features Dataset from the HathiTrust Research Center. You will learn how to peer at the words and trends of any book in the collection, while developing broadly useful Python data analysis skills.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;基于 1360万卷文献资料的折腾... &lt;code&gt;可编程历史学&lt;/code&gt;
+国外各种领域的研究,除了论文发布,关联的重要发布就是一个个的开放数据包.
+细思恐极.&lt;/p&gt;
+&lt;p&gt;当然也使用 ipynb 来组织和展示.
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/originalankur/awesome-django-admin"&gt;Awesome Django Admin&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django-admin
+Curated list of awesome django resources aptly named Awesome Django Admin . If you have seen Awesome Python, it's on the same lines. Contribute to it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;细思恐极哪, Awesome 系列是 github 中实事上的好物集锦前缀,
+但是, &lt;code&gt;Django Admin&lt;/code&gt; 只是一个框架中的一个功能,竟然也能攒出一个 Awesome 来...
+这得复杂到什么地步哪...
+)&lt;/p&gt;
+&lt;h2 id="_2"&gt;好物&lt;/h2&gt;
+&lt;p&gt;~ 包/模块/库/片段...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/violentshell/rollmac"&gt;violentshell/rollmac&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;89 Stars, 13 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Free networks often impose either a time or data restriction and this can be used quickly. When this happens you can change your mac address and reconnect, but this is annoying, and it takes time. In addition, most networks will ask you to re-accept the terms and conditions of the network in order to continue. Rollmac is designed to automate this process by using the WPAD protocol to discover the login page and automatically re-accept the terms and conditions.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;快速伪造 mac 地址来发起请求,以便加速测试,,,喂! 这也是 Spam/Spy 需要的哪!
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dimmg/flusk"&gt;dimmg/flusk&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;52 Stars, 2 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Flask - SQLAlchemy's declarative base - Docker - custom middleware.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;一次性将 SQLAlchemy+Flask+Docker 封装在了一起,形成完备的语义
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/awslabs/amazon-polly-sample"&gt;amazon-polly-sample&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;12 Stars, 2 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This app allows you to easily convert any publicly available RSS content into audio Podcasts, so you can listen to your favorite blogs on mobile devices instead of reading them. &lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;基于 AWS polly 服务,可以自动的将所有 RSS 内容转换为播客...
+想听特川普每天为您播报天气嘛!? 嘦两行代码就可以了...
+)&lt;/p&gt;
+&lt;h1 id="_3"&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zedshaw.com/2016/11/24/the-end-of-coder-influence/"&gt;The End Of Coder Influence \| Zed A. Shaw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;嗯哼:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这真是一个悲哀的故事...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;161201 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 42 分钟完成快译&lt;/li&gt;
+&lt;li&gt;161201 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟完成格式化.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Thu, 01 Dec 2016 16:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2016-12-01:importpython/importpython-101.html</guid><category>Weekly</category><category>ImportPython</category><category>Zh</category></item><item><title>蠎加载 100</title><link>http://weekly.pychina.org/importpython/importpython-100.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/100/"&gt;Import Python Weekly Newsletter - Issue No 100&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
@@ -237,6 +413,12 @@
 )&lt;/p&gt;
 &lt;h1 id="_3"&gt;是也乎&lt;/h1&gt;
 &lt;p&gt;~ (￣▽￣) 这么快就100期了?!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zedshaw.com/2016/11/24/the-end-of-coder-influence/"&gt;The End Of Coder Influence \| Zed A. Shaw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;嗯哼:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这真是一个悲哀的故事...
+)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;161123 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 42 分钟完成快译&lt;/li&gt;
 &lt;li&gt;161123 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟完成格式化.&lt;/li&gt;
