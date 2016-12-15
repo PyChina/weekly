@@ -1,5 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2016-12-10T16:42:00+08:00</updated><entry><title>蠎加载 102</title><link href="http://weekly.pychina.org/importpython/importpython-102.html" rel="alternate"></link><published>2016-12-10T16:42:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-12-10:importpython/importpython-102.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2016-12-15T11:42:00+08:00</updated><entry><title>蠎加载 103</title><link href="http://weekly.pychina.org/importpython/importpython-103.html" rel="alternate"></link><published>2016-12-15T11:42:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-12-15:importpython/importpython-103.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/103/"&gt;Import Python Weekly Newsletter - Issue No 103&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_1"&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/channel/UCclkPrurwUP_ajqi3vDTNDg"&gt;PyCon Canada Videos&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;video, conference, pycon-canada&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PyCon Canada's Youtube channel now has most of the event's videos.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.mihneadb.net/tracing-through-python-functions/"&gt;Tracing through Python functions&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;debugging
+python-execution-trace allows you to choose what function you are interested in and it records its execution(s), together with the local state. You can then step through any execution, both forwards and backwards. All you need to do is pip install the library, decorate the target function and run your code as you normally do.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.coursera.org/learn/python-network-data"&gt;Using Python to Access Web Data Course - By University of Michigan&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;scraping
+This course will show how one can treat the Internet as a source of data. We will scrape, parse, and read web data as well as access data using web APIs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://machinelearningmastery.com/normalize-standardize-time-series-data-python/"&gt;How to Normalize and Standardize Time Series Data in Python&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;time-series
+Some machine learning algorithms will achieve better performance if your time series data has a consistent scale or distribution. Two techniques that you can use to consistently rescale your time series data are normalization and standardization. In this tutorial, you will discover how you can apply normalization and standardization rescaling to your time series data in Python.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://benbernardblog.com/tracking-down-a-freaky-python-memory-leak/"&gt;Tracking Down a Freaky Python Memory Leak - By Benoit Bernard&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;debugging
+"I thought that memory leaks were impossible in Python?", I said to myself, staring incredulously at my screen. It was 8:00 PM. The memory use of my crawler was slowly, but steadily increasing. As I hadn't changed any significant portion of my code, this made no sense at all. Had I introduced a new bug? If so, where was it? Here follows the full story of how I tracked down a memory leak in my Python application. Note - Benoit Bernard is writing these long form articles on his debugging experiences it's worth reading.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.infoworld.com/article/3148718/open-source-tools/how-mypy-could-simplify-compiling-python.html"&gt;How Mypy could simplify compiling Python&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mypy
+The Mypy static type-checking project for Python is exploring ways it could aid with effortlessly compiling Python into C or machine language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://pythonsnippetizer.com/"&gt;Python Snippetizer&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;snippets, website&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python snippets for beginners to explore.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://medium.com/the-python-corner/syntax-sugar-in-python-3-6-776178ce51f4"&gt;Syntax sugar in Python 3.6&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;python3.6
+Simple code snippets showing us what's new in Python 3.6.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.naftaliharris.com/blog/why-making-python-2.8/"&gt;Why I'm Making Python 2.8&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;placeholder
+For the past two months I've been spending half my time on Python 2.8. Python 2.8 is a backwards-compatible Python interpreter that runs Python 2 code and C-extensions exactly as-is, while also allowing Python 2 programmers to use the most exciting new language features from Python 3. These new backported language features include async/await syntax, function annotations and typing support, keyword-only arguments, and new metaclass syntax, among many others. I use Python 2.8 as my system python now, and haven't had any problems running my old 2.7 code or using packages like IPython, pip, numpy, pandas, requests, and flask.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://moshez.wordpress.com/2016/12/10/on-raising-exceptions-in-python/"&gt;On Raising Exceptions in Python - By Moshe Zadka&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;exception handling
+There is a lot of Python code in the wild which does something like raise SomeException("Could not fraz the buzz: {} is less than {}".format(foo, quux)). This is, in general, a bad idea. Exceptions are not program panics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://nedbatchelder.com//blog/201612/who_tests_what.html"&gt;Who Tests What - By Ned Batchelder&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;coverage
+The next big feature for coverage.py is what I informally call "Who Tests What." People want a way to know more than just what lines were covered by the tests, but also, which tests covered which lines.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_2"&gt;好物&lt;/h2&gt;
+&lt;p&gt;~ 包/模块/库/片段...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/deepmind/learning-to-learn"&gt;learning-to-learn&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1221 Stars, 119 Fork
+Learning to Learn in TensorFlow https://arxiv.org/abs/1606.04474&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/Evolving-AI-Lab/ppgn"&gt;ppgn&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;164 Stars, 25 Fork
+Code for paper "Plug and Play Generative Networks". This repository contains source code necessary to reproduce some of the main results in the paper.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/icoxfog417/tensorflow_qrnn"&gt;tensorflow_qrnn&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;60 Stars, 4 Fork
+QRNN implementation for TensorFlow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/llSourcell/tensorflow_speech_recognition_demo"&gt;tensorflow_speech_recognition_demo&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;38 Stars, 6 Fork
+This is the code for 'How to Make a Simple Tensorflow Speech Recognizer' by @Sirajology on Youtube&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/borjacampina/sublimetext-edit_in_new_tab-plugin"&gt;sublimetext-edit_in_new_tab-plugin&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;20 Stars, 0 Fork
+Sublime Text - edit in new tab plugin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/mavieth/check-domains-py"&gt;check-domains-py&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;16 Stars, 1 Fork
+Check WHOIS information for a list of domains &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="_3"&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;16121? &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 42 分钟完成快译&lt;/li&gt;
+&lt;li&gt;161215 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟完成格式化.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="Weekly"></category><category term="ImportPython"></category><category term="Zh"></category></entry><entry><title>蠎加载 102</title><link href="http://weekly.pychina.org/importpython/importpython-102.html" rel="alternate"></link><published>2016-12-10T16:42:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2016-12-10:importpython/importpython-102.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/102/"&gt;Import Python Weekly Newsletter - Issue No 102&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
