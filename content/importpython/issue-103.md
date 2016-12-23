@@ -168,6 +168,11 @@ This is the code for 'How to Make a Simple Tensorflow Speech Recognizer' by @Sir
 
 Sublime Text - edit in new tab plugin
 
+(`是也乎:`
+
+![edit_in_new_tab](https://camo.githubusercontent.com/87f2f7ace9bd3b9ff03c1fc4d1b44698c081a78a/68747470733a2f2f7261772e6769746875622e636f6d2f626f726a6163616d70696e612f7375626c696d65746578742d656469745f696e5f6e65775f7461622d706c7567696e2f6d61737465722f6578616d706c652e676966)
+)
+
 - [check-domains-py](https://github.com/mavieth/check-domains-py)
     - 16 Stars, 1 Fork
 
