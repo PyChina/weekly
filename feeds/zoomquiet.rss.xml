@@ -1,5 +1,237 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Tue, 24 Jan 2017 21:12:00 +0800</lastBuildDate><item><title>蠎加载 108</title><link>http://weekly.pychina.org/importpython/importpython-108.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sun, 05 Feb 2017 12:21:00 +0800</lastBuildDate><item><title>蠎加载 109</title><link>http://weekly.pychina.org/importpython/importpython-109.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/109/"&gt;Import Python Weekly Newsletter - Issue No 109&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_1"&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://us.pycon.org/2017/schedule/talks/list/"&gt;Pycon 2017 议题选择&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pycon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The acceptance and rejection letters for pycon arrived this week and so did the final list of selected talks for Pycon US 2017.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;相对国外的 PyCon 都是年头儿对上年回顾,中国的总是挤在年尾回顾当年...
+因为春节哈...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://pgbovine.net/python-async-io-walkthrough.htm"&gt;Python 异步 I/O 嗯哼&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;video, asyncio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this 90-minute video series, I walk through a book chapter about asynchronous I/O in Python called A Web Crawler With asyncio Coroutines, which was co-authored by the creator of Python.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;直播读书?
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://engineering.instagram.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172"&gt;Instagram 关闭了 Python 的 GC&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;memory management, garbage collection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By dismissing the Python garbage collection (GC) mechanism, which reclaims memory by collecting and freeing unused data, Instagram can run 10% more efficiently. Yes, you heard it right! By disabling GC, we can reduce the memory footprint and improve the CPU LLC cache hit ratio. If you’re interested in knowing why, buckle up!&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;随着 Py 在生产线上越来越嗯哼,
+对 GC 的怨念总是在积累,终于,这一天来了...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@robinlinderborg/reshaping-data-in-python-fa27dda2ff77"&gt;Python 中重塑数据&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I want to focus exclusively on the process of reshaping data, i.e. converting or transforming data from one format to another.
+data manipulation&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;不仅仅是格式转换, 更要有垃圾清理...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.faingezicht.com/articles/2017/01/23/wolfram/"&gt;Wolfram 的自动机, 用 Python 简单嗯哼出了一个&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Complexity science is one of my favourite topics, ever. Studying complexity is how I ended up in the computer science bandwagon in the first place, and I constantly find myself thinking about how individual agents’ decisions affect the overall state of systems. Self-organization and emergence are fundamental aspects of how the pieces of the complexity puzzle fit together, and Wolfram’s elementary cellular automata are a great way to understand them.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Wolfram 安身立命的核心技术, 成熟运行20多年, 哪儿这么简单的可以嗯哼出来哪...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://alimanfoo.github.io/2017/01/23/go-faster-python.html"&gt;加速 Python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;performance, benchmarking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This blog post gives an introduction to some techniques for benchmarking, profiling and optimising Python code.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;又一个收集各种技巧的 blog ,不过, Python 的本意就不是为了运行时速度哪,
+而是开发时效率...
+所以...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://janikarhunen.fi/three-steps-to-lint-python-3-6-in-sublime-text.html#three-steps-to-lint-python-3-6-in-sublime-text"&gt;在 Sublime Text 中对 Python 3.6 代码进行 lint&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;subl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Writing consistent, well-formed code is important. Of course the functionality of the code is paramount, yet in addition the styling and structure should follow a commonly accepted standards. Not only will it make the code more approachable to others, but also to yourself, when you return to an old piece of software, which you have not looked at for months or even years. You might even squash some bugs early on, by writing code in consistent manner. The process of styling and checking of these code qualities, is often referred as linting.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;历史一再证明,一个稳定又开放的系统,总是能孕育出各种神奇的小品来
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://dbader.org/blog/python-assert-tutorial#."&gt;Assert Statements in Python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core-python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How to use assertions to help automatically detect errors in your Python programs in order to make them more reliable and easier to debug.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;断言,断的好,测试跑的好.
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://christopherroach.com/articles/statistics-for-hackers/"&gt;黑客统计&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Jupyter notebook&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I've chosen to start with Harvard's Data Science course. I'm currently on week 3 and one of the suggested readings for this week is Jake VanderPlas' talk from PyCon 2016 titled "Statistics for Hackers". As I was watching the video and following along with the slides, I wanted to try out some of the examples and create a set of notes that I could refer to later, so I figured why not create a Jupyter notebook.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;一份课堂作业,总是可以嗯哼到 ipynb 中来...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.rittmanmead.com/blog/2017/01/getting-started-with-spark-streaming-with-python-and-kafka/"&gt;用 Python 来开始 Spark Streaming + Kafka&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;kafka, spark&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this article I am going to look at Spark Streaming. This is one of several libraries that the Spark platform provides (others include Spark SQL, Spark MLlib, and Spark GraphX). Spark Streaming provides a way of processing "unbounded" data - commonly referred to as "streaming" data. It does this by breaking it up into microbatches, and supporting windowing capabilities for processing across multiple batches. You can read more in the excellent Streaming Programming Guide.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EK/LS&lt;/strong&gt; 越来越有标准相了,当然的 Python 的各种绑定也快速跟上了,
+幸福.&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://pyfound.blogspot.com/2017/01/shelia-miguez-and-will-kahn-greene-and_19.html"&gt;Sheila Miguez 和 Will Kahn-Greene 以及他们对 Python 社区的爱: Community Service Award Quarter 3 2016 Winners&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pyvideos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sheila Miguez and William Kahn-Greene for their monumental work in creating and supporting PyVideo over the years.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;静静等待华人获得..
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@djangostars/list-comprehensions-and-generator-expressions-caf122a34091?source=rss------python-5"&gt;列表推导和生成器表达式&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core-python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do you know the difference between the following syntax? [x for x in range(5)] , (x for x in range(5)), tuple(range(5)) Let’s check it.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;细微处见真情
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://hackernoon.com/handling-webhooks-using-django-and-ngrok-b7ff27a6fd47#.bwvmuhprr"&gt;用Django 和 ngrok 处理 webhooks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this article we’ll go over how to handle webhooks using Django, create a webhook in GitHub, and test the webhook on your local machine using ngrok. But first a brief primer on webhooks.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://quizbucket.org/quiz/python/list-questions"&gt;Python 自测&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;quiz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comprehensive Python quiz and questions from basic to advanced level that help you to review your Python knowledge and become the master of Python.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;又一个 Python 能力测试卷,,,在答案剧透前,可以嗯哼一下
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.oreilly.com/learning/algorithmic-trading-in-less-than-100-lines-of-python-code"&gt;100 行以内的算法代码&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;algorithmic trading&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you're familiar with financial trading and know Python, you can get started with basic algorithmic trading in no time.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;值得收藏, 但是,其实,最好是变成一个内建模块哪
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.blog.pythonlibrary.org/2017/01/23/python-101-now-free-on-leanpub-permanently/"&gt;Python 101 在 Leanpub Permanently 免费了&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;ebook&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;可是,为什么呢? 哈! 因为 201 要来了&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Python201_cover20160330_sm" src="http://www.blog.pythonlibrary.org/wp-content/uploads/2016/04/Python201_cover20160330_sm-237x300.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@timonweb/override-field-widget-attributes-in-a-django-form-or-how-to-add-placeholder-attribute-to-django-a8a1f4632a09"&gt;在 Django 表单中覆盖字段小部件属性或如何将占位符添加到属性?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;django&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s say we have a contact form and we want to add placeholders to this form inputs so our rendered form has these cool input labels. How do we do that?&lt;/p&gt;
+&lt;h2 id="_2"&gt;好物&lt;/h2&gt;
+&lt;p&gt;~ 包/模块/库/片段...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/kennethreitz/pipenv"&gt;pipenv&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;2204 Stars, 48 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sacred Marriage of Pipfile, Pip, &amp;amp; Virtualenv.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;将三个最常用的官方外模块合并了&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.kennethreitz.org/values"&gt;&lt;img alt="kennethreitz" src="https://avatars0.githubusercontent.com/u/119893?v=3&amp;amp;s=460" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;大神操刀!-)&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/google/glazier"&gt;glazier&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;701 Stars, 33 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A tool for automating the installation of the Microsoft Windows operating system on various device platforms.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;专注在各种设备上自动安装 Win 系统?!真爱!
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/czheo/syntax_sugar_python"&gt;syntax_sugar_python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;492 Stars, 18 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A library adding some anti-pythonic syntatic sugar to Python&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;各种反 Pythonic 的特性...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/kennethreitz/crayons"&gt;crayons&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;94 Stars, 2 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Text UI colors for Python.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;又一个 CLI 依赖症患者&lt;/p&gt;
+&lt;p&gt;&lt;img alt="crayons" src="https://camo.githubusercontent.com/b154bd4a5abd9a38b1b98fd66b4dfff09bb46753/68747470733a2f2f64337676366c703535716a6171632e636c6f756466726f6e742e6e65742f6974656d732f3371304932393371317a3239335233613361336e2f53637265656e25323053686f74253230323031372d30312d32332532306174253230362e30302e3032253230504d2e706e673f582d436c6f75644170702d56697369746f722d49643d32353737" /&gt;
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/adtac/destruction"&gt;destruction&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;79 Stars, 3 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Break Python programs with a simple import. &lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;为毛作者要折腾这个? &lt;code&gt;¯\_(ツ)_/¯&lt;/code&gt;
+)&lt;/p&gt;
+&lt;h3 id="_3"&gt;(￣▽￣)&lt;/h3&gt;
+&lt;p&gt;新年好,,,随领导去宇宙国了9天,所以,嗯哼了两期补起来!&lt;/p&gt;
+&lt;h1 id="_4"&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;170210 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 42 分钟完成快译&lt;/li&gt;
+&lt;li&gt;170210 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟完成格式化.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Sun, 05 Feb 2017 12:21:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2017-02-05:importpython/importpython-109.html</guid><category>Weekly</category><category>ImportPython</category><category>Zh</category></item><item><title>蠎加载 108</title><link>http://weekly.pychina.org/importpython/importpython-108.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/108/"&gt;Import Python Weekly Newsletter - Issue No 108&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;

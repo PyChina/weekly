@@ -5,21 +5,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/index.html</loc>
-<lastmod>2017-01-24T20:10:03-00:00</lastmod>
+<lastmod>2017-02-10T16:28:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://weekly.pychina.org/archives.html</loc>
-<lastmod>2017-01-24T20:10:03-00:00</lastmod>
+<lastmod>2017-02-10T16:28:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://weekly.pychina.org/categories.html</loc>
-<lastmod>2017-01-24T20:10:03-00:00</lastmod>
+<lastmod>2017-02-10T16:28:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://weekly.pychina.org/design.html</loc>
 <lastmod>2013-12-19T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://weekly.pychina.org/importpython/importpython-109.html</loc>
+<lastmod>2017-02-05T12:21:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1965,7 +1972,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/importpython/index.html</loc>
-<lastmod>2017-01-24T21:12:00+08:06</lastmod>
+<lastmod>2017-02-05T12:21:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1993,7 +2000,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/tag/zh.html</loc>
-<lastmod>2017-01-24T21:12:00+08:06</lastmod>
+<lastmod>2017-02-05T12:21:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -2035,7 +2042,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/tag/importpython.html</loc>
-<lastmod>2017-01-24T21:12:00+08:06</lastmod>
+<lastmod>2017-02-05T12:21:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -2049,7 +2056,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/tag/weekly.html</loc>
-<lastmod>2017-01-24T21:12:00+08:06</lastmod>
+<lastmod>2017-02-05T12:21:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -2063,7 +2070,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://weekly.pychina.org/author/zoomquiet.html</loc>
-<lastmod>2017-01-24T21:12:00+08:06</lastmod>
+<lastmod>2017-02-05T12:21:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
