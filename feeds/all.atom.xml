@@ -1,5 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2017-02-20T23:32:00+08:00</updated><entry><title>蠎加载 112</title><link href="http://weekly.pychina.org/importpython/importpython-112.html" rel="alternate"></link><published>2017-02-20T23:32:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2017-02-20:importpython/importpython-112.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2017-02-26T23:32:00+08:00</updated><entry><title>蠎加载 113</title><link href="http://weekly.pychina.org/importpython/importpython-113.html" rel="alternate"></link><published>2017-02-26T23:32:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2017-02-26:importpython/importpython-113.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/113/"&gt;Import Python Weekly Newsletter - Issue No 113&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="_1"&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://player.backtracks.fm/talkpython/m/100-guido-van-rossum"&gt;Guido van Rossum 访谈&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;podcast, BDFL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Talkpython interview with Guido van Rossum aka BDFL.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;有字幕的, 基本上就是回忆了 ABC 时代的嗯哼...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://charlesleifer.com/blog/what-happened/"&gt;几个 Python 3 决择 / 进化 的关键视图&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core-python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The people who introduced me to Python chose it because of the elegance of the language, and it's aesthetic qualities. Would they choose it again, I wonder? Would I?.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;是什么以及为什么的 Py3&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;def hello_world(name):
+    print &amp;#39;Hello&amp;#39;, name
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;--&amp;gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@coroutine
+async def hello_world(name: str) -&amp;gt; str:
+    await print(&amp;#39;Hello {}&amp;#39;.format(yield from name))
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;一定是太多 C++ 程序媛进入了 python 内核开发团队!
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://hashedin.com/training/designing-modules-in-python-ebook/"&gt;在 Python 中设计模块 - ebook&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;book&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This book is for people with some experience in an object oriented programming language. This book will help you get better at module/class level design. Hopefully, it will teach you to identify good design from bad.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://apm.byu.edu/"&gt;为工程师和科学家的 Python 视频&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python material in data science, analysis, and modeling, and optimization. Here is the youtube video channel of the site https://www.youtube.com/user/APMonitorCom&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;各种实战领域在职工程师/科学家们的 Pythonic 折腾
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://benbernardblog.com/using-ubers-pyflame-and-logs-to-tackle-scaling-issues/"&gt;使用 Uber 的 Pyflame 和日志解决问题&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;debugging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This time, it was different though. My distributed web crawler seemed to be slowing down over time. Adding more nodes only had a temporary performance boost; the overall crawling speed gradually declined afterwards. So simply put, it couldn't scale. But why?. In this post, you'll find out what techniques and tools I used to diagnose scaling issues - and to an extent, more general performance issues - in my Python-based web crawler.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="flame_graph_full" src="https://benbernardblog.com/content/images/2017/02/flame_graph_full.png" /&gt;&lt;/p&gt;
+&lt;p&gt;火焰图.... OpenResty 内置了专用工具, 现在咱大蠎也有了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@jiefeng/lets-talk-about-python-packaging-6d84b81f1bb5"&gt;Python Packaging 简要指南&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;packaging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Code reuse is a very common need. It saves you time for writing the same code multiple times, enables leveraging other smart people’s work to make new things happen. Even just for one project, it helps organize code in a modular way so you can maintain each part separately. When it comes to python, it means format your project so it can be easily packaged. This is a simple instruction on how to go from nothing to a package that you can proudly put it in your portfolio to be used by other people.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;一切最终归向 pypi ,这样有问题哪...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://medium.com/@dawran6/closures-bind-late-7b01e3abcb7b"&gt;闭包约束&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;closures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://robots.thoughtbot.com/emacs-as-a-python-ide"&gt;Emacs 作为 Python IDE&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;emacs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note - The video is old, but worth watching for emacs users.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://goo.gl/mGBHFC"&gt;一种用于肺癌检测的python解决方案&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;deep learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://opensource.com/article/17/2/python-tricks-artists"&gt;使用 Python 查找损坏的图像&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;image processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.infoworld.com/article/3171654/artificial-intelligence/5-python-libraries-to-lighten-your-machine-learning-load.html#tk.rss_all"&gt;5种 Python 库轻松进入机​​器学习&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;machine learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PyWren, Tfdeploy, Luigi, Kubelib, PyTorch. Note - We used luigi at my previous workplace and it's a solid library to custom pipelines for batch processing. In our case it was used to enforce database migrations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://renesd.blogspot.in/2017/02/is-type-tracing-for-python-useful-some.html"&gt;类型跟踪对Python很有用&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;debugging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Type Tracing - as a program runs you trace it and record the types of variables coming in and out of functions, and being assigned to variables.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;嗯哼?! 真正靠谱的还是人
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://datascience.blog.wzb.eu/2017/02/16/data-mining-ocr-pdfs-using-pdftabextract-to-liberate-tabular-data-from-scanned-documents/"&gt;使用 Python 对扫描文档进行数据挖掘&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;data mining&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I've written a Python package called pdftabextract 
+https://github.com/WZBSocialScienceCenter/pdftabextract 
+that contains several helpful functions for that task and I'm explaining how to use them in that blog post.&lt;/p&gt;
+&lt;h2 id="_2"&gt;好物&lt;/h2&gt;
+&lt;p&gt;~ 包/模块/库/片段...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/asrp/tkui"&gt;tkui&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;166 Stars, 11 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A visual introspective GUI maker with live editing of the GUI and its editor at the same time&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;值得关注
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/uclatommy/tweetfeels"&gt;tweetfeels&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;18 Stars, 1 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Real-time sentiment analysis in Python using twitter's streaming api&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;实时情绪分析, weibo 已经上线相同的了.
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/tsarjak/WallpapersFromReddit"&gt;WallpapersFromReddit&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;13 Stars, 3 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Download all the hot images from reddit.com/r/wallpaper subreddit every 24 hours to a local device and set an image from those local files as a wallpaper, which updates automatically every 30 minutes!&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;从 reddit 壁纸专栏自动下载生成自己的&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/meereeum/lda2vec-tf"&gt;lda2vec-tf&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;12 Stars, 1 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tensorflow port of the lda2vec model for unsupervised learning of document + topic + word embeddings.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/emadehsan/ieighteen"&gt;ieighteen&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;10 Stars, 1 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Speed up your Localization/Internationalization efforts by automating translation with single script&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;自动翻译哪...项目名好象 Clojure 的嗯哼...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dcalsky/fish-hook"&gt;fish-hook&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;8 Stars, 1 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A console tool which manages your github webhooks efficiently.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;又一个 CLI 工具, 来管理 github webhooks 的...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/prabhuramachandran/ipyaml"&gt;ipyaml&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;8 Stars, 1 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;IPython notebooks with YAML file format&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这个... just for fun
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/xTEddie/Scrapstagram"&gt;Scrapstagram&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;3 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An Instagram Scrapper&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/putdotio/kimo"&gt;kimo&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;3 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Find OS processes of MySQL queries &lt;/p&gt;
+&lt;h3 id="_3"&gt;(￣▽￣)&lt;/h3&gt;
+&lt;p&gt;~ &lt;/p&gt;
+&lt;h1 id="_4"&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;170226 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 42 分钟完成快译&lt;/li&gt;
+&lt;li&gt;170226 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟完成格式化.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="Weekly"></category><category term="ImportPython"></category><category term="Zh"></category></entry><entry><title>蠎加载 112</title><link href="http://weekly.pychina.org/importpython/importpython-112.html" rel="alternate"></link><published>2017-02-20T23:32:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2017-02-20:importpython/importpython-112.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210" /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/112/"&gt;Import Python Weekly Newsletter - Issue No 112&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
