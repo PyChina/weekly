@@ -180,6 +180,8 @@ make Ascii Art by Deep Learing
 
 ai 的 ASCII 艺术创作...
 
+![DeepAA](https://camo.githubusercontent.com/fe8c220256088ad932864ace9e1c3940723b0fb2/687474703a2f2f692e696d6775722e636f6d2f726173615951692e706e67)
+
 )
 
 - [pytorch-dqn](https://github.com/transedward/pytorch-dqn)
