@@ -147,7 +147,7 @@
 <p><img alt="Impossible_staircase" src="http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg"/></p>
 <p>这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
 用最直白的话来描述，就是：</p>
-<div class="highlight"><pre><span></span>初级的知识需要对高级知识深入了解才能真正深入了解
+<div class="highlight"><pre><span class="err">初级的知识需要对高级知识深入了解才能真正深入了解</span>
 </pre></div>
 <p>——你看看这句话多拗口就多少有点概念了。</p>
 <p>所以,还是按照 easy 模式来,
@@ -258,7 +258,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 </ul>
 <p>因为 <code>gitcafe</code> 只有用户同名-pages 服务,所以,对于当前 <code>蠎周刊</code> 的 Pelican 工程,
 用两个仓库,配合完成:</p>
-<div class="highlight"><pre><span></span>https://github.com/qpython-android/qpython-android.pelican.git
+<div class="highlight"><pre>https://github.com/qpython-android/qpython-android.pelican.git
     +- ..
     +- pelicanconf.py   主配置文件
     +- content          内容目录  
@@ -278,7 +278,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 <li><code>fab pub2cafe</code> 自动完成进入 <code>output</code> 后的一系列 git 操作</li>
 </ol>
 <p>对应的 配置中:</p>
-<div class="highlight"><pre><span></span><span class="c1">#DELETE_OUTPUT_DIRECTORY = True</span>
+<div class="highlight"><pre><span class="c1">#DELETE_OUTPUT_DIRECTORY = True</span>
 </pre></div>
 <p>就绝对不能打开注释
 不然 <code>output</code> 目录清除,就没有了 <code>.git</code> 也就无法发布了...</p>
@@ -287,7 +287,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 <h3 id="disqus">DISQUS</h3>
 <p>果断遇到了 DISQUS 配置了,不生效的问题,上下折腾, 才发现很多人都遇到了这个问题,
 追踪到代码:</p>
-<div class="highlight"><pre><span></span><span class="c1">//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html</span>
+<div class="highlight"><pre><span class="c1">//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html</span>
 <span class="c1">//...</span>
 <span class="kd">var</span> <span class="nx">disqus_shortname</span> <span class="o">=</span> <span class="s1">'{{ DISQUS_SITENAME }}'</span><span class="p">;</span> <span class="c1">// required: replace example with your forum shortname</span>
 <span class="kd">var</span> <span class="nx">disqus_identifier</span> <span class="o">=</span> <span class="s1">'{{ article.slug }}'</span><span class="p">;</span>
@@ -306,19 +306,19 @@ Python 世界中大堆静态网站发布工具中的一个,
 <p>fixed!</p>
 <h3 id="category_feed_atom">CATEGORY_FEED_ATOM</h3>
 <p>一时手賎,打开了:</p>
-<div class="highlight"><pre><span></span><span class="na">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="s">'feeds/%s.atom.xml'</span>
+<div class="highlight"><pre><span class="na">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="s">'feeds/%s.atom.xml'</span>
 </pre></div>
 <p>结果,发现不能在模板里简单的完成分类子 RSS 的链接!</p>
-<div class="highlight"><pre><span></span>    <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">"icon-th icon-large"</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>Categories<span class="p">&lt;/</span><span class="nt">h4</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<div class="highlight"><pre>    <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon-th icon-large"</span><span class="nt">&gt;&lt;/i&gt;</span>Categories<span class="nt">&lt;/h4&gt;&lt;/li&gt;</span>
 {% for cat, null in categories %}
-    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">"list-group-item"</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"{{ SITEURL }}/{{ cat.url }}"</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">"icon-folder-open icon-large"</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>{{ cat }}
-        <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"{{ SITEURL }}/feeds/{{ cat }}.atom.xml"</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">"icon-rss-sign"</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
-        <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"list-group-item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ SITEURL }}/{{ cat.url }}"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon-folder-open icon-large"</span><span class="nt">&gt;&lt;/i&gt;</span>{{ cat }}
+        <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ SITEURL }}/feeds/{{ cat }}.atom.xml"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon-rss-sign"</span><span class="nt">&gt;&lt;/i&gt;</span>
+        <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
 {% endfor %}
 </pre></div>
 <p>因为这儿的 <code>{{ cat }}</code> 是分类的名称,可能包含大小写字母,
@@ -337,7 +337,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 <p>即好!</p>
 <h3 id="toc">TOC</h3>
 <p>是的,以往 rST/t2t 时,甚至于 Word 时都有的 </p>
-<div class="highlight"><pre><span></span>TOC ~ 章节索引
+<div class="highlight"><pre><span class="n">TOC</span> <span class="o">~</span> <span class="err">章节索引</span>
 </pre></div>
 <p>肿么可以没有?!</p>
 <p>果断: <a href="https://github.com/getpelican/pelican-plugins/tree/master/extract_toc">pelican-plugins/extract_toc at master · getpelican/pelican-plugins</a> </p>
