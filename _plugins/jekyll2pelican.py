@@ -42,3 +42,5 @@ $ python jekyll2pelican.py /path/2/[数据文件目录] /path/2/[输出目的目
 
         end = time.time()
         print "\t runing time=%.2fs<<<"%(end - begin)
+
+
