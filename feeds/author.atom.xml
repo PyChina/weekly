@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/author.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2013-11-17T00:00:00+08:00</updated><entry><title>MonkeyRobot</title><link href="http://weekly.pychina.org/author/monkey-robot.html" rel="alternate"></link><published>2013-11-17T00:00:00+08:00</published><author><name>MonkeyRobot</name></author><id>tag:weekly.pychina.org,2013-11-17:author/monkey-robot.html</id><summary type="html">&lt;h1 id="monkeyrobot"&gt;MonkeyRobot (小猴机器人)&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Author</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/author.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2013-11-17T00:00:00+08:00</updated><entry><title>MonkeyRobot</title><link href="http://weekly.pychina.org/author/monkey-robot.html" rel="alternate"></link><published>2013-11-17T00:00:00+08:00</published><updated>2013-11-17T00:00:00+08:00</updated><author><name>MonkeyRobot</name></author><id>tag:weekly.pychina.org,2013-11-17:/author/monkey-robot.html</id><summary type="html">&lt;h1&gt;MonkeyRobot (小猴机器人)&lt;/h1&gt;
 &lt;p&gt;&lt;a href="ztl2004.github.io/MachineLearningWeekly/all_issues.html"&gt;机器学习周刊&lt;/a&gt;作者&lt;/p&gt;
 &lt;p&gt;Python无脑粉，机器学习，人工智能狂热分子&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;微博:  http://weibo.com/xiaohourobot&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="people"></category></entry><entry><title>Zoom.Quiet</title><link href="http://weekly.pychina.org/author/zoom-quiet.html" rel="alternate"></link><published>2011-11-17T00:00:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2011-11-17:author/zoom-quiet.html</id><summary type="html">&lt;h1 id="zoomquiet"&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="ZQ" src="http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png" /&gt;&lt;/p&gt;
+&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;MonkeyRobot (小猴机器人)&lt;/h1&gt;
+&lt;p&gt;&lt;a href="ztl2004.github.io/MachineLearningWeekly/all_issues.html"&gt;机器学习周刊&lt;/a&gt;作者&lt;/p&gt;
+&lt;p&gt;Python无脑粉，机器学习，人工智能狂热分子&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;微博:  http://weibo.com/xiaohourobot&lt;/li&gt;
+&lt;/ul&gt;</content><category term="people"></category></entry><entry><title>Zoom.Quiet</title><link href="http://weekly.pychina.org/author/zoom-quiet.html" rel="alternate"></link><published>2011-11-17T00:00:00+08:00</published><updated>2011-11-17T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2011-11-17:/author/zoom-quiet.html</id><summary type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="ZQ" src="http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png"&gt;&lt;/p&gt;
+&lt;p&gt;Python中文社区创始人(之一) / 管理员,
+热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://code.google.com/p/openbookproject/"&gt;O.B.P&lt;/a&gt;
+(Open Book Proj.~中文蟒样开放图书计划)
+及
+蟒营(&lt;a href="http://code.google.com/p/kcpycamp/wiki/PythoniCamp"&gt;PythoniCamp&lt;/a&gt;)
+工程设计者 /主持人;
+参与并主持各种线上 / 线下活动;
+主持编撰了
+&lt;a href="http://book.douban.com/subject/3884108/"&gt;&amp;lt;&amp;lt;可爱的Python&amp;gt;&amp;gt;&lt;/a&gt;
+坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造...&lt;/p&gt;
+&lt;p&gt;目前就职于金山网络。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;G+:   https://plus.google.com/+ZoomQuiet/&lt;/li&gt;
+&lt;li&gt;Blog: http://blog.zoomquiet.org/&lt;/li&gt;
+&lt;li&gt;微博:  http://weibo.com/zoomquiet …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="ZQ" src="http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png"&gt;&lt;/p&gt;
 &lt;p&gt;Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://code.google.com/p/openbookproject/"&gt;O.B.P&lt;/a&gt;
@@ -22,4 +44,4 @@
 &lt;li&gt;G+:   https://plus.google.com/+ZoomQuiet/&lt;/li&gt;
 &lt;li&gt;Blog: http://blog.zoomquiet.org/&lt;/li&gt;
 &lt;li&gt;微博:  http://weibo.com/zoomquiet&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="people"></category></entry></feed>
+&lt;/ul&gt;</content><category term="people"></category></entry></feed>

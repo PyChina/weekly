@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/pgweekly.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2014-02-19T21:42:00+08:00</updated><entry><title>Postgres Weekly : Issue 47</title><link href="http://weekly.pychina.org/pgweekly/pgw-47.html" rel="alternate"></link><published>2014-02-19T21:42:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2014-02-19:pgweekly/pgw-47.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="http://postgresweekly.com/issues/47"&gt;Postgres Weekly Issue 47: February 19, 2014&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - PgWeekly</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/pgweekly.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2014-02-19T21:42:00+08:00</updated><entry><title>Postgres Weekly : Issue 47</title><link href="http://weekly.pychina.org/pgweekly/pgw-47.html" rel="alternate"></link><published>2014-02-19T21:42:00+08:00</published><updated>2014-02-19T21:42:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2014-02-19:/pgweekly/pgw-47.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="http://postgresweekly.com/issues/47"&gt;Postgres Weekly Issue 47: February 19, 2014&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.craigkerstiens.com/2014/02/15/PostgreSQL-9.4-What-I-Wanted/?utm_source=postgresweekly&amp;amp;utm_medium=email"&gt;PostgreSQL 9.4 - 对此俺有什么期望&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PostgreSQL 9.4 已经指日可待了,
+虽然以前俺唠叨过,但是,他们依然没有都包含进去.
+当然,现在你依然可以进入列表以及#postgresql IRC 继续唠叨...&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Craig Kerstiens&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.eventbrite.com/e/pgconf-nyc-2014-tickets-5944459037?discount=PGWEEKLY14&amp;amp;aff=pgweekly"&gt;PGConf NYC 2014 放票了 - New York - 四月 3-4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本次 PGConf 已经公布了日程,想去的,俺这儿有 PG Weekly 专用的优惠码 ;-)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Eventbrite&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.databasepatterns.com/2014/02/trees-paths-recursive-cte-postgresql.html?utm_source=postgresweekly&amp;amp;utm_medium=email"&gt;数据库范式: 在PG 中通过 RECURSIVE 使用 Trees 和 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;原文: &lt;a href="http://postgresweekly.com/issues/47"&gt;Postgres Weekly Issue 47: February 19, 2014&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.craigkerstiens.com/2014/02/15/PostgreSQL-9.4-What-I-Wanted/?utm_source=postgresweekly&amp;amp;utm_medium=email"&gt;PostgreSQL 9.4 - 对此俺有什么期望&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -39,8 +53,8 @@
 这儿有一次 FOSDEM 中的对话,
 给出了各种在人家哪儿是什么用 索引 跨越性能问题的体验.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Marcus Winand&lt;/code&gt;&lt;/p&gt;
-&lt;h1 id="_1"&gt;是也乎&lt;/h1&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;140219 &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; 用时 13 分钟 完成快译.&lt;/li&gt;
 &lt;li&gt;140219 &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; 用时 3 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="Weekly"></category><category term="Pycoder"></category><category term="Zh"></category></entry></feed>
+&lt;/ul&gt;</content><category term="Weekly"></category><category term="Pycoder"></category><category term="Zh"></category></entry></feed>
