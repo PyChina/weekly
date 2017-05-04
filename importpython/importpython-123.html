@@ -3,7 +3,7 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-    <title> - Zh
+    <title>蠎加载 123
         |蠎周刊
         |汇集全球蠎事儿 !-) </title>
     <!-- Using the latest rendering mode for IE -->
@@ -13,10 +13,10 @@
 
     <!-- Open Graph tags -->
 
-            <meta property="og:type" content="website"/>
-            <meta property="og:title" content="蠎周刊"/>
-            <meta property="og:url" content="http://weekly.pychina.org"/>
-            <meta property="og:description" content="蠎周刊"/>
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="蠎加载 123"/>
+            <meta property="og:url" content="http://weekly.pychina.org/importpython/importpython-123.html"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 123 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... 嗯哼掉 GIL: 快速写和线程安全的Python gil static PyThread_type_lock interpreter_lock = 0; / This is the GIL / This line of code is in ceval.c, in the CPython 2.7 interpreter’s source code …"/>
 
 
     <!-- Bootstrap -->
@@ -79,105 +79,327 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-9">
-            <article>
-                <h2><a href="http://weekly.pychina.org/issue/issue-25.html">Issue 25: Rise</a></h2>
-                <div class="summary"><p><img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"></p>
-<h2>搜罗Python 万物的周刊</h2>
-<p>亲们,</p>
-<p>我们做到了第25期, 感谢大家一路的支持!</p>
-<p>在这里想向大家征集项目和文章的投稿.
-如果你写了文章或是精彩的项目想让我们知道的, 回复这封邮件或是在Twitter上@一下呗!</p>
-<p>如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):</p>
-<div class="highlight"><pre><span class="mi">44</span> <span class="n">Byward</span> <span class="n">Market</span> <span class="n">Square</span><span class="p">,</span> <span class="n">Suite</span> <span class="mi">210</span>
-<span class="n">Ottawa</span><span class="p">,</span> <span class="n">Ontario</span> <span class="n">Canada</span>
-<span class="n">K1P</span> <span class="mi">7</span><span class="n">A2</span>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://weekly.pychina.org/importpython/importpython-123.html"
+                       rel="bookmark"
+                       title="Permalink to 蠎加载 123">
+                        蠎加载 123
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+<div id="article-content">
+                <p><img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"></p>
+<ul>
+<li>原文: <a href="http://importpython.com/newsletter/no/123/">Import Python Weekly Newsletter - Issue No 123</a></li>
+<li>欢迎, <strong>来 <a href="https://github.com/PyChina/weekly">PyChina/weekly</a> 共同翻译/增订/推荐 周刊 蠎消息 ;-)</strong></li>
+</ul>
+<h2>该读</h2>
+<p>~ 文章, Blog, 教程...</p>
+<ul>
+<li><a href="https://emptysqua.re/blog/grok-the-gil-fast-thread-safe-python/">嗯哼掉 GIL: 快速写和线程安全的Python</a><ul>
+<li>gil</li>
+</ul>
+</li>
+</ul>
+<p>static PyThread_type_lock interpreter_lock = 0; /<em> This is the GIL </em>/ This line of code is in ceval.c, in the CPython 2.7 interpreter’s source code. Guido van Rossum’s comment, “This is the GIL,” was added in 2003, but the lock itself dates from his first multithreaded Python interpreter in 1994. On Unix systems, PyThread_type_lock is an alias for the standard C lock, mutex_t. It is initialized when the Python interpreter begins:</p>
+<p>(<code>是也乎:</code></p>
+<p>挖出对应代码, 13年前的坑...</p>
+<p><img alt="hair-fashion" src="https://emptysqua.re/blog/grok-the-gil-fast-thread-safe-python/hair-fashion.png"></p>
+<p>为这用心的配图手工点赞...少数没有被功夫认证了的技术 blog 了...</p>
+<p>)</p>
+<ul>
+<li><a href="https://medium.com/@yeraydiazdiaz/asyncio-coroutine-patterns-beyond-await-a6121486656f">Asyncio Coroutine 模式: 超越等待</a><ul>
+<li>asyncio</li>
+</ul>
+</li>
+</ul>
+<p>concurrent programming is hard and while coroutines allow us to avoid callback hell it can only get you so far, you still need to think about creating tasks, retrieving results and graceful handling of errors. Sad face. Good news is all of that is possible in asyncio. Bad news is it’s not always immediately obvious what wrong and how to fix it. Here are a few patterns I’ve noticed while working with asyncio.</p>
+<p>(<code>是也乎:</code></p>
+<p>py3 only 的坑模式...其实咧这类事儿,直接用 go 吧.
+)</p>
+<ul>
+<li><a href="https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f">3分钟内在 Jupyter Notebook 用起 PySpark</a><ul>
+<li>jupyter, spark</li>
+</ul>
+</li>
+</ul>
+<p>Python is the perfect language for prototyping in Big Data/Machine Learning fields. Plus, there is no Jupyter Notebook in Scala: PySpark is our only option.</p>
+<ul>
+<li><a href="http://celerytaskschecklist.com/">构建优良 Celery 异步任务的自查清单</a></li>
+</ul>
+<p>Best Practices, Monitoring &amp; Tests, Resources for celery.</p>
+<ul>
+<li><a href="https://medium.com/@sourleangchhean/how-to-use-the-python-debugger-43a05a826f82">该怎么用 Python Debugger</a><ul>
+<li>debugging</li>
+</ul>
+</li>
+</ul>
+<p>The Python debugger provides a debugging environment for Python programs. It supports setting conditional breakpoints, stepping through the source code one line at a time, stack inspection, and more.</p>
+<ul>
+<li>
+<p><a href="https://hackernoon.com/all-you-need-to-know-about-prefetching-in-django-f9068ebe1e60">有关 Django 中预取应该知道的全部 - By Haki Benita</a></p>
+<ul>
+<li>ORM</li>
+</ul>
+</li>
+<li>
+<p><a href="https://medium.com/unbabel-dev/refactoring-a-python-codebase-using-the-single-responsibility-principle-ed1367baefd6">使用 单一责任 原则重构 Python 代码库</a></p>
+<ul>
+<li>refactoring</li>
+</ul>
+</li>
+</ul>
+<p>The Single Responsibility Principle (SRP) is an effective strategy against this sort of problem by reducing the amount of code in the several layers of your codebase, focusing each one on specific objectives and separating them by logical domain.</p>
+<ul>
+<li><a href="https://github.com/sdispater/poet">poet</a><ul>
+<li>pip</li>
+</ul>
+</li>
+</ul>
+<p>Poet helps you declare, manage and install dependencies of Python projects, ensuring you have the right stack everywhere. The package is highly experimental at the moment so expect things to change and break. However, if you feel adventurous I'd gladly appreciate feedback and pull requests.</p>
+<p>(<code>是也乎:</code></p>
+<p>又一个 pip 的增强工具,
+问题是所有 PyPi 的外围工具都没有很好的解决工程中最要命的一个需求:</p>
+<div class="highlight"><pre>如何将开发环境
+一键迁移<span class="o">/</span>备份<span class="o">/</span>恢复<span class="o">/</span>部署<span class="o">/</span>升级<span class="o">/</span>.. 到目标主机中<span class="o">?</span>
+而不依赖外部资源 <span class="o">&lt;--</span>
 </pre></div>
 
 
-<p>想跟上所有 蠎界 新闻? <a href="http://twitter.com/pycoders">@pycoders</a>.</p>
-<p>--</p>
-<p><a href="https://twitter.com/#!/myusuf3">Mahdi</a> and <a href="https://twitter.com/#!/mgrouchy">Mike</a></p>
-<p>原文: <a href="http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&amp;id=8cdcca322a">Pycoder's Weekly (Issue #25): Rise</a></p>
-<h2>新闻</h2>
+<p>至今也就见过 dh-virtualenv 依赖 Debain 的软件包机制完成了
+py 环境的真正封装...</p>
+<p>)</p>
 <ul>
-<li><a href="http://toastdriven.com/blog/2012/jul/31/announcing-django-dash-2012/">Django Dash 2012预告</a> (toastdriven.com)</li>
+<li>
+<p><a href="http://maxberggren.se/2017/05/02/gender-bias/">语言中的性别偏见 - 新闻文本语料库中的双语分析</a></p>
+<ul>
+<li>bigrams, ngrams, maching learning</li>
 </ul>
-<p>又到了这个时间! 准备好了吗? 是时候带上你的咖啡, 红牛还有必胜的决心, 在今年的Django Dash上掀起一阵代码风暴了. 比赛将于8月18至19日举办 …</p>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/issue/issue-25.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="http://weekly.pychina.org/issue/issue-24.html">Issue 24 Untitled</a></h2>
-                <div class="summary"><p>原文: <a href="http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&amp;id=81659f265d">Pycoder's Weekly (Issue #24) : Untitled</a></p>
-<h1>Hi Pythonistas.</h1>
-<p>Not a lot of housekeeping news this week. So we aren't going to take up too much of your time here. </p>
-<p>If you want a sticker send us a self addressed stamped<em> envelope to</em>*: </p>
-<p>44 Byward Market Square, Suite 210
-Ottawa, Ontario …</p>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/issue/issue-24.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="http://weekly.pychina.org/issue/issue-23.html">Issue 23 Guido</a></h2>
-                <div class="summary"><p>原文: <a href="http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&amp;id=66d40d788e">Pycoder's Weekly (Issue #23) : Guido</a></p>
-<h1>Hi Pythonistas.</h1>
-<p>The Pycoders shirts are on their way! Thanks for all the support!</p>
-<p>If you want a sticker send us a self addressed stamped<em> envelope to</em>*: </p>
-<p>44 Byward Market Square, Suite 210
-Ottawa, Ontario Canada 
-K1P 7A2</p>
+</li>
+<li>
+<p><a href="https://medium.freecodecamp.com/the-python-desktop-application-3a66b4a128d3">如何用 Chromium 和 PyInstaller 将 Web 应用程序转换为桌面应用程序</a></p>
 <ul>
-<li>Please provide either Canadian stamps or …</li></ul>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/issue/issue-23.html">more ...</a>
+<li>sofi, desktopUI</li>
+</ul>
+</li>
+</ul>
+<p>I’ve been working on a Python module called Sofi that generates user interfaces. It can deliver a desktop feel while using standard single-page web technologies. For flexibility, I designed it to work through two methods of distribution: in-browser and executable.</p>
+<p>(<code>是也乎:</code></p>
+<p>这简直是在抢 React 的饭碗哪!</p>
+<p>)</p>
+<ul>
+<li>
+<p><a href="https://eng.paxos.com/write-fast-apps-using-async-python-3.6-and-redis">用 Async Python 3.6 和 Redis 编写快速应用程序</a></p>
+<ul>
+<li>redis, async</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=KSX2psajYrg">城市中的自驾车神经网络</a></p>
+<ul>
+<li>tensorflow</li>
+</ul>
+</li>
+</ul>
+<p>In this self-driving car with Python video, I introduce a newer, much more challenging network and task that is driving through a city.</p>
+<ul>
+<li><a href="https://medium.com/@simon_prickett/playing-with-raspberry-pi-traffic-lights-89e0d1cb51fd">玩树莓Pi:交通灯</a><ul>
+<li>IOT</li>
+</ul>
+</li>
+</ul>
+<p>I’ve recently been doing some simple Python programming with the Raspberry Pi and a set of traffic light LEDs that connect to it. In this post I’ll look at setting up a Pi to drive the lights.</p>
+<ul>
+<li>
+<p><a href="https://medium.com/@motta.lrd/learning-to-rank-with-python-scikit-learn-327a5cfd81f">用 scikit-learn 搞出学习排名 </a></p>
+<ul>
+<li>scikit-learn</li>
+</ul>
+</li>
+<li>
+<p><a href="https://medium.com/@vladbezden/using-python-unittest-in-ipython-or-jupyter-732448724e31">在IPython或Jupyter中使用Python unittest</a></p>
+<ul>
+<li>jupyter, test</li>
+</ul>
+</li>
+</ul>
+<p>Configuration for running unittest in IPython or Jupyter is different than running unittest from command line.</p>
+<h2>好物</h2>
+<p>~ 包/模块/库/片段...</p>
+<ul>
+<li><a href="https://github.com/nvbn/py-backwards">py-backwards</a><ul>
+<li>202 Stars, 4 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Python to python compiler that allows you to use some Python 3.6 features in older versions, you can try it in the online demo.</p>
+<p>(<code>是也乎:</code></p>
+<p>py3to2 的兄弟
+)</p>
+<ul>
+<li><a href="https://github.com/geertj/gruvi">gruvi</a><ul>
+<li>77 Stars, 10 Fork</li>
+</ul>
+</li>
+</ul>
+<p>gruvi</p>
+<p>(<code>是也乎:</code></p>
+<p>基于 libuv 的 pyuv 进一步封装
+)</p>
+<ul>
+<li><a href="https://github.com/memo/webcam-pix2pix-tensorflow">webcam-pix2pix-tensorflow</a><ul>
+<li>56 Stars, 10 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Source code and pretrained model for webcam pix2pix</p>
+<p>(<code>是也乎:</code></p>
+<p>将 pix2pix 应用到 webcam 的嗯哼
+)</p>
+<ul>
+<li><a href="https://github.com/llSourcell/how_to_convert_text_to_images">how_to_convert_text_to_images</a><ul>
+<li>40 Stars, 13 Fork</li>
+</ul>
+</li>
+</ul>
+<p>This is the code for "How to Convert Text to Images - Intro to Deep Learning #16' by Siraj Raval on YouTube</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="bird1" src="https://github.com/llSourcell/how_to_convert_text_to_images/raw/master/examples/bird1.jpg"></p>
+<p>是的, 当然不支持中文...</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/pluskid/fitting-random-labels">fitting-random-labels</a><ul>
+<li>29 Stars, 6 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Example code for the paper "Understanding deep learning requires rethinking generalization".</p>
+<ul>
+<li><a href="https://github.com/m3liot/shcheck">shcheck</a><ul>
+<li>19 Stars, 2 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Just a small tool to check security headers</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="shcheck" src="https://github.com/m3liot/shcheck/raw/master/screenshot.png"></p>
+<p>只用了 urllib2 等内建模块</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/lufficc/dqn">dqn</a><ul>
+<li>13 Stars, 2 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Implementation of q-learning using TensorFlow</p>
+<ul>
+<li><a href="https://github.com/rasbt/mputil">mputil</a><ul>
+<li>8 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Utility functions for Python's multiprocessing standard library module.</p>
+<p>(<code>是也乎:</code></p>
+<p>对 multiprocessing 内建模块的增强:</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/vector-sec/PSPy">PSPy</a><ul>
+<li>6 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>AWS PowerShell Python Lambda, or PSPy for short, is a simple Python 2.7 AWS Lambda function designed to execute the PowerShell binary and marshal input/output to PowerShell.</p>
+<p>(<code>是也乎:</code></p>
+<p>AWS PowerShell &lt;-- M$ 不会告你嘛?</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/vforgione/logging2">logging2</a><ul>
+<li>4 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>A More Pythonic Logging System </p>
+<h3>(￣▽￣)</h3>
+<ul>
+<li><a href="https://github.com/tankywoo/simiki">tankywoo/simiki</a><ul>
+<li>657 Stars, 95 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Simiki is a simple wiki framework, written in Python.</p>
+<p>(<code>是也乎:</code></p>
+<p>知道创宇 成员私人作品 md 的静态维基
+)</p>
+<h1>是也乎</h1>
+<ul>
+<li>170504 <a href="http://zoomquiet.io">Zoom.Quiet</a> 42 分钟完成快译</li>
+<li>170504 <a href="http://zoomquiet.io">Zoom.Quiet</a> 用时 7 分钟完成格式化.</li>
+</ul>
+</div>
+
+
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+<!--
+    <span class="label label-default">Date</span>
+-->
+    <span class="published">
+        <i class="icon-calendar"></i>2017-05-04 23:32
+    </span>
+
+
+    <span class="label">By</span>
+    <i class="icon-user"></i><a href="http://weekly.pychina.org/author/zoomquiet.html">Zoom.Quiet</a>
+
+    <span class="label label-default">Category</span>
+    <a href="http://weekly.pychina.org/importpython/index.html">importpython</a>
+
+
+
+	<span class="label label-default">Tags</span>
+		<a href="http://weekly.pychina.org/tag/weekly.html">Weekly</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/importpython.html">ImportPython</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/zh.html">Zh</a>
+</footer><!-- /.post-info -->                    </div>
                 </div>
-            </article>
-            <hr/>
 
-        <ul class="pagination">
+            </div>
+            <!-- /.entry-content -->
+    <hr />
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+            var disqus_identifier = 'importpython/17-05-04-importpython-123';
+            var disqus_url = 'http://weekly.pychina.org/importpython/importpython-123.html';
 
-                <li class="prev"><a href="http://weekly.pychina.org/tag/zh84.html">&laquo;</a>
-                </li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh75.html">75</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh76.html">76</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh77.html">77</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh78.html">78</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh79.html">79</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh80.html">80</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh81.html">81</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh82.html">82</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh83.html">83</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh84.html">84</a></li>
-                <li class="active"><a
-                        href="http://weekly.pychina.org/tag/zh85.html">85</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh86.html">86</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh87.html">87</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh88.html">88</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh89.html">89</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh90.html">90</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh91.html">91</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh92.html">92</a></li>
-                <li class="next"><a
-                        href="http://weekly.pychina.org/tag/zh86.html">&raquo;</a></li>
-        </ul>
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
+
+
         </div>
         <div class="col-lg-3 well well-sm" id="sidebar">
 <aside>
