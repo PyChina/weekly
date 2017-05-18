@@ -225,26 +225,26 @@ Ever wonder how some of these crazy obfuscated python programs work? Check out t
 真心是个自虐又 bigger 的思路,可以折腾个标准库出来,
 这下网络传送数据就有安全保证了...
 感受一下....谁说用 Python 写不出来难懂的代码的!?</p>
-<div class="highlight"><pre><span class="cp">#...</span>
-<span class="p">(</span>
-    <span class="o">*</span><span class="p">(</span><span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="o">:</span> <span class="n">_</span><span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">))(</span>
-        <span class="p">(</span><span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="o">:</span>
-            <span class="p">[</span><span class="n">__</span><span class="p">(</span><span class="n">___</span><span class="p">[(</span><span class="n">lambda</span><span class="o">:</span> <span class="n">_</span><span class="p">).</span><span class="n">func_code</span><span class="p">.</span><span class="n">co_nlocals</span><span class="p">])]</span> <span class="o">+</span>
-            <span class="n">_</span><span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">[(</span><span class="n">lambda</span> <span class="n">_</span><span class="o">:</span> <span class="n">_</span><span class="p">).</span><span class="n">func_code</span><span class="p">.</span><span class="n">co_nlocals</span><span class="o">:</span><span class="p">])</span> <span class="k">if</span> <span class="n">___</span> <span class="k">else</span> <span class="p">[]</span>
-        <span class="p">),</span>
-        <span class="n">lambda</span> <span class="n">_</span><span class="o">:</span> <span class="n">_</span><span class="p">.</span><span class="n">func_code</span><span class="p">.</span><span class="n">co_argcount</span><span class="p">,</span>
-        <span class="p">(</span>
-            <span class="n">lambda</span> <span class="n">_</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
-            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
-            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
-            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">,</span> <span class="n">____</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
-            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">,</span> <span class="n">____</span><span class="p">,</span> <span class="n">_____</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
-            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">,</span> <span class="n">____</span><span class="p">,</span> <span class="n">_____</span><span class="p">,</span> <span class="n">______</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
-            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">,</span> <span class="n">____</span><span class="p">,</span> <span class="n">_____</span><span class="p">,</span> <span class="n">______</span><span class="p">,</span> <span class="n">_______</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
-            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">,</span> <span class="n">____</span><span class="p">,</span> <span class="n">_____</span><span class="p">,</span> <span class="n">______</span><span class="p">,</span> <span class="n">_______</span><span class="p">,</span> <span class="n">________</span><span class="o">:</span> <span class="n">_</span>
-        <span class="p">)</span>
-    <span class="p">)</span>
-<span class="p">)</span>
+<div class="highlight"><pre><span></span>#...
+(
+    *(lambda _, __, ___: _(_, __, ___))(
+        (lambda _, __, ___:
+            [__(___[(lambda: _).func_code.co_nlocals])] +
+            _(_, __, ___[(lambda _: _).func_code.co_nlocals:]) if ___ else []
+        ),
+        lambda _: _.func_code.co_argcount,
+        (
+            lambda _: _,
+            lambda _, __: _,
+            lambda _, __, ___: _,
+            lambda _, __, ___, ____: _,
+            lambda _, __, ___, ____, _____: _,
+            lambda _, __, ___, ____, _____, ______: _,
+            lambda _, __, ___, ____, _____, ______, _______: _,
+            lambda _, __, ___, ____, _____, ______, _______, ________: _
+        )
+    )
+)
 </pre></div>
 
 

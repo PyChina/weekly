@@ -1,5 +1,285 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Zoom.Quiet</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/zoomquiet.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2017-05-14T11:32:00+08:00</updated><entry><title>蠎加载 124</title><link href="http://weekly.pychina.org/importpython/importpython-124.html" rel="alternate"></link><published>2017-05-14T11:32:00+08:00</published><updated>2017-05-14T11:32:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2017-05-14:/importpython/importpython-124.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Zoom.Quiet</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/zoomquiet.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2017-05-18T17:32:00+08:00</updated><entry><title>蠎加载 125</title><link href="http://weekly.pychina.org/importpython/importpython-125.html" rel="alternate"></link><published>2017-05-18T17:32:00+08:00</published><updated>2017-05-18T17:32:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2017-05-18:/importpython/importpython-125.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/125/"&gt;Import Python Weekly Newsletter - Issue No 125&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.jetbrains.com/pycharm/2017/05/how-to-publish-your-package-on-pypi/"&gt;How to Publish Your Package on PyPI?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pypi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When you’ve written some great code, you might want to make this available for others to use as well. The …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/125/"&gt;Import Python Weekly Newsletter - Issue No 125&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.jetbrains.com/pycharm/2017/05/how-to-publish-your-package-on-pypi/"&gt;How to Publish Your Package on PyPI?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pypi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When you’ve written some great code, you might want to make this available for others to use as well. The pythonic way of sharing a package is making it available on PyPI. Let’s create a simple package and go through the process of publishing it!&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;简单的说, PyPI 还在独立打造专用软件仓库, 实在是....&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pragprog.com/book/bopytest/python-testing-with-pytest"&gt;Python 测试与 pytest：简单，快速，有效和可扩展 来自 Brian Okken |实用书架&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;testing, book&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do less work when testing your Python code, but be just as expressive, just as elegant, and just as readable. The pytest testing framework helps you write tests quickly and keep them readable and maintainable—with no boilerplate code. Using a robust yet simple fixture model, it’s just as easy to write small tests with pytest as it is to scale up to complex functional testing for applications, packages, and libraries. This book shows you how.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.podcastinit.com/episode-108-python-goes-to-the-movies-with-dhruv-govil/"&gt;Dhruv Govil 聊 Python 在电影工业中的作用&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;podcast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Movies are magic, and Python is part of what makes that magic possible. We go behind the curtain this week with Dhruv Govil to learn about how Python gets used to bring a movie from concept to completion. He shares the story of how he got started in film, the tools that he uses day to day, and some resources for further learning.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;自古就和 3D 电影的看作绑定在一起了,列表一下俺不知道的:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/nerdvegas/rez"&gt;Rez&lt;/a&gt;
+&lt;a href="http://www.alembic.io/"&gt;Alembic Geometry Storage Format&lt;/a&gt;
+&lt;a href="http://fabricengine.com/"&gt;Fabric Engine&lt;/a&gt;
+&lt;a href="http://pyblish.com/"&gt;Pyblish&lt;/a&gt;
+...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/towards-data-science/building-a-ml-classifier-on-ny-city-taxi-data-to-predict-no-tips-vs-generous-tips-with-python-92e21d5d9fd0"&gt;用 Python 对 NY 的出租车数据建立 ML 分类器以便生成推荐&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;bigquery, datawarehouse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I demonstrate the power of the Google BigQuery engine by building a classifier which will predict whether a NY city taxi ride will result in a generous tip or no tip at all. As part of doing this I explore the dataset and look at relationships in the dataset. I also visualize the pickups around the city and the result is a scatterplot which essentially draws the city streets of NY.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Google BigQuery 的又一个 demo 
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.pydanny.com/using-python-and-google-docs-to-build-books.html"&gt;用 Python 和 Google Docs 构建图书&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;docx&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Daniel ( Co-Author of Two Scoops of Django ) shares how he put Python ( python-docx library ) along with Google Docs to create his latest self-published fiction book.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;.docx 的爱恋...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://medium.com/@nazrulworld/make-sublime-text-as-the-best-ide-for-full-stack-python-development-b6a3148cb272"&gt;将 Sublime Text 嗯哼成最好的全桟 Python IDE&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;sublime3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://medium.com/towards-data-science/train-test-split-and-cross-validation-in-python-80b61beca4b6"&gt;Train/Test Split and Cross Validation in Python&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;data science&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://medium.com/@collectiveacuity/argparse-vs-click-227f53f023dc"&gt;Argparse vs Click&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CLI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Command line arguments processing library.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;简单的说, 哪个顺手哪个就是你最好的...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@briantorresgil/definitive-guide-to-python-on-mac-osx-65acd8d969d0"&gt;Python 在 Mac OSX 中的合理部署&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;installation, macos-x&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;还在使用 virtualenv ... 这种中古环境控制技术了...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@Wassa/modern-face-detection-based-on-deep-learning-using-python-and-mxnet-5e6377f22674"&gt;用 Python 和 Mxnet 构建机器学习的现代人脸识别&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;machine learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this post, we’ll discuss and illustrate a fast and robust method for face detection using Python and Mxnet.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/hockey-stick/text-analysis-with-south-park-part-1-tf-idf-97a2bfeea360"&gt;南方公园文本分析 - 第1部分：TF-IDF&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;machine learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I noticed recently that Kaggle has an interesting dataset?—?70,000 lines of South Park dialogue. It’s nicely labelled by episode and character. I figured it would be a good practical test for the TF-IDF tools in scikit learn that I’ve been wanting to try recently.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;著名 TV 的台词大数据也慢慢公开出来了,
+相同的技术可以用来分析各种古典文学作品的...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=xFkqOdAluJ0"&gt;用 Python Generator 来监视数据&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;videos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;David Beazley demonstrates how to use a generator in Python to watch real-time data sources. This is an excerpt from the Pearson video course "Python Programming Language".&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.amin.space/blog/2017/5/elemental_speller/"&gt;拼写与元素符号&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;codesnippet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sitting in my 5-hour-long chemistry class, my gaze would often drift over to the periodic table posted on the wall. To pass the time, I began to try finding words I could spell using only the symbols of the elements on the periodic table. Some examples: ScAlEs, FeArS, ErAsURe, WAsTe, PoInTlEsSnEsS, MoISTeN, SAlMoN, PuFFInEsS. I wondered what the longest such word was ('TiNTiNNaBULaTiONS' was the longest one I could come up with). Then I started thinking about how nice it would be to have a tool that could find the elemental spellings of any word. I decided to write a Python program.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@happymishra66/lambda-map-and-filter-in-python-4935f248593"&gt;lambda, map 和 filter 在 Python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core-python, lamda, map, filter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;lambda operator or lambda function is used for creating small, one-time and anonymous function objects in Python.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.somebits.com/~nelson/pandas-multiindex-slice-demo.html"&gt;Pandas DataFrames 和 MultiIndex 简单演示&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pandas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pandas Dataframes generally have an "index", one column of a dataset that gives the name for each row. It works like a primary key in a database table. But Pandas also supports a MultiIndex, in which the index for a row is some composite key of several columns. It's quite confusing at first, here's a simple demo of creating a multi-indexed DataFrame and then querying subsets with various syntax.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Pandas 中最好用也是最嗯哼的, 就是 dataframes 上的索引了...
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://medium.com/@yoanis_gil/python-docker-from-development-to-production-episode-i-427674710f3e"&gt;Python + Docker: 从开发到生产：第一集&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dockers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.datascience.com/resources/notebooks/finding-optimal-pricing-to-maximize-revenue-in-python"&gt;制定最大化收入的定价策略&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;numpy, pandas, scipy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Turns out, selling lemonade is a perfect scenario to introduce dynamic pricing and price optimization techniques. In this post, we'll be finding an optimal price for our glasses of lemonade using some basic methodology in Python in order to maximize our revenue.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/playlist?list=PLImyDqSBQbdmicMPRW0Yo5QHbeOIwC765"&gt;Pandas 和 Python 真实世界项目 (GPS data)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pandas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Analysis and plotting of GPS data using pandas&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/activewizards-machine-learning-company/top-15-python-libraries-for-data-science-in-in-2017-ab61b4f9b4a7?imm_mid=0f1a15&amp;amp;cmp=em-data-na-na-newsltr_20170517"&gt;2017 年 Python 最赞的 15 个数据科学库&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;data science&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As Python has gained a lot of traction in the recent years in Data Science industry, I wanted to outline some of its most useful libraries for data scientists and engineers, based on recent experience. And, since all of the libraries are open sourced, we have added commits, contributors count and other metrics from Github, which could be served as a proxy metrics for library popularity.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;讲真,无论库发展的如何,最后拼的还是平台服务哪&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://mkerins.ghost.io/inspect-pcap-files-using-aws-lambda/"&gt;用 AWS Lambda 检查 PCAP 文件&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;aws, lamda, pcap, scapy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AWS Lambda is a service that allows you to run code without provisioning a server. This has some interesting possibilities especially when processing data asynchronously. When I first started learning about Lambda most of the examples were about resizing images. I work with PCAP files on a daily basis and have used scapy for several years so thought it would be a good experiment to use Lambda to do some simple PCAP inspection.&lt;/p&gt;
+&lt;h2&gt;好物&lt;/h2&gt;
+&lt;p&gt;~ 包/模块/库/片段...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/skorokithakis/tbvaccine/"&gt;tbvaccine&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;164 Stars, 5 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A small utility to pretty-print Python tracebacks.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="after-vars" src="https://github.com/skorokithakis/tbvaccine/raw/master/misc/after-vars.png"&gt;&lt;/p&gt;
+&lt;p&gt;效果...再漂亮也不如理智的 logger 哪...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/llSourcell/How_to_simulate_a_self_driving_car"&gt;How_to_simulate_a_self_driving_car&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;41 Stars, 13 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is the code for "How to Simulate a Self-Driving Car" by Siraj Raval on Youtube.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;自驾车模拟&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/kennethreitz/now.httpbin.org"&gt;now.httpbin.org&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;15 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An API (for Humans) for converting timestamps.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/tomchristie/apistar"&gt;tomchristie/apistar: A smart Web API framework, designed for Python 3. ⚡️&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;完成的&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Ekultek/Dagon"&gt;Dagon&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;11 Stars, 1 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Advanced Hash Manipulation&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Dagon" src="https://cloud.githubusercontent.com/assets/14183473/26070657/fc6ef54e-396a-11e7-8479-5410ea2d170d.PNG"&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/liu-nlper/DocumentClassification"&gt;DocumentClassification&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;4 Stars, 1 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This code implements a sample CNN model for document classification with tensorflow.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/davidgasquez/sqline"&gt;sqline&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;4 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Simple command line tool to query databases&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;其实, 掌握 SQL 不是坏事儿&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/bitlang/flexicon"&gt;flexicon&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;3 Stars, 0 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A lightweight, regex-based lexer framework for Python. &lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;基于正则表达式的词法分析?
+珢神又笑了...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h3&gt;(￣▽￣)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/tankywoo/simiki"&gt;tankywoo/simiki&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;657 Stars, 95 Fork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Simiki is a simple wiki framework, written in Python.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;知道创宇 成员私人作品 md 的静态维基
+)&lt;/p&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;170518 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 42 分钟完成快译&lt;/li&gt;
+&lt;li&gt;170518 &lt;a href="http://zoomquiet.io"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟完成格式化.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Weekly"></category><category term="ImportPython"></category><category term="Zh"></category></entry><entry><title>蠎加载 124</title><link href="http://weekly.pychina.org/importpython/importpython-124.html" rel="alternate"></link><published>2017-05-14T11:32:00+08:00</published><updated>2017-05-14T11:32:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2017-05-14:/importpython/importpython-124.html</id><summary type="html">&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/124/"&gt;Import Python Weekly Newsletter - Issue No 124&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
@@ -336,9 +616,9 @@
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;又一个 pip 的增强工具,
 问题是所有 PyPi 的外围工具都没有很好的解决工程中最要命的一个需求:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;如何将开发环境
-一键迁移&lt;span class="o"&gt;/&lt;/span&gt;备份&lt;span class="o"&gt;/&lt;/span&gt;恢复&lt;span class="o"&gt;/&lt;/span&gt;部署&lt;span class="o"&gt;/&lt;/span&gt;升级&lt;span class="o"&gt;/&lt;/span&gt;.. 到目标主机中&lt;span class="o"&gt;?&lt;/span&gt;
-而不依赖外部资源 &lt;span class="o"&gt;&amp;lt;--&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;如何将开发环境
+一键迁移/备份/恢复/部署/升级/.. 到目标主机中?
+而不依赖外部资源 &amp;lt;--
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -2567,15 +2847,15 @@ Python Editor With Live Syntax Checking and Execution &lt;/li&gt;
 &lt;p&gt;The people who introduced me to Python chose it because of the elegance of the language, and it's aesthetic qualities. Would they choose it again, I wonder? Would I?.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;是什么以及为什么的 Py3&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;hello_world&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-    &lt;span class="n"&gt;print&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;Hello&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;def hello_world(name):
+    print &amp;#39;Hello&amp;#39;, name
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;--&amp;gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;coroutine&lt;/span&gt;
-&lt;span class="n"&gt;async&lt;/span&gt; &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;hello_world&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-    &lt;span class="n"&gt;await&lt;/span&gt; &lt;span class="n"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;Hello&lt;/span&gt; &lt;span class="p"&gt;{}&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;yield&lt;/span&gt; &lt;span class="n"&gt;from&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@coroutine
+async def hello_world(name: str) -&amp;gt; str:
+    await print(&amp;#39;Hello {}&amp;#39;.format(yield from name))
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -3059,14 +3339,14 @@ that contains several helpful functions for that task and I'm explaining how to 
 &lt;/ul&gt;
 &lt;p&gt;Did you know about &lt;code&gt;__code__&lt;/code&gt; ?&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;foo&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-      &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;I&amp;#39;m foo!&amp;quot;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;def foo():
+      return &amp;quot;I&amp;#39;m foo!&amp;quot;
 
-&lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;bar&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-      &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;I&amp;#39;m bar!&amp;quot;&lt;/span&gt;
+def bar():
+      return &amp;quot;I&amp;#39;m bar!&amp;quot;
 
-&lt;span class="n"&gt;foo&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;__code__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bar&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;__code__&lt;/span&gt;
-&lt;span class="n"&gt;foo&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+foo.__code__ = bar.__code__
+foo()
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -4651,11 +4931,11 @@ This weeks roundup insightful articles, videos on everything Django.&lt;/p&gt;
 &lt;p&gt;I am glad someone on reddit asked this. I can't get some of David's tweets. It's from his book I learned Python. If you are on twitter follow him.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;迷之代码的嗯哼...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nx"&gt;def&lt;/span&gt; &lt;span class="nx"&gt;spam&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
-    &lt;span class="nx"&gt;X&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;auto&lt;/span&gt; &lt;span class="p"&gt;@&lt;/span&gt; &lt;span class="nx"&gt;property.template&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nb"&gt;T&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;X&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nb"&gt;T&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;...&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;object&lt;/span&gt;
-    &lt;span class="nb"&gt;class&lt;/span&gt; &lt;span class="nx"&gt;Y&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;X&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-        &lt;span class="nb"&gt;pass&lt;/span&gt;
-    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;Y&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;def spam():
+    X: auto @ property.template&amp;lt;T&amp;gt; X(*T, ...) = object
+    class Y(X):
+        pass
+    return Y()
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -5144,7 +5424,7 @@ win 环境简直了.
 )&lt;/p&gt;
 &lt;h1&gt;是也乎&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zedshaw.com/2016/11/24/the-end-of-coder-influence/"&gt;The End Of Coder Influence \| Zed A. Shaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zedshaw.com/2016/11/24/the-end-of-coder-influence/"&gt;The End Of Coder Influence | Zed A. Shaw&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;嗯哼:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;这真是一个悲哀的故事...
@@ -5333,7 +5613,7 @@ Curated list of awesome django resources aptly named Awesome Django Admin . If y
 )&lt;/p&gt;
 &lt;h1&gt;是也乎&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zedshaw.com/2016/11/24/the-end-of-coder-influence/"&gt;The End Of Coder Influence \| Zed A. Shaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zedshaw.com/2016/11/24/the-end-of-coder-influence/"&gt;The End Of Coder Influence | Zed A. Shaw&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;嗯哼:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;这真是一个悲哀的故事...
@@ -5557,7 +5837,7 @@ Curated list of awesome django resources aptly named Awesome Django Admin . If y
 &lt;/ul&gt;
 &lt;p&gt;Write with those green dots on your GitHub profile. This takes a message, encodes it to a simple bitmap font, and generates a bunch of git commits in the past.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="greendots" src="![Example" title="profile](https://github.com/joewalnes/greendots/blob/master/example.png"&gt;)
+&lt;p&gt;&lt;img alt="greendots" src=""&gt;
 )&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/juliascript/Algorithms-and-Data-Structures"&gt;Algorithms-and-Data-Structures&lt;/a&gt;&lt;ul&gt;
@@ -5593,7 +5873,7 @@ Curated list of awesome django resources aptly named Awesome Django Admin . If y
 &lt;h1&gt;是也乎&lt;/h1&gt;
 &lt;p&gt;~ (￣▽￣) 这么快就100期了?!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://zedshaw.com/2016/11/24/the-end-of-coder-influence/"&gt;The End Of Coder Influence \| Zed A. Shaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zedshaw.com/2016/11/24/the-end-of-coder-influence/"&gt;The End Of Coder Influence | Zed A. Shaw&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;嗯哼:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;这真是一个悲哀的故事...
@@ -6425,7 +6705,7 @@ iii) Existence-checking assignment: &lt;code&gt;target ?= expr&lt;/code&gt;&lt;/
 &lt;p&gt;很有脑洞的案例分享
 )&lt;/p&gt;
 &lt;h2&gt;活动&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="n"&gt;Upcoming&lt;/span&gt; &lt;span class="n"&gt;Conference&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;User&lt;/span&gt; &lt;span class="n"&gt;Group&lt;/span&gt; &lt;span class="n"&gt;Meet&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~ Upcoming Conference / User Group Meet
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -6608,7 +6888,7 @@ iii) Existence-checking assignment: &lt;code&gt;target ?= expr&lt;/code&gt;&lt;/
 &lt;/ul&gt;
 &lt;p&gt;Python 3.5+ web server that's written to go fast &lt;/p&gt;
 &lt;h2&gt;活动&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="n"&gt;Upcoming&lt;/span&gt; &lt;span class="n"&gt;Conference&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;User&lt;/span&gt; &lt;span class="n"&gt;Group&lt;/span&gt; &lt;span class="n"&gt;Meet&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~ Upcoming Conference / User Group Meet
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -6833,7 +7113,7 @@ iii) Existence-checking assignment: &lt;code&gt;target ?= expr&lt;/code&gt;&lt;/
 &lt;p&gt;http://jugad2.blogspot.in/2016/10/get-names-and-types-of-python-modules.html
 )&lt;/p&gt;
 &lt;h2&gt;活动&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="n"&gt;Upcoming&lt;/span&gt; &lt;span class="n"&gt;Conference&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;User&lt;/span&gt; &lt;span class="n"&gt;Group&lt;/span&gt; &lt;span class="n"&gt;Meet&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~ Upcoming Conference / User Group Meet
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -7042,7 +7322,7 @@ iii) Existence-checking assignment: &lt;code&gt;target ?= expr&lt;/code&gt;&lt;/
 &lt;p&gt;私人官网果然也关注了 "新人到底需要什么" 长线讨论: &lt;a href="https://www.kkblog.me/notes/Python%E5%85%A5%E9%97%A8%E6%8C%87%E5%8C%97"&gt;Python入门指北&lt;/a&gt;
 )&lt;/p&gt;
 &lt;h2&gt;活动&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="n"&gt;Upcoming&lt;/span&gt; &lt;span class="n"&gt;Conference&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;User&lt;/span&gt; &lt;span class="n"&gt;Group&lt;/span&gt; &lt;span class="n"&gt;Meet&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~ Upcoming Conference / User Group Meet
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -7239,7 +7519,7 @@ iii) Existence-checking assignment: &lt;code&gt;target ?= expr&lt;/code&gt;&lt;/
 &lt;/ul&gt;
 &lt;p&gt;This is an unofficial fork of Django, which focuses entirely on backporting official, publicly-announced security fixes to Django 1.6.11. It does not contain any other bug fixes or features, and any branches other than security-backports/1.6.x are unlikely to be up-to-date. &lt;/p&gt;
 &lt;h2&gt;活动&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="n"&gt;Upcoming&lt;/span&gt; &lt;span class="n"&gt;Conference&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;User&lt;/span&gt; &lt;span class="n"&gt;Group&lt;/span&gt; &lt;span class="n"&gt;Meet&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~ Upcoming Conference / User Group Meet
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -7430,7 +7710,7 @@ iii) Existence-checking assignment: &lt;code&gt;target ?= expr&lt;/code&gt;&lt;/
 &lt;/ul&gt;
 &lt;p&gt;If you are looking to implement 2 Factor Authentication as part of your product and don't know where to start read this. &lt;/p&gt;
 &lt;h2&gt;活动&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="n"&gt;Upcoming&lt;/span&gt; &lt;span class="n"&gt;Conference&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;User&lt;/span&gt; &lt;span class="n"&gt;Group&lt;/span&gt; &lt;span class="n"&gt;Meet&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~ Upcoming Conference / User Group Meet
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -7780,7 +8060,7 @@ i greeeeeee...
 可以轻巧的生成可互动的地理相关可视化图谱!&lt;/p&gt;
 &lt;p&gt;&lt;img alt="cell8" src="https://www.continuum.io/sites/all/themes/continuum/posts/geoviews/imgs/cell8.png"&gt;&lt;/p&gt;
 &lt;p&gt;以上这图就是一行代码:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//map1c.vis.earthdata.nasa.gov/wmts-geo/wmts.cgi&amp;#39;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;url = &amp;#39;https://map1c.vis.earthdata.nasa.gov/wmts-geo/wmts.cgi&amp;#39;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -14683,11 +14963,11 @@ Neural Variational Inference
 &lt;/ul&gt;
 &lt;p&gt;类似 datetime.timedelta, 折腾日期计算 &lt;code&gt;for Humans™&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2016&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;23&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;datedelta&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;years&lt;/span&gt;&lt;span class="o"&gt;=-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;months&lt;/span&gt;&lt;span class="o"&gt;=-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;days&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2017&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;gt;&amp;gt;&amp;gt; datetime.date(2016, 3, 23) - datedelta.datedelta(years=-1, months=-1, days=1)
+datetime.date(2017, 4, 22)
 
-&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2020&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;29&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;datedelta&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;years&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;date&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2018&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&amp;gt;&amp;gt;&amp;gt; datetime.date(2020, 2, 29) - datedelta.datedelta(years=2)
+datetime.date(2018, 3, 1)
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -14958,7 +15238,7 @@ SSH Key 的丢失是世界崩溃!&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="newrender" src="https://raw.githubusercontent.com/NathanW2/ascii_qgis/gh-pages/images/newrender.png"&gt;&lt;/p&gt;
 &lt;p&gt;作者曰了,创建工程的原因是:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="n"&gt;why&lt;/span&gt; &lt;span class="n"&gt;not&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;...why not
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -15148,7 +15428,7 @@ Docker 或 OpenShift 3.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;
 推荐PyCon'2015, Montreal 上
 David Beazley (@dabeaz) 的演讲&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Modules&lt;/span&gt; &lt;span class="n"&gt;and&lt;/span&gt; &lt;span class="n"&gt;Packages&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Live&lt;/span&gt; &lt;span class="n"&gt;and&lt;/span&gt; &lt;span class="n"&gt;Let&lt;/span&gt; &lt;span class="n"&gt;Die&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Modules&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;Packages&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Live&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="k"&gt;Let&lt;/span&gt; &lt;span class="n"&gt;Die!&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -16059,10 +16339,10 @@ SymPy 的功能,你甚至于能用它来说话!&lt;/p&gt;
 &lt;p&gt;能用 jQuery样 的形式来搜索 Python 代码的工具!&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;e.g.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;❯&lt;/span&gt; &lt;span class="n"&gt;pyq3&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;class&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;FloatField&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;def&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt; &lt;span class="n"&gt;django&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;forms&lt;/span&gt;
-&lt;span class="n"&gt;django&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;forms&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;fields&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;283&lt;/span&gt;     &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;to_python&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-&lt;span class="n"&gt;django&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;forms&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;fields&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;299&lt;/span&gt;     &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;validate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-&lt;span class="n"&gt;django&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;forms&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;fields&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;308&lt;/span&gt;     &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;widget_attrs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;widget&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;❯ pyq3 &amp;#39;class[name=FloatField] &amp;gt; def&amp;#39; django/forms
+django/forms/fields.py:283     def to_python(self, value):
+django/forms/fields.py:299     def validate(self, value):
+django/forms/fields.py:308     def widget_attrs(self, widget):
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -17523,14 +17803,14 @@ SmartyParse 能直接从 Python 对象转换成拟定格式.
 &lt;p&gt;:clipboard: 命令行记录本,
 好用到老奶奶也稀饭...&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;                            &lt;span class="n"&gt;_________&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;        &lt;span class="n"&gt;_______&lt;/span&gt; &lt;span class="n"&gt;_________&lt;/span&gt; &lt;span class="n"&gt;_______&lt;/span&gt; 
-                            &lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;__&lt;/span&gt;   &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;    &lt;span class="o"&gt;/|&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;  &lt;span class="n"&gt;___&lt;/span&gt;  &lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;__&lt;/span&gt;   &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;  &lt;span class="n"&gt;____&lt;/span&gt; \
-                               &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt;  &lt;span class="err"&gt;\&lt;/span&gt;  &lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;   &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;    &lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
-                               &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="err"&gt;\&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;__&lt;/span&gt;    
-                               &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt; &lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt;  &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;   
-                               &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="err"&gt;\&lt;/span&gt;   &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;      
-                               &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="err"&gt;\&lt;/span&gt;  &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;____&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;\
-                               &lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;   &lt;span class="o"&gt;|/&lt;/span&gt;    &lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="n"&gt;_______&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;   &lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;   &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;_______&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;                            _________ _        _______ _________ _______ 
+                            \__   __/( (    /|(  ___  )\__   __/(  ____ \
+                               ) (   |  \  ( || (   ) |   ) (   | (    \/
+                               | |   |   \ | || |   | |   | |   | (__    
+                               | |   | (\ \) || |   | |   | |   |  __)   
+                               | |   | | \   || |   | |   | |   | (      
+                               | |   | )  \  || (___) |   | |   | (____/\
+                               )_(   |/    )_)(_______)   )_(   (_______/
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -17734,20 +18014,20 @@ Katie Bell is a developer at Grok Learning, where she’s been doing a combinati
 &lt;/ul&gt;
 &lt;p&gt;搜索端口名和数值的命令&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;whatportis&lt;/span&gt; &lt;span class="n"&gt;redis&lt;/span&gt;
-&lt;span class="o"&gt;+-------+------+----------+---------------------------------------+&lt;/span&gt;
-&lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;Name&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;Port&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;Protocol&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;Description&lt;/span&gt;                           &lt;span class="o"&gt;|&lt;/span&gt;
-&lt;span class="o"&gt;+-------+------+----------+---------------------------------------+&lt;/span&gt;
-&lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;redis&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="mi"&gt;6379&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="n"&gt;tcp&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;An&lt;/span&gt; &lt;span class="n"&gt;advanced&lt;/span&gt; &lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="n"&gt;cache&lt;/span&gt; &lt;span class="n"&gt;and&lt;/span&gt; &lt;span class="n"&gt;store&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;
-&lt;span class="o"&gt;+-------+------+----------+---------------------------------------+&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ whatportis redis
++-------+------+----------+---------------------------------------+
+&lt;span class="p"&gt;|&lt;/span&gt; Name  &lt;span class="p"&gt;|&lt;/span&gt; Port &lt;span class="p"&gt;|&lt;/span&gt; Protocol &lt;span class="p"&gt;|&lt;/span&gt; Description                           &lt;span class="p"&gt;|&lt;/span&gt;
++-------+------+----------+---------------------------------------+
+&lt;span class="p"&gt;|&lt;/span&gt; redis &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="m"&gt;6379&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt;   tcp    &lt;span class="p"&gt;|&lt;/span&gt; An advanced key-value cache and store &lt;span class="p"&gt;|&lt;/span&gt;
++-------+------+----------+---------------------------------------+
 
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;whatportis&lt;/span&gt; &lt;span class="mi"&gt;5432&lt;/span&gt;
-&lt;span class="o"&gt;+------------+------+----------+---------------------+&lt;/span&gt;
-&lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;Name&lt;/span&gt;       &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;Port&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;Protocol&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;Description&lt;/span&gt;         &lt;span class="o"&gt;|&lt;/span&gt;
-&lt;span class="o"&gt;+------------+------+----------+---------------------+&lt;/span&gt;
-&lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;postgresql&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="mi"&gt;5432&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="n"&gt;tcp&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;PostgreSQL&lt;/span&gt; &lt;span class="n"&gt;Database&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;
-&lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;postgresql&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="mi"&gt;5432&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="n"&gt;udp&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;PostgreSQL&lt;/span&gt; &lt;span class="n"&gt;Database&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;
-&lt;span class="o"&gt;+------------+------+----------+---------------------+&lt;/span&gt;
+$ whatportis &lt;span class="m"&gt;5432&lt;/span&gt;
++------------+------+----------+---------------------+
+&lt;span class="p"&gt;|&lt;/span&gt; Name       &lt;span class="p"&gt;|&lt;/span&gt; Port &lt;span class="p"&gt;|&lt;/span&gt; Protocol &lt;span class="p"&gt;|&lt;/span&gt; Description         &lt;span class="p"&gt;|&lt;/span&gt;
++------------+------+----------+---------------------+
+&lt;span class="p"&gt;|&lt;/span&gt; postgresql &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="m"&gt;5432&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt;   tcp    &lt;span class="p"&gt;|&lt;/span&gt; PostgreSQL Database &lt;span class="p"&gt;|&lt;/span&gt;
+&lt;span class="p"&gt;|&lt;/span&gt; postgresql &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="m"&gt;5432&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt;   udp    &lt;span class="p"&gt;|&lt;/span&gt; PostgreSQL Database &lt;span class="p"&gt;|&lt;/span&gt;
++------------+------+----------+---------------------+
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -17858,7 +18138,7 @@ Katie Bell is a developer at Grok Learning, where she’s been doing a combinati
 &lt;p&gt;只是鉴于中文世界,大家都没什么好渠道直接肉身翻越出去,
 所以,工作栏这一章节,一般是清空的,间或有朋友委托发布过几则信息.
 当然的,如果你想在 蠎周刊上发布免费的 Pythonista 招聘信息,请向大妈邮件说明:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;zoomquiet&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;HR&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;AT&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="n"&gt;gmail&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;zoomquiet+HR[AT]gmail.com
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -17886,7 +18166,7 @@ Katie Bell is a developer at Grok Learning, where she’s been doing a combinati
 &lt;p&gt;只是鉴于中文世界,大家都没什么好渠道直接肉身翻越出去,
 所以,工作栏这一章节,一般是清空的,间或有朋友委托发布过几则信息.
 当然的,如果你想在 蠎周刊上发布免费的 Pythonista 招聘信息,请向大妈邮件说明:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;zoomquiet&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;HR&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;AT&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="n"&gt;gmail&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;zoomquiet+HR[AT]gmail.com
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -18149,9 +18429,9 @@ If you want to end up in the next issue, or in this issue next year, share an ar
 &lt;p&gt;github.com&lt;/p&gt;
 &lt;p&gt;Shared by @mgrouchy&lt;/p&gt;
 &lt;h3&gt;Web&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;forever&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="n"&gt;Django&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+forever. Django!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -18200,9 +18480,9 @@ If you want to end up in the next issue, or in this issue next year, share an ar
 &lt;p&gt;github.com&lt;/p&gt;
 &lt;p&gt;Shared by @mgrouchy&lt;/p&gt;
 &lt;h3&gt;运维&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;DevOPS&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DevOPS.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -18353,9 +18633,9 @@ If you want to end up in the next issue, or in this issue next year, share an ar
 &lt;p&gt;替代 htop&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;h3&gt;实作&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;cool&lt;/span&gt; &lt;span class="n"&gt;proj&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cool proj.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -18436,9 +18716,9 @@ If you want to end up in the next issue, or in this issue next year, share an ar
 &lt;p&gt;github.com&lt;/p&gt;
 &lt;p&gt;Shared by @myusuf3&lt;/p&gt;
 &lt;h3&gt;GUI&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;GUI&lt;/span&gt; &lt;span class="err"&gt;总还是要的&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GUI 总还是要的..
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -18455,9 +18735,9 @@ If you want to end up in the next issue, or in this issue next year, share an ar
 &lt;p&gt;github.com&lt;/p&gt;
 &lt;p&gt;Shared by @mgrouchy&lt;/p&gt;
 &lt;h3&gt;数据科学&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;DataScience&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DataScience
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -18524,9 +18804,9 @@ If you want to end up in the next issue, or in this issue next year, share an ar
 &lt;p&gt;github.com&lt;/p&gt;
 &lt;p&gt;Shared by @myusuf3&lt;/p&gt;
 &lt;h3&gt;小工具&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;tiny&lt;/span&gt; &lt;span class="n"&gt;cool&lt;/span&gt; &lt;span class="n"&gt;tools&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tiny cool tools
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -18713,9 +18993,9 @@ If you want to end up in the next issue, or in this issue next year, share an ar
 &lt;p&gt;quantifiedcode.com&lt;/p&gt;
 &lt;p&gt;Shared by @quantifiedcode&lt;/p&gt;
 &lt;h3&gt;Web&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;RESTful&lt;/span&gt; &lt;span class="n"&gt;always&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RESTful always
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -18792,9 +19072,9 @@ If you want to end up in the next issue, or in this issue next year, share an ar
 &lt;p&gt;wordpress.com&lt;/p&gt;
 &lt;p&gt;Shared by @Narenarya3&lt;/p&gt;
 &lt;h3&gt;Pythonic&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;Pythonic&lt;/span&gt; &lt;span class="n"&gt;inside&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pythonic inside
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -18999,9 +19279,9 @@ A detailed guide to string tokenization in Python.&lt;/p&gt;
 &lt;p&gt;treyhunner.com&lt;/p&gt;
 &lt;p&gt;Shared by @mgrouchy&lt;/p&gt;
 &lt;h4&gt;Python 3&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;future&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;Python&lt;/span&gt;&lt;span class="o"&gt;?&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+future for Python?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -19024,9 +19304,9 @@ A detailed guide to string tokenization in Python.&lt;/p&gt;
 &lt;p&gt;curiousefficiency.org&lt;/p&gt;
 &lt;p&gt;Shared by @mgrouchy&lt;/p&gt;
 &lt;h3&gt;工程&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;DevOps&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DevOps.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -19152,9 +19432,9 @@ A detailed guide to string tokenization in Python.&lt;/p&gt;
 &lt;p&gt;quantifiedcode.com&lt;/p&gt;
 &lt;p&gt;Shared by @quantifiedcode&lt;/p&gt;
 &lt;h4&gt;Docker&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;future&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;Deploy&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+future for Deploy
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -19183,9 +19463,9 @@ A detailed guide to string tokenization in Python.&lt;/p&gt;
 &lt;p&gt;calazan.com&lt;/p&gt;
 &lt;p&gt;Shared by @mgrouchy&lt;/p&gt;
 &lt;h3&gt;实操&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;logging&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;create&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+logging for create
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -19238,9 +19518,9 @@ A detailed guide to string tokenization in Python.&lt;/p&gt;
 &lt;p&gt;stormpath.com&lt;/p&gt;
 &lt;p&gt;Shared by @rdegges&lt;/p&gt;
 &lt;h3&gt;数据科学&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;DataScience&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ipnb&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DataScience + .ipnb
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -19378,9 +19658,9 @@ A detailed guide to string tokenization in Python.&lt;/p&gt;
 &lt;p&gt;planspace.org&lt;/p&gt;
 &lt;p&gt;Shared by @myusuf3&lt;/p&gt;
 &lt;h3&gt;人工智能&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
-&lt;span class="n"&gt;AI&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AI.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -20705,13 +20985,13 @@ ASTroid 能简化我们使用 AST 的过程.
 Django 团队终于宣布 1.9 发布了.
 和以往版本一样, 发布说明中包含了各种深入细节.
 主要亮点在:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;支持执行后操作&lt;/span&gt;
-&lt;span class="err"&gt;事务提交&lt;/span&gt;
-&lt;span class="err"&gt;密码验证&lt;/span&gt;
-&lt;span class="err"&gt;允许&lt;/span&gt;&lt;span class="n"&gt;mix&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;in&lt;/span&gt; &lt;span class="err"&gt;基础类&lt;/span&gt;
-&lt;span class="err"&gt;全新&lt;/span&gt; &lt;span class="n"&gt;contrib&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;admin&lt;/span&gt; &lt;span class="err"&gt;样式&lt;/span&gt;
-&lt;span class="err"&gt;支持并行测试&lt;/span&gt;
-&lt;span class="p"&gt;...&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;支持执行后操作
+事务提交
+密码验证
+允许mix-in 基础类
+全新 contrib.admin 样式
+支持并行测试
+...
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -20721,9 +21001,9 @@ Django 团队终于宣布 1.9 发布了.
 &lt;p&gt;文章解释了有序列表求交原理,
 并展示了 Python 实现的快速版本.
 时间复杂度仅为 : &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;O&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;min&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="err"&gt;·&lt;/span&gt; &lt;span class="n"&gt;log&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
-&lt;span class="err"&gt;其中&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="err"&gt;为最小列表长度&lt;/span&gt;
-&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="err"&gt;为列表长度最大值&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;O(min(n + m, n · log(m))
+其中 n 为最小列表长度
+m为列表长度最大值
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -24016,13 +24296,13 @@ Python 中的 goto !&lt;/p&gt;
 &lt;p&gt;髙阶声明可视化库.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;受到以下库的激励: &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Matplotlib&lt;/span&gt;
-&lt;span class="n"&gt;Bokeh&lt;/span&gt;
-&lt;span class="n"&gt;Seaborn&lt;/span&gt;
-&lt;span class="n"&gt;Lightning&lt;/span&gt;
-&lt;span class="n"&gt;Plotly&lt;/span&gt;
-&lt;span class="n"&gt;Pandas&lt;/span&gt; &lt;span class="n"&gt;built&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;in&lt;/span&gt; &lt;span class="n"&gt;plotting&lt;/span&gt;
-&lt;span class="n"&gt;HoloViews&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Matplotlib
+Bokeh
+Seaborn
+Lightning
+Plotly
+Pandas built-in plotting
+HoloViews
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -24734,11 +25014,11 @@ Hillary 的邮件从 PDF 原案转化为 SQLite 数据库&lt;/p&gt;
 &lt;p&gt;在 Python 中无痛使用原始 SQL&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Python 行文中 SQL 的 DSL :&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;sql&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;users_by_country&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;note&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;counts&lt;/span&gt; &lt;span class="n"&gt;users&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-    &lt;span class="n"&gt;SELECT&lt;/span&gt; &lt;span class="n"&gt;count&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;AS&lt;/span&gt; &lt;span class="n"&gt;count&lt;/span&gt;
-    &lt;span class="n"&gt;FROM&lt;/span&gt; &lt;span class="n"&gt;user&lt;/span&gt;
-    &lt;span class="n"&gt;WHERE&lt;/span&gt; &lt;span class="n"&gt;country_code&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;?&lt;/span&gt;
-&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;endsql&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;{% sql &amp;#39;users_by_country&amp;#39;, note=&amp;#39;counts users&amp;#39; %}
+    SELECT count(*) AS count
+    FROM user
+    WHERE country_code = ?
+{% endsql %}
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -28531,12 +28811,12 @@ Shared by @mgrouchy&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;在 CPyUG 我们讨论了5年的结论是....&lt;/p&gt;
 &lt;p&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;.&lt;/span&gt;
-&lt;span class="p"&gt;..&lt;/span&gt;
-&lt;span class="p"&gt;...&lt;/span&gt;
-&lt;span class="p"&gt;....&lt;/span&gt;
-&lt;span class="p"&gt;.....&lt;/span&gt;
-&lt;span class="nb"&gt;NULL&lt;/span&gt; &lt;span class="err"&gt;〒&lt;/span&gt;&lt;span class="n"&gt;_ …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Pycoder's Weekly" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;.
+..
+...
+....
+.....
+NULL 〒_ …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Pycoder's Weekly" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&amp;amp;id=a66fd06602"&gt;Pycoders Weekly (Issue #173): Alive&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -28570,12 +28850,12 @@ Shared by @mgrouchy&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;在 CPyUG 我们讨论了5年的结论是....&lt;/p&gt;
 &lt;p&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;.&lt;/span&gt;
-&lt;span class="p"&gt;..&lt;/span&gt;
-&lt;span class="p"&gt;...&lt;/span&gt;
-&lt;span class="p"&gt;....&lt;/span&gt;
-&lt;span class="p"&gt;.....&lt;/span&gt;
-&lt;span class="nb"&gt;NULL&lt;/span&gt; &lt;span class="err"&gt;〒&lt;/span&gt;&lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="err"&gt;〒&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;.
+..
+...
+....
+.....
+NULL 〒_〒
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -30938,11 +31218,11 @@ PyPy(用 Python 实际的 Python 解释器!),
 &lt;p&gt;HTTP 请求的脚本化&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;非常象 Gopher 大会上批露的,老许用 go 实现的 http 测试 DSL.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;set&lt;/span&gt; &lt;span class="n"&gt;URL&lt;/span&gt; &lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//google.com&lt;/span&gt;
-&lt;span class="n"&gt;loop&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;
-&lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="n"&gt;GET&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;
-&lt;span class="n"&gt;show&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;STATUS&lt;/span&gt;
-&lt;span class="n"&gt;endloop&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;set URL http://google.com
+loop 5
+do GET /
+show $STATUS
+endloop
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -32863,45 +33143,45 @@ kivy 出品)&lt;/p&gt;
 &lt;p&gt;基于Python功能组合的递归下降解析器. 解析器组合都只是高阶函数,把分析器作为它们的参数,并将其退回的结果值. &lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;嗯啍! 这才是格调!&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt; &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;parse&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
- &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;Sequence&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Token&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;object&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
- &lt;span class="p"&gt;...&lt;/span&gt;
- &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Token&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;Name&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;tokval&lt;/span&gt;
- &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;make_array&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
- &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;None&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
- &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
- &lt;span class="nl"&gt;else:&lt;/span&gt;
- &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]]&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
- &lt;span class="p"&gt;...&lt;/span&gt;
- &lt;span class="n"&gt;null&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;null&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="k"&gt;const&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;None&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
- &lt;span class="nb"&gt;true&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="nb"&gt;true&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="k"&gt;const&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
- &lt;span class="nb"&gt;false&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="nb"&gt;false&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="k"&gt;const&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
- &lt;span class="n"&gt;number&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;toktype&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;Number&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;make_number&lt;/span&gt;
- &lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;toktype&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;make_string&lt;/span&gt;
- &lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;forward_decl&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
- &lt;span class="n"&gt;member&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;string&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;op_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;:&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;tuple&lt;/span&gt;
- &lt;span class="n"&gt;object&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
-         &lt;span class="n"&gt;op_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;{&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt;
-         &lt;span class="n"&gt;maybe&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;member&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;many&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;op_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;,&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;member&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt;
-         &lt;span class="n"&gt;op_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-         &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;make_object&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
- &lt;span class="n"&gt;array&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
-         &lt;span class="n"&gt;op_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;[&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt;
-         &lt;span class="n"&gt;maybe&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;many&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;op_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;,&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt;
-         &lt;span class="n"&gt;op_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;&amp;#39;]&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-         &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;make_array&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
- &lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;define&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
-         &lt;span class="n"&gt;null&lt;/span&gt;
-         &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nb"&gt;true&lt;/span&gt;
-         &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="nb"&gt;false&lt;/span&gt;
-         &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;object&lt;/span&gt;
-         &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;array&lt;/span&gt;
-         &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;number&lt;/span&gt;
-         &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;json_text&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;object&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;array&lt;/span&gt;
-&lt;span class="n"&gt;json_file&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;json_text&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;skip&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;finished&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; def parse(seq):
+ &amp;#39;Sequence(Token) -&amp;gt; object&amp;#39;
+ ...
+ n = lambda s: a(Token(&amp;#39;Name&amp;#39;, s)) &amp;gt;&amp;gt; tokval
+ def make_array(n):
+ if n is None:
+ return []
+ else:
+ return [n[0]] + n[1]
+ ...
+ null = n(&amp;#39;null&amp;#39;) &amp;gt;&amp;gt; const(None)
+ true = n(&amp;#39;true&amp;#39;) &amp;gt;&amp;gt; const(True)
+ false = n(&amp;#39;false&amp;#39;) &amp;gt;&amp;gt; const(False)
+ number = toktype(&amp;#39;Number&amp;#39;) &amp;gt;&amp;gt; make_number
+ string = toktype(&amp;#39;String&amp;#39;) &amp;gt;&amp;gt; make_string
+ value = forward_decl()
+ member = string + op_(&amp;#39;:&amp;#39;) + value &amp;gt;&amp;gt; tuple
+ object = (
+         op_(&amp;#39;{&amp;#39;) +
+         maybe(member + many(op_(&amp;#39;,&amp;#39;) + member)) +
+         op_(&amp;#39;}&amp;#39;)
+         &amp;gt;&amp;gt; make_object)
+ array = (
+         op_(&amp;#39;[&amp;#39;) +
+         maybe(value + many(op_(&amp;#39;,&amp;#39;) + value)) +
+         op_(&amp;#39;]&amp;#39;)
+         &amp;gt;&amp;gt; make_array)
+ value.define(
+         null
+         | true
+         | false
+         | object
+         | array
+         | number
+         | string)
+json_text = object | array
+json_file = json_text + skip(finished)
 
-&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;json_file&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;parse&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;seq&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+return json_file.parse(seq)
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -33948,21 +34228,21 @@ pip 不招人待见的事儿太多了,,
 &lt;p&gt;github.com&lt;/p&gt;
 &lt;p&gt;Shared by @mgrouchy&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;from&lt;/span&gt; &lt;span class="nx"&gt;soupy&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;Soupy&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;Q&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;soupy&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Soupy&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Q&lt;/span&gt;
 
 &lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
-&lt;span class="s2"&gt;&amp;lt;div id=&amp;quot;&lt;/span&gt;&lt;span class="nx"&gt;main&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class="s2"&gt;&amp;lt;div id=&amp;quot;main&amp;quot;&amp;gt;&lt;/span&gt;
 &lt;span class="s2"&gt;  &amp;lt;div&amp;gt;The web is messy&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class="s2"&gt;  and full of traps&lt;/span&gt;
 &lt;span class="s2"&gt;  &amp;lt;div&amp;gt;but Soupy loves you&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class="s2"&gt;&amp;lt;/div&amp;gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
 
-&lt;span class="nx"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;Soupy&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;html&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="bp"&gt;.&lt;/span&gt;&lt;span class="nb"&gt;find&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;main&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="bp"&gt;.&lt;/span&gt;&lt;span class="nb"&gt;children&lt;/span&gt;
-      &lt;span class="bp"&gt;.&lt;/span&gt;&lt;span class="nb"&gt;each&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;Q.text.strip&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt; &lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="nb"&gt;extract&lt;/span&gt; &lt;span class="nx"&gt;text&lt;/span&gt; &lt;span class="nb"&gt;from&lt;/span&gt; &lt;span class="nb"&gt;each&lt;/span&gt; &lt;span class="nx"&gt;node&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;trim&lt;/span&gt; &lt;span class="nx"&gt;whitespace&lt;/span&gt;
-      &lt;span class="bp"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;len&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;          &lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="nb"&gt;remove&lt;/span&gt; &lt;span class="nx"&gt;empty&lt;/span&gt; &lt;span class="nx"&gt;strings&lt;/span&gt;
-      &lt;span class="bp"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;val&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;               &lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="nb"&gt;dump&lt;/span&gt; &lt;span class="nb"&gt;out&lt;/span&gt; &lt;span class="nx"&gt;of&lt;/span&gt; &lt;span class="nx"&gt;Soupy&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Soupy&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;main&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;children&lt;/span&gt;
+      &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;each&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Q&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;strip&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt; &lt;span class="c1"&gt;# extract text from each node, trim whitespace&lt;/span&gt;
+      &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;          &lt;span class="c1"&gt;# remove empty strings&lt;/span&gt;
+      &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;val&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;               &lt;span class="c1"&gt;# dump out of Soupy&lt;/span&gt;
 
-&lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="err"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;The web is messy&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;and full of traps&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;but Soupy loves you&amp;#39;&lt;/span&gt;&lt;span class="cp"&gt;]&lt;/span&gt;
+&lt;span class="c1"&gt;# [&amp;#39;The web is messy&amp;#39;, &amp;#39;and full of traps&amp;#39;, &amp;#39;but Soupy loves you&amp;#39;]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -35788,48 +36068,48 @@ python -m SimpleHTTPServer&lt;/p&gt;
 home_dir = expanduser('~')&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;丫在哪儿:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nf"&gt;cdp&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="s-Atom"&gt;cd&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;$(python -c &amp;quot;&lt;/span&gt;&lt;span class="s-Atom"&gt;import&lt;/span&gt; &lt;span class="s-Atom"&gt;os&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="s-Atom"&gt;path&lt;/span&gt; &lt;span class="s-Atom"&gt;as&lt;/span&gt; &lt;span class="k"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;};&lt;/span&gt; &lt;span class="s-Atom"&gt;\&lt;/span&gt;
-            &lt;span class="nf"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;_&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;dirname&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;_&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;realpath&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;}.&lt;/span&gt;&lt;span class="k"&gt;__&lt;/span&gt;&lt;span class="s-Atom"&gt;file__&lt;/span&gt;&lt;span class="p"&gt;[:-&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;])))&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nf"&gt;cdp&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s s-Atom"&gt;cd&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;$(python -c &amp;quot;&lt;/span&gt;&lt;span class="s s-Atom"&gt;import&lt;/span&gt; &lt;span class="s s-Atom"&gt;os&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="s s-Atom"&gt;path&lt;/span&gt; &lt;span class="s s-Atom"&gt;as&lt;/span&gt; &lt;span class="k"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;};&lt;/span&gt; &lt;span class="s s-Atom"&gt;\&lt;/span&gt;
+            &lt;span class="nf"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;_&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;dirname&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;_&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;realpath&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;}.&lt;/span&gt;&lt;span class="k"&gt;__&lt;/span&gt;&lt;span class="s s-Atom"&gt;file__&lt;/span&gt;&lt;span class="p"&gt;[:-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;])))&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
 &lt;span class="s2"&gt;        )&amp;quot;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 
-&lt;span class="s-Atom"&gt;~&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="s-Atom"&gt;cdp&lt;/span&gt; &lt;span class="s-Atom"&gt;os&lt;/span&gt;
-&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s-Atom"&gt;usr&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s-Atom"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s-Atom"&gt;python2&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="m"&gt;7&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;
+&lt;span class="s s-Atom"&gt;~&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="s s-Atom"&gt;cdp&lt;/span&gt; &lt;span class="s s-Atom"&gt;os&lt;/span&gt;
+&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s s-Atom"&gt;usr&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s s-Atom"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s s-Atom"&gt;python2&lt;/span&gt;&lt;span class="mf"&gt;.7&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;
 
-&lt;span class="s-Atom"&gt;~&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="s-Atom"&gt;cdp&lt;/span&gt; &lt;span class="s-Atom"&gt;os&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="s-Atom"&gt;path&lt;/span&gt;
-&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s-Atom"&gt;usr&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s-Atom"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s-Atom"&gt;python2&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="m"&gt;7&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;
+&lt;span class="s s-Atom"&gt;~&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="s s-Atom"&gt;cdp&lt;/span&gt; &lt;span class="s s-Atom"&gt;os&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="s s-Atom"&gt;path&lt;/span&gt;
+&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s s-Atom"&gt;usr&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s s-Atom"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="s s-Atom"&gt;python2&lt;/span&gt;&lt;span class="mf"&gt;.7&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;人性化排序:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;from&lt;/span&gt; &lt;span class="n"&gt;distutils&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;version&lt;/span&gt; &lt;span class="n"&gt;import&lt;/span&gt; &lt;span class="n"&gt;StrictVersion&lt;/span&gt;
-&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;versions&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.3.12&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.3.3&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.2.5&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.2.15&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.2.3&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.2.1&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;versions&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sort&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;StrictVersion&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;print&lt;/span&gt; &lt;span class="n"&gt;versions&lt;/span&gt;
-&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.2.1&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.2.3&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.2.5&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.2.15&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.3.3&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;1.3.12&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;distutils.version&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;StrictVersion&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;versions&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1.3.12&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1.3.3&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1.2.5&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1.2.15&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1.2.3&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1.2.1&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;versions&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sort&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;StrictVersion&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;versions&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;1.2.1&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1.2.3&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1.2.5&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1.2.15&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1.3.3&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;1.3.12&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 
 
-&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.3.12&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.3.3&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.2.5&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.2.15&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.2.3&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.2.1&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sort&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;LooseVersion&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;v1.3.12&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;v1.3.3&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;v1.2.5&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;v1.2.15&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;v1.2.3&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;v1.2.1&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sort&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;LooseVersion&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;
-&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.2.1&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.2.3&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.2.5&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.2.15&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.3.3&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;v1&lt;/span&gt;&lt;span class="mf"&gt;.3.12&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;v1.2.1&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;v1.2.3&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;v1.2.5&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;v1.2.15&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;v1.3.3&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;v1.3.12&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;终端真数学:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;pmath&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
-&lt;span class="mi"&gt;7&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;pmath&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;.4f&lt;/span&gt;&lt;span class="sc"&gt;&amp;#39; &amp;#39;&lt;/span&gt;&lt;span class="n"&gt;pow&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2000&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
-&lt;span class="mf"&gt;12.5992&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;pmath&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mf"&gt;.4f&lt;/span&gt;&lt;span class="sc"&gt;&amp;#39; &amp;#39;&lt;/span&gt;&lt;span class="n"&gt;sin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
-&lt;span class="mf"&gt;1.0000&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;pmath&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;exp&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="n"&gt;j&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="n"&gt;real&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
-&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1.0&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;pmath&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
-&lt;span class="mi"&gt;5&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;pmath&lt;/span&gt;
-&lt;span class="mi"&gt;7&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pmath &lt;span class="s1"&gt;&amp;#39;3 + 4&amp;#39;&lt;/span&gt;
+&lt;span class="m"&gt;7&lt;/span&gt;
+$ pmath -f&lt;span class="s1"&gt;&amp;#39;.4f&amp;#39;&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;pow(2000, 1/3)&amp;#39;&lt;/span&gt;
+&lt;span class="m"&gt;12&lt;/span&gt;.5992
+$ pmath -f&lt;span class="s1"&gt;&amp;#39;.4f&amp;#39;&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;sin(pi/2)&amp;#39;&lt;/span&gt;
+&lt;span class="m"&gt;1&lt;/span&gt;.0000
+$ pmath -c &lt;span class="s1"&gt;&amp;#39;exp(1j*pi).real&amp;#39;&lt;/span&gt;
+-1.0
+$ pmath &lt;span class="s1"&gt;&amp;#39;x=3;x+2&amp;#39;&lt;/span&gt;
+&lt;span class="m"&gt;5&lt;/span&gt;
+$ &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;3+4&amp;#39;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; pmath
+&lt;span class="m"&gt;7&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -36311,27 +36591,27 @@ python 完成的, 简洁和一致的.&lt;/p&gt;
 13
 14
 15
-16&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/usr/bin/env python&lt;/span&gt;
-&lt;span class="c"&gt;# PYTHON_ARGCOMPLETE_OK&lt;/span&gt;
+16&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/usr/bin/env python&lt;/span&gt;
+&lt;span class="c1"&gt;# PYTHON_ARGCOMPLETE_OK&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;argcomplete&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nn"&gt;argparse&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nn"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nn"&gt;pprint&lt;/span&gt;
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;github_org_members&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prefix&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;parsed_args&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;kwargs&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-    &lt;span class="n"&gt;resource&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;https://api.github.com/orgs/{org}/members&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;org&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;parsed_args&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;organization&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;member&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;login&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;member&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;resource&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;member&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;login&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;startswith&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prefix&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="n"&gt;resource&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;https://api.github.com/orgs/{org}/members&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;org&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;parsed_args&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;organization&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;member&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;login&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;member&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;resource&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;member&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;login&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;startswith&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prefix&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 
 &lt;span class="n"&gt;parser&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;argparse&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ArgumentParser&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;span class="n"&gt;parser&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_argument&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;--organization&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;help&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;GitHub organization&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;parser&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_argument&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;--member&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;help&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;GitHub member&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;completer&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;github_org_members&lt;/span&gt;
+&lt;span class="n"&gt;parser&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_argument&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;--organization&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;help&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;GitHub organization&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;parser&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add_argument&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;--member&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;help&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;GitHub member&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;completer&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;github_org_members&lt;/span&gt;
 
 &lt;span class="n"&gt;argcomplete&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;autocomplete&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;parser&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;args&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;parser&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;parse_args&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 
-&lt;span class="n"&gt;pprint&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pprint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;https://api.github.com/users/{m}&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;member&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;span class="n"&gt;pprint&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pprint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;https://api.github.com/users/{m}&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;member&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;p&gt;然后就能:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nx"&gt;.&lt;/span&gt;&lt;span class="p"&gt;/&lt;/span&gt;&lt;span class="nx"&gt;describe_github_user.py&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nx"&gt;organization&lt;/span&gt; &lt;span class="nx"&gt;heroku&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nx"&gt;member&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;TAB&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;./describe_github_user.py --organization heroku --member &amp;lt;TAB&amp;gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -38717,8 +38997,8 @@ alpha 里程碑的版本发布,标志着又一个完整的特性冻结了.
 给出了答案.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;
 简单的说:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;珍惜生命&lt;/span&gt;
-&lt;span class="err"&gt;远离&lt;/span&gt;&lt;span class="n"&gt;M&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;珍惜生命
+远离M$
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -39105,9 +39385,9 @@ Supervisor 样的服务了!
 &lt;/ul&gt;
 &lt;p&gt;在 IPython notebook 中,
 以 matplotlib 为后端进行图表展示时,有三种模式:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;简单图表&lt;/span&gt;
-&lt;span class="n"&gt;FuncAnimation&lt;/span&gt; &lt;span class="err"&gt;动画&lt;/span&gt;
-&lt;span class="err"&gt;交互式&lt;/span&gt; &lt;span class="n"&gt;IPython&lt;/span&gt; &lt;span class="err"&gt;图表部件&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;简单图表
+FuncAnimation 动画
+交互式 IPython 图表部件
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -39424,11 +39704,11 @@ interview&lt;/li&gt;
 &lt;p&gt;Shared by @mgrouchy&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;
 作者的介绍曰: &lt;code&gt;命令行上的Py功夫&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;py&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;py&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;None&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
-&lt;span class="mi"&gt;0&lt;/span&gt;
-&lt;span class="mi"&gt;2&lt;/span&gt;
-&lt;span class="mi"&gt;4&lt;/span&gt;
-&lt;span class="mi"&gt;6&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ py &lt;span class="s1"&gt;&amp;#39;range(8)&amp;#39;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; py -x &lt;span class="s1"&gt;&amp;#39;x if int(x)%2 == 0 else None&amp;#39;&lt;/span&gt;
+&lt;span class="m"&gt;0&lt;/span&gt;
+&lt;span class="m"&gt;2&lt;/span&gt;
+&lt;span class="m"&gt;4&lt;/span&gt;
+&lt;span class="m"&gt;6&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -41166,13 +41446,13 @@ Python 官方文档,不应该缺少完本的中译!&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;
 &lt;img alt="camo" src="https://camo.githubusercontent.com/e31877f0c3809a9103c32aefc9b5cb1dcd110dd0/687474703a2f2f6d656469612e636861726c65736c65696665722e636f6d2f626c6f672f70686f746f732f70313431393832323431352e31392e706e67"&gt;&lt;/p&gt;
 &lt;p&gt;logo 太任性了,和代码一样...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;from&lt;/span&gt; &lt;span class="n"&gt;pollywog&lt;/span&gt; &lt;span class="n"&gt;import&lt;/span&gt; &lt;span class="n"&gt;R&lt;/span&gt;
-&lt;span class="p"&gt;...&lt;/span&gt;
-&lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;raw_input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;Enter&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;URL&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;R&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;simple_url_re&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-    &lt;span class="n"&gt;print&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;You&lt;/span&gt; &lt;span class="n"&gt;entered&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;valid&lt;/span&gt; &lt;span class="n"&gt;URL&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
-&lt;span class="nl"&gt;else:&lt;/span&gt;
-    &lt;span class="n"&gt;print&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;That&lt;/span&gt; &lt;span class="n"&gt;URL&lt;/span&gt; &lt;span class="n"&gt;appears&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;invalid&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pollywog&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;R&lt;/span&gt;
+&lt;span class="o"&gt;...&lt;/span&gt;
+&lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;raw_input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Enter a URL: &amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;R&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;simple_url_re&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;You entered a valid URL&amp;#39;&lt;/span&gt;
+&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;That URL appears to be invalid.&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -41659,26 +41939,26 @@ Ever wonder how some of these crazy obfuscated python programs work? Check out t
 真心是个自虐又 bigger 的思路,可以折腾个标准库出来,
 这下网络传送数据就有安全保证了...
 感受一下....谁说用 Python 写不出来难懂的代码的!?&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;#...&lt;/span&gt;
-&lt;span class="p"&gt;(&lt;/span&gt;
-    &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="p"&gt;))(&lt;/span&gt;
-        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-            &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="p"&gt;[(&lt;/span&gt;&lt;span class="n"&gt;lambda&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="n"&gt;func_code&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;co_nlocals&lt;/span&gt;&lt;span class="p"&gt;])]&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt;
-            &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="p"&gt;[(&lt;/span&gt;&lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="n"&gt;func_code&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;co_nlocals&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;___&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
-        &lt;span class="p"&gt;),&lt;/span&gt;
-        &lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;func_code&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;co_argcount&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-        &lt;span class="p"&gt;(&lt;/span&gt;
-            &lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-            &lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-            &lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-            &lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;____&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-            &lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;____&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;_____&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-            &lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;____&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;_____&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;______&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-            &lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;____&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;_____&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;______&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;_______&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-            &lt;span class="n"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;__&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;___&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;____&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;_____&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;______&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;_______&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;________&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt;
-        &lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;#...
+(
+    *(lambda _, __, ___: _(_, __, ___))(
+        (lambda _, __, ___:
+            [__(___[(lambda: _).func_code.co_nlocals])] +
+            _(_, __, ___[(lambda _: _).func_code.co_nlocals:]) if ___ else []
+        ),
+        lambda _: _.func_code.co_argcount,
+        (
+            lambda _: _,
+            lambda _, __: _,
+            lambda _, __, ___: _,
+            lambda _, __, ___, ____: _,
+            lambda _, __, ___, ____, _____: _,
+            lambda _, __, ___, ____, _____, ______: _,
+            lambda _, __, ___, ____, _____, ______, _______: _,
+            lambda _, __, ___, ____, _____, ______, _______, ________: _
+        )
+    )
+)
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -41778,9 +42058,9 @@ The Django project is excited to announce that after many years, we're launching
 &lt;p&gt;这是帮助Pythoneer 从 trolls 们营救出来的手册.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;
 看一次乐一次...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="s"&gt;&amp;quot;Premature optimization is the root of all evil &lt;/span&gt;
-&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;or&lt;/span&gt; &lt;span class="n"&gt;at&lt;/span&gt; &lt;span class="n"&gt;least&lt;/span&gt; &lt;span class="n"&gt;most&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;it&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;in&lt;/span&gt; &lt;span class="n"&gt;programming&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="s"&gt;&amp;quot; -- Donald Knuth&lt;/span&gt;
-&lt;span class="s"&gt;&amp;quot;过早优化是一切罪恶的根源(在绝大多数情况中)在编程&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="err"&gt;高德纳&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;quot;Premature optimization is the root of all evil 
+(or at least most of it) in programming.&amp;quot; -- Donald Knuth
+&amp;quot;过早优化是一切罪恶的根源(在绝大多数情况中)在编程&amp;quot; ~ 高德纳
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -44131,12 +44411,12 @@ Python 2.6/2.7 以及 CPython 间的翻译嘛?
 &lt;p&gt;Shared by @mattmakai&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;
 看看这货的依赖:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Flask&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mf"&gt;0.10.1&lt;/span&gt;
-&lt;span class="n"&gt;Flask&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;Script&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mf"&gt;2.0.5&lt;/span&gt;
-&lt;span class="n"&gt;Flask&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;SocketIO&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mf"&gt;0.4.1&lt;/span&gt;
-&lt;span class="n"&gt;gunicorn&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mf"&gt;19.1.1&lt;/span&gt;
-&lt;span class="n"&gt;redis&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mf"&gt;2.10.3&lt;/span&gt;
-&lt;span class="n"&gt;twilio&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="mf"&gt;3.6.8&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Flask==0.10.1
+Flask-Script==2.0.5
+Flask-SocketIO==0.4.1
+gunicorn==19.1.1
+redis==2.10.3
+twilio==3.6.8
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -44362,12 +44642,12 @@ didyoumean 就能建议可能的,
 &lt;p&gt;Shared by @mgrouchy&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;
 实际使用起来是这样的...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;didyoumean&lt;/span&gt;
-&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nx"&gt;foo.baz&lt;/span&gt;
-    &lt;span class="nx"&gt;Traceback&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;most&lt;/span&gt; &lt;span class="nx"&gt;recent&lt;/span&gt; &lt;span class="nb"&gt;call&lt;/span&gt; &lt;span class="nb"&gt;last&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-      &lt;span class="nb"&gt;File&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;lt;stdin&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class="nx"&gt;AttributeError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Foo&amp;#39;&lt;/span&gt; &lt;span class="nb"&gt;object&lt;/span&gt; &lt;span class="nx"&gt;has&lt;/span&gt; &lt;span class="nx"&gt;no&lt;/span&gt; &lt;span class="nx"&gt;attribute&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;baz&amp;#39;&lt;/span&gt;
-    &lt;span class="nx"&gt;Maybe&lt;/span&gt; &lt;span class="nx"&gt;you&lt;/span&gt; &lt;span class="nx"&gt;meant&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="bp"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;bar&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;didyoumean&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;foo&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;baz&lt;/span&gt;
+    &lt;span class="n"&gt;Traceback&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;most&lt;/span&gt; &lt;span class="n"&gt;recent&lt;/span&gt; &lt;span class="n"&gt;call&lt;/span&gt; &lt;span class="n"&gt;last&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+      &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;lt;stdin&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="ne"&gt;AttributeError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Foo&amp;#39;&lt;/span&gt; &lt;span class="nb"&gt;object&lt;/span&gt; &lt;span class="n"&gt;has&lt;/span&gt; &lt;span class="n"&gt;no&lt;/span&gt; &lt;span class="n"&gt;attribute&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;baz&amp;#39;&lt;/span&gt;
+    &lt;span class="n"&gt;Maybe&lt;/span&gt; &lt;span class="n"&gt;you&lt;/span&gt; &lt;span class="n"&gt;meant&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bar&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -44401,19 +44681,19 @@ didyoumean 就能建议可能的,
 &lt;p&gt;github.com&lt;/p&gt;
 &lt;p&gt;Shared by @mgrouchy&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;    &lt;span class="n"&gt;from&lt;/span&gt; &lt;span class="n"&gt;importd&lt;/span&gt; &lt;span class="n"&gt;import&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt;
-    &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;DEBUG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;importd&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt;
+    &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;DEBUG&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-    &lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;idx&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;request&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;index.html&amp;quot;&lt;/span&gt;
+    &lt;span class="nd"&gt;@d&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;idx&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;request&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;index.html&amp;quot;&lt;/span&gt;
 
-    &lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;/post/&amp;lt;int:post_id&amp;gt;/&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;request&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;post_id&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;post.html&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;post_id&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;post_id&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="nd"&gt;@d&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;/post/&amp;lt;int:post_id&amp;gt;/&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;post&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;request&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;post_id&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;post.html&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;post_id&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;post_id&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
 
-    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;__main__&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-        &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;__main__&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -44849,15 +45129,15 @@ PVector (列表), PMap (字典), PSet (集合), PBag (计数), PList (单链表)
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;
 当然的在 web 领域最常用,
 比如说对 google 网站反复尝试请求10次...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;requests&lt;/span&gt;
-&lt;span class="nx"&gt;from&lt;/span&gt; &lt;span class="nx"&gt;pyecho&lt;/span&gt; &lt;span class="kr"&gt;import&lt;/span&gt; &lt;span class="nx"&gt;echo&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;requests&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pyecho&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;echo&lt;/span&gt;
 
-&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="nx"&gt;echo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="nx"&gt;Retry&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;upto&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt; &lt;span class="nx"&gt;times&lt;/span&gt;
-&lt;span class="nx"&gt;def&lt;/span&gt; &lt;span class="nx"&gt;fetch&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-    &lt;span class="nx"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;requests&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://google.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;r&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;text&lt;/span&gt;
+&lt;span class="nd"&gt;@echo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# Retry function upto 10 times&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;fetch&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://google.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;
 
-&lt;span class="nx"&gt;fetch&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;fetch&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -45681,7 +45961,8 @@ Shared by @myusuf3&lt;/p&gt;
 &lt;p&gt;380位女性和女生参加了在华沙的  @DjangoGirls&lt;/p&gt;
 &lt;h2&gt;本周之星&lt;/h2&gt;
 &lt;p&gt;~ 一周 Python 程序员之选&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/karan"&gt;&lt;img alt="karan" src="https://avatars0.githubusercontent.com/u/3261985?v=2&amp;amp;s=100"&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://github.com/karan"&gt;&lt;img alt="karan" src="https://avatars0.githubusercontent.com/u/3261985?v=2&amp;amp;s=100"&gt;
+&lt;/a&gt;
 Karan Goel&lt;/p&gt;
 &lt;h2&gt;将来之书&lt;/h2&gt;
 &lt;p&gt;Effective Python&lt;/p&gt;
@@ -49363,9 +49644,9 @@ Shared by @myusuf3&lt;/p&gt;
 &lt;p&gt;包含一系列通过华蠎用户组收集到的反馈意见而改进的功能,
 是的,在一天之内部发布两个版本!
 并在列表中,回复指出了核心优势以及动机:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mf"&gt;1.&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="err"&gt;的&lt;/span&gt;
-&lt;span class="mf"&gt;2.&lt;/span&gt; &lt;span class="err"&gt;方便扩展&lt;/span&gt;
-&lt;span class="mf"&gt;3.&lt;/span&gt; &lt;span class="err"&gt;更偏向于应用的安装&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="err"&gt;部署和运维&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1. python的
+2. 方便扩展
+3. 更偏向于应用的安装,部署和运维
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -49905,7 +50186,7 @@ Kristianstad, Sweden - Göteborg, Sweden - Malmö, Sweden - Oxford, England - He
 6
 7
 8
-9&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/usr/bin/env python&lt;/span&gt;
+9&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/usr/bin/env python&lt;/span&gt;
 &lt;span class="err"&gt;ﵛ&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ne"&gt;ImportError&lt;/span&gt;
 &lt;span class="err"&gt;ࡅ&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;print&lt;/span&gt;
 &lt;span class="err"&gt;㮀&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;False&lt;/span&gt;
@@ -51903,17 +52184,17 @@ Changes 能汇总你喜欢的构建服务所有数据,
 &lt;p&gt;reddit.com
 分享自: @myusuf3&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;译注:&lt;/code&gt; 嗯嗯嗯,类似这种输出乍折腾出来的泥?...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;           &lt;span class="p"&gt;,;&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;;,&lt;/span&gt;       
-        &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;*%&lt;/span&gt;&lt;span class="err"&gt;$#@&lt;/span&gt;&lt;span class="o"&gt;%%%%%&lt;/span&gt;&lt;span class="err"&gt;@#$&lt;/span&gt;&lt;span class="o"&gt;%*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;    
-      &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="err"&gt;@#&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="p"&gt;,...,&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="err"&gt;#@&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  
-     &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="err"&gt;$@&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;.&lt;/span&gt;         &lt;span class="p"&gt;.;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="err"&gt;@$&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
-    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="err"&gt;$@&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;             &lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="err"&gt;@$&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;           &lt;span class="p"&gt;,;&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;;,&lt;/span&gt;       
+        &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;*%&lt;/span&gt;&lt;span class="err"&gt;$#&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="o"&gt;%%%%%&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="err"&gt;#$&lt;/span&gt;&lt;span class="o"&gt;%*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;    
+      &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="p"&gt;,...,&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  
+     &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="mi"&gt;@0&lt;/span&gt;&lt;span class="p"&gt;;.&lt;/span&gt;         &lt;span class="p"&gt;.;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="mi"&gt;@0&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;             &lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
     &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="p"&gt;;.&lt;/span&gt;             &lt;span class="p"&gt;.;&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
     &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="p"&gt;;.&lt;/span&gt;             &lt;span class="p"&gt;.;&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="err"&gt;$@&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;             &lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="err"&gt;@$&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
-     &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="err"&gt;$@&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;.&lt;/span&gt;         &lt;span class="p"&gt;.;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="err"&gt;@$&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
-      &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="err"&gt;@#&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="p"&gt;,...,&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="err"&gt;#@&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  
-        &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;*%&lt;/span&gt;&lt;span class="err"&gt;$#@&lt;/span&gt;&lt;span class="o"&gt;%%%%%&lt;/span&gt;&lt;span class="err"&gt;@#$&lt;/span&gt;&lt;span class="o"&gt;%*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;    
+    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="mi"&gt;@0&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;             &lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+     &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="mi"&gt;@0&lt;/span&gt;&lt;span class="p"&gt;;.&lt;/span&gt;         &lt;span class="p"&gt;.;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+      &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="p"&gt;,...,&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  
+        &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="o"&gt;*%&lt;/span&gt;&lt;span class="err"&gt;$#&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="o"&gt;%%%%%&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="err"&gt;#$&lt;/span&gt;&lt;span class="o"&gt;%*&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;    
            &lt;span class="p"&gt;,;&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="p"&gt;;,&lt;/span&gt;       
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -52121,10 +52402,10 @@ Python on Rails 就在Toronto 到 Montreal的火车上举行.
 &lt;p&gt;分享自:
 &lt;a href="http://twitter.com/myusuf3"&gt;@myusuf3&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;译注&lt;/code&gt;: 大妈经常唠叨的是:"&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;忘记的就是不重要的&lt;/span&gt;
-&lt;span class="err"&gt;不知道就是不必要的&lt;/span&gt;
-&lt;span class="err"&gt;当然现实真心不一定&lt;/span&gt;
-&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;忘记的就是不重要的
+不知道就是不必要的
+当然现实真心不一定
+&amp;quot;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -54686,11 +54967,11 @@ Newsblur 已经发布了有段日子了,
 &lt;p&gt;Kaptan 
 是你应用的配置管理器!&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;译注:&lt;/code&gt;通吃常见配置文本格式 &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;dict&lt;/span&gt;
-&lt;span class="n"&gt;json&lt;/span&gt;
-&lt;span class="n"&gt;yaml&lt;/span&gt;
-&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ini&lt;/span&gt;
-&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;dict
+json
+yaml
+.ini
+.py
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -54895,7 +55176,7 @@ and MCMC Sampling for approximate inference.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Impossible_staircase" src="http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg"&gt;&lt;/p&gt;
 &lt;p&gt;这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
 用最直白的话来描述，就是：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;初级的知识需要对高级知识深入了解才能真正深入了解&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;初级的知识需要对高级知识深入了解才能真正深入了解
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -54919,7 +55200,7 @@ and MCMC Sampling for approximate inference.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Impossible_staircase" src="http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg"&gt;&lt;/p&gt;
 &lt;p&gt;这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
 用最直白的话来描述，就是：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;初级的知识需要对高级知识深入了解才能真正深入了解&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;初级的知识需要对高级知识深入了解才能真正深入了解
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -55032,7 +55313,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;/ul&gt;
 &lt;p&gt;因为 &lt;code&gt;gitcafe&lt;/code&gt; 只有用户同名-pages 服务,所以,对于当前 &lt;code&gt;蠎周刊&lt;/code&gt; 的 Pelican 工程,
 用两个仓库,配合完成:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;https://github.com/qpython-android/qpython-android.pelican.git
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;https://github.com/qpython-android/qpython-android.pelican.git
     +- ..
     +- pelicanconf.py   主配置文件
     +- content          内容目录  
@@ -55054,7 +55335,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;li&gt;&lt;code&gt;fab pub2cafe&lt;/code&gt; 自动完成进入 &lt;code&gt;output&lt;/code&gt; 后的一系列 git 操作&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;对应的 配置中:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c1"&gt;#DELETE_OUTPUT_DIRECTORY = True&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#DELETE_OUTPUT_DIRECTORY = True&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -55065,7 +55346,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;h3&gt;DISQUS&lt;/h3&gt;
 &lt;p&gt;果断遇到了 DISQUS 配置了,不生效的问题,上下折腾, 才发现很多人都遇到了这个问题,
 追踪到代码:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c1"&gt;//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html&lt;/span&gt;
 &lt;span class="c1"&gt;//...&lt;/span&gt;
 &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;disqus_shortname&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;{{ DISQUS_SITENAME }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;// required: replace example with your forum shortname&lt;/span&gt;
 &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;disqus_identifier&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;{{ article.slug }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
@@ -55086,21 +55367,21 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;p&gt;fixed!&lt;/p&gt;
 &lt;h3&gt;CATEGORY_FEED_ATOM&lt;/h3&gt;
 &lt;p&gt;一时手賎,打开了:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="na"&gt;CATEGORY_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/%s.atom.xml&amp;#39;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;CATEGORY_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/%s.atom.xml&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;结果,发现不能在模板里简单的完成分类子 RSS 的链接!&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;    &lt;span class="nt"&gt;&amp;lt;i&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-th icon-large&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;Categories&lt;span class="nt"&gt;&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-th icon-large&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Categories&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;h4&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 {% for cat, null in categories %}
-    &lt;span class="nt"&gt;&amp;lt;li&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;list-group-item&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;{{ SITEURL }}/{{ cat.url }}&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-            &lt;span class="nt"&gt;&amp;lt;i&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-folder-open icon-large&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;{{ cat }}
-        &lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-        &lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;{{ SITEURL }}/feeds/{{ cat }}.atom.xml&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
-            &lt;span class="nt"&gt;&amp;lt;i&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-rss-sign&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
-        &lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    &lt;span class="nt"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;list-group-item&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;{{ SITEURL }}/{{ cat.url }}&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-folder-open icon-large&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;{{ cat }}
+        &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;{{ SITEURL }}/feeds/{{ cat }}.atom.xml&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-rss-sign&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 {% endfor %}
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -55121,7 +55402,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;p&gt;即好!&lt;/p&gt;
 &lt;h3&gt;TOC&lt;/h3&gt;
 &lt;p&gt;是的,以往 rST/t2t 时,甚至于 Word 时都有的 &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;TOC&lt;/span&gt; &lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="err"&gt;章节索引&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;TOC ~ 章节索引
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -56277,8 +56558,8 @@ are are popular algorithm for tackling complex prediction problems. In this post
 &lt;ul&gt;
 &lt;li&gt;1311?? &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; 用时42分钟完成翻译.&lt;/li&gt;
 &lt;/ul&gt;</content><category term="Weekly"></category><category term="Pycoder"></category><category term="Zh"></category></entry><entry><title>Issue 87 ~ 感谢贡献</title><link href="http://weekly.pychina.org/issue/issue-87.html" rel="alternate"></link><published>2013-10-11T00:00:00+08:00</published><updated>2013-10-11T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2013-10-11:/issue/issue-87.html</id><summary type="html">&lt;h2&gt;Hi Pythonistas!&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Happy&lt;/span&gt; &lt;span class="n"&gt;Thanksgiving&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt; &lt;span class="n"&gt;our&lt;/span&gt; &lt;span class="n"&gt;Canadian&lt;/span&gt; &lt;span class="n"&gt;readers&lt;/span&gt; &lt;span class="n"&gt;who&lt;/span&gt; &lt;span class="n"&gt;will&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;celebrating&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt; &lt;span class="n"&gt;coming&lt;/span&gt; &lt;span class="n"&gt;weekend&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; 
-&lt;span class="n"&gt;We&lt;/span&gt; &lt;span class="n"&gt;have&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;great&lt;/span&gt; &lt;span class="n"&gt;issue&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt; &lt;span class="n"&gt;week&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;get&lt;/span&gt; &lt;span class="n"&gt;you&lt;/span&gt; &lt;span class="n"&gt;ready&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;weekend&lt;/span&gt; &lt;span class="n"&gt;whether&lt;/span&gt; &lt;span class="n"&gt;it&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;holiday&lt;/span&gt; &lt;span class="n"&gt;weekend&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;you&lt;/span&gt; &lt;span class="n"&gt;or&lt;/span&gt; &lt;span class="n"&gt;not&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Happy Thanksgiving to all our Canadian readers who will be celebrating this coming weekend. 
+We have a great issue this week to get you ready for the weekend whether it is a holiday weekend for you or not.
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -56289,8 +56570,8 @@ are are popular algorithm for tackling complex prediction problems. In this post
 支持俺们吧!&lt;/p&gt;
 &lt;p&gt;--
 &lt;a href="https://twitter.com/#!/myusuf3"&gt;Mahdi&lt;/a&gt; and &lt;a href="https://twitter.com/#!/mgrouchy"&gt;Mike …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Hi Pythonistas!&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Happy&lt;/span&gt; &lt;span class="n"&gt;Thanksgiving&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt; &lt;span class="n"&gt;our&lt;/span&gt; &lt;span class="n"&gt;Canadian&lt;/span&gt; &lt;span class="n"&gt;readers&lt;/span&gt; &lt;span class="n"&gt;who&lt;/span&gt; &lt;span class="n"&gt;will&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;celebrating&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt; &lt;span class="n"&gt;coming&lt;/span&gt; &lt;span class="n"&gt;weekend&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; 
-&lt;span class="n"&gt;We&lt;/span&gt; &lt;span class="n"&gt;have&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;great&lt;/span&gt; &lt;span class="n"&gt;issue&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt; &lt;span class="n"&gt;week&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;get&lt;/span&gt; &lt;span class="n"&gt;you&lt;/span&gt; &lt;span class="n"&gt;ready&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;weekend&lt;/span&gt; &lt;span class="n"&gt;whether&lt;/span&gt; &lt;span class="n"&gt;it&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;holiday&lt;/span&gt; &lt;span class="n"&gt;weekend&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;you&lt;/span&gt; &lt;span class="n"&gt;or&lt;/span&gt; &lt;span class="n"&gt;not&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Happy Thanksgiving to all our Canadian readers who will be celebrating this coming weekend. 
+We have a great issue this week to get you ready for the weekend whether it is a holiday weekend for you or not.
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -56771,9 +57052,9 @@ Chroma是一个很棒的 beets 插件, 它用类似Shazam的原理从你的音�
 &lt;p&gt;亲,&lt;/p&gt;
 &lt;p&gt;上周蟒社区有个坏消息. &lt;a href="http://matplotlib.sourceforge.net/"&gt;Matplotlib&lt;/a&gt;的作者, &lt;a href="http://numfocus.org/"&gt;NumFOCUS&lt;/a&gt;创始董事会成员, John Hunter去世了. NumFOCUS创立了&lt;a href="http://numfocus.org/johnhunter./"&gt;John Hunter 纪念基金&lt;/a&gt;来帮助支付其子女的教育开支. 你可以通过这个&lt;a href="http://numfocus.org/johnhunter./"&gt;站点&lt;/a&gt;来进行捐助.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -56783,14 +57064,14 @@ Chroma是一个很棒的 beets 插件, 它用类似Shazam的原理从你的音�
 &lt;a href="https://twitter.com/#!/myusuf3"&gt;Mahdi&lt;/a&gt; and &lt;a href="https://twitter.com/#!/mgrouchy"&gt;Mike&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;新闻&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://groups.google.com/forum/?fromgroups=#!topic/comp.lang.python/rF6eG-NB_9w"&gt;Python 3.3.0 release candidate …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/?fromgroups=#!topic/comp.lang.python/rF6eG-NB_9w"&gt;Python 3.3.0 release candidate 1 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
 &lt;h2&gt;搜罗Py万物 的周刊&lt;/h2&gt;
 &lt;p&gt;亲,&lt;/p&gt;
 &lt;p&gt;上周蟒社区有个坏消息. &lt;a href="http://matplotlib.sourceforge.net/"&gt;Matplotlib&lt;/a&gt;的作者, &lt;a href="http://numfocus.org/"&gt;NumFOCUS&lt;/a&gt;创始董事会成员, John Hunter去世了. NumFOCUS创立了&lt;a href="http://numfocus.org/johnhunter./"&gt;John Hunter 纪念基金&lt;/a&gt;来帮助支付其子女的教育开支. 你可以通过这个&lt;a href="http://numfocus.org/johnhunter./"&gt;站点&lt;/a&gt;来进行捐助.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -56897,9 +57178,9 @@ Chroma是一个很棒的 beets 插件, 它用类似Shazam的原理从你的音�
 我们非常开心看到有这么多超赞的事情发生在Python社区中.
 和往常一样, 如果你写了有趣的文章或者代码, &lt;a href="admin@pycoders.com"&gt;联系我们吧&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -56915,16 +57196,16 @@ Chroma是一个很棒的 beets 插件, 它用类似Shazam的原理从你的音�
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://aws.typepad.com/aws/2012/08/announcing-aws-elastic-beanstalk-support-for-python-and-seamless-database-integration.html"&gt;AWS Elastic Beanstalk现已支持Python&lt;/a&gt; (typepad.com)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;蟒行者们 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
+&lt;p&gt;蟒行者们, "扩展Web应用 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
 &lt;h2&gt;搜罗Py万物 的周刊&lt;/h2&gt;
 &lt;p&gt;亲,&lt;/p&gt;
 &lt;p&gt;我们又用海量的新闻和各种项目填满了本期周报!
 我们非常开心看到有这么多超赞的事情发生在Python社区中.
 和往常一样, 如果你写了有趣的文章或者代码, &lt;a href="admin@pycoders.com"&gt;联系我们吧&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57019,9 +57300,9 @@ function-calls-in-python/"&gt;在Python中轻松追踪嵌套函数调用&lt;/a&g
 &lt;p&gt;在加拿大买了Tee的朋友们, 不要急. 衣服本周已经龟速上路了.&lt;/p&gt;
 &lt;p&gt;这期的内容异常丰富, 巨多应该参加的聚会. 选一个, 去吧.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57033,15 +57314,16 @@ function-calls-in-python/"&gt;在Python中轻松追踪嵌套函数调用&lt;/a&g
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.pytexas.org/2012/"&gt;PyTexas 2012&lt;/a&gt; (pytexas.org)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;9月15 - 16号有安排吗? 没有. 好. 为什么不来&lt;a href="http://www.pytexas.org/chance/1/register/"&gt;这里&lt;/a&gt;玩玩 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
+&lt;p&gt;9月15 - 16号有安排吗? 没有. 好. 为什么不来&lt;a href="http://www.pytexas.org/chance/1/register/"&gt;这里&lt;/a&gt;玩玩?
+或更进一步 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
 &lt;h2&gt;搜罗Python 万物的周刊&lt;/h2&gt;
 &lt;p&gt;亲们,&lt;/p&gt;
 &lt;p&gt;在加拿大买了Tee的朋友们, 不要急. 衣服本周已经龟速上路了.&lt;/p&gt;
 &lt;p&gt;这期的内容异常丰富, 巨多应该参加的聚会. 选一个, 去吧.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57144,9 +57426,9 @@ Monner监控网络和内存的使用情况. 分页输出报表更清晰!&lt;/p&g
 &lt;p&gt;亲们,&lt;/p&gt;
 &lt;p&gt;看到这么多人穿着Tee恤的照片, 真是激动万分哪. 本期包含成吨的内容, 感谢投稿的蟒行者们! 接下去也请继续猛砸稿件吧.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57161,14 +57443,14 @@ Monner监控网络和内存的使用情况. 分页输出报表更清晰!&lt;/p&g
 &lt;p&gt;对所有加拿大人(还有我们!)来说, 这真是一个好消息.
 加拿大PyCon将带着所有PyCon的优良传统于11月9日-11日在多伦多举办. 还不去搞票!&lt;/p&gt;
 &lt;p&gt;加拿大PyCon正在寻找各式有经验想法的演讲嘉宾. 想要分享知识或是展示一下自己作品的同学, 这可是个千载难逢的好机会.
-如果你是演讲新手 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
+如果你是演讲新手, 你面对的将是一群友好的听众 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
 &lt;h2&gt;搜罗Python 万物的周刊&lt;/h2&gt;
 &lt;p&gt;亲们,&lt;/p&gt;
 &lt;p&gt;看到这么多人穿着Tee恤的照片, 真是激动万分哪. 本期包含成吨的内容, 感谢投稿的蟒行者们! 接下去也请继续猛砸稿件吧.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57258,9 +57540,9 @@ Bitey有你一切想要的. David Beazley 善意提醒, bitey可是双刃剑. �
 &lt;p&gt;在这里想向大家征集项目和文章的投稿.
 如果你写了文章或是精彩的项目想让我们知道的, 回复这封邮件或是在Twitter上@一下呗!&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57272,16 +57554,16 @@ Bitey有你一切想要的. David Beazley 善意提醒, bitey可是双刃剑. �
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://toastdriven.com/blog/2012/jul/31/announcing-django-dash-2012/"&gt;Django Dash 2012预告&lt;/a&gt; (toastdriven.com)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;又到了这个时间! 准备好了吗? 是时候带上你的咖啡, 红牛还有必胜的决心, 在今年的Django Dash上掀起一阵代码风暴了. 比赛将于8月18至19日举办 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
+&lt;p&gt;又到了这个时间! 准备好了吗? 是时候带上你的咖啡, 红牛还有必胜的决心, 在今年的Django Dash上掀起一阵代码风暴了. 比赛将于8月18至19日举办, 8月4号起开放注册 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
 &lt;h2&gt;搜罗Python 万物的周刊&lt;/h2&gt;
 &lt;p&gt;亲们,&lt;/p&gt;
 &lt;p&gt;我们做到了第25期, 感谢大家一路的支持!&lt;/p&gt;
 &lt;p&gt;在这里想向大家征集项目和文章的投稿.
 如果你写了文章或是精彩的项目想让我们知道的, 回复这封邮件或是在Twitter上@一下呗!&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57390,9 +57672,9 @@ Postmates 是我们的第一个赞助商,
 还令我们能继续使用 mailchimp.&lt;/p&gt;
 &lt;p&gt;如果你有兴趣赞助周刊请联系我们.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57512,9 +57794,9 @@ Postmates 是我们的第一个赞助商,
 还令我们能继续使用 mailchimp.&lt;/p&gt;
 &lt;p&gt;如果你有兴趣赞助周刊请联系我们.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57627,9 +57909,9 @@ Postmates 是我们的第一个赞助商,
 还令我们能继续使用 mailchimp.&lt;/p&gt;
 &lt;p&gt;如果你有兴趣赞助周刊请联系我们.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57739,9 +58021,9 @@ Postmates 是我们的第一个赞助商,
 还令我们能继续使用 mailchimp.&lt;/p&gt;
 &lt;p&gt;如果你有兴趣赞助周刊请联系我们.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57840,9 +58122,9 @@ Postmates 是我们的第一个赞助商,
 还令我们能继续使用 mailchimp.&lt;/p&gt;
 &lt;p&gt;如果你有兴趣赞助周刊请联系我们.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -57942,9 +58224,9 @@ Postmates 是我们的第一个赞助商,
 还令我们能继续使用 mailchimp.&lt;/p&gt;
 &lt;p&gt;如果你有兴趣赞助周刊请联系我们.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -58045,9 +58327,9 @@ Postmates 是我们的第一个赞助商,
 还令我们能继续使用 mailchimp.&lt;/p&gt;
 &lt;p&gt;如果你有兴趣赞助周刊请联系我们.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -58144,9 +58426,9 @@ Postmates 是我们的第一个赞助商,
 还令我们能继续使用 mailchimp.&lt;/p&gt;
 &lt;p&gt;如果你有兴趣赞助周刊请联系我们.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -58157,7 +58439,7 @@ Postmates 是我们的第一个赞助商,
 &lt;p&gt;原文: &lt;a href="http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&amp;amp;id=c6a7817c9b"&gt;Pycoder's Weekly (Issue #17) : Now is better than never.&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;新闻与开发动态&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://groups.google.com/group/django-users/browse_thread/thread/e7f55c29b203e75e"&gt;Mezzanine …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Hi Pythonistas.&lt;/h1&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/group/django-users/browse_thread/thread/e7f55c29b203e75e"&gt;Mezzanine 1 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Hi Pythonistas.&lt;/h1&gt;
 &lt;p&gt;贴纸已经抵达, 我们将在下周向所有联系过我们的人发送.&lt;/p&gt;
 &lt;p&gt;我们还在寻找新的赞助商.
 Postmates 是我们的第一个赞助商,
@@ -58165,9 +58447,9 @@ Postmates 是我们的第一个赞助商,
 还令我们能继续使用 mailchimp.&lt;/p&gt;
 &lt;p&gt;如果你有兴趣赞助周刊请联系我们.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
+Ottawa, Ontario Canada
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -58284,11 +58566,11 @@ Ned 则真正勾画出它是多么危险的,
 &lt;li&gt;131216 &lt;a href="http://zoomquiet.org/"&gt;Zoom.Quiet&lt;/a&gt; 用时 7 分钟 完成格式转抄.&lt;/li&gt;
 &lt;/ul&gt;</content><category term="Weekly"></category><category term="Pycoder"></category><category term="Zh"></category></entry><entry><title>Issue 16 ~ 规则胜于特例</title><link href="http://weekly.pychina.org/issue/issue-16.html" rel="alternate"></link><published>2012-06-01T00:00:00+08:00</published><updated>2012-06-01T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2012-06-01:/issue/issue-16.html</id><summary type="html">&lt;h1&gt;Hi Pythonistas.&lt;/h1&gt;
 &lt;p&gt;本周的新闻并不是很多,不过贴纸的事情倒是有很多要说的,我们这星期会收到新设计的贴纸,所以赶快给我们寄来回邮吧,我们的地址是:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
 
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
+Ottawa, Ontario Canada
 
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -58302,13 +58584,13 @@ Ned 则真正勾画出它是多么危险的,
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="http://www.kickstarter.com/projects/ibdknox/light-table?ref=users"&gt;Light Table&lt;/a&gt;
-虽然这个东西在之前的邮件中已经说过了 …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Hi Pythonistas.&lt;/h1&gt;
+虽然这个东西在之前的邮件中已经说过了,但是现在还是有必要再说一下 …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Hi Pythonistas.&lt;/h1&gt;
 &lt;p&gt;本周的新闻并不是很多,不过贴纸的事情倒是有很多要说的,我们这星期会收到新设计的贴纸,所以赶快给我们寄来回邮吧,我们的地址是:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;44 Byward Market Square, Suite 210
 
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
+Ottawa, Ontario Canada
 
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
+K1P 7A2
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -59273,7 +59555,7 @@ Brewery 是个进行数据分析/审计的Python 框架.
 &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;
 如果你还不明白当期标题的含义,
 进入命令行输入 &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python -m this
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -59303,7 +59585,7 @@ Brewery 是个进行数据分析/审计的Python 框架.
 &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;
 如果你还不明白当期标题的含义,
 进入命令行输入 &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python -m this
 &lt;/pre&gt;&lt;/div&gt;
 
 
