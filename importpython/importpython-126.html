@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <title>蠎加载 126
+        |蠎周刊
+        |汇集全球蠎事儿 !-) </title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph tags -->
+
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="蠎加载 126"/>
+            <meta property="og:url" content="http://weekly.pychina.org/importpython/importpython-126.html"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 126 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... PyCon 2017 视频已经在 YouTube pyconus, pycon Videos of the just concluded Pycon US 2017. (是也乎: 准备和 UPYUN 合作批量搬迁到国内... ) 如何获得 PyPI 下载状态? bigquery, pipy This is a short post on …"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://weekly.pychina.org/theme/css/bootstrap.readable.min.css" type="text/css"/>
+    <link href="http://weekly.pychina.org/theme/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://weekly.pychina.org/theme/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="http://weekly.pychina.org/theme/css/pygments/github.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://weekly.pychina.org/theme/css/style.css" type="text/css"/>
+
+<style type="text/css">
+
+#article-content li {
+    list-style: none;
+    margin: 2em 0em 0em -1em;
+}
+#article-content li a{
+    font-size: 120%;
+    background-color: #555;
+    color: #efe;
+}
+
+</style>
+
+        <link href="http://weekly.pychina.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="蠎周刊 ATOM Feed"/>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--
+<a href="http://weekly.pychina.org" class="navbar-brand">蠎周刊</a>
+            -->
+<a href="http://weekly.pychina.org" class="navbar-brand">
+    <img src="http://weekly.pychina.org/theme/logo.png"/>
+    蠎周刊
+    <span class="violet-site">pycoder's weekly 中译版 </span>
+</a>            
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="http://zoomquiet.io">Zoom.Quiet</a></li>
+                    <li><a href="http://pychina.org">PyChina</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://weekly.pychina.org/archives.html"><i class="icon-th-list"></i>Archives</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+<!-- /.navbar -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://weekly.pychina.org/importpython/importpython-126.html"
+                       rel="bookmark"
+                       title="Permalink to 蠎加载 126">
+                        蠎加载 126
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+<div id="article-content">
+                <p><img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"></p>
+<ul>
+<li>原文: <a href="http://importpython.com/newsletter/no/126/">Import Python Weekly Newsletter - Issue No 126</a></li>
+<li>欢迎, <strong>来 <a href="https://github.com/PyChina/weekly">PyChina/weekly</a> 共同翻译/增订/推荐 周刊 蠎消息 ;-)</strong></li>
+</ul>
+<h2>该读</h2>
+<p>~ 文章, Blog, 教程...</p>
+<ul>
+<li><a href="https://www.youtube.com/channel/UCrJhliKNQ8g0qoE_zvL8eVg/feed">PyCon 2017 视频已经在 YouTube</a><ul>
+<li>pyconus, pycon</li>
+</ul>
+</li>
+</ul>
+<p>Videos of the just concluded Pycon US 2017.</p>
+<p>(<code>是也乎:</code></p>
+<p>准备和 UPYUN 合作批量搬迁到国内...
+)</p>
+<ul>
+<li><a href="https://kirankoduru.github.io/python/pypi-stats.html">如何获得 PyPI 下载状态?</a><ul>
+<li>bigquery, pipy</li>
+</ul>
+</li>
+</ul>
+<p>This is a short post on how to get download statistics about any package from PyPI. Though there have been efforts in that direction from sites like pypi ranking but this post finds a better solution. Google has been generous enough to donate it’s Big Query capacity to the Python Software Foundation. You can access the pypi downloads table through the Big Query console. I ran a sample query to find out how my personal package arachne has been doing on PyPI.</p>
+<p>(<code>是也乎:</code></p>
+<p>Google Big Query 已经监控了...</p>
+<p><img alt="bigquery" src="https://kirankoduru.github.io/img/bigquery.jpg"></p>
+<p>)</p>
+<ul>
+<li><a href="http://agiliq.com/blog/2017/05/introduction-sqlalchemy/">SQLAlchemy 简介 - Agiliq Blog</a><ul>
+<li>SQLAlchemy</li>
+</ul>
+</li>
+</ul>
+<p>The breadth of SQLAlchemy’s SQL rendering engine, DBAPI integration, transaction integration, and schema description services are documented here. In contrast to the ORM’s domain-centric mode of usage, the SQL Expression Language provides a schema-centric usage paradigm.</p>
+<p>(<code>是也乎:</code></p>
+<p>无数种草文又一则
+)</p>
+<ul>
+<li><a href="https://dbader.org/blog/meaning-of-underscores-in-python#.">The Meaning of Underscores in Python</a><ul>
+<li>core-python</li>
+</ul>
+</li>
+</ul>
+<p>The various meanings and naming conventions around single and double underscores (“dunder”) in Python, how name mangling works and how it affects your own Python classes.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="underscores" src="https://dbader.org/blog/figures/python-underscores.png">
+)</p>
+<ul>
+<li><a href="https://medium.com/@glyif/python-the-thing-good-objects-come-in-a59d37402928">Python: 好物 Objects 来袭</a><ul>
+<li>PyObject</li>
+</ul>
+</li>
+</ul>
+<p>In Python, all object types inherit from one master object, declared as PyObject . This master object has all of the information Python needs to process a pointer to an object as an actual object.</p>
+<ul>
+<li><a href="https://medium.com/@priyankar/debugging-an-inactive-python-process-2b11f88730c7">调试一个安静的 Python 进程</a><ul>
+<li>debugging</li>
+</ul>
+</li>
+</ul>
+<p>So we had a production case for months together, where the python process was stuck for indefinitely long time (even days) with absolutely zero activity but the process was listed as active and running by linux. A restart would fix the problem (as always) and the job would be live and kicking. Finally after sometime, I have found the root cause, so I thought I would share it. For the purpose of the blog I’m going to simulate the behavior of my application in a sample python script.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="qAMYuML_sI5WBuBI91_EEg" src="https://cdn-images-1.medium.com/max/720/1*qAMYuML_sI5WBuBI91_EEg.jpeg"></p>
+<p>其实就是一个长期运行的 py 进程的调试技巧,
+尝试模拟来激发bug...</p>
+<p>最后还是回到了 GDB</p>
+<p>)</p>
+<ul>
+<li><a href="https://duo.com/blog/driving-headless-chrome-with-python">用 Python 驱动 Headless Chrome</a><ul>
+<li>chromium, headless</li>
+</ul>
+</li>
+</ul>
+<p>Back in April, Google announced that it will be shipping Headless Chrome in Chrome 59. Since the respective flags are already available on Chrome Canary, the Duo Labs team thought it would be fun to test things out and also provide a brief introduction to driving Chrome using Selenium and Python.</p>
+<p>(<code>是也乎:</code></p>
+<p>太应景了...只是用 selenium 来调, 肥了点儿?
+)</p>
+<ul>
+<li><a href="https://medium.com/wemake-services/generating-mock-data-using-elizabeth-part-i-ca5a55b8027c">用 Elizabeth 生成 mock 数据: Part I</a><ul>
+<li>mock</li>
+</ul>
+</li>
+</ul>
+<p>Elizabeth is a Python library, which helps generate mock data for various purposes. The library was written with the use of tools from the standard Python library, and therefore, it doesn’t have any side dependencies. Currently the library supports 30 languages and 19 class providers, supplying various data.</p>
+<ul>
+<li><a href="https://www.python-boilerplate.com/">Python 3 boilerplate</a><ul>
+<li>boilerplate</li>
+</ul>
+</li>
+</ul>
+<p>Python-boilerplate.com is a collection of Python boilerplates for getting started quickly and right-footed.</p>
+<ul>
+<li>
+<p><a href="http://www.datasciencecentral.com/profiles/blogs/how-do-i-compare-document-similarity-using-python">如何用 Python 计算文档相似度?</a></p>
+<ul>
+<li>gensim</li>
+</ul>
+</li>
+<li>
+<p><a href="http://www.blackarbs.com/blog/how-to-scrape-and-parse-600-etf-options-in-10-mins-with-python-and-asyncio/5/18/2017">用 Python + Asyncio 和 Scrape 以及 Parse 达到 600个/10分钟 的 ETF 分析速度</a></p>
+<ul>
+<li>scraping</li>
+</ul>
+</li>
+<li>
+<p><a href="https://medium.com/@spnichol/tutorial-asynchronous-speech-recognition-in-python-b1215d501c64">教程: 用 Python 进行异步语音识别</a></p>
+<ul>
+<li>speech recognition</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>用的 google 接口, 其实讯飞的也足够了
+)</p>
+<ul>
+<li><a href="http://pyconjp.blogspot.in/2017/05/call-for-poster-proposal-en.html">PyCon JP Blog: PyCon JP 2017 开始接收 Poster-Session Proposals</a><ul>
+<li>pyconjp</li>
+</ul>
+</li>
+</ul>
+<p>PyCon JP 2017 is Now Accepting Poster-Session Proposals! PyCon JP 2017 is a perfect opportunity to connect with a wide range of people. Poster sessions allow you to make the most of that opportunity.</p>
+<ul>
+<li>
+<p><a href="https://www.wordfugue.com/thoughts-pycon-2017-day-1/">PyCon 2017 头天感想</a></p>
+<ul>
+<li>pycon</li>
+</ul>
+</li>
+<li>
+<p><a href="https://python-3-patterns-idioms-test.readthedocs.io/en/latest/index.html">Python 3 Patterns, Recipes and Idioms — Python 3 Patterns, Recipes and Idioms</a></p>
+<ul>
+<li>idioms</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p><img alt="Idioms.py3" src="https://python-3-patterns-idioms-test.readthedocs.io/en/latest/_static/cover.png"></p>
+<p>完整的一木书了...
+Bruce Eckel &lt;-- 专门写 Think in * 的大仙,
+当年 Tink in Java 看的是欲仙欲死...</p>
+<p>~ <a href="http://mindview.net/Books/books.html">Bruce Eckel's MindView, Inc: Books by Bruce Eckel</a>
+对了, 唯一太监的就是 <code>Think in Python</code>
+)</p>
+<ul>
+<li><a href="https://medium.com/@paysonwallach/roll-your-own-python-ide-e901ffd422e9">嗯哼你的 Python IDE</a><ul>
+<li>atom</li>
+</ul>
+</li>
+</ul>
+<p>Using Atom IDE.</p>
+<p>(<code>是也乎:</code></p>
+<p>VScode vs Atom vs others
+)</p>
+<ul>
+<li><a href="https://medium.com/python-pandemonium/global-variables-arent-global-in-python-c8936bb31f23">Global 变量在 Python 并不是全局的</a><ul>
+<li>core-python, global</li>
+</ul>
+</li>
+</ul>
+<p>Python uses global to reference to module-global variables. There are no program-global variables in Python.</p>
+<p>(<code>是也乎:</code></p>
+<p>模块全局,不是程序全局, 真正的全局变量,
+在移动互联网时代,只能是第三方广播服务了
+)</p>
+<ul>
+<li>
+<p><a href="https://medium.com/@valeria.rozenbaum/mastering-technical-interviews-the-unique-characters-problem-588be78be236">大师访谈: The Unique Characters Problem</a></p>
+<ul>
+<li>interview</li>
+</ul>
+</li>
+<li>
+<p><a href="https://davidwalsh.name/hashin">获得 Python Requirements Package Hashes</a></p>
+<ul>
+<li>pip, nodejs, requirement.txt</li>
+</ul>
+</li>
+</ul>
+<p>Python's (pip's) requirements.txt file is the equivalent to package.json in the JavaScript / Node.js world.  This requirements.txt file isn't as pretty as package.json but it not only defines a version but goes a step further, providing a sha hash to compare against to ensure package integrity:</p>
+<h2>好物</h2>
+<p>~ 包/模块/库/片段...</p>
+<ul>
+<li><a href="https://github.com/openai/baselines">baselines</a><ul>
+<li>241 Stars, 28 Fork</li>
+</ul>
+</li>
+</ul>
+<p>OpenAI Baselines: high-quality implementations of reinforcement learning algorithms</p>
+<ul>
+<li><a href="https://github.com/toji/semilive">semilive</a><ul>
+<li>92 Stars, 3 Fork</li>
+</ul>
+</li>
+</ul>
+<p>A Sublime Text plugin for "Live" coding</p>
+<p>(<code>是也乎:</code></p>
+<p>实时编码...
+)</p>
+<ul>
+<li><a href="https://github.com/shivammathur/IPpy">IPpy</a><ul>
+<li>41 Stars, 3 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Parallel testing of IP addresses and domains in python</p>
+<p>(<code>是也乎:</code></p>
+<p>面向网络事件的平行测试</p>
+<p><img alt="IPpy" src="https://camo.githubusercontent.com/827abcc204730d8a40434ae7fe5796883c3bae32/68747470733a2f2f73686976616d6d61746875722e636f6d2f495070792e706e67"></p>
+<p>基于 tox 组织...
+)</p>
+<ul>
+<li><a href="https://github.com/nikhilkumarsingh/content-downloader">content-downloader</a><ul>
+<li>30 Stars, 10 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Python package to download files on any topic in bulk.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="content" src="https://camo.githubusercontent.com/74b0884faaebae6d08d93c27e0434809eb365f20/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f4b49506c7437415048715775566c33712f67697068792e676966"></p>
+<p>嚓....当然的, 国内无法使用...
+)</p>
+<ul>
+<li><a href="https://github.com/creatorYC/v2ex-terminal">v2ex-terminal</a><ul>
+<li>27 Stars, 1 Fork</li>
+</ul>
+</li>
+</ul>
+<p>browse v2ex by a terminal</p>
+<p>(<code>是也乎:</code></p>
+<p>CLI 的魔爪终于摸到了 V2EX,
+基本上没有 CLI 界面的服务/网站,都不算真正的程序猿社区...</p>
+<p>所以, CPyUG 一直是个纯粹的程序猿社区,因为只有一个 mailling-list 在长年服务</p>
+<p><img alt="v2ex" src="https://github.com/creatorYC/v2ex-terminal/raw/master/images/start.PNG"></p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/dahlia/logging-spinner">logging-spinner</a><ul>
+<li>17 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Display spinners (in CLI) through Python standard logging.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="spinner" src="https://github.com/dahlia/logging-spinner/raw/master/sample.gif"></p>
+<p>值得体验</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/awslabs/aws-batch-genomics">aws-batch-genomics</a><ul>
+<li>14 Stars, 4 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Software sets up and runs an genome sequencing analysis workflow using AWS Batch and AWS Step Functions.</p>
+<ul>
+<li><a href="https://github.com/musamasiddiqui/twitter-bot">twitter-bot</a><ul>
+<li>5 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Python Bot that Tweets quote and like Tweets.</p>
+<ul>
+<li><a href="https://github.com/voidfiles/jsonfeedvalidator">jsonfeedvalidator</a><ul>
+<li>4 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>JSON Feed Validator</p>
+<ul>
+<li><a href="https://github.com/hatnote/handcart">handcart</a><ul>
+<li>3 Stars, 1 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Command-line tools for project-oriented, human-sized Wikidata import</p>
+<ul>
+<li><a href="https://github.com/mathiasbc/slacky">slacky</a><ul>
+<li>0 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Slack client on the terminal with a GUI.This is a weekend project that started for me as a way to learn how to write old style command line interfaces. Slack is a tool a lot of programmers use today so I thought a lot of you would have interest in contributing to this effor. </p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="slacky" src="https://github.com/mathiasbc/slacky/raw/master/img/slacky.jpg"></p>
+<p>Dos 时代是一个回不去的时代...</p>
+<p>)</p>
+<h3>(￣▽￣)</h3>
+<ul>
+<li><a href="https://github.com/tankywoo/simiki">tankywoo/simiki</a><ul>
+<li>657 Stars, 95 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Simiki is a simple wiki framework, written in Python.</p>
+<p>(<code>是也乎:</code></p>
+<p>知道创宇 成员私人作品 md 的静态维基
+)</p>
+<h1>是也乎</h1>
+<ul>
+<li>170526 <a href="http://zoomquiet.io">Zoom.Quiet</a> 42 分钟完成快译</li>
+<li>170526 <a href="http://zoomquiet.io">Zoom.Quiet</a> 用时 7 分钟完成格式化.</li>
+</ul>
+</div>
+
+
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+<!--
+    <span class="label label-default">Date</span>
+-->
+    <span class="published">
+        <i class="icon-calendar"></i>2017-05-26 11:42
+    </span>
+
+
+    <span class="label">By</span>
+    <i class="icon-user"></i><a href="http://weekly.pychina.org/author/zoomquiet.html">Zoom.Quiet</a>
+
+    <span class="label label-default">Category</span>
+    <a href="http://weekly.pychina.org/importpython/index.html">importpython</a>
+
+
+
+	<span class="label label-default">Tags</span>
+		<a href="http://weekly.pychina.org/tag/weekly.html">Weekly</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/importpython.html">ImportPython</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/zh.html">Zh</a>
+</footer><!-- /.post-info -->                    </div>
+                </div>
+
+            </div>
+            <!-- /.entry-content -->
+    <hr />
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+            var disqus_identifier = 'importpython/17-05-26-importpython-126';
+            var disqus_url = 'http://weekly.pychina.org/importpython/importpython-126.html';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
+
+
+        </div>
+        <div class="col-lg-3 well well-sm" id="sidebar">
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><h4><i class="icon-comment icon-large"></i>Social</h4></li>
+                    <li class="list-group-item"><a href="https://gitcafe.com/CPyUG/weekly"><i
+                            class="icon-gitcafe-sign icon-large"></i>gitcafe
+                    </a></li>
+                    <li class="list-group-item"><a href="http://weekly.pychina.org/feeds/all.atom.xml"><i
+                            class="icon-rss-sign icon-large"></i>rss
+                    </a></li>
+                    <li class="list-group-item"><a href="https://gitcafe.com/CPyUG"><i
+                            class="icon-CPyUG-sign icon-large"></i>CPyUG
+                    </a></li>
+                    <li class="list-group-item"><a href="http://wiki.pychina.org"><i
+                            class="icon-Wiki-sign icon-large"></i>Wiki
+                    </a></li>
+                    <li class="list-group-item"><a href="http://weibo.com/openbookproject"><i
+                            class="icon-O.B.P-sign icon-large"></i>O.B.P
+                    </a></li>
+                    <li class="list-group-item"><a href="http://weibo.com/pyconcn"><i
+                            class="icon-weibo-sign icon-large"></i>weibo
+                    </a></li>
+                    <li class="list-group-item"><a href="http://wiki.woodpecker.org.cn/moin/CPUG"><i
+                            class="icon-啄木鸟-sign icon-large"></i>啄木鸟
+                    </a></li>
+
+
+            <li class="list-group-item"><h4>
+                <i class="icon-th icon-large"></i>Categories</h4></li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/author/index.html">
+                        <i class="icon-folder-open icon-large"></i>Author
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/author.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/chaos/index.html">
+                        <i class="icon-folder-open icon-large"></i>Chaos
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/chaos.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/importpython/index.html">
+                        <i class="icon-folder-open icon-large"></i>importpython
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/importpython.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/issue/index.html">
+                        <i class="icon-folder-open icon-large"></i>Issue
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/issue.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/pgweekly/index.html">
+                        <i class="icon-folder-open icon-large"></i>PgWeekly
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/pgweekly.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+
+            <li class="list-group-item"><a href="http://weekly.pychina.org/tags.html"><h4><i class="icon-tags icon-large"></i>Tags</h4></a></li>
+        </ul>
+    </section>
+<section>
+<ul class="list-group-zip">
+    <li class="list-group-item">
+        <h4><i class="icon-tint icon-large"></i>Powerded By</h4></li>
+
+    <li class="list-group-item-zip">
+    已由
+        <a href="http://qiniu.com/">
+        <img src="http://docs.upyun.com/img/upyun_logo.png">
+        </a>
+    提供CDN及云存储服务
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href="http://docs.getpelican.com">
+            Pelican
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <sup>theme base</sup>
+        <a href="https://github.com/DandyDev/pelican-bootstrap3">
+             DandyDev
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href="http://www.python.org/">
+            Python
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href="http://www.inkscape.org/">
+            inkscape
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href="http://git-scm.com/">
+            Git
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href="https://gitcafe.com/CPyUG">
+            GitCafe
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href="http://www.qiniu.com/about">
+            七牛
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href='http://www.catb.org/hacker-emblem/'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAIAAAD8q9/YAAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVR4nOWWMYqDQBSGBa1jEbxFwEKwM6VV8AIWWkis9RI5Q1JpYWGb0jLpBDtrc4BgkQMI+y+yQ3BmdBJiNsv+kOHNZJT3+X6fo2y3W+k/ScFvv9//dhpvUhiGisi+uq6zLHNdd7VaTd7xFYnNor6uQsCO41wulzzPm6aZOavZJQSsaRqAMc6dzRskBFwUxfl8tizroVvDQr3DSSD9+Ore+YMV+irSYpjTRyUErKrqZrNBcLvdbNu+Xq/H43HyfabFhKEfCj0dsDEvEZQQMBHqXJYlAvSw3W43uZ/u/7wvwgitxHKBNGuFieBq0zRRYXRskf0DEzJXet1DIpis8NOf0jHg0+kEM+u6Dif37zCmh8MB0yf8zBRJnYk0UlL6oQiKC5ymqe/7sixXVYXTGJyM2oLWMIyu65Ik8TxvEmYykDjvJ2/zyLqguMBt22IEG+oJDyPGiBgr5N+/KC5wEAQYl8vler1GTyYnLdQWtFEUvTHJV4oLvFgs4jjuY3CSnjzu5M8/ln8Df/IB+OX6Ah776L1W8pWtAAAAAElFTkSuQmCC"/>
+        </a>
+    </li>
+
+
+    <li class="list-group-item-zip">
+        <a href="http://zh.wikipedia.org/zh-cn/UTF-8">
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAICAgICAgICAgICAgICAwMDAgIDAwQDAwMDAwQFBAQEBAQEBQUGBgcGBgUHBwgIBwcKCgoKCgoKCgoKCgoKCgr/2wBDAQMDAwQDBAcFBQcLCQcJCwwLCwsLDAwKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/wAARCAAPAEkDAREAAhEBAxEB/8QAGgAAAQUBAAAAAAAAAAAAAAAABwAEBQYJA//EACsQAAAGAQMDAwQDAQAAAAAAAAECAwQFBgcIEhMRFBUAFhchIiQxGDJCRP/EABwBAQABBQEBAAAAAAAAAAAAAAAGAwQFBwgBAv/EACsRAAIBAwMDAwQDAQEAAAAAAAECAwQREgAFIQYTIgdBURQjMWEyQkNx0f/aAAwDAQACEQMRAD8AHtMqMNM/HtNg43THUlPjXFEgka14mgJdxIuJShxcvMSLqWJU5g4FTOZZ07cyC5CkKYVDH2FOJITuG41w3GSCKdYwLWDLf+gJNxG1gOSSxAA/Q46f6P6M6Uboyi3bcNomq5JO73HilxN1qHijXttVwZPJ4xxJCju7+Ns2XKWRxlkJ9Ft7LDYtwBPUl1A2mxEvzLBVRGvJsaopLJuE13i1QS4VnHiDigkqUojzIcnGY5gJYjcN8Zc1kumLNkEGNkyvz2+CcOAflb2vqVP0h6WwTtSz0XbqxNBD9O1S/fL1IpypVFrGzRPqAJGUkDty4ZhQWaR2OcoqSTZpaMHYixvGLoS7lS0WzT5VIyIQThYl5NOgMoSorKnP2rBYxU0kjnNt+hf2IfKbjvuVpGMY58njsPFSx/zPsp4A1VqOjfShYWekgjq5AYx2qeraSUmWaOBODVqoHclQFmZVF/zpotWJBzBWeyVGE0p3+JqHi/NqQuGqe2cF8mjKOR7dpNU6NXcdqhErLueFM3GiPL9U03BkfDu27FGeOoVwtr2Ue+R4DRqTYKSbfgc/gNaqnp96fR1VPS1uzTUsk+eHdmdh9swL5PBWTIncedI4s2Gcn2+HeJZHlurEqwWxzjyMoWmhtkSxZcu+N5GcHEFDPFLLxI1dixEd9aMYqCbmRcH3lbgoJT/cUdpShLNjqKmeKUVDZOkjJfgfxA+APe/trnv1U2jZNqr6F9mgMNNU0UVQFZmZrytL/LN5LHEKCAxW44+SNMeRdqyH7J4muk2rfIdik6pU/NYVpo93PxvhPxDeLpT/AI+fzyHEop0T+xXkMn0JyZvWsNECnYnyBf4V9ZaelpastdaTLqDQmIfTcjNpuXbFhHv1z8MXi90u3IUJIiRRdpIic5FeMDkLvFpof1mo56szqn7MA4zhYC7yNfj4e7y2nWltKyX3M8bso10tJe0jp8CqjpLacm7cBg2AYRABaaLLXG1tomU9PcRkakac5qr5VvbCvuowuAYKtu1WjWRiEpFNVGw0WCdlIqlKEKms3AQ67wA5Tk9NNYV+mmtg6zqAxhFwlfcQOoXDdePMY4xdWrjW7Rj6xWN0k6qNXh2Dtkr3FKmGuwj9gKn46xiKCmkoIiJCbYlX7NXzVcs0DR4yY8MMv4gfKN7i/H6+NdCdJ+pXSW3dO7ft26QVrT0hlZWp3aJQ0skpyBjq4GJ7chS7C6hpFXxdso9fMGOV3zSR/lfhtu4j4mego9NrTLyzatYizHkzybRFq3oqaJCKjMPNu0gcYKdEtgETAuOPTe6Fge5HwGX44fLIWEdv7t/y/FrDU1T1s6FSJovo60hpIpWyxZmlpxCInZ2qyxK/Tw3ufMrd8iz5RFVyHiSlzaFgr+qXDaEmgg/agLqo32TaqNZNosweIrM39IXbqkVbrqJmKomYOhvVOHpbcad80eO/PyfyLHgoQbg6u909eujN4pjTVNLWmMlW8QkbBo3WRGV46pXUq6qwKsDcasUhm3H77pxarMHwG1/CyiftyhXGrccnXu+8Y9T8JQmW1ZDyLjooXoYepdwjxp7KrdO7o3+kQ5B8fDlb4nxjHIyPP/g1j4PWboOD80ldL4SR/fb6m8c/a7qH6iskuj9mPxPAsbAZvl1s+Z8XzDWjT7DVjitHJtWyLbshOrGtVb8DU0pPFryzVwkgFKOkJyuohZQ6ZkASABIAAYBMUsm2aiqKKJxOwLu5ckfsD9D3B9taQ9Sup9o6or6R9pikipqeljp1WW2QETSWtaSS4CsouzZEg3+TUX2Xq8+kKPJk1Yac4dzjiZUsNOTg8a2mutGM2qdkod6dpE45aoODmGNa9e4If6JgX+vUBy+tdaoC8hjFzXouqrar8MngIaRlJaNYe3cjhwv5lBi2fLcoUjkNyJxrYu0xhKXZ1KACY25ppVyQxjUrDA2qv6r8Mx8/WZFlLQj/ANu5HX7Z/HLkctluJekHTPsUIU205RKP6EBD000ZqzmjGvyFhqwXTU9gD2piy5x9oLCVfG9rrX/dGryaibaHx/GIrLrIxiJAFc3+ChuKHX001kF1D001/9k="/>
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href='http://creativecommons.org/licenses/by-nc-sa/2.5/cn/'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAANDQwNDQ0NDg0ODg4PEA8REREZGRkgICAhISEiIiIkJSMnKCcuMC4xMzEzMzM5Ozk7PTtBQkFCQkJDQ0NERERLTEtVVVVbXltmZmZna2dydnF3d3d9gn2AgICGhoaHh4eIiIiPkI+UmZOZmZmqqqqrsaqzuLK6v7q7u7vFxsXGysbIzMjKzsrMzMzd3d3u7u7///+uXr4hAAAA1UlEQVR42q2T2Q6CMBBFR0VUXHCritQFgXGvnf//Oa2ZNEB4UXrTl97enkxmWnAvcioDRKMtJGwJL0V8duEvWWDqGR4TR4iXfUPgbEBWCjaIj1UzYCchFYDQAgJFYoL4PHF/OVTIG7sEMLEKcAdXCtYkpa+znGQH8XL7nvOyed7VGGVgDEqbqaxD+kh6iOc7V2hjfJfxVYNqKxSRr2VGsl2ukNO85/v1hu1hO6Hch0gLCF+0HBd6yLEfe4jTvuMpp62jBS6GDt4hxnBg3rzX9Kc4FTjXG9Q1UZbZlOQyAAAAAElFTkSuQmCC"/>
+        </a>
+    </li>
+
+</ul>
+</section>
+
+</aside>        </div>
+    </div>
+</div>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://weekly.pychina.org/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://weekly.pychina.org/theme/js/respond.min.js"></script>
+
+<!--
+    <script type="text/javascript">
+        var disqus_shortname = 'weeklypychinaorg';
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] ||
+             document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+ 
+-->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    
+
+</body>
+</html>
