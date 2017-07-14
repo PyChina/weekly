@@ -3,7 +3,7 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-    <title> - importpython
+    <title>蠎加载 133
         |蠎周刊
         |汇集全球蠎事儿 !-) </title>
     <!-- Using the latest rendering mode for IE -->
@@ -13,10 +13,10 @@
 
     <!-- Open Graph tags -->
 
-            <meta property="og:type" content="website"/>
-            <meta property="og:title" content="蠎周刊"/>
-            <meta property="og:url" content="http://weekly.pychina.org"/>
-            <meta property="og:description" content="蠎周刊"/>
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="蠎加载 133"/>
+            <meta property="og:url" content="http://weekly.pychina.org/importpython/importpython-133.html"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 133 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... 与 Python 中长时间运行的子进程交互 debugging The Python subprocess module is a powerful swiss-army knife for launching and interacting with child processes. It comes with several high-level APIs like call, check_output …"/>
 
 
     <!-- Bootstrap -->
@@ -79,149 +79,298 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-9">
-            <article>
-                <h2><a href="http://weekly.pychina.org/importpython/importpython-22.html">蠎加载 22</a></h2>
-                <div class="summary"><p><img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"></p>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://weekly.pychina.org/importpython/importpython-133.html"
+                       rel="bookmark"
+                       title="Permalink to 蠎加载 133">
+                        蠎加载 133
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+<div id="article-content">
+                <p><img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"></p>
 <ul>
-<li>原文: <a href="http://importpython.com/newsletter/no/22/">Import Python Weekly Newsletter - Issue No 22</a></li>
+<li>原文: <a href="http://importpython.com/newsletter/no/133/">Import Python Weekly Newsletter - Issue No 133</a></li>
+<li>欢迎, <strong>来 <a href="https://github.com/PyChina/weekly">PyChina/weekly</a> 共同翻译/增订/推荐 周刊 蠎消息 ;-)</strong></li>
 </ul>
 <h2>该读</h2>
 <p>~ 文章, Blog, 教程...</p>
 <ul>
-<li><a href="http://vdist.readthedocs.org/en/latest/">vdist, 通过 virtualenv, Docker 和 fpm 为 Python 应用构建 OS 包</a><ul>
-<li>virtualenv</li>
+<li><a href="http://eli.thegreenplace.net/2017/interacting-with-a-long-running-child-process-in-python/">与 Python 中长时间运行的子进程交互</a><ul>
+<li>debugging</li>
 </ul>
 </li>
 </ul>
-<p>专注构建干净,自包含的 OS 包,
-给 Python 应用,
-综合使用了  virtualenv, Docker 和 fpm ,
-并用 Jinja2 来渲染展示模板.</p>
+<p>The Python subprocess module is a powerful swiss-army knife for launching and interacting with child processes. It comes with several high-level APIs like call, check_output and (starting with Python 3.5) run that are focused at child processes our program runs and waits to complete. In this post I want to discuss a variation of this task that is less directly addressed - long-running child processes.</p>
+<p>(<code>是也乎:</code></p>
+<p>作者脑补出了几种方案, 但是,都不嗯哼...
+其实吧长时间运行, 要不服务化, 要不事务化,
+就别想着中间还能嗯哼什么, 毕竟这是冯机体系不是代码和运行时一致的 LISP 世界.
+)</p>
 <ul>
-<li><a href="http://www.idiotinside.com/2015/02/13/get-number-of-likes-of-a-facebook-page-using-graph-api-in-python/">Py 调 Graph API 来获得 fb 上点赞数目</a><ul>
-<li>facebook</li>
+<li><a href="https://medium.com/@hhl60492/seeing-words-a-deep-learning-spam-classifier-that-can-crunch-unicode-and-weird-youtube-comments-3c00f0ae7d10">传说: 一个深度学习分类器，可以压缩 Unicode 和奇怪的 Youtube 评论</a><ul>
+<li>machine learning</li>
 </ul>
 </li>
 </ul>
-<p>教程中,展示了如何获得 facebook …</p>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/importpython/importpython-22.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="http://weekly.pychina.org/importpython/importpython-21.html">蠎加载 21</a></h2>
-                <div class="summary"><p><img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"></p>
+<p>One of the things I’ve been thinking about recently is how to do natural language processing (NLP) effectively with deep neural networks using real world language examples. An example would be to classify the youtube comment</p>
 <ul>
-<li>原文: <a href="http://importpython.com/newsletter/no/21/">Import Python Weekly Newsletter - Issue No 21</a></li>
-</ul>
-<h2>该读</h2>
-<p>~ 文章, Blog, 教程...</p>
-<ul>
-<li><a href="http://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/">Python metaclasses 理解</a><ul>
-<li>core python</li>
+<li><a href="http://probcomp.csail.mit.edu/bayesdb/satellites-notebook.html">探索并清洗科学家联盟的卫星数据库</a><ul>
+<li>data science</li>
 </ul>
 </li>
 </ul>
-<p>元类一直是 Py 中很有争议的话题,
-很多用户在着意避免使用.
-作者认为, 这很大程度上是因为其属性太过任性不好解释定位规则和流程.
-其实,你嘦理解几个关键概念就可以上手的.
-嘦能运用元类,
-就能完成更好的接口.你值得尝试.</p>
+<p>The Union of Concerned Scientists maintains a database of ~1000 Earth satellites. For the majority of satellites, it includes kinematic, material, electrical, political, functional, and economic characteristics, such as dry mass, launch date, orbit type, country of operator, and purpose. The data appears to have been mirrored on other satellite search websites, e.g. http://satellites.findthedata.com/ . This iPython notebook describes a sequence of interactions with a snapshot of this database using the bayeslite implementation of BayesDB, using the Python bayeslite client library. The snapshot includes a population of satellites defined using the UCS data as well as a constellation of generative probabilistic models for this population.</p>
 <ul>
-<li><a href="http://blaag.haard.se/PyCon-Sweden-Call-For-Proposals---Less-Than-a-Week-Left">PyCon Sweden 的议题征集只余一周了</a><ul>
-<li>pycon</li>
+<li><a href="http://brandonrose.org/ner2sna">实体提取和网络分析</a><ul>
+<li>machine learning</li>
 </ul>
 </li>
 </ul>
-<p>上次 PyCon 瑞典非常成功,
-今年能更好.
-议题征集将开放到 2.16 号,
-会场迁移到 斯德哥尔摩市中心滨水区的 Hilton Slussen 大酒店,
-日期定在梦幻般美好的春天,
-5月12-13号,</p>
+<p>How you can extract meaningful information from raw text and use it to analyze the networks of individuals hidden within your data set.</p>
 <ul>
-<li><a href="http://blog.djangogirls.org/post/110542266858">你的 Django 故事 …</a></li></ul>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/importpython/importpython-21.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="http://weekly.pychina.org/importpython/importpython-20.html">蠎加载 20</a></h2>
-                <div class="summary"><p><img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"></p>
-<ul>
-<li>原文: <a href="http://importpython.com/newsletter/no/20/">Import Python Weekly Newsletter - Issue No 20</a></li>
-</ul>
-<h2>该读</h2>
-<p>~ 文章, Blog, 教程...</p>
-<ul>
-<li><a href="http://djangotricks.blogspot.com/2015/01/performance-bottlenecks-in-django-views.html">Django 技巧: 如何找到视图的性能瓶颈?</a><ul>
-<li>django</li>
+<li><a href="https://medium.com/tensorist/making-e-commerce-business-decisions-using-scikit-learn-2dd1d76ab675">使用 scikit-learn 制作电子商务业务决策</a><ul>
+<li>machine learning, scikit-learn</li>
 </ul>
 </li>
 </ul>
-<p>一旦有长期运行的 Django 项目,
-就得开始持续的性能优化了,
-经验是先定位瓶颈, 
-用更加地道的代码替换,
-然后用 DB/缓存/其它技术来消解之.</p>
+<p>Today, let’s learn how to build a simple linear regression model using Python’s Pandas and Scikit-learn libraries. Our goal is to build a model that analyses customer data and solves a problem for a (simulated) e-commerce business.</p>
+<p>(<code>是也乎:</code></p>
+<p>反复强调了简单的, 即无实用价值的...
+)</p>
 <ul>
-<li><a href="http://ipython.org/ipython-doc/dev/whatsnew/version3.html#release-3-0">IPython 2.4 以及 IPython 3.0b1 发布</a><ul>
-<li>new release</li>
+<li>
+<p><a href="https://medium.com/@PhilipTrauner/python-quirks-comments-324bbf88612c">Python 怪癖: 注释</a></p>
+<ul>
+<li>core-python</li>
+</ul>
+</li>
+<li>
+<p><a href="https://wheniwork.engineering/load-testing-with-locust-io-docker-swarm-d78a2602997a">使用 Locust.io 和 Docker Swarm 进行负载测试</a></p>
+<ul>
+<li>testing, docker, locust</li>
+</ul>
+</li>
+<li>
+<p><a href="https://hackernoon.com/fat-python-the-next-chapter-in-python-optimization-69dc974bcca2">FAT Python : Python优化的下一章</a></p>
+<ul>
+<li>optimization</li>
 </ul>
 </li>
 </ul>
-<p>3.X 将是 IPython 最后一个独立版本系列,
-未来专注和语言无关的组件升级
-(notebook, qtconsole, ..)
-由名为 <code>Jupyter</code> 的全新项目统领.
-而 Python 相关的 …</p>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/importpython/importpython-20.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
+<p>The FAT Python project was started by Victor Stinner in October 2015 to try to solve issues of previous attempts of “static optimizers” for Python. Victor has created a set of changes to CPython (Python Enhancement Proposals or “PEPs”), some example optimizations and benchmarks. We’ll explore those 3 levels in this article.</p>
+<ul>
+<li>
+<p><a href="https://decisionstats.com/2017/07/07/k-means-clustering-in-python/">K 平均聚类在 Python 中</a></p>
+<ul>
+<li>machine learning</li>
+</ul>
+</li>
+<li>
+<p><a href="http://albertoconnor.ca/f-strings-for-the-win.html">f-strings For the Win</a></p>
+<ul>
+<li>f-strings</li>
+</ul>
+</li>
+</ul>
+<p>It has been a long time coming, but I am now actively migrating existing projects to Python 3. Python 3.6 specifically, because when I am done I will be able to take advantage of my new favourite feature everywhere! That feature is f-strings.</p>
+<p>(<code>是也乎:</code></p>
+<p><a href="https://www.python.org/dev/peps/pep-0498/">PEP-0498</a> 的心声</p>
+<div class="highlight"><pre><span></span>Python 3.6.1 (...) 
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more...
+&gt;&gt;&gt; name = &#39;Albert&#39;
+&gt;&gt;&gt; f&#39;Hello, {name}!&#39;
+&#39;Hello, Albert!&#39;
+</pre></div>
 
-        <ul class="pagination">
 
-                <li class="prev"><a href="http://weekly.pychina.org/importpython/index37.html">&laquo;</a>
-                </li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index28.html">28</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index29.html">29</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index30.html">30</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index31.html">31</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index32.html">32</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index33.html">33</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index34.html">34</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index35.html">35</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index36.html">36</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index37.html">37</a></li>
-                <li class="active"><a
-                        href="http://weekly.pychina.org/importpython/index38.html">38</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index39.html">39</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index40.html">40</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index41.html">41</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index42.html">42</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index43.html">43</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index44.html">44</a></li>
-                <li class="next"><a
-                        href="http://weekly.pychina.org/importpython/index39.html">&raquo;</a></li>
-        </ul>
+<p>嚓, f 算子...
+)</p>
+<ul>
+<li>
+<p><a href="http://multithreaded.stitchfix.com/blog/2017/07/06/one-weird-trick/">一个奇怪的技巧将简化 ETL 工作流程针脚修复技术 - 多线程</a></p>
+</li>
+<li>
+<p><a href="https://seashells.io/">Seashells</a></p>
+<ul>
+<li>project</li>
+</ul>
+</li>
+</ul>
+<p>Seashells lets you pipe output from command-line programs to the web in real-time, even without installing any new software on your machine. You can use it to monitor long-running processes like experiments that print progress to the console. You can also use Seashells to share output with friends!</p>
+<p>(<code>是也乎:</code></p>
+<p>真心不怕嗯哼了?!</p>
+<p>)</p>
+<ul>
+<li>
+<p><a href="http://jamescooke.info/arrange-act-assert-pattern-for-python-developers.html">为 Python 开发人员安排 Act Assert 模式 // James Cooke // Brighton-based Python developer</a></p>
+<ul>
+<li>testing
+This is the first post in a series exploring the Arrange Act Assert pattern and how to apply it to Python tests.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/flutefreak7/palindrome_dates/blob/master/Palindrome%20Days.ipynb">回文日期</a></p>
+<ul>
+<li>numpy, pandas, code snippets</li>
+</ul>
+</li>
+<li>
+<p><a href="https://caseym.me/save-api-results-to-postgresql-for-free-with-aws-lambda/">使用 AWS Lambda 将 API 结果保存到 PostgreSQL 中</a></p>
+<ul>
+<li>aws lambda</li>
+</ul>
+</li>
+</ul>
+<p>In this tutorial I will show you how to use Amazon Web Services (AWS) Lambda service to save the results of an API response to a PostgreSQL database on a recurring schedule.</p>
+<ul>
+<li><a href="http://kanoki.org/2017/07/09/get-started-with-matplotlib-data-visualization-for-python/">从 Matplotlib 开始 - Python的数据可视化</a>    <ul>
+<li>matpoltlib</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>讲真, 除非你只要个图片结果,
+否则,还是多看看可以直接输出为 html 的
+<a href="http://bokeh.pydata.org/en/latest/"><img alt="Bokeh" src="http://bokeh.pydata.org/en/latest/_static/images/logo.png"></a></p>
+<p>)</p>
+<h2>好物</h2>
+<p>~ 包/模块/库/片段...</p>
+<ul>
+<li><a href="https://github.com/DutchGraa/crackcoin">crackcoin</a><ul>
+<li>392 Stars, 28 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Very basic blockchain-free cryptocurrency PoC in Python.</p>
+<p>(<code>是也乎:</code></p>
+<p>UDP 环境中的简单加密...
+)</p>
+<ul>
+<li><a href="https://github.com/iogf/crocs">crocs</a><ul>
+<li>334 Stars, 18 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Write regex using pure python class/function syntax and test it better. (Regex for humans).</p>
+<p>(<code>是也乎:</code></p>
+<p>正则表达式的 pythonic 使用...</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/dizballanze/django-eraserhead">django-eraserhead</a><ul>
+<li>67 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Provide hints to optimize database usage by deferring unused fields (and more).</p>
+<ul>
+<li><a href="https://github.com/wintoncode/winton-kafka-streams">winton-kafka-streams</a><ul>
+<li>16 Stars, 3 Fork</li>
+</ul>
+</li>
+</ul>
+<p>A Python implementation of Apache Kafka Streams</p>
+<ul>
+<li><a href="https://github.com/hmleal/py-clui">py-clui</a><ul>
+<li>13 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>This is a Python toolkit for quickly building nice looking command line interfaces.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="spinner" src="https://raw.githubusercontent.com/hmleal/py-clui/master/docs/spinner.gif"></p>
+<p>叕一个 CLI 界面构建框架..
+)</p>
+<ul>
+<li><a href="https://github.com/jonatasbaldin/s3-environ">s3-environ</a><ul>
+<li>8 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Load environment variables from a AWS S3 file. </p>
+<p>(<code>是也乎:</code></p>
+<p>嗯哼?将要命的环境变量部属到 S3 中?!
+)</p>
+<h3>(￣▽￣)</h3>
+<ul>
+<li><a href="http://paper.seebug.org/326/">被忽视的攻击面：Python package 钓鱼</a><ul>
+<li>pypi</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>嚓了个嚓...
+)</p>
+<h1>是也乎</h1>
+<ul>
+<li>170714 <a href="http://zoomquiet.io">Zoom.Quiet</a> 42 分钟完成快译</li>
+<li>170714 <a href="http://zoomquiet.io">Zoom.Quiet</a> 用时 7 分钟完成格式化.</li>
+</ul>
+</div>
+
+
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+<!--
+    <span class="label label-default">Date</span>
+-->
+    <span class="published">
+        <i class="icon-calendar"></i>2017-07-14 12:42
+    </span>
+
+
+    <span class="label">By</span>
+    <i class="icon-user"></i><a href="http://weekly.pychina.org/author/zoomquiet.html">Zoom.Quiet</a>
+
+    <span class="label label-default">Category</span>
+    <a href="http://weekly.pychina.org/importpython/index.html">importpython</a>
+
+
+
+	<span class="label label-default">Tags</span>
+		<a href="http://weekly.pychina.org/tag/weekly.html">Weekly</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/importpython.html">ImportPython</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/zh.html">Zh</a>
+</footer><!-- /.post-info -->                    </div>
+                </div>
+
+            </div>
+            <!-- /.entry-content -->
+    <hr />
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+            var disqus_identifier = 'importpython/17-07-14-importpython-133';
+            var disqus_url = 'http://weekly.pychina.org/importpython/importpython-133.html';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
+
+
         </div>
         <div class="col-lg-3 well well-sm" id="sidebar">
 <aside>
