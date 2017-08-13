@@ -241,45 +241,45 @@
 <p>基于Python功能组合的递归下降解析器. 解析器组合都只是高阶函数,把分析器作为它们的参数,并将其退回的结果值. </p>
 <p>(<code>是也乎:</code></p>
 <p>嗯啍! 这才是格调!</p>
-<div class="highlight"><pre><span></span> def parse(seq):
- &#39;Sequence(Token) -&gt; object&#39;
- ...
- n = lambda s: a(Token(&#39;Name&#39;, s)) &gt;&gt; tokval
- def make_array(n):
- if n is None:
- return []
- else:
- return [n[0]] + n[1]
- ...
- null = n(&#39;null&#39;) &gt;&gt; const(None)
- true = n(&#39;true&#39;) &gt;&gt; const(True)
- false = n(&#39;false&#39;) &gt;&gt; const(False)
- number = toktype(&#39;Number&#39;) &gt;&gt; make_number
- string = toktype(&#39;String&#39;) &gt;&gt; make_string
- value = forward_decl()
- member = string + op_(&#39;:&#39;) + value &gt;&gt; tuple
- object = (
-         op_(&#39;{&#39;) +
-         maybe(member + many(op_(&#39;,&#39;) + member)) +
-         op_(&#39;}&#39;)
-         &gt;&gt; make_object)
- array = (
-         op_(&#39;[&#39;) +
-         maybe(value + many(op_(&#39;,&#39;) + value)) +
-         op_(&#39;]&#39;)
-         &gt;&gt; make_array)
- value.define(
-         null
-         | true
-         | false
-         | object
-         | array
-         | number
-         | string)
-json_text = object | array
-json_file = json_text + skip(finished)
+<div class="highlight"><pre> <span class="n">def</span> <span class="n">parse</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span><span class="o">:</span>
+ <span class="err">&#39;</span><span class="n">Sequence</span><span class="p">(</span><span class="n">Token</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">object</span><span class="err">&#39;</span>
+ <span class="p">...</span>
+ <span class="n">n</span> <span class="o">=</span> <span class="n">lambda</span> <span class="n">s</span><span class="o">:</span> <span class="n">a</span><span class="p">(</span><span class="n">Token</span><span class="p">(</span><span class="err">&#39;</span><span class="n">Name</span><span class="err">&#39;</span><span class="p">,</span> <span class="n">s</span><span class="p">))</span> <span class="o">&gt;&gt;</span> <span class="n">tokval</span>
+ <span class="n">def</span> <span class="n">make_array</span><span class="p">(</span><span class="n">n</span><span class="p">)</span><span class="o">:</span>
+ <span class="k">if</span> <span class="n">n</span> <span class="n">is</span> <span class="n">None</span><span class="o">:</span>
+ <span class="k">return</span> <span class="p">[]</span>
+ <span class="nl">else:</span>
+ <span class="k">return</span> <span class="p">[</span><span class="n">n</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">+</span> <span class="n">n</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+ <span class="p">...</span>
+ <span class="n">null</span> <span class="o">=</span> <span class="n">n</span><span class="p">(</span><span class="err">&#39;</span><span class="n">null</span><span class="err">&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="k">const</span><span class="p">(</span><span class="n">None</span><span class="p">)</span>
+ <span class="nb">true</span> <span class="o">=</span> <span class="n">n</span><span class="p">(</span><span class="err">&#39;</span><span class="nb">true</span><span class="err">&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="k">const</span><span class="p">(</span><span class="n">True</span><span class="p">)</span>
+ <span class="nb">false</span> <span class="o">=</span> <span class="n">n</span><span class="p">(</span><span class="err">&#39;</span><span class="nb">false</span><span class="err">&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="k">const</span><span class="p">(</span><span class="n">False</span><span class="p">)</span>
+ <span class="n">number</span> <span class="o">=</span> <span class="n">toktype</span><span class="p">(</span><span class="err">&#39;</span><span class="n">Number</span><span class="err">&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="n">make_number</span>
+ <span class="n">string</span> <span class="o">=</span> <span class="n">toktype</span><span class="p">(</span><span class="err">&#39;</span><span class="n">String</span><span class="err">&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="n">make_string</span>
+ <span class="n">value</span> <span class="o">=</span> <span class="n">forward_decl</span><span class="p">()</span>
+ <span class="n">member</span> <span class="o">=</span> <span class="n">string</span> <span class="o">+</span> <span class="n">op_</span><span class="p">(</span><span class="sc">&#39;:&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">value</span> <span class="o">&gt;&gt;</span> <span class="n">tuple</span>
+ <span class="n">object</span> <span class="o">=</span> <span class="p">(</span>
+         <span class="n">op_</span><span class="p">(</span><span class="sc">&#39;{&#39;</span><span class="p">)</span> <span class="o">+</span>
+         <span class="n">maybe</span><span class="p">(</span><span class="n">member</span> <span class="o">+</span> <span class="n">many</span><span class="p">(</span><span class="n">op_</span><span class="p">(</span><span class="sc">&#39;,&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">member</span><span class="p">))</span> <span class="o">+</span>
+         <span class="n">op_</span><span class="p">(</span><span class="sc">&#39;}&#39;</span><span class="p">)</span>
+         <span class="o">&gt;&gt;</span> <span class="n">make_object</span><span class="p">)</span>
+ <span class="n">array</span> <span class="o">=</span> <span class="p">(</span>
+         <span class="n">op_</span><span class="p">(</span><span class="sc">&#39;[&#39;</span><span class="p">)</span> <span class="o">+</span>
+         <span class="n">maybe</span><span class="p">(</span><span class="n">value</span> <span class="o">+</span> <span class="n">many</span><span class="p">(</span><span class="n">op_</span><span class="p">(</span><span class="sc">&#39;,&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">value</span><span class="p">))</span> <span class="o">+</span>
+         <span class="n">op_</span><span class="p">(</span><span class="sc">&#39;]&#39;</span><span class="p">)</span>
+         <span class="o">&gt;&gt;</span> <span class="n">make_array</span><span class="p">)</span>
+ <span class="n">value</span><span class="p">.</span><span class="n">define</span><span class="p">(</span>
+         <span class="n">null</span>
+         <span class="o">|</span> <span class="nb">true</span>
+         <span class="o">|</span> <span class="nb">false</span>
+         <span class="o">|</span> <span class="n">object</span>
+         <span class="o">|</span> <span class="n">array</span>
+         <span class="o">|</span> <span class="n">number</span>
+         <span class="o">|</span> <span class="n">string</span><span class="p">)</span>
+<span class="n">json_text</span> <span class="o">=</span> <span class="n">object</span> <span class="o">|</span> <span class="n">array</span>
+<span class="n">json_file</span> <span class="o">=</span> <span class="n">json_text</span> <span class="o">+</span> <span class="n">skip</span><span class="p">(</span><span class="n">finished</span><span class="p">)</span>
 
-return json_file.parse(seq)
+<span class="k">return</span> <span class="n">json_file</span><span class="p">.</span><span class="n">parse</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span>
 </pre></div>
 
 
