@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Fri, 08 Sep 2017 17:41:00 +0800</lastBuildDate><item><title>蠎加载 141</title><link>http://weekly.pychina.org/importpython/importpython-141.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sat, 16 Sep 2017 11:42:00 +0800</lastBuildDate><item><title>蠎加载 142</title><link>http://weekly.pychina.org/importpython/importpython-142.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/142/"&gt;Import Python Weekly Newsletter - Issue No 142&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.python.org/3.7/whatsnew/3.7.html"&gt;Python 3.7 有什么新的?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;new release&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article explains the new features in Python 3.7, compared to 3.6.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;因为老爹没有公司任务了, 所以,开始发力社区版本?
+)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.dataquest.io/blog/making-538-plots/"&gt;如何用 Python 生成 FiveThirtyEight 图表 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Sat, 16 Sep 2017 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2017-09-16:/importpython/importpython-142.html</guid><category>Weekly</category><category>ImportPython</category><category>Zh</category></item><item><title>蠎加载 141</title><link>http://weekly.pychina.org/importpython/importpython-141.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/141/"&gt;Import Python Weekly Newsletter - Issue No 141&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
