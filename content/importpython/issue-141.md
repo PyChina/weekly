@@ -344,10 +344,11 @@ D-Bus Binding? for Python that supports coroutines (asyncio).
 
 ...
 
-今年PyConChina2017将在两个城市举办，上海是9月23日举办
+今年PyConChina2017将在两个城市举办，上海定档:
 
-- 上海（约400人参加），预计7个主题演讲（每个40分钟），7个快速演讲（每个10分钟）。
-- 杭州（约200人参加），预计7个主题演讲（每个40分钟）
+    2017年10月22日 8:30 ～ 17:00 
+
+- [【上海场】PyConChina2017](http://www.huodongxing.com/event/3403439712600?td=8211933664158)
 
 (`是也乎:`
 
