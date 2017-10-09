@@ -248,9 +248,11 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;,只需要给出散点数据, 自动生成漂亮的热力图
-关键响应非常敏捷, 10.1 长徦期间嗯哼了一下, 立即追加了两个功能:
+&lt;p&gt;只需要给出散点数据, 自动生成漂亮的热力图&lt;/p&gt;
+&lt;p&gt;关键响应非常敏捷, 10.1 长徦期间嗯哼了一下, 立即追加了两个功能:
 &lt;a href="https://github.com/oldj/pyheatmap/blob/31d80c89529e194e743e3125d56a189712186c55/examples/test.py#L49"&gt;pyheatmap/test.py at 31d80c89529e194e743e3125d56a189712186c55 · oldj/pyheatmap&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;神奇的是作者同时果断也是位 SiFi 作家:
+&lt;a href="https://oldj.net/static/writer/2015/Backpackers_on_Earth.pdf"&gt;地球上的背包客 - Backpackers_on_Earth.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/Calysto/calysto_scheme"&gt;Calysto/calysto_scheme: A Scheme kernel for Jupyter that can use Python libraries&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;scheme.ipynb&lt;/li&gt;
