@@ -233,6 +233,10 @@ Simple ASCII Art Library For Python
 
 ### (￣▽￣)
 
+- [oldj/pyheatmap: python heat map library](https://github.com/oldj/pyheatmap)
+    + 国货 heatmap 生成工具,只需要给出散点数据, 自动生成漂亮的热力图
+    + 关键响应非常敏捷, 10.1 长徦期间嗯哼了一下, 立即追加了两个功能:
+    + [pyheatmap/test.py at 31d80c89529e194e743e3125d56a189712186c55 · oldj/pyheatmap](https://github.com/oldj/pyheatmap/blob/31d80c89529e194e743e3125d56a189712186c55/examples/test.py#L49)
 - [Calysto/calysto_scheme: A Scheme kernel for Jupyter that can use Python libraries](https://github.com/Calysto/calysto_scheme)
     + 嗯哼?! scheme.ipynb
 - PyConChina2017 议题征集开始
