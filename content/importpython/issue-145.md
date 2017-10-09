@@ -234,13 +234,18 @@ Simple ASCII Art Library For Python
 ### (￣▽￣)
 
 - [oldj/pyheatmap: python heat map library](https://github.com/oldj/pyheatmap)
-    + 国货 heatmap 生成工具,只需要给出散点数据, 自动生成漂亮的热力图
-    + 关键响应非常敏捷, 10.1 长徦期间嗯哼了一下, 立即追加了两个功能:
-    + [pyheatmap/test.py at 31d80c89529e194e743e3125d56a189712186c55 · oldj/pyheatmap](https://github.com/oldj/pyheatmap/blob/31d80c89529e194e743e3125d56a189712186c55/examples/test.py#L49)
+    + 国货 heatmap 生成
+
+,只需要给出散点数据, 自动生成漂亮的热力图
+关键响应非常敏捷, 10.1 长徦期间嗯哼了一下, 立即追加了两个功能:
+[pyheatmap/test.py at 31d80c89529e194e743e3125d56a189712186c55 · oldj/pyheatmap](https://github.com/oldj/pyheatmap/blob/31d80c89529e194e743e3125d56a189712186c55/examples/test.py#L49)
+
 - [Calysto/calysto_scheme: A Scheme kernel for Jupyter that can use Python libraries](https://github.com/Calysto/calysto_scheme)
-    + 嗯哼?! scheme.ipynb
+    + scheme.ipynb
 - PyConChina2017 议题征集开始
-    + 申报表单: https://jinshuju.net/f/2ag6QB
+    + 申报开始
+
+申报表单: https://jinshuju.net/f/2ag6QB
 
 中国的PyCon大会已经组织了6年，在第7年PyCon大会之际，Python3已经成熟，比如Instagram迁移到了Python3。而人工智能方兴未艾，区块链、物联网、AR、VR、机器人等领域创新不断涌现。
 
