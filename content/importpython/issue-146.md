@@ -265,7 +265,7 @@ This is a python script intended to improve on the default Python interactive sh
 
 ## 是也乎
 
-- 170922 [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
-- 170922 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
+- 171013 [Zoom.Quiet](http://zoomquiet.io) 42 分钟完成快译
+- 171013 [Zoom.Quiet](http://zoomquiet.io) 用时 7 分钟完成格式化.
 
 
