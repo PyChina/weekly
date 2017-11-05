@@ -6,7 +6,7 @@ Tags: Weekly,ImportPython,Zh
 ![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210)
 
 
-- 原文: [Import Python Weekly Newsletter - Issue No 149](http://importpython.com/newsletter/no/149/)
+- 原文: [Import Python Weekly Newsletter - Issue No 148](http://importpython.com/newsletter/no/148/)
 - 欢迎, **来 [PyChina/weekly](https://github.com/PyChina/weekly) 共同翻译/增订/推荐 周刊 蠎消息 ;-)**
 
 ## 该读
