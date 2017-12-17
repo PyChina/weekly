@@ -152,8 +152,15 @@ Bitcoin is now mainstream. While the debate on whether it’s a speculative bubb
 )
 
 
-- [处理日期时间就像在 Python 中的专业版](https://medium.com/@itruong/dealing-with-datetimes-like-a-pro-in-python-fb3ac0feb94b)
+- [在 Python 中更专业的嗯哼日期时间对象](https://medium.com/@itruong/dealing-with-datetimes-like-a-pro-in-python-fb3ac0feb94b)
     + datetime
+
+(`是也乎:`
+
+多谢 @Geek Cheng 的嗯哼, 
+一时不查露过了机器翻译的...
+
+)
 
 - [使用 Apache Spark DataFrames API 进行结构化流式传输](https://medium.com/@irfanalidv/structured-streaming-using-apache-spark-dataframes-api-497a52ea0180)
     + spark
