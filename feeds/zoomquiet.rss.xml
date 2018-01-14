@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sun, 07 Jan 2018 22:42:00 +0800</lastBuildDate><item><title>蠎加载 157</title><link>http://weekly.pychina.org/importpython/importpython-157.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sun, 14 Jan 2018 22:42:00 +0800</lastBuildDate><item><title>蠎加载 158</title><link>http://weekly.pychina.org/importpython/importpython-158.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/158/"&gt;Import Python Weekly Newsletter - Issue No 158&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://training.talkpython.fm/courses/explore_pycharm/mastering-pycharm-ide?utm_source=importpython"&gt;掌握 PyCharm&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pycharm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do you use PyCharm as your Python IDE?. Then this course might be of interest to you. Taught by Michael of TalkPython podcast fame.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;总是说一个工具复杂到要出书来学习使用时 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Sun, 14 Jan 2018 22:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2018-01-14:/importpython/importpython-158.html</guid><category>Weekly</category><category>ImportPython</category><category>Zh</category></item><item><title>蠎加载 157</title><link>http://weekly.pychina.org/importpython/importpython-157.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/157/"&gt;Import Python Weekly Newsletter - Issue No 157&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
