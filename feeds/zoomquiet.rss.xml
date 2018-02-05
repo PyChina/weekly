@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sat, 27 Jan 2018 22:42:00 +0800</lastBuildDate><item><title>蠎加载 160</title><link>http://weekly.pychina.org/importpython/importpython-160.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 31 Jan 2018 10:42:00 +0800</lastBuildDate><item><title>蠎加载 161</title><link>http://weekly.pychina.org/importpython/importpython-161.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/161/"&gt;Import Python Weekly Newsletter - Issue No 161&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.dscpl.com.au/2018/01/the-pattern-versus-python-package.html"&gt;"装饰器模式" 以及 Python "wrapt" 模块.&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;wrapt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Brandon Rhodes published a post today about the Decorator Pattern and how that translates into Python. He explains the manual way that the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 31 Jan 2018 10:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2018-01-31:/importpython/importpython-161.html</guid><category>Weekly</category><category>ImportPython</category><category>Zh</category></item><item><title>蠎加载 160</title><link>http://weekly.pychina.org/importpython/importpython-160.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/160/"&gt;Import Python Weekly Newsletter - Issue No 160&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
