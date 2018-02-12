@@ -159,14 +159,14 @@
 </ul>
 <p>Did you know about <code>__code__</code> ?</p>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span class="n">def</span> <span class="n">foo</span><span class="p">()</span><span class="o">:</span>
-      <span class="k">return</span> <span class="s">&quot;I&#39;m foo!&quot;</span>
+<div class="highlight"><pre><span></span>def foo():
+      return &quot;I&#39;m foo!&quot;
 
-<span class="n">def</span> <span class="n">bar</span><span class="p">()</span><span class="o">:</span>
-      <span class="k">return</span> <span class="s">&quot;I&#39;m bar!&quot;</span>
+def bar():
+      return &quot;I&#39;m bar!&quot;
 
-<span class="n">foo</span><span class="p">.</span><span class="n">__code__</span> <span class="o">=</span> <span class="n">bar</span><span class="p">.</span><span class="n">__code__</span>
-<span class="n">foo</span><span class="p">()</span>
+foo.__code__ = bar.__code__
+foo()
 </pre></div>
 
 

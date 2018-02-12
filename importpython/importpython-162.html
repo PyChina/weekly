@@ -3,7 +3,7 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-    <title> - importpython
+    <title>蠎加载 162
         |蠎周刊
         |汇集全球蠎事儿 !-) </title>
     <!-- Using the latest rendering mode for IE -->
@@ -13,10 +13,10 @@
 
     <!-- Open Graph tags -->
 
-            <meta property="og:type" content="website"/>
-            <meta property="og:title" content="蠎周刊"/>
-            <meta property="og:url" content="http://weekly.pychina.org"/>
-            <meta property="og:description" content="蠎周刊"/>
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="蠎加载 162"/>
+            <meta property="og:url" content="http://weekly.pychina.org/importpython/importpython-162.html"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 162 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... 免费 Python 书: 开始 Python, 高级 Python, 以及 Python 练习 book This document is a self-learning document for a course in Python programming. This course contains (1) a part …"/>
 
 
     <!-- Bootstrap -->
@@ -79,131 +79,325 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-9">
-            <article>
-                <h2><a href="http://weekly.pychina.org/importpython/importpython-114.html">蠎加载 114</a></h2>
-                <div class="summary"><p><img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"></p>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://weekly.pychina.org/importpython/importpython-162.html"
+                       rel="bookmark"
+                       title="Permalink to 蠎加载 162">
+                        蠎加载 162
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+<div id="article-content">
+                <p><img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"></p>
 <ul>
-<li>原文: <a href="http://importpython.com/newsletter/no/114/">Import Python Weekly Newsletter - Issue No 114</a></li>
+<li>原文: <a href="http://importpython.com/newsletter/no/162/">Import Python Weekly Newsletter - Issue No 162</a></li>
 <li>欢迎, <strong>来 <a href="https://github.com/PyChina/weekly">PyChina/weekly</a> 共同翻译/增订/推荐 周刊 蠎消息 ;-)</strong></li>
 </ul>
 <h2>该读</h2>
 <p>~ 文章, Blog, 教程...</p>
 <ul>
-<li><a href="http://echorand.me/queuelogger-and-python-json-logger.html">QueueLogger 和 Python JSON Logger</a><ul>
-<li>logging</li>
+<li><a href="http://www.davekuhlman.org/python_book_01.html">免费 Python 书: 开始 Python, 高级 Python, 以及 Python 练习</a><ul>
+<li>book</li>
 </ul>
 </li>
 </ul>
-<p>Logging from multiple processes. </p>
-<ul>
-<li><a href="https://andhint.github.io/machine-learning/nlp/Feature-Extraction-From-Text/">从文本中提取特征</a><ul>
-<li>machine learning</li>
-</ul>
-</li>
-</ul>
-<p>This is my first time writing blog post about anything Python related. I go over the …</p>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/importpython/importpython-114.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="http://weekly.pychina.org/importpython/importpython-113.html">蠎加载 113</a></h2>
-                <div class="summary"><p><img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"></p>
-<ul>
-<li>原文: <a href="http://importpython.com/newsletter/no/113/">Import Python Weekly Newsletter - Issue No 113</a></li>
-<li>欢迎, <strong>来 <a href="https://github.com/PyChina/weekly">PyChina/weekly</a> 共同翻译/增订/推荐 周刊 蠎消息 ;-)</strong></li>
-</ul>
-<h2>该读</h2>
-<p>~ 文章, Blog, 教程...</p>
-<ul>
-<li><a href="https://player.backtracks.fm/talkpython/m/100-guido-van-rossum">Guido van Rossum 访谈</a><ul>
-<li>podcast, BDFL</li>
-</ul>
-</li>
-</ul>
-<p>Talkpython interview with Guido van Rossum aka BDFL.</p>
+<p>This document is a self-learning document for a course in Python programming. This course contains (1) a part for beginners, (2) a discussion of several advanced topics that are of interest to Python programmers, and (3) a Python workbook with lots of exercises.</p>
 <p>(<code>是也乎:</code></p>
-<p>有字幕的, 基本上就是回忆了 ABC 时代的嗯哼...
-)</p>
+<p>叕一本 Python 入门书.</p>
+<p>)</p>
 <ul>
-<li><a href="http://charlesleifer.com/blog/what-happened/">几个 Python 3 决择 / 进化 的关键视图</a><ul>
+<li><a href="https://www.codemade.io/snapchat-like-augmented-reality-filters/?=yc">类似Snapchat AR 过滤器</a><ul>
+<li>augmentedreality</li>
+</ul>
+</li>
+</ul>
+<p>My project lets you try on virtual pairs of sunglasses or masks. To achieve this I utilized python, Dlib, OpenCV, Scipy, and Numpy. The pipeline involves opening a live webcam feed, detecting keypoints on faces in the feed, warping a png image of sunglasses to match the face, rotating the png with face movements, and blending the two images together so they look like one real image.</p>
+<p>(<code>是也乎:</code></p>
+<p>叕一个 Python 实现的简易 AV 面具嗯哼工具</p>
+<p>)</p>
+<ul>
+<li><a href="https://ac1235.github.io/fractal-of-clean-design">Python - Clean Design 的分类</a><ul>
 <li>core-python</li>
 </ul>
 </li>
 </ul>
-<p>The people who …</p>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/importpython/importpython-113.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="http://weekly.pychina.org/importpython/importpython-112.html">蠎加载 112</a></h2>
-                <div class="summary"><p><img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"></p>
+<p>Some Python programmers like to think of their language as flawless. I personally know some Python programmers claiming that Python is superior to other languages in its clean design and unmatched elegance. This however isn’t true. Python has at least as many deep and fundamental flaws as most other languages, despite parts of its community claiming something different.</p>
 <ul>
-<li>原文: <a href="http://importpython.com/newsletter/no/112/">Import Python Weekly Newsletter - Issue No 112</a></li>
-<li>欢迎, <strong>来 <a href="https://github.com/PyChina/weekly">PyChina/weekly</a> 共同翻译/增订/推荐 周刊 蠎消息 ;-)</strong></li>
-</ul>
-<h2>该读</h2>
-<p>~ 文章, Blog, 教程...</p>
-<ul>
-<li><a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA">以 Python 介绍计算机科学和编程.MIT 视频系列</a><ul>
-<li>video</li>
+<li><a href="https://medium.com/@pycoder_boy/packaging-python-project-to-debian-deb-part-1-f01f510d7d10">将Python项目打包到Debian .deb 第1部分</a><ul>
+<li>packaging</li>
 </ul>
 </li>
 </ul>
-<p>Introduction to Computer Science and Programming in Python is intended for students with little or no programming experience. It aims to provide students …</p>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/importpython/importpython-112.html">more ...</a>
+<p>Hi, Have you ever try to package your code/project to became .deb or in official Debian or Ubuntu Repository to share to the rest of the world?</p>
+<p>(<code>是也乎:</code></p>
+<p>发布 Python 工程为 .deb ...
+是的, 很少有人发布为 .exe/.msi</p>
+<p>)</p>
+<ul>
+<li><a href="https://metarabbit.wordpress.com/2018/02/05/pythons-weak-performance-matters/">Python 弱性能问题</a><ul>
+<li>performance</li>
+</ul>
+</li>
+</ul>
+<p>What changed in my reasoning? First of all, I’m working on other problems. Whereas I used to do a lot of work that was very easy to map to numpy operations (which are fast as they use compiled code), now I write a lot of code which is not straight numerics. And, then, if I have to write it in standard Python, it is slow as molasses. I don’t mean slower in the sense of “wait a couple of seconds”, I mean “wait several hours instead of 2 minutes.”</p>
+<p>(<code>是也乎:</code></p>
+<p>Python 中的囧问题, 几小时都算不出来的场景..</p>
+<p>)</p>
+<ul>
+<li><a href="http://matthewrocklin.com/blog/work/2018/02/09/credit-models-with-dask">信用建模与 Dask</a><ul>
+<li>dask</li>
+</ul>
+</li>
+</ul>
+<p>This post explores a real-world use case calculating complex credit models in Python using Dask. It is an example of a complex parallel system that is well outside of the traditional “big data” workloads.</p>
+<ul>
+<li><a href="https://www.machinelearningplus.com/numpy-tutorial-part1-array-python-examples/">NumPy 教程第1部分 - Python 数组入门</a><ul>
+<li>numpy</li>
+</ul>
+</li>
+</ul>
+<p>Numpy is the most basic and a powerful package for scientific computing in python. This is part 1 of a mega-tutorial covering all the core aspects of performing data manipulation and analysis with numpy’s ndarrays.</p>
+<ul>
+<li><a href="http://fedora.portingdb.xyz/">63.8% – Python 3 移植数据库</a><ul>
+<li>python3, community, fedora</li>
+</ul>
+</li>
+</ul>
+<p>This is a dashboard to track progress of porting Fedora packages to Python 3.</p>
+<ul>
+<li><a href="http://templated-thoughts.blogspot.ae/2018/02/designing-async-task-dispatch-library.html">From Mordor, with love: 从头开始设计异步任务调度库 - Part-2</a><ul>
+<li>future</li>
+</ul>
+</li>
+</ul>
+<p>In layman terms, a future is an object which can hold the value or result of some computation done asynchronously. What does that mean ?</p>
+<ul>
+<li><a href="https://erikrood.com/Posts/py_gsheets.html">Python to Google Sheets</a><ul>
+<li>google sheets</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>docs.google 的表格终于有 Python 接口了,
+当然, 大陆用不了.</p>
+<p>)</p>
+<ul>
+<li><a href="https://blog.modeanalytics.com/group-by-sql-python/">“Group By” 在 SQL 以及 Python: 比较</a><ul>
+<li>pandas, sql</li>
+</ul>
+</li>
+</ul>
+<p>Exploring the overlapping functionality of SQL and Python can help those of us familiar with one language become more adept with the other. And with a deep understanding of both, we can all make smarter decisions about how to combine and leverage each, making it easy to always choose the right tool for every task.</p>
+<p>(<code>是也乎:</code></p>
+<p>Group By 的叕一个嗯哼...</p>
+<p>)</p>
+<h2>好物</h2>
+<p>~ 包/模块/库/片段...</p>
+<ul>
+<li><a href="https://github.com/louisabraham/algnuth">algnuth</a><ul>
+<li>240 Stars, 6 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Algebraic Number Theory package.</p>
+<p>-<a href="https://github.com/DirtyCajunRice/grafana-scripts">grafana-scripts</a>
+    - 54 Stars, 5 Fork</p>
+<p>API scripts written (both pushing and pulling) to aggregate data into influxdb for grafana.</p>
+<ul>
+<li><a href="https://github.com/dashee87/cryptory">cryptory</a><ul>
+<li>35 Stars, 3 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Retrieve historical crpytocurrency data.</p>
+<p>(<code>是也乎:</code></p>
+<p>叕一个 加密币值历史查询工具...只是,
+至今没有人作个工具来预测币值变化的?</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/liubobo/automation">automation</a><ul>
+<li>33 Stars, 8 Fork</li>
+</ul>
+</li>
+</ul>
+<p>code generator</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="automation" src="https://github.com/liubobo/automation/raw/master/iOS%E8%87%AA%E5%8A%A8%E5%8C%96/start.gif"></p>
+<p>深度使用 macOS 内置自动化工具的案例集...</p>
+<p>国人作品~ iOS代码自动化工具;虽然所有功能, 在一个靠谱的 IDE 中都提供了;
+只是留的沟通工具是 QQ 号, README 也是中文的...
+好吧, 可以肯定, 周刊官方编辑有华人在掺合了...</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/chris-belcher/electrum-personal-server">electrum-personal-server</a><ul>
+<li>31 Stars, 3 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Maximally lightweight electrum server for a single user.</p>
+<ul>
+<li><a href="https://github.com/cmatthewbrooks/r2kit">r2kit</a><ul>
+<li>28 Stars, 5 Fork</li>
+</ul>
+</li>
+</ul>
+<p>A set of scripts for a radare-based malware code analysis workflow.</p>
+<ul>
+<li><a href="https://github.com/pavdmyt/git-ctm">git-ctm</a><ul>
+<li>24 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>git Commit Time Machine.</p>
+<p>(<code>是也乎:</code></p>
+<p>git 提交定时器...嗯哼? 伪装自己在深夜工作?</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/glennglennglenn/augmented-reality">augmented-reality</a><ul>
+<li>18 Stars, 4 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Snapchat-like augmented reality filter.</p>
+<ul>
+<li><a href="https://github.com/code-sploit/brutepanel">brutepanel</a><ul>
+<li>10 Stars, 0 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Brute Panel is a modern admin login path finder written in Python.</p>
+<ul>
+<li><a href="https://github.com/laixintao/feed">feed</a><ul>
+<li>7 Stars, 1 Fork</li>
+</ul>
+</li>
+</ul>
+<p>Some feeds output from feedly.</p>
+<p>(<code>是也乎:</code></p>
+<p>叕一个手制造 RSS 聚集器,
+国人作品, 挖掘的多数也是中国人的 blog/网站, 
+也被 周刊发现了...
+使用 cvs2md 生成, 哈...</p>
+<p>)</p>
+<ul>
+<li><a href="https://github.com/EvilPort2/Simple-OpenCV-Calculator">Simple-OpenCV-Calculator</a><ul>
+<li>5 Stars, 4 Fork</li>
+</ul>
+</li>
+</ul>
+<p>A gesture controlled calculator. </p>
+<p>(<code>是也乎:</code></p>
+<p>叕一个计算器案例, 套了5层 if 的...
+不过看视频还是很屌的: https://youtu.be/6bE9veUsQf4</p>
+<p>是通过实时识别手势来完成计算式输入的...
+当前只支持个位数字的普通计算</p>
+<p>小黑哥, 用力了.</p>
+<p>)</p>
+<h3>(￣▽￣)</h3>
+<ul>
+<li><a href="https://annual2017.pycourses.com/">爱湃森 2017年度Python榜单</a><ul>
+<li>是也乎</li>
+</ul>
+</li>
+<li><a href="https://clementc.github.io/blog/2018/01/25/moving_cli/">Moving efficiently in the CLI</a><ul>
+<li>CLI</li>
+</ul>
+</li>
+<li><a href="https://github.com/Neilpang/acme.sh">Neilpang/acme.sh: A pure Unix shell script implementing ACME client protocol</a><ul>
+<li>https</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>国人作品, 解决 https 部署时的证书生成问题</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/kaleguy/leovue#leo-vue">kaleguy/leovue: File viewer for the Leo open source outline editor / IDE, integrated with Vue.js</a><ul>
+<li>Leo,Vue</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>猛然发现, Leo 生态已经走到这种程度了...</p>
+</blockquote>
+<p><img alt="leovue" src="https://camo.githubusercontent.com/710523b7e44c98cbffe6546278535f6665ef5cec/68747470733a2f2f6b616c656775792e6769746875622e696f2f6c656f7675652f73637265656e63617374732f6c656f7675652d636f6d706f6e656e74732e676966"></p>
+<p><em><a href="https://medium.mybridge.co/30-amazing-python-projects-for-the-past-year-v-2018-9c310b04cdb3">30 Amazing Python Projects for the Past Year (v.2018)</a></em> 其中有几个国货,也都超过 1000+星了...</p>
+<ul>
+<li><a href="https://github.com/gaojiuli/gain">gaojiuli/gain: Web crawling framework based on asyncio for everyone.</a></li>
+<li><a href="https://github.com/zhoubear/open-paperless">zhoubear/open-paperless: Scan, index, and archive all of your paper documents</a></li>
+</ul>
+<p><img alt="screenshot" src="https://github.com/Qix-/better-exceptions/raw/master/screenshot.png"></p>
+<p>&lt;- <a href="https://github.com/Qix-/better-exceptions">Qix-/better-exceptions: Pretty and useful exceptions in Python, automatically.</a> 效果惊艳...</p>
+<h2>是也乎</h2>
+<ul>
+<li>180212 <a href="http://zoomquiet.io">Zoom.Quiet</a> 42 分钟完成快译</li>
+<li>180212 <a href="http://zoomquiet.io">Zoom.Quiet</a> 用时 7 分钟完成格式化.</li>
+</ul>
+</div>
+
+
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+<!--
+    <span class="label label-default">Date</span>
+-->
+    <span class="published">
+        <i class="icon-calendar"></i>2018-02-12 13:42
+    </span>
+
+
+    <span class="label">By</span>
+    <i class="icon-user"></i><a href="http://weekly.pychina.org/author/zoomquiet.html">Zoom.Quiet</a>
+
+    <span class="label label-default">Category</span>
+    <a href="http://weekly.pychina.org/importpython/index.html">importpython</a>
+
+
+
+	<span class="label label-default">Tags</span>
+		<a href="http://weekly.pychina.org/tag/weekly.html">Weekly</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/importpython.html">ImportPython</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/zh.html">Zh</a>
+</footer><!-- /.post-info -->                    </div>
                 </div>
-            </article>
-            <hr/>
 
-        <ul class="pagination">
+            </div>
+            <!-- /.entry-content -->
+    <hr />
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+            var disqus_identifier = 'importpython/18-02-12-importpython-162';
+            var disqus_url = 'http://weekly.pychina.org/importpython/importpython-162.html';
 
-                <li class="prev"><a href="http://weekly.pychina.org/importpython/index16.html">&laquo;</a>
-                </li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index7.html">7</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index8.html">8</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index9.html">9</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index10.html">10</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index11.html">11</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index12.html">12</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index13.html">13</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index14.html">14</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index15.html">15</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index16.html">16</a></li>
-                <li class="active"><a
-                        href="http://weekly.pychina.org/importpython/index17.html">17</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index18.html">18</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index19.html">19</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index20.html">20</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index21.html">21</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index22.html">22</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index23.html">23</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index24.html">24</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index25.html">25</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/importpython/index26.html">26</a></li>
-                <li class="next"><a
-                        href="http://weekly.pychina.org/importpython/index18.html">&raquo;</a></li>
-        </ul>
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
+
+
         </div>
         <div class="col-lg-3 well well-sm" id="sidebar">
 <aside>

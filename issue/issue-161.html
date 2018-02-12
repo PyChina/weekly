@@ -193,21 +193,21 @@ pip 不招人待见的事儿太多了,,
 <p>github.com</p>
 <p>Shared by @mgrouchy</p>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span class="nb">from</span> <span class="nx">soupy</span> <span class="k">import</span> <span class="nx">Soupy</span><span class="p">,</span> <span class="nx">Q</span>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">soupy</span> <span class="kn">import</span> <span class="n">Soupy</span><span class="p">,</span> <span class="n">Q</span>
 
 <span class="n">html</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">&lt;div id=&quot;</span><span class="nx">main</span><span class="s2">&quot;&gt;</span>
+<span class="s2">&lt;div id=&quot;main&quot;&gt;</span>
 <span class="s2">  &lt;div&gt;The web is messy&lt;/div&gt;</span>
 <span class="s2">  and full of traps</span>
 <span class="s2">  &lt;div&gt;but Soupy loves you&lt;/div&gt;</span>
 <span class="s2">&lt;/div&gt;&quot;&quot;&quot;</span>
 
-<span class="nx">print</span><span class="p">(</span><span class="nx">Soupy</span><span class="p">(</span><span class="nx">html</span><span class="p">)</span><span class="bp">.</span><span class="nb">find</span><span class="p">(</span><span class="n">id</span><span class="o">=</span><span class="s1">&#39;main&#39;</span><span class="p">)</span><span class="bp">.</span><span class="nb">children</span>
-      <span class="bp">.</span><span class="nb">each</span><span class="p">(</span><span class="nx">Q.text.strip</span><span class="p">())</span> <span class="err">#</span> <span class="nb">extract</span> <span class="nx">text</span> <span class="nb">from</span> <span class="nb">each</span> <span class="nx">node</span><span class="p">,</span> <span class="nb">trim</span> <span class="nx">whitespace</span>
-      <span class="bp">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">len</span><span class="p">)</span>          <span class="err">#</span> <span class="nb">remove</span> <span class="nx">empty</span> <span class="nx">strings</span>
-      <span class="bp">.</span><span class="nx">val</span><span class="p">())</span>               <span class="err">#</span> <span class="nb">dump</span> <span class="nb">out</span> <span class="nx">of</span> <span class="nx">Soupy</span>
+<span class="k">print</span><span class="p">(</span><span class="n">Soupy</span><span class="p">(</span><span class="n">html</span><span class="p">)</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s1">&#39;main&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">children</span>
+      <span class="o">.</span><span class="n">each</span><span class="p">(</span><span class="n">Q</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span> <span class="c1"># extract text from each node, trim whitespace</span>
+      <span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span>          <span class="c1"># remove empty strings</span>
+      <span class="o">.</span><span class="n">val</span><span class="p">())</span>               <span class="c1"># dump out of Soupy</span>
 
-<span class="err">#</span> <span class="err">[</span><span class="s1">&#39;The web is messy&#39;</span><span class="p">,</span> <span class="s1">&#39;and full of traps&#39;</span><span class="p">,</span> <span class="s1">&#39;but Soupy loves you&#39;</span><span class="cp">]</span>
+<span class="c1"># [&#39;The web is messy&#39;, &#39;and full of traps&#39;, &#39;but Soupy loves you&#39;]</span>
 </pre></div>
 
 

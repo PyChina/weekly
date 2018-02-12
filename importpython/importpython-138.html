@@ -180,8 +180,8 @@ metaclasses 开始...</p>
 <p><img alt="XKCD" src="https://camo.githubusercontent.com/2ea3c517525377dbb66d22c6e27dd2334af4731e/68747470733a2f2f7261772e6769746875622e636f6d2f68796c616e672f73687974652f313866363932356530383638346230653166353262326363326338303339383963643632636439312f696d67732f786b63642e706e67"></p>
 <p>叕一个为了 LISP 的方言, py 造...</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span class="cp">#! /usr/bin/env hy</span>
-<span class="p">(</span><span class="n">print</span> <span class="s">&quot;I was going to code in Python syntax, but then I got Hy.&quot;</span><span class="p">)</span>
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span>#! /usr/bin/env hy
+(print &quot;I was going to code in Python syntax, but then I got Hy.&quot;)
 </pre></div>
 </td></tr></table>
 
@@ -240,8 +240,8 @@ metaclasses 开始...</p>
 <p>The post is about a terminal visualization tool lehar that is open sourced at https://github.com/darxtrix/lehar</p>
 <p>(<code>是也乎:</code></p>
 <p>Find commits by authors in a git repo</p>
-<div class="highlight"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">shortlog</span> <span class="o">-</span><span class="n">s</span> <span class="o">|</span> <span class="n">cut</span> <span class="o">-</span><span class="n">f1</span> <span class="o">|</span> <span class="n">lehar</span>
-<span class="err">▇▁▁▁▁▁▁▂▃▁▁█▁▁▂▃▅▁▁▁▂▆▁▁▁▂▁▁▁▁▂▇▁▅▆▁▁▁▄▁▁█▁▁▂▁▂▁</span>
+<div class="highlight"><pre><span></span>$ git shortlog -s <span class="p">|</span> cut -f1 <span class="p">|</span> lehar
+▇▁▁▁▁▁▁▂▃▁▁█▁▁▂▃▅▁▁▁▂▆▁▁▁▂▁▁▁▁▂▇▁▅▆▁▁▁▄▁▁█▁▁▂▁▂▁
 </pre></div>
 
 
@@ -265,16 +265,16 @@ metaclasses 开始...</p>
 <p>Service objects for Django</p>
 <p>(<code>是也乎:</code></p>
 <p>还有这种操作需求?!</p>
-<div class="highlight"><pre><span class="n">jsonschema2db</span><span class="o">-</span><span class="n">test</span><span class="o">=</span><span class="err">#</span> <span class="n">select</span> <span class="o">*</span> <span class="n">from</span> <span class="n">schm</span><span class="p">.</span><span class="n">root</span><span class="p">;</span>
-<span class="o">-</span><span class="p">[</span> <span class="n">RECORD</span> <span class="mi">1</span> <span class="p">]</span><span class="o">------------------------+-----------</span>
-<span class="n">id</span>                                   <span class="o">|</span> <span class="mi">1</span>
-<span class="n">loan_file_id</span>                         <span class="o">|</span> <span class="mi">1000000000</span>
-<span class="n">prefix</span>                               <span class="o">|</span>
-<span class="n">loan__amount</span>                         <span class="o">|</span> <span class="mi">500000</span>
-<span class="n">subject_property__acreage</span>            <span class="o">|</span> <span class="mi">42</span>
-<span class="n">subject_property__address__latitude</span>  <span class="o">|</span> <span class="mi">43</span>
-<span class="n">subject_property__address__longitude</span> <span class="o">|</span>
-<span class="n">subject_property__address_id</span>         <span class="o">|</span> <span class="mi">1</span>
+<div class="highlight"><pre><span></span>jsonschema2db-test=# select * from schm.root;
+-[ RECORD 1 ]------------------------+-----------
+id                                   | 1
+loan_file_id                         | 1000000000
+prefix                               |
+loan__amount                         | 500000
+subject_property__acreage            | 42
+subject_property__address__latitude  | 43
+subject_property__address__longitude |
+subject_property__address_id         | 1
 </pre></div>
 
 
