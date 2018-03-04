@@ -306,6 +306,10 @@
 )&lt;/p&gt;
 &lt;h3&gt;(￣▽￣)&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://python-sprints.github.io/pandas/#location"&gt;Pandas documentation sprint&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;新年, events&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Neilpang/acme.sh"&gt;Neilpang/acme.sh: A pure Unix shell script implementing ACME client protocol&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;https&lt;/li&gt;
 &lt;/ul&gt;
@@ -314,16 +318,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;国人作品, 解决 https 部署时的证书生成问题&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/kaleguy/leovue#leo-vue"&gt;kaleguy/leovue: File viewer for the Leo open source outline editor / IDE, integrated with Vue.js&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;Leo,Vue&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;猛然发现, Leo 生态已经走到这种程度了...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt="leovue" src="https://camo.githubusercontent.com/710523b7e44c98cbffe6546278535f6665ef5cec/68747470733a2f2f6b616c656775792e6769746875622e696f2f6c656f7675652f73637265656e63617374732f6c656f7675652d636f6d706f6e656e74732e676966"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;a href="https://medium.mybridge.co/30-amazing-python-projects-for-the-past-year-v-2018-9c310b04cdb3"&gt;30 Amazing Python Projects for the Past Year (v.2018)&lt;/a&gt;&lt;/em&gt; 其中有几个国货,也都超过 1000+星了...&lt;/p&gt;
 &lt;p&gt;&amp;lt;- &lt;a href="https://github.com/Qix-/better-exceptions"&gt;Qix-/better-exceptions: Pretty and useful exceptions in Python, automatically.&lt;/a&gt; 效果惊艳...&lt;/p&gt;
 &lt;h2&gt;是也乎&lt;/h2&gt;
