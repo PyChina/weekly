@@ -336,18 +336,13 @@ Disorganized collection of useful functions for working with audio and images, e
 
 ### (￣▽￣)
 
+- [Pandas documentation sprint](https://python-sprints.github.io/pandas/#location)
+    + 新年, events
 - [Neilpang/acme.sh: A pure Unix shell script implementing ACME client protocol](https://github.com/Neilpang/acme.sh)
     + https
 
 > 国人作品, 解决 https 部署时的证书生成问题
 
-
-- [kaleguy/leovue: File viewer for the Leo open source outline editor / IDE, integrated with Vue.js](https://github.com/kaleguy/leovue#leo-vue)
-    + Leo,Vue
-
-> 猛然发现, Leo 生态已经走到这种程度了...
-
-![leovue](https://camo.githubusercontent.com/710523b7e44c98cbffe6546278535f6665ef5cec/68747470733a2f2f6b616c656775792e6769746875622e696f2f6c656f7675652f73637265656e63617374732f6c656f7675652d636f6d706f6e656e74732e676966)
 
 
 *[30 Amazing Python Projects for the Past Year \(v\.2018\)](https://medium.mybridge.co/30-amazing-python-projects-for-the-past-year-v-2018-9c310b04cdb3)* 其中有几个国货,也都超过 1000+星了...
