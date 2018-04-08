@@ -3,7 +3,7 @@ Slug: importpython-169
 Date: 2018-04-02 11:42
 Tags: Weekly,ImportPython,Zh
 
-![importpython-barnner.png](http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210)
+![importpython-barnner.png](http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210)
 
 
 - 原文: [Import Python Weekly Newsletter - Issue No 169](http://importpython.com/newsletter/no/169/)
