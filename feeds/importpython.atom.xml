@@ -126,6 +126,9 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Copy pypi.py into your site-packages directory or straight into your project. Don't bother using pip, requirements.txt and all that crap.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;展示视频: &lt;a href="https://asciinema.org/a/173095"&gt;import pypi - asciinema&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/ArtrixTech/BoomMine"&gt;BoomMine&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;63 Stars, 22 Fork&lt;/li&gt;
