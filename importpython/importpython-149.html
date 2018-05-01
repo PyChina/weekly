@@ -244,14 +244,14 @@
 <p>Curio + Requests: Async HTTP for Humans</p>
 <p>(<code>是也乎:</code></p>
 <p>叕一个 HTTP 工具,面向 Py3 的...</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">curio</span> <span class="kn">import</span> <span class="n">run</span>
-<span class="kn">from</span> <span class="nn">curequests</span> <span class="kn">import</span> <span class="n">get</span><span class="p">,</span> <span class="n">post</span>
+<div class="highlight"><pre><span class="n">from</span> <span class="n">curio</span> <span class="n">import</span> <span class="n">run</span>
+<span class="n">from</span> <span class="n">curequests</span> <span class="n">import</span> <span class="n">get</span><span class="p">,</span> <span class="n">post</span>
 
-<span class="n">async</span> <span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-    <span class="n">r</span> <span class="o">=</span> <span class="n">await</span> <span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://httpbin.org/get&#39;</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
-    <span class="n">r</span> <span class="o">=</span> <span class="n">await</span> <span class="n">post</span><span class="p">(</span><span class="s1">&#39;https://httpbin.org/post&#39;</span><span class="p">,</span> <span class="n">json</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="s1">&#39;world&#39;</span><span class="p">})</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+<span class="n">async</span> <span class="n">def</span> <span class="n">main</span><span class="p">()</span><span class="o">:</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">await</span> <span class="n">get</span><span class="p">(</span><span class="err">&#39;</span><span class="n">https</span><span class="o">:</span><span class="c1">//httpbin.org/get&#39;)</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">r</span><span class="p">.</span><span class="n">json</span><span class="p">())</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">await</span> <span class="n">post</span><span class="p">(</span><span class="err">&#39;</span><span class="n">https</span><span class="o">:</span><span class="c1">//httpbin.org/post&#39;, json={&#39;hello&#39;: &#39;world&#39;})</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">r</span><span class="p">.</span><span class="n">json</span><span class="p">())</span>
 
 <span class="n">run</span><span class="p">(</span><span class="n">main</span><span class="p">)</span>
 </pre></div>

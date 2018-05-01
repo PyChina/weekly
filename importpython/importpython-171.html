@@ -314,7 +314,31 @@
 </ul>
 <p>Search the most similar strings against the query in Python 3. State-of-the-art algorithm and data structure are adopted for best efficiency. For both flexibility and efficiency, only set-based similarities are supported right now, including Jaccard and Tversky. </p>
 <p>(<code>是也乎:</code></p>
+<blockquote>
 <p>叕一个 Py 实现的搜索模块...当然, 对中文是否支持就不一定了</p>
+</blockquote>
+<p>18.5.1 via: Chuancong Gao • 8 hours ago</p>
+<blockquote>
+<p>您好，我是TopSim的作者。感谢您介绍我的Python包。TopSim从设计时就是语言无关的，所以完全支持中文。最新的更新更是优化了体验。谢谢支持。🙏</p>
+</blockquote>
+<p>Full support of Chinese/Japanese/Korean.</p>
+<p>$ cat test</p>
+<div class="highlight"><pre><span class="err">地三鲜</span>
+<span class="err">红烧肉</span>
+<span class="err">烤全牛</span>
+<span class="err">木须肉</span>
+<span class="err">土豆炖牛肉</span>
+</pre></div>
+
+
+<p>$ cat test | topsim-cli "牛肉" -k 3 -s tversky</p>
+<div class="highlight"><pre><span class="err">土豆炖牛肉</span>   <span class="mf">0.666</span>
+<span class="err">红烧肉</span> <span class="mf">0.3332</span>
+<span class="err">木须肉</span> <span class="mf">0.3332</span>
+</pre></div>
+
+
+<p><code>(￣▽￣)</code> 没毛病, 可以大力使用之 ;-)</p>
 <p>)</p>
 <h3>(￣▽￣)</h3>
 <ul>
