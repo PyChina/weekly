@@ -140,6 +140,13 @@ I don’t particularly enjoy writing tests, but having a proper testing suite is
 
 Copy pypi.py into your site-packages directory or straight into your project. Don't bother using pip, requirements.txt and all that crap.
 
+(`是也乎:`
+
+展示视频: [import pypi - asciinema](https://asciinema.org/a/173095)
+
+)
+
+
 - [BoomMine](https://github.com/ArtrixTech/BoomMine)
     - 63 Stars, 22 Fork
 
@@ -247,7 +254,30 @@ Search the most similar strings against the query in Python 3. State-of-the-art 
 
 (`是也乎:`
 
-叕一个 Py 实现的搜索模块...当然, 对中文是否支持就不一定了
+> 叕一个 Py 实现的搜索模块...当然, 对中文是否支持就不一定了
+
+18.5.1 via: Chuancong Gao • 8 hours ago
+
+> 您好，我是TopSim的作者。感谢您介绍我的Python包。TopSim从设计时就是语言无关的，所以完全支持中文。最新的更新更是优化了体验。谢谢支持。🙏
+
+Full support of Chinese/Japanese/Korean.
+
+$ cat test
+
+    地三鲜
+    红烧肉
+    烤全牛
+    木须肉
+    土豆炖牛肉
+
+$ cat test | topsim-cli "牛肉" -k 3 -s tversky
+
+    土豆炖牛肉   0.666
+    红烧肉 0.3332
+    木须肉 0.3332
+
+`(￣▽￣)` 没毛病, 可以大力使用之 ;-)
+
 
 )
 
