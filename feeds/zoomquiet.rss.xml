@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 07 May 2018 11:42:00 +0800</lastBuildDate><item><title>蠎加载 172</title><link>http://weekly.pychina.org/importpython/importpython-172.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 14 May 2018 16:42:00 +0800</lastBuildDate><item><title>蠎加载 173</title><link>http://weekly.pychina.org/importpython/importpython-173.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/173/"&gt;Import Python Weekly Newsletter - Issue No 173&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=NeeO14QBW-s"&gt;集合理论与实践: Grok Pythonic收集类型&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core-python, set&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sets and logic are strongly related. That's why proper use of set operations can eliminate lots of nested loops and ifs, producing code that …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Mon, 14 May 2018 16:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2018-05-14:/importpython/importpython-173.html</guid><category>Weekly</category><category>ImportPython</category><category>Zh</category></item><item><title>蠎加载 172</title><link>http://weekly.pychina.org/importpython/importpython-172.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/172/"&gt;Import Python Weekly Newsletter - Issue No 172&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
