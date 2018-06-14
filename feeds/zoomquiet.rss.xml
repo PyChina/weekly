@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Thu, 31 May 2018 12:42:00 +0800</lastBuildDate><item><title>蠎加载 174</title><link>http://weekly.pychina.org/importpython/importpython-174.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Thu, 14 Jun 2018 16:50:00 +0800</lastBuildDate><item><title>蠎周刊 320: Force</title><link>http://weekly.pychina.org/issue/issue-320.html</link><description>&lt;p&gt;&lt;img alt="PycodersWeekly.png(PNG 图像,860x97 像素)" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="https://mailchi.mp/pycoders/pycoders-weekly-issue-263-source-209885?e=889f3f6a05"&gt;Pycoders Weekly (Issue #320): Force&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;搜罗Py万物 的周刊&lt;/h2&gt;
+&lt;p&gt;亲,&lt;/p&gt;
+&lt;p&gt;又一堆好文/项目在这周被发掘!
+享受她们吧,学习的周末总是美好的!&lt;/p&gt;
+&lt;p&gt;大家多分享&lt;a href="http://pycoders.com/submissions/"&gt;文章&lt;/a&gt;
+俺们才折腾的出又一周的美好呢.&lt;/p&gt;
+&lt;p&gt;喜欢就多向俺们反馈吧!
+当然的,俺们也在&lt;a href="http://www.twitter.com/pycoders"&gt;twitter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;--&amp;gt; Mahdi &amp;amp; Mike &lt;/p&gt;
+&lt;h2&gt;新闻&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://docs.celeryproject.org/en/master/changelog.html#changelog"&gt;Celery 4.2.0 released&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;celeryproject.org,Shared by @mgrouchy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Click through to see the latest in this celery release! Lots of changes here.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;熬了这么多年, 芹菜终于变成分布式任务平台的标准了 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Thu, 14 Jun 2018 16:50:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2018-06-14:/issue/issue-320.html</guid><category>Weekly</category><category>Pycoder</category><category>ZH</category></item><item><title>蠎加载 174</title><link>http://weekly.pychina.org/importpython/importpython-174.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/174/"&gt;Import Python Weekly Newsletter - Issue No 174&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
