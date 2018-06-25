@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sat, 16 Jun 2018 15:42:00 +0800</lastBuildDate><item><title>蠎加载 175</title><link>http://weekly.pychina.org/importpython/importpython-175.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 25 Jun 2018 20:42:00 +0800</lastBuildDate><item><title>蠎加载 177</title><link>http://weekly.pychina.org/importpython/importpython-177.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/177/"&gt;Import Python Weekly Newsletter - Issue No 177&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://amir.rachum.com/blog/2018/06/23/python-multiline-idioms/"&gt;Python 惯用: Multiline Strings&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;core-python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I rarely see Multiline strings used in Python code outside of docstrings, but they can be very useful, especially when you need to create …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Mon, 25 Jun 2018 20:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2018-06-25:/importpython/importpython-177.html</guid><category>Weekly</category><category>ImportPython</category><category>Zh</category></item><item><title>蠎加载 175</title><link>http://weekly.pychina.org/importpython/importpython-175.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/175/"&gt;Import Python Weekly Newsletter - Issue No 175&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
