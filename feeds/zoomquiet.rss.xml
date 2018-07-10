@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 25 Jun 2018 20:42:00 +0800</lastBuildDate><item><title>蠎加载 177</title><link>http://weekly.pychina.org/importpython/importpython-177.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Tue, 10 Jul 2018 18:42:00 +0800</lastBuildDate><item><title>蠎加载 179</title><link>http://weekly.pychina.org/importpython/importpython-179.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/179/"&gt;Import Python Weekly Newsletter - Issue No 179&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://hackernoon.com/7-features-proposed-so-far-in-python-3-8-acb0d97c83c8"&gt;Python 3.8 已明确7项新嗯哼&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PEP, 3.8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python 3.7 benefitted from both new functionality and optimizations. From what we know so far about 3.8, it’s going …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Tue, 10 Jul 2018 18:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2018-07-10:/importpython/importpython-179.html</guid><category>Weekly</category><category>ImportPython</category><category>Zh</category></item><item><title>蠎加载 177</title><link>http://weekly.pychina.org/importpython/importpython-177.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/177/"&gt;Import Python Weekly Newsletter - Issue No 177&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
