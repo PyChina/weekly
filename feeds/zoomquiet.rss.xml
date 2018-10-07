@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Fri, 21 Sep 2018 16:42:00 +0800</lastBuildDate><item><title>蠎加载 185</title><link>http://weekly.pychina.org/importpython/importpython-185.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sat, 06 Oct 2018 11:42:00 +0800</lastBuildDate><item><title>蠎加载 186</title><link>http://weekly.pychina.org/importpython/importpython-186.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/186/"&gt;Import Python Weekly Newsletter - Issue No 186&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;最近官方更新的不规律, 俺也不好按时自造...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;该读&lt;/h2&gt;
+&lt;p&gt;~ 文章, Blog, 教程...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://newsletterspot.com/flask/"&gt;Flask Monthly Newsletter&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;flask, newsletter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once a month flask newsletter. Maintained and curated by a friend.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;相比 Django 的迟了太久...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://treyhunner.com/2018/09/stop-writing-lambda-expressions/"&gt;嫑在 Python 中写 lambda 表达式了 - Trey Hunner …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Sat, 06 Oct 2018 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2018-10-06:/importpython/importpython-186.html</guid><category>Weekly</category><category>ImportPython</category><category>Zh</category></item><item><title>蠎加载 185</title><link>http://weekly.pychina.org/importpython/importpython-185.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://0.zoomquiet.top/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/185/"&gt;Import Python Weekly Newsletter - Issue No 185&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;欢迎, &lt;strong&gt;来 &lt;a href="https://github.com/PyChina/weekly"&gt;PyChina/weekly&lt;/a&gt; 共同翻译/增订/推荐 周刊 蠎消息 ;-)&lt;/strong&gt;&lt;/li&gt;
