@@ -27,7 +27,7 @@ This is a book about doing things with Django admin. It takes the form of about 
 
 
 
-- [又一种创建 REST API 的简易形式 – codeburst](https://codeburst.io/this-is-how-easy-it-is-to-create-a-rest-api-8a25122ab1f3)
+- [又一种创建 REST API 的简易形式 – codeburst](https://www.guru99.com/restful-web-services.html)
     + flask
 
 Learn how to create semantic REST API real quick using Python Flask
@@ -36,6 +36,15 @@ Learn how to create semantic REST API real quick using Python Flask
 
 叕一个用FLask 来折腾 RESTful 接口的案例,
 但是,有专门的 API 生成器了哪
+
+> 181130 suggest by Alex Nordeen
+
+[RESTful Web Services Tutorial with Example](https://www.guru99.com/restful-web-services.html) is is more in-depth and well -> [This is how easy it is to create a REST API – codeburst](https://codeburst.io/this-is-how-easy-it-is-to-create-a-rest-api-8a25122ab1f3)
+
+thanx u Alex ;-)
+
+
+
 
 )
 
