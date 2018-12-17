@@ -13,6 +13,7 @@ SITEDESC = u'汇集全球蠎事儿 !-)'
 SITENOTE = u"pycoder's weekly 中译版"
 
 SITEURL = 'http://weekly.pychina.org'
+#SITEURL = 'http://weekly.101.camp'
 DISQUS_SITENAME = u"weeklypychinaorg" #填入你的Shortname
 
 MARKUP = ('md', 'rst')#'rst', 'html', 
@@ -83,6 +84,7 @@ ADDTHIS_PROFILE = None #True
 #GITHUB_USER = "ZoomQuiet"
 MENUITEMS = (('Zoom.Quiet', 'http://zoomquiet.io')
         ,('PyChina', 'http://pychina.org')
+        ,('PythoniCamp', 'http://101.camp')
         )
 
 # Feed generation is usually not desired when developing
@@ -93,9 +95,10 @@ TRANSLATION_FEED_ATOM = None
 FEED_ALL_RSS = None
 CATEGORY_FEED_RSS= None
 
-SOCIAL = (('gitcafe', 'https://gitcafe.com/CPyUG/weekly')
+SOCIAL = (('github', 'https://github.com/PyChina/weekly')
         , ('rss', SITEURL + '/' + FEED_ALL_ATOM)
-        , ('CPyUG', 'https://gitcafe.com/CPyUG')
+        #, ('CPyUG', 'https://gitcafe.com/CPyUG')
+        , ('PyChina', 'https://github.com/PyChina')
         , ('Wiki', 'http://wiki.pychina.org')
         , ('O.B.P', 'http://weibo.com/openbookproject')
         , ('weibo', 'http://weibo.com/pyconcn')

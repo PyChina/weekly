@@ -108,6 +108,8 @@ Slug: about
 
 ## changelog
 
+- 181217 补交费用, 恢复 weekly.pychina.org
+- 181216 pychina.org 域名过期, 临时迁移为 101.camp
 - 140111 增补历史来由
 - 131218 base pelican build and through qiniu.com publish
 
