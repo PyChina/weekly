@@ -1,4 +1,4 @@
-Title: 蠎周刊 349
+Title: Issue 349
 Slug: issue-349
 Date: 2019-01-02 12:21
 Tags: Weekly,Python,pycoders,ZH
