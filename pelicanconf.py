@@ -85,6 +85,8 @@ ADDTHIS_PROFILE = None #True
 MENUITEMS = (('Zoom.Quiet', 'http://zoomquiet.io')
         ,('PyChina', 'http://pychina.org')
         ,('PythoniCamp', 'http://101.camp')
+        ,('设计', 'design.html')
+        ,('有关', 'about.html')
         )
 
 # Feed generation is usually not desired when developing
