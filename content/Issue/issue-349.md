@@ -426,5 +426,6 @@ Looking to start 2019 with a career change? Find your dream Python job with Pyth
 
 # 是也乎
 
+- 190102 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 32 分钟 追加utteranc
 - 190102 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译
 - 190102 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 17 分钟 完成格式转抄.
