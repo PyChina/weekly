@@ -350,6 +350,5 @@ Azure 越来越积累了...
 
 # 是也乎
 
-- 190306 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 32 分钟 追加utteranc
 - 190306 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译
 - 190306 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 17 分钟 完成格式转抄.
