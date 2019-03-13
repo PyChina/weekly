@@ -147,7 +147,7 @@ Shared by @mgrouchy
 
 - [boltons](https://github.com/mahmoud/boltons)
 
-大量BSD许可的Python实用工具集,标准库没有的，这里都有
+大量BSD许可的Python实用工具集,标准库没有的,这里都有
 
 github.com
 
@@ -316,7 +316,7 @@ Shared by @mgrouchy
 
 - [Airflow: a workflow management platform](http://nerds.airbnb.com/airflow/)
 
-Airflow则是Airbnb内部发起、排序、监控data pipeline的工具
+Airflow则是Airbnb内部发起,排序,监控data pipeline的工具
 
 airbnb.com
 
@@ -434,7 +434,7 @@ Shared by @mgrouchy
 
 - [Pyxley](http://multithreaded.stitchfix.com/blog/2015/07/16/pyxley/)
 
-致力于创建仪表的Python库！
+致力于创建仪表的Python库!
 
 stitchfix.com
 
@@ -617,7 +617,7 @@ Shared by @myusuf3
 
 - [ptpython](https://github.com/jonathanslenders/ptpython)
 
-新一代REPL神器，自带自动补全，批量编辑，语法检验等功能.
+新一代REPL神器,自带自动补全,批量编辑,语法检验等功能.
 
 github.com
 
@@ -636,7 +636,7 @@ Shared by @mgrouchy
 
 - [usbkill](https://github.com/hephaest0s/usbkill)
 
-防攻击工具，根据你USB端口变化来关闭计算机
+防攻击工具,根据你USB端口变化来关闭计算机
 
 github.com
 
@@ -677,7 +677,7 @@ Shared by @mgrouchy
 
 - [Pylsy](https://github.com/Leviathan1995/Pylsy)
 
-实用，终端下的表格制作工具
+实用,终端下的表格制作工具
 
 github.com
 
@@ -1278,7 +1278,7 @@ Shared by @myusuf3
 
 - [PyFormat: 运用 % 和 .format() 令世界更好!](http://pyformat.info/)
 
-网站展示了新老字符串格式化接口的实用例子。
+网站展示了新老字符串格式化接口的实用例子. 
 
 pyformat.info
 
@@ -1363,7 +1363,7 @@ Shared by @mgrouchy
 
 - [Python3存在的意义](http://www.snarky.ca/why-python-3-exists)
 
-好奇为什么会有Python3的存在？Python核心开发者Brett Cannon将告诉你原因
+好奇为什么会有Python3的存在?Python核心开发者Brett Cannon将告诉你原因
 
 snarky.ca
 
@@ -1528,7 +1528,7 @@ zoomeranalytics.com
 Shared by @mgrouchy
 
 
-- [你的代码很慢？让我们来剖析一下](http://marcobonzanini.com/2015/01/05/my-python-code-is-slow-tips-for-profiling/)
+- [你的代码很慢?让我们来剖析一下](http://marcobonzanini.com/2015/01/05/my-python-code-is-slow-tips-for-profiling/)
 
 Python项目的分析技巧和策略集锦
 
@@ -1833,7 +1833,7 @@ Shared by @myusuf3
 
 - [用Pandas来找Python工作](http://pawelmhm.github.io/python/pandas/2015/01/01/python-job-analytics.html)
 
-从招聘网站的数据中使用pandas分析，给出职位相关的数据，例如工作地点和薪资等
+从招聘网站的数据中使用pandas分析,给出职位相关的数据,例如工作地点和薪资等
 
 github.io
 
@@ -1906,7 +1906,7 @@ Shared by @myusuf3
 
 - [使用Jupyter创建交互式仪表](http://blog.dominodatalab.com/interactive-dashboards-in-jupyter/)
 
-很赞的实用教程，教你如何使用jupyter创建交互式仪表
+很赞的实用教程,教你如何使用jupyter创建交互式仪表
 
 dominodatalab.com
 
@@ -1914,7 +1914,7 @@ Shared by @mgrouchy
 
 - [D3实现的Scikit-Learn决策树可视化](http://planspace.org/20151129-see_sklearn_trees_with_d3/)
 
-好文，看实际情况中分类树的使用规则!
+好文,看实际情况中分类树的使用规则!
 
 planspace.org
 
@@ -1950,7 +1950,7 @@ Shared by @myusuf3
 
 - [机器学习初学者教程](http://pythonforengineers.com/machine-learning-for-complete-beginners/)
 
-一套不错的机器学习教程，适合初学者
+一套不错的机器学习教程,适合初学者
 
 pythonforengineers.com
 

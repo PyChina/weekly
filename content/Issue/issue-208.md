@@ -43,7 +43,7 @@ Shared by @treyhunner
 
 - [PyCon Israel 2016](http://il.pycon.org/2016/)
 
-今年最早的以色列PyCon！
+今年最早的以色列PyCon!
 
 
 pycon.org
@@ -100,7 +100,7 @@ Shared by @mgrouchy
 
 - [Python 201: namedtuple](http://www.blog.pythonlibrary.org/2016/03/15/python-201-namedtuple/) 
 
-PYthon namedtuple教程。这里有你需要知道的一切。
+PYthon namedtuple教程. 这里有你需要知道的一切. 
 
 pythonlibrary.org
 
@@ -120,7 +120,7 @@ Shared by @mgrouchy
 
 - [地道的Python: 推导式](https://blogs.msdn.microsoft.com/pythonengineering/2016/03/14/idiomatic-python-comprehensions/) 
 
-微软Python开发小组中的Python开发者Brett Cannon如何编写地道的python，尤其是列表推导式。
+微软Python开发小组中的Python开发者Brett Cannon如何编写地道的python,尤其是列表推导式. 
 
 microsoft.com
 
@@ -136,7 +136,7 @@ Shared by @mgrouchy
 
 - [Django Channels入门](https://blog.heroku.com/archives/2016/3/17/in_deep_with_django_channels_the_future_of_real_time_apps_in_django)
 
-Jacob Kaplan-Moss讲述如何在应用中使用Django和Django Channels。
+Jacob Kaplan-Moss讲述如何在应用中使用Django和Django Channels. 
 
 heroku.com
 
@@ -155,7 +155,7 @@ Shared by @mgrouchy
 
 - [深入别人的代码](http://www.lihaoyi.com/post/DivingIntoOtherPeoplesCode.html)
 
-阅读别人的代码是成为专业程序员很重要的一部分，文章讲述了该如何去阅读并提供了一些工具。
+阅读别人的代码是成为专业程序员很重要的一部分,文章讲述了该如何去阅读并提供了一些工具. 
 
 lihaoyi.com
 
@@ -221,7 +221,7 @@ Shared by @mgrouchy
 
 - [alchemy-framework](https://github.com/LoyaltyNZ/alchemy-framework) 
 
-用来构建高可用微服务的框架。包含服务发现，易部署，智能负载均衡，并支持多语言
+用来构建高可用微服务的框架. 包含服务发现,易部署,智能负载均衡,并支持多语言
 
 github.com
 
@@ -230,7 +230,7 @@ Shared by @mgrouchy
 
 - [rafs](https://github.com/CrimsonRay/rafs)
 
-将reddit用文件存储, 将私人频道保存到文件的命令行脚本。
+将reddit用文件存储, 将私人频道保存到文件的命令行脚本. 
 
 github.com
 
@@ -249,7 +249,7 @@ Shared by @myusuf3
 
 - [pseudo](https://github.com/alehander42/pseudo)
 
-利用一个算法/一个简单程序，然后在Python, JavaScript, C#, Go 和 Ruby 中生成为惯用代码。
+利用一个算法/一个简单程序,然后在Python, JavaScript, C#, Go 和 Ruby 中生成为惯用代码. 
 
 
 github.com

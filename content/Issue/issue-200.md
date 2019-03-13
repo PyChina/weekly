@@ -33,7 +33,7 @@ Tags: Weekly,Pycoder,ZH
 
 - [DSF对的DjangoCon Europe 2016的补助计划](https://www.djangoproject.com/weblog/2016/jan/21/djangocon-europe-grants-2016/)
 
-Django软件基金会提供了5000€给djangocon欧洲2016的参加者，以帮助他们满足出席的成本。如果你需要资金来帮助你参加djangocon, 点击了解详情。
+Django软件基金会提供了5000€给djangocon欧洲2016的参加者,以帮助他们满足出席的成本. 如果你需要资金来帮助你参加djangocon, 点击了解详情. 
 
 djangoproject.com
 
@@ -97,7 +97,7 @@ Shared by @mgrouchy
 
 - [使用Django进行原型设计](https://code.abhi.co/prototyping-django/)
 
-教你如何生成Python和Django的快速原型开发工具的好玩呢，可能带给你很多可借鉴的东西
+教你如何生成Python和Django的快速原型开发工具的好玩呢,可能带给你很多可借鉴的东西
 
 abhi.co
 
@@ -114,7 +114,7 @@ Shared by @mgrouchy
 
 - [好奇评论的案例](http://inre.dundeemt.com/2016-01-20/the-case-of-the-curious-comment/)
 
-很酷的文章，你一定会感兴趣
+很酷的文章,你一定会感兴趣
 
 dundeemt.com
 
@@ -123,7 +123,7 @@ Shared by @myusuf3
 
 - [使用图像特征分析股票图的相似性](https://indico.io/blog/clothing-similarity-how-a-program-is-more-fashionable-than-me/)
 
-非常酷，值得一读
+非常酷,值得一读
 
 indico.io
 
@@ -189,7 +189,7 @@ Shared by @mgrouchy
 
 - [deep-fonts](https://github.com/erikbern/deep-fonts)
 
-使用深度学习生成字体，相当不错
+使用深度学习生成字体,相当不错
 
 github.com
 

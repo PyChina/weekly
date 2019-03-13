@@ -71,13 +71,13 @@ Shared by @myusuf3
 
 - [使用Marathon API在Apache Mesos集群管理器开发Py3应用](http://www.giantflyingsaucer.com/blog/?p=5813)
 
-如标题所示，教你如何创建本地开发和测试环境的好教程
+如标题所示,教你如何创建本地开发和测试环境的好教程
 
 giantflyingsaucer.com
 
 Shared by @chadlung
  
-- [Python vs Java: 动态类型，空格解析等其他差异](http://www.activestate.com/blog/2016/01/python-vs-java-duck-typing-parsing-whitespace-and-other-cool-differences)
+- [Python vs Java: 动态类型,空格解析等其他差异](http://www.activestate.com/blog/2016/01/python-vs-java-duck-typing-parsing-whitespace-and-other-cool-differences)
 
 Java和Pytyhon不同之处的概述
 
@@ -125,7 +125,7 @@ Shared by @mgrouchy
 
 - [what-the-classics-know-of-blue](https://github.com/emdaniels/what-the-classics-know-of-blue)
 
-作者阅读business insider后，说我们不能看到蓝色，直到现代，并通过一些经典书籍得以证明。作者决定通过编写一个程序来测试这个前提，以寻找在古腾堡项目可用的文本中所提到的颜色的蓝色。
+作者阅读business insider后,说我们不能看到蓝色,直到现代,并通过一些经典书籍得以证明. 作者决定通过编写一个程序来测试这个前提,以寻找在古腾堡项目可用的文本中所提到的颜色的蓝色. 
 
 github.com
 
@@ -143,7 +143,7 @@ Shared by @mgrouchy
 
 - [pandas-profiling](https://github.com/JosPolfliet/pandas-profiling)
 
-从pandas数据帧生成报告.df.describe()，一个好用而严谨的探索性数据分析函数.点击链接，查看详情
+从pandas数据帧生成报告.df.describe(),一个好用而严谨的探索性数据分析函数.点击链接,查看详情
 
 github.com
 
@@ -179,7 +179,7 @@ Shared by @mgrouchy
 
 - [classifier](https://github.com/bhrigu123/classifier)
 
-神器，看到它我就立即使用了，清理你那些懒得去清理的文件组织
+神器,看到它我就立即使用了,清理你那些懒得去清理的文件组织
 
 github.com
 

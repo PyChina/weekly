@@ -4,36 +4,36 @@ Date: 2019-01-02 12:21
 Tags: Weekly,Python,pycoders,ZH
 
 
-原文: [PyCoder’s Weekly - Issue #349](https://pycoders.com/issues/349)
+原文: [PyCoder's Weekly - Issue #349](https://pycoders.com/issues/349)
 
 ![realpython](https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb)
 
 > Happy New Year!
 
-It’s been an amazing 2018 for Python and I can’t wait to see what 2019 has in store for us.
+It's been an amazing 2018 for Python and I can't wait to see what 2019 has in store for us.
 
-With so much growth and excitement in the space I’m really enthusiastic for the future of Python and our global community.
+With so much growth and excitement in the space I'm really enthusiastic for the future of Python and our global community.
 
-For this week’s issue it felt appropriate to include a couple of retrospectives and recap articles. From the new PyPI website launching to Guido stepping down as BDFL, a lot has happened after all.
+For this week's issue it felt appropriate to include a couple of retrospectives and recap articles. From the new PyPI website launching to Guido stepping down as BDFL, a lot has happened after all.
 
-So here’s to a successful 2019 for you! Happy Pythoning!
+So here's to a successful 2019 for you! Happy Pythoning!
 
 > — Dan Bader, Editor
 
 (`是也乎:`
 
 从12年开始, 坚持翻译发布技术周刊有6年了, 
-其间关注过很多种 weekly ,只有 `PyCoder’s Weekly` 一直稳定嗯哼,
+其间关注过很多种 weekly ,只有 `PyCoder's Weekly` 一直稳定嗯哼,
 现在不易...
 
 )
 
 
 
-- [Python “年度回顾” 2018: 10大故事](https://pycoders.com/link/583/web)
+- [Python "年度回顾" 2018: 10大故事](https://pycoders.com/link/583/web)
     + TALK PYTHON podcast
 
-In this podcast episode I’m joining Michael Kennedy and Brian Okken for a Pythonic 2018 retrospective. We had a ton of fun recapping last year’s main events and our top 10 stories and developments. Join us on this episode when we count them down.
+In this podcast episode I'm joining Michael Kennedy and Brian Okken for a Pythonic 2018 retrospective. We had a ton of fun recapping last year's main events and our top 10 stories and developments. Join us on this episode when we count them down.
 
 (`是也乎:`
 
@@ -52,7 +52,7 @@ In this podcast episode I’m joining Michael Kennedy and Brian Okken for a Pyth
         Covered in depth on Talk Python 176: https://talkpython.fm/176
     #6: Black
         Project: pypi.org/project/black
-        Soundgarden : “Black Hole Sun”: youtube.com
+        Soundgarden : "Black Hole Sun": youtube.com
     #5: 新 PyPI 上线
         Python Package Index: pypi.org
     #4: 嵌入式世界中 Python 崛起
@@ -70,7 +70,7 @@ In this podcast episode I’m joining Michael Kennedy and Brian Okken for a Pyth
 - [Python 为新的受众带来了计算机编程](https://pycoders.com/link/585/web)
     + ECONOMIST.COM
 
-I love the fact that in 2018 we articles about Python show up in publications like The Economist. This is a nice little (mainstream) writeup of Python’s history so far and Guido van Rossum’s personal journey as the language’s creator.
+I love the fact that in 2018 we articles about Python show up in publications like The Economist. This is a nice little (mainstream) writeup of Python's history so far and Guido van Rossum's personal journey as the language's creator.
 
 - [为毛 MIT 用 Python 替代 Scheme 来嗯哼 CS Program (2009)](https://pycoders.com/link/577/web)
     + CHAS EMERICK
@@ -96,7 +96,7 @@ This intermediate-level Django tutorial looks at how to integrate Stripe Connect
 - [用 Django 和 GeoDjango 制作基于位置的 Web 应用](https://pycoders.com/link/586/web)
     + REAL PYTHON
 
-In this step-by-step Python tutorial, you’ll learn how to use Django and GeoDjango to build a location-based web application from scratch. You’ll be building a simple nearby shops application that lists the shops closest to a user’s location.
+In this step-by-step Python tutorial, you'll learn how to use Django and GeoDjango to build a location-based web application from scratch. You'll be building a simple nearby shops application that lists the shops closest to a user's location.
 
 (`是也乎:`
 
@@ -108,7 +108,7 @@ In this step-by-step Python tutorial, you’ll learn how to use Django and GeoDj
 - [Generating Doom Levels From Robot Vacuum Floor Plans](https://pycoders.com/link/588/web)
     + RICH WHITEHOUSE
 
-The title says it all… Fun fact: The project is called “DOOMBA.” :-)
+The title says it all...  Fun fact: The project is called "DOOMBA." :-)
 
 ## 讨论
 > Discussions
@@ -148,7 +148,7 @@ A discussion of CPython memory management internals: Which types of data go wher
 - [Python 字符串格式化最佳实践](https://pycoders.com/link/572/web)
     + REAL PYTHON
 
-Learn the four main approaches to string formatting in Python, as well as their strengths and weaknesses. You’ll also get a simple rule of thumb for how to pick the best general purpose string formatting approach in your own programs.
+Learn the four main approaches to string formatting in Python, as well as their strengths and weaknesses. You'll also get a simple rule of thumb for how to pick the best general purpose string formatting approach in your own programs.
 
 (`是也乎:`
 
@@ -160,7 +160,7 @@ Learn the four main approaches to string formatting in Python, as well as their 
 - [如何让开源变得更好?](https://pycoders.com/link/580/web)
     + ALEXA MORALES • Shared by Ricky White
 
-Guido van Rossum received the “Groundbreaker Award” at the 2018 Oracle Code One conference and talks about how to make OSS better.
+Guido van Rossum received the "Groundbreaker Award" at the 2018 Oracle Code One conference and talks about how to make OSS better.
 
 (`是也乎:`
 
@@ -346,7 +346,7 @@ Python examples of popular machine learning algorithms with interactive Jupyter 
 - [Python 工作搜索 & 职位看板](https://pycoders.com/link/554/web)
     + PYTHONJOBSHQ.COM
 
-Looking to start 2019 with a career change? Find your dream Python job with PythonJobsHQ’s aggregated job listings and search engine for the best jobs in the industry. Brought to you by the creators of the PyCoder’s Weekly Newsletter.
+Looking to start 2019 with a career change? Find your dream Python job with PythonJobsHQ's aggregated job listings and search engine for the best jobs in the industry. Brought to you by the creators of the PyCoder's Weekly Newsletter.
 
 
 (`是也乎:`

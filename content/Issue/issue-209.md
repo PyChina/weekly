@@ -33,7 +33,7 @@ Tags: Weekly,Pycoder,ZH
 
 - [PyDev 4.5.5: 代码自动补全, pytest的集成, 对python3的解析, 调试器](http://pydev.blogspot.ca/2016/03/pydev-455-code-completion-pytest-python.html) 
 
-PyDev发布新版本。代码自动补全, pytest的集成, 对Python3的支持都得到了优化。
+PyDev发布新版本. 代码自动补全, pytest的集成, 对Python3的支持都得到了优化. 
 
 blogspot.ca
 
@@ -42,7 +42,7 @@ Shared by @mgrouchy
  
 - [pep8和pep257重命名为'pycodestyle`和`pydocstyle`](https://github.com/PyCQA/pycodestyle/issues/466) 
 
-是时候更新你的依赖了。pep8和pep257包分别重命名为`pycodestyle`和`pydocstyle`。点击查看详情。
+是时候更新你的依赖了. pep8和pep257包分别重命名为`pycodestyle`和`pydocstyle`. 点击查看详情. 
 
 
 github.com
@@ -99,7 +99,7 @@ Shared by @myusuf3
 
 - [Micropackages和开源代码的信任度](http://lucumr.pocoo.org/2016/3/24/open-source-trust-scaling/) 
 
-虽然'left-pad'事件不是发生在Python在身上，但还是值得一读
+虽然'left-pad'事件不是发生在Python在身上,但还是值得一读
 
 
 pocoo.org
@@ -119,7 +119,7 @@ Shared by @mgrouchy
 
 - [Python中的Mocking - 如何在测试中避免额外的代码](http://www.jamalmoir.com/2016/03/learn-to-mock-in-python.html) 
 
-模拟测试一直都是个热话题。速度还是上不去？这篇文章可以帮助你
+模拟测试一直都是个热话题. 速度还是上不去?这篇文章可以帮助你
 
 
 jamalmoir.com
@@ -129,7 +129,7 @@ Shared by @mgrouchy
 
 - [P值黑客](https://www.ibm.com/developerworks/community/blogs/jfp/entry/Green_dice_are_loaded_welcome_to_p_hacking?lang=en) 
 
-如何使用p值来证明一个假设是真的。值得一读
+如何使用p值来证明一个假设是真的. 值得一读
 
 
 ibm.com
@@ -179,7 +179,7 @@ Shared by @myusuf3
 
 - [函数式编程: 概念, 惯用法和哲学](http://hkupty.github.io/2016/Functional-Programming-Concepts-Idioms-and-Philosophy/)
 
-Python开发者所喜爱的函数式编程的思想。
+Python开发者所喜爱的函数式编程的思想. 
 
 
 github.io
@@ -190,7 +190,7 @@ Shared by @myusuf3
 
 - [专家传授的爬虫技巧](https://blog.scrapinghub.com/2016/03/23/scrapy-tips-from-the-pros-march-2016-edition/)
 
-我们有很多方式去爬取一个网站，而专家提供的一些技巧会让你更上一层楼 。
+我们有很多方式去爬取一个网站,而专家提供的一些技巧会让你更上一层楼 . 
 
 
 scrapinghub.com
@@ -202,7 +202,7 @@ Shared by @stummjr
 
 - [concentration](https://github.com/timothycrosley/concentration#concentration) 
 
-帮助你专注工作，杜绝偷懒的工具
+帮助你专注工作,杜绝偷懒的工具
 
 
 github.com
@@ -231,7 +231,7 @@ Shared by @tuxtimo
 
 - [dplython](https://github.com/dodger487/dplython)
 
-Python版Dplyr。让来自R语言社区的你感觉到Dplyr到Python的切换是如此轻松。
+Python版Dplyr. 让来自R语言社区的你感觉到Dplyr到Python的切换是如此轻松. 
 
 github.com
 

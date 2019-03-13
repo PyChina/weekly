@@ -32,7 +32,7 @@ Tags: Weekly,Pycoder,ZH
 ## 新闻
 
 - [Django's 2016集资开始](https://www.djangoproject.com/weblog/2015/dec/17/announcing-2016-fundraiser/) 
-Django软件基金会的目标是筹集200000美元，以作为经费，继续为Django Girls工作坊、DjangoCon等活动提供赞助。点击查看详情
+Django软件基金会的目标是筹集200000美元,以作为经费,继续为Django Girls工作坊,DjangoCon等活动提供赞助. 点击查看详情
 The Django Software foundation aims to raise $200,000 in order to fully fund their Fellow program, continue contributing to Django Girls workshops, sponsor official Django conferences, and more. Want to learn more about this? Click through for the details. 
 djangoproject.com
 Shared by @mgrouchy
@@ -43,7 +43,7 @@ jupyter.org
 Shared by @myusuf3
  
 - [Pytest 2.8.5发布](http://pytest.org/latest/changelog.html)
-最新版本py.test发布。点击链接查看详情
+最新版本py.test发布. 点击链接查看详情
 The latest version of the fantastic py.test is out. Click through for more details and full changelog. 
 pytest.org
 Shared by @nicoddemus
@@ -107,7 +107,7 @@ Shared by @mgrouchy
  
 - [让我们一起编写一个简单的解释器: 第七部分](http://ruslanspivak.com/lsbasi-part7/)
 "让我们一起编写一个简单的解释器"系列第七部分
-Let’s Build A Simple Interpreter. Part 7. 
+Let's Build A Simple Interpreter. Part 7. 
 Part 7 of the amazing "lets build a simple interpreter series". Click through to read the latest or find your way back to part 1. 
 ruslanspivak.com
 Shared by @mgrouchy
@@ -119,7 +119,7 @@ vknight.org
 Shared by @myusuf3
  
 - [如何让Python跑的像Julia一样快](https://www.ibm.com/developerworks/community/blogs/jfp/entry/Python_Meets_Julia_Micro_Performance?lang=en)
-Julia并不是解决问题最好的方式，而是要让Python变的更快
+Julia并不是解决问题最好的方式,而是要让Python变的更快
 Great article on how the Julia website solves problems not in the most ideal way but how changing up the solutions Python proves to be faster.
 ibm.com
 Shared by @myusuf3
@@ -177,7 +177,7 @@ github.com
 Shared by @nickcatal
  
 - [platformio](https://github.com/platformio/platformio)
-开源的物联网生态系统的发展。跨平台代码生成器和库管理器。持续集成。
+开源的物联网生态系统的发展. 跨平台代码生成器和库管理器. 持续集成. 
 PlatformIO is an open source ecosystem for IoT (internet of things) development. Cross-platform code builder and library manager. Continuous and IDE integration.
 github.com
 Shared by @ikravets

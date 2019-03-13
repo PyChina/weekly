@@ -33,7 +33,7 @@ Tags: Weekly,Pycoder,ZH
 
 - [想要举办DjangoCon Europe 2017么](https://www.djangoproject.com/weblog/2016/mar/04/host-djangocon-europe-2017/)
 
-你的城市想要举办DjangoCon Europe 2017么？点击查看详情
+你的城市想要举办DjangoCon Europe 2017么?点击查看详情
 
 djangoproject.com
 
@@ -47,7 +47,7 @@ Shared by @mgrouchy
 
 - [pytest-2.9.0发布](https://pypi.python.org/pypi/pytest) 
 
-新版本py.test已经发布！
+新版本py.test已经发布!
 
 python.org
 
@@ -66,7 +66,7 @@ Shared by @myusuf3
 
 ## 讨论
 
-- [你用过最烂的模块是？](https://www.reddit.com/r/Python/comments/48q804/whats_the_worst_package_youve_ever_worked_with/)
+- [你用过最烂的模块是?](https://www.reddit.com/r/Python/comments/48q804/whats_the_worst_package_youve_ever_worked_with/)
 
 用 delorean 来代替你的datetime吧
 
@@ -101,7 +101,7 @@ Shared by @mgrouchy
 
 - [为你的Python应用加速docker编译](http://blog.dscpl.com.au/2016/03/speeding-up-docker-build-times-for.html)
 
-为你Python应用提升docker减少编译时间的秘诀。如果你有在你的Python应用中使用Docker，这篇文章值得一读。提升
+为你Python应用提升docker减少编译时间的秘诀. 如果你有在你的Python应用中使用Docker,这篇文章值得一读. 提升
 
 dscpl.com.au
 
@@ -128,7 +128,7 @@ Shared by @myusuf3
 
 - [Python中元类的起源](http://mapleoin.github.io/perma/python-class-meta) 
 
-元类的小历史，你一定会对它的起源感到惊讶
+元类的小历史,你一定会对它的起源感到惊讶
 
 github.io
 
@@ -144,7 +144,7 @@ dataquest.io
 Shared by @myusuf3
  
 
-- [你上传了一个损坏的包到PyPI，现在该怎么办？](https://doughellmann.com/blog/2016/02/25/so-youve-released-a-broken-package-to-pypi-what-do-you-do-now/) 
+- [你上传了一个损坏的包到PyPI,现在该怎么办?](https://doughellmann.com/blog/2016/02/25/so-youve-released-a-broken-package-to-pypi-what-do-you-do-now/) 
 
 doughellmann.com
 

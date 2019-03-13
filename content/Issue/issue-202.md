@@ -103,14 +103,14 @@ Shared by @myusuf3
  
 - [使用Game Genie编写SMS游戏](https://www.twilio.com/blog/2015/08/romram-hacking-building-an-sms-powered-game-genie-with-lua-and-python.html)
 
-想法再多，不如来个酷炫的demo
+想法再多,不如来个酷炫的demo
 
 twilio.com
 
 Shared by @myusuf3
  
 - [现实生活中使用你的垃圾邮件过滤器](http://blog.cambridgecoding.com/2016/02/01/using-your-spam-filter-in-real-life/)
-第二部分描述了如何实现了你自己的垃圾邮件过滤器，并教你如何使用它来对你的邮件进行过滤
+第二部分描述了如何实现了你自己的垃圾邮件过滤器,并教你如何使用它来对你的邮件进行过滤
 
 cambridgecoding.com
 
@@ -138,7 +138,7 @@ Shared by @mgrouchy
  
 - [himawaripy](https://github.com/boramalper/himawaripy)
 
-有趣！将你的桌面背景设置为一张地球实时动态的图片，图片由Himawari8(日本气象卫星)提供
+有趣!将你的桌面背景设置为一张地球实时动态的图片,图片由Himawari8(日本气象卫星)提供
 
 github.com
 
@@ -162,7 +162,7 @@ Shared by @myusuf3
  
 - [GraphvizAnim](https://github.com/mapio/GraphvizAnim) 
 
-用于创建图形动画可视化，基于Graphviz和ImageMagick的gif渲染
+用于创建图形动画可视化,基于Graphviz和ImageMagick的gif渲染
 
 github.com
 

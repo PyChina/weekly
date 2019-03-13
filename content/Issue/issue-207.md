@@ -43,7 +43,7 @@ Shared by @myusuf3
 
 - [为什么不加入今年PyCon的sprints?](http://pycon.blogspot.ca/2016/03/why-not-join-sprints-this-year-at-pycon.html)
 
-你今年打算参加Portland的PyCon么？那么你一定会对参加社区项目的极限编程充满兴趣。点击查看详情
+你今年打算参加Portland的PyCon么?那么你一定会对参加社区项目的极限编程充满兴趣. 点击查看详情
 
 
 blogspot.ca
@@ -95,7 +95,7 @@ Shared by @myusuf3
 
 - [高级异步测试](https://stefan.sofa-rockers.org/2016/03/10/advanced-asyncio-testing/)
 
-你是否在进行异步编程？是时候用一些高级技术来加强你的异步测试能里了！
+你是否在进行异步编程?是时候用一些高级技术来加强你的异步测试能里了!
 
 sofa-rockers.org
 
@@ -111,7 +111,7 @@ Shared by @mgrouchy
 
 - [如何向上级推销Python3](http://www.snarky.ca/how-to-pitch-python-3-to-management)
 
-罗列了Python2到Python3的一些变化。你想说服你的上级接受Python3么？篇文章可以教你！
+罗列了Python2到Python3的一些变化. 你想说服你的上级接受Python3么?篇文章可以教你!
 
 
 snarky.ca
@@ -140,7 +140,7 @@ Shared by @mgrouchy
 
 - [Python 3的到库开发者的青睐](https://blogs.msdn.microsoft.com/pythonengineering/2016/03/08/python-3-is-winning/)
 
-三个月内，Python3的支持将胜过Python2
+三个月内,Python3的支持将胜过Python2
 
 
 microsoft.com
@@ -154,7 +154,7 @@ Shared by @mgrouchy
 
 - [如何使用谷歌的Python客户端库通过OAuth2.0来为你的桌面应用授权](http://www.jamalmoir.com/2016/03/google-python-library-oauth2.html)
 
-如过你觉得使用谷歌的API通过OAuth2.0来为你的桌面应用授权有点痛苦，那么这篇文章可以帮到你！
+如过你觉得使用谷歌的API通过OAuth2.0来为你的桌面应用授权有点痛苦,那么这篇文章可以帮到你!
 
 
 jamalmoir.com
@@ -173,7 +173,7 @@ Shared by @myusuf3
 
 - [Python Mocks: 导论](http://blog.thedigitalcatonline.com/blog/2016/03/06/python-mocks-a-gentle-introduction-part-1/#.VuGp6B9ysWM)
 
-不了解mocks？这里有使用mock进行测试的一切说明。 
+不了解mocks?这里有使用mock进行测试的一切说明.  
 
 
 thedigitalcatonline.com
@@ -185,7 +185,7 @@ Shared by @thedigicat
 
 - [Transcrypt](http://www.transcrypt.org/)
  
-将 Python 脚本转成 JavaScript 脚本的工具。支持多继承而且轻量。
+将 Python 脚本转成 JavaScript 脚本的工具. 支持多继承而且轻量. 
 
 transcrypt.org
 
@@ -216,7 +216,7 @@ Shared by @mgrouchy
 
 - [neural-doodle](https://github.com/alexjc/neural-doodle) 
 
-使用深度神经网络将你的信手涂鸦变为艺术珍品。Semantic Style Transfer的实现。
+使用深度神经网络将你的信手涂鸦变为艺术珍品. Semantic Style Transfer的实现. 
 
 
 github.com
@@ -250,7 +250,7 @@ Shared by @mgrouchy
 
 - [weppy](https://github.com/gi0baro/weppy)
 
-全栈Python框架，创建快速，可扩展，安全，你要的特性全都有
+全栈Python框架,创建快速,可扩展,安全,你要的特性全都有
 
 github.com
 

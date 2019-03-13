@@ -39,28 +39,28 @@ Shared by @mgrouchy
  
 
 - [PyDev 4.5.1: 更快的调试](http://pydev.blogspot.com.br/2016/01/pydev-451-debug-faster.html)
-PyDev4.5.1发布，调试器的速度得到大幅度提升，PyDev用户的福音
+PyDev4.5.1发布,调试器的速度得到大幅度提升,PyDev用户的福音
 PyDev 4.5.1 has been released with drastic improvements in debugger speed. Worth checking out of you are a PyDev user! 
 blogspot.com.br
 Shared by @mgrouchy
  
 
 - [PSF 2015社区服务奖颁给Berker Peksağ](http://pyfound.blogspot.ca/2016/01/2015-community-service-awartd-goes-to.html)
-祝贺Berker Peksağ被授予Python软件基金会社区服务奖。点击了解更多关于Berker的贡献，送上自己的祝福或看你能做些什么！
+祝贺Berker Peksağ被授予Python软件基金会社区服务奖. 点击了解更多关于Berker的贡献,送上自己的祝福或看你能做些什么!
 Congratulations to Berker Peksağ for being awarded the Python Software Foundations Community Service Award. Click through to learn more about Berker's contributions, send along your own congratulations or find out how you can help!
 blogspot.ca
 Shared by @mgrouchy
  
 
 - [Ansible 2.0发布](http://www.ansible.com/blog/ansible-2.0-launch)
-Ansible2.0发布,点击链接，查看更多变更详情
+Ansible2.0发布,点击链接,查看更多变更详情
 Version 2.0 of the fantastic Ansible has been released! Click through for more information about whats in this release.
 ansible.com
 Shared by @mgrouchy
  
 
 - [Jupyter Notebook 4.1发布](https://blog.jupyter.org/2016/01/08/notebook-4-1-release/)
-Jupyter 4.1发布,点击链接，查看更多变更详情
+Jupyter 4.1发布,点击链接,查看更多变更详情
 Jupyter 4.1 has been released! Click through to get more information about this release and of course, update your versions! 
 jupyter.org
 Shared by @mgrouchy
@@ -101,7 +101,7 @@ Shared by @mgrouchy
 ## 文章
 
 - [Python数据科学入门](https://www.dataquest.io/blog/python-data-science/)
-想要入门数据科学么？从这里入手吧
+想要入门数据科学么?从这里入手吧
 Looking to dip your toes into Data Science? This might be a great place to start. take a look!
 dataquest.io
 Shared by @mgrouchy
@@ -114,14 +114,14 @@ Shared by @mgrouchy
  
 
 - [FFT傻瓜指南](http://nipunbatra.github.io/2016/01/fft/) 
-你说什么？快速傅立叶变换？如果你想了解更多关于他们的，这是一个伟大的开始。
+你说什么?快速傅立叶变换?如果你想了解更多关于他们的,这是一个伟大的开始. 
 Whats that you say? Fast Fourier transforms? If you ever wanted to learn more about them, this is a great place to start. 
 github.io
 Shared by @mgrouchy
  
 
 - [Python 2和3异常中的泄漏](http://cosmicpercolator.com/2016/01/13/exception-leaks-in-python-2-and-3/) 
-很好的分析了异常对象中内存泄漏而导致的异常回溯中的循环引用。值得一读!
+很好的分析了异常对象中内存泄漏而导致的异常回溯中的循环引用. 值得一读!
 This is a nice look at memory leaks in exception objects cause by cyclic references in exception tracebacks. Good read!
 cosmicpercolator.com
 Shared by @myusuf3
@@ -149,7 +149,7 @@ Shared by @mgrouchy
  
 
 - [用Selenium来买车票](http://alexrecker.com/using-selenium-buy-bus-pass/) 
-非常酷的文章！作者在项目中展示了他是如何使用机器人（使用selenum）来代替网站交易买车票的
+非常酷的文章!作者在项目中展示了他是如何使用机器人(使用selenum)来代替网站交易买车票的
 Very cool article! In this project the author demonstrates how he built a bot (using selenium) to buy his bus pass for him rather than deal with a terrible website. 
 alexrecker.com
 Shared by @mgrouchy
@@ -191,14 +191,14 @@ Shared by @mgrouchy
 
 
 - [python-elevator-challenge](https://github.com/mshang/python-elevator-challenge)
-你是否能编写一个电梯程序？
+你是否能编写一个电梯程序?
 Do you think you could program an elevator?
 github.com
 Shared by @mgrouchy
  
 
 - [PyExPool](https://github.com/XI-lab/PyExPool) 
-轻量级的多进程执行池调度作业执行，随意组合成任务和指定执行参数。
+轻量级的多进程执行池调度作业执行,随意组合成任务和指定执行参数. 
 Lightweight Multi-Process Execution Pool to schedule Jobs execution with per-job timeout, optionally grouping them into Tasks and specifying execution paremeters.
 github.com
 Shared by @mgrouchy
@@ -212,7 +212,7 @@ Shared by @mgrouchy
  
 
 - [paperless](https://github.com/danielquinn/paperless)
-扫描，索引，归档你所有的文件
+扫描,索引,归档你所有的文件
 Scan, index, and archive all of your paper bills with this tool. 
 github.com
 Shared by @mgrouchy

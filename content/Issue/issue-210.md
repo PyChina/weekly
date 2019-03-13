@@ -43,7 +43,7 @@ Shared by @myusuf3
 
 - [PyData Amsterdam 2016视频](https://www.youtube.com/playlist?list=PLGVZCDnMOq0rzDLHi5WxWmN5vueHU5Ar7) 
 
-如果你错过了，可以在这里看到 
+如果你错过了,可以在这里看到 
 In case you missed the conference grab the talks here!
 
 youtube.com
@@ -234,7 +234,7 @@ Shared by @mgrouchy
  
 - [caravel](https://github.com/airbnb/caravel)
 
-可视化，直观，可交互的数据挖掘平台
+可视化,直观,可交互的数据挖掘平台
 
 
 github.com

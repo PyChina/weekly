@@ -33,7 +33,7 @@ Tags: Weekly,Pycoder,ZH
 
 - [PyCon7 - 日程发布](https://www.pycon.it/p3/schedule/pycon7/)
 
-你是否要来参加？日程表已经发布，看起来很棒！
+你是否要来参加?日程表已经发布,看起来很棒!
 
 pycon.it
 
@@ -42,7 +42,7 @@ Shared by @patrick91
 
 - [PyCon2016演讲日程发布](http://pycon.blogspot.ca/2016/02/announcing-pycon-2016-talks-schedule.html)
 
-要去参加在波特兰的PyCon2016么？日程表已放出！
+要去参加在波特兰的PyCon2016么?日程表已放出!
 
 
 blogspot.ca
@@ -79,7 +79,7 @@ Shared by @myusuf3
 
 - [Numba中使用CFFI调用C类库](http://nbviewer.jupyter.org/github/synapticarbors/rmath-cffi-example/blob/master/rmath-cffi-example.ipynb)
 
-如题所示，深入介绍通过使用Numba中的CFFI调用C类库的好文
+如题所示,深入介绍通过使用Numba中的CFFI调用C类库的好文
 
 jupyter.org
 
@@ -106,7 +106,7 @@ Shared by @mgrouchy
 
 - [用Python破解Worcester Wave温度计 - 第一部分](http://blog.rtwilson.com/hacking-the-worcester-wave-thermostat-in-python-part-1/)
 
-有趣，在家玩儿各种破解技术
+有趣,在家玩儿各种破解技术
 
 rtwilson.com
 
@@ -122,7 +122,7 @@ Shared by @mgrouchy
 
 - [最后时刻完成你的幻灯:8步编写你的PyCon演讲幻灯](https://emptysqua.re/blog/how-i-write-a-conference-talk/)
 
-PyCon要来了，来学习下写幻灯的技巧吧
+PyCon要来了,来学习下写幻灯的技巧吧
 
 emptysqua.re
 
@@ -170,7 +170,7 @@ Shared by @mgrouchy
 
 - [bigchaindb](https://github.com/bigchaindb/bigchaindb)
 
-一个可伸缩的区块链数据库。
+一个可伸缩的区块链数据库. 
 
 github.com
 
@@ -188,7 +188,7 @@ Shared by @mgrouchy
 
 - [xonsh](https://github.com/scopatz/xonsh)
 
-Python 风格的，兼容 BASH 的 SHELL 语言和命令提示。支持 Python 3.4
+Python 风格的,兼容 BASH 的 SHELL 语言和命令提示. 支持 Python 3.4
 
 github.com
 
@@ -206,7 +206,7 @@ Shared by @myusuf3
 
 - [django-zappa](https://github.com/Miserlou/django-zappa)
 
-有趣的想法，用AWS Lambda和API Gateway来代替Django应用的服务器
+有趣的想法,用AWS Lambda和API Gateway来代替Django应用的服务器
 
 
 github.com
@@ -215,7 +215,7 @@ Shared by @mgrouchy
 
 - [redis-memory-analyzer](https://github.com/gamenet/redis-memory-analyzer)
 
-redis内存分析器，实时扫描键空间和总内存统计模式来分析内存使用瓶颈
+redis内存分析器,实时扫描键空间和总内存统计模式来分析内存使用瓶颈
 
 github.com
 
@@ -235,7 +235,7 @@ Shared by @myusuf3
 
 - [asciimatics](https://github.com/peterbrittain/asciimatics)
 
-有点儿意思！跨平台的全屏ascii动画创建库，支持类curses操作 
+有点儿意思!跨平台的全屏ascii动画创建库,支持类curses操作 
 
 github.com
 
@@ -253,7 +253,7 @@ Shared by @myusuf3
 
 - [Transcrypt](https://github.com/JdeH/Transcrypt)
 
-Python到Javascript的转换器。很酷！查看README了解详情
+Python到Javascript的转换器. 很酷!查看README了解详情
 
 github.com
 

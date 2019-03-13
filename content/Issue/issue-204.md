@@ -34,7 +34,7 @@ Tags: Weekly,Pycoder,ZH
 
 - [python testing sprint mid 2016](https://www.indiegogo.com/projects/python-testing-sprint-mid-2016#/)
 
-你是pytest或是tox用户么？如果是，那么你可以考虑参加2016年的Python Testing Mid啦.点击查看更多详情
+你是pytest或是tox用户么?如果是,那么你可以考虑参加2016年的Python Testing Mid啦.点击查看更多详情
 
 indiegogo.com
 
@@ -43,7 +43,7 @@ Shared by @nicoddemus
 
 - [EuroPython 2016: 主题征集](http://blog.europython.eu/post/139540764827/europython-2016-call-for-proposals)
 
-想在EuroPython2016演讲么？是时候提交你的主题了！截止时间为三月七日凌晨
+想在EuroPython2016演讲么?是时候提交你的主题了!截止时间为三月七日凌晨
 
 
 europython.eu
@@ -53,7 +53,7 @@ Shared by @myusuf3
 
 - [发布2016PyCon演讲嘉宾](http://pycon.blogspot.ca/2016/02/announcing-keynote-speakers-for-pycon.html)
 
-要参加波特兰的PyCon2016么？这里看到你期待的演讲嘉宾
+要参加波特兰的PyCon2016么?这里看到你期待的演讲嘉宾
 
 blogspot.ca
 
@@ -69,7 +69,7 @@ reddit.com
 Shared by @mgrouchy
  
 
-- [为什么人们都说Python容易出错，是因为它的动态类型？](https://www.reddit.com/r/Python/comments/465vb1/why_do_people_say_its_easy_to_write_errors_into/)
+- [为什么人们都说Python容易出错,是因为它的动态类型?](https://www.reddit.com/r/Python/comments/465vb1/why_do_people_say_its_easy_to_write_errors_into/)
 
 reddit.com
 
@@ -122,7 +122,7 @@ Shared by @myusuf3
 
 - [构建一个更好用户体验的Python应用](http://blog.dscpl.com.au/2016/02/building-better-user-experience-for.html)
 
-作者错过了PyCon的报名机会，所以他编写了这篇文章，讲述了如何做好Python应用部署的好文
+作者错过了PyCon的报名机会,所以他编写了这篇文章,讲述了如何做好Python应用部署的好文
 
 dscpl.com.au
 
@@ -178,7 +178,7 @@ Shared by @mgrouchy
 
 - [pentestly](https://github.com/praetorian-inc/pentestly)
 
-一组用于渗透测试Python扩展工具。
+一组用于渗透测试Python扩展工具. 
 
 github.com
 
@@ -187,7 +187,7 @@ Shared by @myusuf3
 
 - [laboratory](https://github.com/joealcorn/laboratory) 
 
-Github专家的Python接口，帮助你仔细重构你的Python代码
+Github专家的Python接口,帮助你仔细重构你的Python代码
 
 github.com
 
@@ -232,7 +232,7 @@ Shared by @myusuf3
 
 - [top-starred-devs-and-repos-to-follow](https://github.com/StijnMiroslav/top-starred-devs-and-repos-to-follow)
 
-github上哪些Python项目值得关注？这里有你需要的名单!
+github上哪些Python项目值得关注?这里有你需要的名单!
 
 github.com
 

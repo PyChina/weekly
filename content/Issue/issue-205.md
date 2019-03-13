@@ -33,7 +33,7 @@ Tags: Weekly,Pycoder,ZH
 
 - [PyCon 2016 Startup Row开启](http://pycon.blogspot.ca/2016/02/startups-will-soon-be-pitching-to-join_24.html)
 
-通过点击阅读的详情，并申请加入PyCon的startup row
+通过点击阅读的详情,并申请加入PyCon的startup row
 
 blogspot.ca
 
@@ -51,7 +51,7 @@ Shared by @mgrouchy
 
 -[C-API支持更新](http://pycon.blogspot.ca/2016/02/startups-will-soon-be-pitching-to-join_24.html) 
 
-C-API支持大幅度改动，详情点击链接
+C-API支持大幅度改动,详情点击链接
 
 blogspot.ca
 
@@ -61,9 +61,9 @@ Shared by @myusuf3schedule is out!
 
 ## 讨论
 
-- [很讨厌这样讲，我是一个皈依者](https://www.reddit.com/r/Python/comments/47gynd/almost_hate_to_say_it_but_im_a_convert/)
+- [很讨厌这样讲,我是一个皈依者](https://www.reddit.com/r/Python/comments/47gynd/almost_hate_to_say_it_but_im_a_convert/)
 
-对Python全新的认识,酷！ 
+对Python全新的认识,酷! 
 
 reddit.com
 
@@ -77,7 +77,7 @@ reddit.com
 Shared by @myusuf3
  
 
-- [Python 3和GUI. QT是最后的选项么？](https://www.reddit.com/r/Python/comments/46jyvn/python_3_and_gui_is_qt_the_last_remaining_option/) 
+- [Python 3和GUI. QT是最后的选项么?](https://www.reddit.com/r/Python/comments/46jyvn/python_3_and_gui_is_qt_the_last_remaining_option/) 
 
 reddit.com
 
@@ -208,7 +208,7 @@ Shared by @myusuf3
 
 - [wolfe](https://github.com/h4ck3rk3y/wolfe)
 
-低俗小说中解决问题专家wolfe命名的小项目，使用stackoverflow来检测你代码中的错误
+低俗小说中解决问题专家wolfe命名的小项目,使用stackoverflow来检测你代码中的错误
 
 github.com
 

@@ -4,7 +4,7 @@ Date: 2019-03-06 10:01
 Tags: Weekly,Python,pycoders,ZH
 
 
-原文: [PyCoder’s Weekly - Issue #358](https://pycoders.com/issues/358)
+原文: [PyCoder's Weekly - Issue #358](https://pycoders.com/issues/358)
 
 ![realpython](https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb)
 
@@ -33,7 +33,7 @@ This PEP suggests adding merge + and difference - operators to the built-in dict
 - [重构Python应用程序以实现简单性](https://pycoders.com/link/1122/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn how to refactor your Python application to be simpler and more maintainable and have fewer bugs. You’ll cover code metrics, refactoring tools, and common anti-patterns.
+In this step-by-step tutorial, you'll learn how to refactor your Python application to be simpler and more maintainable and have fewer bugs. You'll cover code metrics, refactoring tools, and common anti-patterns.
 
 (`是也乎:`
 
@@ -56,7 +56,7 @@ Django 的生态终于直接扎入搜索了...
 - [pydis: Python 3 的 Redis 克隆/以反驳一些关于性能的错误](https://pycoders.com/link/1143/web)
     + GITHUB.COM/BORAMALPER
 
-An experiment to disprove some of the falsehoods about performance and optimisation regarding software and interpreted languages in particular. In short, this is a Redis clone, written in < 250 lines of idiomatic Python code, providing a subset of Redis’ functionality for which there are official benchmarks. Pydis is ~60% as fast as the compiled C version of Redis, as measured in number of operations per second.
+An experiment to disprove some of the falsehoods about performance and optimisation regarding software and interpreted languages in particular. In short, this is a Redis clone, written in < 250 lines of idiomatic Python code, providing a subset of Redis' functionality for which there are official benchmarks. Pydis is ~60% as fast as the compiled C version of Redis, as measured in number of operations per second.
 
 (`是也乎:`
 
@@ -70,13 +70,13 @@ An experiment to disprove some of the falsehoods about performance and optimisat
 - [Python Bytes Episode 119 录制于 Seattle 的 PyCascades](https://pycoders.com/link/1152/web)
     + PYTHON BYTES podcast
 
-Together with Trey Hunner and Eric Chou, I was a guest on Mike and Brian’s excellent Python Bytes podcast. We recorded this episode “live” and together in the same room at the PyCascades conference in Seattle.
+Together with Trey Hunner and Eric Chou, I was a guest on Mike and Brian's excellent Python Bytes podcast. We recorded this episode "live" and together in the same room at the PyCascades conference in Seattle.
 
 
 - [EditorConfig: 在不同的编辑器和 IDE 之间保持编码样式的一致](https://pycoders.com/link/1120/web)
     + EDITORCONFIG.ORG
 
-This is super handy if you’re switching between editors or if you want to make sure your team uses the same indentation settings no matter which editor each developer uses.
+This is super handy if you're switching between editors or if you want to make sure your team uses the same indentation settings no matter which editor each developer uses.
 
 (`是也乎:`
 
@@ -97,7 +97,7 @@ An amazing, thorough, readable answer on Stack Overflow about the multiprocessin
 
 SO 中神品回答:
 
-![7nT9z.png（PNG 图像，712x417 像素）](https://i.stack.imgur.com/7nT9z.png)
+![7nT9z.png(PNG 图像,712x417 像素)](https://i.stack.imgur.com/7nT9z.png)
 
 
 ![](https://user-images.githubusercontent.com/32203938/53185266-f337da80-35fe-11e9-9eb6-0b04f35a5263.gif)
@@ -111,7 +111,7 @@ SO 中神品回答:
 - [有用的 Python 技巧](https://pycoders.com/link/1159/web)
     + REDDIT
 
-“What are some cool uses for Python for maybe younger people or just people without office jobs in general?”
+"What are some cool uses for Python for maybe younger people or just people without office jobs in general?"
 
 (`是也乎:`
 
@@ -125,7 +125,7 @@ SO 中神品回答:
 (`是也乎:`
 没毛病
 
-![Dy46_opW0AARDM1.jpg（JPEG 图像，1080x1098 像素） - 缩放 (82%)](http://101.zoomquiet.top/res/geek/Dy46_opW0AARDM1.jpg?imageView2/2/w/420)
+![Dy46_opW0AARDM1.jpg(JPEG 图像,1080x1098 像素) - 缩放 (82%)](http://101.zoomquiet.top/res/geek/Dy46_opW0AARDM1.jpg?imageView2/2/w/420)
 
 
 )
@@ -136,7 +136,7 @@ SO 中神品回答:
 - [使用 Python 进行传统人脸检测](https://pycoders.com/link/1114/web)
     + REAL PYTHON
 
-In this article on face detection with Python, you’ll learn about a historically important algorithm for object detection that can be successfully applied to finding the location of a human face within an image.
+In this article on face detection with Python, you'll learn about a historically important algorithm for object detection that can be successfully applied to finding the location of a human face within an image.
 
 (`是也乎:`
 
@@ -148,7 +148,7 @@ In this article on face detection with Python, you’ll learn about a historical
 - [如何编写 Python Web 框架 - 第三部分](https://pycoders.com/link/1134/web)
     + JAHONGIR RAHMONOV
 
-The third post of the series where you’ll be writing our own Python framework just like Flask and Django.
+The third post of the series where you'll be writing our own Python framework just like Flask and Django.
 
 (`是也乎:`
 
@@ -158,10 +158,10 @@ The third post of the series where you’ll be writing our own Python framework 
 )
 
 
-- [Python 怪癖：隐式回归](https://pycoders.com/link/1141/web)
+- [Python 怪癖:隐式回归](https://pycoders.com/link/1141/web)
     + PHILIP TRAUNER
 
-Python functions always have to return something, right? Well, it’s complicated…
+Python functions always have to return something, right? Well, it's complicated... 
 
 - [VS Code 为 Python 添加带自动发现的新测试资源管理器](https://pycoders.com/link/1113/web)
     + DAN TAYLOR
@@ -177,7 +177,7 @@ Covers some best practices for securely using Python.
 - [Bleach: 维护者下台自述](https://pycoders.com/link/1115/web)
     + WILL KAHN-GREENE
 
-Bleach is a Python library for sanitizing and linkifying text from untrusted sources for safe usage in HTML. In this post the author explains why he’s stepping down as a maintainer for the library and gives a retrospective on OSS project maintenance.
+Bleach is a Python library for sanitizing and linkifying text from untrusted sources for safe usage in HTML. In this post the author explains why he's stepping down as a maintainer for the library and gives a retrospective on OSS project maintenance.
 
 
 (`是也乎:`
@@ -195,24 +195,24 @@ Bleach is a Python library for sanitizing and linkifying text from untrusted sou
 - [Contributing to Classiness (In Django)](https://pycoders.com/link/1163/web)
     + JAMES BENNETT
 
-Django’s contribute_to_class() is an undocumented part of the ORM’s internal API that allows you to attach to/hook into a model.
+Django's contribute_to_class() is an undocumented part of the ORM's internal API that allows you to attach to/hook into a model.
 
 
 
 - [理解 Python Slices](https://pycoders.com/link/1121/web)
     + REUVEN M. LERNER • Shared by Reuven M. Lerner
 
-“Slices are both common and convenient ways to extract portions of Python data structures — usually with builtin objects, but also on your own. Once you get used to slices, you’ll see lots of uses for them, and wonder how you got along without them.”
+"Slices are both common and convenient ways to extract portions of Python data structures — usually with builtin objects, but also on your own. Once you get used to slices, you'll see lots of uses for them, and wonder how you got along without them."
 
 (`是也乎:`
 
 常用, 也难用...甚至到 Pandas 也一样
 )
 
-- [重温PEP 394：类Unix系统上的“python”命令](https://pycoders.com/link/1153/web)
+- [重温PEP 394:类Unix系统上的"python"命令](https://pycoders.com/link/1153/web)
     + JAKE EDGE
 
-With the uptake of Python 3 (and the imminent end of life for Python 2.7), there is a question of which version of Python a user should get when they type “python” at the command line or have it as part of a shebang (“#!”) line in a script.
+With the uptake of Python 3 (and the imminent end of life for Python 2.7), there is a question of which version of Python a user should get when they type "python" at the command line or have it as part of a shebang ("#!") line in a script.
 
 - [我与 Python / Django 社区](https://pycoders.com/link/1125/web)
     + PAOLO MELCHIORRE
