@@ -9,8 +9,8 @@ from __future__ import unicode_literals
 ###############################################################
 AUTHOR = u'Zoom.Quiet'
 SITENAME = u'蠎周刊'
-SITEDESC = u'汇集全球蠎事儿 !-)'
-SITENOTE = u"pycoder's weekly 中译版"
+SITEDESC = u'汇集全球蠎事儿 ;-)'
+SITENOTE = u"各种 weekly 中译版"
 
 SITEURL = 'http://weekly.pychina.org'
 #SITEURL = 'http://weekly.101.camp'
@@ -82,11 +82,11 @@ DISPLAY_CATEGORIES_ON_MENU = None      # 分类标签是否显示在导航
 ADDTHIS_PROFILE = None #True
     
 #GITHUB_USER = "ZoomQuiet"
-MENUITEMS = (('Zoom.Quiet', 'http://zoomquiet.io')
-        ,('PyChina', 'http://pychina.org')
-        ,('PythoniCamp', 'http://101.camp')
-        ,('设计', 'design.html')
-        ,('有关', 'about.html')
+MENUITEMS = (('PyChina', 'http://pychina.org')
+        , ('蟒营', 'http://www.101.camp')
+        , ('设计', 'design.html')
+        , ('有关', 'about.html')
+        , ('Zoom.Quiet', 'http://zoomquiet.io')
         )
 
 # Feed generation is usually not desired when developing
@@ -102,9 +102,10 @@ SOCIAL = (('github', 'https://github.com/PyChina/weekly')
         #, ('CPyUG', 'https://gitcafe.com/CPyUG')
         , ('PyChina', 'https://github.com/PyChina')
         , ('Wiki', 'http://wiki.pychina.org')
-        , ('O.B.P', 'http://weibo.com/openbookproject')
-        , ('weibo', 'http://weibo.com/pyconcn')
+        #, ('O.B.P', 'http://weibo.com/openbookproject')
+        #, ('weibo', 'http://weibo.com/pyconcn')
         , ('啄木鸟', 'http://wiki.woodpecker.org.cn/moin/CPUG')
+        , ('蟒营', 'http://www.101.camp')
         )
 # Blogroll
 LINKS =  None
