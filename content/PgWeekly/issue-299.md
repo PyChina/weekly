@@ -8,21 +8,21 @@ Tags: Weekly,Pycoder,Zh
 
 ![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssoylsgxn7il7w6zynuj.jpg)
 
-- [Postgres Gains 'Generated Column' Support](https://postgresweekly.com/link/61543/web)
+- [Postgres 获得 'Generated Column' 支持](https://postgresweekly.com/link/61543/web)
     + Peter Eisentraut
 
 
 It's always great to see Postgres gaining support for an SQL-standard feature and this commit begins with a simple example of how one type of generated column will work in the future. MySQL 5.7 introduced a similar feature and SQL Server calls them computed columns.
 
 
-- [Performing Postgres Upgrades Using pg_dump / pg_restore](https://postgresweekly.com/link/61546/web)
+- [用 pg_dump / pg_restore 进行 Postgres 升级 ](https://postgresweekly.com/link/61546/web)
     + Jobin Augustine, Vallarapu, et al.
 
 
 Last time they looked at using pg_dumpall, now it’s pg_dump and pg_restore’s turn under the spotlight.
 
 
-- [Metrics to Monitor in Your PostgreSQL Database](https://postgresweekly.com/link/61548/web)
+- [在 PostgreSQL 数据库中监控的度量标准](https://postgresweekly.com/link/61548/web)
     + InfluxData 
     + sponsor
 
@@ -38,31 +38,31 @@ There are several key metrics you’ll want to keep track of when it comes to da
 )
 
 
-- [A 2019 PostgreSQL Trends Report](https://postgresweekly.com/link/61549/web)
+- [2019 年 PostgreSQL 趋势报告](https://postgresweekly.com/link/61549/web)
     + ScaleGrid
 
 
 A multi-cloud DBaaS provider surveyed users at last month’s PostgresConf and shares the results here. AWS comes in as the most popular cloud platform to host Postgres on and cost is the biggest reason to choose Postgres.
 
 
-- [Waiting for PostgreSQL 12: REINDEX CONCURRENTLY](https://postgresweekly.com/link/61550/web)
+- [就等 PostgreSQL 12: REINDEX CONCURRENTLY](https://postgresweekly.com/link/61550/web)
     + Hubert depesz Lubaczewski
 
 
 In Postgres 12, the REINDEX command (which rebuilds an index from a table’s current data) gains an option to have it build the index in the background and switch it into play upon completion.
 
 
-- [Powering IoT and Time-Series Workloads with TimescaleDB for Azure Database for PostgreSQL](https://postgresweekly.com/link/61552/web)
+- [用 TimescaleDB 为 PostgreSQL 的 Azure 数据库就物联网和时间序列工作负载提供动力](https://postgresweekly.com/link/61552/web)
     + Sunil Kamath (Microsoft)
 
 
 A new partnership with Timescale that introduces support for TimescaleDB (a Postgres extension that focuses on time-series support) on Azure for customers building IoT and time-series workloads.
 
 
-- [How We Moved a Massively Parallel Postgres Database onto Kubernetes](https://postgresweekly.com/link/61553/web)
+- [如何将大规模并行 Postgres 数据库迁移进 Kubernetes ](https://postgresweekly.com/link/61553/web)
     + Oz Basarir (Pivotal)
 
-- [Statement Level Load Balancing in Pgpool-II 4.1](https://postgresweekly.com/link/61554/web)
+- [Pgpool-II 4.1 中的语句级负载平衡](https://postgresweekly.com/link/61554/web)
     + PgPool
 
 
@@ -71,6 +71,11 @@ A new partnership with Timescale that introduces support for TimescaleDB (a Post
 
 Written in Python and can be used from your own Python scripts or the command line.
 
+(`是也乎:`
+
+哈, Python 喜欢干的事儿...
+
+)
 
 
 - [ActiveRecordExtended 1.0: Adds Additional Postgres Functionality to Ruby's Active Record](https://postgresweekly.com/link/61557/web)
@@ -80,7 +85,7 @@ Written in Python and can be used from your own Python scripts or the command li
 Active Record, as commonly used in Ruby on Rails apps to interact with databases, is naturally database agnostic but Postgres has so many extra querying features it’s a shame not to be able to use them. This gem adds things like array and JSON querying, CTEs, and unions to the mix.
 
 
-- [repmgr 4.3 Released](https://postgresweekly.com/link/61559/web)
+- [repmgr 4.3 发布](https://postgresweekly.com/link/61559/web)
     + 2ndQuadrant 
 
 A popular tool for replication and failover management that includes several usability improvements in this release.
