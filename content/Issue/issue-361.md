@@ -294,6 +294,8 @@ A historic discussion of language creators about the past and future of language
 
 (`大妈私人无责任播报`)
 
+- [Code. Changing it without breaking it, using a Decorator. - DEV Community 👩‍💻👨‍💻](https://dev.to/kchawla_pi/using-a-decorators-to-solve-my-task-the-thinking--the-process-49f0)
+    + 666
 - [蟒营 Python 入门班](https://py.101.camp/)
     + 嗯哼...
 
