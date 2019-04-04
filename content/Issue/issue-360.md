@@ -15,7 +15,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [如何使用 wxPython 构建 Python GUI 应用](https://pycoders.com/link/1244/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn how to create a cross-platform graphical user interface (GUI) using Python and the wxPython toolkit. A graphical user interface is an application that has buttons, windows, and lots of other widgets that the user can use to interact with your application.
+In this step-by-step tutorial, you'll learn how to create a cross-platform graphical user interface (GUI) using Python and the wxPython toolkit. A graphical user interface is an application that has buttons, windows, and lots of other widgets that the user can use to interact with your application.
 
 
 
@@ -56,11 +56,11 @@ Docker 是一把将所有阶段的环境问题用虚拟机解决了,
 )
 
 
-- [当 C扩展 崩溃时：更轻松来调试](https://pycoders.com/link/1226/web)
+- [当 C扩展 崩溃时:更轻松来调试](https://pycoders.com/link/1226/web)
     + ITAMAR TURNER-TRAURING
 
 
-Learn how to prepare for crashes in advance, so when they do occur you can quickly figure out which part of the codebase caused them: The standard library’s faulthandler, verbose test runs, package listing, and catchsegv on Linux.
+Learn how to prepare for crashes in advance, so when they do occur you can quickly figure out which part of the codebase caused them: The standard library's faulthandler, verbose test runs, package listing, and catchsegv on Linux.
 
 - [为什么 Operators 很有用](https://pycoders.com/link/1230/web)
     + GUIDO VAN ROSSUM • Shared by Ricky White
@@ -108,11 +108,11 @@ The current Python 2.x and 3.x implementation of urllib does not encode the \r\n
 - [还俺的 Monolith](https://pycoders.com/link/1243/web)
     + CRAIG KERSTIENS opinion
 
-“It feels like we’re starting to pass the peak of the hype cycle of microservices.” Interesting counterpoint to the “everything should be broken down into microservices” hypetrain. Not Python-specific, but worth a read nonetheless.
+"It feels like we're starting to pass the peak of the hype cycle of microservices." Interesting counterpoint to the "everything should be broken down into microservices" hypetrain. Not Python-specific, but worth a read nonetheless.
 
 (`是也乎:`
 
->> If we can’t debug them, maybe we can test them
+>> If we can't debug them, maybe we can test them
 
 微服务这波大嗯哼, 
 回味一下, 非常象当年 GNU 投入所有力量来开始灵活/美好/简洁的微内核 OS ,
@@ -126,7 +126,7 @@ The current Python 2.x and 3.x implementation of urllib does not encode the \r\n
 - [Guido 解释为什么 Python 的索引用 0开始](https://pycoders.com/link/1218/web)
     + GOOGLE.COM
 
-Google Plus is shutting down soon, so here’s a final hurrah.
+Google Plus is shutting down soon, so here's a final hurrah.
 
 (`是也乎:`
 
@@ -152,7 +152,7 @@ Google Plus is shutting down soon, so here’s a final hurrah.
 - [理解 Python Mock 对象库](https://pycoders.com/link/1256/web)
     + REAL PYTHON
 
-In this tutorial, you’ll learn how to use the Python mock object library, unittest.mock, to create and use mock objects to improve your tests. Obstacles like complex logic and unpredictable dependencies make writing valuable tests difficult, but unittest.mock can help you overcome these obstacles.
+In this tutorial, you'll learn how to use the Python mock object library, unittest.mock, to create and use mock objects to improve your tests. Obstacles like complex logic and unpredictable dependencies make writing valuable tests difficult, but unittest.mock can help you overcome these obstacles.
 
 (`是也乎:`
 
@@ -167,7 +167,7 @@ PS: 官网图片都是 webp 的了, 下载了根本没法直接看...
 - [如何将 Mathematical 算法变成: TF-IDF 到 Python](https://pycoders.com/link/1247/web)
     + SILKE HENDERICKX • Shared by Silke Henderickx
 
-Does your brain short-circuit when you see a mathematical algorithm? Don’t worry, you’re not alone. In this post you’ll see how the author worked her way through an algorithm, namely TF-IDF, and got it up and running in Python. Nice writeup!
+Does your brain short-circuit when you see a mathematical algorithm? Don't worry, you're not alone. In this post you'll see how the author worked her way through an algorithm, namely TF-IDF, and got it up and running in Python. Nice writeup!
 
 (`是也乎:`
 
@@ -214,15 +214,15 @@ Gmail 积累这么多年, 再傻的 PM 也应该掌握人类最强 SPAM 识别�
 )
 
 
-- [Python’s except Quirk](https://pycoders.com/link/1236/web)
+- [Python's except Quirk](https://pycoders.com/link/1236/web)
     + ALEX BECKER
 
-I don’t know how Alex comes up with these, but that’s a fun one :)
+I don't know how Alex comes up with these, but that's a fun one :)
 
 - [如何分发 wxPython 应用程序](https://pycoders.com/link/1248/web)
     + MIKE DRISCOLL
 
-You finished up a wonderful GUI application using wxPython. How do you share it with the world? Read Mike’s article to find out.
+You finished up a wonderful GUI application using wxPython. How do you share it with the world? Read Mike's article to find out.
 
 (`是也乎:`
 
@@ -240,7 +240,7 @@ wx 哪,,,很多年没见过有什么消息了, Electorn 以及 Flutter 们将统
 - [How to Use Grouping Sets in Django](https://pycoders.com/link/1231/web)
     + HAKI BENITA
 
-“How we cut a heavy admin dashboard response time in half with advanced SQL and some Django hackery.”
+"How we cut a heavy admin dashboard response time in half with advanced SQL and some Django hackery."
 
 
 ## 好物

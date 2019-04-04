@@ -14,7 +14,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [Python 中的线程介绍](https://pycoders.com/link/1311/web) 
     + REAL PYTHON
 
-In this intermediate-level tutorial, you’ll learn how to use threading in your Python programs. You’ll see how to create threads, how to coordinate and synchronize them, and how to handle common problems that arise in threading.
+In this intermediate-level tutorial, you'll learn how to use threading in your Python programs. You'll see how to create threads, how to coordinate and synchronize them, and how to handle common problems that arise in threading.
 
 (`是也乎:`
 
@@ -28,7 +28,7 @@ In this intermediate-level tutorial, you’ll learn how to use threading in your
 - [Python 到底是 Pass-By-Reference 或 Pass-By-Value? (2014)](https://pycoders.com/link/1313/web)
     + ROBERT HEATON
 
-A great explanation of Python’s argument-passing semantics.
+A great explanation of Python's argument-passing semantics.
 
 (`是也乎:`
 
@@ -45,7 +45,7 @@ A great explanation of Python’s argument-passing semantics.
 - [如何在不破坏遗留代码的情况下更改功能](https://pycoders.com/link/1301/web)
     + KSHITIJ CHAWLA
 
-Step by step post about how the author used Python’s decorator feature to change a piece of user facing functionality without breaking existing user code that uses it.
+Step by step post about how the author used Python's decorator feature to change a piece of user facing functionality without breaking existing user code that uses it.
 
 (`是也乎:`
 
@@ -56,10 +56,10 @@ Step by step post about how the author used Python’s decorator feature to chan
 )
 
 
-- [解构xkcd＃1987（Python环境）](https://pycoders.com/link/1322/web)
+- [解构xkcd＃1987(Python环境)](https://pycoders.com/link/1322/web)
     + BRETT CANNON
 
-Brett breaks down the famous Python-related xkcd #1987 comic in an attempt to try an de-mystify what has happened to the artist’s laptop. Fun read!
+Brett breaks down the famous Python-related xkcd #1987 comic in an attempt to try an de-mystify what has happened to the artist's laptop. Fun read!
 
 (`是也乎:`
 
@@ -70,7 +70,7 @@ Brett breaks down the famous Python-related xkcd #1987 comic in an attempt to tr
 )
 
 
-- [Python中面向对象编程（OOP）简介](https://pycoders.com/link/1324/web)
+- [Python中面向对象编程(OOP)简介](https://pycoders.com/link/1324/web)
     + REAL PYTHON video
 
 Learn the fundamentals of object-oriented programming (OOP) in Python and how to work with classes, objects, and constructors.
@@ -82,7 +82,7 @@ Learn the fundamentals of object-oriented programming (OOP) in Python and how to
 )
 
 
-- [为什么计算浮动列表的平均值如此之难？](https://pycoders.com/link/1305/web)
+- [为什么计算浮动列表的平均值如此之难?](https://pycoders.com/link/1305/web)
     + DAVID R. MACIVER
 
 - [CPython 3.7.3 已释放](https://pycoders.com/link/1332/web)
@@ -168,12 +168,12 @@ Docker 也没办法一把解决 Python 运行时环境问题...
 )
 
 
-- [用于逆向工程的Python 1：ELF二进制文件](https://pycoders.com/link/1310/web)
+- [用于逆向工程的Python 1:ELF二进制文件](https://pycoders.com/link/1310/web)
     + ICYPHOX.SH
 
-“Building your own disassembly tooling for fun and profit.”
+"Building your own disassembly tooling for fun and profit."
 
-- [Monolith vs Microservices: 来自 Python “规模”故事](https://pycoders.com/link/1304/web)
+- [Monolith vs Microservices: 来自 Python "规模"故事](https://pycoders.com/link/1304/web)
     + JAMES LIM
 
 Going from monoliths to microservices, and back?
@@ -185,7 +185,7 @@ Going from monoliths to microservices, and back?
 )
 
 
-- [Python’s “else” 条件循环](https://pycoders.com/link/1297/web)
+- [Python's "else" 条件循环](https://pycoders.com/link/1297/web)
     + REUVEN LERNER
 
 With for and while loops in Python, the else clause is executed if the loop reached its natural end without encountering a break statement.
@@ -210,7 +210,7 @@ The biggest change is that PyPy now uses utf-8 internally for unicode strings.
 - [pyright: Static Type Checker for Python](https://pycoders.com/link/1323/web)
     + GITHUB.COM/MICROSOFT
 
-Microsoft launched a static type checker for Python, written in TypeScript. They claim that “Pyright is typically 5x or more faster than mypy and other type checkers that are written in Python.”
+Microsoft launched a static type checker for Python, written in TypeScript. They claim that "Pyright is typically 5x or more faster than mypy and other type checkers that are written in Python."
 
 (`是也乎:`
 

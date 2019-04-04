@@ -11,30 +11,34 @@ Tags: Weekly,Python,pycoders,ZH
 ------
 
 
-- [How to Stand Out in a Python Coding Interview](https://pycoders.com/link/1377/web)
+- [如何在 Python 编码面试中脱颖而出](https://pycoders.com/link/1377/web)
     + REAL PYTHON
 
-Take your Python coding interview skills to the next level and use Python’s built-in functions and modules to solve problems faster and more easily.
+Take your Python coding interview skills to the next level and use Python's built-in functions and modules to solve problems faster and more easily.
+
+(`是也乎:`
+
+面经在国外也是显学哪...
+
+)
 
 
-
-
-- [A Look at Python, Parameterized](https://pycoders.com/link/1363/web)
+- [看看 Python, 参数化](https://pycoders.com/link/1363/web)
     + LUKE PLANT 
     + • Shared by Luke Plant
 
 Detailed article that explores the application of parameterization in Python and how it relates to mainstream design patterns such as dependency injection, strategy, template method, and others.
 
-- [Django Tutorial: Build Your Own Portfolio Website](https://pycoders.com/link/1344/web)
+- [Django 教程:建立自己项目组合网站](https://pycoders.com/link/1344/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn the basics of creating powerful web applications with Django, a Python web framework. You’ll build a portfolio application to showcase your web development projects, complete with a fully functioning blog.
+In this step-by-step tutorial, you'll learn the basics of creating powerful web applications with Django, a Python web framework. You'll build a portfolio application to showcase your web development projects, complete with a fully functioning blog.
 
 
-- [Django 2.2 LTS Released](https://pycoders.com/link/1364/web)
+- [Django 2.2 LTS 发布](https://pycoders.com/link/1364/web)
     + DJANGOPROJECT.COM
 
-What’s new? HttpRequest.headers to easily access request headers, database-level constraints on models, improved runserver performance when watching large project folders. Also, this is a long-term support (LTS) release, which means that security and data loss fixes will be applied for at least the next three years.
+What's new? HttpRequest.headers to easily access request headers, database-level constraints on models, improved runserver performance when watching large project folders. Also, this is a long-term support (LTS) release, which means that security and data loss fixes will be applied for at least the next three years.
 
 (`是也乎:`
 
@@ -43,18 +47,27 @@ LTS <== Ubuntu 制造出来的品牌...
 )
 
 
-- [On Overusing List Comprehensions and Generator Expressions](https://pycoders.com/link/1380/web)
+- [有关过度使用 Comprehensions 以及 Generator Expressions](https://pycoders.com/link/1380/web)
     + TREY HUNNER 
     + • Shared by Ricky White
 
 Comprehensions are lovely, but they can easily be overused. In this article Trey shows you helpful examples and tips on sensible comprehension use in your own code.
 
-- [Six Easy Ways to Run Your Jupyter Notebook in the Cloud](https://pycoders.com/link/1355/web)
+(`是也乎:`
+
+代码简洁可读, 永远是代码第一原则.
+
+)
+
+
+- [六种简便方法在云中运行 Jupyter 笔记本](https://pycoders.com/link/1355/web)
     + KEVIN MARKHAM
 
 A comparison of free services for running an interactive Jupyter Notebook in the cloud: Binder, Kaggle Kernels, Google Colab, Azure Notebooks, CoCalc, Datalore.
 
 (`是也乎:`
+
+> Binder, Kaggle, Google, Microsoft, CoCalc, and Datalore...
 
 简单的说, 简单但述求不同, 对于墙内的,
 抱 M$ 的粗腿吧...
@@ -62,25 +75,51 @@ A comparison of free services for running an interactive Jupyter Notebook in the
 )
 
 
-- [Python Overtakes JavaScript as the Most-Asked-About Language on Stack Overflow](https://pycoders.com/link/1343/web)
+- [Python 超越 JavaScript 成为 Stack Overflow 上最受关注的语言](https://pycoders.com/link/1343/web)
     + GLOBALAPPTESTING.COM
 
-“Either Python is fast becoming the most popular programming language, or Python just has a bigger proportion of new coders compared to other languages”
+"Either Python is fast becoming the most popular programming language, or Python just has a bigger proportion of new coders compared to other languages"
+
+(`是也乎:`
+
+感谢党, 感谢人民 以及 Google 和 NASA 们...
+
+)
 
 
 ## 讨论
 > Discussions
 
 
-- [For Those Who Self-Taught Themselves Python, How Did You Do It?](https://pycoders.com/link/1373/web)
+- [那些自学 Python 的人都是怎么做到的?](https://pycoders.com/link/1373/web)
     + REDDIT
 
+(`是也乎:`
 
-- [On Learning Rust and Go: Migrating Away From Python](https://pycoders.com/link/1354/web)
+> I have found that the best way to learn a thing is by doing a thing. Program something you need or want. Learn what you need as you go.
+
+
+> Every language I have learned was project driven.
+> 
+>> Since coding drives literally everything IT can do, you only need to think about what you wished you could do better, faster, easier.
+>> ...
+
+几乎所有高度认同的经验, 都是 MVP 驱动的...
+
+问题在, 为什么还是有那么多培训班/MOOC 还在教 语言本身, 而不是编程?
+
+[蟒营 Python 入门班](https://py.101.camp/)
+
+> Reactivate Joy by Self-study with You
+
+
+)
+
+- [学习Rust and Go:远离Python](https://pycoders.com/link/1354/web)
     + HACKER NEWS
 
 
-- [Private Methods in Python ;-)](https://pycoders.com/link/1348/web)
+- [Python 中的私有方法 ;-)](https://pycoders.com/link/1348/web)
     + TWITTER.COM/REALPYTHON
 
 
@@ -90,7 +129,7 @@ A comparison of free services for running an interactive Jupyter Notebook in the
 
 
 
-- [Python Virtual Environments Introduction](https://pycoders.com/link/1356/web)
+- [Python 虚拟环境简介](https://pycoders.com/link/1356/web)
     + JAMES SPURIN
 
 What Python Virtual Environments are and how to use them effectively in your Python programming endeavours.
@@ -107,21 +146,21 @@ What Python Virtual Environments are and how to use them effectively in your Pyt
 )
 
 
-- [Minimizing Performance Issues Caused by Django’s Implicit Database Queries](https://pycoders.com/link/1371/web)
+- [最大限度减少 Django 隐式数据库查询引起的性能问题](https://pycoders.com/link/1371/web)
     + JAMIE MATTHEWS
 
-The author proposes a simple library called django-zen-queries that gives you control over which parts of your code are allowed to run queries, and which aren’t.
+The author proposes a simple library called django-zen-queries that gives you control over which parts of your code are allowed to run queries, and which aren't.
 
-- [Monitor Python Applications With Datadog APM and Distributed Tracing](https://pycoders.com/link/1337/web)
+- [Datadog APM 和分布式跟踪监控 Python 应用程序](https://pycoders.com/link/1337/web)
     + DATADOG
     + sponsor
 
-Visualize every layer of your Python stack in minutes. Use Datadog’s Trace Search to filter and analyze trace events across any customer or dimension that matters to your business. Start optimizing your Python applications with a free 14-day trial of Datadog →
+Visualize every layer of your Python stack in minutes. Use Datadog's Trace Search to filter and analyze trace events across any customer or dimension that matters to your business. Start optimizing your Python applications with a free 14-day trial of Datadog →
 
-- [Monkey Patching in Python: Explained With Examples](https://pycoders.com/link/1361/web)
+- [Python 中的猴补丁:实例解释](https://pycoders.com/link/1361/web)
     + SHYAMA SANKAR
 
-In this post, you’ll learn about monkey patching, that is, how to dynamically update code behavior at runtime. Also includes some useful examples of monkey patching in Python.
+In this post, you'll learn about monkey patching, that is, how to dynamically update code behavior at runtime. Also includes some useful examples of monkey patching in Python.
 
 (`是也乎:`
 
@@ -130,30 +169,31 @@ In this post, you’ll learn about monkey patching, that is, how to dynamically 
 )
 
 
-- [Working With JSON Data in Python](https://pycoders.com/link/1357/web)
+- [在 Python 中使用 JSON 数据](https://pycoders.com/link/1357/web)
     + REAL PYTHON video
 
-Learn how to work with Python’s built-in json module to serialize the data in your programs into JSON format. Then, you’ll deserialize some JSON from an online API and convert it into Python objects.
+Learn how to work with Python's built-in json module to serialize the data in your programs into JSON format. Then, you'll deserialize some JSON from an online API and convert it into Python objects.
 
 (`是也乎:`
 
 ![](https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/Working-With-JSON-Data-in-Python_Watermarked.66a8fdcb8859.jpg&w=960&sig=997701f47dbef585b55d0d74d1acdd6b0647d253)
 
+简单说, 别给人写 JSON 就好
 )
 
 
-- [Useful Django Packages in 2019](https://pycoders.com/link/1365/web)
+- [2019 年有用的 Django 包](https://pycoders.com/link/1365/web)
     + VLADISLAV SUPALOV 
     + • Shared by Vladislav Supalov
 
 Django packages which will make your project more fun to work on, take care of common tasks, and help you to get more done. Nice list!
 
-- [Super Potato Bruh (Made With PyGame) Receives a Major Update](https://pycoders.com/link/1372/web)
+- [Super Potato Bruh (用PyGame制作)获得重大更新](https://pycoders.com/link/1372/web)
     + REDDIT
 
 A hilarious platformer game made entirely with Python and PyGame! Each copy of the game comes with full source code.
 
-- [Go for Python Programmers](https://pycoders.com/link/1366/web)
+- [给 Python 程序猿的 Go](https://pycoders.com/link/1366/web)
     + JASON MCVETTA
 
 An introduction to the Go language for experienced Python programmers.
@@ -165,17 +205,17 @@ An introduction to the Go language for experienced Python programmers.
 )
 
 
-- [Sorting Algorithms in Python](https://pycoders.com/link/1351/web)
+- [Python 的排序算法](https://pycoders.com/link/1351/web)
     + MARCUS SANATAN
 
 A look at popular sorting algorithms, how they work, and how they can be coded in Python.
 
-- [Multi-Stage Dockerfiles and Python Virtualenvs](https://pycoders.com/link/1342/web)
+- [多阶段 Dockerfiles 和 Python Virtualenvs](https://pycoders.com/link/1342/web)
     + PAUL MCLANAHAN
 
-How to make smaller and more secure Docker images for production using Docker’s multi-stage build feature and Python virtual environments.
+How to make smaller and more secure Docker images for production using Docker's multi-stage build feature and Python virtual environments.
 
-- [Displaying Your Realtime Blood Glucose Levels With Python](https://pycoders.com/link/1378/web)
+- [用 Python 显示你实时血糖水平](https://pycoders.com/link/1378/web)
     + SCOTT HANSELMAN 
     + • Shared by Ricky White
 
@@ -188,24 +228,31 @@ Scott Hanselman on programming a PyPortal with Circuit Python to display his blo
 > Interesting Projects, Tools and Libraries
 
 
-- [doccano: Open Source Text Annotation Tool for ML](https://pycoders.com/link/1360/web)
+- [doccano: ML 的开源文本注释工具](https://pycoders.com/link/1360/web)
     + GITHUB.COM/CHAKKI-WORKS 
     + • Shared by Hironsan
 
-- [autohooks: Library for Managing Git Hooks](https://pycoders.com/link/1347/web)
+- [autohooks: 用于管理 Git Hooks 的库](https://pycoders.com/link/1347/web)
     + GITHUB.COM/GREENBONE 
     + • Shared by Björn Ricks
 
-- [pyCAIR: Content Aware Image Resizing](https://pycoders.com/link/1382/web)
+- [pyCAIR: 内容感知图像大小调整](https://pycoders.com/link/1382/web)
     + GITHUB.COM/AVIDLEARNERINPROGRESS 
     + • Shared by Chirag Shah
 
-- [Dramatiq: Simple Task Processing](https://pycoders.com/link/1358/web)
+- [Dramatiq: 简单的任务处理](https://pycoders.com/link/1358/web)
     + DRAMATIQ.IO
 
 A distributed task processing library for Python with a focus on simplicity, reliability and performance.
 
-- [sphinx-contrib/spelling: Sphinx Docs Spelling Checker](https://pycoders.com/link/1381/web)
+(`是也乎:`
+
+在 OTP 面前都是渣...
+
+)
+
+
+- [sphinx-contrib/spelling: Sphinx Docs 拼写检查器](https://pycoders.com/link/1381/web)
     + GITHUB.COM/SPHINX-CONTRIB
 
 A spelling checker for Sphinx-based documentation. It uses PyEnchant to produce a report showing misspelled words.
