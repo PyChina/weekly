@@ -81,7 +81,7 @@ See step-by-step what Python decorators are and how you can use them to make you
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2019-03-23-ScreenShot%202019-03-23%2009.46.29.jpg)
+![...](https://ipic.zoomquiet.top/2019-03-23-ScreenShot%202019-03-23%2009.46.29.jpg)
 
 哈, 形式都一致...
 
@@ -156,7 +156,7 @@ In this tutorial, you'll learn how to use the Python mock object library, unitte
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2019-03-23-ScreenShot%202019-03-23%2009.28.10.jpg)
+![...](https://ipic.zoomquiet.top/2019-03-23-ScreenShot%202019-03-23%2009.28.10.jpg)
 
 别的不说, 真蟒 的插图是非常走心的...
 
@@ -252,7 +252,7 @@ wx 哪,,,很多年没见过有什么消息了, Electorn 以及 Flutter 们将统
 
 (`是也乎:`
 
-![](https://github.com/OWASP/owasp-swag/raw/master/projects/cheat-sheet-series/owasp-1.png)
+![...](https://github.com/OWASP/owasp-swag/raw/master/projects/cheat-sheet-series/owasp-1.png)
 
 作弊条也可以变成流行嗯哼...
 
@@ -290,7 +290,7 @@ wx 哪,,,很多年没见过有什么消息了, Electorn 以及 Flutter 们将统
 
 (`是也乎:`
 
-![](https://github.com/tonybaloney/instaviz/raw/master/screenshot.png)
+![...](https://github.com/tonybaloney/instaviz/raw/master/screenshot.png)
 
 可视化 AST ... Graphviz 无处不在...
 )

@@ -6,7 +6,7 @@ Tags: Weekly,Pycoder,Zh
 
 原文: [Postgres Weekly Issue 299: April 3, 2019](https://postgresweekly.com/issues/299)
 
-![](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssoylsgxn7il7w6zynuj.jpg)
+![...](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssoylsgxn7il7w6zynuj.jpg)
 
 - [Postgres 获得 'Generated Column' 支持](https://postgresweekly.com/link/61543/web)
     + Peter Eisentraut
@@ -31,7 +31,7 @@ There are several key metrics you’ll want to keep track of when it comes to da
 
 (`是也乎:`
 
-![](https://copm.s3.amazonaws.com/2e860b79.jpg)
+![...](https://copm.s3.amazonaws.com/2e860b79.jpg)
 
 这种很搭的赞助商才对味儿
 

@@ -20,7 +20,7 @@ In this intermediate-level tutorial, you'll learn how to use threading in your P
 
 真蟒, 系列插图, 真香...
 
-![](https://files.realpython.com/media/Intro-to-Threading_Watermarked.95b143d3ba6c.jpg)
+![...](https://files.realpython.com/media/Intro-to-Threading_Watermarked.95b143d3ba6c.jpg)
 
 )
 
@@ -34,7 +34,7 @@ A great explanation of Python's argument-passing semantics.
 
 参数传递的一次嗯哼...
 
-![](https://robertheaton.com/images/PBORReassign.jpg)
+![...](https://robertheaton.com/images/PBORReassign.jpg)
 
 > 手绘万岁...
 
@@ -63,7 +63,7 @@ Brett breaks down the famous Python-related xkcd #1987 comic in an attempt to tr
 
 (`是也乎:`
 
-![](https://imgs.xkcd.com/comics/python_environment.png)
+![...](https://imgs.xkcd.com/comics/python_environment.png)
 
 对 1987 号漫画的详细解析...痛泪满面...
 
@@ -124,7 +124,7 @@ How to turn Django Admin into a lightweight dashboard by adding a chart and a su
 
 (`是也乎:`
 
-![](https://hakibenita.com/images/08-how-to-turn-django-admin-into-a-lightweight-dashboard.png)
+![..](https://hakibenita.com/images/08-how-to-turn-django-admin-into-a-lightweight-dashboard.png)
 
 )
 
@@ -139,7 +139,7 @@ Get comfortable with Django migrations and learn how to create database tables w
 
 Migrations 这是 Django 强大的工具, 也是持有的问题..
 
-![](https://files.realpython.com/media/Django-Migrations---A-Primer-Update_Watermarked.798eade8f3df.jpg)
+![...](https://files.realpython.com/media/Django-Migrations---A-Primer-Update_Watermarked.798eade8f3df.jpg)
 
 )
 
@@ -224,7 +224,7 @@ Microsoft launched a static type checker for Python, written in TypeScript. They
 
 (`是也乎:`
 
-![](https://github.com/lark-parser/lark/raw/master/examples/fruitflies.png)
+![...](https://github.com/lark-parser/lark/raw/master/examples/fruitflies.png)
 
 叕一个语法解析库.
 

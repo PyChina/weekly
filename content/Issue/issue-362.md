@@ -141,7 +141,7 @@ What Python Virtual Environments are and how to use them effectively in your Pyt
 现在看还没有统一的解决方案, 
 就私人体验, 生产上, 有类似 conda 预编译的集成肥环境, 那就用
 
-![](https://spurin.com/images/pasted-19.png)
+![..](https://spurin.com/images/pasted-19.png)
 
 )
 
@@ -176,7 +176,7 @@ Learn how to work with Python's built-in json module to serialize the data in yo
 
 (`是也乎:`
 
-![](https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/Working-With-JSON-Data-in-Python_Watermarked.66a8fdcb8859.jpg&w=960&sig=997701f47dbef585b55d0d74d1acdd6b0647d253)
+![...](https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/Working-With-JSON-Data-in-Python_Watermarked.66a8fdcb8859.jpg&w=960&sig=997701f47dbef585b55d0d74d1acdd6b0647d253)
 
 简单说, 别给人写 JSON 就好
 )

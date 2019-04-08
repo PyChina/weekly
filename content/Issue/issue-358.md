@@ -100,7 +100,7 @@ SO 中神品回答:
 ![7nT9z.png(PNG 图像,712x417 像素)](https://i.stack.imgur.com/7nT9z.png)
 
 
-![](https://user-images.githubusercontent.com/32203938/53185266-f337da80-35fe-11e9-9eb6-0b04f35a5263.gif)
+![githubusercontent](https://user-images.githubusercontent.com/32203938/53185266-f337da80-35fe-11e9-9eb6-0b04f35a5263.gif)
 
 
 甚至于制作了内存分析动画...镇住了其它回答
