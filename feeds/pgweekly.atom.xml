@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - PgWeekly</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/pgweekly.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2019-04-04T15:32:00+08:00</updated><entry><title>Postgres Weekly : Issue 229</title><link href="http://weekly.pychina.org/pgweekly/pgw-229.html" rel="alternate"></link><published>2019-04-04T15:32:00+08:00</published><updated>2019-04-04T15:32:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2019-04-04:/pgweekly/pgw-229.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://postgresweekly.com/issues/299"&gt;Postgres Weekly Issue 299: April 3, 2019&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssoylsgxn7il7w6zynuj.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssoylsgxn7il7w6zynuj.jpg"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://postgresweekly.com/link/61543/web"&gt;Postgres 获得 'Generated Column' 支持&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;Peter Eisentraut&lt;/li&gt;
@@ -8,7 +8,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It's always great to see Postgres gaining support for an SQL-standard feature and this commit begins with a simple example of how one type of generated column will work in the future. MySQL 5.7 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;原文: &lt;a href="https://postgresweekly.com/issues/299"&gt;Postgres Weekly Issue 299: April 3, 2019&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssoylsgxn7il7w6zynuj.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssoylsgxn7il7w6zynuj.jpg"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://postgresweekly.com/link/61543/web"&gt;Postgres 获得 'Generated Column' 支持&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;Peter Eisentraut&lt;/li&gt;
@@ -32,7 +32,7 @@
 &lt;/ul&gt;
 &lt;p&gt;There are several key metrics you’ll want to keep track of when it comes to database performance, and they’re not all database-specific.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://copm.s3.amazonaws.com/2e860b79.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://copm.s3.amazonaws.com/2e860b79.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;这种很搭的赞助商才对味儿&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;

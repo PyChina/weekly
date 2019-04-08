@@ -148,7 +148,7 @@
 开发/测试/生产 所要求的点都不同,
 现在看还没有统一的解决方案, 
 就私人体验, 生产上, 有类似 conda 预编译的集成肥环境, 那就用&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://spurin.com/images/pasted-19.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=".." src="https://spurin.com/images/pasted-19.png"&gt;&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://pycoders.com/link/1371/web"&gt;最大限度减少 Django 隐式数据库查询引起的性能问题&lt;/a&gt;&lt;ul&gt;
@@ -183,7 +183,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Learn how to work with Python's built-in json module to serialize the data in your programs into JSON format. Then, you'll deserialize some JSON from an online API and convert it into Python objects.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/Working-With-JSON-Data-in-Python_Watermarked.66a8fdcb8859.jpg&amp;amp;w=960&amp;amp;sig=997701f47dbef585b55d0d74d1acdd6b0647d253"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/Working-With-JSON-Data-in-Python_Watermarked.66a8fdcb8859.jpg&amp;amp;w=960&amp;amp;sig=997701f47dbef585b55d0d74d1acdd6b0647d253"&gt;&lt;/p&gt;
 &lt;p&gt;简单说, 别给人写 JSON 就好
 )&lt;/p&gt;
 &lt;ul&gt;
@@ -346,7 +346,7 @@
 &lt;p&gt;In this intermediate-level tutorial, you'll learn how to use threading in your Python programs. You'll see how to create threads, how to coordinate and synchronize them, and how to handle common problems that arise in threading.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;真蟒, 系列插图, 真香...&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://files.realpython.com/media/Intro-to-Threading_Watermarked.95b143d3ba6c.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://files.realpython.com/media/Intro-to-Threading_Watermarked.95b143d3ba6c.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://pycoders.com/link/1313/web"&gt;Python …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/361"&gt;PyCoder's Weekly - Issue #361&lt;/a&gt;&lt;/p&gt;
@@ -361,7 +361,7 @@
 &lt;p&gt;In this intermediate-level tutorial, you'll learn how to use threading in your Python programs. You'll see how to create threads, how to coordinate and synchronize them, and how to handle common problems that arise in threading.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;真蟒, 系列插图, 真香...&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://files.realpython.com/media/Intro-to-Threading_Watermarked.95b143d3ba6c.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://files.realpython.com/media/Intro-to-Threading_Watermarked.95b143d3ba6c.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://pycoders.com/link/1313/web"&gt;Python 到底是 Pass-By-Reference 或 Pass-By-Value? (2014)&lt;/a&gt;&lt;ul&gt;
@@ -372,7 +372,7 @@
 &lt;p&gt;A great explanation of Python's argument-passing semantics.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;参数传递的一次嗯哼...&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://robertheaton.com/images/PBORReassign.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://robertheaton.com/images/PBORReassign.jpg"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;手绘万岁...&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -395,7 +395,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Brett breaks down the famous Python-related xkcd #1987 comic in an attempt to try an de-mystify what has happened to the artist's laptop. Fun read!&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://imgs.xkcd.com/comics/python_environment.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://imgs.xkcd.com/comics/python_environment.png"&gt;&lt;/p&gt;
 &lt;p&gt;对 1987 号漫画的详细解析...痛泪满面...&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
@@ -454,7 +454,7 @@
 &lt;/ul&gt;
 &lt;p&gt;How to turn Django Admin into a lightweight dashboard by adding a chart and a summary table. Recommended reading for Django Admin hackers :)&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://hakibenita.com/images/08-how-to-turn-django-admin-into-a-lightweight-dashboard.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=".." src="https://hakibenita.com/images/08-how-to-turn-django-admin-into-a-lightweight-dashboard.png"&gt;&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://pycoders.com/link/1299/web"&gt;Django Migrations 101&lt;/a&gt;&lt;ul&gt;
@@ -465,7 +465,7 @@
 &lt;p&gt;Get comfortable with Django migrations and learn how to create database tables without writing any SQL, how to automatically modify your database after you changed your models, and how to revert changes made to your database.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Migrations 这是 Django 强大的工具, 也是持有的问题..&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://files.realpython.com/media/Django-Migrations---A-Primer-Update_Watermarked.798eade8f3df.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://files.realpython.com/media/Django-Migrations---A-Primer-Update_Watermarked.798eade8f3df.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://pycoders.com/link/1316/web"&gt;wxPython 中的 Async/Await&lt;/a&gt;&lt;ul&gt;
@@ -546,7 +546,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/lark-parser/lark/raw/master/examples/fruitflies.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://github.com/lark-parser/lark/raw/master/examples/fruitflies.png"&gt;&lt;/p&gt;
 &lt;p&gt;叕一个语法解析库.&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
@@ -724,7 +724,7 @@
 &lt;/ul&gt;
 &lt;p&gt;See step-by-step what Python decorators are and how you can use them to make your own code more Pythonic and expressive.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://ipic.zoomquiet.top/2019-03-23-ScreenShot%202019-03-23%2009.46.29.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://ipic.zoomquiet.top/2019-03-23-ScreenShot%202019-03-23%2009.46.29.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;哈, 形式都一致...&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
@@ -797,7 +797,7 @@
 &lt;/ul&gt;
 &lt;p&gt;In this tutorial, you'll learn how to use the Python mock object library, unittest.mock, to create and use mock objects to improve your tests. Obstacles like complex logic and unpredictable dependencies make writing valuable tests difficult, but unittest.mock can help you overcome these obstacles.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://ipic.zoomquiet.top/2019-03-23-ScreenShot%202019-03-23%2009.28.10.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://ipic.zoomquiet.top/2019-03-23-ScreenShot%202019-03-23%2009.28.10.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;别的不说, 真蟒 的插图是非常走心的...&lt;/p&gt;
 &lt;p&gt;PS: 官网图片都是 webp 的了, 下载了根本没法直接看...&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
@@ -892,7 +892,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/OWASP/owasp-swag/raw/master/projects/cheat-sheet-series/owasp-1.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://github.com/OWASP/owasp-swag/raw/master/projects/cheat-sheet-series/owasp-1.png"&gt;&lt;/p&gt;
 &lt;p&gt;作弊条也可以变成流行嗯哼...&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
@@ -930,7 +930,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/tonybaloney/instaviz/raw/master/screenshot.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://github.com/tonybaloney/instaviz/raw/master/screenshot.png"&gt;&lt;/p&gt;
 &lt;p&gt;可视化 AST ... Graphviz 无处不在...
 )&lt;/p&gt;
 &lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
@@ -1378,7 +1378,7 @@ Conda 找到了自己的发展道路 -&amp;gt; 在本地运行时环境上 给�
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;SO 中神品回答:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="7nT9z.png(PNG 图像,712x417 像素)" src="https://i.stack.imgur.com/7nT9z.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://user-images.githubusercontent.com/32203938/53185266-f337da80-35fe-11e9-9eb6-0b04f35a5263.gif"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="githubusercontent" src="https://user-images.githubusercontent.com/32203938/53185266-f337da80-35fe-11e9-9eb6-0b04f35a5263.gif"&gt;&lt;/p&gt;
 &lt;p&gt;甚至于制作了内存分析动画...镇住了其它回答&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;

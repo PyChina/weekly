@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - _extra</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/_extra.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2019-04-08T20:35:44+08:00</updated><entry><title>README</title><link href="http://weekly.pychina.org/_extra/README.html" rel="alternate"></link><published>2019-04-08T20:35:44+08:00</published><updated>2019-04-08T20:35:44+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2019-04-08:/_extra/README.html</id><summary type="html">&lt;h1&gt;PyChina.github.io&lt;/h1&gt;
+&lt;p&gt;in fact from 2003 there is CZUG.org ~ the 1st(and only one) focus Zope tech community be set up;&lt;/p&gt;
+&lt;p&gt;so years ago, there is soooooooo many python tech abt. commuity in China&lt;/p&gt;
+&lt;p&gt;but never group as one unify community brand,
+like as: perl-china/ruby-china etc. &lt;/p&gt;
+&lt;p&gt;so …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;PyChina.github.io&lt;/h1&gt;
+&lt;p&gt;in fact from 2003 there is CZUG.org ~ the 1st(and only one) focus Zope tech community be set up;&lt;/p&gt;
+&lt;p&gt;so years ago, there is soooooooo many python tech abt. commuity in China&lt;/p&gt;
+&lt;p&gt;but never group as one unify community brand,
+like as: perl-china/ruby-china etc. &lt;/p&gt;
+&lt;p&gt;so after PyCon2013China, some &lt;code&gt;old&lt;/code&gt; Chinese Pythonista together and building:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyChina_logo_131217_zq_h200" src="PyChina_logo_131217_zq_h200.png"&gt;&lt;/p&gt;
+&lt;h2&gt;goal&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;by Pythonner in China Operations&lt;/li&gt;
+&lt;li&gt;as Pythonner in China Deleloping&lt;/li&gt;
+&lt;li&gt;for Pythonista in Global support events organizing srvice&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;organizer&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;lepture&lt;/li&gt;
+&lt;li&gt;KJ&lt;/li&gt;
+&lt;li&gt;Sting&lt;/li&gt;
+&lt;li&gt;twinsant&lt;/li&gt;
+&lt;li&gt;Zoom.Quiet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;usage&lt;/h2&gt;
+&lt;p&gt;How to update the site contents&lt;/p&gt;
+&lt;p&gt;main loop:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;git clone git@github.com:PyChina/CPyUG.git&lt;/li&gt;
+&lt;li&gt;edit some .md in &lt;code&gt;content/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fab build&lt;/code&gt; for test local&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git&lt;/code&gt; add-&amp;gt;ci-&amp;gt;push &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fab deploy2obp&lt;/code&gt; published through &lt;code&gt;obp&lt;/code&gt; into pychina.u.qiniudn.com&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd output&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git&lt;/code&gt; add-&amp;gt;ci-&amp;gt;push published as pychina.github.io&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;writing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fork https://gitcafe.com/CPyUG/PyChina into local&lt;/li&gt;
+&lt;li&gt;or becamed https://gitcafe.com/CPyUG member hold the repo. ACL&lt;/li&gt;
+&lt;li&gt;cd into content/&lt;/li&gt;
+&lt;li&gt;the sub-dir means:&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;Events&lt;/span&gt;       &lt;span class="err"&gt;首字母大写的是分类目录&lt;/span&gt; &lt;span class="err"&gt;收集对应文章&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;Volunteer&lt;/span&gt;    &lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="err"&gt;志愿者&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;_extra&lt;/span&gt;       &lt;span class="err"&gt;扩展功能文件&lt;/span&gt; &lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;g&lt;/span&gt; &lt;span class="n"&gt;robots&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;txt&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;_files&lt;/span&gt;       &lt;span class="err"&gt;站内文件&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;_images&lt;/span&gt;      &lt;span class="err"&gt;站内图片&lt;/span&gt;
+    &lt;span class="err"&gt;`&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;pages&lt;/span&gt;        &lt;span class="err"&gt;类似&lt;/span&gt; &lt;span class="n"&gt;about&lt;/span&gt; &lt;span class="err"&gt;的导航栏文档&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;文章格式&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;标准 Markdown 格式&lt;/li&gt;
+&lt;li&gt;以 .md 为后缀&lt;/li&gt;
+&lt;li&gt;文件名不得使用中文/空格/符号&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;内容模板:&lt;/p&gt;
+&lt;p&gt;Title: 中E可以混杂的标题
+Date: 2013-12-09
+Tags: people, shanghai
+Slug: sting-chen
+Author: Zoom.Quiet&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;其中:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Date:&lt;/code&gt; 如果没有将使用文件的系统时间&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Tags:&lt;/code&gt; 使用逗号作间隔, 不宜过多,建议三个为界,以人物/行为/目标领域 为方向进行定义&lt;ul&gt;
+&lt;li&gt;参考: &lt;a href="http://www.cnblogs.com/holbrook/archive/2012/11/05/2755268.html"&gt;如何规划blog的标签（tag）和分类 - 心内求法 - 博客园&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Slug:&lt;/code&gt; 是实际输出的页面文件名, 建议全部小写E文, 使用中划线, 不使用特殊符号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;deploy&lt;/h3&gt;
+&lt;p&gt;支持本地调试! 使用 &lt;code&gt;fabric&lt;/code&gt; 进行管理, 支持的命令:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;fab&lt;/span&gt; 
+&lt;span class="n"&gt;Available&lt;/span&gt; &lt;span class="n"&gt;commands&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+
+    &lt;span class="n"&gt;build&lt;/span&gt;       &lt;span class="err"&gt;编译所有页面&lt;/span&gt;
+    &lt;span class="n"&gt;deploy&lt;/span&gt;      &lt;span class="err"&gt;向主机部署所有页面&lt;/span&gt;
+    &lt;span class="n"&gt;rebuild&lt;/span&gt;     &lt;span class="err"&gt;重编译所有页面&lt;/span&gt;
+    &lt;span class="n"&gt;reserve&lt;/span&gt;     &lt;span class="err"&gt;重编译所有页面再启动本地服务&lt;/span&gt;
+    &lt;span class="n"&gt;serve&lt;/span&gt;       &lt;span class="err"&gt;启动本地服务&lt;/span&gt; &lt;span class="n"&gt;localhost&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;8000&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;code&gt;注意!&lt;/code&gt; 向主机部署,需要有相关权限,并在本地配置好对应 SSH 信息&lt;/p&gt;
+&lt;h3&gt;design&lt;/h3&gt;
+&lt;p&gt;基于 &lt;a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; 深度定制&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;配置: &lt;code&gt;pelicanconf.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;样式: &lt;code&gt;_themes/pelican-bootstrap3/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;插件: &lt;code&gt;_plugins/&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;140102 re-publish into https://github.com/PyChina/PyChina.github.io&lt;/li&gt;
+&lt;li&gt;131218 base pelican build and through qiniu.com publish&lt;/li&gt;
+&lt;/ul&gt;</content></entry></feed>
