@@ -292,9 +292,9 @@ Mypy now ships a mypy binary compiled with mypyc by default, which is up to 4x f
 (`大妈私人无责任播报`)
 
 - [蟒营 Python 入门班](https://py.101.camp/)
-    + 42小时以内截止
+    + 36小时以内截止
 
 # 是也乎
 
-- 190410 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译
+- 190411 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译
 - 190410 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 17 分钟 完成格式转抄.
