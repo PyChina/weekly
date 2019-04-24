@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 17 Apr 2019 15:15:00 +0800</lastBuildDate><item><title>Issue 364</title><link>http://weekly.pychina.org/issue/issue-364.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/364"&gt;PyCoder's Weekly - Issue #364&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 24 Apr 2019 09:15:00 +0800</lastBuildDate><item><title>Issue 365</title><link>http://weekly.pychina.org/issue/issue-365.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/365"&gt;PyCoder's Weekly - Issue #365&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/1491/web"&gt;Requests III: HTTP同时为人类和机器&lt;/a&gt;  &lt;ul&gt;
+&lt;li&gt;PYTHON-REQUESTS.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Requests is getting a makeover slated for release in 2020: asyncio, HTTP/2, connection pooling, timeouts, Python 3.6+, and more.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/1465/web"&gt;Python 学习路径&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Step-by-Step Python learning paths and study plans for beginner, intermediate, and advanced Python developers.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎 …&lt;/code&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 24 Apr 2019 09:15:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-04-24:/issue/issue-365.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 364</title><link>http://weekly.pychina.org/issue/issue-364.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/364"&gt;PyCoder's Weekly - Issue #364&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
