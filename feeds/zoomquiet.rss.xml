@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Thu, 09 May 2019 19:42:00 +0800</lastBuildDate><item><title>Elixir Weekly #148</title><link>http://weekly.pychina.org/elixirweekly/elixirweekly-148.html</link><description>&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/148"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 15 May 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 368</title><link>http://weekly.pychina.org/issue/issue-368.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/368"&gt;PyCoder's Weekly - Issue #368&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/1604/web"&gt;CPython 3.8.0a4 已可测试&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYTHON.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Among the new major new features and changes so far: Assignment expressions (PEP 572), Positional-only arguments (PEP 570), multiprocessing can now use shared memory to avoid pickling, typed_ast is back.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/1593/web"&gt;用 Python 播放和录制声音&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this tutorial …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 15 May 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-05-15:/issue/issue-368.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Elixir Weekly #148</title><link>http://weekly.pychina.org/elixirweekly/elixirweekly-148.html</link><description>&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/148"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="elixirweekly" src="https://elixirweekly.net/images/envelope.png"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
