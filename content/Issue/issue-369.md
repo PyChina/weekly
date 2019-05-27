@@ -289,6 +289,26 @@ This article covers preventing slowness due to worker heartbeats, configuring th
     + 已开班, 进入 ch06
     + 下期可能 7月1
 
+[![PyScaffold](https://pyscaffold.org/en/latest/_images/logo.png)](https://pyscaffold.org/en/latest/)
+
+~ helps you setup a new Python project
+
+
+- [What Can I Do With Python? – Real Python](https://realpython.com/what-can-i-do-with-python/)
+    + FAQ
+
+(`是也乎:`
+
+![Do With Py](https://ipic.zoomquiet.top/2019-05-25-ScreenShot%202019-05-25%2010.27.25.jpg)
+
+总是永远有人问这个问题...
+当然, 这个问题任何一个技术社区都有人在问...
+
+其实, 本质上并不是对应技术是否有什么能力,
+而是相反...
+
+)
+
 
 ### Jobs:
 > ...
