@@ -14,7 +14,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [如何充分利用 PyCon](https://pycoders.com/link/1537/web)
     + REAL PYTHON
 
-PyCon is about to kick off! Whether you’re a first-timer or a seasoned attendee, this guide will help you get ready to have a great PyCon.
+PyCon is about to kick off! Whether you're a first-timer or a seasoned attendee, this guide will help you get ready to have a great PyCon.
 
 (`是也乎:`
 
@@ -26,7 +26,7 @@ PyCon is about to kick off! Whether you’re a first-timer or a seasoned attende
 - [在 PyCharm PyCon Booth 上结识 Python 内容创建者](https://pycoders.com/link/1505/web)
     + PAUL EVERITT
 
-If you’re at PyCon this week come and meet yours truly, along with Michael Kennedy from the Talk Python podcast, Brian Okken from Test & Code, Miguel Grinberg, Chris Medina, PyBites, and the Real Python Team. Be sure to stop by and say hi :)
+If you're at PyCon this week come and meet yours truly, along with Michael Kennedy from the Talk Python podcast, Brian Okken from Test & Code, Miguel Grinberg, Chris Medina, PyBites, and the Real Python Team. Be sure to stop by and say hi :)
 
 
 - [用 PyGame Zero 教孩子编码](https://pycoders.com/link/1503/web)
@@ -47,7 +47,7 @@ How can you excite a kid about computers? In this article the author shares his 
 - [用计算机视觉检测帕金森病](https://pycoders.com/link/1511/web)
     + ADRIAN ROSEBROCK
 
-Learn how to use OpenCV and machine learning to automatically detect Parkinson’s disease in hand-drawn images of spirals and waves.
+Learn how to use OpenCV and machine learning to automatically detect Parkinson's disease in hand-drawn images of spirals and waves.
 
 (`是也乎:`
 
@@ -65,7 +65,7 @@ An examination of a malicious piece of macOS software (adware) which leverages P
 - [使用 Django 和 GeoDjango 制作基于位置的 Web 应用程序](https://pycoders.com/link/1527/web)
     + REAL PYTHON video
 
-Learn how to use Django and GeoDjango to build a location-based web application from scratch. You’ll be building a simple nearby shops application that lists the shops closest to a user’s location, powered by PostgreSQL and PostGIS.
+Learn how to use Django and GeoDjango to build a location-based web application from scratch. You'll be building a simple nearby shops application that lists the shops closest to a user's location, powered by PostgreSQL and PostGIS.
 
 (`是也乎:`
 
@@ -86,7 +86,7 @@ For example, repeatfunc(random, 10) would be a shortcut for (random() for i in r
 - [为毛这能出现在官方 Python 文档中?](https://pycoders.com/link/1526/web)
     + REDDIT
 
-“Lame Lame Lame, DO NOT USE THIS!!!”
+"Lame Lame Lame, DO NOT USE THIS!!!"
 
 (`是也乎:`
 
@@ -105,7 +105,7 @@ For example, repeatfunc(random, 10) would be a shortcut for (random() for i in r
 - [2019 PSF 年度报告](https://pycoders.com/link/1536/web)
     + PYTHON.ORG
 
-“Our first Annual Report shows you just a few ways the generous support from our partners and friends helps us support our mission”
+"Our first Annual Report shows you just a few ways the generous support from our partners and friends helps us support our mission"
 
 - [使用 AST 在 Python 代码中检测 SQL 注入](https://pycoders.com/link/1515/web)
     + ARTEM GOLUBIN
@@ -132,7 +132,7 @@ DigitalOcean 的文档是除 Heroku 之外最友好的了...
 - [Python 在 Netflix](https://pycoders.com/link/1518/web)
     + AMJITH RAMANUJAM
 
-A sampling of how Python is used at Netflix: “We use Python through the full content lifecycle, from deciding which content to fund all the way to operating the CDN that serves the final video to 148 million members.”
+A sampling of how Python is used at Netflix: "We use Python through the full content lifecycle, from deciding which content to fund all the way to operating the CDN that serves the final video to 148 million members."
 
 
 (`是也乎:`
@@ -145,7 +145,7 @@ A sampling of how Python is used at Netflix: “We use Python through the full c
     + ALEX BECKER 
     + • Shared by Alex Becker
 
-Why Python packaging is hard: just because you both installed v1.2.3, doesn’t mean you installed the same thing…
+Why Python packaging is hard: just because you both installed v1.2.3, doesn't mean you installed the same thing... 
 
 (`是也乎:`
 
@@ -236,7 +236,7 @@ Covers various ways to write a Python context manager that measures execution ti
     + PYTHONTIPS.COM 
     + • Shared by Jim Anderson
 
-Why is pow(3, 89) slower than 3 ** 89? Quick article looking at the dis module and when CPython’s constant folding kicks in.
+Why is pow(3, 89) slower than 3 ** 89? Quick article looking at the dis module and when CPython's constant folding kicks in.
 
 
 ## 好物
@@ -276,7 +276,7 @@ uber 开源...
 
 )
 
-- [pydockenv: Python 虚拟环境，但由Docker支持](https://pycoders.com/link/1534/web)
+- [pydockenv: Python 虚拟环境,但由Docker支持](https://pycoders.com/link/1534/web)
     + GITHUB.COM/SE7ENTYSE7EN
 
 (`是也乎:`
@@ -375,7 +375,7 @@ uber 开源...
 - [蟒营 Python 入门班](https://py.101.camp/)
     + 已开班, 进入 ch03
     + 下期可能 7月中
-- [突发】Trio 作者质疑 Requests 作者 Kenneth Reitz 存在不当行为](https://mp.weixin.qq.com/s/5BWZYUvc5HXnvaqiawKBVA)
+- [突发]Trio 作者质疑 Requests 作者 Kenneth Reitz 存在不当行为](https://mp.weixin.qq.com/s/5BWZYUvc5HXnvaqiawKBVA)
 
 
 

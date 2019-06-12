@@ -13,7 +13,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [PEP 594: 从标准库中删除死电池](https://pycoders.com/link/1698/web)
     + PYTHON.ORG
 
-“This PEP proposed a list of standard library modules to be removed from the standard library. The modules are mostly historic data formats (e.g. Commodore and SUN file formats), APIs and operating systems that have been superseded a long time ago (e.g. Mac OS 9), or modules that have security implications and better alternatives (e.g. password and login).”
+"This PEP proposed a list of standard library modules to be removed from the standard library. The modules are mostly historic data formats (e.g. Commodore and SUN file formats), APIs and operating systems that have been superseded a long time ago (e.g. Mac OS 9), or modules that have security implications and better alternatives (e.g. password and login)."
 
 (`是也乎:`
 
@@ -33,7 +33,7 @@ Nice guide to translating the common discrete mathematical structures, such as s
 - [Python Logging: 漫步源代码](https://pycoders.com/link/1719/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn about how the Python logging package is designed from an OOP perspective. You’ll walk line by line down the package’s core module and become better equipped to know what your code is doing.
+In this step-by-step tutorial, you'll learn about how the Python logging package is designed from an OOP perspective. You'll walk line by line down the package's core module and become better equipped to know what your code is doing.
 
 (`是也乎:`
 
@@ -49,7 +49,7 @@ In this step-by-step tutorial, you’ll learn about how the Python logging packa
     + MISHA BEHERSKY 
     + • Shared by Misha Behersky
 
-“In this article I want to share my experience of using the Poetry dependency manager in production environment.”
+"In this article I want to share my experience of using the Poetry dependency manager in production environment."
 
 
 (`是也乎:`
@@ -62,7 +62,7 @@ Poetry 叕一个想替代 Pyenv/pipenv 的嗯哼
 - [Keras: 深度学习提取大数据集特征](https://pycoders.com/link/1702/web)
     + ADRIAN ROSEBROCK
 
-In this tutorial you will learn how to use Keras feature extraction on large image datasets with Deep Learning. We’ll also learn how to use incremental learning to train your image classifier on top of the extracted features.
+In this tutorial you will learn how to use Keras feature extraction on large image datasets with Deep Learning. We'll also learn how to use incremental learning to train your image classifier on top of the extracted features.
 
 
 
@@ -81,7 +81,7 @@ A simple but detailed guide to what CNNs are, how they work, and how to build on
 - [使用 GDB (GNU调试器) 探索Python](https://pycoders.com/link/1688/web)
     + EVAN BRODER
 
-“In order to demonstrate some of GDB’s flexibility, and show some of the steps involved in practical GDB work, we’ve put together a brief example of debugging Python with GDB.”
+"In order to demonstrate some of GDB's flexibility, and show some of the steps involved in practical GDB work, we've put together a brief example of debugging Python with GDB."
 
 (`是也乎:`
 
@@ -105,7 +105,7 @@ Or: Why dealing with time zones is hard.
 - [为什么 Python 类语法这么不同](https://pycoders.com/link/1699/web)
     + NED BATCHELDER
 
-Interesting language design discussion about Python’s class syntax and how it could be made more regular and beginner friendly.
+Interesting language design discussion about Python's class syntax and how it could be made more regular and beginner friendly.
 
 
 
@@ -132,7 +132,7 @@ Looks more like a cobra to me, but whatever ;-)
 - [与 Python 持续集成](https://pycoders.com/link/1690/web)
     + REAL PYTHON video
 
-In this course, you’ll learn the core concepts behind Continuous Integration (CI) and why they are essential for modern software engineering teams. Find out how to how set up Continuous Integration for your Python project to automatically create environments, install dependencies, and run tests.
+In this course, you'll learn the core concepts behind Continuous Integration (CI) and why they are essential for modern software engineering teams. Find out how to how set up Continuous Integration for your Python project to automatically create environments, install dependencies, and run tests.
 
 (`是也乎:`
 
@@ -146,7 +146,7 @@ In this course, you’ll learn the core concepts behind Continuous Integration (
 - [Python 能力现在是所有这些银行职位的先决条件](https://pycoders.com/link/1693/web)
     + SARAH BUTCHER.COM
 
-“If you can’t code and you work in finance you risk being pushed out by those who can. Not today. Not tomorrow, but soon. Slowly, surely, the need for coding skills is percolating all banks’ operations.”
+"If you can't code and you work in finance you risk being pushed out by those who can. Not today. Not tomorrow, but soon. Slowly, surely, the need for coding skills is percolating all banks' operations."
 
 (`是也乎:`
 
@@ -201,7 +201,7 @@ Dokku 是个成功的开源私有云平台.
     + SHIBEL K. MANSOUR 
     + • Shared by Shibel K. Mansour
 
-A step-by-step guide on implementing “as-you-type” AJAX search in Django
+A step-by-step guide on implementing "as-you-type" AJAX search in Django
 
 
 
@@ -232,12 +232,12 @@ RHEL 8 includes a dual Python setup (Python 2 + Python 3) and what it means for 
 - [分析 Stack Overflow 调查](https://pycoders.com/link/1707/web)
     + MOSHE ZADKA
 
-Some hands-on data analysis of the raw results from Stack Overflow’s recent developer survey.
+Some hands-on data analysis of the raw results from Stack Overflow's recent developer survey.
 
 - [如何在 Python 中迭代字典](https://pycoders.com/link/1704/web)
     + REAL PYTHON
 
-Take a deep dive into how to iterate through a dictionary in Python. Dictionaries are a fundamental data structure, and you’ll be able to solve a wide variety of programming problems by iterating through them.
+Take a deep dive into how to iterate through a dictionary in Python. Dictionaries are a fundamental data structure, and you'll be able to solve a wide variety of programming problems by iterating through them.
 
 (`是也乎:`
 
@@ -252,7 +252,7 @@ Take a deep dive into how to iterate through a dictionary in Python. Dictionarie
 
 - [Avant-IDLE: An Experiment](https://pycoders.com/link/1715/web)
     + AROBERGE.BLOGSPOT.COM
-Some neat ideas on how Python’s built-in IDLE REPL and editing environment could be updated and made more beginner-friendly.
+Some neat ideas on how Python's built-in IDLE REPL and editing environment could be updated and made more beginner-friendly.
 
 
 - [Ring: 高级缓存接口 for Python](https://pycoders.com/link/1727/web)

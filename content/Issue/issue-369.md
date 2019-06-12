@@ -15,7 +15,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [和 Bokeh 用 Python 进行交互式数据可视化](https://pycoders.com/link/1648/web)
     + REAL PYTHON video
 
-This course will get you up and running with the Bokeh library, using examples and a real-world dataset. You’ll learn how to visualize your data, customize and organize your visualizations, and add interactivity.
+This course will get you up and running with the Bokeh library, using examples and a real-world dataset. You'll learn how to visualize your data, customize and organize your visualizations, and add interactivity.
 
 (`是也乎:`
 
@@ -29,13 +29,13 @@ This course will get you up and running with the Bokeh library, using examples a
 - [使用 Nvidia Jetson Nano 和 Python 以150美元的价格构建基于硬件的人脸识别系统](https://pycoders.com/link/1653/web)
     + ADAM GEITGEY
 
-“With the Nvidia Jetson Nano, you can build stand-alone hardware systems that run GPU-accelerated deep learning models on a tiny budget. It’s just like a Raspberry Pi, but a lot faster.”
+"With the Nvidia Jetson Nano, you can build stand-alone hardware systems that run GPU-accelerated deep learning models on a tiny budget. It's just like a Raspberry Pi, but a lot faster."
 
 
-- [接受PEP 581（使用CPython的GitHub问题）](https://pycoders.com/link/1663/web)
+- [接受PEP 581(使用CPython的GitHub问题)](https://pycoders.com/link/1663/web)
     + PYTHON.ORG
 
-CPython’s issue tracker will be migrated from Roundup to GitHub issues.
+CPython's issue tracker will be migrated from Roundup to GitHub issues.
 
 (`是也乎:`
 
@@ -47,7 +47,7 @@ CPython’s issue tracker will be migrated from Roundup to GitHub issues.
 - [虽然内建电池, 可丫们都漏汤了](https://pycoders.com/link/1655/web)
     + PYFOUND.BLOGSPOT.COM
 
-“Amber Brown of the Twisted project shared her criticisms of the Python standard library [at PyCon 2019]. This proved to be the day’s most controversial talk; Guido van Rossum stormed from the room during Q & A.” Related discussion on Hacker News
+"Amber Brown of the Twisted project shared her criticisms of the Python standard library [at PyCon 2019]. This proved to be the day's most controversial talk; Guido van Rossum stormed from the room during Q & A." Related discussion on Hacker News
 
 (`是也乎:`
 
@@ -78,7 +78,7 @@ Get a Python-centric introduction to character encodings and unicode. Handling c
 - [值得学习的 Python 内建函式](https://pycoders.com/link/1637/web)
     + TREY HUNNER
 
-“Which built-ins should you know about? I estimate most Python developers will only ever need about 30 built-in functions, but which 30 depends on what you’re actually doing with Python.”
+"Which built-ins should you know about? I estimate most Python developers will only ever need about 30 built-in functions, but which 30 depends on what you're actually doing with Python."
 
 - [PSF Q2 2019 筹款活动](https://pycoders.com/link/1644/web)
     + PYTHON.ORG
@@ -93,7 +93,7 @@ Support the Python Software Foundation by donating in the quarterly donation dri
 - [Black: 不妥协的Python代码格式化程序](https://pycoders.com/link/1629/web)
     + HACKER NEWS
 
-“I often dislike autoformatter output too, but then I remember that while no-one likes what the autoformatter does to their code, everyone likes what the autoformatter does to their coworkers’ code, and then I chill out about it. Having a standard is more important than the standard being excellent.”
+"I often dislike autoformatter output too, but then I remember that while no-one likes what the autoformatter does to their code, everyone likes what the autoformatter does to their coworkers' code, and then I chill out about it. Having a standard is more important than the standard being excellent."
 
 (`是也乎:`
 
@@ -111,7 +111,7 @@ gformt 的 Python 模仿.
 - [构建 Python 项目](https://pycoders.com/link/1647/web)
     + PYTHON-GUIDE.ORG
 
-“Which functions should go into which modules? How does data flow through the project? What features and functions can be grouped together and isolated? By answering questions like these you can begin to plan, in a broad sense, what your finished product will look like.”
+"Which functions should go into which modules? How does data flow through the project? What features and functions can be grouped together and isolated? By answering questions like these you can begin to plan, in a broad sense, what your finished product will look like."
 
 
 (`是也乎:`
@@ -157,7 +157,7 @@ Discover why Python developers love self-hosting their apps on DigitalOcean, the
 - [New Features Planned for Python 4.0 (段子)](https://pycoders.com/link/1651/web)
     + CHARLES LEIFER
 
-“All new libraries and standard lib modules must include the phrase “for humans” somewhere in their title.” “Type-hinting has been extended to provide even fewer tangible benefits. This new and “nerfed” type hinting will be called type whispering.”
+"All new libraries and standard lib modules must include the phrase "for humans" somewhere in their title." "Type-hinting has been extended to provide even fewer tangible benefits. This new and "nerfed" type hinting will be called type whispering."
 
 - [用以 Python 的 Wolfram 客户端库发布](https://pycoders.com/link/1628/web)
     + WOLFRAM.COM
@@ -174,12 +174,12 @@ Get full access to the Wolfram Language from Python.
 - [用 Pandas UDF 的可扩展 Python 代码](https://pycoders.com/link/1636/web)
     + BEN WEBER
 
-“Pandas UDFs are a feature that enable Python code to run in a distributed environment, even if the library was developed for single node execution.”
+"Pandas UDFs are a feature that enable Python code to run in a distributed environment, even if the library was developed for single node execution."
 
 - [在 Python 中存储和访问大量图像的三种方法](https://pycoders.com/link/1642/web)
     + REAL PYTHON
 
-In this tutorial, you’ll cover three ways of storing and accessing lots of images in Python. You’ll also see experimental evidence for the performance benefits and drawbacks of each one.
+In this tutorial, you'll cover three ways of storing and accessing lots of images in Python. You'll also see experimental evidence for the performance benefits and drawbacks of each one.
 
 (`是也乎:`
 
@@ -217,7 +217,7 @@ This article covers preventing slowness due to worker heartbeats, configuring th
 - [Stackless Python](https://pycoders.com/link/1669/web)
     + WIKIPEDIA.ORG
 
-“Stackless Python, or Stackless, is a Python programming language interpreter, so named because it avoids depending on the C call stack for its own stack. […] The most prominent feature of Stackless is microthreads, which avoid much of the overhead associated with usual operating system threads.”
+"Stackless Python, or Stackless, is a Python programming language interpreter, so named because it avoids depending on the C call stack for its own stack. [... ] The most prominent feature of Stackless is microthreads, which avoid much of the overhead associated with usual operating system threads."
 
 
 (`是也乎:`

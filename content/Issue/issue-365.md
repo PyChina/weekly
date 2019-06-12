@@ -36,7 +36,7 @@ Step-by-Step Python learning paths and study plans for beginner, intermediate, a
 - [在您组织内打包 Python 嗯哼](https://pycoders.com/link/1478/web)   
     + STEFAN SCHERFKE
 
-What do you do when your organization uses Python for in-house development and you can’t (or don’t want to) make everything Open Source? Where do you store and manage your code? How do you distribute your packages? Stefan lays out his approach in this detailed article.
+What do you do when your organization uses Python for in-house development and you can't (or don't want to) make everything Open Source? Where do you store and manage your code? How do you distribute your packages? Stefan lays out his approach in this detailed article.
 
 (`是也乎:`
 
@@ -98,7 +98,7 @@ Vettery specializes in developer roles and is completely free for job seekers. I
 - [Flask vs Django: 选择你的 Python Web 框架](https://pycoders.com/link/1483/web)
     + DAMIAN HITES
 
-What are the main differences between Django and Flask? What are their respective strengths and weaknesses? Read Damian’s article to find out.
+What are the main differences between Django and Flask? What are their respective strengths and weaknesses? Read Damian's article to find out.
 
 (`是也乎:`
 
@@ -166,7 +166,7 @@ pipenv 在其下管理依赖模块以及运行时环境的切换;
 - [适合面试的纹身](https://pycoders.com/link/1462/web)
     + REDDIT
 
-Now that’s some dedication!
+Now that's some dedication!
 
 
 
@@ -178,7 +178,7 @@ Now that’s some dedication!
 - [如何在 Python 中嗯哼 PDF](https://pycoders.com/link/1473/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn how to work with PDF files in Python. You’ll see how to extract metadata from preexisting PDFs . You’ll also learn how to merge, split, watermark, and rotate pages in PDFs using Python and PyPDF2.
+In this step-by-step tutorial, you'll learn how to work with PDF files in Python. You'll see how to extract metadata from preexisting PDFs . You'll also learn how to merge, split, watermark, and rotate pages in PDFs using Python and PyPDF2.
 
 - [Python 开发者10个最常见错误](https://pycoders.com/link/1485/web)
     + MARTIN CHIKILIAN
@@ -188,7 +188,7 @@ A list of harmful patterns & pitfalls you can avoid in your own Python code. Thi
 - [用 Python 发送电子邮件](https://pycoders.com/link/1492/web)
     + REAL PYTHON video
 
-In this course, you’ll learn how to send emails using Python. Find out how to send plain-text and HTML messages, add files as attachments, and send personalized emails to multiple people. Later on you’ll build a CSV-powered email sending script from scratch.
+In this course, you'll learn how to send emails using Python. Find out how to send plain-text and HTML messages, add files as attachments, and send personalized emails to multiple people. Later on you'll build a CSV-powered email sending script from scratch.
 
 (`是也乎:`
 
@@ -202,21 +202,21 @@ In this course, you’ll learn how to send emails using Python. Find out how to 
 - [Google Coral TPU USB加速器入门](https://pycoders.com/link/1484/web)
     + ADRIAN ROSEBROCK
 
-Learn how to get started with your Google Coral TPU Accelerator on Raspberry Pi and Ubuntu. You’ll then learn how to perform classification and object detection using Google Coral’s USB Accelerator.
+Learn how to get started with your Google Coral TPU Accelerator on Raspberry Pi and Ubuntu. You'll then learn how to perform classification and object detection using Google Coral's USB Accelerator.
 
-- [公司在 2019 年期望从 Python Devs 中得到什么？](https://pycoders.com/link/1496/web)
+- [公司在 2019 年期望从 Python Devs 中得到什么?](https://pycoders.com/link/1496/web)
     + ANDREW STETSENKO 
     + • Shared by Andrew Stetsenko
 
-“We took 300 job specs for Python developers, scraped from StackOverflow, AngelList, LinkedIn, and the websites of some fast-growing tech companies worldwide. From all these descriptions, we extracted the skills which were mentioned most frequently”
+"We took 300 job specs for Python developers, scraped from StackOverflow, AngelList, LinkedIn, and the websites of some fast-growing tech companies worldwide. From all these descriptions, we extracted the skills which were mentioned most frequently"
 
 - [Raspberry Pi 用于计算机视觉和深度学习](https://pycoders.com/link/1501/web)
     + PYIMAGESEARCH 
     + sponsor
 
-You can teach your Raspberry Pi to “see” using Computer Vision, Deep Learning, and OpenCV. Let Adrian Rosebrock show you how →
+You can teach your Raspberry Pi to "see" using Computer Vision, Deep Learning, and OpenCV. Let Adrian Rosebrock show you how →
 
-- [Python，R 和 Scala 顶级数据科学库的比较](https://pycoders.com/link/1494/web)
+- [Python,R 和 Scala 顶级数据科学库的比较](https://pycoders.com/link/1494/web)
     + CORIERS.COM
 
 This is an infographic comparing commit frequency and other metrics for the most popular data science libraries in Python, R, and Scala.
@@ -232,7 +232,7 @@ This is an infographic comparing commit frequency and other metrics for the most
 - [时间模块指南](https://pycoders.com/link/1490/web)
     + REAL PYTHON
 
-Learn how to use Python’s time module to represent dates and times in your application, manage code execution, and measure performance.
+Learn how to use Python's time module to represent dates and times in your application, manage code execution, and measure performance.
 
 - [Python 中创建热图](https://pycoders.com/link/1479/web)
     + GEODOSE.COM

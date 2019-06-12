@@ -15,7 +15,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [Python 中的指针: 有什么意义? ](https://pycoders.com/link/1758/web)
     + REAL PYTHON
 
-Get a clearer understanding of Python’s object model and learn why pointers don’t really exist in Python. You’ll also cover ways to simulate pointers in Python without the memory-management nightmare.
+Get a clearer understanding of Python's object model and learn why pointers don't really exist in Python. You'll also cover ways to simulate pointers in Python without the memory-management nightmare.
 
 
 (`是也乎:`
@@ -29,7 +29,7 @@ Get a clearer understanding of Python’s object model and learn why pointers do
 - [Python 和并发: CSP 和协同程序](https://pycoders.com/link/1772/web)
     + YING WANG
 
-Nice overview of “communicating sequential processes” (CSP), a concurrency model similar to the notion of actor models, and how it can be implemented in Python.
+Nice overview of "communicating sequential processes" (CSP), a concurrency model similar to the notion of actor models, and how it can be implemented in Python.
 
 (`是也乎:`
 
@@ -42,7 +42,7 @@ Nice overview of “communicating sequential processes” (CSP), a concurrency m
 
 )
 
-- [CNNs，第2部分：训练卷积神经网络](https://pycoders.com/link/1769/web)
+- [CNNs,第2部分:训练卷积神经网络](https://pycoders.com/link/1769/web)
     + VICTOR ZHOU
 
 A nice walkthrough of deriving backpropagation for CNNs and implementing it from scratch in Python.
@@ -62,7 +62,7 @@ The lead maintainer of the Slack Python SDK gives a retrospective about refactor
 - [Python 的 Caduceus 综合症](https://pycoders.com/link/1740/web)
     + VICKI BOYKIS
 
-“Which of the two should the ecosystem tackle as a priority? Should they clean up all backwards compatibility first? (that would be PEP 594, ‘removing dead batteries from the standard library’) Should they focus on moving everyone over to the new features?”
+"Which of the two should the ecosystem tackle as a priority? Should they clean up all backwards compatibility first? (that would be PEP 594, 'removing dead batteries from the standard library') Should they focus on moving everyone over to the new features?"
 
 (`是也乎:`
 
@@ -85,7 +85,7 @@ Protect your PyPI login with two-factor authentication using Time-based One-time
 )
 
 
-- [Language Summit 闪电演讲（摘要）](https://pycoders.com/link/1757/web)
+- [Language Summit 闪电演讲(摘要)](https://pycoders.com/link/1757/web)
     + A. JESSE JIRYU DAVIS 
     + • Shared by Ricky White
 
@@ -112,7 +112,7 @@ Support the Python Software Foundation by donating in the quarterly donation dri
 - [Python 3.8 性能新闻](https://pycoders.com/link/1735/web)
     + RAYMOND HETTINGER
 
-“Today, code was checked in that substantially sped-up global lookups and builtin lookups. They are still slower than accessing locals and non-locals but only modestly so.”
+"Today, code was checked in that substantially sped-up global lookups and builtin lookups. They are still slower than accessing locals and non-locals but only modestly so."
 
 - [是否有人在生产中使用PyPy? ](https://pycoders.com/link/1755/web)
     + REDDIT
@@ -132,16 +132,16 @@ Support the Python Software Foundation by donating in the quarterly donation dri
     + ANDY G 
     + • Shared by Python Bytes
 
-“We usually think of an algorithm as a single function with inputs and outputs. […] This is fine until one actually attempts to implement it as a single function; all the little details add up until you’re left with a gigantic, monolithic function.”
+"We usually think of an algorithm as a single function with inputs and outputs. [... ] This is fine until one actually attempts to implement it as a single function; all the little details add up until you're left with a gigantic, monolithic function."
 
 - [用 Python 嗯哼 HTTP 请求](https://pycoders.com/link/1749/web)
     + REAL PYTHON video
 
-The “requests” library is the de facto standard for making HTTP requests in Python. It abstracts the complexities of making requests behind a beautiful, simple API so that you can focus on interacting with services and consuming data in your application. This course shows you how to work effectively with “requests”, from start to finish.
+The "requests" library is the de facto standard for making HTTP requests in Python. It abstracts the complexities of making requests behind a beautiful, simple API so that you can focus on interacting with services and consuming data in your application. This course shows you how to work effectively with "requests", from start to finish.
 
 (`是也乎:`
 
-![“requests”](https://ipic.zoomquiet.top/2019-06-05-ScreenShot%202019-06-05%2010.05.14.jpg)
+!["requests"](https://ipic.zoomquiet.top/2019-06-05-ScreenShot%202019-06-05%2010.05.14.jpg)
 
 没毛病的模块, 问题是可能永远进入不了内建模块...
 
@@ -152,7 +152,7 @@ The “requests” library is the de facto standard for making HTTP requests in 
 - [OOP 在 Python 和 Java](https://pycoders.com/link/1732/web)
     + REAL PYTHON
 
-Learn about the practical differences in Python vs Java for object-oriented programming. By the end, you’ll be able to apply your knowledge to Python, understand how to reinterpret your understanding of Java objects to Python, and use objects in a Pythonic way.
+Learn about the practical differences in Python vs Java for object-oriented programming. By the end, you'll be able to apply your knowledge to Python, understand how to reinterpret your understanding of Java objects to Python, and use objects in a Pythonic way.
 
 (`是也乎:`
 
@@ -163,13 +163,13 @@ Learn about the practical differences in Python vs Java for object-oriented prog
 
 
 
-- [准确性：从分类到聚类评估](https://pycoders.com/link/1776/web)
+- [准确性:从分类到聚类评估](https://pycoders.com/link/1776/web)
     + STANISLAS MORBIEU 
     + • Shared by Stanislas Morbieu
 
 Accuracy is often used to measure the quality of a classification. It is also used for clustering. However, the scikit-learn accuracy_score function only provides a lower bound of accuracy for clustering. This blog post explains how accuracy should be computed for clustering.
 
-- [Python函数解包（* args和** kwargs）](https://pycoders.com/link/1767/web)
+- [Python函数解包(* args和** kwargs)](https://pycoders.com/link/1767/web)
     + CARLOS BALDERAS 
     + • Shared by Carlos Balderas
 
@@ -178,7 +178,7 @@ Accuracy is often used to measure the quality of a classification. It is also us
 - [为业务安利 Python](https://pycoders.com/link/1751/web)
     + CHRIS MOFFITT
 
-“Five to 10 years ago, it might have been quite an uphill battle to try to bring Python into your organization to solve your business problems. With the rise of Python’s popularity in the Data Science world, you will have a much smaller hill to climb.”
+"Five to 10 years ago, it might have been quite an uphill battle to try to bring Python into your organization to solve your business problems. With the rise of Python's popularity in the Data Science world, you will have a much smaller hill to climb."
 
 (`是也乎:`
 
@@ -207,7 +207,7 @@ How using schema-based data validation tools can help you write more robust web 
 
 )
 
-- [Python’s Datatable Package 概述](https://pycoders.com/link/1762/web)
+- [Python's Datatable Package 概述](https://pycoders.com/link/1762/web)
     + PARUL PANDEY
 
 Datatable is a Python library for efficient multi-threaded data processing, with the support for out-of-memory datasets.
@@ -221,7 +221,7 @@ Datatable is a Python library for efficient multi-threaded data processing, with
 - [面向 Python  开发人员的Git和GitHub简介s](https://pycoders.com/link/1733/web)
     + REAL PYTHON video
 
-What is Git, what is GitHub, and what’s the difference? Learn the basics of Git and GitHub from the perspective of a Pythonista in this step-by-step course.
+What is Git, what is GitHub, and what's the difference? Learn the basics of Git and GitHub from the perspective of a Pythonista in this step-by-step course.
 
 (`是也乎:`
 

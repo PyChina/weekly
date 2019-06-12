@@ -28,7 +28,7 @@ Learn how to speed up your Python 3 programs using concurrency and the asyncio m
 - [Python 用于拍摄黑洞照片](https://pycoders.com/link/1436/web)
     + MIKE DRISCOLL
 
-“Scientists have used a new algorithm to take a photo of a black hole. One of the most exciting parts about it to me is that they used a lot of Python libraries to do the magic.”
+"Scientists have used a new algorithm to take a photo of a black hole. One of the most exciting parts about it to me is that they used a lot of Python libraries to do the magic."
 
 
 (`是也乎:`
@@ -46,7 +46,7 @@ Solid advice! Keep your Django templates and views clean by moving application l
 - [如何不停机在 Django 中重建索引](https://pycoders.com/link/1424/web)
     + REAL PYTHON
 
-In this step-by-step Python tutorial, you’ll get a solid understanding of the limitations of Django migrations by tackling a well known problem: creating an index in Django without downtime.
+In this step-by-step Python tutorial, you'll get a solid understanding of the limitations of Django migrations by tackling a well known problem: creating an index in Django without downtime.
 
 (`是也乎:`
 
@@ -58,7 +58,7 @@ In this step-by-step Python tutorial, you’ll get a solid understanding of the 
 - [在 PyCharm的 PyCon Booth 上与 Python 内容创建者们见面](https://pycoders.com/link/1423/web)
     + JETBRAINS.COM
 
-I’ll be there, the Real Python team will be there, and so will Mike Kennedy from Talk Python, Brian Okken from Test & Code, Matt Harrison, the PyBites team, Chris Medina, and Miguel Grinberg. Be sure to stop by and say hi :) Thanks JetBrains!
+I'll be there, the Real Python team will be there, and so will Mike Kennedy from Talk Python, Brian Okken from Test & Code, Matt Harrison, the PyBites team, Chris Medina, and Miguel Grinberg. Be sure to stop by and say hi :) Thanks JetBrains!
 
 
 
@@ -66,12 +66,12 @@ I’ll be there, the Real Python team will be there, and so will Mike Kennedy fr
 - [list.sort() 嗯哼 sorted(list)](https://pycoders.com/link/1443/web)
     + FLORIAN DAHLITZ
 
-Taking a closer look at Python’s built-in list sorting methods with regards to memory consumption and time efficiency. Nice writeup!
+Taking a closer look at Python's built-in list sorting methods with regards to memory consumption and time efficiency. Nice writeup!
 
 - [PyCon 2019 接近售磬](https://pycoders.com/link/1425/web)
     + PYCON.BLOGSPOT.COM
 
-Get your ticket before it’s too late :)
+Get your ticket before it's too late :)
 
 
 
@@ -99,7 +99,7 @@ Get your ticket before it’s too late :)
 - [Python 字串格式提示和最佳实践](https://pycoders.com/link/1438/web)
     + REAL PYTHON video
 
-Learn the four main approaches to string formatting in Python, as well as their strengths and weaknesses. You’ll also get a simple rule of thumb for how to pick the best general purpose string formatting approach in your own programs.
+Learn the four main approaches to string formatting in Python, as well as their strengths and weaknesses. You'll also get a simple rule of thumb for how to pick the best general purpose string formatting approach in your own programs.
 
 
 (`是也乎:`
@@ -135,7 +135,7 @@ How to create a simple, internal CA for your microservice architecture or integr
 - [线性回归在 Python](https://pycoders.com/link/1448/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll get started with linear regression in Python. Linear regression is one of the fundamental statistical and machine learning techniques, and Python is a popular choice for machine learning.
+In this step-by-step tutorial, you'll get started with linear regression in Python. Linear regression is one of the fundamental statistical and machine learning techniques, and Python is a popular choice for machine learning.
 
 (`是也乎:`
 
@@ -149,7 +149,7 @@ In this step-by-step tutorial, you’ll get started with linear regression in Py
 - [用于人类活动识别的 LSTM](https://pycoders.com/link/1426/web)
     + GUILLAUME CHEVALIER
 
-An example of using TensorFlow for Human Activity Recognition (HAR) on a smartphone data set in order to classify types of movement, e.g. “walking”, “sitting”, “standing” etc.
+An example of using TensorFlow for Human Activity Recognition (HAR) on a smartphone data set in order to classify types of movement, e.g. "walking", "sitting", "standing" etc.
 
 (`是也乎:`
 
@@ -162,12 +162,12 @@ An example of using TensorFlow for Human Activity Recognition (HAR) on a smartph
     + PYIMAGESEARCH 
     + sponsor
 
-You can teach your Raspberry Pi to “see” using Computer Vision, Deep Learning, and OpenCV. Let Adrian Rosebrock show you how →
+You can teach your Raspberry Pi to "see" using Computer Vision, Deep Learning, and OpenCV. Let Adrian Rosebrock show you how →
 
-- [如何编写Python Web框架（第4部分）](https://pycoders.com/link/1447/web)
+- [如何编写Python Web框架(第4部分)](https://pycoders.com/link/1447/web)
     + JAHONGIR RAHMONOV
 
-In this part of Jahongir’s blog post series you’ll see how to expand your web framework with custom exception handlers, support for static files, and middleware processing.
+In this part of Jahongir's blog post series you'll see how to expand your web framework with custom exception handlers, support for static files, and middleware processing.
 
 - [用Python分析 权戏 中的博弈](https://pycoders.com/link/1449/web)
     + ROCKY KEV 
@@ -308,25 +308,25 @@ WebAssembly ~ 叕一个抛弃 JS 的方向, Py 当然跟上了
 
 - BitUniverse - 科技赋能交易
 
-国内官网：https://www.biyou.tech
+国内官网:https://www.biyou.tech
 
-海外官网：https://www.bituniverse.org
+海外官网:https://www.bituniverse.org
 
-> 工作内容：
+> 工作内容:
 
-将数字货币量化策略在服务端进行规模化，向广大用户提供服务
+将数字货币量化策略在服务端进行规模化,向广大用户提供服务
 
-> 技能要求：
+> 技能要求:
 
     熟练掌握Python语言
-    熟悉分布式系统的设计和应用，熟悉分布式、缓存、消息等机制；
+    熟悉分布式系统的设计和应用,熟悉分布式,缓存,消息等机制;
         能对分布式常用技术进行合理应用;
-    熟练使用MySQL，Redis；
+    熟练使用MySQL,Redis;
     了解GRPC通讯框架更佳;
-    具备良好的计算机基础知识，熟悉常用的数据结构和算法；
-    本科学历或更高，计算机、数学、通信等相关理工科专业毕业；
+    具备良好的计算机基础知识,熟悉常用的数据结构和算法;
+    本科学历或更高,计算机,数学,通信等相关理工科专业毕业;
 
-有兴趣发简历到：luopeng (AT) bituniverse.org
+有兴趣发简历到:luopeng (AT) bituniverse.org
 
 (`是也乎:`
 

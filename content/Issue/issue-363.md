@@ -27,7 +27,7 @@ This PEP introduces a new syntax, /, for specifying positional-only parameters i
 - [惯用式 Pandas: 你可能不知道的技巧和特征](https://pycoders.com/link/1408/web)
     + REAL PYTHON video
 
-In this series you’ll see how to use some lesser-used but idiomatic Pandas capabilities that lend your code better readability, versatility, and speed.
+In this series you'll see how to use some lesser-used but idiomatic Pandas capabilities that lend your code better readability, versatility, and speed.
 
 (`是也乎:`
 
@@ -86,7 +86,7 @@ AvantPy provides friendlier Python tracebacks, translated into various languages
 - [佛罗里达自然保护区捕获到巨大 Python ](https://pycoders.com/link/1392/web)
     + CNN.COM
 
-17 feet and 140 pounds! Have we hit Peak Python? I don’t think so…
+17 feet and 140 pounds! Have we hit Peak Python? I don't think so... 
 
 (`是也乎:`
 
@@ -115,12 +115,12 @@ AvantPy provides friendlier Python tracebacks, translated into various languages
     + REAL PYTHON
 
 
-In this beginner-friendly tutorial, you’ll learn how to use pip, the standard package manager for Python, so that you can install and manage additional packages that are not part of the Python standard library.
+In this beginner-friendly tutorial, you'll learn how to use pip, the standard package manager for Python, so that you can install and manage additional packages that are not part of the Python standard library.
 
 - [如何将额外数据保存到 Django REST Framework Serializer](https://pycoders.com/link/1413/web)
     + VITOR FREITAS
 
-Short & sweet article where you’ll learn a handy pattern for passing extra data to your DRF serializers before saving them to the database.
+Short & sweet article where you'll learn a handy pattern for passing extra data to your DRF serializers before saving them to the database.
 
 
 - [新手的 Python 模块管理](https://pycoders.com/link/1409/web)
@@ -179,7 +179,7 @@ Dask is a library that scales Python computation to multiple cores or multiple m
     + REAL PYTHON 
     + video
 
-Learn how to set up Visual Studio Code for Python development. By following examples, you’ll cover everything from installing and configuring VSCode, to running tests and debugging Python apps.
+Learn how to set up Visual Studio Code for Python development. By following examples, you'll cover everything from installing and configuring VSCode, to running tests and debugging Python apps.
 
 
 

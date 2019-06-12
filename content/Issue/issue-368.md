@@ -20,7 +20,7 @@ Among the new major new features and changes so far: Assignment expressions (PEP
 - [用 Python 播放和录制声音](https://pycoders.com/link/1593/web)
     + REAL PYTHON
 
-In this tutorial, you’ll learn about libraries that can be used for playing and recording sound in Python, such as PyAudio and python-sounddevice. You’ll also see code snippets for playing and recording sound files and arrays, as well as for converting between different sound file formats.
+In this tutorial, you'll learn about libraries that can be used for playing and recording sound in Python, such as PyAudio and python-sounddevice. You'll also see code snippets for playing and recording sound files and arrays, as well as for converting between different sound file formats.
 
 (`是也乎:`
 
@@ -38,7 +38,7 @@ In this tutorial, you’ll learn about libraries that can be used for playing an
 - [Dropbox 客户端如何用 Python](https://pycoders.com/link/1615/web)
     + ANVILVENTURES.COM
 
-“This blog post talks about reverse engineering the Dropbox client, breaking its obfuscation mechanisms, de-compiling it to Python code as well as modifying the client in order to use debug features which are normally hidden from view.”
+"This blog post talks about reverse engineering the Dropbox client, breaking its obfuscation mechanisms, de-compiling it to Python code as well as modifying the client in order to use debug features which are normally hidden from view."
 
 
 (`是也乎:`
@@ -97,7 +97,7 @@ Another discussion of subinterpreters (PEP 554) and how they will allow true in-
 
 It was auctioned off at PyCon 2019.
 
-- [“Controversial Random Thought on OOP in Python”](https://pycoders.com/link/1616/web)
+- ["Controversial Random Thought on OOP in Python"](https://pycoders.com/link/1616/web)
     + RAYMOND HETTINGER
 
 Inheritance vs Composition
@@ -132,7 +132,7 @@ Which Docker image should you use for your Python app? There are many choices, a
 - [用 PyLint 编写更干净的 Python 代码](https://pycoders.com/link/1622/web)
     + REAL PYTHON video
 
-In this video series you’ll see how to install and set up the PyLint code linter tool. You’ll learn why you should use code linters like PyLint, Flake8, PyFlakes, or other static analysis tools—and how they can help you write cleaner and more Pythonic code.
+In this video series you'll see how to install and set up the PyLint code linter tool. You'll learn why you should use code linters like PyLint, Flake8, PyFlakes, or other static analysis tools—and how they can help you write cleaner and more Pythonic code.
 
 (`是也乎:`
 
@@ -147,7 +147,7 @@ In this video series you’ll see how to install and set up the PyLint code lint
 - [用 Python 查找最便宜的多程旅行航班](https://pycoders.com/link/1590/web)
     + NVBN.GITHUB.IO
 
-“I was able to find the cheapest flights with the minimal duration and the resulting prices were almost the same as on Google Flights.”
+"I was able to find the cheapest flights with the minimal duration and the resulting prices were almost the same as on Google Flights."
 
 - [Python 3.8 中的 F字符串调试](https://pycoders.com/link/1621/web)
     + TIRKARTHI.GITHUB.IO
@@ -189,7 +189,7 @@ How to add basic search functionality to any Django website.
 ## 好物
 > Interesting Projects, Tools and Libraries
 
-- [Pint: 定义，操作和操纵物理量](https://pycoders.com/link/1591/web)
+- [Pint: 定义,操作和操纵物理量](https://pycoders.com/link/1591/web)
     + PINT.READTHEDOCS.IO
 
 (`是也乎:`
@@ -201,7 +201,7 @@ How to add basic search functionality to any Django website.
 
 
 
-- [plotnine: Python 图形语法，基于ggplot2](https://pycoders.com/link/1613/web)
+- [plotnine: Python 图形语法,基于ggplot2](https://pycoders.com/link/1613/web)
     + GITHUB.COM/HAS2K1
 
 - [machine-learning-course: 用 Python 进行 Machine Learning 课程](https://pycoders.com/link/1611/web)
@@ -231,7 +231,7 @@ How to add basic search functionality to any Django website.
 )
 
 
-- [open-spelling-bee: Terminal-Based Python Clone of New York Times’ Puzzle Game “Spelling Bee”](https://pycoders.com/link/1601/web)
+- [open-spelling-bee: Terminal-Based Python Clone of New York Times' Puzzle Game "Spelling Bee"](https://pycoders.com/link/1601/web)
     + GITHUB.COM/PHILSHEM
 
 (`是也乎:`

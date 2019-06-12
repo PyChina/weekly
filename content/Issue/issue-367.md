@@ -15,7 +15,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [这是 PyCon 2019](https://pycoders.com/link/1588/web)
     + TWITTER.COM
 
-PyCon 2019 in Cleveland was an amazing experience! A big Thank You to all of the organizers and volunteers who made it happen! At the link above you’ll find a list of tweets from the conference to give you a sense of what it was like there. Also check out the talk recordings on YouTube.
+PyCon 2019 in Cleveland was an amazing experience! A big Thank You to all of the organizers and volunteers who made it happen! At the link above you'll find a list of tweets from the conference to give you a sense of what it was like there. Also check out the talk recordings on YouTube.
 
 (`是也乎:`
 
@@ -30,7 +30,7 @@ PyCon 2019 in Cleveland was an amazing experience! A big Thank You to all of the
     + TFIR.IO 
     + • Shared by revyuh.com video
 
-“I did not enjoy at all when the central developers were sending me hints on Twitter questioning my authority and the wisdom of my decisions, instead of telling me in my face and having an honest debate about things.”
+"I did not enjoy at all when the central developers were sending me hints on Twitter questioning my authority and the wisdom of my decisions, instead of telling me in my face and having an honest debate about things."
 
 (`是也乎:`
 
@@ -46,10 +46,10 @@ PyCon 2019 in Cleveland was an amazing experience! A big Thank You to all of the
 
 
 
-- [反思科学计算：调试，性能和信任](https://pycoders.com/link/1563/web)
+- [反思科学计算:调试,性能和信任](https://pycoders.com/link/1563/web)
     + ITAMAR TURNER-TRAURING
 
-“You’ve run your batch process with your scientific model, and after hours and hours it spit out a result. And the result is wrong.” Itamar’s article has some valuable tips on how to debug this type of situation in your own Python programs.
+"You've run your batch process with your scientific model, and after hours and hours it spit out a result. And the result is wrong." Itamar's article has some valuable tips on how to debug this type of situation in your own Python programs.
 
 (`是也乎:`
 
@@ -93,7 +93,7 @@ Challenges in making a package index turn a profit and what happened in the Java
     + GABRIELE TORNETTA 
     + • Shared by Gabriele Tornetta
 
-This post discusses some of the current profiling tools and techniques for Python apps: “The official documentation has a whole section on the subject, but we shall go beyond that and have a look at some alternative solutions, especially in the area of sampling profilers.” Nice read!
+This post discusses some of the current profiling tools and techniques for Python apps: "The official documentation has a whole section on the subject, but we shall go beyond that and have a look at some alternative solutions, especially in the area of sampling profilers." Nice read!
 
 
 (`是也乎:`
@@ -140,10 +140,10 @@ NIL
 
 
 
-- [在 Python 中定义 “Main” 函式](https://pycoders.com/link/1585/web)
+- [在 Python 中定义 "Main" 函式](https://pycoders.com/link/1585/web)
     + REAL PYTHON
 
-Learn how to use the “main function” pattern in Python, as well as some best practices to organize your code so it can be executed as a script and imported from another module.
+Learn how to use the "main function" pattern in Python, as well as some best practices to organize your code so it can be executed as a script and imported from another module.
 
 (`是也乎:`
 
@@ -175,7 +175,7 @@ A new & fun Python podcast hosted by two middle school teachers learning and tea
     + SHAJIA ABIDI 
     + • Shared by Shajia Abidi
 
-“In this tutorial, we’ll be learning and creating RESTful APIs with Flask. To follow along with this tutorial, you should already have a good grasp of Python, Flask, and SQLAlchemy.”
+"In this tutorial, we'll be learning and creating RESTful APIs with Flask. To follow along with this tutorial, you should already have a good grasp of Python, Flask, and SQLAlchemy."
 
 - [Visual Studio Code 中远程 Python 开发](https://pycoders.com/link/1573/web)
     + DAN TAYLOR
@@ -209,12 +209,12 @@ An intro to the benefits of distributed systems and how to move to distributed s
     + O'REILLY
     + `sponsor`
 
-Join the O’Reilly Open Source Software Conference (OSCON) this July to see what’s shaping software development—from AI and cloud technology to distributed computing—and learn how to put it to work for you. Save 25% with code PYCODER.
+Join the O'Reilly Open Source Software Conference (OSCON) this July to see what's shaping software development—from AI and cloud technology to distributed computing—and learn how to put it to work for you. Save 25% with code PYCODER.
 
 - [重塑轮子: 用 PyTorch 发现最佳滚动形状](https://pycoders.com/link/1581/web)
     + BEN WIENER
 
-“How could ancient Sumerian wheel builders have calculated the ideal shape without modern computers and software? We may never know. Luckily, with today’s technology, it is relatively easy to rediscover the wheel’s optimal shape.” ;-)
+"How could ancient Sumerian wheel builders have calculated the ideal shape without modern computers and software? We may never know. Luckily, with today's technology, it is relatively easy to rediscover the wheel's optimal shape." ;-)
 
 (`是也乎:`
 
@@ -226,7 +226,7 @@ PyTorch 想追上 TF 首先, 得能进入 mobile 系统
 - [Python 上下文管理器和 with 语句](https://pycoders.com/link/1587/web)
     + REAL PYTHON video
 
-Learn how context managers and the “with” statement work in Python, including the difference between class-based and function-based context managers.
+Learn how context managers and the "with" statement work in Python, including the difference between class-based and function-based context managers.
 
 - [格式化 Python 你当然喜欢黑色](https://pycoders.com/link/1561/web)
     + MOSHE ZADKA
@@ -250,7 +250,7 @@ Quick overview of the Black code formatter, one of my favorite developer product
 - [zfsp: ZFS Implemented in Python, From Scratch](https://pycoders.com/link/1554/web)
     + GITHUB.COM/ALCARITHEMAD
 
-This is incredible, a clean-room reimplementation of the ZFS filesystem in Python, without reading the original C source code. Quote: “It seemed like it might be a fun project.”
+This is incredible, a clean-room reimplementation of the ZFS filesystem in Python, without reading the original C source code. Quote: "It seemed like it might be a fun project."
 
 (`是也乎:`
 
@@ -385,7 +385,7 @@ CoLT 也有一半功能失常, 今天又根据分享, 用 FormatLink 完成替�
 
 )
 
-- [突发】Trio 作者质疑 Requests 作者 Kenneth Reitz 存在不当行为](https://mp.weixin.qq.com/s/5BWZYUvc5HXnvaqiawKBVA)
+- [突发]Trio 作者质疑 Requests 作者 Kenneth Reitz 存在不当行为](https://mp.weixin.qq.com/s/5BWZYUvc5HXnvaqiawKBVA)
     + 翻译ing...
     + 授权申请ing...
 - [蟒营 Python 入门班](https://py.101.camp/)
