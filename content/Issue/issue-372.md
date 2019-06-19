@@ -160,6 +160,20 @@ OOP 在编程实践中的确非常象用来陈列的精致画框...
 
 Why so many drawings in the margins depict bunnies going bad... 
 
+(`是也乎:`
+
+![Killer Rabbits](http://cdn8.openculture.com/2019/03/28210146/BadRabbits1.jpg)
+
+等等,这和 Python 有什么关系?
+
+> ...一个历史问题仍然没有答案：他们在多大程度上影响了现代电影喜剧，Monty Python和圣杯的创作？
+
+
+`ರ_ರ`...看来 蟒周刊 创作团队是放爬虫来收集文章的...
+
+
+)
+
 
 - [Windows 10 2010年5月将追加 Python ?](https://pycoders.com/link/1790/web)
     + STEVE DOWER (MICROSOFT)
