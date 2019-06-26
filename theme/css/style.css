@@ -1,11 +1,13 @@
 /* PyChina.org design by Zoom.Quiet
+- 190626 upgrade fixed div#article-content
 */
 div#article-content ul li ul li {
     color: yellowgreen;
     font-size: 70%;
     position: relative;
     float: right;
-    top: -3em;
+    top: -2em;
+    padding-right: 3em;
 }
 
 /* PyChina.org design by Zoom.Quiet

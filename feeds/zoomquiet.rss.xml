@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 19 Jun 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 373</title><link>http://weekly.pychina.org/issue/issue-373.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/373"&gt;PyCoder's Weekly - Issue #373&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 26 Jun 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 374</title><link>http://weekly.pychina.org/issue/issue-374.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/374"&gt;PyCoder's Weekly - Issue #374&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/1895/web"&gt;如何用 Python Lambda 函数&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this step-by-step tutorial, you’ll learn about Python lambda functions. You’ll see how they compare with regular functions and how you can use them in accordance with best practices.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lambda" src="https://ipic.zoomquiet.top/2019-06-26-ScreenShot%202019-06-26%2011.17.41.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;简单说, 用在应该用的地方就好&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/1903/web"&gt;如何在 Python 中轻松嗯哼进度条&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;CODINGDOSE.INFO …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 26 Jun 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-06-26:/issue/issue-374.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 373</title><link>http://weekly.pychina.org/issue/issue-373.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/373"&gt;PyCoder's Weekly - Issue #373&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
