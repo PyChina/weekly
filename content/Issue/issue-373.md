@@ -308,10 +308,26 @@ Linux 一直没放弃游戏平台
 ## DAMA
 > ❤️ Happy Pythonic ;-(`大妈私人无责任播报`)
 
+
+- 七牛云年中大促
+    + sponsor
+
+【七牛云服务】没赶上618？七牛云年中大促，狂欢到月底！存储秒杀低至0.001元/G，云主机0元抢，另有多款产品5折起，每日限量购，手慢无！https://dwz.cn/HfTSeUHE
+
+(`是也乎:`
+
+7牛 应该是亚洲最大单体 golang 服务了, 
+从创始之初就一直给 CPyUG 系列社区以渠道联盟的待遇,
+提供空间和流量, 长期用下来, 对比其它 CDN 是真的好用...
+
+CLI 工具最舒服的一家了.
+
+)
+
 - [蟒营 Python 入门班](https://py.101.camp/)
     + 本周毕业
-    + 下期应该 7月1
 
+> 下期应该 7月1
 
 
 [![PyScaffold](https://pyscaffold.org/en/latest/_images/logo.png)](https://pyscaffold.org/en/latest/)
