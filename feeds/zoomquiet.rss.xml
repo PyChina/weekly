@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 26 Jun 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 374</title><link>http://weekly.pychina.org/issue/issue-374.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/374"&gt;PyCoder's Weekly - Issue #374&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 03 Jul 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 375</title><link>http://weekly.pychina.org/issue/issue-375.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/375"&gt;PyCoder's Weekly - Issue #375&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/1915/web"&gt;更频繁的 Python 版本?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;JAKE EDGE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Łukasz Langa, who is the release manager for the upcoming 3.8 release, as well as the manager for the date-to-be-determined release of 3.9, has proposed PEP 596 (“Python 3.9 Release Schedule (doubling the release cadence)”). As its …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 03 Jul 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-07-03:/issue/issue-375.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 374</title><link>http://weekly.pychina.org/issue/issue-374.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/374"&gt;PyCoder's Weekly - Issue #374&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
