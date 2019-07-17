@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 10 Jul 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 376</title><link>http://weekly.pychina.org/issue/issue-376.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/376"&gt;PyCoder's Weekly - Issue #376&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 17 Jul 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 377</title><link>http://weekly.pychina.org/issue/issue-377.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/377"&gt;PyCoder's Weekly - Issue #377&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/2040/web"&gt;用 Collaborative Filtering 构建推荐引擎&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this tutorial, you’ll learn about collaborative filtering, which is one of the most common approaches for building recommender systems. You’ll cover the various types of algorithms that fall under this category and see how to implement …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 17 Jul 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-07-17:/issue/issue-377.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 376</title><link>http://weekly.pychina.org/issue/issue-376.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/376"&gt;PyCoder's Weekly - Issue #376&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
