@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 07 Aug 2019 15:42:00 +0800</lastBuildDate><item><title>Issue 380</title><link>http://weekly.pychina.org/issue/issue-380.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/380"&gt;PyCoder's Weekly - Issue #380&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 14 Aug 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 381</title><link>http://weekly.pychina.org/issue/issue-381.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/381"&gt;PyCoder's Weekly - Issue #381&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/2265/web"&gt;用 Python 进行&lt;code&gt;传统&lt;/code&gt;人脸检测&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this course on face detection with Python, you’ll learn about a historically important algorithm for object detection that can be successfully applied to finding the location of a human face within an image.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Face Detection" src="https://ipic.zoomquiet.top/2019-08-14-ScreenShot%202019-08-14%2010.44.51.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;当然 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 14 Aug 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-08-14:/issue/issue-381.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 380</title><link>http://weekly.pychina.org/issue/issue-380.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/380"&gt;PyCoder's Weekly - Issue #380&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
