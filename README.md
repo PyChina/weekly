@@ -122,4 +122,5 @@ main loop:
 
 ## changelog
 
+- 190818 ZQ ++ CNZZ WA support
 - 131219 base pelican build and through qiniu.com publish
