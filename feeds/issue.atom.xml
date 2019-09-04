@@ -1,5 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Issue</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/issue.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2019-08-28T11:42:00+08:00</updated><entry><title>Issue 383</title><link href="http://weekly.pychina.org/issue/issue-383.html" rel="alternate"></link><published>2019-08-28T11:42:00+08:00</published><updated>2019-08-28T11:42:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2019-08-28:/issue/issue-383.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/383"&gt;PyCoder's Weekly - Issue #383&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Issue</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/issue.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2019-09-04T14:42:00+08:00</updated><entry><title>Issue 384</title><link href="http://weekly.pychina.org/issue/issue-384.html" rel="alternate"></link><published>2019-09-04T14:42:00+08:00</published><updated>2019-09-04T14:42:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2019-09-04:/issue/issue-384.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/384"&gt;PyCoder's Weekly - Issue #384&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CPython Release 3.8.0b4
+This is the last beta before 3.8 RC1.
+PYTHON.ORG&lt;/p&gt;
+&lt;p&gt;Natural Language Processing With spaCy in Python
+In this step-by-step tutorial, you’ll learn how to use spaCy. This free and open-source library for Natural Language Processing (NLP) in …&lt;/p&gt;</summary><content type="html">&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/384"&gt;PyCoder's Weekly - Issue #384&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CPython Release 3.8.0b4
+This is the last beta before 3.8 RC1.
+PYTHON.ORG&lt;/p&gt;
+&lt;p&gt;Natural Language Processing With spaCy in Python
+In this step-by-step tutorial, you’ll learn how to use spaCy. This free and open-source library for Natural Language Processing (NLP) in Python has a lot of built-in capabilities and is becoming increasingly popular for processing and analyzing data in NLP.
+REAL PYTHON&lt;/p&gt;
+&lt;p&gt;An Empirical Analysis of the Python Package Index (PDF)
+“In this research, we provide a comprehensive empirical summary of the Python Package Repository, PyPI, including both package metadata and source code covering 178,592 packages, 1,745,744 releases, 76,997 contributors, and 156,816,750 import statements.”
+ARXIV.ORG • Shared by Python Bytes FM&lt;/p&gt;
+&lt;p&gt;Teaching an Old Pythonista New Gopher Tricks (Go vs Python)
+“So in conclusion, Python may not be a Gopher Snake but for this task it does rather eat Go for breakfast.”
+ED CREWE opinion&lt;/p&gt;
+&lt;p&gt;Adding Actions to a PEG Grammar
+Part 6 of Guido’s series on PEG parsers.
+GUIDO VAN ROSSUM&lt;/p&gt;
+&lt;p&gt;Django Bugfix Releases Issued: 2.2.5, 2.1.12, and 1.11.24
+DJANGOPROJECT.COM&lt;/p&gt;
+&lt;h2&gt;讨论&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discussions&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Python Rounds Float Values by Converting Them to String and Then Back
+Interesting CPython tidbit—apparently this really is a good way to implement floating point rounding in practice.
+YCOMBINATOR.COM&lt;/p&gt;
+&lt;p&gt;“Some people want to throw a party when Python 2.7 expires at the end of the year…”
+RAYMOND HETTINGER&lt;/p&gt;
+&lt;h2&gt;文章,教程和嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Lists and Tuples in Python
+Cover the important characteristics of lists and tuples in Python 3. You’ll learn how to define them and how to manipulate them. When you’re finished, you’ll have a good feel for when and how to use these data structures in a Python program.
+REAL PYTHON video&lt;/p&gt;
+&lt;p&gt;Python for NLP: Working With Facebook FastText Library
+“In this article, we are going to study FastText which is another extremely useful module for word embedding and text classification. FastText has been developed by Facebook and has shown excellent results on many NLP problems, such as semantic similarity detection and text classification.”
+USMAN MALIK&lt;/p&gt;
+&lt;p&gt;Eliminate Python Package Management
+Tired of dealing with package dependency conflicts? Sign up for a free ActiveState Platform account to download ActivePython pre-bundled with top packages, or customize your own Python build with automated dependency resolution.
+ACTIVESTATEsponsor&lt;/p&gt;
+&lt;p&gt;Understanding SAT by Implementing a Simple SAT Solver in Python
+SAT is often described as the “mother of all NP-complete problems.” This post goes over what SAT is and why it is considered to be so important. A simple SAT solver is implemented using Python in the process.
+SAHAND SABA&lt;/p&gt;
+&lt;p&gt;2019 Pandas User Survey
+“Pandas recently contucted a user survey to help guide future development. Thanks to everyone who participated! This post presents the high-level results.”
+PANDAS.IO • Shared by Python Bytes FM&lt;/p&gt;
+&lt;p&gt;Searching for Awesome TED Talks With Django + Elasticsearch
+Learn the basics of Elasticsearch: what it is, how to run it, how to communicate with it, and how to integrate it into a simple Django application.
+DENIS OREHOVSKY • Shared by Denis Orehovsky&lt;/p&gt;
+&lt;p&gt;Build a Simple ChatBot With Python and Google Search
+Build a simple, full-stack ChatBot using Google Search as the AI. Python is our language of choice and we build a web page to access the API.
+LELAND ZACH&lt;/p&gt;
+&lt;p&gt;Designing Continuous Build Systems: Docker Swarm Orchestration
+How to orchestrate continuous integration builds and test execution in a Docker Swarm using Python and the docker module.
+TRYEXCEPTPASS.ORG • Shared by Cristian Medina&lt;/p&gt;
+&lt;p&gt;Python Decorator With Arguments
+A simple example which explains how to create a decorator function that accepts and uses arguments.
+J-O ERIKSSON&lt;/p&gt;
+&lt;p&gt;Build a Chat App With Python, Django, and React
+Learn how to integrate a rich chat experience into your app with this in-depth Python, Django, and React tutorial.
+STREAMsponsor&lt;/p&gt;
+&lt;p&gt;4 Use Cases for When to Use Celery in a Flask Application
+NICK JANETAKIS&lt;/p&gt;
+&lt;p&gt;Dependencies Handling in Python
+JULIEN DANJOU&lt;/p&gt;
+&lt;p&gt;Building a CLI for Firmware Projects Using Invoke
+TYLER HOFFMAN&lt;/p&gt;
+&lt;p&gt;Interview With Matthew Rocklin, the Creator of Dask
+FEDERICO CARRONE&lt;/p&gt;
+&lt;p&gt;Optimizing Postgres Full Text Search in Django
+DANI HODOVIC&lt;/p&gt;
+&lt;h2&gt;好物&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;local-paste: Lightweight Pastebin for Your Home Network
+GITHUB.COM/GIRISH946 • Shared by Girish Joshi&lt;/p&gt;
+&lt;p&gt;Feature-Engine: Feature Engineering for Machine Learning
+FEATURE-ENGINE.READTHEDOCS.IO • Shared by Soledad Galli&lt;/p&gt;
+&lt;p&gt;craftassist: Virtual Assistant Bot for Minecraft
+GITHUB.COM/FACEBOOKRESEARCH&lt;/p&gt;
+&lt;p&gt;python-remote-pdb: Remote Vanilla PDB (Over TCP Sockets)
+GITHUB.COM/IONELMC&lt;/p&gt;
+&lt;p&gt;DaPy: Easy-To-Use Data Analysis Framework for Humans
+GITHUB.COM/JACKSONWUXS&lt;/p&gt;
+&lt;p&gt;friendly-traceback: Simplified Python Tracebacks
+GITHUB.COM/AROBERGE • Shared by Python Bytes FM&lt;/p&gt;
+&lt;h2&gt;📆🐍 活动/大会&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Events, MeetUp 真的是全球线下活动组织中心&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⋅ EuroSciPy 2019 September 2 to September 7, 2019&lt;/p&gt;
+&lt;p&gt;⋅ Reunión Python Valencia September 5, 2019&lt;/p&gt;
+&lt;p&gt;⋅ Canberra Python Meetup September 5, 2019&lt;/p&gt;
+&lt;p&gt;⋅ Sydney Python User Group (SyPy) September 5, 2019&lt;/p&gt;
+&lt;p&gt;⋅ Edmonton Python User Group September 9, 2019&lt;/p&gt;
+&lt;p&gt;⋅ PiterPy Meetup September 10, 2019&lt;/p&gt;
+&lt;p&gt;⋅ Leipzig Python User Group Meeting September 10, 2019&lt;/p&gt;
+&lt;p&gt;⋅ IndyPy Mixer September 10, 2019&lt;/p&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://py.101.camp/"&gt;蟒营 Python 入门班&lt;/a&gt;&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;第3期&lt;/li&gt;
+&lt;li&gt;101camp3py&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;第3期已经上线, 为期6周&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;190919&lt;/span&gt; &lt;span class="err"&gt;报名截止&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="mi"&gt;190922&lt;/span&gt; &lt;span class="err"&gt;正式开课&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="mi"&gt;191103&lt;/span&gt; &lt;span class="err"&gt;按时结束&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.meetup.com/TensorFlow-User-Group-Zhuhai/events/264053619/"&gt;TensorFlow All-Around 珠海 | Meetup&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;TFUG 珠海&lt;/li&gt;
+&lt;li&gt;极简汇率&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://realpython.com/what-can-i-do-with-python/"&gt;What Can I Do With Python? – Real Python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;FAQ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Do With Py" src="https://ipic.zoomquiet.top/2019-05-25-ScreenShot%202019-05-25%2010.27.25.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;总是永远有人问这个问题...
+当然, 这个问题任何一个技术社区都有人在问...&lt;/p&gt;
+&lt;p&gt;其实, 本质上并不是对应技术是否有什么能力,
+而是相反...&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;h3&gt;Jobs:&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;必须 Pythonic 相关&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;h1&gt;是也乎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;190828 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;190828 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NN 3760&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="Weekly"></category><category term="Python"></category><category term="pycoders"></category><category term="ZH"></category></entry><entry><title>Issue 383</title><link href="http://weekly.pychina.org/issue/issue-383.html" rel="alternate"></link><published>2019-08-28T11:42:00+08:00</published><updated>2019-08-28T11:42:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2019-08-28:/issue/issue-383.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/383"&gt;PyCoder's Weekly - Issue #383&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;

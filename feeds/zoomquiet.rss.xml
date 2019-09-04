@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 28 Aug 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 383</title><link>http://weekly.pychina.org/issue/issue-383.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/383"&gt;PyCoder's Weekly - Issue #383&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 04 Sep 2019 14:42:00 +0800</lastBuildDate><item><title>Issue 384</title><link>http://weekly.pychina.org/issue/issue-384.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/384"&gt;PyCoder's Weekly - Issue #384&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;CPython Release 3.8.0b4
+This is the last beta before 3.8 RC1.
+PYTHON.ORG&lt;/p&gt;
+&lt;p&gt;Natural Language Processing With spaCy in Python
+In this step-by-step tutorial, you’ll learn how to use spaCy. This free and open-source library for Natural Language Processing (NLP) in …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 04 Sep 2019 14:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-09-04:/issue/issue-384.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 383</title><link>http://weekly.pychina.org/issue/issue-383.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/383"&gt;PyCoder's Weekly - Issue #383&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
