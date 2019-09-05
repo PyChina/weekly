@@ -14,7 +14,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [用 Collaborative Filtering 构建推荐引擎](https://pycoders.com/link/2040/web)
     + REAL PYTHON
 
-In this tutorial, you’ll learn about collaborative filtering, which is one of the most common approaches for building recommender systems. You’ll cover the various types of algorithms that fall under this category and see how to implement them in Python.
+In this tutorial, you'll learn about collaborative filtering, which is one of the most common approaches for building recommender systems. You'll cover the various types of algorithms that fall under this category and see how to implement them in Python.
 
 
 (`是也乎:`
@@ -40,10 +40,10 @@ GIL 将被谋杀嘛?
 )
 
 
-- [The Python Celery Cookbook: 小工具，巨大的可能性](https://pycoders.com/link/2037/web)
+- [The Python Celery Cookbook: 小工具,巨大的可能性](https://pycoders.com/link/2037/web)
     + VADYM ZAKOVINKO
 
-“Everyone in the Python community has heard about Celery at least once, and maybe even already worked with it. Basically, it’s a handy tool that helps run postponed or dedicated code in a separate process or even on a separate computer or server. This saves time and effort on many levels.”
+"Everyone in the Python community has heard about Celery at least once, and maybe even already worked with it. Basically, it's a handy tool that helps run postponed or dedicated code in a separate process or even on a separate computer or server. This saves time and effort on many levels."
 
 
 (`是也乎:`
@@ -56,7 +56,7 @@ GIL 将被谋杀嘛?
 - [在 Python 3 中将列表转换为集合的速度更快: set() or {*}](https://pycoders.com/link/2034/web)
     + MICHAEL BASSILI
 
-Perhaps surprisingly, there is a performance difference between the two. Read Michael’s article to find out why using a {*} set literal is faster.
+Perhaps surprisingly, there is a performance difference between the two. Read Michael's article to find out why using a {*} set literal is faster.
 
 - [用 Keras 和深度学习进行视频分类](https://pycoders.com/link/2029/web)
     + ADRIAN ROSEBROCK
@@ -79,7 +79,7 @@ pyimagesearch.com
 > Discussions
 
 
-- [对于抽象基类，注册是继承的替代方法](https://pycoders.com/link/2024/web)
+- [对于抽象基类,注册是继承的替代方法](https://pycoders.com/link/2024/web)
     + RAYMOND HETTINGER
 
 - [Pythonista 用 Tkinter 编写餐厅 POS 系统](https://pycoders.com/link/2039/web)
@@ -103,9 +103,9 @@ Tk 才是第一选择了...
     + REAL PYTHON 
     + video
 
-In this course, you’ll see how you can make your loops more Pythonic if you’re coming to Python from a C-style language. You’ll learn how you can get the most out of using range(), xrange(), and enumerate(). You’ll also see how you can avoid having to keep track of loop indexes manually.
+In this course, you'll see how you can make your loops more Pythonic if you're coming to Python from a C-style language. You'll learn how you can get the most out of using range(), xrange(), and enumerate(). You'll also see how you can avoid having to keep track of loop indexes manually.
 
-- [Black 简介，不妥协的Python代码格式化程序](https://pycoders.com/link/2041/web)
+- [Black 简介,不妥协的Python代码格式化程序](https://pycoders.com/link/2041/web)
     + MIKE DRISCOLL
 
 Black is a Python code formatter. It will reformat your entire file in place according to the Black code style, which is pretty close to PEP8. This article shows you the basics of working with Black.
@@ -141,7 +141,7 @@ This post describes how to use Python based web scraping tools and Tor to hide y
 - [接口是永恒的](https://pycoders.com/link/2026/web)
     + MOSHE ZADKA
 
-“When publishing interfaces, one must be careful: to a first approximation, they are forever.”
+"When publishing interfaces, one must be careful: to a first approximation, they are forever."
 
 (`是也乎:`
 
@@ -160,7 +160,7 @@ This post describes how to use Python based web scraping tools and Tor to hide y
 大蟒在吞食世界...
 
 早年 Python 发展回顾, 现在
-帮助Netflix将视频流传输到全球超过1亿个家庭，为照片共享现象Instagram提供动力，并帮助NASA进行太空探索...
+帮助Netflix将视频流传输到全球超过1亿个家庭,为照片共享现象Instagram提供动力,并帮助NASA进行太空探索...
 
 但是, 网络中针对无基础学习者提供的 Python 课程,
 多数只是针对 Python 本身, 而对 Python 积累的庞大生态视而不见,
@@ -242,7 +242,7 @@ This post describes how to use Python based web scraping tools and Tor to hide y
 
 
 
-- [Pyret: 专为学习而设计的编程语言，受Python启发](https://pycoders.com/link/2030/web)
+- [Pyret: 专为学习而设计的编程语言,受Python启发](https://pycoders.com/link/2030/web)
     + PYRET.ORG
 
 (`是也乎:`

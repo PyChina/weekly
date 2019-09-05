@@ -22,7 +22,7 @@ This is the last beta before 3.8 RC1.
 - [用 Python 和 spaCy 进行自然语言处理](https://pycoders.com/link/2402/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn how to use spaCy. This free and open-source library for Natural Language Processing (NLP) in Python has a lot of built-in capabilities and is becoming increasingly popular for processing and analyzing data in NLP.
+In this step-by-step tutorial, you'll learn how to use spaCy. This free and open-source library for Natural Language Processing (NLP) in Python has a lot of built-in capabilities and is becoming increasingly popular for processing and analyzing data in NLP.
 
 (`是也乎:`
 
@@ -37,7 +37,7 @@ In this step-by-step tutorial, you’ll learn how to use spaCy. This free and op
     + ARXIV.ORG 
     + • Shared by Python Bytes FM
 
-“In this research, we provide a comprehensive empirical summary of the Python Package Repository, PyPI, including both package metadata and source code covering 178,592 packages, 1,745,744 releases, 76,997 contributors, and 156,816,750 import statements.”
+"In this research, we provide a comprehensive empirical summary of the Python Package Repository, PyPI, including both package metadata and source code covering 178,592 packages, 1,745,744 releases, 76,997 contributors, and 156,816,750 import statements."
 
 (`是也乎:`
 
@@ -51,7 +51,7 @@ In this step-by-step tutorial, you’ll learn how to use spaCy. This free and op
     + ED CREWE 
     + opinion
 
-“So in conclusion, Python may not be a Gopher Snake but for this task it does rather eat Go for breakfast.”
+"So in conclusion, Python may not be a Gopher Snake but for this task it does rather eat Go for breakfast."
 
 (`是也乎:`
 
@@ -64,7 +64,7 @@ In this step-by-step tutorial, you’ll learn how to use spaCy. This free and op
 - [添加动作到 PEG Grammar](https://pycoders.com/link/2404/web)
     + GUIDO VAN ROSSUM
 
-Part 6 of Guido’s series on PEG parsers.
+Part 6 of Guido's series on PEG parsers.
 
 (`是也乎:`
 
@@ -95,7 +95,7 @@ Interesting CPython tidbit—apparently this really is a good way to implement f
 )
 
 
-- [“当Python 2.7在年底到期时，有些人想举办派对…”](https://pycoders.com/link/2405/web)
+- ["当Python 2.7在年底到期时,有些人想举办派对... "](https://pycoders.com/link/2405/web)
     + RAYMOND HETTINGER
 
 
@@ -114,12 +114,12 @@ Interesting CPython tidbit—apparently this really is a good way to implement f
     + REAL PYTHON 
     + video
 
-Cover the important characteristics of lists and tuples in Python 3. You’ll learn how to define them and how to manipulate them. When you’re finished, you’ll have a good feel for when and how to use these data structures in a Python program.
+Cover the important characteristics of lists and tuples in Python 3. You'll learn how to define them and how to manipulate them. When you're finished, you'll have a good feel for when and how to use these data structures in a Python program.
 
 - [NLP 和 Python: 用 Facebook FastText 库](https://pycoders.com/link/2418/web)
     + USMAN MALIK
 
-“In this article, we are going to study FastText which is another extremely useful module for word embedding and text classification. FastText has been developed by Facebook and has shown excellent results on many NLP problems, such as semantic similarity detection and text classification.”
+"In this article, we are going to study FastText which is another extremely useful module for word embedding and text classification. FastText has been developed by Facebook and has shown excellent results on many NLP problems, such as semantic similarity detection and text classification."
 
 
 (`是也乎:`
@@ -133,7 +133,7 @@ NLP 原先是 IBM 几十年积累来的高...
 - [通过在 Python 中实现简单的 SAT 解器来理解 SAT](https://pycoders.com/link/2403/web)
     + SAHAND SABA
 
-SAT is often described as the “mother of all NP-complete problems.” This post goes over what SAT is and why it is considered to be so important. A simple SAT solver is implemented using Python in the process.
+SAT is often described as the "mother of all NP-complete problems." This post goes over what SAT is and why it is considered to be so important. A simple SAT solver is implemented using Python in the process.
 
 
 (`是也乎:`
@@ -146,7 +146,7 @@ SAT -> 母题...没毛病
     + PANDAS.IO 
     + • Shared by Python Bytes FM
 
-“Pandas recently contucted a user survey to help guide future development. Thanks to everyone who participated! This post presents the high-level results.”
+"Pandas recently contucted a user survey to help guide future development. Thanks to everyone who participated! This post presents the high-level results."
 
 (`是也乎:`
 

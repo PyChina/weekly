@@ -15,7 +15,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [在 Django Admin 中管理用户应该了解的](https://pycoders.com/link/2182/web)
     + REAL PYTHON
 
-Learn what you need to know to manage users in Django admin. Out of the box, Django admin doesn’t enforce special restrictions on the user admin. This can lead to dangerous scenarios that might compromise your system.
+Learn what you need to know to manage users in Django admin. Out of the box, Django admin doesn't enforce special restrictions on the user admin. This can lead to dangerous scenarios that might compromise your system.
 
 (`是也乎:`
 
@@ -28,7 +28,7 @@ Learn what you need to know to manage users in Django admin. Out of the box, Dja
 - [为什么你的 Mock 不起作用](https://pycoders.com/link/2168/web)
     + NED BATCHELDER
 
-“Mocking is a powerful technique for isolating tests from undesired interactions among components. But often people find their mock isn’t taking effect, and it’s not clear why. Hopefully this explanation will clear things up.”
+"Mocking is a powerful technique for isolating tests from undesired interactions among components. But often people find their mock isn't taking effect, and it's not clear why. Hopefully this explanation will clear things up."
 
 (`是也乎:`
 
@@ -106,7 +106,7 @@ This article describes memory management in CPython 3.6 and how it uses a pool a
 - [用 Matplotlib 和 Python 探索数学](https://pycoders.com/link/2188/web)
     + ANTONIO CANGIANO
 
-“Data Visualization can be a great tool for mathematical exploration and experimentation. In this article, I show you an example using Matplotlib and Python.”
+"Data Visualization can be a great tool for mathematical exploration and experimentation. In this article, I show you an example using Matplotlib and Python."
 
 (`是也乎:`
 
@@ -124,7 +124,7 @@ Learn how to make scatter plots, adding trend lines, text, rotating the labels, 
 - [Python 提示进入正在运行的进程: 用 Manhole 进行调试](https://pycoders.com/link/2198/web)
     + ITAMAR TURNER-TRAURING
 
-“Sometimes your Python process will behave strangely, run slowly, or give you the wrong answers. And while hopefully you have logging, the logging isn’t always enough. So how do you debug this process?”
+"Sometimes your Python process will behave strangely, run slowly, or give you the wrong answers. And while hopefully you have logging, the logging isn't always enough. So how do you debug this process?"
 
 (`是也乎:`
 
@@ -137,7 +137,7 @@ OTP 已经成熟使用20年的小技巧, 当然, LISP 用的时间更加长
     + REAL PYTHON 
     + video
 
-In this course, you’ll see several learning strategies and tips that will help you jumpstart your journey towards becoming a rockstar Python programmer!
+In this course, you'll see several learning strategies and tips that will help you jumpstart your journey towards becoming a rockstar Python programmer!
 
 (`是也乎:`
 
@@ -166,7 +166,7 @@ In this course, you’ll see several learning strategies and tips that will help
 - [传输学习和 PyTorch 的图像分类](https://pycoders.com/link/2192/web)
     + DAN NELSON
 
-In this article you’ll go over the theory behind transfer learning and see how to carry out an example of transfer learning on Convolutional Neural Networks (CNNs) in PyTorch.
+In this article you'll go over the theory behind transfer learning and see how to carry out an example of transfer learning on Convolutional Neural Networks (CNNs) in PyTorch.
 
 (`是也乎:`
 
@@ -195,7 +195,7 @@ Learn how to write a Python script to create a quadtree based filter for stylizi
 - [Softmax 函数的一个简单解释](https://pycoders.com/link/2171/web)
     + VICTOR ZHOU
 
-What Softmax is, how it’s used, and how to implement it in Python.
+What Softmax is, how it's used, and how to implement it in Python.
 
 (`是也乎:`
 
@@ -211,7 +211,7 @@ Softmax 函式是神经网络计算中一种算法,
     + book 
     + sponsor
 
-Make the leap from Beginner to Intermediate in Python with this complete curriculum freshly updated for Python 3.7. Includes exercises, interactive quizzes, and sample projects so you’ll always know what to focus on next. Get the book today and save 27% →
+Make the leap from Beginner to Intermediate in Python with this complete curriculum freshly updated for Python 3.7. Includes exercises, interactive quizzes, and sample projects so you'll always know what to focus on next. Get the book today and save 27% →
 
 (`是也乎:`
 
@@ -226,7 +226,7 @@ Make the leap from Beginner to Intermediate in Python with this complete curricu
 - [10分钟, 过 Django 上传文件到 S3](https://pycoders.com/link/2183/web)
     + DAVID BRUTON
 
-- [如何使用 Linting，Type-Checking，Testing 等设置 Python 项目](https://pycoders.com/link/2200/web)
+- [如何使用 Linting,Type-Checking,Testing 等设置 Python 项目](https://pycoders.com/link/2200/web)
     + SOURCERY.AI
 
 
@@ -243,7 +243,7 @@ Make the leap from Beginner to Intermediate in Python with this complete curricu
 > Interesting Projects, Tools and Libraries, Projects & Code
 
 
-- [awesome-asgi: 令人敬畏的 ASGI 服务器，框架，应用程序，库和其他资源的列表](https://pycoders.com/link/2199/web)
+- [awesome-asgi: 令人敬畏的 ASGI 服务器,框架,应用程序,库和其他资源的列表](https://pycoders.com/link/2199/web)
     + GITHUB.COM/FLORIMONDMANCA
 
 (`是也乎:`
@@ -257,7 +257,7 @@ Make the leap from Beginner to Intermediate in Python with this complete curricu
 
 
 
-- [Xylene: 从 Reddit Posts, … 获取天气信息](https://pycoders.com/link/2180/web)
+- [Xylene: 从 Reddit Posts, ...  获取天气信息](https://pycoders.com/link/2180/web)
     + GITHUB.COM/XITHRIUS 
     + • Shared by Charles Buell
 

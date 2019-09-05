@@ -15,7 +15,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [如何用 Python Lambda 函数](https://pycoders.com/link/1895/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn about Python lambda functions. You’ll see how they compare with regular functions and how you can use them in accordance with best practices.
+In this step-by-step tutorial, you'll learn about Python lambda functions. You'll see how they compare with regular functions and how you can use them in accordance with best practices.
 
 (`是也乎:`
 
@@ -42,7 +42,7 @@ A survey of Python progress bar libraries like Progress, ProgressBar2, TQDM, Cli
 - [将 Qt 应用程序从 C++ 移植到 Python 然后发现...](https://pycoders.com/link/1892/web)
     + ICS.COM
 
-“Our experience at ICS with Python and PyQt is that large complex (typically desktop) applications can be developed with Python. Users can’t tell that it was implemented in Python and not C++. Performance is typically not an issue, and experienced Qt C++ developers can quickly make the transition to Python.”
+"Our experience at ICS with Python and PyQt is that large complex (typically desktop) applications can be developed with Python. Users can't tell that it was implemented in Python and not C++. Performance is typically not an issue, and experienced Qt C++ developers can quickly make the transition to Python."
 
 (`是也乎:`
 
@@ -59,12 +59,12 @@ A survey of Python progress bar libraries like Progress, ProgressBar2, TQDM, Cli
 - [用 Python 从头构建一个简单的解释器](https://pycoders.com/link/1905/web)
     + RUSLAN SPIVAK
 
-Part 15 in Ruslan’s ongoing series about building an interpreter from scratch, with Python.
+Part 15 in Ruslan's ongoing series about building an interpreter from scratch, with Python.
 
 - [ARIMA Model: Python 中时序预测的完整指南](https://pycoders.com/link/1898/web)
     + MACHINELEARNINGPLUS.COM
 
-In this post, you’ll build an optimal ARIMA model from scratch and extend it to Seasonal ARIMA (SARIMA) and SARIMAX models. You will also see how to build autoarima models in Python.
+In this post, you'll build an optimal ARIMA model from scratch and extend it to Seasonal ARIMA (SARIMA) and SARIMAX models. You will also see how to build autoarima models in Python.
 
 
 - [给 C/Java 程序员的 Python 简介](https://pycoders.com/link/1902/web)
@@ -85,7 +85,7 @@ A guide to Python written for an audience who is already familiar with languages
     + REAL PYTHON 
     + video
 
-In this course, you’ll cover several options for generating random data in Python, and then build up to a comparison of each in terms of its level of security, versatility, purpose, and speed.
+In this course, you'll cover several options for generating random data in Python, and then build up to a comparison of each in terms of its level of security, versatility, purpose, and speed.
 
 (`是也乎:`
 
@@ -99,7 +99,7 @@ Q 的...
 - [用 PyOxidizer 构建独立 Python 应用](https://pycoders.com/link/1906/web)
     + GREGORY SZORC
 
-“PyOxidizer’s marquee feature is that it can produce a single file executable containing a fully-featured Python interpreter, its extensions, standard library, and your application’s modules and resources.”
+"PyOxidizer's marquee feature is that it can produce a single file executable containing a fully-featured Python interpreter, its extensions, standard library, and your application's modules and resources."
 
 (`是也乎:`
 
@@ -116,13 +116,13 @@ Q 的...
 > Discussions
 
 
-- [如何缩短大型（> 1.5k测试）Pytest 测试套件运行时间？](https://pycoders.com/link/1899/web)
+- [如何缩短大型(> 1.5k测试)Pytest 测试套件运行时间?](https://pycoders.com/link/1899/web)
     + TWITTER.COM/NIKLASMM
 
-- [Python 中你最喜欢的语法糖是什么？](https://pycoders.com/link/1901/web)
+- [Python 中你最喜欢的语法糖是什么?](https://pycoders.com/link/1901/web)
     + REDDIT
 
-- [你的 Python 博客运行什么框架/托管？](https://pycoders.com/link/1891/web)
+- [你的 Python 博客运行什么框架/托管?](https://pycoders.com/link/1891/web)
     + TWITTER.COM/WILDVASA
 
 (`是也乎:`
@@ -150,7 +150,7 @@ Q 的...
 - [Python 的 Mypy 高级用法](https://pycoders.com/link/1882/web)
     + REUVEN LERNER
 
-“In my last article, I covered some basic uses for Mypy. Here, I want to expand upon those basics and show how Mypy really digs deeply into type definitions, allowing you to describe your code in a way that lets you be more confident of its stability.”
+"In my last article, I covered some basic uses for Mypy. Here, I want to expand upon those basics and show how Mypy really digs deeply into type definitions, allowing you to describe your code in a way that lets you be more confident of its stability."
 
 (`是也乎:`
 
@@ -160,10 +160,10 @@ Q 的...
 )
 
 
-- [Python 中的基本输入，输出和字符串格式](https://pycoders.com/link/1887/web)
+- [Python 中的基本输入,输出和字符串格式](https://pycoders.com/link/1887/web)
     + REAL PYTHON
 
-In this step-by-step Python tutorial, you’ll learn how to take user input from the keyboard with the built-in function input(), how to display output to the console with the built-in function print(), and how to format string data with the string modulo operator.
+In this step-by-step Python tutorial, you'll learn how to take user input from the keyboard with the built-in function input(), how to display output to the console with the built-in function print(), and how to format string data with the string modulo operator.
 
 
 (`是也乎:`
@@ -179,14 +179,14 @@ In this step-by-step Python tutorial, you’ll learn how to take user input from
 - [在 Python 中解析嵌套 JSON 记录](https://pycoders.com/link/1897/web)
     + BRETT MULLINS
 
-“For analyzing complex JSON data in Python, there aren’t clear, general methods for extracting information […] This post provides a solution if one knows the path through the nested JSON to the desired information.”
+"For analyzing complex JSON data in Python, there aren't clear, general methods for extracting information [... ] This post provides a solution if one knows the path through the nested JSON to the desired information."
 
 
 
-- [从 Python 到 Go 再到 Rust：一个有意义的旅程](https://pycoders.com/link/1907/web)
+- [从 Python 到 Go 再到 Rust:一个有意义的旅程](https://pycoders.com/link/1907/web)
     + ALLO-MEDIA.NET
 
-“Go is cool but doesn’t provide enough type safety for me. I would rather stick with Python and its ecosystem than risking re-writing stuff in Go if I don’t need concurrency.” Related discussion on Hacker News
+"Go is cool but doesn't provide enough type safety for me. I would rather stick with Python and its ecosystem than risking re-writing stuff in Go if I don't need concurrency." Related discussion on Hacker News
 
 (`是也乎:`
 
@@ -206,7 +206,7 @@ An interview about how the Python Software Foundation helps the language and com
     + O'REILLY
     + sponsor
 
-Join us this July at the O’Reilly Open Source Software Conference (OSCON) to discover what’s shaping software development and dive into the key technologies needed to build resilient, useful, innovative software. Save 25% with code PYCODER
+Join us this July at the O'Reilly Open Source Software Conference (OSCON) to discover what's shaping software development and dive into the key technologies needed to build resilient, useful, innovative software. Save 25% with code PYCODER
 
 (`是也乎:`
 
@@ -219,7 +219,7 @@ O 记大会算是非常良心的, 每年都有好物爆料...
 - [Clojure & Python, Side by Side (2011)](https://pycoders.com/link/1881/web)
     + JUSTIN KRAMER
 
-“As an exercise, I translated Peter Norvig’s Sudoku solver from Python to Clojure.”
+"As an exercise, I translated Peter Norvig's Sudoku solver from Python to Clojure."
 
 (`是也乎:`
 
@@ -244,7 +244,7 @@ O 记大会算是非常良心的, 每年都有好物爆料...
 
 
 
-- [Real-Time-Voice-Cloning: 在5秒内克隆语气，实时生成任意语音](https://pycoders.com/link/1885/web)
+- [Real-Time-Voice-Cloning: 在5秒内克隆语气,实时生成任意语音](https://pycoders.com/link/1885/web)
     + GITHUB.COM/CORENTINJ
 
 (`是也乎:`
@@ -358,7 +358,7 @@ O 记大会算是非常良心的, 每年都有好物爆料...
 - 七牛云年中大促
     + sponsor
 
-【七牛云服务】没赶上618？七牛云年中大促，狂欢到月底！存储秒杀低至0.001元/G，云主机0元抢，另有多款产品5折起，每日限量购，手慢无！https://dwz.cn/HfTSeUHE
+[七牛云服务]没赶上618?七牛云年中大促,狂欢到月底!存储秒杀低至0.001元/G,云主机0元抢,另有多款产品5折起,每日限量购,手慢无!https://dwz.cn/HfTSeUHE
 
 (`是也乎:`
 

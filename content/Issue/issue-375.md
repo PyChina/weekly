@@ -15,7 +15,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [更频繁的 Python 版本?](https://pycoders.com/link/1915/web)
     + JAKE EDGE
 
-“Łukasz Langa, who is the release manager for the upcoming 3.8 release, as well as the manager for the date-to-be-determined release of 3.9, has proposed PEP 596 (“Python 3.9 Release Schedule (doubling the release cadence)”). As its name would imply, the PEP proposes halving the current release cycle to nine months, which would make the 3.9 release happen in June 2020.”
+"Łukasz Langa, who is the release manager for the upcoming 3.8 release, as well as the manager for the date-to-be-determined release of 3.9, has proposed PEP 596 ("Python 3.9 Release Schedule (doubling the release cadence)"). As its name would imply, the PEP proposes halving the current release cycle to nine months, which would make the 3.9 release happen in June 2020."
 
 (`是也乎:`
 
@@ -45,7 +45,7 @@ What would a minimal Python standard library (only enough code to successfully d
     + REAL PYTHON 
     + video
 
-Learn how to approach functional programming in Python. You’ll cover what functional programming is, how you can use immutable data structures to represent your data, as well as how to use filter(), map(), and reduce().
+Learn how to approach functional programming in Python. You'll cover what functional programming is, how you can use immutable data structures to represent your data, as well as how to use filter(), map(), and reduce().
 
 (`是也乎:`
 
@@ -58,7 +58,7 @@ Learn how to approach functional programming in Python. You’ll cover what func
 - [如何构建 Raspberry Pi + Python 机器人](https://pycoders.com/link/1937/web)
     + AUGUST R. GARCIA
 
-“Building robots seems expensive and complicated. However, it turns out that it’s relatively straightforward. Do you have an IQ higher than 90 and assorted random garbage lying around your house? Then you too can make a robot in a reasonably small amount of time.”
+"Building robots seems expensive and complicated. However, it turns out that it's relatively straightforward. Do you have an IQ higher than 90 and assorted random garbage lying around your house? Then you too can make a robot in a reasonably small amount of time."
 
 (`是也乎:`
 
@@ -71,7 +71,7 @@ Learn how to approach functional programming in Python. You’ll cover what func
 - [如何通过 Python 用 Redis](https://pycoders.com/link/1932/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll cover how to use both Redis and its Python client library. You’ll learn a bite-sized slice of Redis itself and master the redis-py client library.
+In this step-by-step tutorial, you'll cover how to use both Redis and its Python client library. You'll learn a bite-sized slice of Redis itself and master the redis-py client library.
 
 
 (`是也乎:`
@@ -82,10 +82,10 @@ In this step-by-step tutorial, you’ll cover how to use both Redis and its Pyth
 )
 
 
-- [检测用 Python，Go 和 Rust 编写的程序](https://pycoders.com/link/1925/web)
+- [检测用 Python,Go 和 Rust 编写的程序](https://pycoders.com/link/1925/web)
     + NICOLAS HAHN
 
-“This is a subjective, primarily developer-ergonomics-based comparison of the three languages from the perspective of a Python developer”
+"This is a subjective, primarily developer-ergonomics-based comparison of the three languages from the perspective of a Python developer"
 
 
 (`是也乎:`
@@ -181,7 +181,7 @@ This post walks through the demo code from a talk given at DockerCon. It include
 - [在 Raspberry Pi 上用 Python 构建 CO₂ 监视器](https://pycoders.com/link/1933/web)
     + NATHAN GOLDBAUM
 
-“I’ve definitely experienced situations where I had to sit in a room with lots of people and felt more and more tired the longer I spent in the room. I had never considered that this is more than just being bored, that there might be a physiological reason for this feeling.”
+"I've definitely experienced situations where I had to sit in a room with lots of people and felt more and more tired the longer I spent in the room. I had never considered that this is more than just being bored, that there might be a physiological reason for this feeling."
 
 (`是也乎:`
 
@@ -212,7 +212,7 @@ Test your understanding of concurrency and parallel programming concepts in Pyth
 
 (`是也乎:`
 
-![Concurrency”](https://ipic.zoomquiet.top/2019-07-03-ScreenShot%202019-07-03%2015.21.14-1.jpg)
+![Concurrency"](https://ipic.zoomquiet.top/2019-07-03-ScreenShot%202019-07-03%2015.21.14-1.jpg)
 
 )
 
@@ -257,7 +257,7 @@ Learn to build your own smart baby monitor using Python, a Raspberry Pi, periphe
 )
 
 
-- [Raspberry Pi（或Amazon EC2）上的远程Python开发](https://pycoders.com/link/1931/web)
+- [Raspberry Pi(或Amazon EC2)上的远程Python开发](https://pycoders.com/link/1931/web)
     + ADRIAN ROSEBROCK
 
 How to configure your host machine to connect to these systems and remotely perform Python development.

@@ -166,7 +166,7 @@ Why so many drawings in the margins depict bunnies going bad...
 
 等等,这和 Python 有什么关系?
 
-> ...一个历史问题仍然没有答案：他们在多大程度上影响了现代电影喜剧，Monty Python和圣杯的创作？
+> ...一个历史问题仍然没有答案:他们在多大程度上影响了现代电影喜剧,Monty Python和圣杯的创作?
 
 
 `ರ_ರ`...看来 蟒周刊 创作团队是放爬虫来收集文章的...

@@ -15,7 +15,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [什么是 Python 3.8 将带来的?](https://pycoders.com/link/2129/web)
     + JAKE EDGE
 
-“The Python 3.8 beta cycle is already underway, with Python 3.8.0b1 released on June 4, followed by the second beta on July 4. That means that Python 3.8 is feature complete at this point, which makes it a good time to see what will be part of it when the final release is made.”
+"The Python 3.8 beta cycle is already underway, with Python 3.8.0b1 released on June 4, followed by the second beta on July 4. That means that Python 3.8 is feature complete at this point, which makes it a good time to see what will be part of it when the final release is made."
 
 (`是也乎:`
 
@@ -28,13 +28,13 @@ Tags: Weekly,Python,pycoders,ZH
 - [PyLint 误报...](https://pycoders.com/link/2138/web)
     + LUKE PLANT
 
-“In some recent discussion on Reddit, I claimed that, for cases where I’m already using flake8, it seemed as though 95% of Pylint’s reported problems were false positives. Others had very different experiences, so I was intrigued enough to actually do some measurements.”
+"In some recent discussion on Reddit, I claimed that, for cases where I'm already using flake8, it seemed as though 95% of Pylint's reported problems were false positives. Others had very different experiences, so I was intrigued enough to actually do some measurements."
 
 
 - [理解 Python Traceback](https://pycoders.com/link/2108/web)
     + REAL PYTHON
 
-Learn how to read and understand the information you can get from a Python traceback. You’ll walk through several examples of tracebacks and see how to handle some of the most common types of exceptions in Python.
+Learn how to read and understand the information you can get from a Python traceback. You'll walk through several examples of tracebacks and see how to handle some of the most common types of exceptions in Python.
 
 (`是也乎:`
 
@@ -53,7 +53,7 @@ Learn how to read and understand the information you can get from a Python trace
     + • Shared by Michael Herman
 
 
-In this article, you’ll take a look at the best use cases for Django and Flask along with what makes them unique, from an educational and development standpoint.
+In this article, you'll take a look at the best use cases for Django and Flask along with what makes them unique, from an educational and development standpoint.
 
 (`是也乎:`
 
@@ -68,7 +68,7 @@ Bottle 一生推...
     + REAL PYTHON 
     + video
 
-In this course on Python dictionaries, you’ll cover the basic characteristics of dictionaries and learn how to access and manage dictionary data. Once you’ve finished this course, you’ll have a good sense of when a dictionary is the appropriate data type to use and know how to use it.
+In this course on Python dictionaries, you'll cover the basic characteristics of dictionaries and learn how to access and manage dictionary data. Once you've finished this course, you'll have a good sense of when a dictionary is the appropriate data type to use and know how to use it.
 
 - [Python 3.8.0b3 可用于测试](https://pycoders.com/link/2137/web)
     + PYTHON.ORG
@@ -92,7 +92,7 @@ In this course on Python dictionaries, you’ll cover the basic characteristics 
     + CHRISTIAN MEDINA 
     + • Shared by Christian Medina
 
-Interesting recap of the author’s experience creating a single-file executable of a Python application using four different tools: Cython, Nuitka, PyOxidizer, and PyInstaller.
+Interesting recap of the author's experience creating a single-file executable of a Python application using four different tools: Cython, Nuitka, PyOxidizer, and PyInstaller.
 
 (`是也乎:`
 
@@ -109,7 +109,7 @@ win10 更加没戏...
 )
 
 
-- [从头开始嗯哼神经网络，用Python](https://pycoders.com/link/2130/web)
+- [从头开始嗯哼神经网络,用Python](https://pycoders.com/link/2130/web)
     + VICTOR ZHOU
 
 A 4-post series that provides a fundamentals-oriented approach towards understanding Neural Networks.
@@ -134,7 +134,7 @@ A detailed guide to creating production-ready Docker images for your Python appl
 - [你爱 Python 的 35 个单词](https://pycoders.com/link/2105/web)
     + MICHAEL MOREHOUSE
 
-“I’m going to try, in this post and the ones that follow, to shed some light on the meaning of – and a little of the etymological history behind – the fundamental units of Python fluency. In this first part we will start with the most basic of those units, Python’s 35 keywords.”
+"I'm going to try, in this post and the ones that follow, to shed some light on the meaning of – and a little of the etymological history behind – the fundamental units of Python fluency. In this first part we will start with the most basic of those units, Python's 35 keywords."
 
 
 
@@ -147,7 +147,7 @@ In this tutorial, you will learn how to use Cyclical Learning Rates (CLR) and Ke
 - [深入挖掘 Migrations](https://pycoders.com/link/2126/web)
     + REAL PYTHON
 
-In this step-by-step Python tutorial, you’ll not only take a closer look at the new Django migrations system that is integrated into Django but also walk through the migration files themselves.
+In this step-by-step Python tutorial, you'll not only take a closer look at the new Django migrations system that is integrated into Django but also walk through the migration files themselves.
 
 
 (`是也乎:`
@@ -174,7 +174,7 @@ A tutorial on how best to reason about and structure ETL jobs written for PySpar
 - [有效地生成 Python 哈希冲突](https://pycoders.com/link/2148/web)
     + LEE HOLMES
 
-“While this research demonstrates a fundamental break in the Python 3.2 (or below) hash algorithm, Python fixed this issue 7 years ago. It’s time to upgrade.”
+"While this research demonstrates a fundamental break in the Python 3.2 (or below) hash algorithm, Python fixed this issue 7 years ago. It's time to upgrade."
 
 (`是也乎:`
 
@@ -207,7 +207,7 @@ In this episode of Teaching Python, Sean and Kelly discuss their top 5 favorite 
 
 
 
-- [超越“Hello World”： Kubernetes 中的现代异步 Python](https://pycoders.com/link/2131/web)
+- [超越"Hello World": Kubernetes 中的现代异步 Python](https://pycoders.com/link/2131/web)
     + SEAN STEWART 
     + • Shared by Sean Stewart
 
@@ -219,7 +219,7 @@ K8s 是 google 叕一次统一领域技术思想的杀手...
 )
 
 
-- [用 Python 构建空间站跟踪器，从头开始](https://pycoders.com/link/2142/web)
+- [用 Python 构建空间站跟踪器,从头开始](https://pycoders.com/link/2142/web)
     + DANIEL COHEN
 
 
@@ -254,7 +254,7 @@ K8s 是 google 叕一次统一领域技术思想的杀手...
 ## 好物
 > Interesting Projects, Tools and Libraries, Projects & Code
 
-- [Wait Wait… Don’t Tell Me! Stats and Show Details](https://pycoders.com/link/2103/web)
+- [Wait Wait...  Don't Tell Me! Stats and Show Details](https://pycoders.com/link/2103/web)
     + WWDT.ME
 
 Here, you will find almost everything you might want to know about the NPR news quiz show. Project is written in Python and partially open-source.

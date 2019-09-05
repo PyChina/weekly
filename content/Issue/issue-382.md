@@ -30,7 +30,7 @@ pyenv 是正确的开始.
     + BENJAMIN WOODRUFF 
     + (INSTAGRAM)
 
-Instagram’s back-end is a massive Django app with several million lines of code. This post is about how they’ve used linting and automated refactoring to help manage the scale of their Python codebase.
+Instagram's back-end is a massive Django app with several million lines of code. This post is about how they've used linting and automated refactoring to help manage the scale of their Python codebase.
 
 (`是也乎:`
 
@@ -42,14 +42,14 @@ Instagram’s back-end is a massive Django app with several million lines of cod
 - [为 Python 编写自定义 profilers](https://pycoders.com/link/2323/web)
     + ITAMAR TURNER-TRAURING
 
-In this article you’ll learn how to write custom profilers, and in particular profilers that will help you pinpoint the places in your code where it just sits there waiting.
+In this article you'll learn how to write custom profilers, and in particular profilers that will help you pinpoint the places in your code where it just sits there waiting.
 
 
 
 - [Python Web 框架概述](https://pycoders.com/link/2300/web)
     + STXNEXT.COM
 
-Django, Flask, Pyramid, and many, many others—get an overview of what’s available so you can choose the right Python framework for your web development project.
+Django, Flask, Pyramid, and many, many others—get an overview of what's available so you can choose the right Python framework for your web development project.
 
 - [设计持续构建系统: 用 Sanic 处理 Webhooks](https://pycoders.com/link/2291/web)
     + CHRISTIAN MEDINA 
@@ -89,7 +89,7 @@ PyCon 2020 takes place April 15–23, 2020 in Pittsburgh, PA.
     + TWITTER.COM/LLANGA
 
 
-- [为毛只有讨论 “Pure Python” 却没人BB “Pure Java”, “Pure C”, etc?](https://pycoders.com/link/2294/web)
+- [为毛只有讨论 "Pure Python" 却没人BB "Pure Java", "Pure C", etc?](https://pycoders.com/link/2294/web)
     + REDDIT
 
 (`是也乎:`
@@ -117,13 +117,13 @@ PyCon 2020 takes place April 15–23, 2020 in Pittsburgh, PA.
 - [用 Python 和 Pandas 进行数据清理](https://pycoders.com/link/2290/web)
     + ERIK MARSJA
 
-Learn how to do simplify your data preprocessing work using the Pyjanitor package. More specifically, you’ll learn how to: Add a column to a Pandas dataframe, remove missing values, remove an empty column, and clean up column names.
+Learn how to do simplify your data preprocessing work using the Pyjanitor package. More specifically, you'll learn how to: Add a column to a Pandas dataframe, remove missing values, remove an empty column, and clean up column names.
 
 - [Python 直方图绘图: NumPy, Matplotlib, Pandas & Seaborn](https://pycoders.com/link/2316/web)
     + REAL PYTHON 
     + video
 
-Get equipped to make production-quality, presentation-ready Python histogram plots with a range of choices and features. It’s your one-stop shop for constructing and manipulating histograms with Python’s scientific stack.
+Get equipped to make production-quality, presentation-ready Python histogram plots with a range of choices and features. It's your one-stop shop for constructing and manipulating histograms with Python's scientific stack.
 
 - [Slack <3 Python](https://pycoders.com/link/2274/web)
     + SLACK 
@@ -143,7 +143,7 @@ Slack Python SDK v2 is now available to help you build Slack apps faster with le
     + LEGO.COM 
     + • Shared by Python Bytes FM
 
-“You can now use your EV3 Brick to unleash the power of Python programming using MicroPython. Simply install the EV3 MicroPython image onto any micro SD card and boot up your EV3 Brick from it to start programming straight away.”
+"You can now use your EV3 Brick to unleash the power of Python programming using MicroPython. Simply install the EV3 MicroPython image onto any micro SD card and boot up your EV3 Brick from it to start programming straight away."
 
 
 (`是也乎:`
@@ -170,7 +170,7 @@ Learn how to make a Discord bot in Python and interact with several APIs. See ho
 - [用 PyNode 桥接 Node.js 和 Python 完成房价预测](https://pycoders.com/link/2319/web)
     + ADAM MCQUISTAN
 
-“In this article I demonstrate a novel Node.js package named PyNode used to invoke Python code within a Node.js application and, more importantly, receive Python return types in the calling Node.js application.”
+"In this article I demonstrate a novel Node.js package named PyNode used to invoke Python code within a Node.js application and, more importantly, receive Python return types in the calling Node.js application."
 
 (`是也乎:`
 
@@ -324,7 +324,7 @@ Flutter/Eletron 外来了,也就没 Qt 什么事儿了.
 )
 
 
-- [homer: 使您的文本更清晰，更简单，对读者更有用](https://pycoders.com/link/2307/web)
+- [homer: 使您的文本更清晰,更简单,对读者更有用](https://pycoders.com/link/2307/web)
     + GITHUB.COM/WYOUNAS
 
 

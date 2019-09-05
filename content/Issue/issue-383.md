@@ -14,7 +14,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [您的 CPython 源代码指南](https://pycoders.com/link/2341/web)
     + REAL PYTHON
 
-In this detailed Python tutorial, you’ll explore the CPython source code. By following this step-by-step walkthrough, you’ll take a deep dive into how the CPython compiler works and how your Python code gets executed.
+In this detailed Python tutorial, you'll explore the CPython source code. By following this step-by-step walkthrough, you'll take a deep dive into how the CPython compiler works and how your Python code gets executed.
 
 (`是也乎:`
 
@@ -32,7 +32,7 @@ In this detailed Python tutorial, you’ll explore the CPython source code. By f
 - [函式重构为多个退出点](https://pycoders.com/link/2346/web)
     + MARTIJN FAASSEN
 
-“It’s sometimes claimed that not only should a function have a single entry point, but that it should also have a single exit. One could argue such from sense of mathematical purity. But unless you work in a programming language that combines mathematical purity with convenience […] that point seems moot to me.”
+"It's sometimes claimed that not only should a function have a single entry point, but that it should also have a single exit. One could argue such from sense of mathematical purity. But unless you work in a programming language that combines mathematical purity with convenience [... ] that point seems moot to me."
 
 (`是也乎:`
 
@@ -59,7 +59,7 @@ This is an automated Python 3 support table for the most popular packages. 360 o
 - [到时候摆脱 Python 2](https://pycoders.com/link/2366/web)
     + NCSC.GOV.UK
 
-“Don’t constrict yourself, Python 2 slithers off into the sunset in 2020.”
+"Don't constrict yourself, Python 2 slithers off into the sunset in 2020."
 
 (`是也乎:`
 
@@ -131,14 +131,14 @@ Learn about Python lambda functions and see how they compare with regular functi
     + MATT LAYMAN 
     + • Shared by Matt Layman
 
-“Have you ever needed to mock out a third party service for use in a large testing environment? I recently did, and I used Starlette, a new async Python web framework, to do it. See what Starlette offers!”
+"Have you ever needed to mock out a third party service for use in a large testing environment? I recently did, and I used Starlette, a new async Python web framework, to do it. See what Starlette offers!"
 
 
 
 - [用 Python 实现可视化 insider trading](https://pycoders.com/link/2342/web)
     + JAN L. SCHROEDER
 
-“We use Python to visualize insider trading as reporting in SEC Form 4 filings. Our goal is find patterns to create signals for buy/sell decisions and general risk monitoring of investment portfolios.”
+"We use Python to visualize insider trading as reporting in SEC Form 4 filings. Our goal is find patterns to create signals for buy/sell decisions and general risk monitoring of investment portfolios."
 
 
 
@@ -146,7 +146,7 @@ Learn about Python lambda functions and see how they compare with regular functi
 - [用 openpyxl 在 Python 中编辑 Excel 电子表格](https://pycoders.com/link/2353/web)
     + REAL PYTHON
 
-Learn how to handle spreadsheets in Python using the openpyxl package. You’ll see how to manipulate Excel spreadsheets, extract information from spreadsheets, create simple or more complex spreadsheets, including adding styles, charts, and so on.
+Learn how to handle spreadsheets in Python using the openpyxl package. You'll see how to manipulate Excel spreadsheets, extract information from spreadsheets, create simple or more complex spreadsheets, including adding styles, charts, and so on.
 
 (`是也乎:`
 
@@ -189,7 +189,7 @@ Gunicorn 实在是 WSGI 首选服务容器
 - [左递归 PEG 语法](https://pycoders.com/link/2370/web)
     + GUIDO VAN ROSSUM
 
-Part 5 of Guido’s series on PEG parsers.
+Part 5 of Guido's series on PEG parsers.
 
 
 
@@ -256,7 +256,7 @@ Part 5 of Guido’s series on PEG parsers.
 )
 
 
-- [drf-pretty-update: Django REST框架（DRF）可写嵌套字段](https://pycoders.com/link/2350/web)
+- [drf-pretty-update: Django REST框架(DRF)可写嵌套字段](https://pycoders.com/link/2350/web)
     + GITHUB.COM/YEZYILOMO 
     + • Shared by Yezileli Ilomo
 

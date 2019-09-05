@@ -22,14 +22,14 @@ Lots of bug fixes and small improvements. Full changelog here.
     + JERRY PUSSINEN
 
 
-Playing around with new features in Python 3.8 such as assignment expressions (“walrus operator”), positional-only arguments, and runtime audit hooks.
+Playing around with new features in Python 3.8 such as assignment expressions ("walrus operator"), positional-only arguments, and runtime audit hooks.
 
 
 - [用 Python 读写文件](https://pycoders.com/link/1953/web)
     + REAL PYTHON 
     + video
 
-Learn about reading and writing files in Python from the ground up. You’ll cover everything from what a file is made up of to which libraries can help you along that way. You’ll also take a look at some basic scenarios of file usage as well as some advanced techniques.
+Learn about reading and writing files in Python from the ground up. You'll cover everything from what a file is made up of to which libraries can help you along that way. You'll also take a look at some basic scenarios of file usage as well as some advanced techniques.
 
 - [用 Python 将数据加载到 PostgreSQL 的最快方法](https://pycoders.com/link/1951/web)
     + HAKI BENITA
@@ -81,7 +81,7 @@ Related discussion on Hacker News.
 - [写更多 Pythonic 代码 (学习路径)](https://pycoders.com/link/1959/web)
     + REAL PYTHON
 
-Get a guided tour through Python’s best practices so you can write cleaner, more readable, and more Pythonic code.
+Get a guided tour through Python's best practices so you can write cleaner, more readable, and more Pythonic code.
 
 (`是也乎:`
 
@@ -104,15 +104,15 @@ DDD 在 Python , 其实...
 )
 
 
-- [什么是动态编程？(以 Python 为例)](https://pycoders.com/link/1965/web)
+- [什么是动态编程?(以 Python 为例)](https://pycoders.com/link/1965/web)
     + BRANDON SKERRITT
 
-Dynamic programming is breaking down anproblem into smaller sub-problems, and storing the solution to each sub-problems so we don’t repeat calculations.
+Dynamic programming is breaking down anproblem into smaller sub-problems, and storing the solution to each sub-problems so we don't repeat calculations.
 
 - [Python 帮助系统](https://pycoders.com/link/1996/web)
     + NICHOLAS SAMUEL
 
-In this article, you will learn how to use Python’s built-in help system that you can use to look up documentation directly from within a REPL session.
+In this article, you will learn how to use Python's built-in help system that you can use to look up documentation directly from within a REPL session.
 
 
 (`是也乎:`
@@ -139,11 +139,11 @@ Examples of object-oriented programming (OOP) concepts of abstraction, encapsula
 - [用 Azure 的 Face Detect 和 Python 构建名人相似探测器](https://pycoders.com/link/1977/web)
     + CHRIS MOFFITT
 
-This article describes how to use Microsoft Azure’s Face API with Python to identify faces in images and determine if they are of the same person.
+This article describes how to use Microsoft Azure's Face API with Python to identify faces in images and determine if they are of the same person.
 
 (`是也乎:`
 
-![Azure’s](https://pbpython.com/images/friends_image.png)
+![Azure's](https://pbpython.com/images/friends_image.png)
 
 在AliYun 开放人脸识别半年后, Azure 也开放了...
 
@@ -185,7 +185,7 @@ UDFs 为了兼容 OOXML 一直在拼命
 - [Pentesting / Security World 中最常用的 Python 代码](https://pycoders.com/link/1955/web)
     + KUSHAL DAS
 
-Take a guess…
+Take a guess... 
 
 (`是也乎:`
 
@@ -244,7 +244,7 @@ Julia 是 Tesla.
 > Interesting Projects, Tools and Libraries, Projects & Code
 
 
-- [tiny-tetris: Python 俄罗斯方块 That “Fits on a Business Card”](https://pycoders.com/link/1984/web)
+- [tiny-tetris: Python 俄罗斯方块 That "Fits on a Business Card"](https://pycoders.com/link/1984/web)
     + GITHUB.COM/NICKMPAZ
 
 (`是也乎:`
@@ -284,7 +284,7 @@ Python 程序猿整体失业指日可待?
 )
 
 
-- [HTTP Toolkit: 捕获，查看和探索 Python 代码的 HTTP 流量](https://pycoders.com/link/1981/web)
+- [HTTP Toolkit: 捕获,查看和探索 Python 代码的 HTTP 流量](https://pycoders.com/link/1981/web)
     + HTTPTOOLKIT.TECH 
     + • Shared by Tim Perry
 
@@ -328,7 +328,7 @@ Python 程序猿整体失业指日可待?
     + GITHUB.COM/AIORTC 
     + • Shared by Python Bytes FM
 
-- [flake8-comprehensions: Flake8 插件，可以帮助您更好地理解](https://pycoders.com/link/2001/web)
+- [flake8-comprehensions: Flake8 插件,可以帮助您更好地理解](https://pycoders.com/link/2001/web)
     + GITHUB.COM/ADAMCHAINZ 
     + • Shared by Python Bytes FM
 

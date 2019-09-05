@@ -15,7 +15,7 @@ Tags: Weekly,Python,pycoders,ZH
     + REAL PYTHON 
     + video
 
-In this course on face detection with Python, you’ll learn about a historically important algorithm for object detection that can be successfully applied to finding the location of a human face within an image.
+In this course on face detection with Python, you'll learn about a historically important algorithm for object detection that can be successfully applied to finding the location of a human face within an image.
 
 
 (`是也乎:`
@@ -53,7 +53,7 @@ IoC ~ 委托控制插入...
 - [NumPy 1.17.0 不再支持 Python 2](https://pycoders.com/link/2266/web)
     + MAIL-ARCHIVE.COM
 
-“The 1.17.0 release contains a number of new features that should substantially improve its performance and usefulness. The Python versions supported are 3.5-3.7, note that Python 2.7 has been dropped.”
+"The 1.17.0 release contains a number of new features that should substantially improve its performance and usefulness. The Python versions supported are 3.5-3.7, note that Python 2.7 has been dropped."
 
 (`是也乎:`
 
@@ -65,7 +65,7 @@ IoC ~ 委托控制插入...
 - [print() 函式深挖 (17,000 字指南)](https://pycoders.com/link/2257/web)
     + REAL PYTHON
 
-Learn all there is to know about the print() function in Python and discover some of its lesser-known features. Avoid common mistakes, take your “hello world” to the next level, and know when to use a better alternative.
+Learn all there is to know about the print() function in Python and discover some of its lesser-known features. Avoid common mistakes, take your "hello world" to the next level, and know when to use a better alternative.
 
 (`是也乎:`
 
@@ -108,7 +108,7 @@ An opinionated guide to tooling in Python covering pyenv, poetry, black, flake8,
 > Discussions
 
 
-- [云端远程/结对编程工具？?](https://pycoders.com/link/2248/web)
+- [云端远程/结对编程工具??](https://pycoders.com/link/2248/web)
     + MAIL.PYTHON.ORG
 
 (`是也乎:`
@@ -162,7 +162,7 @@ I have surveyed various cloud-based services:
 )
 
 
-- [作为一名专家，您建议初学Python程序员避免哪些不良习惯?](https://pycoders.com/link/2259/web)
+- [作为一名专家,您建议初学Python程序员避免哪些不良习惯?](https://pycoders.com/link/2259/web)
     + REDDIT
 
 
@@ -199,7 +199,7 @@ I have surveyed various cloud-based services:
 - [继承和组合: Python OOP指南](https://pycoders.com/link/2267/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn about inheritance and composition in Python. You’ll improve your object oriented programming skills by understanding how to use inheritance and composition and how to leverage them in their design.
+In this step-by-step tutorial, you'll learn about inheritance and composition in Python. You'll improve your object oriented programming skills by understanding how to use inheritance and composition and how to leverage them in their design.
 
 
 (`是也乎:`
@@ -260,7 +260,7 @@ A beginner-friendly guide on using Keras to implement a simple Convolutional Neu
 - [每个开发人员应该尽早学到什么](https://pycoders.com/link/2270/web)
     + RYLAND GOLDSTEIN
 
-“These are a few of the things I wish they were teaching at university instead of pure theory.”
+"These are a few of the things I wish they were teaching at university instead of pure theory."
 
 (`是也乎:`
 
@@ -271,7 +271,7 @@ A beginner-friendly guide on using Keras to implement a simple Convolutional Neu
 - [Python + OpenCV 创建交互式投影界面](https://pycoders.com/link/2243/web)
     + TSUKURU.CLUB
 
-“Computer vision + music = life-sized rhythm games”
+"Computer vision + music = life-sized rhythm games"
 
 (`是也乎:`
 
@@ -306,7 +306,7 @@ A beginner-friendly guide on using Keras to implement a simple Convolutional Neu
 - [austin: 帧堆采样器 for CPython](https://pycoders.com/link/2256/web)
     + GITHUB.COM/P403N1X87
 
-“The most interesting use of Austin is probably in conjunction with FlameGraph to profile Python applications while they are running, without the need of instrumentation. This means that Austin can be used on production code with little or even no impact on performance.”
+"The most interesting use of Austin is probably in conjunction with FlameGraph to profile Python applications while they are running, without the need of instrumentation. This means that Austin can be used on production code with little or even no impact on performance."
 
 
 (`是也乎:`
@@ -346,7 +346,7 @@ A beginner-friendly guide on using Keras to implement a simple Convolutional Neu
 - [LibCST: 具体语法树分析器和序列化器库](https://pycoders.com/link/2247/web)
     + GITHUB.COM/INSTAGRAM
 
-Parses Python 3.7 source code as a CST tree that keeps all formatting details (comments, whitespaces, parentheses, etc). It’s useful for building automated refactoring (codemod) applications and linters.
+Parses Python 3.7 source code as a CST tree that keeps all formatting details (comments, whitespaces, parentheses, etc). It's useful for building automated refactoring (codemod) applications and linters.
 
 (`是也乎:`
 

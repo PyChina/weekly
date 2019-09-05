@@ -15,7 +15,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [创建用 Google 登录的 Flask 应用程序](https://pycoders.com/link/2057/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll create a Flask application that lets users sign in using their Google login. You’ll learn about OAuth 2 and OpenID Connect and also find out how to implement some code to handle user session management.
+In this step-by-step tutorial, you'll create a Flask application that lets users sign in using their Google login. You'll learn about OAuth 2 and OpenID Connect and also find out how to implement some code to handle user session management.
 
 (`是也乎:`
 
@@ -31,7 +31,7 @@ In this step-by-step tutorial, you’ll create a Flask application that lets use
 - [Guido 有关 Python 上 PEG Parsers](https://pycoders.com/link/2086/web)
     + GUIDO VAN ROSSUM
 
-“Some years ago someone asked whether it would make sense to switch Python to a PEG parser. […] I looked into it a bit and wasn’t sure what to think, so I dropped the subject. Recently I’ve learned more about PEG (Parsing Expression Grammars), and I now think it’s an interesting alternative to the home-grown parser generator that I developed 30 years ago when I started working on Python.”
+"Some years ago someone asked whether it would make sense to switch Python to a PEG parser. [... ] I looked into it a bit and wasn't sure what to think, so I dropped the subject. Recently I've learned more about PEG (Parsing Expression Grammars), and I now think it's an interesting alternative to the home-grown parser generator that I developed 30 years ago when I started working on Python."
 
 (`是也乎:`
 
@@ -46,7 +46,7 @@ In this step-by-step tutorial, you’ll create a Flask application that lets use
 - [Pip 决定前前兼容 Python 2.x](https://pycoders.com/link/2050/web)
     + PYPA.IO
 
-“pip will continue to ensure that it runs on Python 2.7 after the CPython 2.7 EOL date. Support for Python 2.7 will be dropped, if bugs in Python 2.7 itself make this necessary (which is unlikely) or Python 2 usage reduces to a level where pip maintainers feel it is OK to drop support. The same approach is used to determine when to drop support for other Python versions.”
+"pip will continue to ensure that it runs on Python 2.7 after the CPython 2.7 EOL date. Support for Python 2.7 will be dropped, if bugs in Python 2.7 itself make this necessary (which is unlikely) or Python 2 usage reduces to a level where pip maintainers feel it is OK to drop support. The same approach is used to determine when to drop support for other Python versions."
 
 (`是也乎:`
 
@@ -62,7 +62,7 @@ In this step-by-step tutorial, you’ll create a Flask application that lets use
     + REAL PYTHON 
     + video
 
-Python provides a logging system as a part of its standard library, so you can quickly add logging to your application. In this course, you’ll learn why using this module is the best way to add logging to your application as well as how to get started quickly, and you will get an introduction to some of the advanced features available.
+Python provides a logging system as a part of its standard library, so you can quickly add logging to your application. In this course, you'll learn why using this module is the best way to add logging to your application as well as how to get started quickly, and you will get an introduction to some of the advanced features available.
 
 (`是也乎:`
 
@@ -78,7 +78,7 @@ Python provides a logging system as a part of its standard library, so you can q
     + KOMU WAIRAGU 
     + • Shared by Komu Wairagu
 
-“A delayed job processor (also called a background processor, asynchronous task queue, etc.) is a software system that can run code at a later time. Examples of such software includes Celery, Resque, Sidekiq, and others. In this post we will try and understand how these things work by building a clone/replica of such software.”
+"A delayed job processor (also called a background processor, asynchronous task queue, etc.) is a software system that can run code at a later time. Examples of such software includes Celery, Resque, Sidekiq, and others. In this post we will try and understand how these things work by building a clone/replica of such software."
 
 - [简化您的 Python 开发人员环境](https://pycoders.com/link/2067/web)
     + MASON EGGER 
@@ -102,7 +102,7 @@ Three tools (pyenv, pipx, pipenv) make for smooth, isolated, reproducible Python
 - [针对还没发布的 Python 3.8 特性的最佳实践来了](https://pycoders.com/link/2063/web)
     + RAYMOND HETTINGER
 
-“As a Python 3.8 learning exercise, I’m using the walrus operator, / notation, and f= at every opportunity and then evaluating the result for clarity.”
+"As a Python 3.8 learning exercise, I'm using the walrus operator, / notation, and f= at every opportunity and then evaluating the result for clarity."
 
 (`是也乎:`
 
@@ -116,9 +116,9 @@ Three tools (pyenv, pipx, pipenv) make for smooth, isolated, reproducible Python
 - [在没有导入 NumPy 的情况下从 Pandas 使用 NumPy](https://pycoders.com/link/2097/web)
     + TWITTER.COM/JUSTMARKHAM
 
-“Want to use NumPy without importing it? You can access all of its functionality from within pandas…”
+"Want to use NumPy without importing it? You can access all of its functionality from within pandas... "
 
-- [Writing the Digits of Pi Backwards…in Python?](https://pycoders.com/link/2082/web)
+- [Writing the Digits of Pi Backwards... in Python?](https://pycoders.com/link/2082/web)
     + REDDIT
 
 ;-)
@@ -133,7 +133,7 @@ Three tools (pyenv, pipx, pipenv) make for smooth, isolated, reproducible Python
     + ALEKSEY BILOGUR 
     + • Shared by Aleksey Bilogur
 
-“In this article I want to discuss mixins: what they are, how they work, and when they’re useful. Hopefully after reading this brief article you will be ready to experiment with this pattern yourself in your own projects.”
+"In this article I want to discuss mixins: what they are, how they work, and when they're useful. Hopefully after reading this brief article you will be ready to experiment with this pattern yourself in your own projects."
 
 (`是也乎:`
 
@@ -144,13 +144,13 @@ Three tools (pyenv, pipx, pipenv) make for smooth, isolated, reproducible Python
 - [Keras Learning Rate Schedules and Decay](https://pycoders.com/link/2088/web)
     + ADRIAN ROSEBROCK
 
-In this tutorial, you will learn about learning rate schedules and decay using Keras. You’ll learn how to use Keras’ standard learning rate decay along with step-based, linear, and polynomial learning rate schedules.
+In this tutorial, you will learn about learning rate schedules and decay using Keras. You'll learn how to use Keras' standard learning rate decay along with step-based, linear, and polynomial learning rate schedules.
 
 
 - [如何用 np.arange()](https://pycoders.com/link/2076/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn how to use the NumPy arange() function, which is one of the routines for array creation based on numerical ranges. np.arange() returns arrays with evenly spaced values.
+In this step-by-step tutorial, you'll learn how to use the NumPy arange() function, which is one of the routines for array creation based on numerical ranges. np.arange() returns arrays with evenly spaced values.
 
 (`是也乎:`
 
@@ -197,7 +197,7 @@ Why running migrations on application startup are a bad idea (potential database
 - [来构建一个简单的解释器: 识别过程调用](https://pycoders.com/link/2078/web)
     + RUSLAN SPIVAK
 
-Part 16 in Ruslan’s amazing tutorial series on building a scripting language interpreter using Python, from scratch.
+Part 16 in Ruslan's amazing tutorial series on building a scripting language interpreter using Python, from scratch.
 
 
 (`是也乎:`
@@ -213,7 +213,7 @@ Part 16 in Ruslan’s amazing tutorial series on building a scripting language i
 - [实用生产 Python 脚本](https://pycoders.com/link/2056/web)
     + DAN CONNOLLY
 
-A step-by-step refactoring journey from simple fizzbuzz script to a cleaned up and “production-ready” piece of code.
+A step-by-step refactoring journey from simple fizzbuzz script to a cleaned up and "production-ready" piece of code.
 
 (`是也乎:`
 
@@ -293,7 +293,7 @@ CLI 的潜力远没发挥
 
 )
 
-- [preper: 波斯语（波斯语）预处理Python模块](https://pycoders.com/link/2083/web)
+- [preper: 波斯语(波斯语)预处理Python模块](https://pycoders.com/link/2083/web)
     + GITHUB.COM/ALIIE62 
     + • Shared by Ali Hosseini
 
