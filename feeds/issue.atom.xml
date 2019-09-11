@@ -436,7 +436,11 @@ XKCD 都嗯哼了好几次...
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;NN 3767&lt;/p&gt;
-&lt;/blockquote&gt;</content><category term="Weekly"></category><category term="Python"></category><category term="pycoders"></category><category term="ZH"></category></entry><entry><title>Issue 384</title><link href="http://weekly.pychina.org/issue/issue-384.html" rel="alternate"></link><published>2019-09-04T14:42:00+08:00</published><updated>2019-09-04T14:42:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2019-09-04:/issue/issue-384.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/384"&gt;PyCoder's Weekly - Issue #384&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/issue/issue-385.html"&gt;Issue 385 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;改进: &lt;a href="https://github.com/PyChina/weekly/blob/master/content/Issue/issue-385.md"&gt;issue-385.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Weekly"></category><category term="Python"></category><category term="pycoders"></category><category term="ZH"></category></entry><entry><title>Issue 384</title><link href="http://weekly.pychina.org/issue/issue-384.html" rel="alternate"></link><published>2019-09-04T14:42:00+08:00</published><updated>2019-09-04T14:42:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2019-09-04:/issue/issue-384.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/384"&gt;PyCoder's Weekly - Issue #384&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
