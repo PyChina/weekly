@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 04 Sep 2019 14:42:00 +0800</lastBuildDate><item><title>Issue 384</title><link>http://weekly.pychina.org/issue/issue-384.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/384"&gt;PyCoder's Weekly - Issue #384&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 11 Sep 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 385</title><link>http://weekly.pychina.org/issue/issue-385.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/385"&gt;PyCoder's Weekly - Issue #385&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/2456/web"&gt;Python 登顶 “IEEE Top Programming Languages of 2019” 排名&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;IEEE.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python’s growth in popularity has been incredible. This list is interesting because it allows you to adjust the weights for the various factors that determine the ranking.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;国内早已大吼了...&lt;/p&gt;
+&lt;p&gt;实在是其它语言, 对快速变化的混乱数据一直并没什么关注,
+反而一直在一线和各种混乱共处的 Python …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 11 Sep 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-09-11:/issue/issue-385.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 384</title><link>http://weekly.pychina.org/issue/issue-384.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/384"&gt;PyCoder's Weekly - Issue #384&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -15,7 +28,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this step-by-step tutorial, you’ll learn how to use spaCy. This free and open-source library for Natural Language Processing (NLP) in …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 04 Sep 2019 14:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-09-04:/issue/issue-384.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 383</title><link>http://weekly.pychina.org/issue/issue-383.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/383"&gt;PyCoder's Weekly - Issue #383&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In this step-by-step tutorial, you'll learn how to use spaCy. This free and open-source library for Natural Language Processing (NLP) in Python …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 04 Sep 2019 14:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-09-04:/issue/issue-384.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 383</title><link>http://weekly.pychina.org/issue/issue-383.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/383"&gt;PyCoder's Weekly - Issue #383&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -24,11 +37,12 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this detailed Python tutorial, you’ll explore the CPython source code. By following this step-by-step walkthrough, you’ll take a deep dive into how the CPython compiler works and how your Python code gets executed.&lt;/p&gt;
+&lt;p&gt;In this detailed Python tutorial, you'll explore the CPython source code. By following this step-by-step walkthrough, you'll take a deep dive into how the CPython compiler works and how your Python code gets executed.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="大图..." src="https://files.realpython.com/media/Screen_Shot_2019-03-12_at_2.31.16_pm.f36c3e99b8b4.png"&gt;&lt;/p&gt;
 &lt;p&gt;结合多年前的源代码鉴赏就知道,
-源代码, 想看一定能看懂 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 28 Aug 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-08-28:/issue/issue-383.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 382</title><link>http://weekly.pychina.org/issue/issue-382.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/382"&gt;PyCoder's Weekly - Issue #382&lt;/a&gt;&lt;/p&gt;
+源代码, 想看一定能看懂, 
+就好比, 建筑师通过复杂计算 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 28 Aug 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-08-28:/issue/issue-383.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 382</title><link>http://weekly.pychina.org/issue/issue-382.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/382"&gt;PyCoder's Weekly - Issue #382&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -53,10 +67,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this course on face detection with Python, you’ll learn about a historically important algorithm for object detection that can be successfully applied to finding the location of a human face within an image.&lt;/p&gt;
+&lt;p&gt;In this course on face detection with Python, you'll learn about a historically important algorithm for object detection that can be successfully applied to finding the location of a human face within an image.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Face Detection" src="https://ipic.zoomquiet.top/2019-08-14-ScreenShot%202019-08-14%2010.44.51.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;当然 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 14 Aug 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-08-14:/issue/issue-381.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 380</title><link>http://weekly.pychina.org/issue/issue-380.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/380"&gt;PyCoder's Weekly - Issue #380&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当然, 现在 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 14 Aug 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-08-14:/issue/issue-381.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 380</title><link>http://weekly.pychina.org/issue/issue-380.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/380"&gt;PyCoder's Weekly - Issue #380&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -65,8 +79,9 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Learn what you need to know to manage users in Django admin. Out of the box, Django admin doesn’t enforce special restrictions on the user admin. This can lead to dangerous scenarios that might compromise your system.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎 …&lt;/code&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 07 Aug 2019 15:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-08-07:/issue/issue-380.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 379</title><link>http://weekly.pychina.org/issue/issue-379.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/379"&gt;PyCoder's Weekly - Issue #379&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Learn what you need to know to manage users in Django admin. Out of the box, Django admin doesn't enforce special restrictions on the user admin. This can lead to dangerous scenarios that might compromise your system.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;当年的时尚 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 07 Aug 2019 15:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-08-07:/issue/issue-380.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 379</title><link>http://weekly.pychina.org/issue/issue-379.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/379"&gt;PyCoder's Weekly - Issue #379&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -75,7 +90,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;“The Python 3.8 beta cycle is already underway, with Python 3.8.0b1 released on June 4, followed by the second beta on July 4. That means that Python 3.8 is feature complete at this point …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Thu, 01 Aug 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-08-01:/issue/issue-379.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 378</title><link>http://weekly.pychina.org/issue/issue-378.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/378"&gt;PyCoder's Weekly - Issue #378&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;"The Python 3.8 beta cycle is already underway, with Python 3.8.0b1 released on June 4, followed by the second beta on July 4. That means that Python 3.8 is feature complete at this point …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Thu, 01 Aug 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-08-01:/issue/issue-379.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 378</title><link>http://weekly.pychina.org/issue/issue-378.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/378"&gt;PyCoder's Weekly - Issue #378&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -84,7 +99,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this step-by-step tutorial, you’ll create a Flask application that lets users sign in using their Google login. You’ll learn about OAuth 2 and OpenID Connect and also find out how to implement some code to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 24 Jul 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-07-24:/issue/issue-378.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 377</title><link>http://weekly.pychina.org/issue/issue-377.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/377"&gt;PyCoder's Weekly - Issue #377&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In this step-by-step tutorial, you'll create a Flask application that lets users sign in using their Google login. You'll learn about OAuth 2 and OpenID Connect and also find out how to implement some code to handle user …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 24 Jul 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-07-24:/issue/issue-378.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 377</title><link>http://weekly.pychina.org/issue/issue-377.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/377"&gt;PyCoder's Weekly - Issue #377&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -93,7 +108,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this tutorial, you’ll learn about collaborative filtering, which is one of the most common approaches for building recommender systems. You’ll cover the various types of algorithms that fall under this category and see how to implement …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 17 Jul 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-07-17:/issue/issue-377.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 376</title><link>http://weekly.pychina.org/issue/issue-376.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/376"&gt;PyCoder's Weekly - Issue #376&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In this tutorial, you'll learn about collaborative filtering, which is one of the most common approaches for building recommender systems. You'll cover the various types of algorithms that fall under this category and see how to implement them in …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 17 Jul 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-07-17:/issue/issue-377.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 376</title><link>http://weekly.pychina.org/issue/issue-376.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/376"&gt;PyCoder's Weekly - Issue #376&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -109,7 +124,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Playing around with new features in Python 3.8 such as assignment expressions (“walrus operator”), positional-only arguments, and runtime audit hooks …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 10 Jul 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-07-10:/issue/issue-376.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 375</title><link>http://weekly.pychina.org/issue/issue-375.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/375"&gt;PyCoder's Weekly - Issue #375&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Playing around with new features in Python 3.8 such as assignment expressions ("walrus operator"), positional-only arguments, and runtime audit hooks …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 10 Jul 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-07-10:/issue/issue-376.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 375</title><link>http://weekly.pychina.org/issue/issue-375.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/375"&gt;PyCoder's Weekly - Issue #375&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -118,7 +133,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;“Łukasz Langa, who is the release manager for the upcoming 3.8 release, as well as the manager for the date-to-be-determined release of 3.9, has proposed PEP 596 (“Python 3.9 Release Schedule (doubling the release cadence)”). As its …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 03 Jul 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-07-03:/issue/issue-375.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 374</title><link>http://weekly.pychina.org/issue/issue-374.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/374"&gt;PyCoder's Weekly - Issue #374&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;"Łukasz Langa, who is the release manager for the upcoming 3.8 release, as well as the manager for the date-to-be-determined release of 3.9, has proposed PEP 596 ("Python 3.9 Release Schedule (doubling the release cadence)"). As its …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 03 Jul 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-07-03:/issue/issue-375.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 374</title><link>http://weekly.pychina.org/issue/issue-374.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/374"&gt;PyCoder's Weekly - Issue #374&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -127,14 +142,15 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this step-by-step tutorial, you’ll learn about Python lambda functions. You’ll see how they compare with regular functions and how you can use them in accordance with best practices.&lt;/p&gt;
+&lt;p&gt;In this step-by-step tutorial, you'll learn about Python lambda functions. You'll see how they compare with regular functions and how you can use them in accordance with best practices.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Lambda" src="https://ipic.zoomquiet.top/2019-06-26-ScreenShot%202019-06-26%2011.17.41.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;简单说, 用在应该用的地方就好&lt;/p&gt;
 &lt;p&gt;)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://pycoders.com/link/1903/web"&gt;如何在 Python 中轻松嗯哼进度条&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;CODINGDOSE.INFO …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 26 Jun 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-06-26:/issue/issue-374.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 373</title><link>http://weekly.pychina.org/issue/issue-373.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/373"&gt;PyCoder's Weekly - Issue #373&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;CODINGDOSE.INFO &lt;/li&gt;
+&lt;li&gt;• Shared by …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 26 Jun 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-06-26:/issue/issue-374.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 373</title><link>http://weekly.pychina.org/issue/issue-373.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/373"&gt;PyCoder's Weekly - Issue #373&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
