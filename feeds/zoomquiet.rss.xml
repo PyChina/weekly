@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 11 Sep 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 385</title><link>http://weekly.pychina.org/issue/issue-385.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/385"&gt;PyCoder's Weekly - Issue #385&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;190911 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;190911 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://pycoders.com/link/2456/web"&gt;Python 登顶 “IEEE Top Programming Languages of 2019” 排名&lt;/a&gt;&lt;ul&gt;
@@ -8,11 +12,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Python’s growth in popularity has been incredible. This list is interesting because it allows you to adjust the weights for the various factors that determine the ranking.&lt;/p&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;国内早已大吼了...&lt;/p&gt;
-&lt;p&gt;实在是其它语言, 对快速变化的混乱数据一直并没什么关注,
-反而一直在一线和各种混乱共处的 Python …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 11 Sep 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-09-11:/issue/issue-385.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 384</title><link>http://weekly.pychina.org/issue/issue-384.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/384"&gt;PyCoder's Weekly - Issue #384&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Python’s growth in popularity has been incredible. This list is interesting because it allows you to adjust …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 11 Sep 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-09-11:/issue/issue-385.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 384</title><link>http://weekly.pychina.org/issue/issue-384.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/384"&gt;PyCoder's Weekly - Issue #384&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="realpython" src="https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
