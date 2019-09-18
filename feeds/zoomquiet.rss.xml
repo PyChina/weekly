@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 11 Sep 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 385</title><link>http://weekly.pychina.org/issue/issue-385.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/385"&gt;PyCoder's Weekly - Issue #385&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 18 Sep 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 386</title><link>http://weekly.pychina.org/issue/issue-386.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/386"&gt;PyCoder's Weekly - Issue #386&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;190918 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;190918 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/2515/web"&gt;Call for Proposals for PyCon 2020 Is Open&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYCON.BLOGSPOT.COM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The submission deadlines are: Tutorial proposals are due November 22, 2019. Talk, Charlas, Poster, and Education Summit proposals …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 18 Sep 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-09-18:/issue/issue-386.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 385</title><link>http://weekly.pychina.org/issue/issue-385.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/385"&gt;PyCoder's Weekly - Issue #385&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;190911 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
