@@ -6,7 +6,10 @@ Tags: Weekly,Python,pycoders,ZH
 
 原文: [PyCoder's Weekly - Issue #385](https://pycoders.com/issues/385)
 
-![realpython](https://img.realpython.net/3b531c6b64e7b41603a68ad2d1d535fb)
+![PyCoder](https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5)
+
+- 190911 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译
+- 190911 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 17 分钟 完成格式转抄.
 
 ------
 
@@ -266,7 +269,7 @@ Part 7 of Guido’s series on PEG parsers.
 
 已有同步翻译...良心系列...不明觉厉
 
-
+翻译项目在 -> [chinesehuazhou/guido_blog_translation: 翻译 Guido 的解析器系列文章](https://github.com/chinesehuazhou/guido_blog_translation)
 
 )
 
@@ -433,13 +436,9 @@ Part 7 of Guido’s series on PEG parsers.
 
 
 # 是也乎
-
-- 190911 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译
-- 190911 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 17 分钟 完成格式转抄.
-
-
 > NN 3767
 
-
+- 首发: [Issue 385 ~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/issue/issue-385.html)
+- 改进: [issue-385.md](https://github.com/PyChina/weekly/blob/master/content/Issue/issue-385.md)
 
 
