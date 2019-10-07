@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 25 Sep 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 387</title><link>http://weekly.pychina.org/issue/issue-387.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/387"&gt;PyCoder's Weekly - Issue #387&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sun, 06 Oct 2019 21:42:00 +0800</lastBuildDate><item><title>Issue 388</title><link>http://weekly.pychina.org/issue/issue-388.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;NASA实锤对比Py和多种主力数据科学语言&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/383"&gt;PyCoder's Weekly - Issue #388&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;191006 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;191006 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/2577/web"&gt;Python 中如何用 Generators 和 Yield&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn about generators and yielding in Python. You'll create generator functions and generator expressions using multiple Python yield statements. You'll also …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Sun, 06 Oct 2019 21:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-10-06:/issue/issue-388.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 387</title><link>http://weekly.pychina.org/issue/issue-387.html</link><description>&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/387"&gt;PyCoder's Weekly - Issue #387&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;190925 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
