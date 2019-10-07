@@ -20,7 +20,7 @@ Tags: Weekly,Python,pycoders,ZH
     + REAL PYTHON 
     + video
 
-Learn the basics of using pdb, Python’s interactive source code debugger. pdb is a great tool for tracking down hard-to-find bugs, and it allows you to fix faulty code more quickly.
+Learn the basics of using pdb, Python's interactive source code debugger. pdb is a great tool for tracking down hard-to-find bugs, and it allows you to fix faulty code more quickly.
 
 (`是也乎:`
 
@@ -35,7 +35,7 @@ Learn the basics of using pdb, Python’s interactive source code debugger. pdb 
 - [H如何验证 PyPI 是否信任?](https://pycoders.com/link/2555/web)
     + BRETT CANNON
 
-“A co-worker of mine attended a technical talk about how Go’s module mirror works and he asked me whether there was something there that Python should do.”
+"A co-worker of mine attended a technical talk about how Go's module mirror works and he asked me whether there was something there that Python should do."
 
 (`是也乎:`
 
@@ -59,7 +59,7 @@ Also see the related discussion on Reddit.
 )
 
 
-- [What’s in a Name? Tales of Python, Perl, and the GIMP](https://pycoders.com/link/2553/web)
+- [What's in a Name? Tales of Python, Perl, and the GIMP](https://pycoders.com/link/2553/web)
     + SVEN GREGORI
 
 Fun read about the challenges of naming and renaming open-source projects.
@@ -116,7 +116,7 @@ conda 系做到热议...这真的是挖到了一个刚需...
 - [Python 异步入门](https://pycoders.com/link/2536/web)
     + REAL PYTHON
 
-Get the tools you need to start making asynchronous programming techniques a part of your repertoire. You’ll learn how to use Python async features to take advantage of IO processes and free up your CPU.
+Get the tools you need to start making asynchronous programming techniques a part of your repertoire. You'll learn how to use Python async features to take advantage of IO processes and free up your CPU.
 
 (`是也乎:`
 
@@ -132,7 +132,7 @@ Get the tools you need to start making asynchronous programming techniques a par
     + BEN FREDERICKSON 
     + opinion
 
-“Pretty much every Python programmer out there has broken down at one point and and used the ‘pickle’ module for writing objects out to disk. […] However, using pickle is still a terrible idea that should be avoided whenever possible.”
+"Pretty much every Python programmer out there has broken down at one point and and used the 'pickle' module for writing objects out to disk. [... ] However, using pickle is still a terrible idea that should be avoided whenever possible."
 
 (`是也乎:`
 
@@ -145,7 +145,7 @@ Get the tools you need to start making asynchronous programming techniques a par
 - [设计CI / CD系统: 带有子流程的命令执行技巧](https://pycoders.com/link/2549/web)
     + CRISTIAN MEDINA
 
-Use Python’s subprocess module to execute instructions inside a Docker container that builds and tests your code in an automated CI/CD system.
+Use Python's subprocess module to execute instructions inside a Docker container that builds and tests your code in an automated CI/CD system.
 
 (`是也乎:`
 
@@ -186,7 +186,7 @@ Learn all about Thonny, a free Python Integrated Development Environment (IDE) t
 - [放置 matplotlib 标题](https://pycoders.com/link/2547/web)
     + RTWILSON.COM
 
-Matplotlib titles have configurable locations. And you can have more than one at once… This short tutorial shows you how to use this feature.
+Matplotlib titles have configurable locations. And you can have more than one at once...  This short tutorial shows you how to use this feature.
 
 (`是也乎:`
 
@@ -215,7 +215,7 @@ Analyzing Game of Thrones data to identify character importance, factions and ge
 - [10分钟内学习函式 Python](https://pycoders.com/link/2539/web)
     + BRANDON SKERRITT
 
-You’ll learn what the functional paradigm is as well as how to use the basics of functional programming in Python.
+You'll learn what the functional paradigm is as well as how to use the basics of functional programming in Python.
 
 
 (`是也乎:`
@@ -299,7 +299,7 @@ Comparison grids to help you find great Python packages for your projects.
 - [mininet: 用于软件定义网络的快速原型仿真器](https://pycoders.com/link/2545/web)
     + GITHUB.COM/MININET
 
-- [Gooey: 只需一行即可将（几乎）任何 Python CLI 程序转换为完整 GUI 应用程序](https://pycoders.com/link/2543/web)
+- [Gooey: 只需一行即可将(几乎)任何 Python CLI 程序转换为完整 GUI 应用程序](https://pycoders.com/link/2543/web)
     + GITHUB.COM/CHRISKIEHL
 
 (`是也乎:`
@@ -385,7 +385,7 @@ Comparison grids to help you find great Python packages for your projects.
 
 纯线上周任务通关:
 
-> PyWeek 28 challenge: “Tower”
+> PyWeek 28 challenge: "Tower"
 
 )
 

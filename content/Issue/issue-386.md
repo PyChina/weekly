@@ -37,7 +37,7 @@ The submission deadlines are: Tutorial proposals are due November 22, 2019. Talk
     + REAL PYTHON
 
 
-Explore the similarities and differences you’ll find when comparing Python vs C++. You’ll learn about memory management, virtual machines, object-oriented programming differences, and much more.
+Explore the similarities and differences you'll find when comparing Python vs C++. You'll learn about memory management, virtual machines, object-oriented programming differences, and much more.
 
 
 (`是也乎:`
@@ -64,7 +64,7 @@ A draft PEP that proposes adding a new fully persistent and immutable mapping ty
 - [Java Primer for Python Developers](https://pycoders.com/link/2496/web)
     + MAX MAUTNER
 
-“There are large distinctions between the two programming languages, but I’ll try to give the most notable that I encountered–as I approached Java from a Python-heavy background.”
+"There are large distinctions between the two programming languages, but I'll try to give the most notable that I encountered–as I approached Java from a Python-heavy background."
 
 - [The Boring Technology Behind a One-Person Internet Company](https://pycoders.com/link/2499/web)
     WENBING FANG
@@ -116,7 +116,7 @@ Also see the related discussion on Hacker News.
 - [PyGame: A Primer on Game Programming in Python](https://pycoders.com/link/2518/web)
     + REAL PYTHON
 
-Learn how to use PyGame. This library allows you to create games and rich multimedia programs in Python. You’ll see how to draw items on your screen, implement collision detection, handle user input, and much more!
+Learn how to use PyGame. This library allows you to create games and rich multimedia programs in Python. You'll see how to draw items on your screen, implement collision detection, handle user input, and much more!
 
 
 (`是也乎:`
@@ -128,10 +128,10 @@ Learn how to use PyGame. This library allows you to create games and rich multim
 
 )
 
-- [How “Export to Excel” Almost Killed Our System](https://pycoders.com/link/2494/web)
+- [How "Export to Excel" Almost Killed Our System](https://pycoders.com/link/2494/web)
     + HAKI BENITA
 
-“Inspired by an actual incident we had in one of our systems caused by an Export to Excel functionality implemented in Python, we go through the process of identifying the problem, experimenting and benchmarking different solutions.”
+"Inspired by an actual incident we had in one of our systems caused by an Export to Excel functionality implemented in Python, we go through the process of identifying the problem, experimenting and benchmarking different solutions."
 
 (`是也乎:`
 
@@ -140,10 +140,10 @@ Learn how to use PyGame. This library allows you to create games and rich multim
 )
 
 
-- [JPMorgan’s Athena Has 35 Million Lines of Python 2 Code, and Won’t Be Updated to Python 3 in Time](https://pycoders.com/link/2517/web)
+- [JPMorgan's Athena Has 35 Million Lines of Python 2 Code, and Won't Be Updated to Python 3 in Time](https://pycoders.com/link/2517/web)
     + JAMES SANDERS
 
-“With 35 million lines of Python code, the Athena trading platform is at the core of JPMorgan’s business operations. A late start to migrating to Python 3 could create a security risk.”
+"With 35 million lines of Python code, the Athena trading platform is at the core of JPMorgan's business operations. A late start to migrating to Python 3 could create a security risk."
 
 
 (`是也乎:`
@@ -152,10 +152,10 @@ JP魔根曰了, 俺不升级...
 
 )
 
-- [Should You Use “Dot Notation” or “Bracket Notation” With Pandas?](https://pycoders.com/link/2510/web)
+- [Should You Use "Dot Notation" or "Bracket Notation" With Pandas?](https://pycoders.com/link/2510/web)
     + KEVIN MARKHAM
 
-There are two ways to select a Series from a DataFrame: “dot notation” and “bracket notation” (square brackets). Find out which one you should use, and why.
+There are two ways to select a Series from a DataFrame: "dot notation" and "bracket notation" (square brackets). Find out which one you should use, and why.
 
 (`是也乎:`
 
@@ -164,10 +164,10 @@ There are two ways to select a Series from a DataFrame: “dot notation” and �
 )
 
 
-- [LEGB? Meet ICPO, Python’s Search Strategy for Attributes](https://pycoders.com/link/2505/web)
+- [LEGB? Meet ICPO, Python's Search Strategy for Attributes](https://pycoders.com/link/2505/web)
     + REUVEN LERNER
 
-How Python looks up object attributes like obj.name using a “instance, class, parent, object” search algorithm.
+How Python looks up object attributes like obj.name using a "instance, class, parent, object" search algorithm.
 
 (`是也乎:`
 
@@ -188,10 +188,10 @@ Why you should (almost) never delete a bad release from PyPI—and what to do as
 )
 
 
-- [Python Does What?! Welcome to the float Zone…](https://pycoders.com/link/2498/web)
+- [Python Does What?! Welcome to the float Zone... ](https://pycoders.com/link/2498/web)
     + PYTHONDOESWHAT.COM
 
-A Python “gotcha” involving floating point numbers and tuples.
+A Python "gotcha" involving floating point numbers and tuples.
 
 
 (`是也乎:`

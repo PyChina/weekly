@@ -15,10 +15,10 @@ Tags: Weekly,Python,pycoders,ZH
 
 
 
-- [Python 登顶 “IEEE Top Programming Languages of 2019” 排名](https://pycoders.com/link/2456/web)
+- [Python 登顶 "IEEE Top Programming Languages of 2019" 排名](https://pycoders.com/link/2456/web)
     + IEEE.ORG
 
-Python’s growth in popularity has been incredible. This list is interesting because it allows you to adjust the weights for the various factors that determine the ranking.
+Python's growth in popularity has been incredible. This list is interesting because it allows you to adjust the weights for the various factors that determine the ranking.
 
 (`是也乎:`
 
@@ -34,7 +34,7 @@ Python’s growth in popularity has been incredible. This list is interesting be
 - [MATLAB vs Python: 为什么以及如何进行切换](https://pycoders.com/link/2481/web)
     + REAL PYTHON
 
-Learn about MATLAB vs Python, why you should switch from MATLAB to Python, the packages you’ll need to make a smooth transition, and the bumps you’ll most likely encounter along the way.
+Learn about MATLAB vs Python, why you should switch from MATLAB to Python, the packages you'll need to make a smooth transition, and the bumps you'll most likely encounter along the way.
 
 (`是也乎:`
 
@@ -48,7 +48,7 @@ Learn about MATLAB vs Python, why you should switch from MATLAB to Python, the p
 - [我们的类型之旅: 检验4百万行 Python 代码](https://pycoders.com/link/2468/web)
     + DROPBOX.COM
 
-“Dropbox has been one of the first companies to adopt Python static type checking at this scale. These days thousands of projects use mypy, and things are quite battle tested.” Related discussion on Hacker News.
+"Dropbox has been one of the first companies to adopt Python static type checking at this scale. These days thousands of projects use mypy, and things are quite battle tested." Related discussion on Hacker News.
 
 
 (`是也乎:`
@@ -66,7 +66,7 @@ Repository to track the progress in Natural Language Processing (NLP), including
 - [Python *args 和 **kwargs : 揭秘](https://pycoders.com/link/2472/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn how to use args and kwargs in Python to add more flexibility to your functions. You’ll also take a closer look at the single and double-asterisk unpacking operators, which you can use to unpack any iterable object in Python.
+In this step-by-step tutorial, you'll learn how to use args and kwargs in Python to add more flexibility to your functions. You'll also take a closer look at the single and double-asterisk unpacking operators, which you can use to unpack any iterable object in Python.
 
 (`是也乎:`
 
@@ -118,7 +118,7 @@ PSF notes about the end of support for Python 2.x.
     + REAL PYTHON 
     + video
 
-If you’ve worked on a Python project that has more than one file, chances are you’ve had to use an import statement before. In this course, you’ll not only cover the pros and cons of absolute and relative imports but also learn about the best practices for writing import statements.
+If you've worked on a Python project that has more than one file, chances are you've had to use an import statement before. In this course, you'll not only cover the pros and cons of absolute and relative imports but also learn about the best practices for writing import statements.
 
 (`是也乎:`
 
@@ -137,7 +137,7 @@ XKCD 都嗯哼了好几次...
     + ANDY BULKA 
     + • Shared by Andy Bulka
 
-“Have you ever looked through your Django log files and console messages, felt something was out of order and didn’t make sense, but couldn’t quite put your finger on it? Let’s look at the log file…”
+"Have you ever looked through your Django log files and console messages, felt something was out of order and didn't make sense, but couldn't quite put your finger on it? Let's look at the log file... "
 
 
 (`是也乎:`
@@ -150,7 +150,7 @@ XKCD 都嗯哼了好几次...
     + LORIS CRO 
     + • Shared by Loris Cro
 
-“Async/Await helps speeding up applications that do a lot of I/O, but sprinkling some keywords around the code won’t magically make everything faster, you need to do a bit more.”
+"Async/Await helps speeding up applications that do a lot of I/O, but sprinkling some keywords around the code won't magically make everything faster, you need to do a bit more."
 
 
 (`是也乎:`
@@ -168,7 +168,7 @@ XKCD 都嗯哼了好几次...
 - [测试 Mypy 的 Stubs, Plugins, and Types](https://pycoders.com/link/2453/web)
     + NIKITA SOBOLEV
 
-“pytest-mypy-plugins is an absolute must for people who work a lot with types or Mypy plugins in Python. It simplifies the process of refactoring and distributing types.”
+"pytest-mypy-plugins is an absolute must for people who work a lot with types or Mypy plugins in Python. It simplifies the process of refactoring and distributing types."
 
 - [Multiprocessing vs Threading in Python: 每个数据科学家需要了解的内容](https://pycoders.com/link/2452/web)
     + SUMIT GHOSH
@@ -243,7 +243,7 @@ Learn how to move the objects on the screen and write you first collision detect
 - [Django 数据库迁移概述](https://pycoders.com/link/2458/web)
     + DAMIAN HITES
 
-Learn how Django’s ORM manages Django database migrations.
+Learn how Django's ORM manages Django database migrations.
 
 
 (`是也乎:`
@@ -257,7 +257,7 @@ PyCon19China 大会中, 有对应主题分享,
 - [PEG 解析器的元语法](https://pycoders.com/link/2446/web)
     + GUIDO VAN ROSSUM
 
-Part 7 of Guido’s series on PEG parsers.
+Part 7 of Guido's series on PEG parsers.
 
 (`是也乎:`
 
@@ -265,7 +265,7 @@ Part 7 of Guido’s series on PEG parsers.
 感觉老爹是想挑战 google 老同事们, 
 将 Python 提升到 Golang 之上...
 
-[Python 之父的解析器系列之五：左递归 PEG 语法](https://mp.weixin.qq.com/s/jAUDpw2tq27beOBMxFfWeA)
+[Python 之父的解析器系列之五:左递归 PEG 语法](https://mp.weixin.qq.com/s/jAUDpw2tq27beOBMxFfWeA)
 
 已有同步翻译...良心系列...不明觉厉
 
@@ -327,7 +327,7 @@ Part 7 of Guido’s series on PEG parsers.
 
 
 
-- [numpy-ml: 机器学习，在 NumPy](https://pycoders.com/link/2466/web)
+- [numpy-ml: 机器学习,在 NumPy](https://pycoders.com/link/2466/web)
     + GITHUB.COM/DDBOURGIN
 
 (`是也乎:`
