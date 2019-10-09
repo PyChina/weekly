@@ -42,7 +42,7 @@ Explore the similarities and differences you'll find when comparing Python vs C+
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2019-09-18-ScreenShot%202019-09-18%2017.20.14.jpg)
+![Selecting](https://ipic.zoomquiet.top/2019-09-18-ScreenShot%202019-09-18%2017.20.14.jpg)
 
 其实, C++ 是创始人都在警告: [想想瓦萨号](http://open-std.org/JTC1/SC22/WG21/docs/papers/2018/p0977r0.pdf) 的一种失控语言
 
@@ -122,7 +122,7 @@ Learn how to use PyGame. This library allows you to create games and rich multim
 (`是也乎:`
 
 
-![](https://ipic.zoomquiet.top/2019-09-18-ScreenShot%202019-09-18%2017.13.54.jpg)
+![Primer](https://ipic.zoomquiet.top/2019-09-18-ScreenShot%202019-09-18%2017.13.54.jpg)
 
 其实, PyGame 才是 Python 世界中最受欢迎的 GUI 框架.
 
@@ -258,7 +258,7 @@ URI 安全用
 
 每一条都可以是个播客节目了...
 
-![](https://ipic.zoomquiet.top/2019-09-18-ScreenShot%202019-09-18%2015.59.38.jpg)
+![Snippets](https://ipic.zoomquiet.top/2019-09-18-ScreenShot%202019-09-18%2015.59.38.jpg)
 
 )
 

@@ -3,8 +3,9 @@ Slug: issue-388
 Date: 2019-10-06 21:42
 Tags: Weekly,Python,pycoders,ZH
 
+> NASA实锤对比Py和多种主力数据科学语言
 
-原文: [PyCoder's Weekly - Issue #388](https://pycoders.com/issues/383)
+原文: [PyCoder's Weekly - Issue #388](https://pycoders.com/issues/388)
 
 ![PyCoder](https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5)
 
@@ -24,7 +25,7 @@ Learn about generators and yielding in Python. You'll create generator functions
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2019-10-07-ScreenShot%202019-10-07%2020.14.24.jpg)
+![Generators](https://ipic.zoomquiet.top/2019-10-07-ScreenShot%202019-10-07%2020.14.24.jpg)
 
 可以说, 真蟒, 一己之力, 将 Python 领域所有值得嗯哼的事儿, 这几年全部重新嗯哼了一遍...
 这是为了获得完全自主产权的教材, 来构筑课程池?
@@ -42,7 +43,7 @@ Learn about generators and yielding in Python. You'll create generator functions
 
 实锤了....
 
-![](https://ipic.zoomquiet.top/2019-10-07-fig_languages_histo.png)
+![NASA](https://ipic.zoomquiet.top/2019-10-07-fig_languages_histo.png)
 
 没有一枝独秀, 只有相对优势.
 
@@ -128,7 +129,7 @@ SQL injection attacks are one of the most common web application security risks.
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2019-10-07-ScreenShot%202019-10-07%2020.04.40.jpg)
+![注入攻击](https://ipic.zoomquiet.top/2019-10-07-ScreenShot%202019-10-07%2020.04.40.jpg)
 
 注入攻击...只是, 也早已有对应模块可以自动防止绝大多数了...
 
@@ -174,7 +175,7 @@ Learn how to use Python's rich set of operators, functions, and methods for work
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2019-10-07-ScreenShot%202019-10-07%2020.01.56.jpg)
+![字符串和字符数据](https://ipic.zoomquiet.top/2019-10-07-ScreenShot%202019-10-07%2020.01.56.jpg)
 
 这绝对是基础又重要的嗯哼...只是, 涉及中文, 又得复杂一倍.
 
@@ -257,7 +258,7 @@ PIRE is an interactive command-line interface allowing you to edit regexes live 
 (`是也乎:`
 
 
-![](https://github.com/CFSworks/limeade/raw/master/.github/readme/logo.png?raw=true)
+![limeade](https://github.com/CFSworks/limeade/raw/master/.github/readme/logo.png?raw=true)
 
 动态加载,也就是热升级前夜技巧?
 

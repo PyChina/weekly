@@ -26,7 +26,7 @@ In this step-by-step tutorial, you'll learn how to use spaCy. This free and open
 
 (`是也乎:`
 
-![](http://res.pychina.up.zoomquiet.top/2019-09-05-ScreenShot%202019-09-05%2011.25.31.jpg)
+![spaCy](http://res.pychina.up.zoomquiet.top/2019-09-05-ScreenShot%202019-09-05%2011.25.31.jpg)
 
 没听说过哪...嗯哼, 不支持中文...
 
@@ -151,7 +151,7 @@ SAT -> 母题...没毛病
 (`是也乎:`
 
 
-![](https://dev.pandas.io/pandas-blog/images/2019_files/2019_13_0.png)
+![2019_13_0.png](https://dev.pandas.io/pandas-blog/images/2019_files/2019_13_0.png)
 
 这个比较有趣了...可以说, conda 公司找到了一个专有市场.
 
@@ -210,7 +210,7 @@ A simple example which explains how to create a decorator function that accepts 
 
 (`(￣▽￣):`
 
-![](https://julien.danjou.info/content/images/2019/08/image.png)
+![依赖关系](https://julien.danjou.info/content/images/2019/08/image.png)
 
 这是一个简单问题...
 )
@@ -282,7 +282,7 @@ Invoke 专注本地事务交互, fab 专注远程交互,
 
 Minecraft?
 
-![](https://camo.githubusercontent.com/5e8ebb9609585579d947d64a14a895f425de10c6/68747470733a2f2f63726166746173736973742e73332d75732d776573742d322e616d617a6f6e6177732e636f6d2f707562722f626f745f34362e676966)
+![Minecraft](https://camo.githubusercontent.com/5e8ebb9609585579d947d64a14a895f425de10c6/68747470733a2f2f63726166746173736973742e73332d75732d776573742d322e616d617a6f6e6177732e636f6d2f707562722f626f745f34362e676966)
 
 
 当程序猿关注一件事儿, 一定嗯哼出一个辅助界面来加强嗯哼

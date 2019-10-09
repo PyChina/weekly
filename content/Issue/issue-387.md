@@ -24,7 +24,7 @@ Learn the basics of using pdb, Python's interactive source code debugger. pdb is
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2019-09-25-ScreenShot%202019-09-25%2012.25.22.jpg)
+![调试](https://ipic.zoomquiet.top/2019-09-25-ScreenShot%202019-09-25%2012.25.22.jpg)
 
 这是屠龙技,轻易用不上, 真要用上了, 也说明已经身陷焦油坑, 难以逃离了...
 
@@ -120,7 +120,7 @@ Get the tools you need to start making asynchronous programming techniques a par
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2019-09-25-ScreenShot%202019-09-25%2010.38.00.jpg)
+![异步入门](https://ipic.zoomquiet.top/2019-09-25-ScreenShot%202019-09-25%2010.38.00.jpg)
 
 开始异步很简单, 问题是业务兼容性和调试可控性...
 
@@ -164,11 +164,11 @@ Learn all about Thonny, a free Python Integrated Development Environment (IDE) t
 
 就没有 IDE 是为了友好而发明的...
 
-![](https://ipic.zoomquiet.top/2019-09-25-ScreenShot%202019-09-25%2010.27.39.jpg)
+![Thonny](https://ipic.zoomquiet.top/2019-09-25-ScreenShot%202019-09-25%2010.27.39.jpg)
 
 等等:
 
-![](https://thonny.org/img/screenshot.png)
+![Thonny](https://thonny.org/img/screenshot.png)
 
 基于 Tk 开发的 IDE ?
 
@@ -205,7 +205,7 @@ Analyzing Game of Thrones data to identify character importance, factions and ge
 
 叕一个权戏精,利用技术来回味儿...
 
-![](https://blog.datasciencedojo.com/content/images/2019/05/circos1-1.svg)
+![网络理论](https://blog.datasciencedojo.com/content/images/2019/05/circos1-1.svg)
 
 杀灭关系...
 
@@ -220,7 +220,7 @@ You'll learn what the functional paradigm is as well as how to use the basics of
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2019-09-25-ScreenShot%202019-09-25%2010.35.13.jpg)
+![函式](https://ipic.zoomquiet.top/2019-09-25-ScreenShot%202019-09-25%2010.35.13.jpg)
 
 emoji 达人...
 
@@ -268,7 +268,7 @@ An extension for the Hypothesis project that enables fully automatic tests for t
 
 (`是也乎:`
 
-![](https://raw.github.com/timothycrosley/hypothesis-auto/master/art/demo.gif)
+![hypothesis](https://raw.github.com/timothycrosley/hypothesis-auto/master/art/demo.gif)
 
 梦想总得有...万一呢.
 
@@ -306,12 +306,12 @@ Comparison grids to help you find great Python packages for your projects.
 
 自动将 CLI 工具翻译为 GUI 界面?
 
-![](https://github.com/chriskiehl/GooeyImages/raw/images/readme-images/1-0-3-title-card.png)
+![Gooey](https://github.com/chriskiehl/GooeyImages/raw/images/readme-images/1-0-3-title-card.png)
 
 
 而且:
 
-![](https://github.com/chriskiehl/GooeyImages/raw/images/readme-images/f52e9f1a-07c5-11e5-8f31-36a8fc14ac02.jpg)
+![Gooey](https://github.com/chriskiehl/GooeyImages/raw/images/readme-images/f52e9f1a-07c5-11e5-8f31-36a8fc14ac02.jpg)
 
 这个脑洞可以哪....
 
@@ -381,7 +381,7 @@ Comparison grids to help you find great Python packages for your projects.
 
 (`是也乎:`
 
-![](https://pyweek.org/static/pyweek-new.png)
+![PyWeek](https://pyweek.org/static/pyweek-new.png)
 
 纯线上周任务通关:
 
