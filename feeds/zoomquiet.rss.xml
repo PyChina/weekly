@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Tue, 08 Oct 2019 14:42:00 +0800</lastBuildDate><item><title>Issue 389</title><link>http://weekly.pychina.org/issue/issue-389.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 16 Oct 2019 14:42:00 +0800</lastBuildDate><item><title>Issue 390</title><link>http://weekly.pychina.org/issue/issue-390.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;VSCode 支持直接 Jupyter Notebook 编辑了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/390"&gt;PyCoder's Weekly - Issue #390&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;191006 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;191006 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/2685/web"&gt;CPython 3.8.0 发布&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYTHON.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Assignment expressions, positional-only arguments, = specifier in f-strings, and more. Click the link for the full changelog and …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 16 Oct 2019 14:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-10-16:/issue/issue-390.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 389</title><link>http://weekly.pychina.org/issue/issue-389.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Rust 来解决 Python 环境管理问题-&amp;gt;pyflow&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/389"&gt;PyCoder's Weekly - Issue #389&lt;/a&gt;&lt;/p&gt;
