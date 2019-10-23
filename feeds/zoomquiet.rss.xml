@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>蠎周刊 - Zoom.Quiet</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 23 Oct 2019 11:42:00 +0800</lastBuildDate><item><title>Issue 391</title><link>http://weekly.pychina.org/issue/issue-391.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;VSCode 支持直接 Jupyter Notebook 编辑了&lt;/p&gt;
+&lt;p&gt;最后一个官方 Py2 版本 2.7.17 发布&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/391"&gt;PyCoder's Weekly - Issue #391&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
@@ -15,7 +15,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Discover how to use Arduino microcontrollers with Python to develop your own electronic projects. You’ll learn how …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 23 Oct 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-10-23:/issue/issue-391.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 390</title><link>http://weekly.pychina.org/issue/issue-390.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Discover how to use Arduino microcontrollers with Python to develop your own electronic projects. You’ll …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zoom.Quiet</dc:creator><pubDate>Wed, 23 Oct 2019 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-10-23:/issue/issue-391.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 390</title><link>http://weekly.pychina.org/issue/issue-390.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;VSCode 支持直接 Jupyter Notebook 编辑了&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/390"&gt;PyCoder's Weekly - Issue #390&lt;/a&gt;&lt;/p&gt;
