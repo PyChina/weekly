@@ -3,7 +3,7 @@ Slug: issue-391
 Date: 2019-10-23 11:42
 Tags: Weekly,Python,pycoders,ZH
 
-> VSCode 支持直接 Jupyter Notebook 编辑了
+> 最后一个官方 Py2 版本 2.7.17 发布
 
 原文: [PyCoder's Weekly - Issue #391](https://pycoders.com/issues/391)
 
