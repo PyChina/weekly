@@ -106,11 +106,3 @@ def install_deps():
         'pelican'
     )
 '''
-
-a = 'import public'
-with open('.proto','r') as f:
-    if a not in f.readlines():
-        print(a)
-f=open('.proto','a')
-f.write("import public")
-f.close()
