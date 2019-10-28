@@ -20,8 +20,17 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
 ## organizer
 
-- KJ
 - Zoom.Quiet
+
+## path
+
+- 基于 `gh-pages` 专用分支发布
+- 所以, 本地要复制出两个仓库
+    + `master` 分支进行内容撰写
+    + 另外一个仓库, 切换为 `gh-pages` 分支
+        * 并链接为 `output` 输出目录
+        * 这样, 才可以合理使用 `fab` 指令来完成自动化本地编译和发布
+
 
 ## usage
 How to update the site contents
@@ -122,5 +131,7 @@ main loop:
 
 ## changelog
 
+- 191028 ZQ 提醒本地发布环境
 - 190818 ZQ ++ CNZZ WA support
 - 131219 base pelican build and through qiniu.com publish
+
