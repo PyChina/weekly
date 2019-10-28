@@ -34,7 +34,7 @@ def pub():
     #CNAME()
     gh_pages()
 
-    
+
 '''
 env.deploy_7niu = '7niu'
 env.qiniu_bin = '/opt/bin/7niu_package_darwin_amd64/qrsync'
@@ -107,3 +107,10 @@ def install_deps():
     )
 '''
 
+a = 'import public'
+with open('.proto','r') as f:
+    if a not in f.readlines():
+        print(a)
+f=open('.proto','a')
+f.write("import public")
+f.close()
