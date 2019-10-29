@@ -16,7 +16,7 @@ SITEURL = 'http://weekly.pychina.org'
 #SITEURL = 'http://weekly.101.camp'
 DISQUS_SITENAME = u"weeklypychinaorg" #填入你的Shortname
 
-MARKUP = ('md', 'rst')#'rst', 'html', 
+MARKUP = ('md', 'rst')#'rst', 'html',
 READERS = {
         'html': None,
 }
@@ -34,14 +34,14 @@ FILENAME_METADATA = '(?P<slug>.*)'
 ###############################################################
 ###############################################################   Plugins abt.
 ###############################################################
-# Plugins 
+# Plugins
 PLUGINS=[
     #'_plugins.sitemap'
     #, '_plugins.extract_toc'
     #, '_plugins.gzip_cache'
     #, u"pelican.plugins.disqus_static"
     ]
-    
+
 #   upgraded Pelican 3.7 must self open them
 MARKDOWN = {
     'extension_configs': {
@@ -80,7 +80,7 @@ TAG_CLOUD_MAX_ITEMS = 10
 DISPLAY_CATEGORIES_ON_MENU = None      # 分类标签是否显示在导航
 # Social widget -> China jiathis.com
 ADDTHIS_PROFILE = None #True
-    
+
 #GITHUB_USER = "ZoomQuiet"
 MENUITEMS = (('PyChina', 'http://pychina.org')
         , ('蟒营', 'http://www.101.camp')
@@ -120,16 +120,17 @@ TEMPLATE_PAGES = {
         "404.html": "404.html",
         }
 
-STATIC_PATHS = ['_images', '_files'
+STATIC_PATHS = ['_images', '_files', '_extra'
     , '_extra/robots.txt'
     , '_extra/favicon.ico'
     , '_extra/README.md'
     , '_extra/LICENSE'
     , '_extra/CNAME'
     , '_extra/.nojekyll'
-    
+
     ]
-    
+ARTICLE_EXCLUDES = ['_extra']
+PAGE_EXCLUDES = ['_extra']
 EXTRA_PATH_METADATA = {'_extra/robots.txt': {'path': 'robots.txt'}
     , '_extra/favicon.ico': {'path': 'favicon.ico'}
     , '_extra/LICENSE': {'path': 'LICENSE'}
