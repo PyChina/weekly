@@ -38,7 +38,7 @@ Learn about MATLAB vs Python, why you should switch from MATLAB to Python, the p
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2019-09-11-ScreenShot%202019-09-11%2011.55.30.jpg)
+![MATLAB](https://ipic.zoomquiet.top/2019-09-11-ScreenShot%202019-09-11%2011.55.30.jpg)
 
 其实很友好咯...
 
@@ -70,7 +70,7 @@ In this step-by-step tutorial, you'll learn how to use args and kwargs in Python
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2019-09-11-ScreenShot%202019-09-11%2011.53.10.jpg)
+![kwargs](https://ipic.zoomquiet.top/2019-09-11-ScreenShot%202019-09-11%2011.53.10.jpg)
 
 这个插画很传神...
 
@@ -105,7 +105,7 @@ PSF notes about the end of support for Python 2.x.
 
 今日最佳:
 
-![](https://ipic.zoomquiet.top/2019-09-11-RIP-Py2.jpg)
+![Dead](https://ipic.zoomquiet.top/2019-09-11-RIP-Py2.jpg)
 
 )
 
