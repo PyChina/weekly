@@ -34,7 +34,7 @@ def pub():
     #CNAME()
     gh_pages()
 
-    
+
 '''
 env.deploy_7niu = '7niu'
 env.qiniu_bin = '/opt/bin/7niu_package_darwin_amd64/qrsync'
@@ -106,4 +106,3 @@ def install_deps():
         'pelican'
     )
 '''
-
