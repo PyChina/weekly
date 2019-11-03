@@ -11,28 +11,41 @@ env.deploy_path = 'output'
 def build():
     local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
 
+
 def serve():
     local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
+
 
 def reserve():
     build()
     serve()
 
+
 def gh_pages():
-    local('cd {deploy_path} && '
-            'pwd && '
-            'git st && '
-            'git add --all . && '
-            'git ci -am "re-build from local by markdoc @MBP111216ZQ" && '
-            #'git pu cafe gitcafe-page '
-            'git pu && '
-            'date '.format(**env)
+    local(
+          'pwd && '
+          'git st && '
+          'git add --all . && '
+          'git ci -am "re-build from local by markdoc @MBP111216ZQ" && '
+          # 'git pu cafe gitcafe-page '
+          'git pu && '
+          'date '.format(**env)
           )
 
+
 def pub():
+    pull_data()
     build()
-    #CNAME()
+    # CNAME()
     gh_pages()
+
+
+def pull_data():
+    local(
+        'cd {deploy_path} && '
+        'pwd && '
+        'git pull'.format(**env)
+    )
 
 
 '''
