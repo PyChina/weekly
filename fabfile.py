@@ -22,7 +22,7 @@ def reserve():
 
 
 def gh_pages():
-    local(
+    local('cd {deploy_path} && '
           'pwd && '
           'git st && '
           'git add --all . && '
