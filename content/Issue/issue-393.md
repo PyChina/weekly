@@ -3,7 +3,7 @@ Slug: issue-393
 Date: 2019-11-06 11:42
 Tags: Weekly,Python,pycoders,ZH
 
-> 2019 Python 开发者调查表, 为自己多多发声哪
+> DROPBOX 官方致谢老爹6年贡献, 对比...
 
 原文: [PyCoder's Weekly - Issue #393](https://pycoders.com/issues/393)
 
