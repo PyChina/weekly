@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Issue</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/issue.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2019-11-06T11:42:00+08:00</updated><entry><title>Issue 393</title><link href="http://weekly.pychina.org/issue/issue-393.html" rel="alternate"></link><published>2019-11-06T11:42:00+08:00</published><updated>2019-11-06T11:42:00+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2019-11-06:/issue/issue-393.html</id><summary type="html">&lt;blockquote&gt;
-&lt;p&gt;2019 Python 开发者调查表, 为自己多多发声哪&lt;/p&gt;
+&lt;p&gt;DROPBOX 官方致谢老爹6年贡献, 对比...&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/393"&gt;PyCoder's Weekly - Issue #393&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
@@ -17,8 +17,8 @@
 &lt;/ul&gt;
 &lt;p&gt;The CPython team moves to a consistent annual release schedule. More info here in PEP 602.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/2808/web"&gt;用 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;blockquote&gt;
-&lt;p&gt;2019 Python 开发者调查表, 为自己多多发声哪&lt;/p&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/2808/web"&gt;用 Kivy …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;DROPBOX 官方致谢老爹6年贡献, 对比...&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/393"&gt;PyCoder's Weekly - Issue #393&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
