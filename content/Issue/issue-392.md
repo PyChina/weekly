@@ -3,9 +3,9 @@ Slug: issue-392
 Date: 2019-10-30 11:42
 Tags: Weekly,Python,pycoders,ZH
 
-> 可期待仙器->removestar: 自动替换*导入为显式导入
+> 可期仙器 ->removestar ->自动替换*导入为显式导入
 
-原文: [PyCoder's Weekly - Issue #391](https://pycoders.com/issues/391)
+原文: [PyCoder's Weekly - Issue #392](https://pycoders.com/issues/392)
 
 ![PyCoder](https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5)
 
