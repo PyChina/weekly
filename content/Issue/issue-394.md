@@ -5,12 +5,12 @@ Tags: Weekly,Python,pycoders,ZH
 
 > 俺的 Python 开发环境 2020 版
 
-原文: [PyCoder's Weekly - Issue #393](https://pycoders.com/issues/394)
+原文: [PyCoder's Weekly - Issue #394](https://pycoders.com/issues/394)
 
 ![PyCoder](https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5)
 
-- 191106 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译
-- 191106 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 17 分钟 完成格式转抄.
+- 191113 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译
+- 191113 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 17 分钟 完成格式转抄.
 
 ------
 
@@ -377,7 +377,7 @@ CLI 果然是最好的界面
 
 
 # 是也乎
-> NN 3823
+> NN 3829
 
 - 首发: [Issue 394 ~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/issue/issue-394.html)
 - 改进: [issue-394.md](https://github.com/PyChina/weekly/blob/master/content/Issue/issue-394.md)
