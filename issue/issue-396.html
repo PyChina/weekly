@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <title>Issue 396
+        ~蠎周刊
+        ~汇集全球蠎事儿 ;-) </title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph tags -->
+
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="Issue 396"/>
+            <meta property="og:url" content="http://weekly.pychina.org/issue/issue-396.html"/>
+            <meta property="og:description" content="Guido: 代码的可读性如此重要... 原文: PyCoder&#39;s Weekly - Issue #396 191127 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 191127 Zoom.Quiet(大妈) 用时 17 分钟 完成格式转抄. PyCon 2020 注册已上线 PYCON.ORG PyCon is the largest annual gathering for the community that uses and develops the open-source Python programming language. April 15–23 in …"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://weekly.pychina.org/theme/css/bootstrap.readable.min.css" type="text/css"/>
+    <link href="http://weekly.pychina.org/theme/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://weekly.pychina.org/theme/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="http://weekly.pychina.org/theme/css/pygments/github.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://weekly.pychina.org/theme/css/style.css" type="text/css"/>
+
+<style type="text/css">
+
+#article-content li {
+    list-style: none;
+    margin: 2em 0em 0em -1em;
+}
+#article-content li a{
+    font-size: 120%;
+    background-color: #555;
+    color: #efe;
+}
+
+</style>
+
+        <link href="http://weekly.pychina.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="蠎周刊 ATOM Feed"/>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--
+<a href="http://weekly.pychina.org" class="navbar-brand">蠎周刊</a>
+            -->
+<a href="http://weekly.pychina.org" class="navbar-brand">
+    <img src="http://weekly.pychina.org/theme/logo.png"/>
+    蠎周刊
+    <span class="violet-site">各种 weekly 中译版 </span>
+</a>            
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="http://pychina.org">PyChina</a></li>
+                    <li><a href="http://www.101.camp">蟒营</a></li>
+                    <li><a href="design.html">设计</a></li>
+                    <li><a href="about.html">有关</a></li>
+                    <li><a href="http://zoomquiet.io">Zoom.Quiet</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://weekly.pychina.org/archives.html"><i class="icon-th-list"></i>Archives</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+<!-- /.navbar -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://weekly.pychina.org/issue/issue-396.html"
+                       rel="bookmark"
+                       title="Permalink to Issue 396">
+                        Issue 396
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+<div id="article-content">
+                <blockquote>
+<p>Guido: 代码的可读性如此重要...</p>
+</blockquote>
+<p>原文: <a href="https://pycoders.com/issues/396">PyCoder's Weekly - Issue #396</a></p>
+<p><img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"></p>
+<ul>
+<li>191127 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 42 分钟 完成快译</li>
+<li>191127 <a href="http://zoomquiet.io/">Zoom.Quiet</a>(大妈) 用时 17 分钟 完成格式转抄.</li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://pycoders.com/link/2970/web">PyCon 2020 注册已上线</a><ul>
+<li>PYCON.ORG</li>
+</ul>
+</li>
+</ul>
+<p>PyCon is the largest annual gathering for the community that uses and develops the open-source Python programming language. April 15–23 in Pittsburgh. Pro-tip: Get your early bird tickets today.</p>
+<p>(<code>是也乎:</code></p>
+<p>PyCon2020 早鸟票已经有了,,,</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2975/web">Python KeyError 异常以及如何处理它们</a><ul>
+<li>REAL PYTHON </li>
+<li>video</li>
+</ul>
+</li>
+</ul>
+<p>KeyError exceptions are often caused by a bad key lookup in a dictionary, but there are a few other situations when a KeyError can be raised as well. Knowing how to handle these exceptions is essential to writing good Python code.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="KeyError" src="http://ydlj.zoomquiet.top/ipic/2019-11-27-ScreenShot%202019-11-27%2012.39.10.jpg"></p>
+<p>等等, 这个是常见, 但是, 不难追踪哪...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2969/web">实用 Unicode (2012)</a><ul>
+<li>NED BATCHELDER</li>
+</ul>
+</li>
+</ul>
+<p>Timeless tutorial that teaches the basics of Unicode, and how both Python 2 and Python 3 work, as well as some key tips on solving Unicode problems.</p>
+<ul>
+<li><a href="https://pycoders.com/link/2964/web">Guido van Rossum 论 Python 如何令思维的代码表述更轻松</a><ul>
+<li>DROPBOX.COM</li>
+</ul>
+</li>
+</ul>
+<p>A conversation with the creator of the world’s most popular programming language on removing brain friction for better work.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="Guido" src="http://ydlj.zoomquiet.top/ipic/2019-11-27-ScreenShot%202019-11-27%2012.41.40.jpg?imageView2/2/w/420"></p>
+<blockquote>
+<blockquote>
+<p>全文如下:</p>
+</blockquote>
+</blockquote>
+<p>The Mind at Work: Guido van Rossum on how Python makes thinking in code easier
+By Anthony Wing Kosner</p>
+<p>Published on November 25, 2019</p>
+<p>A conversation with the creator of the world’s most popular programming language on removing brain friction for better work.</p>
+<p>Nothing defines the 21st century more than the ubiquitous effects of computer programming. Almost everything we do, particularly at work, is mediated by screens displaying the results of the enormous amount of computation that we now take for granted. If you’re one of the 99.7% of the human race that are not programmers, how all of this happens is a bit of a mystery. As science fiction writer Arthur C. Clarke quotably wrote, “Any sufficiently advanced technology is indistinguishable from magic.”</p>
+<p>Of course, it isn’t magic. It is, however, both complicated and complex, with codebases of tech companies measured in millions of lines of code. When you’re reasoning about a real system you might want to build in code, you’re thinking about the complex relationships between different functions over time. Your code can be more or less complicated in how it is written and structured, but the problem you're trying to solve has an inherent complexity that can’t be reduced to something simpler. </p>
+<p>Becoming a programmer is not just about ideas, and you won’t last long at it if you can’t deal with the laser-focused details of describing your ideas in code. “I'm a little skeptical of the claim that the systems thinking is primary there, because it's much easier to come up with an idea for a system than it is to take an idea and turn it into working code,” says Guido van Rossum, the creator and retired BDFL (Benevolent Dictator for Life) of the Python programming language. JavaScript still owns the web, and Java runs 2.5 billion Android phones, but for general purpose programming and education, Python has become the default standard.</p>
+<p>If anyone has made turning an idea into working code easier, for more people, it’s Van Rossum over his 30-year history with Python. And he’s done it with a self-effacing grace and an understated humor—the language is named after the surreal comedy of Monty Python, not the actual Burmese python. In its quiet way, the Python programming language has managed to make some of the complications of programming computers less difficult for our brains to manage.</p>
+<p>To understand how Van Rossum accomplished this amazing feat, we have to go back into the history of computing to the era of mainframes and machine language. “The mainframe is a machine that costs many millions of dollars, and the combined pay of all those programmers is peanuts compared to the cost of the mainframe,” he says, explaining that cost logically prioritized machine time over human time. “But as I experienced desktop workstations and PCs, I realized that a change of mindset about cost of the programmer's time versus cost of the computer's time was overdue.” Van Rossum doesn’t think he was the first person to observe this shift, but he really capitalized on it in the design of Python.</p>
+<p>This simple idea of giving humans priority over machines is at the core of the philosophy behind Python. Certainly the fact that it’s an interpreted language as opposed to a compiled language means that the programmer gets immediate feedback about the code they’re writing without needing to take the time to recompile it after making each change. This is very common now, but thirty years ago it was quite controversial because the conventional wisdom was that faster (for the computer) was better. Updating this belief has had a large positive impact on the productivity of programmers.</p>
+<p>“In Python, every symbol you type is essential.”
+—Guido van Rossum
+“There are a whole bunch of common programming tasks that are easy in Python,” says Van Rossum. “For someone who is not yet a programmer, who wants to become a programmer, for those people Python is particularly easy to get.” Indeed, many computer science schools are switching over from Java to Python, because it’s much easier to grasp for beginners. The reasons behind this are complex, with many factors each reducing little bits of friction. What’s simple is the philosophy behind all of the improvements: Everything should have a necessary purpose. The lack of extraneous code makes it easier to focus on what you need to pay attention to. “In Python, every symbol you type is essential,” Van Rossum says. </p>
+<p>This concision makes it easy to accomplish something meaningful in Python, which is one of the reasons for its wide adoption. “The typical way that we introduce Python to beginning programmers is also important. We can show them very small snippets of code that require very little understanding of terminology and concepts from programming before they make sense,” Van Rossum explains, “whereas the smallest Java program, for example, contains a whole bunch of what are, to the uninitiated eye, noise characters.”</p>
+<p>This quietness and simplicity of design makes it easier to see what’s going on. “Python for me is incredibly visual,” says Van Rossum. “When I read Python, I definitely see it as a two-dimensional structure, rather than one-dimensional, like language. That is probably because Python uses indentation for grouping, but probably also because my mind just likes thinking visually.”</p>
+<p>He’s not the only one, of course, who thinks visually. We all do to some extent. But he’s particularly sensitive to the effects of the visual on cognition. “Some poorly formatted text can drive me crazy. They interrupt my visual parsing of the flow and the structure, and in that sense, I do think in Python,” Van Rossum admits. “I can grasp code much better when it's formatted properly.” It takes more information to resolve the uncertainty about what code indentations mean if they’re arbitrary than if those indentations have a clear purpose, as they do in Python. So if the experience is easier, it’s because fewer bits of information have to be processed for you to know what’s going on.</p>
+<p>Python’s readability is not just typographic, but conceptual. Van Rossum thinks Python may be closer to our visual understanding of the structures that we are representing in code than other languages because, “Python makes that structure mandatory.” </p>
+<p>"While I was researching my book, CODERS,” says author Clive Thompson, “I talked to a lot of developers who absolutely love Python. Nearly all said something like ‘Python is beautiful.’ They loved its readability—they found that it was far easier to glance at Python code and see its intent. Shorn of curly brackets, indented in elegant visual shelves, anything written in Python really looks like modern poetry." They also find that Python is fun to write, which is more important than it may seem. As Thompson writes, “When you meet a coder, you’re meeting someone whose core daily experience is of unending failure and grinding frustration.”</p>
+<p>“You primarily write your code to communicate with other coders, and, to a lesser extent, to impose your will on the computer.”
+—Guido van Rossum
+Building the priority of the programmer’s time into the language has had a curious effect on the community that’s grown around it. There’s a social philosophy that flows out of Python in terms of the programmer’s responsibility to write programs for other people. There’s an implicit suggestion, very much supported by Van Rossum in the ways he talks and writes about Python, to take a little more time in order to make your code more interpretable to someone else in the future. Expressing your respect for others and their time through the quality of your work is an ethos that Van Rossum has stealthily propagated in the world. “You primarily write your code to communicate with other coders, and, to a lesser extent, to impose your will on the computer,” he says. </p>
+<p>The universality of the culture that’s spread around Python has achieved some measure of what Van Rossum intended two decades ago with a short-lived project called CP4E (Computer Programming for Everybody). “I'm usually not a very visionary thinker. People always ask me, what's next for Python, and I never know. But I put on my most visionary hat, and assumed that it would make sense for everyone to learn programming.” Personal computers had been around for 20 years, but mostly they were glorified typewriters and calculators. Van Rossum asked, “isn't it crazy that all those people have computers, and very few of them learn to program?”</p>
+<p>In the time since, he has focused on making programming easier to learn and easier to do through the advancements in Python, now at version 3.7. He still thinks that programming teaches generally valuable skills, like problem solving, following directions carefully, and understanding what directions mean. But he’s also found that, “there are certain introductions to programming that are fun for kids to do, but they're not fun for all kids, and I don't think I would want to make it a mandatory part of the curriculum.”</p>
+<p>At the same time, the need for people to program their computers has also diminished because of the growth of software, particularly on the web, that allows you to intuitively do what used to require programing to accomplish. “I'm not so sure that it needs to happen anymore,” Van Rossum says of CP4E. “I think computers have made it to that point, where they're just a useful thing that not everybody needs to know what goes on inside.”</p>
+<p>“Python is now also the language of amateurs, and I mean that in the best possible way.”
+—Guido van Rossum
+But that are a growing number of people who are using Python in many fields. “The currently prevailing theory about Python's unexpected success,” says Van Rossum, “is that at some point, it established itself into data science and machine learning, and scientific data processing in general, and once you have critical mass, it's easier for everyone to use the same system as their colleagues and their competitors, than to try something different.” And even though it started as purely a tool for professional programmers, Van Rossum says, “Python is now also the language of amateurs, and I mean that in the best possible way.”</p>
+<p>A successful open source software project, like Python, has to be easy to learn for beginners, but also have practical application to real world problems that more advanced users will want to solve. Just as for beginners you want to keep things simple so all of their brain energy is spent on learning the complications of the programming environment, for advanced users you want to help them manage the complexity of these competing abstractions. Part of the motivation for making the implementation of Python as simple as possible is to be able to change your mind, to learn, to iterate. “If you write a prototype in Python and you get it to work, often, that’s not a very big effort,” says Van Rossum, “and then you can afford to throw away your prototype and write the same thing again based on what you've learned. You can still write it in Python, but the second version will be much better than the first.” </p>
+<p>Part of the enduring appeal of Python is the optimism and humility of starting over. “If you've invested much more time into writing and debugging code, you're much less eager to throw it all away and start over.” Co-founder and CEO, Drew Houston wrote the first prototype of Dropbox in Python on a five-hour bus ride from Boston to New York. “The early prototypes of Dropbox were thrown away, largely, many times,” says Van Rossum.</p>
+<p>What can we learn from Python about how to design better tools for thinking? Tim Peters, one of Python’s major contributors, offers some clues in the aphoristic The Zen of Python, in which he channels Van Rossum’s guiding principles. Particularly relevant to our present discussion are this pair: “Simple is better than complex. Complex is better than complicated.” This could almost be a recipe for how the brain prioritizes its functions to use energy efficiently.</p>
+<p>Equally important for Van Rossum is the social aspect of thinking and building tools. What has he taken away from his thirty year journey with Python? “I have learned that you can't do it alone, which is not an easy lesson for me. I've learned that you don't always get the outcome that you went for, but maybe the outcome you get is just as good, or better.”</p>
+<blockquote>
+<blockquote>
+<p>简单说:</p>
+</blockquote>
+</blockquote>
+<p><code>Python 之禅</code> 真的包含了老爹所有关键思考成果.</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2986/web">Python 3.9a1 新特性</a><ul>
+<li>PYTHON.ORG</li>
+</ul>
+</li>
+</ul>
+<p>The first draft changelog for Python 3.9 alpha 1 is out, if you want to stay on top of the latest CPython developments.</p>
+<ul>
+<li><a href="https://pycoders.com/link/2965/web">Python 中异常引发改进</a><ul>
+<li>MOSHE ZADKA</li>
+</ul>
+</li>
+</ul>
+<p>How to include contextual information in your exceptions for easier root cause analysis.</p>
+<p>(<code>是也乎:</code></p>
+<p>讲真, 内置的已经足够好了...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2982/web">Django 迁移测试</a><ul>
+<li>NIKITA SOBOLEV</li>
+</ul>
+</li>
+</ul>
+<p>A web app outage post-mortem with useful tips and tools for testing Django migrations.</p>
+<p>(<code>是也乎:</code></p>
+<p>Django 的 Migrations 可以说是最强大的自成体系的知名工具了...</p>
+<p>今年 PyCon19中国 就有专门主题探索具本质行为, 
+只是如何测试, 涉及到外部数据库, 还真的是值得讨论的事儿...</p>
+<p>)</p>
+<h2>讨论</h2>
+<blockquote>
+<p>Discussions</p>
+</blockquote>
+<p>NIL</p>
+<h2>文章,教程和嗯哼</h2>
+<blockquote>
+<p>Articles, Tutorials and Talks</p>
+</blockquote>
+<ul>
+<li><a href="https://pycoders.com/link/2966/web">Python 社区专访 Brian Okken</a><ul>
+<li>REAL PYTHON</li>
+</ul>
+</li>
+</ul>
+<p>Brian Okken is perhaps best known as the author of Python Testing with pytest, as well as being the host of two Python-related podcasts. Find out more about the man behind the voice, his new meetup in Portland, and the advice he’d like to give to anyone who’s new to testing software.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="Interview" src="http://ydlj.zoomquiet.top/ipic/2019-11-27-ScreenShot%202019-11-27%2012.39.58.jpg"></p>
+<p>等等,这档节目一直没采访过老爹的?</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2978/web">Python 3 byte / str 分隔问题</a><ul>
+<li>JOHN GOERZEN </li>
+<li>opinion</li>
+</ul>
+</li>
+</ul>
+<p>The original title of the article is The Incredible Disaster of Python 3 so this was probably written with some frustration still fresh on someone’s mind. Nevertheless I think it’s important to look at aspects of Python that developers might be struggling with and that could be improved. Related discussion on Hacker News.</p>
+<ul>
+<li><a href="https://pycoders.com/link/2972/web">Python 中无效的语法: SyntaxError的常见原因</a><ul>
+<li>REAL PYTHON</li>
+</ul>
+</li>
+</ul>
+<p>In this step-by-step tutorial, you’ll see common examples of invalid syntax in Python and learn how to resolve the issue. If you’ve ever received a SyntaxError when trying to run your Python code, then this is the guide for you.</p>
+<p>(<code>是也乎:</code></p>
+<p><img alt="Syntax" src="http://ydlj.zoomquiet.top/ipic/2019-11-27-ScreenShot%202019-11-27%2012.34.13.jpg"></p>
+<p>语法错误应该是最友好和常见的警告了...</p>
+<p>但是, 这又是阻止小白们进入自由世界最大的坑...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2983/web">教学 Python 33集: Eric Matthes 访谈</a><ul>
+<li>TEACHINGPYTHON.FM </li>
+<li>podcast</li>
+</ul>
+</li>
+</ul>
+<p>Kelly and Sean interview Eric Matthes, author of Python Crash Course, about how he began programming, what led him to teaching, and the important lessons from Python to be learned both inside and outside of the classroom.</p>
+<ul>
+<li><a href="https://pycoders.com/link/2963/web">用 Python 检测人的“思维强度”</a><ul>
+<li>JOHN DAVID CHIBUK</li>
+</ul>
+</li>
+</ul>
+<p>How to get started with fNIRS sensing data specifically oxygenated hemoglobin “HbO2/HbO” data for analyzing a data stream from a sensor.</p>
+<ul>
+<li><a href="https://pycoders.com/link/2980/web">用 Python 计算 FLOPS 和其他 CPU 计数器</a><ul>
+<li>BOJAN NIKOLIC</li>
+</ul>
+</li>
+</ul>
+<p>How the python-papi package can be used to measure the FLOP requirements of any section of a Python program.</p>
+<ul>
+<li><a href="https://pycoders.com/link/2967/web">符号数学在 Python</a><ul>
+<li>ALEXANDRU GRIS</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>输入:</p>
+<div class="highlight"><pre><span class="n">import</span> <span class="n">sympy</span> <span class="n">as</span> <span class="n">sp</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">init_printing</span><span class="p">()</span> <span class="err">#</span> <span class="n">or</span> <span class="n">init_session</span><span class="p">().</span> <span class="n">init_session</span> <span class="n">does</span> <span class="n">much</span> <span class="n">more</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">sp</span><span class="p">.</span><span class="n">Symbol</span><span class="p">(</span><span class="sc">&#39;x&#39;</span><span class="p">)</span>
+<span class="n">sp</span><span class="p">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">sp</span><span class="p">.</span><span class="n">Integral</span><span class="p">(</span><span class="n">sp</span><span class="p">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">x</span><span class="p">),</span> <span class="n">x</span><span class="p">))</span>
+</pre></div>
+
+
+<p>获得:</p>
+<div class="highlight"><pre><span class="err">⌠</span>           
+<span class="err">⎮</span>     <span class="n">___</span>   
+<span class="err">⎮</span>    <span class="err">╱</span> <span class="mi">1</span>    
+<span class="err">⎮</span>   <span class="err">╱</span>  <span class="err">─</span>  <span class="n">dx</span>
+<span class="err">⎮</span> <span class="err">╲╱</span>   <span class="n">x</span>    
+<span class="err">⌡</span>
+</pre></div>
+
+
+<p>可以说很萌了...
+数学计算一直是计算机的核心使命, 只是数学各种专用符号, 以往都在 TeX 基础上折腾,
+没想到, ASCII-art 果断没放弃...</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2987/web">Qt Python GUI 应用的登录</a><ul>
+<li>PLUMBERJACK.BLOGSPOT.COM</li>
+</ul>
+</li>
+</ul>
+<h2>好物</h2>
+<blockquote>
+<p>Interesting Projects, Tools and Libraries, Projects &amp; Code</p>
+</blockquote>
+<ul>
+<li>
+<p><a href="https://pycoders.com/link/2985/web">munggoggo: 基于消息的异步代理框架</a></p>
+<ul>
+<li>GITHUB.COM/SYSID </li>
+<li>• Shared by Thomas Weber</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/2968/web">pytest-quarantine: 管理预期的测试失败</a></p>
+<ul>
+<li>GITHUB.COM/ENERGYSAGE</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>前几期推荐过...专注管理预期失败的测试案例
+)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2976/web">dovpanda: Directions Overlay for Working With Pandas</a><ul>
+<li>GITHUB.COM/DOVPANDA-DEV</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>叕一个试图网络化 Pandas 运算的模块</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2974/web">blueberry-python-data: 用 fNIRS 进行数据实验</a><ul>
+<li>GITHUB.COM/BLUEBERRYXTECH </li>
+<li>• Shared by John David Chibuk</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>兰莓</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2962/web">Numba: 用于 NumPy 代码的 JIT 编译器</a><ul>
+<li>PYDATA.ORG</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>JIT 技术越来越嗯哼了</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2981/web">tsaug: 增强时序</a><ul>
+<li>GITHUB.COM/ARUNDO</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p>叕一个时序相关模块,
+可见大数据后, 时序数据正在兴起</p>
+<p>)</p>
+<ul>
+<li><a href="https://pycoders.com/link/2973/web">Mitogen: 编写分布式自我复制程序的库</a><ul>
+<li>NETWORKGENOMICS.COM</li>
+</ul>
+</li>
+</ul>
+<p>(<code>是也乎:</code></p>
+<p><img alt="Mitogen" src="https://d33wubrfki0l68.cloudfront.net/be86b6f40a357000aaa1338b3542cfaedb0e0a12/d106b/_images/mitogen.svg"></p>
+<p>嗯哼? 立志作 fab/inv/Ansible 们的基础框架...</p>
+<p>简直就是使用 蠕虫病毒 原理来完成自动复制和扩散....</p>
+<p>)</p>
+<ul>
+<li>
+<p><a href="https://pycoders.com/link/2979/web">superdelegate: 将方法和属性委托给子对象的简写形式</a></p>
+<ul>
+<li>PYPI.ORG </li>
+<li>• Shared by Jim Anderson</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/2988/web">autohooks: Git Hooks 和 Python</a></p>
+<ul>
+<li>GITHUB.COM/GREENBONE </li>
+<li>• Shared by Björn Ricks</li>
+</ul>
+</li>
+</ul>
+<h2>📆🐍 活动/大会</h2>
+<blockquote>
+<p>Events, MeetUp 真的是全球线下活动组织中心</p>
+</blockquote>
+<ul>
+<li>
+<p><a href="https://pycoders.com/link/2956/web">⋅ PythonRio Meetup</a></p>
+<ul>
+<li>November 30, 2019</li>
+<li>巴西</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/2958/web">⋅ Melbourne Python Users Group</a></p>
+<ul>
+<li>December 2, 2019</li>
+<li>Australia</li>
+</ul>
+</li>
+<li>
+<p><a href="https://pycoders.com/link/2961/web">⋅ Heidelberg Python Meetup</a></p>
+<ul>
+<li>December 4, 2019</li>
+<li>德国</li>
+</ul>
+</li>
+</ul>
+<h2>DAMA</h2>
+<blockquote>
+<p>❤️ Happy Pythonic ;-(<code>大妈私人无责任播报</code>)</p>
+</blockquote>
+<ul>
+<li><strong><a href="https://py.101.camp/">蟒营 Python 入门班</a></strong><ul>
+<li>101camp4py</li>
+<li>101camp5py</li>
+</ul>
+</li>
+</ul>
+<p>(<code>(￣▽￣)</code>:</p>
+<p>第4期已开始, 为期6周;</p>
+<div class="highlight"><pre><span class="mi">200112</span> <span class="err">按时结束</span>
+</pre></div>
+
+
+<p>第5期年后再来:</p>
+<div class="highlight"><pre><span class="mi">200203</span> <span class="err">应该上线</span>
+</pre></div>
+
+
+<p>)</p>
+<h1>是也乎</h1>
+<blockquote>
+<p>NN 3837</p>
+</blockquote>
+<ul>
+<li>首发: <a href="http://weekly.pychina.org/issue/issue-396.html">Issue 396 ~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
+<li>改进: <a href="https://github.com/PyChina/weekly/blob/master/content/Issue/issue-396.md">issue-396.md</a></li>
+</ul>
+</div>
+
+
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+<!--
+    <span class="label label-default">Date</span>
+-->
+    <span class="published">
+        <i class="icon-calendar"></i>2019-11-27 14:42
+    </span>
+
+
+    <span class="label">By</span>
+    <i class="icon-user"></i><a href="http://weekly.pychina.org/author/pythoneerm.html">Pythoneerm</a>
+
+    <span class="label label-default">Category</span>
+    <a href="http://weekly.pychina.org/issue/index.html">Issue</a>
+
+
+
+	<span class="label label-default">Tags</span>
+		<a href="http://weekly.pychina.org/tag/weekly.html">Weekly</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/python.html">Python</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/pycoders.html">pycoders</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/zh.html">ZH</a>
+</footer><!-- /.post-info -->                    </div>
+                </div>
+
+            </div>
+            <!-- /.entry-content 
+    <hr />
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+            var disqus_identifier = 'Issue/19-11-27-issue-396';
+            var disqus_url = 'http://weekly.pychina.org/issue/issue-396.html';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+            -->
+
+<hr />
+<section class="comments" id="comments">
+    <h2>Comments</h2>
+
+
+<script src="https://utteranc.es/client.js"
+        repo="PyChina/weekly"
+        issue-term="url"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+
+</section>
+
+        </article>
+    </section>
+
+
+        </div>
+        <div class="col-lg-3 well well-sm" id="sidebar">
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><h4><i class="icon-comment icon-large"></i>Social</h4></li>
+                    <li class="list-group-item"><a href="https://github.com/PyChina/weekly"><i
+                            class="icon-github-sign icon-large"></i>github
+                    </a></li>
+                    <li class="list-group-item"><a href="http://weekly.pychina.org/feeds/all.atom.xml"><i
+                            class="icon-rss-sign icon-large"></i>rss
+                    </a></li>
+                    <li class="list-group-item"><a href="https://github.com/PyChina"><i
+                            class="icon-PyChina-sign icon-large"></i>PyChina
+                    </a></li>
+                    <li class="list-group-item"><a href="http://wiki.pychina.org"><i
+                            class="icon-Wiki-sign icon-large"></i>Wiki
+                    </a></li>
+                    <li class="list-group-item"><a href="http://wiki.woodpecker.org.cn/moin/CPUG"><i
+                            class="icon-啄木鸟-sign icon-large"></i>啄木鸟
+                    </a></li>
+                    <li class="list-group-item"><a href="http://www.101.camp"><i
+                            class="icon-蟒营-sign icon-large"></i>蟒营
+                    </a></li>
+
+
+            <li class="list-group-item"><h4>
+                <i class="icon-th icon-large"></i>Categories</h4></li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/author/index.html">
+                        <i class="icon-folder-open icon-large"></i>Author
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/author.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/chaos/index.html">
+                        <i class="icon-folder-open icon-large"></i>Chaos
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/chaos.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/elixirweekly/index.html">
+                        <i class="icon-folder-open icon-large"></i>ElixirWeekly
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/elixirweekly.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/importpython/index.html">
+                        <i class="icon-folder-open icon-large"></i>importpython
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/importpython.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/issue/index.html">
+                        <i class="icon-folder-open icon-large"></i>Issue
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/issue.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/pgweekly/index.html">
+                        <i class="icon-folder-open icon-large"></i>PgWeekly
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/pgweekly.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/python-weekly/index.html">
+                        <i class="icon-folder-open icon-large"></i>python-weekly
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/python-weekly.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+
+            <li class="list-group-item"><a href="http://weekly.pychina.org/tags.html"><h4><i class="icon-tags icon-large"></i>Tags</h4></a></li>
+        </ul>
+    </section>
+<section>
+<ul class="list-group-zip">
+    <li class="list-group-item">
+        <h4><i class="icon-tint icon-large"></i>Powerded By</h4></li>
+
+    <li class="list-group-item-zip">
+    已由
+        <a href="http://www.upyun.com/">
+        <img src="http://docs.upyun.com/img/upyun_logo.png"
+        width="90">
+<!--
+        <a href="http://qiniu.com/">
+        <img src="https://www.qiniu.com/assets/logo-zh-dbef5f389fb045c60f710d4d4e6225e9015c1684b1a1f7b81e000b952581dcd4.png"
+        width="90">
+-->        
+        </a>
+    提供CDN及云存储服务
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href="http://docs.getpelican.com">
+            Pelican
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <sup>theme base</sup>
+        <a href="https://github.com/DandyDev/pelican-bootstrap3">
+             DandyDev
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href="http://www.python.org/">
+            Python
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href="http://www.inkscape.org/">
+            inkscape
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href="http://git-scm.com/">
+            Git
+        </a>
+    </li>
+<!--
+    <li class="list-group-item-zip">
+        <a href="https://gitcafe.com/CPyUG">
+            GitCafe
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href="http://www.qiniu.com/about">
+            七牛
+        </a>
+    </li>
+
+-->
+
+    <li class="list-group-item-zip">
+        <a href='http://www.catb.org/hacker-emblem/'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAIAAAD8q9/YAAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVR4nOWWMYqDQBSGBa1jEbxFwEKwM6VV8AIWWkis9RI5Q1JpYWGb0jLpBDtrc4BgkQMI+y+yQ3BmdBJiNsv+kOHNZJT3+X6fo2y3W+k/ScFvv9//dhpvUhiGisi+uq6zLHNdd7VaTd7xFYnNor6uQsCO41wulzzPm6aZOavZJQSsaRqAMc6dzRskBFwUxfl8tizroVvDQr3DSSD9+Ore+YMV+irSYpjTRyUErKrqZrNBcLvdbNu+Xq/H43HyfabFhKEfCj0dsDEvEZQQMBHqXJYlAvSw3W43uZ/u/7wvwgitxHKBNGuFieBq0zRRYXRskf0DEzJXet1DIpis8NOf0jHg0+kEM+u6Dif37zCmh8MB0yf8zBRJnYk0UlL6oQiKC5ymqe/7sixXVYXTGJyM2oLWMIyu65Ik8TxvEmYykDjvJ2/zyLqguMBt22IEG+oJDyPGiBgr5N+/KC5wEAQYl8vler1GTyYnLdQWtFEUvTHJV4oLvFgs4jjuY3CSnjzu5M8/ln8Df/IB+OX6Ah776L1W8pWtAAAAAElFTkSuQmCC"/>
+        </a>
+    </li>
+
+
+    <li class="list-group-item-zip">
+        <a href="http://zh.wikipedia.org/zh-cn/UTF-8">
+<img src="data:image/jpeg;base64,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"/>
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href='http://creativecommons.org/licenses/by-nc-sa/2.5/cn/'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAANDQwNDQ0NDg0ODg4PEA8REREZGRkgICAhISEiIiIkJSMnKCcuMC4xMzEzMzM5Ozk7PTtBQkFCQkJDQ0NERERLTEtVVVVbXltmZmZna2dydnF3d3d9gn2AgICGhoaHh4eIiIiPkI+UmZOZmZmqqqqrsaqzuLK6v7q7u7vFxsXGysbIzMjKzsrMzMzd3d3u7u7///+uXr4hAAAA1UlEQVR42q2T2Q6CMBBFR0VUXHCritQFgXGvnf//Oa2ZNEB4UXrTl97enkxmWnAvcioDRKMtJGwJL0V8duEvWWDqGR4TR4iXfUPgbEBWCjaIj1UzYCchFYDQAgJFYoL4PHF/OVTIG7sEMLEKcAdXCtYkpa+znGQH8XL7nvOyed7VGGVgDEqbqaxD+kh6iOc7V2hjfJfxVYNqKxSRr2VGsl2ukNO85/v1hu1hO6Hch0gLCF+0HBd6yLEfe4jTvuMpp62jBS6GDt4hxnBg3rzX9Kc4FTjXG9Q1UZbZlOQyAAAAAElFTkSuQmCC"/>
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+<!--
+#   190818 ++cnzz 统计代码
+-->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1277935779'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1277935779%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1277935779'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1277935779%26online%3D1' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+    </li>
+
+
+</ul>
+</section>
+
+</aside>        </div>
+    </div>
+</div>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://weekly.pychina.org/theme/js/bootstrap.min.js"></script>
+
+
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) 
+
+<script src="http://weekly.pychina.org/theme/js/respond.min.js"></script>
+
+-->
+
+
+<!--
+<script src="https://utteranc.es/client.js"
+        repo="PyChina/comments"
+        issue-term="url"
+        label="✨💬✨ "
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+    <script type="text/javascript">
+        var disqus_shortname = 'weeklypychinaorg';
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] ||
+             document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+ 
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    
+
+-->
+
+</body>
+</html>
