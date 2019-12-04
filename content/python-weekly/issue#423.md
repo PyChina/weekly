@@ -279,6 +279,6 @@ Python是如此受欢迎的语言是有原因的:它的原则很强大。然而�
 
 
 - 首发: [pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/python-weekly/pyw-423.html)
-- 改进: [issue-422.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#423.md)
+- 改进: [issue-423.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#423.md)
 
 
