@@ -3,7 +3,7 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-    <title>蠎加载 113
+    <title>pythonista-weekly : Pyw 426
         ~蠎周刊
         ~汇集全球蠎事儿 ;-) </title>
     <!-- Using the latest rendering mode for IE -->
@@ -14,9 +14,9 @@
     <!-- Open Graph tags -->
 
             <meta property="og:type" content="article"/>
-            <meta property="og:title" content="蠎加载 113"/>
-            <meta property="og:url" content="http://weekly.pychina.org/importpython/importpython-113.html"/>
-            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 113 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... Guido van Rossum 访谈 podcast, BDFL Talkpython interview with Guido van Rossum aka BDFL. (是也乎: 有字幕的, 基本上就是回忆了 ABC 时代的嗯哼... ) 几个 Python 3 决择 / 进化 的关键视图 core-python The people who …"/>
+            <meta property="og:title" content="pythonista-weekly : Pyw 426"/>
+            <meta property="og:url" content="http://weekly.pychina.org/python-weekly/pyw-426.html"/>
+            <meta property="og:description" content="欢迎阅读《pythonista周刊》第426期。Let us start! 原文: https://mailchi.mp/pythonweekly/python-weekly-issue-426 翻译：Dustyposa 来自赞助商（PS：原文的赞助商）: 使用 Datadog 监控你的python指标，日志，集群分析。使用Datadog的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。马上跟踪你的python应用吧！免费试用14天哦！ 是 select 还是 epoll 呢 新闻 Mozilla and Chan Zuckerberg Initiative 赞助 pip Python 软件基金会将在 2020 年获得 $407,000 USD …"/>
 
 
     <!-- Bootstrap -->
@@ -86,237 +86,226 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="http://weekly.pychina.org/importpython/importpython-113.html"
+                    <a href="http://weekly.pychina.org/python-weekly/pyw-426.html"
                        rel="bookmark"
-                       title="Permalink to 蠎加载 113">
-                        蠎加载 113
+                       title="Permalink to pythonista-weekly : Pyw 426">
+                        pythonista-weekly : Pyw 426
                     </a>
                 </h1>
             </header>
             <div class="entry-content">
 <div id="article-content">
-                <p><img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"></p>
-<ul>
-<li>原文: <a href="http://importpython.com/newsletter/no/113/">Import Python Weekly Newsletter - Issue No 113</a></li>
-<li>欢迎, <strong>来 <a href="https://github.com/PyChina/weekly">PyChina/weekly</a> 共同翻译/增订/推荐 周刊 蠎消息 ;-)</strong></li>
-</ul>
-<h2>该读</h2>
-<p>~ 文章, Blog, 教程...</p>
-<ul>
-<li><a href="https://player.backtracks.fm/talkpython/m/100-guido-van-rossum">Guido van Rossum 访谈</a><ul>
-<li>podcast, BDFL</li>
-</ul>
-</li>
-</ul>
-<p>Talkpython interview with Guido van Rossum aka BDFL.</p>
-<p>(<code>是也乎:</code></p>
-<p>有字幕的, 基本上就是回忆了 ABC 时代的嗯哼...
-)</p>
-<ul>
-<li><a href="http://charlesleifer.com/blog/what-happened/">几个 Python 3 决择 / 进化 的关键视图</a><ul>
-<li>core-python</li>
-</ul>
-</li>
-</ul>
-<p>The people who introduced me to Python chose it because of the elegance of the language, and it's aesthetic qualities. Would they choose it again, I wonder? Would I?.</p>
-<p>(<code>是也乎:</code></p>
-<p>是什么以及为什么的 Py3</p>
-<div class="highlight"><pre><span></span><span class="n">def</span> <span class="n">hello_world</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
-    <span class="n">print</span> <span class="s1">&#39;Hello&#39;</span><span class="p">,</span> <span class="n">name</span>
-</pre></div>
-
-
-<p>--&gt;</p>
-<div class="highlight"><pre><span></span><span class="nv">@coroutine</span><span class="w"></span>
-<span class="n">async</span><span class="w"> </span><span class="n">def</span><span class="w"> </span><span class="n">hello_world</span><span class="p">(</span><span class="nl">name</span><span class="p">:</span><span class="w"> </span><span class="nf">str</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="nf">str</span><span class="err">:</span><span class="w"></span>
-<span class="w">    </span><span class="n">await</span><span class="w"> </span><span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello {}&#39;</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">yield</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">name</span><span class="p">))</span><span class="w"></span>
-</pre></div>
-
-
-<p>一定是太多 C++ 程序媛进入了 python 内核开发团队!
-)</p>
-<ul>
-<li><a href="https://hashedin.com/training/designing-modules-in-python-ebook/">在 Python 中设计模块 - ebook</a><ul>
-<li>book</li>
-</ul>
-</li>
-</ul>
-<p>This book is for people with some experience in an object oriented programming language. This book will help you get better at module/class level design. Hopefully, it will teach you to identify good design from bad.</p>
-<ul>
-<li><a href="http://apm.byu.edu/">为工程师和科学家的 Python 视频</a><ul>
-<li>video</li>
-</ul>
-</li>
-</ul>
-<p>Python material in data science, analysis, and modeling, and optimization. Here is the youtube video channel of the site https://www.youtube.com/user/APMonitorCom</p>
-<p>(<code>是也乎:</code></p>
-<p>各种实战领域在职工程师/科学家们的 Pythonic 折腾
-)</p>
-<ul>
-<li><a href="https://benbernardblog.com/using-ubers-pyflame-and-logs-to-tackle-scaling-issues/">使用 Uber 的 Pyflame 和日志解决问题</a><ul>
-<li>debugging</li>
-</ul>
-</li>
-</ul>
-<p>This time, it was different though. My distributed web crawler seemed to be slowing down over time. Adding more nodes only had a temporary performance boost; the overall crawling speed gradually declined afterwards. So simply put, it couldn't scale. But why?. In this post, you'll find out what techniques and tools I used to diagnose scaling issues - and to an extent, more general performance issues - in my Python-based web crawler.</p>
-<p>(<code>是也乎:</code></p>
-<p><img alt="flame_graph_full" src="https://benbernardblog.com/content/images/2017/02/flame_graph_full.png"></p>
-<p>火焰图.... OpenResty 内置了专用工具, 现在咱大蠎也有了...</p>
-<p>)</p>
-<ul>
-<li><a href="https://medium.com/@jiefeng/lets-talk-about-python-packaging-6d84b81f1bb5">Python Packaging 简要指南</a><ul>
-<li>packaging</li>
-</ul>
-</li>
-</ul>
-<p>Code reuse is a very common need. It saves you time for writing the same code multiple times, enables leveraging other smart people’s work to make new things happen. Even just for one project, it helps organize code in a modular way so you can maintain each part separately. When it comes to python, it means format your project so it can be easily packaged. This is a simple instruction on how to go from nothing to a package that you can proudly put it in your portfolio to be used by other people.</p>
-<p>(<code>是也乎:</code></p>
-<p>一切最终归向 pypi ,这样有问题哪...
-)</p>
+                <h3>欢迎阅读《pythonista周刊》第426期。Let us start!</h3>
+<blockquote>
+<p>原文: <a href="https://mailchi.mp/pythonweekly/python-weekly-issue-426">https://mailchi.mp/pythonweekly/python-weekly-issue-426</a><br>
+翻译：Dustyposa</p>
+</blockquote>
+<h3>来自赞助商（PS：原文的赞助商）:</h3>
+<p>使用 <code>Datadog</code> 监控你的python指标，日志，集群分析。使用<code>Datadog</code>的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。<a href="https://www.datadoghq.com/dg/apm/ts-python-tracing/?utm_source=Advertisement&amp;utm_medium=Advertisement&amp;utm_campaign=PythonWeekly-Tshirt">马上跟踪你的python应用吧！免费试用14天哦！</a></p>
+<blockquote>
+<p>是 select 还是 epoll 呢 </p>
+</blockquote>
+<h2>新闻</h2>
+<h4><a href="https://pyfound.blogspot.com/2019/12/moss-czi-support-pip.html">Mozilla and Chan Zuckerberg Initiative 赞助 pip</a></h4>
+<p><code>Python 软件基金会</code>将在 2020 年获得 <code>$407,000 USD</code>来支持<code>pip</code>的开发工作。这种基础性，转换型的工作将使<code>Python</code>开发者和用户能专注于他们在制作或者使用的工具，而不是解决依赖冲突。具体来说，<code>CZI and Mozilla</code>正在资助用户体验，交流/宣传和测试的工作（包括开发完备的测试基础设施）以及核心功能的开发和审查。</p>
+<blockquote>
+<p>官方出手，资金提升，pip 稳了吗！</p>
+</blockquote>
+<h4><a href="https://www.zdnet.com/article/two-malicious-python-libraries-removed-from-pypi/">两个恶意的Python库被发现正在窃取SSH和GPG密钥</a></h4>
+<p><code>Python 安全团队</code>从<code>PyPI(Python包索引)</code>中移除了两个木马库，这些库北发现会从受感染者的项目中获取<code>SSH 和 GPG</code>密钥。这两个库是被同一个开发者创建，并且模仿了其他的更流行的库——用了一个叫做 <code>typosquatting</code>的技术来注册名字相似的名字。第一个叫做<code>python3-dateutil</code>，模仿了一个流行的<code>dateutil</code>库。第二个名字叫<code>jeIlyfish(第一个 L 是 I)，模仿了</code>jellyfish`库。</p>
+<blockquote>
+<p><code>Python</code>太收欢迎？</p>
+</blockquote>
+<h2>文章、教程与话题</h2>
+<h4><a href="https://ahmedbesbes.com/end-to-end-ml.html">端到端机器学习: 从数据收集到部署</a></h4>
+<p>在这篇文章，我们将通过一些必要的步骤去构建和部署一个机器学习应用。这将从数据收集开始再到部署，你将看到的全貌，是令人兴奋并且有趣的。</p>
+<blockquote>
+<p>ML 部署 get</p>
+</blockquote>
+<h4><a href="https://www.youtube.com/watch?v=aPCZcv-5qfA">用 Qiskit 进行量子计算机编程</a> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png">（48min）</h4>
+<p>量子计算机编程实用型介绍，使用<code>IBM</code>的免费的云量子计算机和<code>Qiskit</code>.</p>
+<blockquote>
+<p>尝鲜</p>
+<p>最近经常出现在 python thrending 中</p>
+</blockquote>
+<h4><a href="https://blog.startifact.com/posts/framework-patterns.html">框架模式</a></h4>
+<p>配置一个框架有很多方法。每个方法都有自己的优缺点。这篇文章描述了一些框架配置模式，并提供了一些简单的例子和折中的方案。</p>
+<blockquote>
+<p>太过自由也会让人比较难</p>
+</blockquote>
+<h4><a href="https://t.co/RnFPZKiaWf">用法Python 和 Facebook Prophet做预测</a></h4>
+<p>如何使用领域知识去调整和优化<code>Prophet</code>,让你的预测更可控。</p>
+<h4><a href="https://www.youtube.com/watch?v=_BBNVFirvTY">Django 3.0有什么新特性</a> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png">（5min）</h4>
+<p><code>Django</code>刚刚发布了他们的下一个主要版本<code>django 3.0</code>。这对你有什么影响？什么是<code>ASGI</code>?让我们讨论一下。</p>
+<blockquote>
+<p>异步来啦！</p>
+</blockquote>
+<h4><a href="https://strangemachines.io/articles/performant-python">高效的Python</a></h4>
+<p>看一看如何用简单的方式编写高效的<code>Python</code>代码，以及每个改进有多少效果。</p>
+<blockquote>
+<p>刚优化了 pandas 索引方式代码的我留下了不学无术泪水。</p>
+</blockquote>
+<h4><a href="https://www.pyimagesearch.com/2019/12/02/opencv-vehicle-detection-tracking-and-speed-estimation/">OpenCV 车辆检测, 追踪和速度估算</a></h4>
+<p>在这篇教程中，你将学习如何使用<code>OpenCV和深度学习</code>在视频流中进行车辆检测，并追踪他们并且利用速度估测去检测移动车辆的<code>MPH/KPH</code>。</p>
+<blockquote>
+<p>这个很刺激的样子。</p>
+</blockquote>
+<h4><a href="https://www.youtube.com/watch?v=jp0eiGn4jto">使用 Python创建一个全能的 Indeed Bot </a> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png">（25min）</h4>
+<p>使用 Python创建一个全能的 Indeed Bot。</p>
+<blockquote>
+<p>都越来越喜欢机器人了。</p>
+</blockquote>
+<h4><a href="https://www.dataquest.io/blog/excel-vs-python/">Excel vs Python: 如何执行常见数据分析任务</a></h4>
+<p><code>Excel and Python</code>的不同之处是什么？在这篇文章中，我们将通过观察在两个平台执行基准任务来进行比较。</p>
+<blockquote>
+<p>问我选什么？</p>
+<p>这不是很明显吗！成年人，当然两个都要！</p>
+</blockquote>
+<h4><a href="https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Getting-Started-with-Python-in-Visual-Studio-Code">在Visual Studio Code使用 Python</a> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png">(32min)</h4>
+<p>在这一集，<code>Tyreke White</code>为我们展示了如何使用<code>Visual Studio Code</code>开始<code>Python</code>开发。他讲解了你需要安装什么并且如何配置你的环境，也分享了如何对你的<code>Python代码debug</code>的小技巧。</p>
+<blockquote>
+<p>VSC 还是比较省内存的。</p>
+</blockquote>
+<h4><a href="http://www.blog.pythonlibrary.org/2019/12/04/adding-notifications-to-long-running-jupyter-notebook-cells/">给长时间运行的 Jupyter Notebook Cells 加上通知</a></h4>
+<p>如果你使用<code>Jupyter Notebook</code>去运行长时间运行的进程，例如：机器学习的训练，然后你可能想知道什么时候<code>cell</code>运行结束了。这里有一个叫做<code>jupyter-notify</code>的简洁的浏览器插件你可以使用，帮助解决这个问题。当<code>cell</code>执行结束时，你的浏览器会发出一个弹窗信息通知你。</p>
+<blockquote>
+<p>痛点解决！</p>
+</blockquote>
+<h4><a href="https://victorzhou.com/blog/bag-of-words/">词袋模型的简单解释</a></h4>
+<p>一个快速，简单的关于词袋模型的介绍，以及你如何在<code>Python</code>中实现。</p>
+<h4><a href="https://www.youtube.com/watch?v=mE0oR9NQefw">Python 字节码: 一个介绍教程</a> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png">（12min）</h4>
+<p>这是开始深入了解<code>Cpython</code>内部实现原理（实际上<code>Python</code>参考实现)的好方法。不要让你之前的误解或者让你知道的一些知识阻碍你。如果你想学习更多关于<code>Python</code>的知识，那么这 10 分钟是值得的。</p>
+<blockquote>
+<p>不要被已知知识束缚。</p>
+</blockquote>
+<h4><a href="https://t.co/52y7IjNSqm">如何用Python分析笔记本电脑上的100 GB数据</a></h4>
+<p>了解如何使用<code>Python</code>中的<code>Vaex</code>开源数据框架探索，可视化和分析 100GB 的表格数据。</p>
+<blockquote>
+<p>躲不过的大量数据。</p>
+</blockquote>
+<h4>使用Elasticsearch，Logstash，Kibana（ELK）+ Filebeat进行Django集中式日志记录t](https://binaroid.com/blog/django-centralised-logging-using-elasticsearch-logstash-kibana-elk-filebeat)</h4>
+<p>在这篇教程，我们将学习如何从我们的<code>Django</code>应用中把应用日志放到<code>Elasticsearch</code>存储，并且能够在<code>Kibana</code>web工具中以可读的方式展示。本文的主要目的是使用另一种工具<code>Elastic - Filebeat</code>在<code>Django</code>服务和<code>ELK堆栈 (Elasticsearch, Kibana, Logstash)</code>建立一个连接。我们也会简要的介绍之前的步骤，例如日志记录的背后的原因，在<code>Django</code>中配置日志以及安装<code>ELK stack</code>。</p>
+<blockquote>
+<p>推推推！</p>
+</blockquote>
+<h4><a href="https://pbpython.com/windows-shortcut.html">使用Python构建Windows快捷方式</a></h4>
+<p>使用<code>Python</code>去构建一个<code>Windows</code>快捷方式来运行<code>conda</code>环境。</p>
+<p><a href="https://t.co/HiZSXhJMYP">如何在AWS Elastic Beanstalk上部署Django Channels 2.x</a></p>
+<p><a href="https://www.fast.ai/2019/12/02/nbdev/">nbdev: 万事皆用 Jupyter Notebooks </a></p>
+<blockquote>
+<p>Jupyter 称霸天下？</p>
+</blockquote>
+<p><a href="https://t.co/qBVSBuB0jA">我们如何使用Elasticsearch &amp; PostgreSQL 功能组织Django APIs</a></p>
+<p><a href="https://www.youtube.com/playlist?list=PLQYPYhKQVTvetDJZFGY8RfYlPBLQmbt-T">PyCon Sweden Videos</a> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png"></p>
+<p><a href="https://pythonspeed.com/articles/pandas-reduce-memory-lossy/">降低 Pandas 使用内存  #2: 有损压缩</a></p>
+<h2>有趣的项目、工具和库</h2>
+<h4><a href="https://metaflow.org/">Metaflow</a></h4>
+<p>由<code>Netfilx</code>开发，用于<code>real-life</code>的数据科学框架。<code>Metaflow</code>让构建和管理<code>real-life</code>数据科学项目变得更快和简单。</p>
+<h4><a href="https://tensorboard.dev/">TensorBoard.dev</a></h4>
+<p>一份管理 <code>TensorBoard</code> 的经验，可以让你上传和分享 ML 实验结果给任何人。</p>
+<blockquote>
+<p>数据方面项目的功能也越来越强了</p>
+</blockquote>
+<h4><a href="https://mardix.github.io/assembly/">Assembly</a></h4>
+<p>一个基于<code>Flask</code>的<code>Pythonic</code> 的面向对象的<code>Web框架</code>。  </p>
+<h4><a href="https://github.com/enric1994/emoji_trends">emoji_trends</a></h4>
+<p><code>emoji</code> 在推特上的使用。</p>
+<blockquote>
+<p>关于表情符号的趋势</p>
+<p>商机！？</p>
+</blockquote>
+<h4><a href="https://github.com/adamcharnock/lightbus/">Lightbus</a></h4>
+<p><code>Lightbus</code>允许你的后台进程通信，运行后台任何并且公开内部<code>APIs</code>.尽管最终可能会增加对其他平台的支持，但目前<code>Lightbus</code>使用<code>Redis</code>作为其基础传输。</p>
+<blockquote>
+<p>异步时间框架 37+</p>
+</blockquote>
+<h4><a href="https://github.com/rapidsai/cusignal">cusignal</a></h4>
+<p><code>cuSignal GPU</code>使用<code>CuPy（GPU加速的NumPy）</code>和自定义的<code>Numba CUDA</code>内核来加速流行的<code>SciPy Signal</code>库。</p>
+<blockquote>
+<p>还是速度重要！</p>
+</blockquote>
+<h4><a href="https://github.com/kelvich/tlaplus_jupyter">tlaplus_jupyter</a></h4>
+<p>适用于TLA⁺和Pluscal规范语言的Jupyter内核。</p>
+<blockquote>
+<p>大佬们喜欢的混合语法！</p>
+</blockquote>
+<h4><a href="https://github.com/manateelazycat/emacs-application-framework">emacs-application-framework</a></h4>
+<p><code>Emacs Application Framework (EAF)</code>是一个应用框架，可以将<code>GNU Emacs</code>扩展到一个全新的功能强大的<code>GUI PyQt</code>应用程序领域。</p>
+<blockquote>
+<p>亚古兽超进化！</p>
+</blockquote>
+<h4><a href="https://github.com/aroberge/friendly-traceback">friendly-traceback</a></h4>
+<p>针对Python初学者:用更容易理解、可翻译成各种语言的东西代替标准回溯。</p>
+<blockquote>
+<p>更友好的回溯，有错误原因及更正方法，初学者可以 have a try。</p>
+</blockquote>
+<h4><a href="https://github.com/viewflow/django-skinny-deploy">django-skinny-deploy</a></h4>
+<p>简单，单文件即可将Django部署到Ubuntu主机。</p>
+<blockquote>
+<p>！！部署福音？</p>
+</blockquote>
+<p><a href="https://github.com/TokenChingy/pytasking">Pytasking</a>
+一个简单的<code>Python 3.5+</code>多任务库。</p>
+<p><a href="https://github.com/0Hughman0/MinerClub">MinerClub</a></p>
+<p>一个<code>Webapp</code>，用于自动管理仅<code>Minecraft</code>成员和朋友的服务器。</p>
+<p><a href="https://github.com/OfirKP/Whatsapp-Net">Whatsapp-Net</a></p>
+<p>从<code>WhatsApp groups</code>数据生成连接的网络图。</p>
+<p><a href="https://github.com/vungocbinh2009/pytexexam">pytexexam</a></p>
+<p>一个简单的<code>Python</code>包，用于创建和输出考试内容。</p>
+<h2><strong>New Releases</strong></h2>
+<h4><a href="https://www.djangoproject.com/weblog/2019/dec/02/django-3-released/">Django 3.0</a></h4>
+<p>发行说明详细介绍了许多新功能，但其中一些要点是：</p>
 <ul>
 <li>
-<p><a href="https://medium.com/@dawran6/closures-bind-late-7b01e3abcb7b">闭包约束</a></p>
-<ul>
-<li>closures</li>
-</ul>
+<p><code>Django 3.0</code>通过支持作为一个<code>ASGI</code>应用运行，<code>Django</code>也打开了完全支持异步的新的篇章。</p>
 </li>
 <li>
-<p><a href="https://robots.thoughtbot.com/emacs-as-a-python-ide">Emacs 作为 Python IDE</a></p>
-<ul>
-<li>emacs</li>
-</ul>
+<p><code>Django</code>现在正式支持<code>MariaDB 10.1</code>及更高版本。</p>
 </li>
+<li>自定义枚举类型<code>TextChoices、IntegerChoices和Choices</code>现在可以作为定义模型字段选择的一种方式使用。</li>
 </ul>
-<p>Note - The video is old, but worth watching for emacs users.</p>
+<blockquote>
+<p>终终终于来了！</p>
+<p>它带着异步来了！</p>
+</blockquote>
+<h2>活动和网络研讨会日程</h2>
+<h4><a href="https://www.meetup.com/pydatato/events/266595041/">PyLadies/PyData Year End Talk Night - Toronto, ON</a></h4>
+<p>将会有以下的话题：</p>
 <ul>
-<li>
-<p><a href="https://goo.gl/mGBHFC">一种用于肺癌检测的python解决方案</a></p>
+<li>在<code>AWS</code>中设置简单的<code>Python</code>服务器</li>
+<li>用<code>Python</code>再写一个编程语言</li>
+<li>用<code>Altair</code>实现数据可视化</li>
+</ul>
+<h4><a href="https://www.meetup.com/austinpython/events/lgrbmqyzqbpb/">Austin Python Meetup December 2019 - Austin, TX</a></h4>
+<p>将会有以下的话题：</p>
 <ul>
-<li>deep learning</li>
+<li>Go For Pythonistas</li>
+<li><code>Python</code>切片对象</li>
 </ul>
-</li>
-<li>
-<p><a href="https://opensource.com/article/17/2/python-tricks-artists">使用 Python 查找损坏的图像</a></p>
+<h4><a href="https://www.meetup.com/PyMNtos-Twin-Cities-Python-User-Group/events/266893889/">PyMNtos Python Presentation Night #79 - Minneapolis, MN</a></h4>
+<p>将会有以下的话题：</p>
 <ul>
-<li>image processing</li>
+<li>先分析住房</li>
+<li>用<code>Python and gRPC</code>构建微服务</li>
+<li>使用<code>Python</code>从放射学报告中提取临床发现的<code>NLP</code>方法</li>
 </ul>
-</li>
-<li>
-<p><a href="http://www.infoworld.com/article/3171654/artificial-intelligence/5-python-libraries-to-lighten-your-machine-learning-load.html#tk.rss_all">5种 Python 库轻松进入机​​器学习</a></p>
+<p><a href="https://www.meetup.com/BoulderPython/events/vcmckryzqbnb/">Boulder Python Meetup December 2019 - Boulder, CO</a></p>
+<p><a href="https://www.meetup.com/Cleveland-Area-Python-Interest-Group/events/wrwphqyzqbmb/">Cleveland Python Meetup December 2019 - Cleveland , OH</a></p>
+<p><a href="https://www.meetup.com/python-atlanta/events/xzzgcryzqbqb/">PyAtl Meetup December 2019 - Atlanta, GA</a></p>
+<h2>Posa：</h2>
+<blockquote>
+<p>❤️ Happy Pythonic ;-(Posa私人无责任播报)  </p>
+</blockquote>
+<p>Django 3.0来啦！</p>
+<p><a href="https://docs.djangoproject.com/en/3.0/">戳这里</a></p>
+<p>----- 分割线 -----</p>
+<blockquote>
+<p>如果你发现哪里翻译有误的话，请务与我联系！感谢！
+</p>
+</blockquote>
 <ul>
-<li>machine learning</li>
-</ul>
-</li>
-</ul>
-<p>PyWren, Tfdeploy, Luigi, Kubelib, PyTorch. Note - We used luigi at my previous workplace and it's a solid library to custom pipelines for batch processing. In our case it was used to enforce database migrations.</p>
-<ul>
-<li><a href="http://renesd.blogspot.in/2017/02/is-type-tracing-for-python-useful-some.html">类型跟踪对Python很有用</a><ul>
-<li>debugging</li>
-</ul>
-</li>
-</ul>
-<p>Type Tracing - as a program runs you trace it and record the types of variables coming in and out of functions, and being assigned to variables.</p>
-<p>(<code>是也乎:</code></p>
-<p>嗯哼?! 真正靠谱的还是人
-)</p>
-<ul>
-<li><a href="https://datascience.blog.wzb.eu/2017/02/16/data-mining-ocr-pdfs-using-pdftabextract-to-liberate-tabular-data-from-scanned-documents/">使用 Python 对扫描文档进行数据挖掘</a><ul>
-<li>data mining</li>
-</ul>
-</li>
-</ul>
-<p>I've written a Python package called pdftabextract 
-https://github.com/WZBSocialScienceCenter/pdftabextract 
-that contains several helpful functions for that task and I'm explaining how to use them in that blog post.</p>
-<h2>好物</h2>
-<p>~ 包/模块/库/片段...</p>
-<ul>
-<li><a href="https://github.com/asrp/tkui">tkui</a><ul>
-<li>166 Stars, 11 Fork</li>
-</ul>
-</li>
-</ul>
-<p>A visual introspective GUI maker with live editing of the GUI and its editor at the same time</p>
-<p>(<code>是也乎:</code></p>
-<p>值得关注
-)</p>
-<ul>
-<li><a href="https://github.com/uclatommy/tweetfeels">tweetfeels</a><ul>
-<li>18 Stars, 1 Fork</li>
-</ul>
-</li>
-</ul>
-<p>Real-time sentiment analysis in Python using twitter's streaming api</p>
-<p>(<code>是也乎:</code></p>
-<p>实时情绪分析, weibo 已经上线相同的了.
-)</p>
-<ul>
-<li><a href="https://github.com/tsarjak/WallpapersFromReddit">WallpapersFromReddit</a><ul>
-<li>13 Stars, 3 Fork</li>
-</ul>
-</li>
-</ul>
-<p>Download all the hot images from reddit.com/r/wallpaper subreddit every 24 hours to a local device and set an image from those local files as a wallpaper, which updates automatically every 30 minutes!</p>
-<p>(<code>是也乎:</code></p>
-<p>从 reddit 壁纸专栏自动下载生成自己的</p>
-<p>)</p>
-<ul>
-<li><a href="https://github.com/meereeum/lda2vec-tf">lda2vec-tf</a><ul>
-<li>12 Stars, 1 Fork</li>
-</ul>
-</li>
-</ul>
-<p>Tensorflow port of the lda2vec model for unsupervised learning of document + topic + word embeddings.</p>
-<ul>
-<li><a href="https://github.com/emadehsan/ieighteen">ieighteen</a><ul>
-<li>10 Stars, 1 Fork</li>
-</ul>
-</li>
-</ul>
-<p>Speed up your Localization/Internationalization efforts by automating translation with single script</p>
-<p>(<code>是也乎:</code></p>
-<p>自动翻译哪...项目名好象 Clojure 的嗯哼...
-)</p>
-<ul>
-<li><a href="https://github.com/dcalsky/fish-hook">fish-hook</a><ul>
-<li>8 Stars, 1 Fork</li>
-</ul>
-</li>
-</ul>
-<p>A console tool which manages your github webhooks efficiently.</p>
-<p>(<code>是也乎:</code></p>
-<p>又一个 CLI 工具, 来管理 github webhooks 的...
-)</p>
-<ul>
-<li><a href="https://github.com/prabhuramachandran/ipyaml">ipyaml</a><ul>
-<li>8 Stars, 1 Fork</li>
-</ul>
-</li>
-</ul>
-<p>IPython notebooks with YAML file format</p>
-<p>(<code>是也乎:</code></p>
-<p>这个... just for fun
-)</p>
-<ul>
-<li><a href="https://github.com/xTEddie/Scrapstagram">Scrapstagram</a><ul>
-<li>3 Stars, 0 Fork</li>
-</ul>
-</li>
-</ul>
-<p>An Instagram Scrapper</p>
-<ul>
-<li><a href="https://github.com/putdotio/kimo">kimo</a><ul>
-<li>3 Stars, 0 Fork</li>
-</ul>
-</li>
-</ul>
-<p>Find OS processes of MySQL queries </p>
-<h3>(￣▽￣)</h3>
-<p>~ </p>
-<h1>是也乎</h1>
-<ul>
-<li>170226 <a href="http://zoomquiet.io">Zoom.Quiet</a> 42 分钟完成快译</li>
-<li>170226 <a href="http://zoomquiet.io">Zoom.Quiet</a> 用时 7 分钟完成格式化.</li>
+<li>首发: <a href="http://weekly.pychina.org/python-weekly/pyw-426.html">pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
+<li>改进: <a href="https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#426.md">issue-426.md</a></li>
 </ul>
 </div>
 
@@ -328,7 +317,7 @@ that contains several helpful functions for that task and I'm explaining how to 
     <span class="label label-default">Date</span>
 -->
     <span class="published">
-        <i class="icon-calendar"></i>2017-02-26 23:32
+        <i class="icon-calendar"></i>2019-12-08 15:16
     </span>
 
 
@@ -336,14 +325,14 @@ that contains several helpful functions for that task and I'm explaining how to 
     <i class="icon-user"></i><a href="http://weekly.pychina.org/author/pythoneerm.html">Pythoneerm</a>
 
     <span class="label label-default">Category</span>
-    <a href="http://weekly.pychina.org/importpython/index.html">importpython</a>
+    <a href="http://weekly.pychina.org/python-weekly/index.html">python-weekly</a>
 
 
 
 	<span class="label label-default">Tags</span>
 		<a href="http://weekly.pychina.org/tag/weekly.html">Weekly</a>
 	        ,
-		<a href="http://weekly.pychina.org/tag/importpython.html">ImportPython</a>
+		<a href="http://weekly.pychina.org/tag/pythonweekly.html">pythonweekly</a>
 	        ,
 		<a href="http://weekly.pychina.org/tag/zh.html">Zh</a>
 </footer><!-- /.post-info -->                    </div>
@@ -358,8 +347,8 @@ that contains several helpful functions for that task and I'm explaining how to 
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
-            var disqus_identifier = 'importpython/17-02-26-importpython-113';
-            var disqus_url = 'http://weekly.pychina.org/importpython/importpython-113.html';
+            var disqus_identifier = 'python-weekly/19-12-08-pyw-426';
+            var disqus_url = 'http://weekly.pychina.org/python-weekly/pyw-426.html';
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function () {
