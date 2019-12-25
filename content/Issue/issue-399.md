@@ -3,7 +3,7 @@ Slug: issue-399
 Date: 2019-12-18 11:42
 Tags: Weekly,Python,pycoders,ZH
 
-> 什么造就了 Python 成为伟大的开发语言?
+> 是什么令 Python 成为伟大的开发语言?
 
 原文: [PyCoder's Weekly - Issue #399](https://pycoders.com/issues/399)
 
