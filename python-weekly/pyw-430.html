@@ -3,7 +3,7 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-    <title> - Zh
+    <title>pythonista-weekly : Pyw 430
         ~蠎周刊
         ~汇集全球蠎事儿 ;-) </title>
     <!-- Using the latest rendering mode for IE -->
@@ -13,10 +13,10 @@
 
     <!-- Open Graph tags -->
 
-            <meta property="og:type" content="website"/>
-            <meta property="og:title" content="蠎周刊"/>
-            <meta property="og:url" content="http://weekly.pychina.org"/>
-            <meta property="og:description" content="蠎周刊"/>
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="pythonista-weekly : Pyw 430"/>
+            <meta property="og:url" content="http://weekly.pychina.org/python-weekly/pyw-430.html"/>
+            <meta property="og:description" content="欢迎阅读《pythonista周刊》第430期。Let us start! 原文: https://mailchi.mp/pythonweekly/python-weekly-issue-430 翻译：Dustyposa 来自赞助商（PS：原文的赞助商）: python开发者都需要的Vettery Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。准备好换工作地方了吗？免费制作简历，你的薪资你说了算，现在就和顶级雇主的HR联系吧！ 文章、教程与话题 Making Python Programs Blazingly Fast Python厌恶者总是说他们不想使用Python的理由之一就是太慢了。是的，对于特定的程序（无论使用何种编程语言），快或者慢都是非常依赖编写它的开发者自身编写优秀和快速代码和的技能和能力。所以，让我们证明某些人的错误观点并让他们看看我们可以如何提升我们的Python程序的性能，让它变得飞快！ 性能提升第一弹！ Numba makes Python 1000x faster …"/>
 
 
     <!-- Bootstrap -->
@@ -82,93 +82,223 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-9">
-            <article>
-                <h2><a href="http://weekly.pychina.org/issue/issue-6.html">Issue 6 ~ 春分</a></h2>
-                <div class="summary"><h1>Hi Pythonistas.</h1>
-<p>正如我们承诺过的,我们已经建立了往期 PyCoder's Weekly 的存档页,你可以在我们的 主页 的 archives 中找到它. 我们正在策划让邮件列表变的更方便一些,如果你有什么建议,请直接回复这封邮件告诉我们. 同时不要忘记把 我们 分享给你的朋友～</p>
-<p>Enjoy!</p>
-<p>--
-<a href="https://twitter.com/#!/myusuf3">Mahdi</a> and <a href="https://twitter.com/#!/mgrouchy">Mike</a></p>
-<p>原文: <a href="http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&amp;id=a07b4b921f">Pycoder's Weekly (Issue #6) : Vernal Equinox</a></p>
-<h2>新闻与开发动态</h2>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://weekly.pychina.org/python-weekly/pyw-430.html"
+                       rel="bookmark"
+                       title="Permalink to pythonista-weekly : Pyw 430">
+                        pythonista-weekly : Pyw 430
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+<div id="article-content">
+                <h3>欢迎阅读《pythonista周刊》第430期。Let us start!</h3>
+<blockquote>
+<p>原文: <a href="https://mailchi.mp/pythonweekly/python-weekly-issue-430">https://mailchi.mp/pythonweekly/python-weekly-issue-430</a><br>
+翻译：Dustyposa</p>
+</blockquote>
+<p><strong>来自赞助商（PS：原文的赞助商）:</strong><br>
+<a href="https://www.vettery.com/tech?utm_source=newsletter&amp;utm_medium=pythonweekly&amp;utm_term=tech&amp;utm_content=grouped&amp;utm_campaign=ad-77579">python开发者都需要的Vettery</a><br>
+Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。准备好换工作地方了吗？免费制作简历，你的薪资你说了算，现在就和顶级雇主的HR联系吧！</p>
+<h2>文章、教程与话题</h2>
+<p><a href="https://martinheinz.dev/blog/13">Making Python Programs Blazingly Fast</a></p>
+<p><code>Python</code>厌恶者总是说他们不想使用<code>Python</code>的理由之一就是太慢了。是的，对于特定的程序（无论使用何种编程语言），快或者慢都是非常依赖编写它的开发者自身编写优秀和快速代码和的技能和能力。所以，让我们证明某些人的错误观点并让他们看看我们可以如何提升我们的<code>Python</code>程序的性能，让它变得飞快！</p>
+<blockquote>
+<p>性能提升第一弹！</p>
+</blockquote>
+<p><strong><a href="https://www.youtube.com/watch?v=x58W9A2lnQc">Numba makes Python 1000x faster!</a></strong> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png"><em>(20min)</em></p>
+<p>在此视频中，我介绍了你需要了解的有关<code>Numba</code>的绝对最低要求，<code>Numba</code>是针对<code>Python</code>和<code>Numpy</code>子集的即时编译器。前半段的视频是一些基本介绍和强调了一些人们使用<code>Numba</code>时经常犯的错误。视频的剩余部分呈现了一个真实世界的模拟问题，在单和多线程的情况下使用<code>Numba</code>速度提升都达1000倍以上，最后以一个能够学习更多关于<code>Numba</code>知识的<code>"阅读清单"</code>结束。</p>
+<blockquote>
+<p>第二弹！</p>
+</blockquote>
+<p><strong><a href="https://iximiuz.com/en/posts/flask-gevent-tutorial">如何一起使用 gevent(uWSGI 和 Gunicorn版本) 和 Flask</a></strong></p>
+<p>创建一个异步的<code>Flask</code>应用并在反向代理<code>Nginx</code>之后用<code>uWSGI 或者 Gunicorn</code>运行它。</p>
+<blockquote>
+<p><code>Flask</code> 异步之旅。</p>
+</blockquote>
+<p><strong><a href="https://florimond.dev/blog/articles/2019/08/introduction-to-asgi-async-python-web/">ASGI介绍: 异步Python Web生态系统的出现</a></strong></p>
+<p>现在在<code>Python web</code>开发生态系统中有一些激动人心的事情在发生——这项工作的主要驱动力之一是异步标准网关接口<code>ASGI</code>。这篇文章面向的对<code>Python</code>网络开发的最新趋势感兴趣的人。将会用导航带着你了解什么是<code>ASGI</code>，对现代的<code>Python web</code>开发意味着什么？</p>
+<blockquote>
+<p>一浪高过一浪。</p>
+</blockquote>
+<p><strong><a href="https://machinelearningmastery.com/how-to-develop-an-intuition-skewed-class-distributions/">为严重倾斜的类别分布培养直觉</a></strong></p>
+<p>不平衡分类问题涉及到预测一个类标签，其中类标签在训练数据集中的分布是不相等的。不平衡分类问题中类分布的差异会影响数据准备和建模算法的选择。因此，对于不同的类分布的含义，实践者开发一种直觉是至关重要的。在本教程中，您将了解如何为不平衡和高度倾斜的类分布开发实践直觉。</p>
+<blockquote>
+<p>经验的传授？</p>
+</blockquote>
+<p><strong><a href="https://t.co/xe5GAgWia4">用 Jupyter 开发机器人</a></strong></p>
+<p>这篇文章展示了在<code>Jupyter</code>生态系统使用<code>Voilá</code>在<code>Jupyter Notebooks</code>和独立的网络应用中构建高级的可视化，以及如何部署这些<code>app</code>到<code>robotics cloud</code>中。</p>
+<blockquote>
+<p>Jupyter 抢占开发？</p>
+<p>Not easy.</p>
+</blockquote>
+<p><strong><a href="https://nicholasfarrow.com/Creating-a-Moon-Animation-Using-NASA-Images-and-Python/">使用 NASA 图片和 Python 制作一个月亮动画</a></strong></p>
+<p>这里是我们可以如何仅仅使用几行<code>Python</code>代码创作一个月亮视频。</p>
+<blockquote>
+<p>代表月亮...</p>
+</blockquote>
+<p><strong><a href="https://www.youtube.com/watch?v=kEVXjrt3LfA">使用Python &amp; Tableau实现内部销售仪表板自动化|第2部分:收集实时库存数据</a></strong> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png"><em>（36min）</em></p>
+<p>在这一部分，我们使用<code>pandas</code>数据读取器来位我们的内部交易仪表板收集实时的库存数据。这里有很多有用的东西，比如使用<code>pandas</code>来计算移动平均线和读取<code>html</code>。</p>
+<blockquote>
+<p>pandas 进阶之路</p>
+<p>不过实战记忆效率高，不亏！</p>
+</blockquote>
+<p><a href="https://www.freecodecamp.org/news/python-dictionaries-detailed-visual-introduction/">Python字典101: 详细的可视化介绍</a></p>
+<blockquote>
+<p>异常详细！</p>
+</blockquote>
+<p><a href="https://lucumr.pocoo.org/2020/1/1/async-pressure/">我没有感觉到异步压力</a></p>
+<blockquote>
+<p>我也希望没有压力。</p>
+</blockquote>
+<p><a href="https://igor.mp/blog/2019/12/31/tfidf-python.html">用tf-idf和Python进行单词搜索</a></p>
+<p><a href="https://www.pyimagesearch.com/2019/12/30/label-smoothing-with-keras-tensorflow-and-deep-learning/">Label smoothing with Keras, TensorFlow, and Deep Learning</a></p>
+<p><a href="https://orbifold.xyz/zen-of-python.html">Meditations on the Zen of Python</a></p>
+<p><a href="https://www.marsja.se/how-to-use-pandas-get_dummies-to-create-dummy-variables-in-python">如何在Python中使用Pandas的get_dummies 去创建虚拟变量</a></p>
+<h2>有趣的项目、工具和库</h2>
+<p><strong><a href="https://github.com/tiangolo/typer">Typer</a></strong>
+<code>Typer</code>，可以构建出色的<code>CLIs</code>。 易于编码。 基于<code>Python</code>类型提示。</p>
+<blockquote>
+<p>正在寻找合适的，瞅一瞅。</p>
+</blockquote>
+<p><strong><a href="https://github.com/neeru1207/AI_Sudoku">AI_Sudoku</a></strong></p>
+<p>基于<code>GUI</code>的智能数独解题器，试着从一张图片中提取数独题并解决它。</p>
+<blockquote>
+<p>数独怎么解？肉眼一看就能解。</p>
+</blockquote>
+<p><strong><a href="https://github.com/knowsuchagency/klaxon">klaxon</a></strong></p>
+<p>来自<code>Python</code>的<code>Mac OS</code>通知。</p>
+<p><strong><a href="https://github.com/ericls/django-simple-task">django-simple-task</a></strong></p>
+<p>用于<code>Django 3</code>的简单的后台任务。</p>
+<blockquote>
+<p>新鲜的后台任务来了！</p>
+</blockquote>
+<p><strong><a href="https://github.com/kkroening/ffmpeg-python">ffmpeg-python</a></strong></p>
+<p>用于<code>FFmpeg</code>的<code>Python</code>绑定函数——具有复杂的过滤支持。</p>
+<blockquote>
+<p>无限调用</p>
+</blockquote>
+<p><strong><a href="https://github.com/anmspro/Traffic-Signal-Violation-Detection-System">Traffic-Signal-Violation-Detection-System</a></strong></p>
+<p>使用<code>YOLO3 &amp; Tkinter</code>及基于视频片段的计算机视觉的交通信号违章检测系统。（包括GUI）</p>
+<p><strong><a href="https://github.com/PydPiper/pylightxl">pylightxl</a></strong></p>
+<p>一个轻量级、零依赖、轻量级功能的<code>excel</code>读/写的<code>Python</code>库。</p>
+<p><strong><a href="https://github.com/haroonawanofficial/XSS-Finder">XSS-Finder</a></strong></p>
+<p>重量级高级跨站点脚本扫描仪。</p>
+<p><strong><a href="https://github.com/Sanseer/Robatim">Robatim</a></strong></p>
+<p><code>Robatim</code>是一个基于常见的练习曲模式的伪随机音乐生成器。</p>
+<blockquote>
+<p>练习曲的春天？</p>
+</blockquote>
+<h2>活动和网络研讨会日程</h2>
+<p><strong><a href="https://www.meetup.com/austinpython/events/lgrbmqybccblb/">Austin Python Meetup January 2020 - Austin, TX</a></strong></p>
+<p><code>Jupyter notebooks</code>非常适合用来探索，尤其是分析和可视化。然而，当用于开发一个库或者自包含代码的时候，我们可以发现我们自己会复制和粘贴到我们喜欢的文本编辑器或者<code>IDE</code>。在本次演讲中，<code>Leanne Fitzpatrick</code>将介绍<code>nbdev</code>，这是<code>fast.ai</code>开发的解决此问题优雅的解决方案。</p>
+<p><strong><a href="https://www.meetup.com/PyRVAUserGroup/events/kktcmrybccblb/">CI/CD for Python on AWS - Glen Allen, VA</a></strong></p>
+<p>我们将会演示：</p>
+<ol>
+<li>如何为<code>Python</code>应用设置持续集成管道。</li>
+<li>如何用<code>Python/Boto3</code>在<code>AWS</code>上实现持续部署。</li>
+</ol>
+<p><a href="https://www.meetup.com/PyMNtos-Twin-Cities-Python-User-Group/events/267385506/">PyMNtos Python Presentation Night #80 - Minneapolis, MN</a></p>
+<p><a href="https://www.meetup.com/sfpython/events/xkwxvqybccblb/">San Francisco Python Meetup January 2020 - San Francisco, CA</a></p>
+<p><a href="https://www.meetup.com/python-atlanta/events/xzzgcrybccbmb/">PyAtl Meetup January 2020 - Atlanta, GA</a>https://morepypy.blogspot.com/2019/12/pypy-730-released.html)</p>
+<h2>Posa：</h2>
+<blockquote>
+<p>❤️ Happy Pythonic ;-(Posa私人无责任播报)  </p>
+</blockquote>
+<p>热腾腾的协程翻译: <strong><a href="https://github.com/Dustyposa/goSpider/blob/master/python_advance/%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/%E5%BC%82%E6%AD%A5%E7%88%AC%E8%99%AB">异步爬虫</a></strong></p>
+<p>初次翻译，多多指教，发现问题请提提提出来！！谢谢各位大佬了。</p>
+<p>----- 分割线 -----</p>
+<blockquote>
+<p>如果你发现哪里翻译有误的话，请务与我联系！感谢！
+</p>
+</blockquote>
 <ul>
-<li>
-<p><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/">在计算机科学或编程教学中使用 Python</a>
-MIT 对在计算机科学教学中使用 Python 作了一个介绍. </p>
-</li>
-<li>
-<p><a href="http://readthedocs.org/docs/pyramid/en/1.3-branch/whatsnew-1.3.html">Pyramid 网页框架 1.3 版本发布</a>
-Pyramid 网页框架发布了 1.3 版本,这个版本已经对 Python 3 完美兼容 …</p></li></ul>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/issue/issue-6.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="http://weekly.pychina.org/issue/issue-5.html">Issue 5 ~ Jam包ed</a></h2>
-                <div class="summary"><h1>Hi Pythonistas.</h1>
-<p>本周真是疯狂的一周,本期 PyCoders 充满了各种各样的关于 Python 的新闻. 我们尽可能的把在 PyCon 上发生的一切都告诉给你. </p>
-<p>我们正在征集一些关于 PyCoders 的推荐语放在我们的首页上,如果你希望在我们的主页上出现你的名字,以及想对我们说一些什么的话,请在 Twitter @pycoders . 我们很期待听到你的声音. </p>
-<p>让我们继续吧. </p>
-<p>Enjoy!</p>
-<p>--
-<a href="https://twitter.com/#!/myusuf3">Mahdi</a> and <a href="https://twitter.com/#!/mgrouchy">Mike</a></p>
-<p>原文: <a href="http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&amp;id=47b96cb9d9">Pycoder's Weekly (Issue #5) : Jam Packed</a></p>
-<h2>新闻与开发动态</h2>
-<ul>
-<li>
-<p><a href="https://www.djangoproject.com/weblog/2012/mar/13/py3k/">Django 的未来与 Python 3</a>
-这篇在 Django 网站上的文章表明了 Django 转向 Python 3 的计划与进程,Django 将在 1.5 版本中加入对 …</p></li></ul>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/issue/issue-5.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="http://weekly.pychina.org/issue/issue-4.html">Issue 4 ~ 我们没有跳舞机器人</a></h2>
-                <div class="summary"><h1>Hi Pythonistas.</h1>
-<p>本周的 PyCoder's Weekly 依然由 <a href="http://swixhq.com/">SWIX</a> 盛情赞助. </p>
-<p>嘛,PyCon 现在正在举行中,如果你在会场的话,告诉某两个人 PyCoders 的话,我们说不定会为你打开那个跳舞机器人哟,如果你真的想这么做,就来加入我们吧～本周依然有很多的好东西,比如作为 Python 中的 Rake 的项目 Shovel,以及更多的新鲜玩意儿～</p>
-<p>同时不要忘记把 我们 推荐给你的朋友～</p>
-<p>P.S. 如果你真的很想知道那个跳舞机器人是啥,偷偷地告诉你:就是那个今年 PyCon 开场的会跳舞的机器人哟. (译者注:本届 PyCon 大会的开场视频可以在 <a href="http://pyvideo.org/video/622/introduction-and-welcome">这里</a> 看到)</p>
-<p>Enjoy!</p>
-<p>--
-<a href="https://twitter.com/#!/myusuf3">Mahdi</a> and <a href="https://twitter.com/#!/mgrouchy">Mike</a></p>
-<p>原文: <a href="http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&amp;id=75d9550493">Pycoder's Weekly (Issue …</a></p>
-                    <a class="btn btn-default btn-xs" href="http://weekly.pychina.org/issue/issue-4.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
+<li>首发: <a href="http://weekly.pychina.org/python-weekly/pyw-430.html">pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
+<li>改进: <a href="https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#430.md">issue-430.md</a></li>
+</ul>
+</div>
 
-        <ul class="pagination">
 
-                <li class="prev"><a href="http://weekly.pychina.org/tag/zh132.html">&laquo;</a>
-                </li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh123.html">123</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh124.html">124</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh125.html">125</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh126.html">126</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh127.html">127</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh128.html">128</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh129.html">129</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh130.html">130</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh131.html">131</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh132.html">132</a></li>
-                <li class="active"><a
-                        href="http://weekly.pychina.org/tag/zh133.html">133</a></li>
-                <li class=""><a
-                        href="http://weekly.pychina.org/tag/zh134.html">134</a></li>
-                <li class="next"><a
-                        href="http://weekly.pychina.org/tag/zh134.html">&raquo;</a></li>
-        </ul>
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+<!--
+    <span class="label label-default">Date</span>
+-->
+    <span class="published">
+        <i class="icon-calendar"></i>2020-01-04 15:16
+    </span>
+
+
+    <span class="label">By</span>
+    <i class="icon-user"></i><a href="http://weekly.pychina.org/author/pythoneerm.html">Pythoneerm</a>
+
+    <span class="label label-default">Category</span>
+    <a href="http://weekly.pychina.org/python-weekly/index.html">python-weekly</a>
+
+
+
+	<span class="label label-default">Tags</span>
+		<a href="http://weekly.pychina.org/tag/weekly.html">Weekly</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/pythonweekly.html">pythonweekly</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/zh.html">Zh</a>
+</footer><!-- /.post-info -->                    </div>
+                </div>
+
+            </div>
+            <!-- /.entry-content 
+    <hr />
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+            var disqus_identifier = 'python-weekly/20-01-04-pyw-430';
+            var disqus_url = 'http://weekly.pychina.org/python-weekly/pyw-430.html';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+            -->
+
+<hr />
+<section class="comments" id="comments">
+    <h2>Comments</h2>
+
+
+<script src="https://utteranc.es/client.js"
+        repo="PyChina/weekly"
+        issue-term="url"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+
+</section>
+
+        </article>
+    </section>
+
+
         </div>
         <div class="col-lg-3 well well-sm" id="sidebar">
 <aside>
