@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sat, 04 Jan 2020 15:16:00 +0800</lastBuildDate><item><title>pythonista-weekly : Pyw 430</title><link>http://weekly.pychina.org/python-weekly/pyw-430.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第430期。Let us start!&lt;/h3&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 08 Jan 2020 12:42:00 +0800</lastBuildDate><item><title>Issue 402</title><link>http://weekly.pychina.org/issue/issue-402.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Ubuntu 20.04 LTS 果断禁断 Python 2&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/402"&gt;PyCoder's Weekly - Issue #402&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;200108 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;200108 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/3235/web"&gt;最后的 Python 2.7 维护版本计划2020四月发布&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYTHON.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python 2.7 is retired and became EOL on Jan 1, 2020. The last 2 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 08 Jan 2020 12:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-01-08:/issue/issue-402.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>pythonista-weekly : Pyw 430</title><link>http://weekly.pychina.org/python-weekly/pyw-430.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第430期。Let us start!&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-430"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-430&lt;/a&gt;&lt;br&gt;
 翻译：Dustyposa&lt;/p&gt;
