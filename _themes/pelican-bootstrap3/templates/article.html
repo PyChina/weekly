@@ -20,6 +20,9 @@
 {% endif %}
 <div id="article-content">
                 {{ article.content }}
+
+{% include 'includes/announce.html' %}
+
 </div>
 
 
@@ -30,11 +33,12 @@
                 </div>
 
             </div>
+
+
             <!-- /.entry-content 
             {% include 'includes/addthis.html' %}
             {% include 'includes/comments.html' %}
             -->
-
             {% include 'includes/page_comments.html' %}
 
         </article>
