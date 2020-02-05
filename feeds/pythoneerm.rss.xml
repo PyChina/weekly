@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sat, 01 Feb 2020 10:16:00 +0800</lastBuildDate><item><title>pythonista-weekly : Pyw 434</title><link>http://weekly.pychina.org/python-weekly/pyw-434.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第434期。Let us start!&lt;/h3&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 05 Feb 2020 10:42:00 +0800</lastBuildDate><item><title>Issue 406</title><link>http://weekly.pychina.org/issue/issue-406.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;值得收藏的22个最常用 Python 模块&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/406"&gt;PyCoder's Weekly - Issue #406&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;200205 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;200205 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/3512/web"&gt;如何下架 Python 2 从而提升开发人员幸福感&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;BARRY WARSAW&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“Now that LinkedIn engineering has fully embraced Python 3, we no longer have to worry about supporting Python 2 and …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 05 Feb 2020 10:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-02-05:/issue/issue-406.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>pythonista-weekly : Pyw 434</title><link>http://weekly.pychina.org/python-weekly/pyw-434.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第434期。Let us start!&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-434"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-434&lt;/a&gt;&lt;br&gt;
 翻译：Dustyposa&lt;/p&gt;
