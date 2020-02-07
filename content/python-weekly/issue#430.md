@@ -177,6 +177,6 @@ Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。�
 
 
 - 首发: [pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/python-weekly/pyw-430.html)
-- 改进: [issue-430.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#430.md)
+- 改进: [issue-430.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23430.md)
 
 

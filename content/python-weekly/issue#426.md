@@ -271,6 +271,6 @@ Django 3.0来啦！
 
 
 - 首发: [pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/python-weekly/pyw-426.html)
-- 改进: [issue-426.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#426.md)
+- 改进: [issue-426.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23426.md)
 
 

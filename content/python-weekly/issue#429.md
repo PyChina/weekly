@@ -156,6 +156,6 @@ masscan速度快，nmap 可以扫描指纹软件和vulners是一个巨大的漏�
 
 
 - 首发: [pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/python-weekly/pyw-429.html)
-- 改进: [issue-429.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#429.md)
+- 改进: [issue-429.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23429.md)
 
 

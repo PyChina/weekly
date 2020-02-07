@@ -78,7 +78,7 @@ Visual Studio Code vs PyCharm.
 
 **[是什么让“XGBoost”如此 Extreme？](https://medium.com/analytics-vidhya/what-makes-xgboost-so-extreme-e1544a4433bb)**
 
-你曾问过`"XGBoosg"`是如何工作的？`"XGBoost"`与梯度下降有什么不同？或者甚至`Python`中一个简单的示例。如果有过，那么你就来对了地方。`"Xgboost"`是用于表格数据的最强大的机器学习工具之一。它在学习非线性决策边界方面的效率和性能使其成为行业和学术界的必备品。所以是什么让这个算法如此特殊呢？
+你曾问过`"XGBoost"`是如何工作的？`"XGBoost"`与梯度下降有什么不同？或者甚至`Python`中一个简单的示例。如果有过，那么你就来对了地方。`"Xgboost"`是用于表格数据的最强大的机器学习工具之一。它在学习非线性决策边界方面的效率和性能使其成为行业和学术界的必备品。所以是什么让这个算法如此特殊呢？
 
 > 应用最广的算法之一。
 
@@ -205,6 +205,6 @@ NetLimiter-like traffic shaping for Linux.
 
 
 - 首发: [pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/python-weekly/pyw-434.html)
-- 改进: [issue-434.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#434.md)
+- 改进: [issue-434.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23434.md)
 
 

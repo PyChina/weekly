@@ -216,6 +216,6 @@ Reformer, the Efficient Transformer, in Pytorch.
 
 
 - 首发: [pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/python-weekly/pyw-433.html)
-- 改进: [issue-433.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#433.md)
+- 改进: [issue-433.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23433.md)
 
 

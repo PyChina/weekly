@@ -205,7 +205,11 @@ PyTorch Elastic（torchelastic）是一个框架，使分布式训练任务能�
 
 ## Posa：
 > ❤️ Happy Pythonic ;-(Posa私人无责任播报)  
-残念，暂无。:(
+
+Django 3.0来啦！
+
+[戳这里](https://docs.djangoproject.com/en/3.0/)
+
 
 
 ----- 分割线 -----
@@ -217,6 +221,6 @@ PyTorch Elastic（torchelastic）是一个框架，使分布式训练任务能�
 
 
 - 首发: [pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/python-weekly/pyw-427.html)
-- 改进: [issue-427.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#427.md)
+- 改进: [issue-427.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23427.md)
 
 

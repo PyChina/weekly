@@ -1,5 +1,5 @@
 Title: pythonista-weekly : Pyw 428
-Date: 2019-12-20 15:16
+Date: 2019-12-14 15:16
 Tags: Weekly,pythonweekly,Zh 
 Slug: pyw-428
 
@@ -206,6 +206,6 @@ Nai
 
 
 - 首发: [pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/python-weekly/pyw-428.html)
-- 改进: [issue-428.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#428.md)
+- 改进: [issue-428.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23428.md)
 
 

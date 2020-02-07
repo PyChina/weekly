@@ -163,6 +163,6 @@ CleverCSV通过改进对杂乱CSV文件的`dialect`检测功能，为`Python` cs
 
 
 - 首发: [pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/python-weekly/pyw-432.html)
-- 改进: [issue-432.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue#432.md)
+- 改进: [issue-432.md](https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23432.md)
 
 
