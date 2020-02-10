@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 05 Feb 2020 10:42:00 +0800</lastBuildDate><item><title>Issue 406</title><link>http://weekly.pychina.org/issue/issue-406.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sat, 08 Feb 2020 10:26:00 +0800</lastBuildDate><item><title>pythonista-weekly : Pyw 435</title><link>http://weekly.pychina.org/python-weekly/pyw-435.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第434期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-435"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-435&lt;/a&gt;&lt;br&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;&lt;br&gt;
+&lt;a href="https://www.vettery.com/tech?utm_source=newsletter&amp;amp;utm_medium=pythonweekly&amp;amp;utm_term=tech&amp;amp;utm_content=grouped&amp;amp;utm_campaign=ad-77579"&gt;python开发者都需要的Vettery&lt;/a&gt;&lt;br&gt;
+Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。准备好换工作地方了吗？免费制作简历，你的薪资你说了算，现在就和顶级雇主的HR联系吧！&lt;/p&gt;
+&lt;h2&gt;文章、教程与话题&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://tech.ebayinc.com/engineering/pykrylov-accelerating-machine-learning-research-at-ebay/"&gt;PyKrylov: 在eBay的机器学习研究加速&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;eBay&lt;/code&gt;科技博客最近的一篇文章介绍了名为&lt;code&gt;Krylov&lt;/code&gt;的&lt;code&gt;Unified&lt;/code&gt;人工智能平台。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.youtube.com/watch?v=bcM5AQSAzUY"&gt;Jetson Nano上10行Python代码实现实时对象检测&lt;/a&gt;&lt;/strong&gt; &lt;img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png"&gt;&lt;/p&gt;
+&lt;p&gt;在本片教程中，你将学习到如何设置你的&lt;code&gt;NVIDIA Jetson Nano&lt;/code&gt;，运行几个对象识别的例子并用&lt;code&gt;Python&lt;/code&gt;从在线的相机流中编码你自己的实时对象识别程序。有几个&lt;code&gt;DNN&lt;/code&gt;模型是被支持的，包括&lt;code&gt;SSD-Mobilenet and …&lt;/code&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Sat, 08 Feb 2020 10:26:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-02-08:/python-weekly/pyw-435.html</guid><category>python-weekly</category><category>Weekly</category><category>pythonweekly</category><category>Zh</category></item><item><title>Issue 406</title><link>http://weekly.pychina.org/issue/issue-406.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;值得收藏的22个最常用 Python 模块&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/406"&gt;PyCoder's Weekly - Issue #406&lt;/a&gt;&lt;/p&gt;
