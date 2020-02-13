@@ -3,7 +3,7 @@ Slug: issue-407
 Date: 2020-02-12 10:42
 Tags: Weekly,Python,pycoders,ZH
 
-> Guido 老爹义劝如何正确为 Python 提贡献
+> Guido 老爹义劝快乐的为 Python 提贡献吧
 
 
 
@@ -97,9 +97,9 @@ github.com/NationalSecurityAgency/ghidra
 
 老爹终于忍不住了, 用 Dropbox 的只读文档形式发布指导:
 
-想为 CPython 贡献?
+想为 CPython 贡献很简单,嘦:
 
-首先得懂 C(真正的懂那种), 其次得会 git/github, 然后至少10年 Python 经验;
+懂 C(真正的懂那种), 其次得用 git/github, 至少10年 Python 经验;
 
 并强调了真相: 你将更多的在 CLI 中工作, 别想着什么 GUI 的东西了...
 以及, 文档真的都在过时, 别太相信丫们, 及时寻求帮助是好的;
