@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Issue</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/issue.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2020-02-12T10:42:00+08:00</updated><entry><title>Issue 407</title><link href="http://weekly.pychina.org/issue/issue-407.html" rel="alternate"></link><published>2020-02-12T10:42:00+08:00</published><updated>2020-02-12T10:42:00+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2020-02-12:/issue/issue-407.html</id><summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Guido 老爹义劝如何正确为 Python 提贡献&lt;/p&gt;
+&lt;p&gt;Guido 老爹义劝快乐的为 Python 提贡献吧&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/407"&gt;PyCoder's Weekly - Issue #407&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
@@ -16,7 +16,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;“Use Flake8, pytest, and Sphinx in your current Python project. Also evaluate pre-commit, black, and Pylint. For your next project …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
-&lt;p&gt;Guido 老爹义劝如何正确为 Python 提贡献&lt;/p&gt;
+&lt;p&gt;Guido 老爹义劝快乐的为 Python 提贡献吧&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/407"&gt;PyCoder's Weekly - Issue #407&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
@@ -102,8 +102,8 @@
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;老爹终于忍不住了, 用 Dropbox 的只读文档形式发布指导:&lt;/p&gt;
-&lt;p&gt;想为 CPython 贡献?&lt;/p&gt;
-&lt;p&gt;首先得懂 C(真正的懂那种), 其次得会 git/github, 然后至少10年 Python 经验;&lt;/p&gt;
+&lt;p&gt;想为 CPython 贡献很简单,嘦:&lt;/p&gt;
+&lt;p&gt;懂 C(真正的懂那种), 其次得用 git/github, 至少10年 Python 经验;&lt;/p&gt;
 &lt;p&gt;并强调了真相: 你将更多的在 CLI 中工作, 别想着什么 GUI 的东西了...
 以及, 文档真的都在过时, 别太相信丫们, 及时寻求帮助是好的;&lt;/p&gt;
 &lt;p&gt;现在有 7000+ 提案, 选择一个适合自己的开始, 然后, 才可能有然后.&lt;/p&gt;
