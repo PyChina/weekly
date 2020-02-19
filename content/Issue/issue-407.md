@@ -21,7 +21,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [通过比较流行的项目模板了解 Python 工具的最佳实践](https://pycoders.com/link/3535/web)
     + JONAS KEMPER
 
-“Use Flake8, pytest, and Sphinx in your current Python project. Also evaluate pre-commit, black, and Pylint. For your next project, consider adding poetry and Dependabot.”
+"Use Flake8, pytest, and Sphinx in your current Python project. Also evaluate pre-commit, black, and Pylint. For your next project, consider adding poetry and Dependabot."
 
 
 (`是也乎:`
@@ -39,7 +39,7 @@ You missed mypy. Simpler docs use markdown, not ReST (Sphinx). Black is overrate
     + REAL PYTHON 
     + video
 
-Learn about libraries that can be used for playing and recording sound in Python, such as PyAudio and python-sounddevice. You’ll also see code snippets for playing and recording sound files and arrays, as well as for converting between different sound file formats.
+Learn about libraries that can be used for playing and recording sound in Python, such as PyAudio and python-sounddevice. You'll also see code snippets for playing and recording sound files and arrays, as well as for converting between different sound file formats.
 
 
 (`是也乎:`
@@ -58,7 +58,7 @@ Understand GROUP BY in Django ORM by comparing QuerySets and SQL side by side. I
 - [用 Python 对自定义着色器的电视背光补偿](https://pycoders.com/link/3548/web)
     + PEKKA VÄÄNÄNEN
 
-Extending a broken TV’s lifetime with Python code and some custom shaders. Impressive!
+Extending a broken TV's lifetime with Python code and some custom shaders. Impressive!
 
 - [将Mypy应用于实际项目](https://pycoders.com/link/3553/web)
     + CAL PATERSON
@@ -77,7 +77,7 @@ Hints and tips for getting started with Mypy and introducing it to existing proj
 - [用 NSA 来学习 Python](https://pycoders.com/link/3540/web)
     + TWITTER.COM/CHRIS_SWENSON
 
-“I put in a FOIA request to the NSA for their Python training materials and got back a 400-page printout of their COMP 3321 training course. So, I scanned and OCR’d it. Here is a PDF (warning: 118 MB)”
+"I put in a FOIA request to the NSA for their Python training materials and got back a 400-page printout of their COMP 3321 training course. So, I scanned and OCR'd it. Here is a PDF (warning: 118 MB)"
 
 (`是也乎:`
 
@@ -97,12 +97,13 @@ github.com/NationalSecurityAgency/ghidra
 
 老爹终于忍不住了, 用 Dropbox 的只读文档形式发布指导:
 
-想为 CPython 贡献很简单,嘦:
+想为 CPython 贡献很简单,没那么多传说的技能要求:
 
-懂 C(真正的懂那种), 其次得用 git/github, 至少10年 Python 经验;
+要懂 C 语言 (错误,你并不用懂 C 语言. 大多标准库都是用 Python 写的. 而且我们也需要人帮忙完善文档)
 
-并强调了真相: 你将更多的在 CLI 中工作, 别想着什么 GUI 的东西了...
-以及, 文档真的都在过时, 别太相信丫们, 及时寻求帮助是好的;
+要懂 Git 和 GitHub (不完全正确. 虽然有一些概念要理解,但入门还是很容易的)
+
+要有10多年的 Python 经验 (不正确. 有个几年 Python 经验,不只局限于numpy和pandas这两个库就可以了)
 
 现在有 7000+ 提案, 选择一个适合自己的开始, 然后, 才可能有然后.
 
@@ -139,7 +140,7 @@ github.com/NationalSecurityAgency/ghidra
     + CAMILLO VISINI 
     + • Shared by Camillo Visini
 
-“On my Mac, I use the menu bar countless times per day. In this post we will go through the process of creating a custom macOS menu bar app using Python.”
+"On my Mac, I use the menu bar countless times per day. In this post we will go through the process of creating a custom macOS menu bar app using Python."
 
 (`是也乎:`
 
@@ -158,7 +159,7 @@ macOS 环境, 总是能吸引各种精巧的实现形式,
 - [在 Python 中实现接口](https://pycoders.com/link/3543/web)
     + REAL PYTHON
 
-In this tutorial, you’ll explore how to use a Python interface. You’ll come to understand why interfaces are so useful and learn how to implement formal and informal interfaces in Python. You’ll also examine the differences between Python interfaces and those in other programming languages.
+In this tutorial, you'll explore how to use a Python interface. You'll come to understand why interfaces are so useful and learn how to implement formal and informal interfaces in Python. You'll also examine the differences between Python interfaces and those in other programming languages.
 
 
 (`是也乎:`
@@ -174,7 +175,7 @@ In this tutorial, you’ll explore how to use a Python interface. You’ll come 
 - [SciPy 1.0: Python 中科学计算的基本算法](https://pycoders.com/link/3549/web)
     + NATURE.COM
 
-“In this work, we provide an overview of the capabilities and development practices of SciPy 1.0 and highlight some recent technical developments.”
+"In this work, we provide an overview of the capabilities and development practices of SciPy 1.0 and highlight some recent technical developments."
 
 - [用赋值表达式防止重复](https://pycoders.com/link/3551/web)
     + BRETT SLATKIN
@@ -184,7 +185,7 @@ An assignment expression—also known as the walrus operator—is a new syntax i
 - [Python 命令行参数解](https://pycoders.com/link/3542/web)
     + REAL PYTHON
 
-Python command line arguments are the key to converting your programs into useful and enticing tools that are ready to be used in the terminal of your operating system. In this step-by-step tutorial, you’ll learn their origins, standards, and basics, and how to implement them in your program.
+Python command line arguments are the key to converting your programs into useful and enticing tools that are ready to be used in the terminal of your operating system. In this step-by-step tutorial, you'll learn their origins, standards, and basics, and how to implement them in your program.
 
 (`是也乎:`
 
@@ -203,7 +204,7 @@ Python command line arguments are the key to converting your programs into usefu
 - [并行蓝调: 当代码变慢时](https://pycoders.com/link/3545/web)
     + ITAMAR TURNER-TRAURING
 
-“As it turns out, for certain operations NumPy will parallelize operations transparently. And if you’re not careful, this can actually slow down your code.”
+"As it turns out, for certain operations NumPy will parallelize operations transparently. And if you're not careful, this can actually slow down your code."
 
 
 (`是也乎:`
@@ -218,7 +219,7 @@ Blues 音乐本质就是哀伤...
 - [sys.getsizeof 不是您想要的](https://pycoders.com/link/3525/web)
     + NED BATCHELDER
 
-“sys.getsizeof is almost never what you want, for two reasons: it doesn’t count all the bytes, and it counts the wrong bytes.”
+"sys.getsizeof is almost never what you want, for two reasons: it doesn't count all the bytes, and it counts the wrong bytes."
 
 (`是也乎:`
 
@@ -403,7 +404,7 @@ Kaggle 也是个奇迹,
 - [2020新冠肺炎记忆](https://github.com/2019ncovmemory/nCovMemory)
     + github.com/2019ncovmemory/nCovMemory
 
-报道、非虚构与个人叙述（持续更新） Memory of 2020 nCov: Media Coverage, Non-fiction Writings, and Individual Narratives (Continuously updating)
+报道,非虚构与个人叙述(持续更新) Memory of 2020 nCov: Media Coverage, Non-fiction Writings, and Individual Narratives (Continuously updating)
 
 (`是也乎:`
 
@@ -415,7 +416,7 @@ Kaggle 也是个奇迹,
 
 项目结构
 
-    ├─archive                          文章的存档，目前提供jpg格式
+    ├─archive                          文章的存档,目前提供jpg格式
     │  └─jpg
     │    ├─1.jpg
     │    └─...

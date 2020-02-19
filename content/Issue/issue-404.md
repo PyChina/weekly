@@ -23,7 +23,7 @@ Tags: Weekly,Python,pycoders,ZH
     + PASCAL FUA, 
     + KRZYSZTOF LIS
 
-“Python currently is the dominant language in the field of Machine Learning but is often criticized for being slow to perform certain tasks. In this report, we use the well-known N-queens puzzle as a benchmark to show that once compiled using the Numba compiler it becomes competitive with C++ and Go in terms of execution speed while still allowing for very fast prototyping.”
+"Python currently is the dominant language in the field of Machine Learning but is often criticized for being slow to perform certain tasks. In this report, we use the well-known N-queens puzzle as a benchmark to show that once compiled using the Numba compiler it becomes competitive with C++ and Go in terms of execution speed while still allowing for very fast prototyping."
 
 
 (`是也乎:`
@@ -43,7 +43,7 @@ Large codebases require continued maintenance, but it is time-consuming and cumb
 - [Arcade: Python 游戏框架入门](https://pycoders.com/link/3390/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn how to use arcade, a modern Python framework for crafting games with compelling graphics and sound. Object-oriented and built for Python 3.6 and up, arcade provides you a modern set of tools for crafting great Python game experiences.
+In this step-by-step tutorial, you'll learn how to use arcade, a modern Python framework for crafting games with compelling graphics and sound. Object-oriented and built for Python 3.6 and up, arcade provides you a modern set of tools for crafting great Python game experiences.
 
 (`是也乎:`
 
@@ -56,12 +56,12 @@ In this step-by-step tutorial, you’ll learn how to use arcade, a modern Python
 - [创建一个简单的 Python Pip 存储库](https://pycoders.com/link/3386/web)
     + JAN-PIET MENS
 
-“I wanted the simplest (i.e. most lightweight) possible repository capable of serving packages in such a way as that Python’s pip would be able to install them.”
+"I wanted the simplest (i.e. most lightweight) possible repository capable of serving packages in such a way as that Python's pip would be able to install them."
 
 - [编写多语言脚本](https://pycoders.com/link/3370/web)
     + NKANAEV.GITHUB.IO
 
-Python and Ruby have somewhat similar syntaxes, could you come up with a program that’s valid in both languages?
+Python and Ruby have somewhat similar syntaxes, could you come up with a program that's valid in both languages?
 
 
 
@@ -83,13 +83,13 @@ NIL
 - [有效运用 Matplotlib](https://pycoders.com/link/3388/web)
     + CHRIS MOFFITT
 
-“Now that I have taken the time to learn some of these tools and how to use them with matplotlib, I have started to see matplotlib as an indispensable tool. This post will show how I use matplotlib and provide some recommendations for users getting started”
+"Now that I have taken the time to learn some of these tools and how to use them with matplotlib, I have started to see matplotlib as an indispensable tool. This post will show how I use matplotlib and provide some recommendations for users getting started"
 
 - [科学 Python: 用 SciPy 进行优化](https://pycoders.com/link/3387/web)
     + REAL PYTHON
 
 
-Learn about the SciPy ecosystem and how it differs from the SciPy library. You’ll learn how to install SciPy using Anaconda or pip and see some of its modules. Then, you’ll focus on examples that use the clustering and optimization functionality in SciPy.
+Learn about the SciPy ecosystem and how it differs from the SciPy library. You'll learn how to install SciPy using Anaconda or pip and see some of its modules. Then, you'll focus on examples that use the clustering and optimization functionality in SciPy.
 
 (`是也乎:`
 
@@ -103,17 +103,17 @@ Learn about the SciPy ecosystem and how it differs from the SciPy library. You�
     + REAL PYTHON 
     + video
 
-In this course, you’ll learn the basic data types that are built into Python, like numbers, strings, and Booleans. You’ll also get an overview of Python’s built-in functions.
+In this course, you'll learn the basic data types that are built into Python, like numbers, strings, and Booleans. You'll also get an overview of Python's built-in functions.
 
 - [CPython 中 open() 的意外结果](https://pycoders.com/link/3385/web)
     + JAVIER HONDUVILLA COTO
 
-“Misusing Python’s open() and the interaction of CPython’s GC and UNIX semantics can lead to unexpected results.”
+"Misusing Python's open() and the interaction of CPython's GC and UNIX semantics can lead to unexpected results."
 
 - [用 Python 玩得开心](https://pycoders.com/link/3380/web)
     + JAMES BENNETT
 
-Writing obfuscated code for fun and…great learning experiences! ;-)
+Writing obfuscated code for fun and... great learning experiences! ;-)
 
 
 (`是也乎:`
@@ -306,7 +306,7 @@ LLVM 越来越强大了, 可怜的 GCC
 - [⋅ PyCascades (10% Discount)](https://pycoders.com/link/3368/web)
     + February 8th & 9th in Portland, 
 
-OR. Get a 10% discount on your ticket courtesy of PyCoder’s with this link.
+OR. Get a 10% discount on your ticket courtesy of PyCoder's with this link.
 
 (`是也乎:`
 
@@ -332,7 +332,7 @@ OR. Get a 10% discount on your ticket courtesy of PyCoder’s with this link.
 )
 
 
-- [从1965年到2019年，最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
+- [从1965年到2019年,最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
     + TWITTER.COM/MARCUSBORBA
 
 (`是也乎:`

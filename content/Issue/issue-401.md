@@ -30,7 +30,7 @@ Python 2.7 will not be maintained past Jan 1st, 2020. So long Python 2, and than
 - [对 Python之禅 的冥想](https://pycoders.com/link/3194/web)
     + MOSHE ZADKA
 
-“The Zen of Python is not ‘the rules of Python’ or ‘guidelines of Python’. It is full of contradiction and allusion. It is not intended to be followed: it is intended to be meditated upon. In this spirit, I offer this series of meditations on the Zen of Python.”
+"The Zen of Python is not 'the rules of Python' or 'guidelines of Python'. It is full of contradiction and allusion. It is not intended to be followed: it is intended to be meditated upon. In this spirit, I offer this series of meditations on the Zen of Python."
 
 (`是也乎:`
 
@@ -42,7 +42,7 @@ Python 2.7 will not be maintained past Jan 1st, 2020. So long Python 2, and than
 - [Python 计时器功能: 监视代码的三种方法](https://pycoders.com/link/3191/web)
     + REAL PYTHON
 
-Learn how to use Python timer functions to monitor how fast your programs are running. You’ll use classes, context managers, and decorators to measure your program’s running time. You’ll learn the benefits of each method and which to use given the situation.
+Learn how to use Python timer functions to monitor how fast your programs are running. You'll use classes, context managers, and decorators to measure your program's running time. You'll learn the benefits of each method and which to use given the situation.
 
 
 (`是也乎:`
@@ -132,7 +132,7 @@ NIL
 - [Python Packaging 生态](https://pycoders.com/link/3186/web)
     + NICK COGHLAN
 
-“[It] seems worthwhile for me to write-up my perspective as one of the lead architects for that ecosystem on how I characterize the overall problem space of software publication and distribution, where I think we are at the moment, and where I’d like to see us go in the future.”
+"[It] seems worthwhile for me to write-up my perspective as one of the lead architects for that ecosystem on how I characterize the overall problem space of software publication and distribution, where I think we are at the moment, and where I'd like to see us go in the future."
 
 (`是也乎:`
 
@@ -145,7 +145,7 @@ NIL
     + TALK PYTHON 
     + podcast
 
-I was a guest on Mike Kennedy’s Talk Python podcast and we discussed a shortlist of 10 interesting tutorials published on Real Python in 2019. So if you’re looking to expand your year-end reading list you’ll find some inspiration there. It’s always a treat to be on Mike’s show—definitely check out his podcast!
+I was a guest on Mike Kennedy's Talk Python podcast and we discussed a shortlist of 10 interesting tutorials published on Real Python in 2019. So if you're looking to expand your year-end reading list you'll find some inspiration there. It's always a treat to be on Mike's show—definitely check out his podcast!
 
 (`是也乎:`
 
@@ -161,7 +161,7 @@ I was a guest on Mike Kennedy’s Talk Python podcast and we discussed a shortli
     + REAL PYTHON 
     + video
 
-In this step-by-step course, you’ll learn how to sort in Python. You’ll know how to sort various types of data in different data structures, customize the order, and work with two different ways of sorting in Python.
+In this step-by-step course, you'll learn how to sort in Python. You'll know how to sort various types of data in different data structures, customize the order, and work with two different ways of sorting in Python.
 
 
 (`是也乎:`
@@ -360,7 +360,7 @@ C++ 专属领域终于也被入侵了...
 )
 
 
-- [从1965年到2019年，最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
+- [从1965年到2019年,最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
     + TWITTER.COM/MARCUSBORBA
 
 (`是也乎:`

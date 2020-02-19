@@ -25,7 +25,7 @@ Tags: Weekly,Python,pycoders,ZH
     + REAL PYTHON 
     + video
 
-In this course, you’ll learn the basics of creating powerful web applications with Django, a Python web framework. You’ll build a portfolio website to showcase your web development projects, complete with a fully functioning blog.
+In this course, you'll learn the basics of creating powerful web applications with Django, a Python web framework. You'll build a portfolio website to showcase your web development projects, complete with a fully functioning blog.
 
 (`是也乎:`
 
@@ -81,7 +81,7 @@ PyPy has a new and faster JSON parser implementation. This post covers the desig
     + SEBASTIAN WITOWSKI
 
 
-Tired of having to reload a module each time you change it? IPython’s %autoreload to the rescue!
+Tired of having to reload a module each time you change it? IPython's %autoreload to the rescue!
 
 - [教程中不常用的 六个 Django 模板标签](https://pycoders.com/link/2653/web)
     + MEDIUM.COM/@HIGHCENBURG
@@ -98,7 +98,7 @@ Tired of having to reload a module each time you change it? IPython’s %autorel
 - [(浮点) 数字, 丫们说谎](https://pycoders.com/link/2651/web)
     + GLYPH LEFKOWITZ
 
-When and why 2 + 2 = 4.00000000000000000001…
+When and why 2 + 2 = 4.00000000000000000001... 
 
 (`是也乎:`
 
@@ -106,7 +106,7 @@ When and why 2 + 2 = 4.00000000000000000001…
 
 )
 
-- [Python 2.7 退休倒计时：〜2.5个月](https://pycoders.com/link/2641/web)
+- [Python 2.7 退休倒计时:〜2.5个月](https://pycoders.com/link/2641/web)
     + PYTHONCLOCK.ORG
 
 (`是也乎:`
@@ -124,7 +124,7 @@ When and why 2 + 2 = 4.00000000000000000001…
 - [您最喜欢的 Python 库是哪个?](https://pycoders.com/link/2642/web)
     + MIKE DRISCOLL
 
-Twitter discussion about everyone’s best-loved Python libraries. What’s your personal favorite?
+Twitter discussion about everyone's best-loved Python libraries. What's your personal favorite?
 
 (`是也乎:`
 
@@ -140,7 +140,7 @@ Twitter discussion about everyone’s best-loved Python libraries. What’s your
 - [如何在 CPython 中实现字典](https://pycoders.com/link/2626/web)
     + DATA-STRUCTURES-IN-PRACTICE.COM
 
-Learn what hash tables are, why you would use them, and how they’re used to implement dictionaries in the most popular Python interpreter: CPython.
+Learn what hash tables are, why you would use them, and how they're used to implement dictionaries in the most popular Python interpreter: CPython.
 
 (`是也乎:`
 
@@ -152,7 +152,7 @@ Learn what hash tables are, why you would use them, and how they’re used to im
 - [构建 Python 的 C 扩展模块](https://pycoders.com/link/2639/web)
     + REAL PYTHON
 
-Learn how to write Python interfaces in C. Find out how to invoke C functions from within Python and build Python C extension modules. You’ll learn how to parse arguments, return values, and raise custom exceptions using the Python API.
+Learn how to write Python interfaces in C. Find out how to invoke C functions from within Python and build Python C extension modules. You'll learn how to parse arguments, return values, and raise custom exceptions using the Python API.
 
 
 (`是也乎:`
@@ -167,7 +167,7 @@ Cython 即安.
 - [矫正的 Adam 会好过 Adam?](https://pycoders.com/link/2663/web)
     + ADRIAN ROSEBROCK
 
-“Is the Rectified Adam (RAdam) optimizer actually better than the standard Adam optimizer? According to my 24 experiments, the answer is no, typically not (but there are cases where you do want to use it instead of Adam).”
+"Is the Rectified Adam (RAdam) optimizer actually better than the standard Adam optimizer? According to my 24 experiments, the answer is no, typically not (but there are cases where you do want to use it instead of Adam)."
 
 (`是也乎:`
 
@@ -179,12 +179,12 @@ Cython 即安.
 - [用 Python zip() 函数进行并行迭代](https://pycoders.com/link/2634/web)
     + REAL PYTHON
 
-How to use Python’s built-in zip() function to solve common programming problems. You’ll learn how to traverse multiple iterables in parallel and create dictionaries with just a few lines of code.
+How to use Python's built-in zip() function to solve common programming problems. You'll learn how to traverse multiple iterables in parallel and create dictionaries with just a few lines of code.
 
 - [2020年之后RHEL如何支持Python 2?](https://pycoders.com/link/2630/web)
     + REDHAT.COM
 
-What the Py 2.x end-of-life deadline means in practice, e.g. “Just because the PSF consider Python 2 unsupported does not mean that Python 2 is unsupported within RHEL.” Also see the related discussion on Hacker News.
+What the Py 2.x end-of-life deadline means in practice, e.g. "Just because the PSF consider Python 2 unsupported does not mean that Python 2 is unsupported within RHEL." Also see the related discussion on Hacker News.
 
 
 (`是也乎:`
@@ -228,7 +228,7 @@ Tips on acing your Python coding interview, PSF has a new Code of Conduct, and r
 - [用 Python 和 Pandas 分析 Stack Overflow 调查](https://pycoders.com/link/2664/web)
     + MOSHE ZADKA
 
-Do your own data science exploration and analysis on the annual developer survey’s dataset.
+Do your own data science exploration and analysis on the annual developer survey's dataset.
 
 (`是也乎:`
 

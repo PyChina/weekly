@@ -16,7 +16,7 @@ Tags: Weekly,Python,pycoders,ZH
 
 
 
-- [Python 采用了12个月发布周期（PEP 602） (PEP 602)](https://pycoders.com/link/2827/web)
+- [Python 采用了12个月发布周期(PEP 602) (PEP 602)](https://pycoders.com/link/2827/web)
     + LWN.NET
 
 The CPython team moves to a consistent annual release schedule. More info here in PEP 602.
@@ -26,7 +26,7 @@ The CPython team moves to a consistent annual release schedule. More info here i
 - [用 Kivy Python 框架构建移动应用](https://pycoders.com/link/2808/web)
     + REAL PYTHON
 
-Learn how to build a mobile application with Python and the Kivy GUI framework. You’ll discover how to develop an application that can run on your desktop as well as your phone. Then, you’ll package your app for iOS, Android, Windows, and macOS.
+Learn how to build a mobile application with Python and the Kivy GUI framework. You'll discover how to develop an application that can run on your desktop as well as your phone. Then, you'll package your app for iOS, Android, Windows, and macOS.
 
 (`是也乎:`
 
@@ -38,7 +38,7 @@ Learn how to build a mobile application with Python and the Kivy GUI framework. 
 - [2019 Python 开发者调查表](https://pycoders.com/link/2826/web)
     + PSF BLOG
 
-“[We] aim to identify how the Python development world looks today and how it compares to the last two years. The results of the survey will serve as a major source of knowledge about the current state of the Python community and how it is changing over the years, so we encourage you to participate and make an invaluable contribution to this community resource. The survey takes approximately 10 minutes to complete.”
+"[We] aim to identify how the Python development world looks today and how it compares to the last two years. The results of the survey will serve as a major source of knowledge about the current state of the Python community and how it is changing over the years, so we encourage you to participate and make an invaluable contribution to this community resource. The survey takes approximately 10 minutes to complete."
 
 (`是也乎:`
 
@@ -51,7 +51,7 @@ Learn how to build a mobile application with Python and the Kivy GUI framework. 
 - [您不必迁移到 Python 3](https://pycoders.com/link/2820/web)
     + SEBASTIAN WITOWSKI
 
-“Python 3 is great! But not every Python 2 project has to be migrated. There are different ways how you can prepare for the upcoming Python 2 End of Life.”
+"Python 3 is great! But not every Python 2 project has to be migrated. There are different ways how you can prepare for the upcoming Python 2 End of Life."
 
 
 
@@ -69,7 +69,7 @@ Arguments for why you should always use python -m pip over pip/pip3 to control e
 - [Thank You, Guido](https://pycoders.com/link/2812/web)
     + DROPBOX.COM
 
-“After six and a half years, Guido van Rossum, the creator of Python, is leaving Dropbox and heading into retirement.”
+"After six and a half years, Guido van Rossum, the creator of Python, is leaving Dropbox and heading into retirement."
 
 (`是也乎:`
 
@@ -121,12 +121,12 @@ How to train your own traffic sign classifier/recognizer capable of obtaining ov
 - [用 Flask, Connexion 和 SQLAlchemy 构建 Python REST API](https://pycoders.com/link/2796/web)
     + REAL PYTHON
 
-In Part 4 of this series, you’ll learn how to create a Single-Page Application (SPA) to interface with the REST API backend that you built in Part 3. Your SPA will use HTML, CSS, and JavaScript to present this REST API to a user as a browser-based web application.
+In Part 4 of this series, you'll learn how to create a Single-Page Application (SPA) to interface with the REST API backend that you built in Part 3. Your SPA will use HTML, CSS, and JavaScript to present this REST API to a user as a browser-based web application.
 
 - [如何发现并修复Python代码中的性能下降](https://pycoders.com/link/2830/web)
     + OMER LACHISH
 
-A post-mortem of how Omer’s team tracked down and fixed a performance regression introduced by a switch from Celery to RQ.
+A post-mortem of how Omer's team tracked down and fixed a performance regression introduced by a switch from Celery to RQ.
 
 
 (`是也乎:`

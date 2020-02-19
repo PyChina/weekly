@@ -21,7 +21,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [用 Tkinter 进行 Python GUI 编程](https://pycoders.com/link/3445/web)
     + REAL PYTHON
 
-In this article, you’ll learn the basics of GUI programming with Tkinter, the de-facto Python GUI framework. Master GUI programming concepts such as widgets, geometry managers, and event handlers. Then, put it all together by building two applications: a temperature converter and a text editor.
+In this article, you'll learn the basics of GUI programming with Tkinter, the de-facto Python GUI framework. Master GUI programming concepts such as widgets, geometry managers, and event handlers. Then, put it all together by building two applications: a temperature converter and a text editor.
 
 
 ![Tkinter](http://ydlj.zoomquiet.top/ipic/2020-01-29-ScreenShot%202020-01-29%2017.54.14.jpg)
@@ -30,7 +30,7 @@ In this article, you’ll learn the basics of GUI programming with Tkinter, the 
 - [Pythonic Code Review \[2016\]](https://pycoders.com/link/3456/web)
     + ILYA ETINGOF
 
-“In this article I’ll focus on my personal experience in authoring and reviewing Python code from both psychological and technical perspectives. And I’ll do so keeping in mind the ultimate goal of striking a balance between code reviews being enjoyable and technically fruitful.”
+"In this article I'll focus on my personal experience in authoring and reviewing Python code from both psychological and technical perspectives. And I'll do so keeping in mind the ultimate goal of striking a balance between code reviews being enjoyable and technically fruitful."
 
 
 (`是也乎:`
@@ -56,7 +56,7 @@ Default to doing a user install (as if --user was passed) when the main site-pac
 - [Python 3.9 兼容性变更](https://pycoders.com/link/3458/web)
     + KARTHIKEYAN SINGARAVELAN
 
-“With the EoL of Python 2 being in line with development of Python 3.9 there were changes made to Python 3.9 that broke a lot of packages since many deprecation warnings became errors.”
+"With the EoL of Python 2 being in line with development of Python 3.9 there were changes made to Python 3.9 that broke a lot of packages since many deprecation warnings became errors."
 
 
 (`是也乎:`
@@ -69,7 +69,7 @@ Default to doing a user install (as if --user was passed) when the main site-pac
 - [关于如何为 Python 安装软件包的快速入门指南](https://pycoders.com/link/3465/web)
     + BRETT CANNON
 
-“If you just want to start poking at Python and want to avoid the pitfalls to installing packages globally, it only takes 3 steps to do the right thing.”
+"If you just want to start poking at Python and want to avoid the pitfalls to installing packages globally, it only takes 3 steps to do the right thing."
 
 - [Python 3.9.0a3 现在可用于测试](https://pycoders.com/link/3449/web)
     + PYTHONINSIDER.BLOGSPOT.COM
@@ -95,7 +95,7 @@ NIL
     + MATT LAYMAN 
     + • Shared by Matt Layman
 
-How does a Django site know where to send requests? You have to tell it! In this article you’ll look at URLs and how to let your users get to the right place.
+How does a Django site know where to send requests? You have to tell it! In this article you'll look at URLs and how to let your users get to the right place.
 
 (`是也乎:`
 
@@ -121,7 +121,7 @@ pip 周边工具战争还没结束...
     + REAL PYTHON 
     + 课程
 
-In this course, you’ll explore Python modules and Python packages, two mechanisms that facilitate modular programming. See how to write and import modules so you can optimize the structure of your own programs and make them more maintainable.
+In this course, you'll explore Python modules and Python packages, two mechanisms that facilitate modular programming. See how to write and import modules so you can optimize the structure of your own programs and make them more maintainable.
 
 (`是也乎:`
 
@@ -238,7 +238,7 @@ cmd 是毫无希望的
 - [ScalaPy: Use Python Libraries From the Comfort of Scala](https://pycoders.com/link/3466/web)
     + SCALAPY.DEV
 
-- [gitfilesplit: 将一个文件分成几个文件，保留Git历史记录](https://pycoders.com/link/3460/web)
+- [gitfilesplit: 将一个文件分成几个文件,保留Git历史记录](https://pycoders.com/link/3460/web)
     + GITHUB.COM/IDLESIGN • Shared by pythonz
 
 (`是也乎:`

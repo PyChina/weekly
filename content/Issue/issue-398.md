@@ -22,7 +22,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [MicroPython: Python编程硬件简介](https://pycoders.com/link/3053/web)
     + REAL PYTHON
 
-Are you interested in the Internet of Things, home automation, and connected devices? In this tutorial, you’ll learn about MicroPython and the world of electronics hardware. You’ll set up your board, write your code, and deploy a MicroPython project to your own device.
+Are you interested in the Internet of Things, home automation, and connected devices? In this tutorial, you'll learn about MicroPython and the world of electronics hardware. You'll set up your board, write your code, and deploy a MicroPython project to your own device.
 
 (`是也乎:`
 
@@ -46,7 +46,7 @@ This PEP proposes a final qualifier to be added to the typing module—in the fo
 - [正确进行 Python 配置](https://pycoders.com/link/3055/web)
     + MICHAEL WHALEN
 
-“Let’s talk about configuring Python applications, specifically the kind that might live in multiple environments – dev, stage, production, etc.”
+"Let's talk about configuring Python applications, specifically the kind that might live in multiple environments – dev, stage, production, etc."
 
 (`是也乎:`
 
@@ -62,7 +62,7 @@ This PEP proposes a final qualifier to be added to the typing module—in the fo
     + OPENSOURCE.COM 
     + • Shared by Python Bytes FM
 
-“One of the best aspects of the popular Python testing tool is its robust ecosystem. Here are eight of the best pytest plugins available.”
+"One of the best aspects of the popular Python testing tool is its robust ecosystem. Here are eight of the best pytest plugins available."
 
 - [两个恶意 Python 库盗用 SSH 和 GPG 密钥](https://pycoders.com/link/3057/web)
     + LUKAS MARTINI
@@ -72,7 +72,7 @@ Also see the related discussion on Hacker News.
 - [Instagram 取消 Python 垃圾收集](https://pycoders.com/link/3051/web)
     + INSTAGRAM ENGINEERING BLOG
 
-How Instagram’s Django backend runs with GC disabled and gets a 10% performance gain.
+How Instagram's Django backend runs with GC disabled and gets a 10% performance gain.
 
 (`是也乎:`
 
@@ -144,7 +144,7 @@ Why constant-factor differences in algorithm complexity do matter in practice.
 - [Beautiful Soup: 用 Python 构建网络抓取工具](https://pycoders.com/link/3071/web)
     + REAL PYTHON
 
-In this tutorial, you’ll walk through the main steps of the web scraping process. You’ll learn how to write a script that uses Python’s requests library to scrape data from a website. You’ll also use Beautiful Soup to extract the specific pieces of information that you’re interested in.
+In this tutorial, you'll walk through the main steps of the web scraping process. You'll learn how to write a script that uses Python's requests library to scrape data from a website. You'll also use Beautiful Soup to extract the specific pieces of information that you're interested in.
 
 
 (`是也乎:`
@@ -174,12 +174,12 @@ A discussion of misconceptions about multithreading in Python.
     + REAL PYTHON 
     + video
 
-Learn how every item of data in a Python program can be described by the abstract term “object,” and how to manipulate objects using symbolic names called “variables.”
+Learn how every item of data in a Python program can be described by the abstract term "object," and how to manipulate objects using symbolic names called "variables."
 
 - [3 个用 Python 构建的拼写检查器软件包](https://pycoders.com/link/3073/web)
     + THEAUTOMATIC.NET
 
-“Learn what packages can work as a spell checker in Python. We’ll discuss pyspellchecker, TextBlob, and autocorrect for performing this task.”
+"Learn what packages can work as a spell checker in Python. We'll discuss pyspellchecker, TextBlob, and autocorrect for performing this task."
 
 - [用 Python 和 Tesseract, OpenCV 以及 Pytesseract 实现 OCR](https://pycoders.com/link/3054/web)
     + FILIP ZELIC

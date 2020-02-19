@@ -19,7 +19,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [Guido van Rossum 退出 Python 指导委员会](https://pycoders.com/link/2993/web)
     + PYTHON.ORG
 
-“Part of my reason is that in the end, SC duty feels more like a chore to me than fun, and one of the things I’m trying to accomplish in my life post Dropbox retirement is to have more fun. To me, fun includes programming in and contributing to Python, for example the PEG parser project.”
+"Part of my reason is that in the end, SC duty feels more like a chore to me than fun, and one of the things I'm trying to accomplish in my life post Dropbox retirement is to have more fun. To me, fun includes programming in and contributing to Python, for example the PEG parser project."
 
 (`是也乎:`
 
@@ -31,7 +31,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [Python Descriptors: 简介](https://pycoders.com/link/2995/web)
     + REAL PYTHON
 
-Learn what Python descriptors are and how they’re used in Python’s internals. You’ll learn about the descriptor protocol and how the lookup chain works when you access an attribute. You’ll also see a few practical examples where Python descriptors can come in handy.
+Learn what Python descriptors are and how they're used in Python's internals. You'll learn about the descriptor protocol and how the lookup chain works when you access an attribute. You'll also see a few practical examples where Python descriptors can come in handy.
 
 (`是也乎:`
 
@@ -41,7 +41,7 @@ Learn what Python descriptors are and how they’re used in Python’s internals
 
 配合装饰器才能发挥作用的描述符:
 
-> ...能在类上拦截对实例属性的访问，由此可以引出很多有趣的用法，和metaclass结合起来更是如此。对于Python来说"性能"似乎从来不是牺牲"功能"(以及其他各种美德)的理由，这次也不例外。
+> ...能在类上拦截对实例属性的访问,由此可以引出很多有趣的用法,和metaclass结合起来更是如此. 对于Python来说"性能"似乎从来不是牺牲"功能"(以及其他各种美德)的理由,这次也不例外. 
 
 
 zhihu 上有人点评...
@@ -52,7 +52,7 @@ zhihu 上有人点评...
 - [PSF 周二筹款活动](https://pycoders.com/link/2994/web)
     + PYTHON.ORG
 
-When you support the Python Software Foundation on Giving Tuesday you’l support organizations like the Cameroon Digital Skills Campaign. The global donatio drive runs for 24 hrs starting December 3.
+When you support the Python Software Foundation on Giving Tuesday you'l support organizations like the Cameroon Digital Skills Campaign. The global donatio drive runs for 24 hrs starting December 3.
 
 - [PIP_REQUIRE_VIRTUALENV : 为 Pip 申请活动虚拟环境](https://pycoders.com/link/2996/web)
     + PYTHON-GUIDE.ORG
@@ -63,7 +63,7 @@ After setting the PIP_REQUIRE_VIRTUALENV environment variable, Pip will no longe
 - [测试已安装的 Python 软件包](https://pycoders.com/link/2992/web)
     + PAUL GANSSLE
 
-How to test Python packages as they will be installed on your users’ systems to avoid subtle bugs.
+How to test Python packages as they will be installed on your users' systems to avoid subtle bugs.
 
 - [平展嵌套循环以提高并行处理速度](https://pycoders.com/link/2997/web)
     + S. LOTT
@@ -93,7 +93,7 @@ NIL
 - [通过有损压缩减少 Pandas 内存用量](https://pycoders.com/link/3025/web)
     + ITAMAR TURNER-TRAURING
 
-“If you want to process a large amount data with Pandas, there are various techniques you can use to reduce memory usage without changing your data. But what if that isn’t enough? What if you still need to reduce memory usage? Another technique you can try is lossy compression: drop some of your data in a way that doesn’t impact your final results too much.”
+"If you want to process a large amount data with Pandas, there are various techniques you can use to reduce memory usage without changing your data. But what if that isn't enough? What if you still need to reduce memory usage? Another technique you can try is lossy compression: drop some of your data in a way that doesn't impact your final results too much."
 
 (`是也乎:`
 
@@ -105,7 +105,7 @@ NIL
 - [Pandas: 如何读写文件](https://pycoders.com/link/3027/web)
     + REAL PYTHON
 
-In this tutorial, you’ll learn about the Pandas IO tools API and how you can use it to read and write files. You’ll use the Pandas read_csv() function to work with CSV files. You’ll also cover similar methods for efficiently working with Excel, CSV, JSON, HTML, SQL, pickle, and big data files.
+In this tutorial, you'll learn about the Pandas IO tools API and how you can use it to read and write files. You'll use the Pandas read_csv() function to work with CSV files. You'll also cover similar methods for efficiently working with Excel, CSV, JSON, HTML, SQL, pickle, and big data files.
 
 (`是也乎:`
 
@@ -132,11 +132,11 @@ Get started working with Python, Boto3, and AWS S3. Learn how to create objects,
 )
 
 
-- [“Python 已在银行中替换了 Excel”](https://pycoders.com/link/3024/web)
+- ["Python 已在银行中替换了 Excel"](https://pycoders.com/link/3024/web)
     + SARAH BUTCHER 
     + opinion
 
-“You can already walk across the trading floor and see people writing Python code…it will become much more common in the next three to four years.”
+"You can already walk across the trading floor and see people writing Python code... it will become much more common in the next three to four years."
 
 
 (`是也乎:`

@@ -21,7 +21,7 @@ Tags: Weekly,Python,pycoders,ZH
     + REAL PYTHON 
     + video
 
-In this intermediate-level course, you’ll take a deep dive into how to iterate through a dictionary in Python. Dictionaries are a fundamental data structure, and you’ll be able to solve a wide variety of programming problems by iterating through them.
+In this intermediate-level course, you'll take a deep dive into how to iterate through a dictionary in Python. Dictionaries are a fundamental data structure, and you'll be able to solve a wide variety of programming problems by iterating through them.
 
 
 (`是也乎:`
@@ -37,7 +37,7 @@ In this intermediate-level course, you’ll take a deep dive into how to iterate
 - [ASGI 简介: 异步 Python Web生态系统的出现](https://pycoders.com/link/3144/web)
     + FLORIMOND MANCA
 
-“If you were thinking Python had been getting locked into data science, think again! Python web development is back with an async spin, and it’s exciting.” Great writeup!
+"If you were thinking Python had been getting locked into data science, think again! Python web development is back with an async spin, and it's exciting." Great writeup!
 
 
 (`是也乎:`
@@ -63,7 +63,7 @@ A look at the various systems to choose from for packaging and distributing Pyth
     + REAL PYTHON
 
 
-Learn what correlation is and how you can calculate it with Python. You’ll use SciPy, NumPy, and Pandas correlation methods to calculate three different correlation coefficients. You’ll also see how to visualize data, regression lines, and correlation matrices with Matplotlib.
+Learn what correlation is and how you can calculate it with Python. You'll use SciPy, NumPy, and Pandas correlation methods to calculate three different correlation coefficients. You'll also see how to visualize data, regression lines, and correlation matrices with Matplotlib.
 
 
 (`是也乎:`
@@ -107,7 +107,7 @@ NIL
 - [用 Docker 运行 Python: 如何尝试最新的 CPython 版本](https://pycoders.com/link/3135/web)
     + REAL PYTHON
 
-Learn how to run different Python versions in Docker. By following the examples, you’ll see how you can play with the latest development version of Python, and how to use Dockerfiles to set up Python environments and package your own scripts.
+Learn how to run different Python versions in Docker. By following the examples, you'll see how you can play with the latest development version of Python, and how to use Dockerfiles to set up Python environments and package your own scripts.
 
 
 (`是也乎:`
@@ -123,13 +123,13 @@ Learn how to run different Python versions in Docker. By following the examples,
     + MIGUEL GRINBERG
 
 
-“For many types of applications, at times it is necessary to pause the running of the program until some external condition occurs. […] In this article I’m going to show you a few different ways to wait.”
+"For many types of applications, at times it is necessary to pause the running of the program until some external condition occurs. [... ] In this article I'm going to show you a few different ways to wait."
 
 - [Python Tricks: 一系列很棒的Python功能](https://pycoders.com/link/3164/web)
     + DAN BADER
     + sponsor
 
-Discover Python’s best practices with simple examples and start writing even more beautiful + Pythonic code. “Python Tricks: The Book” shows you exactly how. You’ll master intermediate and advanced-level features in Python with practical examples and a clear narrative. Get the book + video bundle 33% off →
+Discover Python's best practices with simple examples and start writing even more beautiful + Pythonic code. "Python Tricks: The Book" shows you exactly how. You'll master intermediate and advanced-level features in Python with practical examples and a clear narrative. Get the book + video bundle 33% off →
 
 (`是也乎:`
 
@@ -243,7 +243,7 @@ How to resolve common importing problems in Python 2 and 3.
 )
 
 
-- [“SOLID” OOP 设计原则的高级介绍](https://pycoders.com/link/3133/web)
+- ["SOLID" OOP 设计原则的高级介绍](https://pycoders.com/link/3133/web)
     + LARA KATTAN
 
 (`是也乎:`
@@ -371,7 +371,7 @@ How to resolve common importing problems in Python 2 and 3.
 )
 
 
-- [从1965年到2019年，最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
+- [从1965年到2019年,最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
     + TWITTER.COM/MARCUSBORBA
 
 (`是也乎:`

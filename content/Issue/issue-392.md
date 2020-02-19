@@ -20,7 +20,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [Black 19.10b0 发布](https://pycoders.com/link/2771/web)
     + GITHUB.COM/PSF
 
-I’ve been using Black to automatically format most of my Python code since it came out last year, and it’s been an incredibly helpful tool. Stable release coming soon. More about how to use Black here.
+I've been using Black to automatically format most of my Python code since it came out last year, and it's been an incredibly helpful tool. Stable release coming soon. More about how to use Black here.
 
 
 (`是也乎:`
@@ -33,7 +33,7 @@ I’ve been using Black to automatically format most of my Python code since it 
 - [Python 和 PyQt: 构建GUI桌面计算器](https://pycoders.com/link/2768/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn how to create Graphical User Interface (GUI) applications with Python and PyQt. Once you’ve covered the basics, you’ll build a fully-functional desktop calculator that can respond to user events with concrete actions.
+In this step-by-step tutorial, you'll learn how to create Graphical User Interface (GUI) applications with Python and PyQt. Once you've covered the basics, you'll build a fully-functional desktop calculator that can respond to user events with concrete actions.
 
 
 (`是也乎:`
@@ -51,7 +51,7 @@ Electorn 面前, 以及 Flutter 的目标, 都是没 Qt 什么事儿的哪...
 - [Python 3.8 中 System V式 共享内存性能](https://pycoders.com/link/2781/web)
     + VENKATESH-PRASAD RANGANATH
 
-“To evaluate the performance gains from shared memory, I ran the following simple test—create a list of integers and double each integer in the list in parallel by chunking the list and processing each chunk in parallel.” Surprising results!
+"To evaluate the performance gains from shared memory, I ran the following simple test—create a list of integers and double each integer in the list in parallel by chunking the list and processing each chunk in parallel." Surprising results!
 
 - [何时切换为 Python 3.8](https://pycoders.com/link/2779/web)
     + PYTHONSPEED.COM
@@ -105,7 +105,7 @@ Write better code with this step-by-step intro to Python type checking. Traditio
 - [用 TensorFlow 2.0 创建 Keras 模型的3种姿势](https://pycoders.com/link/2766/web)
     + ADRIAN ROSEBROCK
 
-Keras and TensorFlow 2.0 provide you with three methods to implement your own neural network architectures:, Sequential API, Functional API, and Model subclassing. Inside of this tutorial you’ll learn how to utilize each of these methods, including how to choose the right API for the job.
+Keras and TensorFlow 2.0 provide you with three methods to implement your own neural network architectures:, Sequential API, Functional API, and Model subclassing. Inside of this tutorial you'll learn how to utilize each of these methods, including how to choose the right API for the job.
 
 - [直接在 Git工作流 中进行自动 Python 代码评论](https://pycoders.com/link/2749/web)
     + CODACY
@@ -140,7 +140,7 @@ Al Sweigart is an accomplished developer, conference speaker, teacher, and origa
 - [调试 TensorFlow 覆盖率](https://pycoders.com/link/2770/web)
     + NED BATCHELDER
 
-“It started with a coverage.py issue: Coverage not working for TensorFlow Model call function. A line in the code is executing, but coverage.py marks it as unexecuted. How could that be?”
+"It started with a coverage.py issue: Coverage not working for TensorFlow Model call function. A line in the code is executing, but coverage.py marks it as unexecuted. How could that be?"
 
 
 (`是也乎:`
@@ -182,7 +182,7 @@ Dockerizing -> Docker 化? 这个化字真的好用...
 )
 
 
-- [可以做的怪事儿，但最好嫑在 Python 里搞](https://pycoders.com/link/2759/web)
+- [可以做的怪事儿,但最好嫑在 Python 里搞](https://pycoders.com/link/2759/web)
     + WILL CIPRIANO
 
 (`是也乎:`
@@ -289,7 +289,7 @@ fuzz 测试, 很久没见相关工具出没了...
 **191103** 按时结束, 
 届时启动 4py ;-)
 
-- [2019 中国开源年会（COSCon'19）](https://kaiyuanshe.cn/activity/summit/coscon-2019/)
+- [2019 中国开源年会(COSCon'19)](https://kaiyuanshe.cn/activity/summit/coscon-2019/)
     + 教育分场
     + 大妈有约
 

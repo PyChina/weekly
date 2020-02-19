@@ -20,7 +20,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [是什么使Python成为一种很棒的语言?](https://pycoders.com/link/3095/web)
     + STEVE DOWER
 
-“What makes Python a great language? It gets the need to know balance right. […] I would argue that the Python language has an incredibly well-balanced sense of what developers need to know. Better than any other language I’ve used.”
+"What makes Python a great language? It gets the need to know balance right. [... ] I would argue that the Python language has an incredibly well-balanced sense of what developers need to know. Better than any other language I've used."
 
 
 (`是也乎:`
@@ -40,7 +40,7 @@ Python 对各种开发者都有友好的切入点, 而且有统一的成品代�
 - [Python 统计基础知识: 如何描述您的数据](https://pycoders.com/link/3102/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn the fundamentals of descriptive statistics and how to calculate them in Python. You’ll find out how to describe, summarize, and represent your data visually using NumPy, SciPy, Pandas, Matplotlib, and the built-in Python statistics library.
+In this step-by-step tutorial, you'll learn the fundamentals of descriptive statistics and how to calculate them in Python. You'll find out how to describe, summarize, and represent your data visually using NumPy, SciPy, Pandas, Matplotlib, and the built-in Python statistics library.
 
 
 (`是也乎:`
@@ -52,7 +52,7 @@ In this step-by-step tutorial, you’ll learn the fundamentals of descriptive st
 - [Python 反模式](https://pycoders.com/link/3089/web)
     + QUANTIFIEDCODE.COM
 
-“Learning about these anti-patterns will help you to avoid them in your own code and make you a better programmer (hopefully). Each pattern comes with a small description, examples and possible solutions.”
+"Learning about these anti-patterns will help you to avoid them in your own code and make you a better programmer (hopefully). Each pattern comes with a small description, examples and possible solutions."
 
 (`是也乎:`
 
@@ -65,7 +65,7 @@ In this step-by-step tutorial, you’ll learn the fundamentals of descriptive st
     + REAL PYTHON 
     + video
 
-Whether you’re documenting a small script or a large project, whether you’re a beginner or seasoned Pythonista, this video series will cover everything you need to know.
+Whether you're documenting a small script or a large project, whether you're a beginner or seasoned Pythonista, this video series will cover everything you need to know.
 
 (`是也乎:`
 
@@ -122,7 +122,7 @@ Tips and best practices for exploring SQL databases with Pandas and SQLAlchemy.
 
 )
 
-- [从1965年到2019年，最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
+- [从1965年到2019年,最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
     + TWITTER.COM/MARCUSBORBA
 
 (`是也乎:`
@@ -144,7 +144,7 @@ Tips and best practices for exploring SQL databases with Pandas and SQLAlchemy.
 - [Python 数据工程师面试题集](https://pycoders.com/link/3108/web)
     + REAL PYTHON
 
-This tutorial will prepare you for some common questions you’ll encounter during your data engineer interview. You’ll learn how to answer questions about databases, ETL pipelines, and big data workflows. You’ll also take a look at SQL, NoSQL, and Redis use cases and query examples.
+This tutorial will prepare you for some common questions you'll encounter during your data engineer interview. You'll learn how to answer questions about databases, ETL pipelines, and big data workflows. You'll also take a look at SQL, NoSQL, and Redis use cases and query examples.
 
 
 (`是也乎:`
@@ -159,7 +159,7 @@ This tutorial will prepare you for some common questions you’ll encounter duri
 - [罕见 Python 可能异常](https://pycoders.com/link/3103/web)
     + ANDRÉ ROBERGE
 
-“This would likely going to be found totally irrelevant by 99.999% of Python programmers. If you are not the type of person who is annoyed by tiny oddities, you probably do not want to read any further.”
+"This would likely going to be found totally irrelevant by 99.999% of Python programmers. If you are not the type of person who is annoyed by tiny oddities, you probably do not want to read any further."
 
 
 (`是也乎:`
@@ -178,7 +178,7 @@ This tutorial will prepare you for some common questions you’ll encounter duri
 - [基于约束的图形设计实验](https://pycoders.com/link/3112/web)
     + ANISH ATHALYE
 
-“I’ve been hacking on this new [Python] DSL for design that allows the designer to specify figures in terms of relationships, which are compiled down to constraints and solved using an SMT solver.”
+"I've been hacking on this new [Python] DSL for design that allows the designer to specify figures in terms of relationships, which are compiled down to constraints and solved using an SMT solver."
 
 
 (`是也乎:`
@@ -193,7 +193,7 @@ This tutorial will prepare you for some common questions you’ll encounter duri
 - [通过无损压缩减少 NumPy 内存使用](https://pycoders.com/link/3088/web)
     + ITAMAR TURNER-TRAURING
 
-How to reduce memory usage via smaller dtypes and sparse arrays, and what to do in situations where these solutions won’t work.
+How to reduce memory usage via smaller dtypes and sparse arrays, and what to do in situations where these solutions won't work.
 
 (`是也乎:`
 

@@ -42,7 +42,7 @@ Python 也跟上了刷版本号并追加特性来刷声望的节奏...
 - [由于 Python 的误解, 成千上万的科学论文可能无效](https://pycoders.com/link/2689/web)
     + MIKE DRISCOLL
 
-Developers assumed that glob.glob() returns a sorted list of files, but it doesn’t. And this led to a number of statistical errors and data discrepancies in several published scientific papers.
+Developers assumed that glob.glob() returns a sorted list of files, but it doesn't. And this led to a number of statistical errors and data discrepancies in several published scientific papers.
 
 (`是也乎:`
 
@@ -56,7 +56,7 @@ Developers assumed that glob.glob() returns a sorted list of files, but it doesn
     + REAL PYTHON 
     + video
 
-In this step-by-step course, you’ll master the Python range() function, learn how its implementation differs in Python 3 vs 2, and see how you can use it to write faster and more Pythonic code.
+In this step-by-step course, you'll master the Python range() function, learn how its implementation differs in Python 3 vs 2, and see how you can use it to write faster and more Pythonic code.
 
 (`是也乎:`
 
@@ -71,7 +71,7 @@ In this step-by-step course, you’ll master the Python range() function, learn 
 - [元编程在 Python](https://pycoders.com/link/2672/web)
     + SAURABH KUKADE
 
-“Meta-programming is an act of building functions and classes who can manipulate code by modifying, wrapping existing code or generating code.”
+"Meta-programming is an act of building functions and classes who can manipulate code by modifying, wrapping existing code or generating code."
 
 
 (`是也乎:`
@@ -91,7 +91,7 @@ See the release notes for a list of changes and new features.
 - [PyPy V7.2 发布](https://pycoders.com/link/2682/web)
     + MOREPYPY.BLOGSPOT.COM
 
-ARM aarch64 support, new JSON decoder, sandboxing makes a return, …
+ARM aarch64 support, new JSON decoder, sandboxing makes a return, ... 
 
 
 ## 讨论
@@ -123,7 +123,7 @@ Pandas qcut and cut are both used to bin continuous values into discrete buckets
 - [Emacs: 最佳 Python 编辑器?](https://pycoders.com/link/2699/web)
     + REAL PYTHON
 
-Learn about using Emacs for Python development. You’ll install and configure Emacs on your selected platform, then write Python code to explore its capabilities. Finally, you’ll run, test, and debug Python code in the Emacs environment.
+Learn about using Emacs for Python development. You'll install and configure Emacs on your selected platform, then write Python code to explore its capabilities. Finally, you'll run, test, and debug Python code in the Emacs environment.
 
 
 (`是也乎:`

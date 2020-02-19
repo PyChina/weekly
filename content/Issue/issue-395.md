@@ -21,7 +21,7 @@ Tags: Weekly,Python,pycoders,ZH
     + REAL PYTHON 
     + video
 
-Learn how to use threading in your Python programs. You’ll see how to create threads, how to coordinate and synchronize them, and how to handle common problems that arise in threading.
+Learn how to use threading in your Python programs. You'll see how to create threads, how to coordinate and synchronize them, and how to handle common problems that arise in threading.
 
 (`是也乎:`
 
@@ -39,10 +39,10 @@ How to reduce the memory your DataFrame uses at the time it is initially loaded:
 
 
 
-- [Python 字典“加法”的回归](https://pycoders.com/link/2943/web)
+- [Python 字典"加法"的回归](https://pycoders.com/link/2943/web)
     + JAKE EDGE
 
-An interesting summary of discussions around PEP 584 (“Add + and += operators to the built-in dict class”).
+An interesting summary of discussions around PEP 584 ("Add + and += operators to the built-in dict class").
 
 - [为什么向 Python 3 迁移需要这么长时间?](https://pycoders.com/link/2939/web)
     + VICKI BOYKIS
@@ -72,7 +72,7 @@ An interesting summary of discussions around PEP 584 (“Add + and += operators 
 - [嫑将 property() 用于计算密集型任务](https://pycoders.com/link/2927/web)
     + RAYMOND HETTINGER
 
-“To a user, attribute-style access is implicitly assumed to be fast. In contrast, a well-named method can communicate workload: raymondh.family_members vs raymondh.scan_entire_social_graph()“
+"To a user, attribute-style access is implicitly assumed to be fast. In contrast, a well-named method can communicate workload: raymondh.family_members vs raymondh.scan_entire_social_graph()"
 
 - [正要学习Django, 应该等待 3.0 发布的教程吗?](https://pycoders.com/link/2936/web)
     + REDDIT
@@ -84,7 +84,7 @@ An interesting summary of discussions around PEP 584 (“Add + and += operators 
 )
 
 
-- [工作中的自动化任务… Boss Found Out](https://pycoders.com/link/2946/web)
+- [工作中的自动化任务...  Boss Found Out](https://pycoders.com/link/2946/web)
     + REDDIT
 
 
@@ -96,7 +96,7 @@ An interesting summary of discussions around PEP 584 (“Add + and += operators 
 - [Python IDLE 入门](https://pycoders.com/link/2934/web)
     + REAL PYTHON
 
-See how to use the development environment included with your Python installation. Python IDLE is a small program that packs a big punch! You’ll learn how to use Python IDLE to interact with Python directly, work with Python files, and improve your development workflow.
+See how to use the development environment included with your Python installation. Python IDLE is a small program that packs a big punch! You'll learn how to use Python IDLE to interact with Python directly, work with Python files, and improve your development workflow.
 
 (`是也乎:`
 
@@ -117,7 +117,7 @@ IDLE 虽好, 可嫑贪杯哪...
     + ITAMAR TURNER-TRAURING 
     + • Shared by ITAMAR TURNER-TRAURING
 
-Python techniques for processing “bigger than RAM” data on a single computer, with minimal setup, and as much as possible using the same libraries you’re already using.
+Python techniques for processing "bigger than RAM" data on a single computer, with minimal setup, and as much as possible using the same libraries you're already using.
 
 
 - [用 SSH 的非常规安全和异步 RESTful API](https://pycoders.com/link/2940/web)
@@ -129,7 +129,7 @@ How to build secure asynchronous APIs in Python using Korv and AsyncSSH that lis
 - [Pandas GroupBy: Python 数据分组指南](https://pycoders.com/link/2923/web)
     + REAL PYTHON
 
-Learn how to work adeptly with the Pandas GroupBy facility while mastering ways to manipulate, transform, and summarize data. You’ll work with real-world datasets and chain GroupBy methods together to get data in an output that suits your purpose.
+Learn how to work adeptly with the Pandas GroupBy facility while mastering ways to manipulate, transform, and summarize data. You'll work with real-world datasets and chain GroupBy methods together to get data in an output that suits your purpose.
 
 (`是也乎:`
 
@@ -186,7 +186,7 @@ DTrace ~ Solaris 贡献的神器...
 
 )
 
-- [“int” 去除空格字符串](https://pycoders.com/link/2941/web)
+- ["int" 去除空格字符串](https://pycoders.com/link/2941/web)
     + REUVEN LERNER
 
 (`是也乎:`
@@ -281,7 +281,7 @@ guido 老爹太皮了, 将一个不起眼的 `int()` 转换函式嗯哼的这么
 
 make 作为一个通用工具, 已经达到了完美级别, 
 只是, 很少有大规模宣传而已, 
-但是, 要论通用/兼容, 真的没什么工具能比过1976年4月，​43年前发布的:
+但是, 要论通用/兼容, 真的没什么工具能比过1976年4月,​43年前发布的:
 [GNU make](https://www.gnu.org/software/make/manual/make.html)
 
 )

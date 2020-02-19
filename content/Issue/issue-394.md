@@ -19,15 +19,15 @@ Tags: Weekly,Python,pycoders,ZH
     + PYFOUND.BLOGSPOT.COM 
     + • Shared by Brian Rutledge
 
-The Python Software Foundation Packaging Working Group is receiving funding to work on the design, implementation, and rollout of pip’s next-generation dependency resolver. Funding has been allocated to secure a senior developer and an intermediate developer, starting in December 2019 or January 2020. RFP open now through November 22.
+The Python Software Foundation Packaging Working Group is receiving funding to work on the design, implementation, and rollout of pip's next-generation dependency resolver. Funding has been allocated to secure a senior developer and an intermediate developer, starting in December 2019 or January 2020. RFP open now through November 22.
 
 
 
 
-- [俺的Python开发环境，2020版](https://pycoders.com/link/2901/web)
+- [俺的Python开发环境,2020版](https://pycoders.com/link/2901/web)
     + JACOB KAPLAN-MOSS
 
-The co-creator of Django explains his Python environment: “My setup pieces together pyenv, poetry, and pipx. It’s probably a tad more complex than is ideal for most Python users, but for the things I need, it’s perfect.” Related discussion on Hacker News.
+The co-creator of Django explains his Python environment: "My setup pieces together pyenv, poetry, and pipx. It's probably a tad more complex than is ideal for most Python users, but for the things I need, it's perfect." Related discussion on Hacker News.
 
 (`是也乎:`
 
@@ -42,7 +42,7 @@ pipenv 被弃用非常明智...
 - [何时在Python中使用列表推导](https://pycoders.com/link/2899/web)
     + REAL PYTHON
 
-Python list comprehensions make it easy to create lists while performing sophisticated filtering, mapping, and conditional logic on their members. In this tutorial, you’ll learn when to use a list comprehension in Python and how to create them effectively.
+Python list comprehensions make it easy to create lists while performing sophisticated filtering, mapping, and conditional logic on their members. In this tutorial, you'll learn when to use a list comprehension in Python and how to create them effectively.
 
 (`是也乎:`
 
@@ -58,10 +58,10 @@ Python list comprehensions make it easy to create lists while performing sophist
 
 
 
-- [Python中的“解析”](https://pycoders.com/link/2889/web)
+- [Python中的"解析"](https://pycoders.com/link/2889/web)
     + ASTHASR.GITHUB.IO
 
-“Don’t be afraid to create new, more specific data types for your specific use cases. It’s okay to represent different data, used for different purposes, with different data structures, and makes later generalization easier!”
+"Don't be afraid to create new, more specific data types for your specific use cases. It's okay to represent different data, used for different purposes, with different data structures, and makes later generalization easier!"
 
 (`是也乎:`
 
@@ -100,7 +100,7 @@ GitHub has published its latest State of the Octoverse report which provides fas
 - [简单便携式 Python 解释器的复杂路径](https://pycoders.com/link/2903/web)
     + GLAUBER COSTA
 
-“We needed a Python interpreter that can be shipped everywhere. You won’t believe what happened next!”
+"We needed a Python interpreter that can be shipped everywhere. You won't believe what happened next!"
 
 (`是也乎:`
 
@@ -158,7 +158,7 @@ Python lambdas are little, anonymous functions, subject to a more restrictive bu
     + TEACHINGPYTHON.FM 
     + podcast
 
-“In this episode, Kelly and Sean discuss plausible trends in machine learning, artificial intelligence, augmented and virtual reality, and data science that we may see in schools by 2024. We focus on 5 areas from microscale in the classroom to macro across the entire educational system.”
+"In this episode, Kelly and Sean discuss plausible trends in machine learning, artificial intelligence, augmented and virtual reality, and data science that we may see in schools by 2024. We focus on 5 areas from microscale in the classroom to macro across the entire educational system."
 
 (`是也乎:`
 
@@ -172,13 +172,13 @@ AI 将泛滥, 工具将更加丰富, 老师将更加无力, 学生自主行为�
 - [如何在 Python 中用 Asyncio 处理协程](https://pycoders.com/link/2881/web)
     + ERIK MARSJA
 
-Learn about coroutines in Python by example. More specifically, you’ll see how to handle coroutines using asyncio.
+Learn about coroutines in Python by example. More specifically, you'll see how to handle coroutines using asyncio.
 
 - [用 Python 思考递归](https://pycoders.com/link/2883/web)
     + REAL PYTHON 
     + video
 
-In this course, you’ll learn how to work with recursion in your Python programs by mastering concepts such as recursive functions and recursive data structures.
+In this course, you'll learn how to work with recursion in your Python programs by mastering concepts such as recursive functions and recursive data structures.
 
 (`是也乎:`
 

@@ -23,7 +23,7 @@ Python 2.7 is retired and became EOL on Jan 1, 2020. The last 2.7 release will b
 - [Ubuntu 20.04 LTS 明确移除其 Python 2 依赖](https://pycoders.com/link/3230/web)
     + MICHAEL LARABEL
 
-“With Python 2 having reached end-of-life at the start of 2020, Ubuntu and Debian developers continue their work on removing Python 2 at least from the base OS. Work continues on transitioning packages to Python 3 or otherwise ultimately dropping unmaintained packages.”
+"With Python 2 having reached end-of-life at the start of 2020, Ubuntu and Debian developers continue their work on removing Python 2 at least from the base OS. Work continues on transitioning packages to Python 3 or otherwise ultimately dropping unmaintained packages."
 
 (`是也乎:`
 
@@ -35,7 +35,7 @@ Python 2.7 is retired and became EOL on Jan 1, 2020. The last 2.7 release will b
     + REAL PYTHON 
     + video
 
-Learn how to use args and kwargs in Python to add more flexibility to your functions. You’ll also take a closer look at the single and double-asterisk unpacking operators, which you can use to unpack any iterable object in Python.
+Learn how to use args and kwargs in Python to add more flexibility to your functions. You'll also take a closer look at the single and double-asterisk unpacking operators, which you can use to unpack any iterable object in Python.
 
 
 (`是也乎:`
@@ -52,12 +52,12 @@ Learn how to use args and kwargs in Python to add more flexibility to your funct
 - [俺对异步压力无感](https://pycoders.com/link/3244/web)
     + ARMIN RONACHER
 
-“So for you developers of async libraries here is a new year’s resolution for you: give back pressure and flow control the importance they deserve in documentation and API.”
+"So for you developers of async libraries here is a new year's resolution for you: give back pressure and flow control the importance they deserve in documentation and API."
 
 - [思考 Python 目标受众 \[2017\]](https://pycoders.com/link/3243/web)
     + NICK COGHLAN
 
-Who is Python being designed for? CPython core dev Nick Coghlan discusses Python’s and PyPI’s target audience and design philosophy. Recommended reading.
+Who is Python being designed for? CPython core dev Nick Coghlan discusses Python's and PyPI's target audience and design philosophy. Recommended reading.
 
 - [DjangoCon 欧洲2020年发布](https://pycoders.com/link/3234/web)
     + DJANGOPROJECT.COM
@@ -94,7 +94,7 @@ ast.literal_eval() vs functools.lru_cache() vs pdb.pm() vs reprlib.recursive_rep
 - [Python 包颂歌](https://pycoders.com/link/3239/web)
     + JAMES BENNETT
 
-“Quite often, I see people being wrong on the internet about Python packaging. But the way in which they’re wrong is subtle, and often passes unnoticed. The issue with much of the discussion is in conflating multiple different things under the term ‘packaging’, and failing to be clear exactly which of them is being discussed or criticized.”
+"Quite often, I see people being wrong on the internet about Python packaging. But the way in which they're wrong is subtle, and often passes unnoticed. The issue with much of the discussion is in conflating multiple different things under the term 'packaging', and failing to be clear exactly which of them is being discussed or criticized."
 
 (`是也乎:`
 
@@ -105,7 +105,7 @@ Python 包的三合一圣讼精神
 - [用 Pandas 和 Python 探索您的数据集](https://pycoders.com/link/3224/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll learn how to start exploring a dataset with Pandas and Python. You’ll learn how to access specific rows and columns to answer questions about your data. You’ll also see how to handle missing values and prepare to visualize your dataset in a Jupyter notebook.
+In this step-by-step tutorial, you'll learn how to start exploring a dataset with Pandas and Python. You'll learn how to access specific rows and columns to answer questions about your data. You'll also see how to handle missing values and prepare to visualize your dataset in a Jupyter notebook.
 
 (`是也乎:`
 
@@ -122,7 +122,7 @@ In this step-by-step tutorial, you’ll learn how to start exploring a dataset w
     + FILIPE XIMENES 
     + • Shared by Filipe Ximenes
 
-“Testing application performance is hard and time consuming, but there’s a type of test that is both easy to do and has a great impact in performance. In this blog post we will show how to unit test the number of queries to the database your application is making.”
+"Testing application performance is hard and time consuming, but there's a type of test that is both easy to do and has a great impact in performance. In this blog post we will show how to unit test the number of queries to the database your application is making."
 
 - [探索 NumPy 的 linspace() 函式](https://pycoders.com/link/3216/web)
     + AHMED GAD
@@ -150,7 +150,7 @@ This article is about building a computer vision model to automatically grade ha
 - [令 Python 程序 Blazingly Fast](https://pycoders.com/link/3249/web)
     + MARTIN HEINZ
 
-“First rule of optimization is to not do it. But, if you really have to, then I hope these few tips help you with that.”
+"First rule of optimization is to not do it. But, if you really have to, then I hope these few tips help you with that."
 
 - [对 单一服务 进行零停机部署](https://pycoders.com/link/3220/web)
     + ALEX BECKER 
@@ -195,7 +195,7 @@ Using Pyramid and Cornice to build and document scalable RESTful web services.
 俺来看看前10都是什么
 
     0: 为毛 Python 无穷散列数字中有个 π? - [236/3]
-    1: 有没有更优雅的表达方式（((x == a and y == b) 和 (x == b and y == a))?
+    1: 有没有更优雅的表达方式(((x == a and y == b) 和 (x == b and y == a))?
     2: 为毛在 for 循环中可以用列表索引作为索引变量? -[92/6]
     3: 为毛 (inf + 0j)*1 等于 inf + nanj? - [93/4]
     4: 为毛带 f字符串的 f'{{{74}}}' 与 f'{{74}}'相同? -[88/1]
@@ -379,7 +379,7 @@ As a decorator:
 )
 
 
-- [从1965年到2019年，最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
+- [从1965年到2019年,最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
     + TWITTER.COM/MARCUSBORBA
 
 (`是也乎:`

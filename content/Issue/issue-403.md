@@ -21,7 +21,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [A coverage.py 调试求助](https://pycoders.com/link/3302/web)
     + NED BATCHELDER
 
-Ned was getting reports for a mysterious disk I/O bug in the latest coverage.py release and asked the community for help. Read the crowd-sourced diagnosis on Hacker News and Ned’s follow-up post next. What a journey…
+Ned was getting reports for a mysterious disk I/O bug in the latest coverage.py release and asked the community for help. Read the crowd-sourced diagnosis on Hacker News and Ned's follow-up post next. What a journey... 
 
 (`是也乎:`
 
@@ -31,11 +31,11 @@ Ned was getting reports for a mysterious disk I/O bug in the latest coverage.py 
 
 
 
-- [The “No Code” 妄想](https://pycoders.com/link/3303/web)
+- [The "No Code" 妄想](https://pycoders.com/link/3303/web)
     + ALEX HUDSON 
     + 观点
 
-“2020 is going to be the year of ‘no code’: the movement that say you can write business logic and even entire applications without having the training of a software developer. I empathise with people doing this, and I think some of the ‘no code’ tools are great. But I also thing it’s wrong at heart.”
+"2020 is going to be the year of 'no code': the movement that say you can write business logic and even entire applications without having the training of a software developer. I empathise with people doing this, and I think some of the 'no code' tools are great. But I also thing it's wrong at heart."
 
 
 (`是也乎:`
@@ -50,7 +50,7 @@ Ned was getting reports for a mysterious disk I/O bug in the latest coverage.py 
 - [Python 如何实现超长整数?](https://pycoders.com/link/3273/web)
     + ARPIT BHAYANI
 
-“Python must be doing something beautiful internally to support super long integers and today we find out what’s under the hood. The article goes in-depth to explain design, storage, and operations on super long integers as implemented by Python.”
+"Python must be doing something beautiful internally to support super long integers and today we find out what's under the hood. The article goes in-depth to explain design, storage, and operations on super long integers as implemented by Python."
 
 
 
@@ -59,7 +59,7 @@ Ned was getting reports for a mysterious disk I/O bug in the latest coverage.py 
     + REAL PYTHON
 
 
-Does your Python program need a Graphical User Interface (GUI)? With this free learning path you’ll develop your Python GUI programming skills from scratch. Covers Tkinter, PyQt, wxPython, and Kivy.
+Does your Python program need a Graphical User Interface (GUI)? With this free learning path you'll develop your Python GUI programming skills from scratch. Covers Tkinter, PyQt, wxPython, and Kivy.
 
 (`是也乎:`
 
@@ -72,11 +72,11 @@ Does your Python program need a Graphical User Interface (GUI)? With this free l
 )
 
 
-- [Mercurial’s 的 Python 3 之旅和思考](https://pycoders.com/link/3275/web)
+- [Mercurial's 的 Python 3 之旅和思考](https://pycoders.com/link/3275/web)
     + GREGORY SZORC
 
 
-Lessons learned from Mercurial’s Python 3 porting effort and a more opinionated commentary of the transition to Python 3 and the Python language ecosystem as a whole. A great read about the mechanics of porting a large Python project to Python 3.
+Lessons learned from Mercurial's Python 3 porting effort and a more opinionated commentary of the transition to Python 3 and the Python language ecosystem as a whole. A great read about the mechanics of porting a large Python project to Python 3.
 
 
 (`是也乎:`
@@ -129,7 +129,7 @@ How open source programming can offer opportunities after incarceration.
 - [逻辑回归在 Python](https://pycoders.com/link/3299/web)
     + REAL PYTHON
 
-In this step-by-step tutorial, you’ll get started with logistic regression in Python. Classification is one of the most important areas of machine learning, and logistic regression is one of its basic methods. You’ll learn how to create, evaluate, and apply a model to make predictions.
+In this step-by-step tutorial, you'll get started with logistic regression in Python. Classification is one of the most important areas of machine learning, and logistic regression is one of its basic methods. You'll learn how to create, evaluate, and apply a model to make predictions.
 
 
 (`是也乎:`
@@ -151,7 +151,7 @@ Server-assisted client-side caching is a new capability added in Redis version 6
 - [用 Python 探索 HTTPS](https://pycoders.com/link/3282/web)
     + REAL PYTHON
 
-In this tutorial, you’ll gain a working knowledge of the various factors that combine to keep communications over the Internet safe. You’ll see concrete examples of how to keep information secure and use cryptography to build your own Python HTTPS application.
+In this tutorial, you'll gain a working knowledge of the various factors that combine to keep communications over the Internet safe. You'll see concrete examples of how to keep information secure and use cryptography to build your own Python HTTPS application.
 
 
 (`是也乎:`
@@ -172,7 +172,7 @@ In this tutorial, you’ll gain a working knowledge of the various factors that 
 - [将 Bokeh 嵌入脚本中](https://pycoders.com/link/3276/web)
     + JIM ANDERSON
 
-“I really wanted to have a self-contained script that would launch Bokeh as part of its operation, rather than remembering which command line options I needed to specify.”
+"I really wanted to have a self-contained script that would launch Bokeh as part of its operation, rather than remembering which command line options I needed to specify."
 
 (`是也乎:`
 
@@ -197,7 +197,7 @@ FastAPI/Pytest 强强联手.
 - [在 Linux 内核中运行 Python](https://pycoders.com/link/3267/web)
     + YONATAN GOLDSCHMIDT
 
-“This article will talk about a cool project I’ve worked on recently — a full Python interpreter running inside the Linux kernel”
+"This article will talk about a cool project I've worked on recently — a full Python interpreter running inside the Linux kernel"
 
 
 (`是也乎:`
@@ -213,7 +213,7 @@ FastAPI/Pytest 强强联手.
     + SEAN STEWART 
     + • Shared by Sean Stewart
 
-A Pythonista’s (almost) no-code solution to building a website with the Python-based MkDocs static site generator.
+A Pythonista's (almost) no-code solution to building a website with the Python-based MkDocs static site generator.
 
 
 (`是也乎:`
@@ -258,7 +258,7 @@ What happens from when a browser makes a request to how Django receives the requ
 > Interesting Projects, Tools and Libraries, Projects & Code
 
 
-- [codetiming: 灵活，可自定义的 Py 代码运行计时器](https://pycoders.com/link/3286/web)
+- [codetiming: 灵活,可自定义的 Py 代码运行计时器](https://pycoders.com/link/3286/web)
     + GITHUB.COM/REALPYTHON
 
 - [nfstream: 灵活的网络数据分析框架](https://pycoders.com/link/3278/web)
@@ -274,7 +274,7 @@ What happens from when a browser makes a request to how Django receives the requ
 
 
 
-- [scalene: 适用于 Python 的高性能，高精度 CPU 和内存分析器](https://pycoders.com/link/3280/web)
+- [scalene: 适用于 Python 的高性能,高精度 CPU 和内存分析器](https://pycoders.com/link/3280/web)
     + GITHUB.COM/EMERYBERGER
 
 - [HTTPX: N适用于Python的下一代HTTP客户端](https://pycoders.com/link/3268/web)
@@ -435,7 +435,7 @@ go 和 py 不分家咯:
 )
 
 
-- [从1965年到2019年，最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
+- [从1965年到2019年,最受欢迎的编程语言 (动画)](https://pycoders.com/link/3100/web)
     + TWITTER.COM/MARCUSBORBA
 
 (`是也乎:`

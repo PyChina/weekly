@@ -21,8 +21,6 @@
 <div id="article-content">
                 {{ article.content }}
 
-{% include 'includes/announce.html' %}
-
 </div>
 
 
@@ -40,6 +38,10 @@
             {% include 'includes/comments.html' %}
             -->
             {% include 'includes/page_comments.html' %}
+
+<hr/>
+
+{% include 'includes/announce.html' %}
 
         </article>
     </section>

@@ -18,7 +18,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [Arduino 微控制嘼 + Python: 入门](https://pycoders.com/link/2735/web)
     + REAL PYTHON
 
-Discover how to use Arduino microcontrollers with Python to develop your own electronic projects. You’ll learn how to set up circuits and write applications with the Firmata protocol. You’ll control Arduino inputs and outputs and integrate the board with higher-level apps.
+Discover how to use Arduino microcontrollers with Python to develop your own electronic projects. You'll learn how to set up circuits and write applications with the Firmata protocol. You'll control Arduino inputs and outputs and integrate the board with higher-level apps.
 
 (`是也乎:`
 
@@ -34,7 +34,7 @@ Arduino 比 树莓派 其实不差...
 - [为 Python 编写个 LLVM 专业工具](https://pycoders.com/link/2721/web)
     + STEPHEN DIEHL
 
-“We’re going to build a single module Numba-like compiler for Python. It won’t be nearly as featureful or complete, but should demonstrate how you can go about building your own little LLVM specializer for a subset of Python or your own custom DSL expression compiler; and integrating it with the standard NumPy/SciPy stack for whatever scientific computing domain you work.”
+"We're going to build a single module Numba-like compiler for Python. It won't be nearly as featureful or complete, but should demonstrate how you can go about building your own little LLVM specializer for a subset of Python or your own custom DSL expression compiler; and integrating it with the standard NumPy/SciPy stack for whatever scientific computing domain you work."
 
 
 - [Python 2.7.17 发布](https://pycoders.com/link/2731/web)
@@ -58,7 +58,7 @@ What can be done to prevent your Python code from getting too complex? A good li
 - [在 Python 中重新实现 Solaris 命令使 C 语言的性能提高了17倍](https://pycoders.com/link/2742/web)
     + DARREN MOFFAT
 
-“As a result of fixing a memory allocation issue in the /usr/bin/listusers command, that had caused issues when it was converted to 64 bit, I decided to investigate if this ancient C code could be improved by conversion to Python.”
+"As a result of fixing a memory allocation issue in the /usr/bin/listusers command, that had caused issues when it was converted to 64 bit, I decided to investigate if this ancient C code could be improved by conversion to Python."
 
 
 (`是也乎:`
@@ -69,10 +69,10 @@ What can be done to prevent your Python code from getting too complex? A good li
 )
 
 
-- [Y组合器的简单本质（用Python解释）](https://pycoders.com/link/2726/web)
+- [Y组合器的简单本质(用Python解释)](https://pycoders.com/link/2726/web)
     + LIONEL PARREAUX
 
-“The Y combinator is a central concept in lambda calculus, which is the formal foundation of functional languages. Y allows one to define recursive functions without using self-referential definitions.”
+"The Y combinator is a central concept in lambda calculus, which is the formal foundation of functional languages. Y allows one to define recursive functions without using self-referential definitions."
 
 (`是也乎:`
 
@@ -136,7 +136,7 @@ A deep dive into Python attribute access and the descriptor protocol. What exact
 - [time.sleep() : 如何在代码中添加时间延迟](https://pycoders.com/link/2732/web)
     + REAL PYTHON
 
-Learn how to add time delays to your Python programs. You’ll use decorators and the built-in time module to add Python sleep() calls to your code. Then, you’ll discover how time delays work with threads, asynchronous functions, and graphical user interfaces.
+Learn how to add time delays to your Python programs. You'll use decorators and the built-in time module to add Python sleep() calls to your code. Then, you'll discover how time delays work with threads, asynchronous functions, and graphical user interfaces.
 
 (`是也乎:`
 
@@ -151,7 +151,7 @@ Learn how to add time delays to your Python programs. You’ll use decorators an
     + TOMASZ BĄK 
     + • Shared by Tomasz Bąk
 
-“Django is powerful web framework, but with power comes responsibility. In this article, we will cover common mistakes that are even seasoned Django developers make, yet most successful Django projects need to deal with these sooner or later.”
+"Django is powerful web framework, but with power comes responsibility. In this article, we will cover common mistakes that are even seasoned Django developers make, yet most successful Django projects need to deal with these sooner or later."
 
 
 (`是也乎:`
@@ -169,7 +169,7 @@ Learn how to add time delays to your Python programs. You’ll use decorators an
 - [超越cProfile: 采样分析器和日志记录以优化性能](https://pycoders.com/link/2713/web)
     + ITAMAR TURNER-TRAURING
 
-“Your Python program is too slow. Maybe your web application can’t keep up, or certain queries are taking a long time. Maybe you have a batch program that takes hours or even days to run. How do you speed it up?”
+"Your Python program is too slow. Maybe your web application can't keep up, or certain queries are taking a long time. Maybe you have a batch program that takes hours or even days to run. How do you speed it up?"
 
 (`是也乎:`
 
@@ -183,7 +183,7 @@ Learn how to add time delays to your Python programs. You’ll use decorators an
 - [Vaex 助您一臂之力: 用Python分析30多年的飞行数据](https://pycoders.com/link/2734/web)
     + JOVAN VELJANOSKI
 
-“Using the Python DataFrame library Vaex, I present the analysis of nearly 200 million flights made by U.S. carriers. Vaex uses fast out-of-core algorithms, making memory issues a thing of the past.”
+"Using the Python DataFrame library Vaex, I present the analysis of nearly 200 million flights made by U.S. carriers. Vaex uses fast out-of-core algorithms, making memory issues a thing of the past."
 
 (`是也乎:`
 
@@ -194,7 +194,7 @@ Learn how to add time delays to your Python programs. You’ll use decorators an
 - [将HTML转换为 Jupyter Notebook](https://pycoders.com/link/2730/web)
     + ERIK MARSJA
 
-“Learn how to scrape code from a webpage and save it as a Jupyter notebook. In this post, we’ll use Beautifulsoup4, urllib, and json, to save HTML to .ipynb.”
+"Learn how to scrape code from a webpage and save it as a Jupyter notebook. In this post, we'll use Beautifulsoup4, urllib, and json, to save HTML to .ipynb."
 
 
 (`是也乎:`
@@ -225,7 +225,7 @@ Want to make beautiful plots? Learn about plotting in Python with matplotlib by 
 - [Keras vs tf.keras : TensorFlow 2.0有什么区别?](https://pycoders.com/link/2744/web)
     + ADRIAN ROSEBROCK
 
-In this tutorial you’ll discover the difference between Keras and tf.keras. You’ll also learn what’s new in TensorFlow 2.0.
+In this tutorial you'll discover the difference between Keras and tf.keras. You'll also learn what's new in TensorFlow 2.0.
 
 (`是也乎:`
 
@@ -270,7 +270,7 @@ How to configure the Pylint code linter to avoid arguing about code complexity.
 中国的, 基本都是吐糟...少有笔记,
 
 到现在就收集到一篇今年的:
-[PyCon China 2019 深圳站，看起来很水但实际并不水！](https://mp.weixin.qq.com/s/abbT0saaX4Wi9x_O1BHMhw)
+[PyCon China 2019 深圳站,看起来很水但实际并不水!](https://mp.weixin.qq.com/s/abbT0saaX4Wi9x_O1BHMhw)
 
 )
 
@@ -289,7 +289,7 @@ How to configure the Pylint code linter to avoid arguing about code complexity.
 )
 
 
-- [diff-match-patch: 高性能库，用于同步纯文本](https://pycoders.com/link/2718/web)
+- [diff-match-patch: 高性能库,用于同步纯文本](https://pycoders.com/link/2718/web)
     + GITHUB.COM/GOOGLE
 
 (`是也乎:`
@@ -314,11 +314,11 @@ google 出品,果断大气,
     + GITHUB.COM/JULVO
 
 
-- [ssis_validator: 验证SQL Server集成服务（SSIS）程序包](https://pycoders.com/link/2741/web)
+- [ssis_validator: 验证SQL Server集成服务(SSIS)程序包](https://pycoders.com/link/2741/web)
     + GITHUB.COM/MAHDI-HOSSEINI 
     + • Shared by Mike
 
-- [BrachioGraph: 易于构建的笔式绘图仪，由Python提供支持](https://pycoders.com/link/2737/web)
+- [BrachioGraph: 易于构建的笔式绘图仪,由Python提供支持](https://pycoders.com/link/2737/web)
     + GITHUB.COM/EVILDMP
 
 (`是也乎:`

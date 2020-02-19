@@ -22,7 +22,7 @@ Tags: Weekly,Python,pycoders,ZH
 - [如何下架 Python 2 从而提升开发人员幸福感](https://pycoders.com/link/3512/web)
     + BARRY WARSAW
 
-“Now that LinkedIn engineering has fully embraced Python 3, we no longer have to worry about supporting Python 2 and have seen our support loads decrease. We can now depend on the latest open source libraries and tools, and free ourselves from the constrictions of having to write bilingual Python.”
+"Now that LinkedIn engineering has fully embraced Python 3, we no longer have to worry about supporting Python 2 and have seen our support loads decrease. We can now depend on the latest open source libraries and tools, and free ourselves from the constrictions of having to write bilingual Python."
 
 
 (`是也乎:`
@@ -35,10 +35,10 @@ LinkedIn 的故事教导我们...
 
 
 
-- [Python “ != ” 不是 “ is not ”: 对象对比在 Python](https://pycoders.com/link/3509/web)
+- [Python " != " 不是 " is not ": 对象对比在 Python](https://pycoders.com/link/3509/web)
     + REAL PYTHON
 
-In this quick and practical tutorial, you’ll learn when to use the Python is, is not, == and != operators. You’ll see what these comparison operators do under the hood, dive into some quirks of object identity and interning, and define a custom class.
+In this quick and practical tutorial, you'll learn when to use the Python is, is not, == and != operators. You'll see what these comparison operators do under the hood, dive into some quirks of object identity and interning, and define a custom class.
 
 
 (`是也乎:`
@@ -55,12 +55,12 @@ In this quick and practical tutorial, you’ll learn when to use the Python is, 
 - [适用 Python 的简洁代码概念](https://pycoders.com/link/3510/web)
     + RIGEL DI SCALA
 
-“Software engineering principles, from Robert C. Martin’s book Clean Code, adapted for Python. This is not a style guide. It’s a guide to producing readable, reusable, and refactorable software in Python.”
+"Software engineering principles, from Robert C. Martin's book Clean Code, adapted for Python. This is not a style guide. It's a guide to producing readable, reusable, and refactorable software in Python."
 
 - [世界上 22 个最常用的Python软件包](https://pycoders.com/link/3496/web)
     + ERIK-JAN VAN BAAREN
 
-“As a starting point, I took a list of the most downloaded Python packages on PyPI over the past 365 days. Let’s dive in and find out what they do, how they’re related, and why they rank so high!”
+"As a starting point, I took a list of the most downloaded Python packages on PyPI over the past 365 days. Let's dive in and find out what they do, how they're related, and why they rank so high!"
 
 (`是也乎:`
 
@@ -95,7 +95,7 @@ Colorama;Simplejson;
 - [2020 我将如何测试](https://pycoders.com/link/3500/web)
     + JAMES BENNETT
 
-“Everything I’m currently doing for testing my personal [Python] projects, and the reasoning for why I do things the way I do.” Interesting read if you’re looking to optimize your testing setup.
+"Everything I'm currently doing for testing my personal [Python] projects, and the reasoning for why I do things the way I do." Interesting read if you're looking to optimize your testing setup.
 
 
 (`是也乎:`
@@ -152,7 +152,7 @@ Django 现在分裂为几个大产品线,是否正确, 还有待市场检验.
 - [Alpine Linux 能构建更大更慢的 Python Docker](https://pycoders.com/link/3515/web)
     + ITAMAR TURNER-TRAURING
 
-“When you’re choosing a base image for your Docker image, Alpine Linux is often recommended. […] But if you’re using Python, Alpine Linux will quite often: Make your builds much slower. Make your images bigger. Waste your time.” Related discussion on Hacker News.
+"When you're choosing a base image for your Docker image, Alpine Linux is often recommended. [... ] But if you're using Python, Alpine Linux will quite often: Make your builds much slower. Make your images bigger. Waste your time." Related discussion on Hacker News.
 
 
 (`是也乎:`
@@ -166,7 +166,7 @@ Django 现在分裂为几个大产品线,是否正确, 还有待市场检验.
     + REAL PYTHON 
     + video
 
-Learn how to work with Python’s set data type. You’ll see how to define set objects in Python and discover the operations that they support. By the end of this course, you’ll have a good feel for when a set is an appropriate choice in your own programs.
+Learn how to work with Python's set data type. You'll see how to define set objects in Python and discover the operations that they support. By the end of this course, you'll have a good feel for when a set is an appropriate choice in your own programs.
 
 
 (`是也乎:`
@@ -180,7 +180,7 @@ Learn how to work with Python’s set data type. You’ll see how to define set 
 - [用 Flask 蓝图设计应用程序](https://pycoders.com/link/3488/web)
     + REAL PYTHON
 
-In this tutorial, you’ll learn how to use a Flask Blueprint to help you structure your application by grouping its functionality into reusable components. You’ll learn what Blueprints are, how they work, and how you can use them to organize your code.
+In this tutorial, you'll learn how to use a Flask Blueprint to help you structure your application by grouping its functionality into reusable components. You'll learn what Blueprints are, how they work, and how you can use them to organize your code.
 
 
 (`是也乎:`
@@ -200,7 +200,7 @@ In this tutorial, you’ll learn how to use a Flask Blueprint to help you struct
     + SOBOLEVN.ME 
     + • Shared by Nikita Sobolev
 
-“Dependency injection is a controversial topic. There are known problems, hacks, and even whole methodologies on how to work with DI frameworks. It is not the case when using a functional approach.”
+"Dependency injection is a controversial topic. There are known problems, hacks, and even whole methodologies on how to work with DI frameworks. It is not the case when using a functional approach."
 
 - [配置 uWSGI以 进行生产部署](https://pycoders.com/link/3513/web)
     + PETER SPERL 
@@ -220,7 +220,7 @@ uWSGI 不错, 因为不可安装在 windows 中
 - [用随机搜索算法在僵尸末日中生存](https://pycoders.com/link/3484/web)
     + OLEG ŻERO
 
-“Pure python implementation of the random search optimization algorithm as an alternative to the standard gradient descent, given a very silly example.”
+"Pure python implementation of the random search optimization algorithm as an alternative to the standard gradient descent, given a very silly example."
 
 (`是也乎:`
 
@@ -260,7 +260,7 @@ uWSGI 不错, 因为不可安装在 windows 中
 )
 
 
-- [解决 Python，kdb+ 和 BigQuery 中的“最佳大小”问题](https://pycoders.com/link/3492/web)
+- [解决 Python,kdb+ 和 BigQuery 中的"最佳大小"问题](https://pycoders.com/link/3492/web)
     + FERENC BODON 
     + • Shared by Ferenc Bodon
 
