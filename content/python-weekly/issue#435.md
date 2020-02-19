@@ -3,7 +3,13 @@ Date: 2020-02-08 10:26
 Tags: Weekly,pythonweekly,Zh 
 Slug: pyw-435
 
+<<<<<<< HEAD
 ### 欢迎阅读"pythonista周刊"第434期. Let us start!
+||||||| merged common ancestors
+### 欢迎阅读《pythonista周刊》第434期。Let us start!
+=======
+### 欢迎阅读《pythonista周刊》第435期。Let us start!
+>>>>>>> 7c6594c1870a78f2c9fcdac66e7eab89c8e10c35
 
 
 >原文: [https://mailchi.mp/pythonweekly/python-weekly-issue-435](https://mailchi.mp/pythonweekly/python-weekly-issue-435)  
