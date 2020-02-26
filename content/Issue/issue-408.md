@@ -464,6 +464,18 @@ Django 大生态已经有这么多扩展了,还是有创新机会的
 )
 
 
+- [Python开发者日,大妈线上嗯哼](https://fm.101.camp/2020/csdn-pydeveloper-dama.html)
+    + fm.101.camp 蟒营™电台 
+    + 勾陈各种值得探讨
+
+(`是也乎:`
+
+2020.2.15 CSDN 新年首次线上技术峰会,
+抢鲜版, 本地单录音大妈 solo 版本播客节目 ;-)
+
+)
+
+
 - [2020新冠肺炎记忆](https://github.com/2019ncovmemory/nCovMemory)
     + github.com/2019ncovmemory/nCovMemory
 
