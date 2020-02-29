@@ -358,11 +358,33 @@ Some tips for quickly writing rough initial implementations for test cases and t
 
 
 
-# 是也乎
-> NN 3935
-
+# PS:
 - 首发: [Issue 409 ~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/issue/issue-409.html)
 - 修订: [issue-409.md](https://github.com/PyChina/weekly/blob/master/content/Issue/issue-409  .md)
+
+
+-------------
+>> NN 3934
+
+好文笔,感叹号年度配额: **1/3**
+
+-------------
+
+ZoomQuiet/**大妈**
+
+就是四处 `是也乎,(￣▽￣)` 的那个大妈:
+
+
+- 私自嗯哼: ZoomQuiet (订阅号 **ZoomQuiet42**)
+- 公开课程: **蟒营** (订阅号: Mainium)
+- 全国大会: PyChina (订阅号: PyChinaOrg)
+- 本地社区: 
+    + GDG珠海 (订阅号: GDG-ZhuHai)
+    + TFUG珠海 (订阅号: ZH_TFUG)
+- 历史吐糟: Chaos42 (订阅号 PythoniCamp)
+
+-------------
+
 
 
 
