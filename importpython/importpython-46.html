@@ -304,11 +304,11 @@ Hillary 的邮件从 PDF 原案转化为 SQLite 数据库</p>
 <p>在 Python 中无痛使用原始 SQL</p>
 <p>(<code>是也乎:</code></p>
 <p>Python 行文中 SQL 的 DSL :</p>
-<div class="highlight"><pre><span class="p">{</span><span class="o">%</span> <span class="n">sql</span> <span class="err">&#39;</span><span class="n">users_by_country</span><span class="err">&#39;</span><span class="p">,</span> <span class="n">note</span><span class="o">=</span><span class="err">&#39;</span><span class="n">counts</span> <span class="n">users</span><span class="err">&#39;</span> <span class="o">%</span><span class="p">}</span>
-    <span class="n">SELECT</span> <span class="n">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="n">AS</span> <span class="n">count</span>
-    <span class="n">FROM</span> <span class="n">user</span>
-    <span class="n">WHERE</span> <span class="n">country_code</span> <span class="o">=</span> <span class="o">?</span>
-<span class="p">{</span><span class="o">%</span> <span class="n">endsql</span> <span class="o">%</span><span class="p">}</span>
+<div class="highlight"><pre><span></span><span class="err">{</span><span class="o">%</span> <span class="k">sql</span> <span class="s1">&#39;users_by_country&#39;</span><span class="p">,</span> <span class="n">note</span><span class="o">=</span><span class="s1">&#39;counts users&#39;</span> <span class="o">%</span><span class="err">}</span>
+    <span class="k">SELECT</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">AS</span> <span class="k">count</span>
+    <span class="k">FROM</span> <span class="k">user</span>
+    <span class="k">WHERE</span> <span class="n">country_code</span> <span class="o">=</span> <span class="o">?</span>
+<span class="err">{</span><span class="o">%</span> <span class="n">endsql</span> <span class="o">%</span><span class="err">}</span>
 </pre></div>
 
 
@@ -409,7 +409,7 @@ Hillary 的邮件从 PDF 原案转化为 SQLite 数据库</p>
     <li>
     开始报名: <b>2020.3.1</b> </li>
     <li>
-    报名结束: <b>2020.3.21</b> </li>
+    报名结束: <b>2020.3.22</b> </li>
     <li>
     正式开课: <b>2020.3.29</b> </li>
     <li>

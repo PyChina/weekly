@@ -137,18 +137,18 @@
 <p>(<code>是也乎:</code></p>
 <p>老爹支持的一则草案
 希望将类似:</p>
-<div class="highlight"><pre><span class="n">button_1</span> <span class="o">=</span> <span class="n">buttons</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-<span class="p">...</span>
-<span class="err">@</span><span class="n">button_1</span><span class="p">.</span><span class="n">clicked</span><span class="p">.</span><span class="n">connect</span>
-<span class="n">def</span> <span class="n">eggs</span><span class="p">()</span><span class="o">:</span>
-    <span class="p">...</span>
+<div class="highlight"><pre><span></span><span class="nv">button_1</span> <span class="o">=</span> <span class="nv">buttons</span>[<span class="mi">1</span>]
+...
+@<span class="nv">button_1</span>.<span class="nv">clicked</span>.<span class="k">connect</span>
+<span class="nv">def</span> <span class="nv">eggs</span><span class="ss">()</span>:
+    ...
 </pre></div>
 
 
 <p>合理化为:</p>
-<div class="highlight"><pre><span class="err">@</span><span class="n">buttons</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">clicked</span><span class="p">.</span><span class="n">connect</span>
-<span class="n">def</span> <span class="n">eggs</span><span class="p">()</span><span class="o">:</span>
-    <span class="p">...</span>
+<div class="highlight"><pre><span></span>@<span class="nv">buttons</span>[<span class="mi">1</span>].<span class="nv">clicked</span>.<span class="k">connect</span>
+<span class="nv">def</span> <span class="nv">eggs</span><span class="ss">()</span>:
+    ...
 </pre></div>
 
 
@@ -526,9 +526,9 @@
 </ul>
 <p>(<code>(￣▽￣)</code>:</p>
 <p>第五期已经开始报名:</p>
-<div class="highlight"><pre><span class="mf">20.2.24</span> <span class="err">马上截止</span>
-<span class="mf">20.3.1</span>  <span class="err">正式开课</span>
-<span class="mf">20.4.12</span> <span class="err">按时结束</span>
+<div class="highlight"><pre><span></span><span class="mi">20</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="mi">24</span> <span class="err">马上截止</span>
+<span class="mi">20</span><span class="p">.</span><span class="mi">3</span><span class="p">.</span><span class="mi">1</span>  <span class="err">正式开课</span>
+<span class="mi">20</span><span class="p">.</span><span class="mi">4</span><span class="p">.</span><span class="mi">12</span> <span class="err">按时结束</span>
 </pre></div>
 
 
@@ -558,15 +558,15 @@
 但是,万一呢? 期望大家及时, 自觉分散 clone 到全球每一个硬盘中,
 42年后, 我们才可能有真实的 snap 来回顾.</p>
 <p>项目结构</p>
-<div class="highlight"><pre><span class="err">├─</span><span class="n">archive</span>                          <span class="err">文章的存档</span><span class="p">,</span><span class="err">目前提供</span><span class="n">jpg</span><span class="err">格式</span>
+<div class="highlight"><pre><span></span><span class="err">├─</span><span class="n">archive</span>                          <span class="err">文章的存档</span><span class="p">,</span><span class="err">目前提供</span><span class="n">jpg</span><span class="err">格式</span>
 <span class="err">│</span>  <span class="err">└─</span><span class="n">jpg</span>
-<span class="err">│</span>    <span class="err">├─</span><span class="mf">1.</span><span class="n">jpg</span>
+<span class="err">│</span>    <span class="err">├─</span><span class="mi">1</span><span class="p">.</span><span class="n">jpg</span>
 <span class="err">│</span>    <span class="err">└─</span><span class="p">...</span>
-<span class="err">├─</span><span class="n">data</span>                             <span class="n">csv</span><span class="err">格式的文章数据</span>
-<span class="err">│</span>  <span class="err">└─</span><span class="n">data</span><span class="p">.</span><span class="n">csv</span>
+<span class="err">├─</span><span class="k">data</span>                             <span class="n">csv</span><span class="err">格式的文章数据</span>
+<span class="err">│</span>  <span class="err">└─</span><span class="k">data</span><span class="p">.</span><span class="n">csv</span>
 <span class="err">├─</span><span class="n">docs</span>                             <span class="err">一个用于展示</span><span class="n">README</span><span class="err">的</span> <span class="n">Github</span> <span class="n">Page</span>
 <span class="err">├─</span><span class="n">gh</span><span class="o">-</span><span class="n">page</span>
-<span class="err">├─</span><span class="n">template</span>                         <span class="n">README</span><span class="err">模板</span>
+<span class="err">├─</span><span class="k">template</span>                         <span class="n">README</span><span class="err">模板</span>
 <span class="err">│</span>  <span class="err">└─</span><span class="n">README</span><span class="p">.</span><span class="n">handlebars</span>
 <span class="err">├─</span><span class="n">utils</span>                            <span class="err">构建</span><span class="n">README</span><span class="err">的工具</span>
 <span class="err">│</span>  <span class="err">├─</span><span class="n">generateReadmeFromCsv</span><span class="p">.</span><span class="n">js</span>
@@ -675,7 +675,7 @@
     <li>
     开始报名: <b>2020.3.1</b> </li>
     <li>
-    报名结束: <b>2020.3.21</b> </li>
+    报名结束: <b>2020.3.22</b> </li>
     <li>
     正式开课: <b>2020.3.29</b> </li>
     <li>
