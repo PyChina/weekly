@@ -121,15 +121,15 @@
 <p>The people who introduced me to Python chose it because of the elegance of the language, and it's aesthetic qualities. Would they choose it again, I wonder? Would I?.</p>
 <p>(<code>是也乎:</code></p>
 <p>是什么以及为什么的 Py3</p>
-<div class="highlight"><pre><span></span><span class="n">def</span> <span class="n">hello_world</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
-    <span class="n">print</span> <span class="s1">&#39;Hello&#39;</span><span class="p">,</span> <span class="n">name</span>
+<div class="highlight"><pre><span class="n">def</span> <span class="n">hello_world</span><span class="p">(</span><span class="n">name</span><span class="p">)</span><span class="o">:</span>
+    <span class="n">print</span> <span class="err">&#39;</span><span class="n">Hello</span><span class="err">&#39;</span><span class="p">,</span> <span class="n">name</span>
 </pre></div>
 
 
 <p>--&gt;</p>
-<div class="highlight"><pre><span></span><span class="nv">@coroutine</span><span class="w"></span>
-<span class="n">async</span><span class="w"> </span><span class="n">def</span><span class="w"> </span><span class="n">hello_world</span><span class="p">(</span><span class="nl">name</span><span class="p">:</span><span class="w"> </span><span class="nf">str</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="nf">str</span><span class="err">:</span><span class="w"></span>
-<span class="w">    </span><span class="n">await</span><span class="w"> </span><span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello {}&#39;</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">yield</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">name</span><span class="p">))</span><span class="w"></span>
+<div class="highlight"><pre><span class="err">@</span><span class="n">coroutine</span>
+<span class="n">async</span> <span class="n">def</span> <span class="n">hello_world</span><span class="p">(</span><span class="n">name</span><span class="o">:</span> <span class="n">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">str</span><span class="o">:</span>
+    <span class="n">await</span> <span class="n">print</span><span class="p">(</span><span class="err">&#39;</span><span class="n">Hello</span> <span class="p">{}</span><span class="err">&#39;</span><span class="p">.</span><span class="n">format</span><span class="p">(</span><span class="n">yield</span> <span class="n">from</span> <span class="n">name</span><span class="p">))</span>
 </pre></div>
 
 
