@@ -107,12 +107,12 @@
 <p>This PEP suggests adding merge + and difference - operators to the built-in dict class. The merge operator will have the same relationship to the dict.update method as the list concatenation operator has to list.extend, with dict difference being defined analogously. I think this is a pretty cool feature suggestion. Related discussion here.</p>
 <p>(<code>是也乎:</code></p>
 <p>简单说, 用直觉计算符号来操作最常用的 dict 对象...</p>
-<div class="highlight"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="err">&#39;</span><span class="n">spam</span><span class="err">&#39;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">eggs</span><span class="err">&#39;</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">cheese</span><span class="err">&#39;</span><span class="o">:</span> <span class="mi">3</span><span class="p">}</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span> <span class="o">=</span> <span class="p">{</span><span class="err">&#39;</span><span class="n">cheese</span><span class="err">&#39;</span><span class="o">:</span> <span class="err">&#39;</span><span class="n">cheddar</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">aardvark</span><span class="err">&#39;</span><span class="o">:</span> <span class="err">&#39;</span><span class="n">Ethel</span><span class="err">&#39;</span><span class="p">}</span>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">=</span> <span class="err">{</span><span class="s1">&#39;spam&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;eggs&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;cheese&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="err">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span> <span class="o">=</span> <span class="err">{</span><span class="s1">&#39;cheese&#39;</span><span class="p">:</span> <span class="s1">&#39;cheddar&#39;</span><span class="p">,</span> <span class="s1">&#39;aardvark&#39;</span><span class="p">:</span> <span class="s1">&#39;Ethel&#39;</span><span class="err">}</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">+</span> <span class="n">e</span>
-<span class="p">{</span><span class="err">&#39;</span><span class="n">spam</span><span class="err">&#39;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">eggs</span><span class="err">&#39;</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">cheese</span><span class="err">&#39;</span><span class="o">:</span> <span class="err">&#39;</span><span class="n">cheddar</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">aardvark</span><span class="err">&#39;</span><span class="o">:</span> <span class="err">&#39;</span><span class="n">Ethel</span><span class="err">&#39;</span><span class="p">}</span>
+<span class="err">{</span><span class="s1">&#39;spam&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;eggs&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;cheese&#39;</span><span class="p">:</span> <span class="s1">&#39;cheddar&#39;</span><span class="p">,</span> <span class="s1">&#39;aardvark&#39;</span><span class="p">:</span> <span class="s1">&#39;Ethel&#39;</span><span class="err">}</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">e</span> <span class="o">+</span> <span class="n">d</span>
-<span class="p">{</span><span class="err">&#39;</span><span class="n">cheese</span><span class="err">&#39;</span><span class="o">:</span> <span class="mi">3</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">aardvark</span><span class="err">&#39;</span><span class="o">:</span> <span class="err">&#39;</span><span class="n">Ethel</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">spam</span><span class="err">&#39;</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">eggs</span><span class="err">&#39;</span><span class="o">:</span> <span class="mi">2</span><span class="p">}</span>
+<span class="err">{</span><span class="s1">&#39;cheese&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;aardvark&#39;</span><span class="p">:</span> <span class="s1">&#39;Ethel&#39;</span><span class="p">,</span> <span class="s1">&#39;spam&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;eggs&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="err">}</span>
 </pre></div>
 
 
@@ -370,7 +370,7 @@
 </li>
 </ul>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="o">:</span><span class="c1">//github.com/jaybaird/python-bloomfilter/</span>
+<div class="highlight"><pre><span></span><span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">jaybaird</span><span class="o">/</span><span class="n">python</span><span class="o">-</span><span class="n">bloomfilter</span><span class="o">/</span>
 <span class="n">justext</span>
 <span class="n">unidecode</span>
 <span class="n">tldextract</span>
@@ -537,10 +537,12 @@
 
 <hr/>
 
-<h3>精品小班 101camp6py 已经开始报名:</h3>
+<h3>精品小班 101camp6py</h3>
 <blockquote><p>
     
 <ul>
+    <li>
+    开始报名: <b>2020.3.1</b> </li>
     <li>
     报名结束: <b>2020.3.22</b> </li>
     <li>
@@ -580,8 +582,7 @@
 <img alt="FAQ" 
     src="http://ydlj.zoomquiet.top/ipic/2020-02-28-FAQ101camp-qr.jpeg?imageView2/2/w/360"/>
 
-<p>关注公众号, 持续获得相关各种咨询:
-    <br/>
+<p>关注公众号, 持续获得相关各种咨询, :
 <img alt="mainium" 
     src="http://ydlj.zoomquiet.top/ipic/2020-02-15-mainium-qr-barnner.jpg"/>
 </p>

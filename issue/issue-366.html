@@ -363,33 +363,33 @@ discord 插件...</p>
 </ul>
 <p>(<code>是也乎:</code></p>
 <p>出时时, 调用桟更加可用的嗯哼...</p>
-<div class="highlight"><pre><span class="nb">File</span> <span class="nx">demo.py</span><span class="p">,</span> <span class="nb">line</span> <span class="mi">10</span><span class="p">,</span> <span class="k">in</span> <span class="o">&lt;</span><span class="nx">module</span><span class="o">&gt;</span>
-    <span class="mi">8</span>         <span class="n">somelist</span> <span class="o">=</span> <span class="err">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="cp">]</span>, <span class="cp">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="cp">]</span>]
-    9         anotherlist = <span class="cp">[</span><span class="err">[</span><span class="s1">&#39;5&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="cp">]</span>]
---&gt; 10        dangerous_function(somelist + anotherlist)
-    11    except:
+<div class="highlight"><pre><span></span><span class="nv">File</span> <span class="nv">demo</span>.<span class="nv">py</span>, <span class="nv">line</span> <span class="mi">10</span>, <span class="nv">in</span> <span class="o">&lt;</span><span class="nv">module</span><span class="o">&gt;</span>
+    <span class="mi">8</span>         <span class="nv">somelist</span> <span class="o">=</span> [[<span class="mi">1</span>,<span class="mi">2</span>], [<span class="mi">3</span>,<span class="mi">4</span>]]
+    <span class="mi">9</span>         <span class="nv">anotherlist</span> <span class="o">=</span> [[<span class="s1">&#39;</span><span class="s">5</span><span class="s1">&#39;</span>, <span class="mi">6</span>]]
+<span class="o">--&gt;</span> <span class="mi">10</span>        <span class="nv">dangerous_function</span><span class="ss">(</span><span class="nv">somelist</span> <span class="o">+</span> <span class="nv">anotherlist</span><span class="ss">)</span>
+    <span class="mi">11</span>    <span class="nv">except</span>:
     ..................................................
-     somelist = <span class="cp">[</span><span class="err">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="cp">]</span>, <span class="cp">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="cp">]</span>]
-     anotherlist = <span class="cp">[</span><span class="err">[</span><span class="s1">&#39;5&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="cp">]</span>]
-    ..................................................
-
-File demo.py, line 4, in dangerous_function
-    3     def dangerous_function(blub):
---&gt; 4         return sorted(blub, key=lambda xs: sum(xs))
-    ..................................................
-     blub = <span class="cp">[</span><span class="err">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="cp">]</span>, <span class="cp">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="cp">]</span>, <span class="cp">[</span><span class="s1">&#39;5&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="cp">]</span>]
+     <span class="nv">somelist</span> <span class="o">=</span> [[<span class="mi">1</span>, <span class="mi">2</span>], [<span class="mi">3</span>, <span class="mi">4</span>]]
+     <span class="nv">anotherlist</span> <span class="o">=</span> [[<span class="s1">&#39;</span><span class="s">5</span><span class="s1">&#39;</span>, <span class="mi">6</span>]]
     ..................................................
 
-File demo.py, line 4, in <span class="nt">&lt;lambda&gt;</span>
-    2
-    3     def dangerous_function(blub):
---&gt; 4         return sorted(blub, key=lambda xs: sum(xs))
-    5
+<span class="nv">File</span> <span class="nv">demo</span>.<span class="nv">py</span>, <span class="nv">line</span> <span class="mi">4</span>, <span class="nv">in</span> <span class="nv">dangerous_function</span>
+    <span class="mi">3</span>     <span class="nv">def</span> <span class="nv">dangerous_function</span><span class="ss">(</span><span class="nv">blub</span><span class="ss">)</span>:
+<span class="o">--&gt;</span> <span class="mi">4</span>         <span class="k">return</span> <span class="nv">sorted</span><span class="ss">(</span><span class="nv">blub</span>, <span class="nv">key</span><span class="o">=</span><span class="nv">lambda</span> <span class="nv">xs</span>: <span class="nv">sum</span><span class="ss">(</span><span class="nv">xs</span><span class="ss">))</span>
     ..................................................
-     xs = <span class="cp">[</span><span class="s1">&#39;5&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="cp">]</span>
+     <span class="nv">blub</span> <span class="o">=</span> [[<span class="mi">1</span>, <span class="mi">2</span>], [<span class="mi">3</span>, <span class="mi">4</span>], [<span class="s1">&#39;</span><span class="s">5</span><span class="s1">&#39;</span>, <span class="mi">6</span>]]
     ..................................................
 
-TypeError: unsupported operand type(s) for +: &#39;int&#39; and &#39;str&#39;
+<span class="nv">File</span> <span class="nv">demo</span>.<span class="nv">py</span>, <span class="nv">line</span> <span class="mi">4</span>, <span class="nv">in</span> <span class="o">&lt;</span><span class="nv">lambda</span><span class="o">&gt;</span>
+    <span class="mi">2</span>
+    <span class="mi">3</span>     <span class="nv">def</span> <span class="nv">dangerous_function</span><span class="ss">(</span><span class="nv">blub</span><span class="ss">)</span>:
+<span class="o">--&gt;</span> <span class="mi">4</span>         <span class="k">return</span> <span class="nv">sorted</span><span class="ss">(</span><span class="nv">blub</span>, <span class="nv">key</span><span class="o">=</span><span class="nv">lambda</span> <span class="nv">xs</span>: <span class="nv">sum</span><span class="ss">(</span><span class="nv">xs</span><span class="ss">))</span>
+    <span class="mi">5</span>
+    ..................................................
+     <span class="nv">xs</span> <span class="o">=</span> [<span class="s1">&#39;</span><span class="s">5</span><span class="s1">&#39;</span>, <span class="mi">6</span>]
+    ..................................................
+
+<span class="nv">TypeError</span>: <span class="nv">unsupported</span> <span class="nv">operand</span> <span class="nv">type</span><span class="ss">(</span><span class="nv">s</span><span class="ss">)</span> <span class="k">for</span> <span class="o">+</span>: <span class="s1">&#39;</span><span class="s">int</span><span class="s1">&#39;</span> <span class="nv">and</span> <span class="s1">&#39;</span><span class="s">str</span><span class="s1">&#39;</span>
 </pre></div>
 
 
@@ -547,10 +547,12 @@ TypeError: unsupported operand type(s) for +: &#39;int&#39; and &#39;str&#39;
 
 <hr/>
 
-<h3>精品小班 101camp6py 已经开始报名:</h3>
+<h3>精品小班 101camp6py</h3>
 <blockquote><p>
     
 <ul>
+    <li>
+    开始报名: <b>2020.3.1</b> </li>
     <li>
     报名结束: <b>2020.3.22</b> </li>
     <li>
@@ -590,8 +592,7 @@ TypeError: unsupported operand type(s) for +: &#39;int&#39; and &#39;str&#39;
 <img alt="FAQ" 
     src="http://ydlj.zoomquiet.top/ipic/2020-02-28-FAQ101camp-qr.jpeg?imageView2/2/w/360"/>
 
-<p>关注公众号, 持续获得相关各种咨询:
-    <br/>
+<p>关注公众号, 持续获得相关各种咨询, :
 <img alt="mainium" 
     src="http://ydlj.zoomquiet.top/ipic/2020-02-15-mainium-qr-barnner.jpg"/>
 </p>
