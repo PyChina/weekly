@@ -9,6 +9,7 @@ Slug: pyw-441
 >原文: [https://mailchi.mp/pythonweekly/python-weekly-issue-441](https://mailchi.mp/pythonweekly/python-weekly-issue-441)  
 >翻译：Dustyposa
 
+
 **来自赞助商（PS：原文的赞助商）:**
 [python开发者都需要的Vettery](https://www.vettery.com/tech?utm_source=newsletter&utm_medium=pythonweekly&utm_term=tech&utm_content=grouped&utm_campaign=ad-77579)  
 Vettery是一个招聘网站，它改变了人们应聘或者雇佣的方式。准备好换工作地方了吗？免费制作简历，你的薪资你说了算，现在就和顶级雇主的HR联系吧！
