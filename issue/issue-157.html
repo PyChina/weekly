@@ -161,48 +161,48 @@ python -m SimpleHTTPServer</p>
 home_dir = expanduser('~')</p>
 </blockquote>
 <p>丫在哪儿:</p>
-<div class="highlight"><pre><span class="nf">cdp</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="s-Atom">cd</span> <span class="s2">&quot;$(python -c &quot;</span><span class="s-Atom">import</span> <span class="s-Atom">os</span><span class="p">.</span><span class="s-Atom">path</span> <span class="s-Atom">as</span> <span class="k">_</span><span class="p">,</span> <span class="err">$</span><span class="p">{</span><span class="m">1</span><span class="p">};</span> <span class="s-Atom">\</span>
-            <span class="nf">print</span><span class="p">(</span><span class="k">_</span><span class="p">.</span><span class="nf">dirname</span><span class="p">(</span><span class="k">_</span><span class="p">.</span><span class="nf">realpath</span><span class="p">(</span><span class="err">$</span><span class="p">{</span><span class="m">1</span><span class="p">}.</span><span class="k">__</span><span class="s-Atom">file__</span><span class="p">[:-</span><span class="m">1</span><span class="p">])))</span><span class="s2">&quot;</span>
+<div class="highlight"><pre><span></span><span class="nf">cdp</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="s s-Atom">cd</span> <span class="s2">&quot;$(python -c &quot;</span><span class="s s-Atom">import</span> <span class="s s-Atom">os</span><span class="p">.</span><span class="s s-Atom">path</span> <span class="s s-Atom">as</span> <span class="k">_</span><span class="p">,</span> <span class="err">$</span><span class="p">{</span><span class="mi">1</span><span class="p">};</span> <span class="s s-Atom">\</span>
+            <span class="nf">print</span><span class="p">(</span><span class="k">_</span><span class="p">.</span><span class="nf">dirname</span><span class="p">(</span><span class="k">_</span><span class="p">.</span><span class="nf">realpath</span><span class="p">(</span><span class="err">$</span><span class="p">{</span><span class="mi">1</span><span class="p">}.</span><span class="k">__</span><span class="s s-Atom">file__</span><span class="p">[:-</span><span class="mi">1</span><span class="p">])))</span><span class="s2">&quot;</span>
 <span class="s2">        )&quot;</span>
 <span class="p">}</span>
 
-<span class="s-Atom">~</span> <span class="err">$</span> <span class="s-Atom">cdp</span> <span class="s-Atom">os</span>
-<span class="o">/</span><span class="s-Atom">usr</span><span class="o">/</span><span class="s-Atom">lib</span><span class="o">/</span><span class="s-Atom">python2</span><span class="p">.</span><span class="m">7</span> <span class="err">$</span>
+<span class="s s-Atom">~</span> <span class="err">$</span> <span class="s s-Atom">cdp</span> <span class="s s-Atom">os</span>
+<span class="o">/</span><span class="s s-Atom">usr</span><span class="o">/</span><span class="s s-Atom">lib</span><span class="o">/</span><span class="s s-Atom">python2</span><span class="mf">.7</span> <span class="err">$</span>
 
-<span class="s-Atom">~</span> <span class="err">$</span> <span class="s-Atom">cdp</span> <span class="s-Atom">os</span><span class="p">.</span><span class="s-Atom">path</span>
-<span class="o">/</span><span class="s-Atom">usr</span><span class="o">/</span><span class="s-Atom">lib</span><span class="o">/</span><span class="s-Atom">python2</span><span class="p">.</span><span class="m">7</span> <span class="err">$</span>
+<span class="s s-Atom">~</span> <span class="err">$</span> <span class="s s-Atom">cdp</span> <span class="s s-Atom">os</span><span class="p">.</span><span class="s s-Atom">path</span>
+<span class="o">/</span><span class="s s-Atom">usr</span><span class="o">/</span><span class="s s-Atom">lib</span><span class="o">/</span><span class="s s-Atom">python2</span><span class="mf">.7</span> <span class="err">$</span>
 </pre></div>
 
 
 <p>人性化排序:</p>
-<div class="highlight"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">from</span> <span class="n">distutils</span><span class="p">.</span><span class="n">version</span> <span class="n">import</span> <span class="n">StrictVersion</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">versions</span> <span class="o">=</span> <span class="p">[</span><span class="err">&#39;</span><span class="mf">1.3.12</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="mf">1.3.3</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="mf">1.2.5</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="mf">1.2.15</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="mf">1.2.3</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="mf">1.2.1</span><span class="err">&#39;</span><span class="p">]</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">versions</span><span class="p">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="n">StrictVersion</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">print</span> <span class="n">versions</span>
-<span class="p">[</span><span class="err">&#39;</span><span class="mf">1.2.1</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="mf">1.2.3</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="mf">1.2.5</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="mf">1.2.15</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="mf">1.3.3</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="mf">1.3.12</span><span class="err">&#39;</span><span class="p">]</span>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">distutils.version</span> <span class="kn">import</span> <span class="n">StrictVersion</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">versions</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;1.3.12&#39;</span><span class="p">,</span> <span class="s1">&#39;1.3.3&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.5&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.15&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.3&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.1&#39;</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">versions</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="n">StrictVersion</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="n">versions</span>
+<span class="p">[</span><span class="s1">&#39;1.2.1&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.3&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.5&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.15&#39;</span><span class="p">,</span> <span class="s1">&#39;1.3.3&#39;</span><span class="p">,</span> <span class="s1">&#39;1.3.12&#39;</span><span class="p">]</span>
 
 
-<span class="o">&gt;&gt;&gt;</span> <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="err">&#39;</span><span class="n">v1</span><span class="mf">.3.12</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">v1</span><span class="mf">.3.3</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">v1</span><span class="mf">.2.5</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">v1</span><span class="mf">.2.15</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">v1</span><span class="mf">.2.3</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">v1</span><span class="mf">.2.1</span><span class="err">&#39;</span><span class="p">]</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">l</span><span class="p">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="n">LooseVersion</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;v1.3.12&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.3.3&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.2.5&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.2.15&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.2.3&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.2.1&#39;</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">l</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="n">LooseVersion</span><span class="p">)</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">l</span>
-<span class="p">[</span><span class="err">&#39;</span><span class="n">v1</span><span class="mf">.2.1</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">v1</span><span class="mf">.2.3</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">v1</span><span class="mf">.2.5</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">v1</span><span class="mf">.2.15</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">v1</span><span class="mf">.3.3</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">v1</span><span class="mf">.3.12</span><span class="err">&#39;</span><span class="p">]</span>
+<span class="p">[</span><span class="s1">&#39;v1.2.1&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.2.3&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.2.5&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.2.15&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.3.3&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.3.12&#39;</span><span class="p">]</span>
 </pre></div>
 
 
 <p>终端真数学:</p>
-<div class="highlight"><pre><span class="err">$</span> <span class="n">pmath</span> <span class="err">&#39;</span><span class="mi">3</span> <span class="o">+</span> <span class="mi">4</span><span class="err">&#39;</span>
-<span class="mi">7</span>
-<span class="err">$</span> <span class="n">pmath</span> <span class="o">-</span><span class="n">f</span><span class="err">&#39;</span><span class="mf">.4f</span><span class="sc">&#39; &#39;</span><span class="n">pow</span><span class="p">(</span><span class="mi">2000</span><span class="p">,</span> <span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">)</span><span class="err">&#39;</span>
-<span class="mf">12.5992</span>
-<span class="err">$</span> <span class="n">pmath</span> <span class="o">-</span><span class="n">f</span><span class="err">&#39;</span><span class="mf">.4f</span><span class="sc">&#39; &#39;</span><span class="n">sin</span><span class="p">(</span><span class="n">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="err">&#39;</span>
-<span class="mf">1.0000</span>
-<span class="err">$</span> <span class="n">pmath</span> <span class="o">-</span><span class="n">c</span> <span class="err">&#39;</span><span class="n">exp</span><span class="p">(</span><span class="mi">1</span><span class="n">j</span><span class="o">*</span><span class="n">pi</span><span class="p">).</span><span class="n">real</span><span class="err">&#39;</span>
-<span class="o">-</span><span class="mf">1.0</span>
-<span class="err">$</span> <span class="n">pmath</span> <span class="err">&#39;</span><span class="n">x</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span><span class="n">x</span><span class="o">+</span><span class="mi">2</span><span class="err">&#39;</span>
-<span class="mi">5</span>
-<span class="err">$</span> <span class="n">echo</span> <span class="err">&#39;</span><span class="mi">3</span><span class="o">+</span><span class="mi">4</span><span class="err">&#39;</span> <span class="o">|</span> <span class="n">pmath</span>
-<span class="mi">7</span>
+<div class="highlight"><pre><span></span>$ pmath <span class="s1">&#39;3 + 4&#39;</span>
+<span class="m">7</span>
+$ pmath -f<span class="s1">&#39;.4f&#39;</span> <span class="s1">&#39;pow(2000, 1/3)&#39;</span>
+<span class="m">12</span>.5992
+$ pmath -f<span class="s1">&#39;.4f&#39;</span> <span class="s1">&#39;sin(pi/2)&#39;</span>
+<span class="m">1</span>.0000
+$ pmath -c <span class="s1">&#39;exp(1j*pi).real&#39;</span>
+-1.0
+$ pmath <span class="s1">&#39;x=3;x+2&#39;</span>
+<span class="m">5</span>
+$ <span class="nb">echo</span> <span class="s1">&#39;3+4&#39;</span> <span class="p">|</span> pmath
+<span class="m">7</span>
 </pre></div>
 
 
@@ -425,22 +425,20 @@ Twilio 加上一点点 Python 脚本,
 
 <hr/>
 
-<h3>精品小班 101camp7py 开始报名:</h3>
+<h3>精品小班 101camp6py 已经开始报名:</h3>
 <blockquote><p>
     
 <ul>
     <li>
-    报名结束: <b>2020.4.20</b> </li>
+    报名结束: <b>2020.3.22</b> </li>
     <li>
-    正式开课: <b>2020.4.26</b> </li>
+    正式开课: <b>2020.3.29</b> </li>
     <li>
-    课程结束: <b>2020.6.7</b> </li>
+    课程结束: <b>2020.5.10</b> </li>
 </ul>
 
-
-<img alt="101camp7py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-03-29-7py-QR-barnner.jpeg"/>
-
+<img alt="101camp5py" 
+    src="http://ydlj.zoomquiet.top/ipic/2020-02-28-101camp6py-reg-qrcode.jpg"/>
 
 </p></blockquote>
 
@@ -590,12 +588,12 @@ Twilio 加上一点点 Python 脚本,
 
     <li class="list-group-item-zip">
     已由
-        <a href="http://qiniu.com/">
-        <img src="https://www.qiniu.com/assets/logo-zh-dbef5f389fb045c60f710d4d4e6225e9015c1684b1a1f7b81e000b952581dcd4.png"
-        width="90">
-<!--
         <a href="http://www.upyun.com/">
         <img src="http://docs.upyun.com/img/upyun_logo.png"
+        width="90">
+<!--
+        <a href="http://qiniu.com/">
+        <img src="https://www.qiniu.com/assets/logo-zh-dbef5f389fb045c60f710d4d4e6225e9015c1684b1a1f7b81e000b952581dcd4.png"
         width="90">
 -->        
         </a>
