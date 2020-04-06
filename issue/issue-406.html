@@ -385,27 +385,27 @@ PyYAML(越来越常用的);</p>
 <p>叕一个 gif 动画制造工具, 嗯哼, 这 logo 非常亲切了</p>
 <p><img alt="tornado" src="https://raw.githubusercontent.com/maxhumber/gif/master/examples/tornado.gif"></p>
 <p>使用也非常简单:</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">gif</span>
-<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<div class="highlight"><pre><span class="n">import</span> <span class="n">gif</span>
+<span class="n">from</span> <span class="n">matplotlib</span> <span class="n">import</span> <span class="n">pyplot</span> <span class="n">as</span> <span class="n">plt</span>
 
-<span class="nd">@gif.frame</span>
-<span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
+<span class="err">@</span><span class="n">gif</span><span class="p">.</span><span class="n">frame</span>
+<span class="n">def</span> <span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span><span class="o">:</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">xlim</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
+    <span class="n">plt</span><span class="p">.</span><span class="n">ylim</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
 </pre></div>
 
 
 <p>正常定义好一帧 plt 图片, 然后指定范围自动化生成就好, 比如:</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
+<div class="highlight"><pre><span class="n">from</span> <span class="n">random</span> <span class="n">import</span> <span class="n">randint</span>
 
 <span class="n">frames</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">50</span><span class="p">):</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+<span class="k">for</span> <span class="n">_</span> <span class="n">in</span> <span class="n">range</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span><span class="o">:</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="n">in</span> <span class="n">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="n">in</span> <span class="n">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
     <span class="n">frame</span> <span class="o">=</span> <span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
-    <span class="n">frames</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">frame</span><span class="p">)</span>
+    <span class="n">frames</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">frame</span><span class="p">)</span>
 </pre></div>
 
 
@@ -493,9 +493,9 @@ PyYAML(越来越常用的);</p>
 </ul>
 <p>(<code>(￣▽￣)</code>:</p>
 <p>第五期已经开始报名:</p>
-<div class="highlight"><pre><span></span><span class="mi">20</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="mi">20</span> <span class="err">报名截止</span>
-<span class="mi">20</span><span class="p">.</span><span class="mi">3</span><span class="p">.</span><span class="mi">1</span>  <span class="err">正式开课</span>
-<span class="mi">20</span><span class="p">.</span><span class="mi">4</span><span class="p">.</span><span class="mi">12</span> <span class="err">按时结束</span>
+<div class="highlight"><pre><span class="mf">20.2.20</span> <span class="err">报名截止</span>
+<span class="mf">20.3.1</span>  <span class="err">正式开课</span>
+<span class="mf">20.4.12</span> <span class="err">按时结束</span>
 </pre></div>
 
 
@@ -602,20 +602,22 @@ PyYAML(越来越常用的);</p>
 
 <hr/>
 
-<h3>精品小班 101camp6py 已经开始报名:</h3>
+<h3>精品小班 101camp7py 开始报名:</h3>
 <blockquote><p>
     
 <ul>
     <li>
-    报名结束: <b>2020.3.22</b> </li>
+    报名结束: <b>2020.4.20</b> </li>
     <li>
-    正式开课: <b>2020.3.29</b> </li>
+    正式开课: <b>2020.4.26</b> </li>
     <li>
-    课程结束: <b>2020.5.10</b> </li>
+    课程结束: <b>2020.6.7</b> </li>
 </ul>
 
-<img alt="101camp5py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-02-28-101camp6py-reg-qrcode.jpg"/>
+
+<img alt="101camp7py" 
+    src="http://ydlj.zoomquiet.top/ipic/2020-03-29-7py-QR-barnner.jpeg"/>
+
 
 </p></blockquote>
 
@@ -765,12 +767,12 @@ PyYAML(越来越常用的);</p>
 
     <li class="list-group-item-zip">
     已由
-        <a href="http://www.upyun.com/">
-        <img src="http://docs.upyun.com/img/upyun_logo.png"
-        width="90">
-<!--
         <a href="http://qiniu.com/">
         <img src="https://www.qiniu.com/assets/logo-zh-dbef5f389fb045c60f710d4d4e6225e9015c1684b1a1f7b81e000b952581dcd4.png"
+        width="90">
+<!--
+        <a href="http://www.upyun.com/">
+        <img src="http://docs.upyun.com/img/upyun_logo.png"
         width="90">
 -->        
         </a>
