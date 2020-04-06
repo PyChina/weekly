@@ -3,7 +3,7 @@ Slug: issue-412
 Date: 2020-03-18 14:42
 Tags: Weekly,Python,pycoders,ZH
 
-> ??
+> 嫑乱打日志
 
 
 
@@ -60,17 +60,19 @@ The field of data science is rapidly growing and relies heavily on Machine Learn
 一直低调赚钱的 ACTIVESTATE , 发布的 Python 发行版本可以说是最稳定的一支;
 他们心目中的 ML 模块是:
 
+```
+#10 Matplotlib
+#9 Natural Language Toolkit (NLTK)
+#8 Pandas
+#7 Scikit-learn
+#6 Seaborn
+#5 NumPy
+#4 Keras
+#3 SciPy
+#2 Pytorch
+#1 TensorFlow
 
-    #10 Matplotlib
-    #9 Natural Language Toolkit (NLTK)
-    #8 Pandas
-    #7 Scikit-learn
-    #6 Seaborn
-    #5 NumPy
-    #4 Keras
-    #3 SciPy
-    #2 Pytorch
-    #1 TensorFlow
+```
 
 嗯哼, 有两个纯粹可视化模块...
 
@@ -438,7 +440,7 @@ PyData statement on COVID-19 and Spring 2020 PyData events.
 
 # PS:
 - 首发: [Issue 412 ~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/issue/issue-412.html)
-- 修订: [issue-412.md](https://github.com/PyChina/weekly/blob/master/content/Issue/issue-412  .md)
+- 修订: [issue-412.md](https://github.com/PyChina/weekly/blob/master/content/Issue/issue-412.md)
 
 
 -------------
