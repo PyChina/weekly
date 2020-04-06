@@ -224,7 +224,7 @@ If you’ve ever wondered how to simplify complex conditionals by determining if
 
 (`是也乎:`
 
-![](http://ydlj.zoomquiet.top/ipic/2020-04-01-ScreenShot%202020-04-01%2011.49.09.jpg)
+![any](http://ydlj.zoomquiet.top/ipic/2020-04-01-ScreenShot%202020-04-01%2011.49.09.jpg)
 
 )
 
@@ -329,7 +329,7 @@ fuzz 突然变得流行起来了...
 
 (`是也乎:`
 
-![](http://ydlj.zoomquiet.top/ipic/2020-04-01-ScreenShot%202020-04-01%2011.44.50.jpg)
+![glow](http://ydlj.zoomquiet.top/ipic/2020-04-01-ScreenShot%202020-04-01%2011.44.50.jpg)
 
 部分合作厂商...
 以及, 这也是 ML 相关的...
