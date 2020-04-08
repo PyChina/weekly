@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 01 Apr 2020 14:42:00 +0800</lastBuildDate><item><title>Issue 414</title><link>http://weekly.pychina.org/issue/issue-414.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 08 Apr 2020 14:42:00 +0800</lastBuildDate><item><title>Issue 415</title><link>http://weekly.pychina.org/issue/issue-415.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Python 编程令俺数学长进了...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/415"&gt;PyCoder's Weekly - Issue #415&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;200408 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;200408 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/3897/web"&gt;Arduino 上 Python 如何开始?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;course&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Discover how to use Arduino microcontrollers with Python to develop your own electronic projects. You’ll learn how to set …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 08 Apr 2020 14:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-04-08:/issue/issue-415.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 414</title><link>http://weekly.pychina.org/issue/issue-414.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;研究花多少时间来学 Py 就好?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/414"&gt;PyCoder's Weekly - Issue #414&lt;/a&gt;&lt;/p&gt;
