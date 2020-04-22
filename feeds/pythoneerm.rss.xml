@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sat, 18 Apr 2020 14:22:00 +0800</lastBuildDate><item><title>pythonista-weekly : Pyw 445</title><link>http://weekly.pychina.org/python-weekly/pyw-445.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第445期。Let us start!&lt;/h3&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 22 Apr 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 417</title><link>http://weekly.pychina.org/issue/issue-417.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;可以在 Zoom/Skype 中使用的替身&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/417"&gt;PyCoder's Weekly - Issue #417&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;200422 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;200422 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/3972/web"&gt;pip 20.1b1 发布, 包含新依赖性解析器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/PYPA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The beta release of pip version 20.1 has dropped and included the next-generation dependency resolver! The …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 22 Apr 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-04-22:/issue/issue-417.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>pythonista-weekly : Pyw 445</title><link>http://weekly.pychina.org/python-weekly/pyw-445.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第445期。Let us start!&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-445"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-445&lt;/a&gt;&lt;br&gt;
 翻译：Dustyposa&lt;/p&gt;
