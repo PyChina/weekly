@@ -26,7 +26,7 @@ With so much of the world stuck at home thanks to the COVID-19 pandemic, more an
 
 用一个简单例子来描述, 开源世界机械视觉最常见的应用...
 
-![](http://ydlj.zoomquiet.top/ipic/2020-04-15-ScreenShot%202020-04-15%2012.56.19.jpg)
+![OpenCV](http://ydlj.zoomquiet.top/ipic/2020-04-15-ScreenShot%202020-04-15%2012.56.19.jpg)
 
 )
 
