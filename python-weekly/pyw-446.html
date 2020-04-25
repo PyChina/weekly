@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <title>pythonista-weekly : Pyw 446
+        ~蠎周刊
+        ~汇集全球蠎事儿 ;-) </title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph tags -->
+
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="pythonista-weekly : Pyw 446"/>
+            <meta property="og:url" content="http://weekly.pychina.org/python-weekly/pyw-446.html"/>
+            <meta property="og:description" content="欢迎阅读《pythonista周刊》第446期。Let us start! 原文: https://mailchi.mp/pythonweekly/python-weekly-issue-446 翻译：Dustyposa 来自赞助商（PS：原文的赞助商）: 使用 Datadog 监控你的python指标，日志，集群分析。使用Datadog的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。来免费试用 14 天吧！ 文章、教程与话题 我是如何做出一个怎么投篮都能进的篮框的？ (22min) 想象一下，投了一个球，如果球撞到了篮板，就会莫名其妙的直接进到篮筐里。由于物理原因，尽管你可以使球更多地进入篮筐，但是不可能使所有可能的投篮都能进。这个视频向你展示了如何编写一个程序来计算光学背板然后进行加工制作。 百发百中不是梦。 在 Rust 代码中编写 Python 代码 — 第一部分 大约一年前 …"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://weekly.pychina.org/theme/css/bootstrap.readable.min.css" type="text/css"/>
+    <link href="http://weekly.pychina.org/theme/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://weekly.pychina.org/theme/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="http://weekly.pychina.org/theme/css/pygments/github.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://weekly.pychina.org/theme/css/style.css" type="text/css"/>
+
+<style type="text/css">
+
+#article-content li {
+    list-style: none;
+    margin: 2em 0em 0em -1em;
+}
+#article-content li a{
+    font-size: 120%;
+    background-color: #555;
+    color: #efe;
+}
+
+</style>
+
+        <link href="http://weekly.pychina.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="蠎周刊 ATOM Feed"/>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--
+<a href="http://weekly.pychina.org" class="navbar-brand">蠎周刊</a>
+            -->
+<a href="http://weekly.pychina.org" class="navbar-brand">
+    <img src="http://weekly.pychina.org/theme/logo.png"/>
+    蠎周刊
+    <span class="violet-site">各种 weekly 中译版 </span>
+</a>            
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="http://pychina.org">PyChina</a></li>
+                    <li><a href="http://www.101.camp">蟒营</a></li>
+                    <li><a href="design.html">设计</a></li>
+                    <li><a href="about.html">有关</a></li>
+                    <li><a href="http://zoomquiet.io">Zoom.Quiet</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://weekly.pychina.org/archives.html"><i class="icon-th-list"></i>Archives</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+<!-- /.navbar -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://weekly.pychina.org/python-weekly/pyw-446.html"
+                       rel="bookmark"
+                       title="Permalink to pythonista-weekly : Pyw 446">
+                        pythonista-weekly : Pyw 446
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+<div id="article-content">
+                <h3>欢迎阅读《pythonista周刊》第446期。Let us start!</h3>
+<blockquote>
+<p>原文: <a href="https://mailchi.mp/pythonweekly/python-weekly-issue-446">https://mailchi.mp/pythonweekly/python-weekly-issue-446</a><br>
+翻译：Dustyposa</p>
+</blockquote>
+<p><strong>来自赞助商（PS：原文的赞助商）:</strong>
+使用 <code>Datadog</code> 监控你的python指标，日志，集群分析。使用<code>Datadog</code>的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。<a href="https://www.datadoghq.com/dg/apm/python-troubleshooting/?utm_source=Advertisement&amp;utm_medium=Advertisement&amp;utm_campaign=PythonWeekly-Troubleshooting">来免费试用 14 天吧！</a></p>
+<h3>文章、教程与话题</h3>
+<p><a href="https://www.youtube.com/watch?v=vtN4tkvcBMA">我是如何做出一个怎么投篮都能进的篮框的？</a> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png">(22min)
+想象一下，投了一个球，如果球撞到了篮板，就会莫名其妙的直接进到篮筐里。由于物理原因，尽管你可以使球更多地进入篮筐，但是不可能使所有可能的投篮都能进。这个视频向你展示了如何编写一个程序来计算光学背板然后进行加工制作。</p>
+<blockquote>
+<p>百发百中不是梦。</p>
+</blockquote>
+<p><a href="https://blog.m-ou.se/writing-python-inside-rust-1/">在 Rust 代码中编写 Python 代码 — 第一部分</a>
+大约一年前，我发布了一个叫 <code>inline-python</code> 的 <code>Rust create</code>，允许你使用 <code>python!{ .. }</code> 宏很轻松的在你的 <code>Rust</code> 代码中混入一些 <code>Python</code> 代码。在这个章节中，我将从零开始讲述这个 <code>create</code> 的开发过程。</p>
+<ul>
+<li><a href="https://blog.m-ou.se/writing-python-inside-rust-1a/">Part 1A</a> - 在第二部分继续扩展我们的 <code>python!{}</code> 宏之前，我们先详细探讨一些事情。<blockquote>
+<p>混入代码，想敲什么敲什么。</p>
+</blockquote>
+</li>
+</ul>
+<p><a href="https://rednafi.github.io/digressions/python/2020/03/26/python-contextmanager.html">Python的上下文管理器的新奇案例</a>
+发现Python的上下文管理器的新奇之处。</p>
+<p><a href="https://www.youtube.com/watch?v=r-uOLxNrNk8">用 Python 做数据分析 - 初学者的全套课程(Numpy, Pandas, Matplotlib, Seaborn)</a> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png">(4h22min)
+在这篇针对初学者的综合教程中学习 <code>Python</code> 的数据分析，并包含了练习题! 在这篇教程中，你将学习到数据分析的整个过程：从各种数据源（CSVs、SQL、Excel等等）中读取数据，用 <code>NumPy and Pandas</code> 处理它们，使用 <code>Matplotlib and Seaborn</code> 对它们进行可视化，并进行清理处理来创建报告。此外，我们还包含了一个 <code>Jupyter Notebook</code> 的教程，以及一个快速的 <code>Python</code> 参考来刷新你的编程能力。</p>
+<p><a href="https://arpitbhayani.me/blogs/fsm">使用Python协程构建有限状态机</a>
+构建和实现有限状态机最直观的方式便是使用 <code>Python</code> 协程，在本文中，我们会了解如何做，以及为什么。</p>
+<p><a href="https://www.assemblyai.com/blog/end-to-end-speech-recognition-pytorch">在 PyTorch 中建立端到端语音识别模型</a>
+让我们来看看如何在 <code>PyTorch</code> 中构建自己的端到端语音识别模型。我们要建立的模型是受 <code>Deep Speech 2</code> 的启发（百度对他们现在著名的模型进行了二次改版），在架构上做了一些个人的改进。模型的输出将是一个字符的概率矩阵，我们会使用概率矩阵来解码音频中最有可能说出的字符。</p>
+<p><a href="https://www.youtube.com/watch?v=VJj-H4we71g">浏览器中的 Python | Brython 速成教程</a> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png">(35min)
+在这个视频中，我们将用浏览器中的 <code>Python</code> 和 <code>Brython</code> 来操作 <code>DOM、使用本地存储、创建 Ajax 调用等等</code>。</p>
+<blockquote>
+<p>用 Python 完成 js 的功能，不想写 js？ 来这里看看吧</p>
+</blockquote>
+<p><a href="https://deepsource.io/blog/demystifying-python-descriptor-protocol/">解密 Python 的描述符协议</a>
+描述符协议攻略，用于理解 <code>properpy、classmethod、statocmethod</code> 的工作原理。</p>
+<p><a href="https://t.co/EuqMd3i29N">safer: a safer file writer</a>
+本文不仅描述了一个仅执行一项基本任务的小型库，还描述了它如何从某个项目中的谦虚实用程序转变为稍微不那么谦虚的生产库的一些背景故事。</p>
+<p><a href="https://www.youtube.com/watch?v=vLEA8dCfusQ">使用 Python 动态地图 COVID-19 的发展过程</a> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png">(49min)
+在这篇教程中，你将学习如何使用 <code>GeoPandas and Pandas Python</code> 库，利用世界各地的 <code>Coronavirus</code> 感染时间序列数据创建一个动态地图。时间序列数据来自 <code>Johns Hopkins CSSE</code> 的 <code>2019</code> 年新型冠状病毒 <code>COVID-19（2019-nCoV）</code> 数据存储库。</p>
+<p><a href="https://pascalw.me/blog/2020/04/19/webpack-django.html">在 Django 中使用 Webpack</a>
+如何在 <code>Django</code> 中设置 <code>Webpack</code>，使用 <code>Django static and Webpack</code> 不用插件就能将它们连在一起，</p>
+<p><a href="https://michael-fuchs-python.netlify.app/2020/03/07/ensemble-modeling-bagging/">Ensemble Modeling - Bagging</a>
+集成学习是一种机器学习范式，在这个范式中，多个模型（也被称为”弱学习者“）被训练来解决同一个问题并结合在一起来取得更好的结果。这里有三种最常见的组合方式：<code>+ Bagging + Boosting + Stacking</code>。在这篇文章中，我们将从 <code>bagging</code> 开始，转而再到独立的 <code>publications</code> 中进行 <code>boosting and stacking</code>。</p>
+<p><a href="https://www.youtube.com/watch?v=Vkqz2hK4fKg">用 Docker 连接  Flask and Nginx</a> <img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png">(13min)
+这个视频将介绍用 <code>docker-compose</code> 来连接 <code>nginx</code> 容器和 <code>flask应用</code> 容器。</p>
+<blockquote>
+<p>遵循容器单进程模型～</p>
+</blockquote>
+<p><a href="https://florian-dahlitz.de/blog/scrape-github-orgs-using-python">如何使用 Python 抓取你贡献过的 GitHub Organizaitons</a>
+带有真实世界案例的抓取教程。</p>
+<blockquote>
+<p>实战操作</p>
+</blockquote>
+<p><a href="https://ploomber.io/posts/nb-static-analysis/">使用静态分析生成 Robust Jupyter 报告</a></p>
+<p><a href="https://pgjones.dev/blog/packaging-without-setup-py-2020/">不用 setup.py 进行打包</a></p>
+<p><a href="https://dragan.rocks/articles/20/Clojure-Numpy-Cupy-CPU-GPU-2">More fun with NumPy, CuPy, Clojure and GPU acceleration. Hold my Cider 2!</a></p>
+<p><a href="https://pythonspeed.com/articles/reproducible-docker-builds-python/">有坚固基础的构建：确保可重复的Docker构建适用于Python</a></p>
+<p><a href="https://labs.quansight.org/blog/2020/04/introducing-ndindex-a-python-library-for-manipulating-indices-of-ndarrays/"> ndindex 简介, 用于操作 ndarray 索引的 Python 库</a></p>
+<h3>有趣的项目、工具和库</h3>
+<p><a href="https://github.com/Project-MONAI/MONAI">MONAI</a> 
+<code>MONAI</code> 是一个免费提供的、由社区支持的、基于 <code>PyTorch</code> 的深度学习框架，用于医疗成像领域的深度学习。它为在原生 <code>PyTorch</code> 范式中开发医疗影像培训工作流程提供了领域优化的基础能力。</p>
+<p><a href="https://github.com/Baekalfen/PyBoy">PyBoy</a>
+用 <code>Python</code> 编写的 <code>Game Boy</code> 模拟器。</p>
+<p><a href="https://github.com/mithi/hexapod-robot-simulator">hexapod-robot-simulator</a>
+一个简单的基于浏览器的六足机器人模拟器，是基于第一原理构建的。</p>
+<blockquote>
+<p>真 六足机器人 还会自己摇摆！</p>
+</blockquote>
+<p><a href="https://github.com/naftaliharris/tauthon">tauthon</a>
+<code>Python 2.7</code> 的 <code>Fork</code>，带有新的语法、内建库和从 <code>Python 3</code> 中移植过来的库。</p>
+<p><a href="https://www.djangotemplatetagsandfilters.com/">Django Template Tags and Filters</a>
+一个网站，提供了关于 <code>Django</code> 的 <code>57</code> 个内置模板过滤器和 <code>27</code> 个内置模板标签的有用文档。虽然官方的文档非常好，但我们试图以更有意义的方式组织这些标签和过滤器，并让用户更好地了解如何使用、是否使用和何时使用每一个标签。</p>
+<blockquote>
+<p>可以作为模版的快速学习教程了。</p>
+</blockquote>
+<p><a href="https://github.com/ialhashim/DenseDepth">DenseDepth</a>
+通过转移学习进行高质量的单眼深度估计。</p>
+<p><a href="https://github.com/JanB0/Downloads-organizer">Downloads-organizer</a>
+一个 <code>Python</code> 脚本，根据文件扩展名来组织一个像 <code>Download</code> 这样的文件夹。</p>
+<p><a href="https://github.com/richstokes/cheekymonkey">cheekymonkey</a>
+Literally a Chaos Monkey for your Kubernetes clusters.</p>
+<p><a href="https://github.com/kitplummer/clikan">clikan</a>
+clikan 是一个运行在 <code>CLI</code> 中的超级简单的个人看板仪表。</p>
+<p><a href="https://github.com/trustedsec/quicksql">QuickSQL</a>
+<code>QuickSQL</code> 是一个简单的 <code>MSSQL</code> 查询工具，允许你连接到 <code>MSSQL</code> 数据库，不需要管理级别的权限就能使用。</p>
+<p><a href="https://github.com/natewong1313/bird-bot">bird-bot</a>
+一个任天堂 <code>Switch</code> 的结账机器人。目前支持沃尔玛和百思买</p>
+<blockquote>
+<p>Nintendo 也要霸榜了。</p>
+</blockquote>
+<p><a href="https://github.com/bannyvishwas2020/MyhandWriting">MyHandWriting</a>
+将文本转换为你自己的手写字。</p>
+<p><a href="https://github.com/asrp/flpc">Flpc</a>
+<code>Forth Lisp Python Continuum</code>: 一种小型的高度动态的自引导语言。</p>
+<p><a href="https://github.com/Unicorndy/covid19_dashboard">covid19_dashboard</a>
+Covid19 Dashboard Web App using Python (Plotly Dash).</p>
+<p><a href="https://github.com/pytorch/serve">TorchServe</a>
+<code>TorchServe</code> 是一个灵活且易于使用的工具，用于为 <code>PyTorch</code> 模型提供服务。</p>
+<h3>最近更新</h3>
+<p><a href="https://discuss.python.org/t/announcement-pip-20-1b1-beta-release/3960">pip 20.1b1 beta release</a>
+此次发布的要点是:</p>
+<ul>
+<li>在构建本地目录时，通过改变行为来执行就地构建，而不是复制到临时目录，显著提高了速度。</li>
+<li><code>pip</code> 列表中的显著加速——通过并行网络访问过时了。这是 <code>pip</code> 代码库中的第一个并行代码实例。</li>
+<li>新的 <code>pip</code> 缓存命令，可以对 <code>pip</code> 的缓存目录进行内省和管理。</li>
+<li>通过 <code>PEP 610</code> 的实现，更好地冻结了从直接 <code>URL</code> 安装的包的 <code>pip</code> 冻结。</li>
+</ul>
+<p><a href="https://t.co/0DlxDEQQsP">PyTorch 1.5</a>
+该版本有几个主要的新 <code>API</code> 添加和改进，包括对 <code>C++</code> 前端的重大更新，计算机视觉模型的 <code>Channel Last</code> 内存格式，以及用于模型并行训练的分布式 <code>RPC</code> 框架的稳定发布。</p>
+<p><a href="https://devblogs.microsoft.com/python/python-in-visual-studio-code-april-2020-release/">Python in Visual Studio Code – April 2020 Release</a>
+这是一个简短的版本，我们解决了 <code>43</code> 个问题，包括 <code>Jypyter Notebooks</code> 中的 <code>ipywidgets</code> 支持和 <code>Django</code> 和 <code>Flask</code> 自动加载的调试器支持。你可以在我们的更新日志中查看完整的改进列表。</p>
+<p><a href="https://blog.python.org/2020/04/python-2718-last-release-of-python-2.html">Python 2.7.18, the last release of Python 2</a></p>
+<h3>那些活动</h3>
+<p><a href="https://hackthevirus.splashthat.com/">Virtual: Hack the Virus</a>
+一个由开发者和设计师与医学界专家以及其他在抗击冠状病毒前线的专家组成的黑客马拉松。</p>
+<p><a href="https://www.scipy2020.scipy.org/">Virtual: SciPy 2020</a> 
+<code>SciPy 2020</code> 是第19届科学计算与Python年会，将于 <code>2020年7月6日</code> 至 <code>12日</code> 举行的虚拟会议。一年一度的 <code>SciPy</code> 会议允许来自各类组织的与会者展示他们的最新项目，向熟练的用户和开发者学习，并在代码开发方面进行合作。 </p>
+<p><a href="https://2020.pythonwebconf.com/">Virtual: Python Web Conference 2020</a>
+第二届 <code>Python Web</code> 大会是一个虚拟的活动，国际技术专家将就微服务、身份管理、机器学习和CI/CD等40个主题进行演讲。讲座分为3个精彩的轨道。每个频道都可以通过 <code>Zoom</code> 进行直播，与会者可以通过 <code>Slack</code> 渠道进行聊天。演讲和会后录音将只提供给注册参会者。</p>
+<p><a href="https://www.meetup.com/PyData-Lancaster/events/270006544/">Virtual: PyData Lancaster Meetup April 2020</a> 
+There will be a talk, Changepoints to Improve Forecasts (Estimation Window Selection for A&amp;E Arrivals Forecasts)</p>
+<h4>Posa：</h4>
+<blockquote>
+<p>❤️ Happy Pythonic ;-(Posa私人无责任播报)  </p>
+</blockquote>
+<p>----- 分割线 -----</p>
+<blockquote>
+<p>如果你发现哪里翻译有误的话，请务与我联系！感谢！</p>
+</blockquote>
+<ul>
+<li>首发: <a href="http://weekly.pychina.org/python-weekly/pyw-446.html">pythonista-weekly~蠎周刊 ~汇集全球蠎事儿 ;-)</a></li>
+<li>改进: <a href="https://github.com/PyChina/weekly/blob/master/content/python-weekly/issue%23446.md">issue-446.md</a></li>
+</ul>
+
+</div>
+
+
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+<!--
+    <span class="label label-default">Date</span>
+-->
+    <span class="published">
+        <i class="icon-calendar"></i>2020-04-25 14:22
+    </span>
+
+
+    <span class="label">By</span>
+    <i class="icon-user"></i><a href="http://weekly.pychina.org/author/pythoneerm.html">Pythoneerm</a>
+
+    <span class="label label-default">Category</span>
+    <a href="http://weekly.pychina.org/python-weekly/index.html">python-weekly</a>
+
+
+
+	<span class="label label-default">Tags</span>
+		<a href="http://weekly.pychina.org/tag/weekly.html">Weekly</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/pythonweekly.html">pythonweekly</a>
+	        ,
+		<a href="http://weekly.pychina.org/tag/zh.html">Zh</a>
+</footer><!-- /.post-info -->                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- /.entry-content 
+    <hr />
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+            var disqus_identifier = 'python-weekly/20-04-25-pyw-446';
+            var disqus_url = 'http://weekly.pychina.org/python-weekly/pyw-446.html';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+            -->
+<hr />
+<section class="comments" id="comments">
+    <h2>Comments</h2>
+
+
+<script src="https://utteranc.es/client.js"
+        repo="PyChina/weekly"
+        issue-term="url"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+
+</section>
+
+<hr/>
+
+<hr/>
+
+<h3>精品小班 蟒营™Python入门班 第8期 开始报名:</h3>
+<blockquote><p>
+    
+<ul>
+    <li>
+    报名结束: <b>2020.5.24</b> </li>
+    <li>
+    正式开课: <b>2020.5.31</b> </li>
+    <li>
+    课程结束: <b>2020.7.12</b> </li>
+</ul>
+
+
+<img alt="101camp8py" 
+    src="http://ydlj.zoomquiet.top/ipic/2020-04-21-camp8py-barnner-zip.jpg"/>
+
+</p></blockquote>
+
+
+<h2>蟒营™式 原创课程</h2>
+<p>
+    伴你重享<b>学习</b>乐趣
+</p>
+
+<blockquote>
+<p>
+    <b>
+    <a href="https://py.101.camp/">py.101.camp</a>
+    </b>
+</p>
+<p>
+    <i>
+    Reactivate Joy by Self-teching <b>with You</b>
+    </i>
+</p>
+</blockquote>
+
+
+<br/>
+任何问题可先进入知识星球<b>(免费)</b>咨询:
+<br/>
+<img alt="FAQ" 
+    src="http://ydlj.zoomquiet.top/ipic/2020-02-28-FAQ101camp-qr.jpeg?imageView2/2/w/360"/>
+
+<p>关注公众号, 持续获得相关各种咨询:
+    <br/>
+<img alt="mainium" 
+    src="http://ydlj.zoomquiet.top/ipic/2020-02-15-mainium-qr-barnner.jpg"/>
+</p>
+
+<hr/>
+
+<h4>追问</h4>
+<blockquote>
+<p>
+    任何问题, 随时邮件提问可也:
+<br/>
+    <i>
+    askdama@googlegroups.com
+    </i>
+</p>
+</blockquote>
+
+<hr/>
+
+        </article>
+    </section>
+
+
+        </div>
+        <div class="col-lg-3 well well-sm" id="sidebar">
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><h4><i class="icon-comment icon-large"></i>Social</h4></li>
+                    <li class="list-group-item"><a href="https://github.com/PyChina/weekly"><i
+                            class="icon-github-sign icon-large"></i>github
+                    </a></li>
+                    <li class="list-group-item"><a href="http://weekly.pychina.org/feeds/all.atom.xml"><i
+                            class="icon-rss-sign icon-large"></i>rss
+                    </a></li>
+                    <li class="list-group-item"><a href="https://github.com/PyChina"><i
+                            class="icon-PyChina-sign icon-large"></i>PyChina
+                    </a></li>
+                    <li class="list-group-item"><a href="http://wiki.pychina.org"><i
+                            class="icon-Wiki-sign icon-large"></i>Wiki
+                    </a></li>
+                    <li class="list-group-item"><a href="http://wiki.woodpecker.org.cn/moin/CPUG"><i
+                            class="icon-啄木鸟-sign icon-large"></i>啄木鸟
+                    </a></li>
+                    <li class="list-group-item"><a href="http://www.101.camp"><i
+                            class="icon-蟒营-sign icon-large"></i>蟒营
+                    </a></li>
+
+
+            <li class="list-group-item"><h4>
+                <i class="icon-th icon-large"></i>Categories</h4></li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/author/index.html">
+                        <i class="icon-folder-open icon-large"></i>Author
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/author.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/chaos/index.html">
+                        <i class="icon-folder-open icon-large"></i>Chaos
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/chaos.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/elixirweekly/index.html">
+                        <i class="icon-folder-open icon-large"></i>ElixirWeekly
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/elixirweekly.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/importpython/index.html">
+                        <i class="icon-folder-open icon-large"></i>importpython
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/importpython.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/issue/index.html">
+                        <i class="icon-folder-open icon-large"></i>Issue
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/issue.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/pgweekly/index.html">
+                        <i class="icon-folder-open icon-large"></i>PgWeekly
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/pgweekly.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://weekly.pychina.org/python-weekly/index.html">
+                        <i class="icon-folder-open icon-large"></i>python-weekly
+                    </a>
+                    <a href="http://weekly.pychina.org/feeds/python-weekly.atom.xml">
+                        <i class="icon-rss-sign"></i>
+                    </a>
+                </li>
+
+            <li class="list-group-item"><a href="http://weekly.pychina.org/tags.html"><h4><i class="icon-tags icon-large"></i>Tags</h4></a></li>
+        </ul>
+    </section>
+<section>
+<ul class="list-group-zip">
+    <li class="list-group-item">
+        <h4><i class="icon-tint icon-large"></i>Powerded By</h4></li>
+
+    <li class="list-group-item-zip">
+    已由
+        <a href="http://qiniu.com/">
+        <img src="https://www.qiniu.com/assets/logo-zh-dbef5f389fb045c60f710d4d4e6225e9015c1684b1a1f7b81e000b952581dcd4.png"
+        width="90">
+<!--
+        <a href="http://www.upyun.com/">
+        <img src="http://docs.upyun.com/img/upyun_logo.png"
+        width="90">
+-->        
+        </a>
+    提供CDN及云存储服务
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href="http://docs.getpelican.com">
+            Pelican
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <sup>theme base</sup>
+        <a href="https://github.com/DandyDev/pelican-bootstrap3">
+             DandyDev
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href="http://www.python.org/">
+            Python
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href="http://www.inkscape.org/">
+            inkscape
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href="http://git-scm.com/">
+            Git
+        </a>
+    </li>
+<!--
+    <li class="list-group-item-zip">
+        <a href="https://gitcafe.com/CPyUG">
+            GitCafe
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+        <a href="http://www.qiniu.com/about">
+            七牛
+        </a>
+    </li>
+
+-->
+
+    <li class="list-group-item-zip">
+        <a href='http://www.catb.org/hacker-emblem/'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAIAAAD8q9/YAAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVR4nOWWMYqDQBSGBa1jEbxFwEKwM6VV8AIWWkis9RI5Q1JpYWGb0jLpBDtrc4BgkQMI+y+yQ3BmdBJiNsv+kOHNZJT3+X6fo2y3W+k/ScFvv9//dhpvUhiGisi+uq6zLHNdd7VaTd7xFYnNor6uQsCO41wulzzPm6aZOavZJQSsaRqAMc6dzRskBFwUxfl8tizroVvDQr3DSSD9+Ore+YMV+irSYpjTRyUErKrqZrNBcLvdbNu+Xq/H43HyfabFhKEfCj0dsDEvEZQQMBHqXJYlAvSw3W43uZ/u/7wvwgitxHKBNGuFieBq0zRRYXRskf0DEzJXet1DIpis8NOf0jHg0+kEM+u6Dif37zCmh8MB0yf8zBRJnYk0UlL6oQiKC5ymqe/7sixXVYXTGJyM2oLWMIyu65Ik8TxvEmYykDjvJ2/zyLqguMBt22IEG+oJDyPGiBgr5N+/KC5wEAQYl8vler1GTyYnLdQWtFEUvTHJV4oLvFgs4jjuY3CSnjzu5M8/ln8Df/IB+OX6Ah776L1W8pWtAAAAAElFTkSuQmCC"/>
+        </a>
+    </li>
+
+
+    <li class="list-group-item-zip">
+        <a href="http://zh.wikipedia.org/zh-cn/UTF-8">
+<img src="data:image/jpeg;base64,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"/>
+        </a>
+    </li>
+    <li class="list-group-item-zip">
+        <a href='http://creativecommons.org/licenses/by-nc-sa/2.5/cn/'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAANDQwNDQ0NDg0ODg4PEA8REREZGRkgICAhISEiIiIkJSMnKCcuMC4xMzEzMzM5Ozk7PTtBQkFCQkJDQ0NERERLTEtVVVVbXltmZmZna2dydnF3d3d9gn2AgICGhoaHh4eIiIiPkI+UmZOZmZmqqqqrsaqzuLK6v7q7u7vFxsXGysbIzMjKzsrMzMzd3d3u7u7///+uXr4hAAAA1UlEQVR42q2T2Q6CMBBFR0VUXHCritQFgXGvnf//Oa2ZNEB4UXrTl97enkxmWnAvcioDRKMtJGwJL0V8duEvWWDqGR4TR4iXfUPgbEBWCjaIj1UzYCchFYDQAgJFYoL4PHF/OVTIG7sEMLEKcAdXCtYkpa+znGQH8XL7nvOyed7VGGVgDEqbqaxD+kh6iOc7V2hjfJfxVYNqKxSRr2VGsl2ukNO85/v1hu1hO6Hch0gLCF+0HBd6yLEfe4jTvuMpp62jBS6GDt4hxnBg3rzX9Kc4FTjXG9Q1UZbZlOQyAAAAAElFTkSuQmCC"/>
+        </a>
+    </li>
+
+    <li class="list-group-item-zip">
+<!--
+#   190818 ++cnzz 统计代码
+-->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1277935779'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1277935779%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1277935779'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1277935779%26online%3D1' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+    </li>
+
+    <li>
+<a href="https://www.vultr.com/?ref=8333895"><img src="https://www.vultr.com/media/banners/banner_300x250.png" width="300" height="250"></a>
+    </li>
+
+</ul>
+</section>
+
+</aside>        </div>
+    </div>
+</div>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://weekly.pychina.org/theme/js/bootstrap.min.js"></script>
+
+
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) 
+
+<script src="http://weekly.pychina.org/theme/js/respond.min.js"></script>
+
+-->
+
+
+<!--
+<script src="https://utteranc.es/client.js"
+        repo="PyChina/comments"
+        issue-term="url"
+        label="✨💬✨ "
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+    <script type="text/javascript">
+        var disqus_shortname = 'weeklypychinaorg';
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] ||
+             document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+ 
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'weeklypychinaorg'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    
+
+-->
+
+</body>
+</html>
