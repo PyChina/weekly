@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 29 Apr 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 418</title><link>http://weekly.pychina.org/issue/issue-418.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 06 May 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 419</title><link>http://weekly.pychina.org/issue/issue-419.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;用 Python 生成无数独特光剑&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/419"&gt;PyCoder's Weekly - Issue #419&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCoder" src="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;200506 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;200506 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/4058/web"&gt;Python 3.9 发布规划&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;PYTHON.ORG&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In last week’s issue we had the dates mixed up, here are the correct ones: 3.9.0 final …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 06 May 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-05-06:/issue/issue-419.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 418</title><link>http://weekly.pychina.org/issue/issue-418.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Pandas DataFrame: 使处理数据令人愉快&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/418"&gt;PyCoder's Weekly - Issue #418&lt;/a&gt;&lt;/p&gt;
