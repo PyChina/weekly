@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 06 May 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 419</title><link>http://weekly.pychina.org/issue/issue-419.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sun, 10 May 2020 14:22:00 +0800</lastBuildDate><item><title>pythonista-weekly : Pyw 448</title><link>http://weekly.pychina.org/python-weekly/pyw-448.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第448期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-448"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-448&lt;/a&gt;&lt;br&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;
+使用 &lt;code&gt;Datadog&lt;/code&gt; 监控你的python指标，日志，集群分析。使用&lt;code&gt;Datadog&lt;/code&gt;的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。&lt;a href="https://www.datadoghq.com/dg/apm/python-troubleshooting/?utm_source=Advertisement&amp;amp;utm_medium=Advertisement&amp;amp;utm_campaign=PythonWeekly-Troubleshooting"&gt;来免费试用 14 天吧！&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;新鲜事&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.jetbrains.com/lp/python-developers-survey-2019/"&gt;Python 开发者调查 2019 结果公示&lt;/a&gt;
+来自 150 个国家的超过 24,000 名 &lt;code&gt;Python&lt;/code&gt; 用户参加了今年 11 月的调查。在收集到的数据的帮助下，我们将结果进行展示，找到流行的趋势并创建一个 &lt;code&gt;Python&lt;/code&gt; 开发档案 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Sun, 10 May 2020 14:22:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-05-10:/python-weekly/pyw-448.html</guid><category>python-weekly</category><category>Weekly</category><category>pythonweekly</category><category>Zh</category></item><item><title>Issue 419</title><link>http://weekly.pychina.org/issue/issue-419.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;用 Python 生成无数独特光剑&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/419"&gt;PyCoder's Weekly - Issue #419&lt;/a&gt;&lt;/p&gt;
