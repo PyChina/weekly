@@ -136,16 +136,16 @@
 <p>Keeping state consistency while running an Elixir application on many servers.</p>
 <p>(<code>是也乎:</code></p>
 <p>日常技巧...</p>
-<div class="highlight"><pre><span></span><span class="o">+</span><span class="c1">--------------------+</span>
-<span class="o">|</span> <span class="n">APP</span> <span class="n">SUPERVISOR</span>     <span class="o">|</span>
-<span class="o">+</span><span class="c1">---------+----------+</span>
+<div class="highlight"><pre><span class="o">+--------------------+</span>
+<span class="o">|</span> APP SUPERVISOR     <span class="o">|</span>
+<span class="o">+---------+----------+</span>
           <span class="o">|</span>
           <span class="o">|</span>
-<span class="o">+</span><span class="c1">---------v----------+         +-----------+            +-----------+</span>
-<span class="o">|</span> <span class="n">WORKER</span> <span class="n">SUPERVISOR</span>  <span class="o">+</span><span class="c1">---------&gt; WORKERS   | + &lt;--------&gt; DATABASE  |</span>
-<span class="o">+</span><span class="c1">--------------------+         +-----------+ | |        +-----------+</span>
-                                <span class="o">+</span><span class="c1">------------+ |</span>
-                                 <span class="o">+</span><span class="c1">-------------+</span>
+<span class="o">+---------</span>v<span class="o">----------+</span>         <span class="o">+-----------+</span>            <span class="o">+-----------+</span>
+<span class="o">|</span> WORKER SUPERVISOR  <span class="o">+---------&gt;</span> WORKERS   <span class="o">|</span> <span class="o">+</span> <span class="o">&lt;--------&gt;</span> DATABASE  <span class="o">|</span>
+<span class="o">+--------------------+</span>         <span class="o">+-----------+</span> <span class="o">|</span> <span class="o">|</span>        <span class="o">+-----------+</span>
+                                <span class="o">+------------+</span> <span class="o">|</span>
+                                 <span class="o">+-------------+</span>
 </pre></div>
 
 
