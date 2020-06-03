@@ -4,7 +4,7 @@ Date: 2020-06-03 10:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> ?
+> Python 依赖关系管理工具概述
 
 
 原文: [PyCoder's Weekly - Issue #423](https://pycoders.com/issues/423)
