@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 03 Jun 2020 10:42:00 +0800</lastBuildDate><item><title>Issue 423</title><link>http://weekly.pychina.org/issue/issue-423.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;?&lt;/p&gt;
+&lt;p&gt;Python 依赖关系管理工具概述&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/423"&gt;PyCoder's Weekly - Issue #423&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
@@ -15,7 +15,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;You might know about pointing Python to a file path, or using -m to execute a module. But did you know that Python can …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 03 Jun 2020 10:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-06-03:/issue/issue-423.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>pythonista-weekly : Pyw 450</title><link>http://weekly.pychina.org/python-weekly/pyw-450.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第450期。Let us start!&lt;/h3&gt;
+&lt;p&gt;You might know about pointing Python to a file path, or using -m to execute a module. But did you know that …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 03 Jun 2020 10:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-06-03:/issue/issue-423.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>pythonista-weekly : Pyw 450</title><link>http://weekly.pychina.org/python-weekly/pyw-450.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第450期。Let us start!&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-450"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-450&lt;/a&gt;&lt;br&gt;
 翻译：Dustyposa&lt;/p&gt;
