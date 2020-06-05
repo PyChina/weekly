@@ -244,45 +244,45 @@
 <p>基于Python功能组合的递归下降解析器. 解析器组合都只是高阶函数,把分析器作为它们的参数,并将其退回的结果值. </p>
 <p>(<code>是也乎:</code></p>
 <p>嗯啍! 这才是格调!</p>
-<div class="highlight"><pre> <span class="n">def</span> <span class="n">parse</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span><span class="o">:</span>
- <span class="err">&#39;</span><span class="n">Sequence</span><span class="p">(</span><span class="n">Token</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">object</span><span class="err">&#39;</span>
- <span class="p">...</span>
- <span class="n">n</span> <span class="o">=</span> <span class="n">lambda</span> <span class="n">s</span><span class="o">:</span> <span class="n">a</span><span class="p">(</span><span class="n">Token</span><span class="p">(</span><span class="err">&#39;</span><span class="n">Name</span><span class="err">&#39;</span><span class="p">,</span> <span class="n">s</span><span class="p">))</span> <span class="o">&gt;&gt;</span> <span class="n">tokval</span>
- <span class="n">def</span> <span class="n">make_array</span><span class="p">(</span><span class="n">n</span><span class="p">)</span><span class="o">:</span>
- <span class="k">if</span> <span class="n">n</span> <span class="n">is</span> <span class="n">None</span><span class="o">:</span>
- <span class="k">return</span> <span class="p">[]</span>
- <span class="nl">else:</span>
- <span class="k">return</span> <span class="p">[</span><span class="n">n</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">+</span> <span class="n">n</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
- <span class="p">...</span>
- <span class="n">null</span> <span class="o">=</span> <span class="n">n</span><span class="p">(</span><span class="err">&#39;</span><span class="n">null</span><span class="err">&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="k">const</span><span class="p">(</span><span class="n">None</span><span class="p">)</span>
- <span class="nb">true</span> <span class="o">=</span> <span class="n">n</span><span class="p">(</span><span class="err">&#39;</span><span class="nb">true</span><span class="err">&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="k">const</span><span class="p">(</span><span class="n">True</span><span class="p">)</span>
- <span class="nb">false</span> <span class="o">=</span> <span class="n">n</span><span class="p">(</span><span class="err">&#39;</span><span class="nb">false</span><span class="err">&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="k">const</span><span class="p">(</span><span class="n">False</span><span class="p">)</span>
- <span class="n">number</span> <span class="o">=</span> <span class="n">toktype</span><span class="p">(</span><span class="err">&#39;</span><span class="n">Number</span><span class="err">&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="n">make_number</span>
- <span class="n">string</span> <span class="o">=</span> <span class="n">toktype</span><span class="p">(</span><span class="err">&#39;</span><span class="n">String</span><span class="err">&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="n">make_string</span>
- <span class="n">value</span> <span class="o">=</span> <span class="n">forward_decl</span><span class="p">()</span>
- <span class="n">member</span> <span class="o">=</span> <span class="n">string</span> <span class="o">+</span> <span class="n">op_</span><span class="p">(</span><span class="sc">&#39;:&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">value</span> <span class="o">&gt;&gt;</span> <span class="n">tuple</span>
- <span class="n">object</span> <span class="o">=</span> <span class="p">(</span>
-         <span class="n">op_</span><span class="p">(</span><span class="sc">&#39;{&#39;</span><span class="p">)</span> <span class="o">+</span>
-         <span class="n">maybe</span><span class="p">(</span><span class="n">member</span> <span class="o">+</span> <span class="n">many</span><span class="p">(</span><span class="n">op_</span><span class="p">(</span><span class="sc">&#39;,&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">member</span><span class="p">))</span> <span class="o">+</span>
-         <span class="n">op_</span><span class="p">(</span><span class="sc">&#39;}&#39;</span><span class="p">)</span>
-         <span class="o">&gt;&gt;</span> <span class="n">make_object</span><span class="p">)</span>
- <span class="n">array</span> <span class="o">=</span> <span class="p">(</span>
-         <span class="n">op_</span><span class="p">(</span><span class="sc">&#39;[&#39;</span><span class="p">)</span> <span class="o">+</span>
-         <span class="n">maybe</span><span class="p">(</span><span class="n">value</span> <span class="o">+</span> <span class="n">many</span><span class="p">(</span><span class="n">op_</span><span class="p">(</span><span class="sc">&#39;,&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">value</span><span class="p">))</span> <span class="o">+</span>
-         <span class="n">op_</span><span class="p">(</span><span class="sc">&#39;]&#39;</span><span class="p">)</span>
-         <span class="o">&gt;&gt;</span> <span class="n">make_array</span><span class="p">)</span>
- <span class="n">value</span><span class="p">.</span><span class="n">define</span><span class="p">(</span>
-         <span class="n">null</span>
-         <span class="o">|</span> <span class="nb">true</span>
-         <span class="o">|</span> <span class="nb">false</span>
-         <span class="o">|</span> <span class="n">object</span>
-         <span class="o">|</span> <span class="n">array</span>
-         <span class="o">|</span> <span class="n">number</span>
-         <span class="o">|</span> <span class="n">string</span><span class="p">)</span>
-<span class="n">json_text</span> <span class="o">=</span> <span class="n">object</span> <span class="o">|</span> <span class="n">array</span>
-<span class="n">json_file</span> <span class="o">=</span> <span class="n">json_text</span> <span class="o">+</span> <span class="n">skip</span><span class="p">(</span><span class="n">finished</span><span class="p">)</span>
+<div class="highlight"><pre><span></span> <span class="nv">def</span> <span class="nv">parse</span><span class="ss">(</span><span class="nv">seq</span><span class="ss">)</span>:
+ <span class="s1">&#39;</span><span class="s">Sequence(Token) -&gt; object</span><span class="s1">&#39;</span>
+ ...
+ <span class="nv">n</span> <span class="o">=</span> <span class="nv">lambda</span> <span class="nv">s</span>: <span class="nv">a</span><span class="ss">(</span><span class="nv">Token</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">Name</span><span class="s1">&#39;</span>, <span class="nv">s</span><span class="ss">))</span> <span class="o">&gt;&gt;</span> <span class="nv">tokval</span>
+ <span class="nv">def</span> <span class="nv">make_array</span><span class="ss">(</span><span class="nv">n</span><span class="ss">)</span>:
+ <span class="k">if</span> <span class="nv">n</span> <span class="nv">is</span> <span class="nv">None</span>:
+ <span class="k">return</span> []
+ <span class="k">else</span>:
+ <span class="k">return</span> [<span class="nv">n</span>[<span class="mi">0</span>]] <span class="o">+</span> <span class="nv">n</span>[<span class="mi">1</span>]
+ ...
+ <span class="nv">null</span> <span class="o">=</span> <span class="nv">n</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">null</span><span class="s1">&#39;</span><span class="ss">)</span> <span class="o">&gt;&gt;</span> <span class="nv">const</span><span class="ss">(</span><span class="nv">None</span><span class="ss">)</span>
+ <span class="nv">true</span> <span class="o">=</span> <span class="nv">n</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">true</span><span class="s1">&#39;</span><span class="ss">)</span> <span class="o">&gt;&gt;</span> <span class="nv">const</span><span class="ss">(</span><span class="nv">True</span><span class="ss">)</span>
+ <span class="nv">false</span> <span class="o">=</span> <span class="nv">n</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">false</span><span class="s1">&#39;</span><span class="ss">)</span> <span class="o">&gt;&gt;</span> <span class="nv">const</span><span class="ss">(</span><span class="nv">False</span><span class="ss">)</span>
+ <span class="nv">number</span> <span class="o">=</span> <span class="nv">toktype</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">Number</span><span class="s1">&#39;</span><span class="ss">)</span> <span class="o">&gt;&gt;</span> <span class="nv">make_number</span>
+ <span class="nv">string</span> <span class="o">=</span> <span class="nv">toktype</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">String</span><span class="s1">&#39;</span><span class="ss">)</span> <span class="o">&gt;&gt;</span> <span class="nv">make_string</span>
+ <span class="nv">value</span> <span class="o">=</span> <span class="nv">forward_decl</span><span class="ss">()</span>
+ <span class="nv">member</span> <span class="o">=</span> <span class="nv">string</span> <span class="o">+</span> <span class="nv">op_</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">:</span><span class="s1">&#39;</span><span class="ss">)</span> <span class="o">+</span> <span class="nv">value</span> <span class="o">&gt;&gt;</span> <span class="nv">tuple</span>
+ <span class="nv">object</span> <span class="o">=</span> <span class="ss">(</span>
+         <span class="nv">op_</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">{</span><span class="s1">&#39;</span><span class="ss">)</span> <span class="o">+</span>
+         <span class="nv">maybe</span><span class="ss">(</span><span class="nv">member</span> <span class="o">+</span> <span class="nv">many</span><span class="ss">(</span><span class="nv">op_</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">,</span><span class="s1">&#39;</span><span class="ss">)</span> <span class="o">+</span> <span class="nv">member</span><span class="ss">))</span> <span class="o">+</span>
+         <span class="nv">op_</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">}</span><span class="s1">&#39;</span><span class="ss">)</span>
+         <span class="o">&gt;&gt;</span> <span class="nv">make_object</span><span class="ss">)</span>
+ <span class="nv">array</span> <span class="o">=</span> <span class="ss">(</span>
+         <span class="nv">op_</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">[</span><span class="s1">&#39;</span><span class="ss">)</span> <span class="o">+</span>
+         <span class="nv">maybe</span><span class="ss">(</span><span class="nv">value</span> <span class="o">+</span> <span class="nv">many</span><span class="ss">(</span><span class="nv">op_</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">,</span><span class="s1">&#39;</span><span class="ss">)</span> <span class="o">+</span> <span class="nv">value</span><span class="ss">))</span> <span class="o">+</span>
+         <span class="nv">op_</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">]</span><span class="s1">&#39;</span><span class="ss">)</span>
+         <span class="o">&gt;&gt;</span> <span class="nv">make_array</span><span class="ss">)</span>
+ <span class="nv">value</span>.<span class="nv">define</span><span class="ss">(</span>
+         <span class="nv">null</span>
+         <span class="o">|</span> <span class="nv">true</span>
+         <span class="o">|</span> <span class="nv">false</span>
+         <span class="o">|</span> <span class="nv">object</span>
+         <span class="o">|</span> <span class="nv">array</span>
+         <span class="o">|</span> <span class="nv">number</span>
+         <span class="o">|</span> <span class="nv">string</span><span class="ss">)</span>
+<span class="nv">json_text</span> <span class="o">=</span> <span class="nv">object</span> <span class="o">|</span> <span class="nv">array</span>
+<span class="nv">json_file</span> <span class="o">=</span> <span class="nv">json_text</span> <span class="o">+</span> <span class="nv">skip</span><span class="ss">(</span><span class="nv">finished</span><span class="ss">)</span>
 
-<span class="k">return</span> <span class="n">json_file</span><span class="p">.</span><span class="n">parse</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span>
+<span class="k">return</span> <span class="nv">json_file</span>.<span class="nv">parse</span><span class="ss">(</span><span class="nv">seq</span><span class="ss">)</span>
 </pre></div>
 
 
@@ -399,9 +399,7 @@
 
 <hr/>
 
-<h3>蟒营®编程思维提高班Python版/ 第9期 正在报名</h3>
-<h4>精品小班/ 每期不过32人</h4>
-
+<h3>精品小班 蟒营™Python入门班 第9期 报名安排</h3>
 <blockquote><p>
     
 <ul>
@@ -417,12 +415,13 @@
 
 
 <img alt="101camp9py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-06-04-9py-reg-zip.jpg"/>
+    src="http://ydlj.zoomquiet.top/ipic/2020-05-25-9py-reg-zip.jpg"/>
+
 
 </p></blockquote>
 
 
-<h2>蟒营®式 原创课程</h2>
+<h2>蟒营™式 原创课程</h2>
 <p>
     伴你重享<b>学习</b>乐趣
 </p>
