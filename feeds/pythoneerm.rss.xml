@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 03 Jun 2020 10:42:00 +0800</lastBuildDate><item><title>Issue 423</title><link>http://weekly.pychina.org/issue/issue-423.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sat, 06 Jun 2020 14:22:00 +0800</lastBuildDate><item><title>pythonista-weekly : Pyw 452</title><link>http://weekly.pychina.org/python-weekly/pyw-452.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第452期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-452"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-452&lt;/a&gt;&lt;br&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;
+使用 &lt;code&gt;Datadog&lt;/code&gt; 监控你的python指标，日志，集群分析。使用&lt;code&gt;Datadog&lt;/code&gt;的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。&lt;a href="https://www.datadoghq.com/dg/apm/python-troubleshooting/?utm_source=Advertisement&amp;amp;utm_medium=Advertisement&amp;amp;utm_campaign=PythonWeekly-Troubleshooting"&gt;来免费试用 14 天吧！&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;新鲜事&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dabeaz-course.github.io/practical-python/Notes/Contents"&gt;Python 实用编程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;David Beazley&lt;/code&gt; 在 &lt;code&gt;Creative Commons&lt;/code&gt; 下发布了他的《实用Python编程》课程。这是一个很好的资源。&lt;/p&gt;
+&lt;h3&gt;文章、教程与话题&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.hackster.io/sacchet/chupacarbrah-car-hacking-with-beaglebone-and-python-18f137"&gt;ChupaCarBrah - Car Hacking with BeagleBone and …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Sat, 06 Jun 2020 14:22:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-06-06:/python-weekly/pyw-452.html</guid><category>python-weekly</category><category>Weekly</category><category>pythonweekly</category><category>Zh</category></item><item><title>Issue 423</title><link>http://weekly.pychina.org/issue/issue-423.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Python 依赖关系管理工具概述&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/423"&gt;PyCoder's Weekly - Issue #423&lt;/a&gt;&lt;/p&gt;
