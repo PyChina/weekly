@@ -297,18 +297,18 @@ Tk 才是第一选择了...</p>
 </li>
 </ul>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">bistring</span> <span class="kn">import</span> <span class="n">bistr</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">bistr</span><span class="p">(</span><span class="s1">&#39;𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐, 𝖇𝖗𝖔𝖜𝖓 🦊 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 🐶&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">normalize</span><span class="p">(</span><span class="s1">&#39;NFKD&#39;</span><span class="p">)</span>     <span class="c1"># Unicode normalization</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">casefold</span><span class="p">()</span>            <span class="c1"># Case-insensitivity</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;🦊&#39;</span><span class="p">,</span> <span class="s1">&#39;fox&#39;</span><span class="p">)</span>  <span class="c1"># Replace emoji with text</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;🐶&#39;</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;[^\w\s]+&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>  <span class="c1"># Strip everything but letters and spaces</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[:</span><span class="mi">19</span><span class="p">]</span>                  <span class="c1"># Extract a substring</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span><span class="o">.</span><span class="n">modified</span>                  <span class="c1"># The modified substring, after changes</span>
-<span class="s1">&#39;the quick brown fox&#39;</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span><span class="o">.</span><span class="n">original</span>                  <span class="c1"># The original substring, before changes</span>
-<span class="s1">&#39;𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐, 𝖇𝖗𝖔𝖜𝖓 🦊&#39;</span>
+<div class="highlight"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">from</span> <span class="n">bistring</span> <span class="n">import</span> <span class="n">bistr</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">bistr</span><span class="p">(</span><span class="err">&#39;𝕿𝖍𝖊</span> <span class="err">𝖖𝖚𝖎𝖈𝖐</span><span class="p">,</span> <span class="err">𝖇𝖗𝖔𝖜𝖓</span> <span class="err">🦊</span> <span class="err">𝖏𝖚𝖒𝖕𝖘</span> <span class="err">𝖔𝖛𝖊𝖗</span> <span class="err">𝖙𝖍𝖊</span> <span class="err">𝖑𝖆𝖟𝖞</span> <span class="err">🐶&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="n">normalize</span><span class="p">(</span><span class="err">&#39;</span><span class="n">NFKD</span><span class="err">&#39;</span><span class="p">)</span>     <span class="err">#</span> <span class="n">Unicode</span> <span class="n">normalization</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="n">casefold</span><span class="p">()</span>            <span class="err">#</span> <span class="n">Case</span><span class="o">-</span><span class="n">insensitivity</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="sc">&#39;🦊&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">fox</span><span class="err">&#39;</span><span class="p">)</span>  <span class="err">#</span> <span class="n">Replace</span> <span class="n">emoji</span> <span class="n">with</span> <span class="n">text</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="sc">&#39;🐶&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">dog</span><span class="err">&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="n">sub</span><span class="p">(</span><span class="n">r</span><span class="err">&#39;</span><span class="p">[</span><span class="o">^</span><span class="err">\</span><span class="n">w</span><span class="err">\</span><span class="n">s</span><span class="p">]</span><span class="o">+</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;&#39;</span><span class="p">)</span>  <span class="err">#</span> <span class="n">Strip</span> <span class="n">everything</span> <span class="n">but</span> <span class="n">letters</span> <span class="n">and</span> <span class="n">spaces</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="o">:</span><span class="mi">19</span><span class="p">]</span>                  <span class="err">#</span> <span class="n">Extract</span> <span class="n">a</span> <span class="n">substring</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span><span class="p">.</span><span class="n">modified</span>                  <span class="err">#</span> <span class="n">The</span> <span class="n">modified</span> <span class="n">substring</span><span class="p">,</span> <span class="n">after</span> <span class="n">changes</span>
+<span class="err">&#39;</span><span class="n">the</span> <span class="n">quick</span> <span class="n">brown</span> <span class="n">fox</span><span class="err">&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">s</span><span class="p">.</span><span class="n">original</span>                  <span class="err">#</span> <span class="n">The</span> <span class="n">original</span> <span class="n">substring</span><span class="p">,</span> <span class="n">before</span> <span class="n">changes</span>
+<span class="err">&#39;𝕿𝖍𝖊</span> <span class="err">𝖖𝖚𝖎𝖈𝖐</span><span class="p">,</span> <span class="err">𝖇𝖗𝖔𝖜𝖓</span> <span class="err">🦊&#39;</span>
 </pre></div>
 
 
@@ -527,7 +527,9 @@ Tk 才是第一选择了...</p>
 
 <hr/>
 
-<h3>精品小班 蟒营™Python入门班 第9期 报名安排</h3>
+<h3>蟒营®编程思维提高班Python版/ 第9期 正在报名</h3>
+<h4>精品小班/ 每期不过32人</h4>
+
 <blockquote><p>
     
 <ul>
@@ -543,13 +545,12 @@ Tk 才是第一选择了...</p>
 
 
 <img alt="101camp9py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-05-25-9py-reg-zip.jpg"/>
-
+    src="http://ydlj.zoomquiet.top/ipic/2020-06-04-9py-reg-zip.jpg"/>
 
 </p></blockquote>
 
 
-<h2>蟒营™式 原创课程</h2>
+<h2>蟒营®式 原创课程</h2>
 <p>
     伴你重享<b>学习</b>乐趣
 </p>

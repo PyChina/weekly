@@ -228,26 +228,26 @@ Ever wonder how some of these crazy obfuscated python programs work? Check out t
 真心是个自虐又 bigger 的思路,可以折腾个标准库出来,
 这下网络传送数据就有安全保证了...
 感受一下....谁说用 Python 写不出来难懂的代码的!?</p>
-<div class="highlight"><pre><span></span>#...
-<span class="ss">(</span>
-    <span class="o">*</span><span class="ss">(</span><span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>: <span class="nv">_</span><span class="ss">(</span><span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span><span class="ss">))(</span>
-        <span class="ss">(</span><span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>:
-            [<span class="nv">__</span><span class="ss">(</span><span class="nv">___</span>[<span class="ss">(</span><span class="nv">lambda</span>: <span class="nv">_</span><span class="ss">)</span>.<span class="nv">func_code</span>.<span class="nv">co_nlocals</span>]<span class="ss">)</span>] <span class="o">+</span>
-            <span class="nv">_</span><span class="ss">(</span><span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>[<span class="ss">(</span><span class="nv">lambda</span> <span class="nv">_</span>: <span class="nv">_</span><span class="ss">)</span>.<span class="nv">func_code</span>.<span class="nv">co_nlocals</span>:]<span class="ss">)</span> <span class="k">if</span> <span class="nv">___</span> <span class="k">else</span> []
-        <span class="ss">)</span>,
-        <span class="nv">lambda</span> <span class="nv">_</span>: <span class="nv">_</span>.<span class="nv">func_code</span>.<span class="nv">co_argcount</span>,
-        <span class="ss">(</span>
-            <span class="nv">lambda</span> <span class="nv">_</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>, <span class="nv">____</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>, <span class="nv">____</span>, <span class="nv">_____</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>, <span class="nv">____</span>, <span class="nv">_____</span>, <span class="nv">______</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>, <span class="nv">____</span>, <span class="nv">_____</span>, <span class="nv">______</span>, <span class="nv">_______</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>, <span class="nv">____</span>, <span class="nv">_____</span>, <span class="nv">______</span>, <span class="nv">_______</span>, <span class="nv">________</span>: <span class="nv">_</span>
-        <span class="ss">)</span>
-    <span class="ss">)</span>
-<span class="ss">)</span>
+<div class="highlight"><pre><span class="cp">#...</span>
+<span class="p">(</span>
+    <span class="o">*</span><span class="p">(</span><span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="o">:</span> <span class="n">_</span><span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">))(</span>
+        <span class="p">(</span><span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="o">:</span>
+            <span class="p">[</span><span class="n">__</span><span class="p">(</span><span class="n">___</span><span class="p">[(</span><span class="n">lambda</span><span class="o">:</span> <span class="n">_</span><span class="p">).</span><span class="n">func_code</span><span class="p">.</span><span class="n">co_nlocals</span><span class="p">])]</span> <span class="o">+</span>
+            <span class="n">_</span><span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">[(</span><span class="n">lambda</span> <span class="n">_</span><span class="o">:</span> <span class="n">_</span><span class="p">).</span><span class="n">func_code</span><span class="p">.</span><span class="n">co_nlocals</span><span class="o">:</span><span class="p">])</span> <span class="k">if</span> <span class="n">___</span> <span class="k">else</span> <span class="p">[]</span>
+        <span class="p">),</span>
+        <span class="n">lambda</span> <span class="n">_</span><span class="o">:</span> <span class="n">_</span><span class="p">.</span><span class="n">func_code</span><span class="p">.</span><span class="n">co_argcount</span><span class="p">,</span>
+        <span class="p">(</span>
+            <span class="n">lambda</span> <span class="n">_</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
+            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
+            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
+            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">,</span> <span class="n">____</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
+            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">,</span> <span class="n">____</span><span class="p">,</span> <span class="n">_____</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
+            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">,</span> <span class="n">____</span><span class="p">,</span> <span class="n">_____</span><span class="p">,</span> <span class="n">______</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
+            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">,</span> <span class="n">____</span><span class="p">,</span> <span class="n">_____</span><span class="p">,</span> <span class="n">______</span><span class="p">,</span> <span class="n">_______</span><span class="o">:</span> <span class="n">_</span><span class="p">,</span>
+            <span class="n">lambda</span> <span class="n">_</span><span class="p">,</span> <span class="n">__</span><span class="p">,</span> <span class="n">___</span><span class="p">,</span> <span class="n">____</span><span class="p">,</span> <span class="n">_____</span><span class="p">,</span> <span class="n">______</span><span class="p">,</span> <span class="n">_______</span><span class="p">,</span> <span class="n">________</span><span class="o">:</span> <span class="n">_</span>
+        <span class="p">)</span>
+    <span class="p">)</span>
+<span class="p">)</span>
 </pre></div>
 
 
@@ -375,7 +375,9 @@ Ever wonder how some of these crazy obfuscated python programs work? Check out t
 
 <hr/>
 
-<h3>精品小班 蟒营™Python入门班 第9期 报名安排</h3>
+<h3>蟒营®编程思维提高班Python版/ 第9期 正在报名</h3>
+<h4>精品小班/ 每期不过32人</h4>
+
 <blockquote><p>
     
 <ul>
@@ -391,13 +393,12 @@ Ever wonder how some of these crazy obfuscated python programs work? Check out t
 
 
 <img alt="101camp9py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-05-25-9py-reg-zip.jpg"/>
-
+    src="http://ydlj.zoomquiet.top/ipic/2020-06-04-9py-reg-zip.jpg"/>
 
 </p></blockquote>
 
 
-<h2>蟒营™式 原创课程</h2>
+<h2>蟒营®式 原创课程</h2>
 <p>
     伴你重享<b>学习</b>乐趣
 </p>
