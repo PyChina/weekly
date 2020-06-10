@@ -14,8 +14,8 @@ Tags: Weekly,Python,pycoders,ZH
 ![pycoder](http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png)
 
 
-- 200527 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译
-- 200527 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 37 分钟 完成格式转抄.
+- 200603 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 42 分钟 完成快译
+- 200603 [Zoom.Quiet](http://zoomquiet.io/)(大妈) 用时 37 分钟 完成格式转抄.
 
 ------
 
