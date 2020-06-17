@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 10 Jun 2020 10:42:00 +0800</lastBuildDate><item><title>Issue 424</title><link>http://weekly.pychina.org/issue/issue-424.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 17 Jun 2020 10:42:00 +0800</lastBuildDate><item><title>Issue 425</title><link>http://weekly.pychina.org/issue/issue-425.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;令机器学习投入生产&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/425"&gt;PyCoder's Weekly - Issue #425&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;200617 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;200617 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/4283/web"&gt;令机器学习投入生产&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;VICKI BOYKIS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Millions of web apps get deployed to production every day. But machine learning models aren’t web apps. And very few people are talking about …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 17 Jun 2020 10:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-06-17:/issue/issue-425.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 424</title><link>http://weekly.pychina.org/issue/issue-424.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Flask 结合 Vue&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/424"&gt;PyCoder's Weekly - Issue #424&lt;/a&gt;&lt;/p&gt;
