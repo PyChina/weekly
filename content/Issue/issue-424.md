@@ -1,10 +1,10 @@
 Title: Issue 424
 Slug: issue-424
-Date: 2020-06-03 10:42
+Date: 2020-06-10 10:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> ?
+> Flask 结合 Vue
 
 
 原文: [PyCoder's Weekly - Issue #424](https://pycoders.com/issues/424)
