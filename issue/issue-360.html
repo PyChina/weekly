@@ -115,7 +115,7 @@
 <p>(<code>是也乎:</code></p>
 <p>这,是非常重要的常用嗯哼哪...</p>
 <p>只是, 一点儿也不简单..因为 Python 中一直就没有一个合理的工具一致性解决所有阶段的开发环境问题:</p>
-<div class="highlight"><pre><span class="err">本地开发时的版本和模块依赖管理</span>
+<div class="highlight"><pre><span></span><span class="err">本地开发时的版本和模块依赖管理</span>
 <span class="err">测试时高速部署依赖模块</span>
 <span class="err">运行时自动化同步版本和依赖模块版本</span>
 </pre></div>
@@ -124,7 +124,7 @@
 <p>Docker 是一把将所有阶段的环境问题用虚拟机解决了,
 只是带来空间无法控制, 以及必须理解并忍受越来越多的专用工具;</p>
 <p>所以, 先用已有工具组合为一个合理可理解的工具箱来完成是好的:</p>
-<div class="highlight"><pre><span class="n">pyenv</span> <span class="err">进行本地</span><span class="o">/</span><span class="err">测试</span><span class="o">/</span><span class="err">生产</span> <span class="err">的运行时版本和模块依赖树隔离</span>
+<div class="highlight"><pre><span></span><span class="n">pyenv</span> <span class="err">进行本地</span><span class="o">/</span><span class="err">测试</span><span class="o">/</span><span class="err">生产</span> <span class="err">的运行时版本和模块依赖树隔离</span>
 <span class="err">在</span> <span class="n">pyenv</span> <span class="err">之下</span><span class="p">..</span>
     <span class="n">conda</span> <span class="err">负责部分大型编译型模块的预编译管理</span>
     <span class="n">pipenv</span> <span class="err">进行模块的依赖</span><span class="o">/</span><span class="err">版本管理</span>
@@ -132,7 +132,7 @@
 
 
 <p>嗯哼, 就是缺少一环:</p>
-<div class="highlight"><pre><span class="err">可以高速冻结本地模块依赖树</span><span class="p">,</span> 
+<div class="highlight"><pre><span></span><span class="err">可以高速冻结本地模块依赖树</span><span class="p">,</span> 
 <span class="err">并能自动化同步模块树镜像到任意指定主机上</span><span class="p">;</span>
 <span class="err">以便从本地安装模块</span><span class="p">,</span><span class="err">而不依赖可怜的墙外网速</span><span class="p">...</span>
 </pre></div>
