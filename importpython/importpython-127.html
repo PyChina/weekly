@@ -203,18 +203,18 @@
 </ul>
 <p>(<code>是也乎:</code></p>
 <p>就两行代码:</p>
-<div class="highlight"><pre><span></span><span class="s s-Atom">def</span> <span class="nf">to_idx</span><span class="p">(</span><span class="s s-Atom">letters</span><span class="p">)</span><span class="s s-Atom">:</span>
-    <span class="s s-Atom">val</span> <span class="o">=</span> <span class="s s-Atom">lambda</span> <span class="s s-Atom">i</span><span class="p">,</span> <span class="nn">x</span><span class="p">:</span> <span class="p">(</span><span class="mi">26</span><span class="s s-Atom">**i</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="nf">ord</span><span class="p">(</span><span class="s s-Atom">x</span><span class="p">.</span><span class="nf">lower</span><span class="p">())</span> <span class="o">-</span> <span class="nf">ord</span><span class="p">(</span><span class="s s-Atom">&#39;a&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-    <span class="s s-Atom">return</span> <span class="nf">sum</span><span class="p">([</span><span class="nf">val</span><span class="p">(</span><span class="s s-Atom">i</span><span class="p">,</span> <span class="s s-Atom">x</span><span class="p">)</span> <span class="s s-Atom">for</span> <span class="s s-Atom">i</span><span class="p">,</span> <span class="s s-Atom">x</span> <span class="s s-Atom">in</span> <span class="nf">enumerate</span><span class="p">(</span><span class="s s-Atom">letters</span><span class="p">[</span><span class="s s-Atom">::-</span><span class="mi">1</span><span class="p">])])</span> <span class="o">-</span> <span class="mi">1</span>
+<div class="highlight"><pre><span class="s-Atom">def</span> <span class="nf">to_idx</span><span class="p">(</span><span class="s-Atom">letters</span><span class="p">)</span><span class="s-Atom">:</span>
+    <span class="s-Atom">val</span> <span class="o">=</span> <span class="s-Atom">lambda</span> <span class="s-Atom">i</span><span class="p">,</span> <span class="nn">x</span><span class="p">:</span> <span class="p">(</span><span class="m">26</span><span class="s-Atom">**i</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="nf">ord</span><span class="p">(</span><span class="s-Atom">x</span><span class="p">.</span><span class="nf">lower</span><span class="p">())</span> <span class="o">-</span> <span class="nf">ord</span><span class="p">(</span><span class="s-Atom">&#39;a&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="m">1</span><span class="p">)</span>
+    <span class="s-Atom">return</span> <span class="nf">sum</span><span class="p">([</span><span class="nf">val</span><span class="p">(</span><span class="s-Atom">i</span><span class="p">,</span> <span class="s-Atom">x</span><span class="p">)</span> <span class="s-Atom">for</span> <span class="s-Atom">i</span><span class="p">,</span> <span class="s-Atom">x</span> <span class="s-Atom">in</span> <span class="nf">enumerate</span><span class="p">(</span><span class="s-Atom">letters</span><span class="p">[</span><span class="s-Atom">::-</span><span class="m">1</span><span class="p">])])</span> <span class="o">-</span> <span class="m">1</span>
 </pre></div>
 
 
 <p>效果:</p>
-<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="n">to_idx</span><span class="p">(</span><span class="s1">&#39;A&#39;</span><span class="p">)</span>
+<div class="highlight"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">to_idx</span><span class="p">(</span><span class="sc">&#39;A&#39;</span><span class="p">)</span>
 <span class="mi">0</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">to_idx</span><span class="p">(</span><span class="s1">&#39;AH&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">to_idx</span><span class="p">(</span><span class="err">&#39;</span><span class="n">AH</span><span class="err">&#39;</span><span class="p">)</span>
 <span class="mi">33</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">to_idx</span><span class="p">(</span><span class="s1">&#39;XFD&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">to_idx</span><span class="p">(</span><span class="err">&#39;</span><span class="n">XFD</span><span class="err">&#39;</span><span class="p">)</span>
 <span class="mi">16383</span>
 </pre></div>
 
@@ -282,11 +282,11 @@ Scientific One-Liner Interactive GUI Library</li>
 </li>
 </ul>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">quickui</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">forall</span><span class="p">(</span><span class="n">a</span> <span class="o">=</span> <span class="n">slider</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mf">0.1</span><span class="p">),</span> <span class="n">b</span> <span class="o">=</span> <span class="n">slider</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mf">0.1</span><span class="p">))</span><span class="o">.</span><span class="n">show</span><span class="p">(</span>
-<span class="o">...</span>    <span class="n">plot</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">:</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="kp">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">),</span> 
-<span class="o">...</span>    <span class="n">np</span><span class="o">.</span><span class="kp">sin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="kp">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">**</span><span class="n">a</span><span class="p">)</span> <span class="o">+</span> <span class="n">b</span><span class="o">/</span><span class="n">a</span><span class="p">]))</span>
+<div class="highlight"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">import</span> <span class="n">numpy</span> <span class="n">as</span> <span class="n">np</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">from</span> <span class="n">quickui</span> <span class="n">import</span> <span class="o">*</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">forall</span><span class="p">(</span><span class="n">a</span> <span class="o">=</span> <span class="n">slider</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mf">0.1</span><span class="p">),</span> <span class="n">b</span> <span class="o">=</span> <span class="n">slider</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mf">0.1</span><span class="p">)).</span><span class="n">show</span><span class="p">(</span>
+<span class="p">...</span>    <span class="n">plot</span><span class="p">(</span><span class="n">lambda</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="o">:</span> <span class="p">[</span><span class="n">np</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">),</span> 
+<span class="p">...</span>    <span class="n">np</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">**</span><span class="n">a</span><span class="p">)</span> <span class="o">+</span> <span class="n">b</span><span class="o">/</span><span class="n">a</span><span class="p">]))</span>
 </pre></div>
 
 
@@ -421,25 +421,26 @@ Lua 如此简单的语言, 也在深度学习中可以折腾起来...</p>
 
 <hr/>
 
-<h3>蟒营®编程思维提高班Python版/ 第9期 正在报名</h3>
-<h4>精品小班/ 每期不过32人</h4>
+<h3>蟒营®编程思维提高班 Python版/<b>第10期</b> 正在报名</h3>
+<h4>精品小班/ 每期<42人</h4>
 
 <blockquote><p>
     
 <ul>
     <li>
-    开始报名: <b>2020.5.31</b> </li>
+    开始报名: <b>2020.6.29</b> </li>
     <li>
-    报名截止: <b>2020.6.21</b> </li>
+    报名截止: <b>2020.7.20</b> </li>
     <li>
-    正式开课: <b>2020.6.28</b> </li>
+    正式开课: <b>2020.7.26</b> </li>
     <li>
     课程结束: <b>2020.9.06</b> </li>
 </ul>
 
 
 <img alt="101camp9py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-06-04-9py-reg-zip.jpg"/>
+    src="http://ydlj.zoomquiet.top/ipic/2020-06-22-200622reg10py-zip.jpg"/>
+
 
 </p></blockquote>
 

@@ -207,7 +207,7 @@
 <p>“I rewrote the cppyy CMake modules to be much more user friendly and to work using only Anaconda/PyPI packages, and to generate more feature-complete and customizable Python packages using CMake’s configure_file, while also supporting distribution of cppyy pythonization functions.”</p>
 <p>(<code>是也乎:</code></p>
 <p>沈游侠曰过:</p>
-<div class="highlight"><pre><span></span><span class="err">每个程序猿</span>
+<div class="highlight"><pre><span class="err">每个程序猿</span>
 <span class="err">总会去写</span>
 <span class="err">自己反复用一生的</span> <span class="n">makefile</span>
 </pre></div>
@@ -299,7 +299,7 @@
 <p>Learn how to deploy TensorFlow models and consume predictions via gRPC.</p>
 <p>(<code>是也乎:</code></p>
 <p>叕见 gPRC ... 所以, 俺一直说:</p>
-<div class="highlight"><pre><span></span><span class="err">人生苦短</span> <span class="n">Python</span> <span class="err">当歌</span>
+<div class="highlight"><pre><span class="err">人生苦短</span> <span class="n">Python</span> <span class="err">当歌</span>
 </pre></div>
 
 
@@ -403,18 +403,18 @@
 <p>(<code>是也乎:</code></p>
 <p><img alt="output_6_1" src="https://github.com/johnhw/funnelplot/raw/master/docs/images/output_6_1.png"></p>
 <p>神奇哪, 首次见到在 windows 平台上完成的示例, 而且老实的将错误也记录下来了:</p>
-<div class="highlight"><pre><span></span><span class="c1"># load some example data</span>
+<div class="highlight"><pre><span class="c"># load some example data</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
 <span class="kn">from</span> <span class="nn">pydataset</span> <span class="kn">import</span> <span class="n">data</span>
 <span class="kn">from</span> <span class="nn">funnelplot.core</span> <span class="kn">import</span> <span class="n">funnel</span>
 
-<span class="c1"># create a suitable axis</span>
+<span class="c"># create a suitable axis</span>
 <span class="n">fig</span><span class="p">,</span><span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">set_frame_on</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
 
-<span class="c1"># funnel plot, using 0.5% -&gt; 99.5% interval</span>
-<span class="n">funnel</span><span class="p">(</span><span class="n">df</span><span class="o">=</span><span class="n">data</span><span class="p">(</span><span class="s2">&quot;Caschool&quot;</span><span class="p">),</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;testscr&quot;</span><span class="p">,</span> <span class="n">group</span><span class="o">=</span><span class="s2">&quot;county&quot;</span><span class="p">,</span> <span class="n">percentage</span><span class="o">=</span><span class="mf">99.5</span><span class="p">,</span> <span class="n">error_mode</span><span class="o">=</span><span class="s2">&quot;data&quot;</span><span class="p">)</span>
+<span class="c"># funnel plot, using 0.5% -&gt; 99.5% interval</span>
+<span class="n">funnel</span><span class="p">(</span><span class="n">df</span><span class="o">=</span><span class="n">data</span><span class="p">(</span><span class="s">&quot;Caschool&quot;</span><span class="p">),</span> <span class="n">x</span><span class="o">=</span><span class="s">&quot;testscr&quot;</span><span class="p">,</span> <span class="n">group</span><span class="o">=</span><span class="s">&quot;county&quot;</span><span class="p">,</span> <span class="n">percentage</span><span class="o">=</span><span class="mf">99.5</span><span class="p">,</span> <span class="n">error_mode</span><span class="o">=</span><span class="s">&quot;data&quot;</span><span class="p">)</span>
 
 <span class="n">C</span><span class="p">:</span>\<span class="n">Users</span>\<span class="n">John</span>\<span class="n">Dropbox</span>\<span class="n">devel</span>\<span class="n">funnelplot</span>\<span class="n">funnelplot</span>\<span class="n">core</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">14</span><span class="p">:</span> <span class="ne">RuntimeWarning</span><span class="p">:</span> <span class="n">invalid</span> <span class="n">value</span> <span class="n">encountered</span> <span class="ow">in</span> <span class="n">true_divide</span>
   <span class="k">return</span> <span class="n">band</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">group_size</span><span class="p">)</span>
@@ -455,26 +455,26 @@
 PlantUML 是非常赞的图形脚本工具, 但是, 毕竟语法很囧;</p>
 <p><img alt="distributed_control" src="https://github.com/pinetr2e/napkin/raw/master/images/distributed_control.png"></p>
 <p>这样的图, DSL 为:</p>
-<div class="highlight"><pre><span></span><span class="nd">@napkin.seq_diagram</span><span class="p">()</span>
+<div class="highlight"><pre><span class="nd">@napkin.seq_diagram</span><span class="p">()</span>
 <span class="k">def</span> <span class="nf">distributed_control</span><span class="p">(</span><span class="n">c</span><span class="p">):</span>
-    <span class="n">user</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">object</span><span class="p">(</span><span class="s1">&#39;User&#39;</span><span class="p">)</span>
-    <span class="n">order</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">object</span><span class="p">(</span><span class="s1">&#39;Order&#39;</span><span class="p">)</span>
-    <span class="n">orderLine</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">object</span><span class="p">(</span><span class="s1">&#39;OrderLine&#39;</span><span class="p">)</span>
-    <span class="n">product</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">object</span><span class="p">(</span><span class="s1">&#39;Product&#39;</span><span class="p">)</span>
-    <span class="n">customer</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">object</span><span class="p">(</span><span class="s1">&#39;Customer&#39;</span><span class="p">)</span>
+    <span class="n">user</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">object</span><span class="p">(</span><span class="s">&#39;User&#39;</span><span class="p">)</span>
+    <span class="n">order</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">object</span><span class="p">(</span><span class="s">&#39;Order&#39;</span><span class="p">)</span>
+    <span class="n">orderLine</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">object</span><span class="p">(</span><span class="s">&#39;OrderLine&#39;</span><span class="p">)</span>
+    <span class="n">product</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">object</span><span class="p">(</span><span class="s">&#39;Product&#39;</span><span class="p">)</span>
+    <span class="n">customer</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">object</span><span class="p">(</span><span class="s">&#39;Customer&#39;</span><span class="p">)</span>
 
     <span class="k">with</span> <span class="n">user</span><span class="p">:</span>
         <span class="k">with</span> <span class="n">order</span><span class="o">.</span><span class="n">calculatePrice</span><span class="p">():</span>
             <span class="k">with</span> <span class="n">orderLine</span><span class="o">.</span><span class="n">calculatePrice</span><span class="p">():</span>
-                <span class="n">product</span><span class="o">.</span><span class="n">getPrice</span><span class="p">(</span><span class="s1">&#39;quantity:number&#39;</span><span class="p">)</span>
+                <span class="n">product</span><span class="o">.</span><span class="n">getPrice</span><span class="p">(</span><span class="s">&#39;quantity:number&#39;</span><span class="p">)</span>
                 <span class="k">with</span> <span class="n">customer</span><span class="o">.</span><span class="n">getDiscountedValue</span><span class="p">(</span><span class="n">order</span><span class="p">):</span>
-                    <span class="n">order</span><span class="o">.</span><span class="n">getBaseValue</span><span class="p">()</span><span class="o">.</span><span class="n">ret</span><span class="p">(</span><span class="s1">&#39;value&#39;</span><span class="p">)</span>
-                    <span class="n">c</span><span class="o">.</span><span class="n">ret</span><span class="p">(</span><span class="s1">&#39;discountedValue&#39;</span><span class="p">)</span>
+                    <span class="n">order</span><span class="o">.</span><span class="n">getBaseValue</span><span class="p">()</span><span class="o">.</span><span class="n">ret</span><span class="p">(</span><span class="s">&#39;value&#39;</span><span class="p">)</span>
+                    <span class="n">c</span><span class="o">.</span><span class="n">ret</span><span class="p">(</span><span class="s">&#39;discountedValue&#39;</span><span class="p">)</span>
 </pre></div>
 
 
 <p>嗯哼? 也没好哪儿去哪...对比:</p>
-<div class="highlight"><pre><span></span><span class="nd">@startuml</span>
+<div class="highlight"><pre><span class="nd">@startuml</span>
 <span class="n">participant</span> <span class="n">User</span>
 <span class="n">participant</span> <span class="n">Order</span>
 <span class="n">participant</span> <span class="n">OrderLine</span>
@@ -580,7 +580,7 @@ PlantUML 是非常赞的图形脚本工具, 但是, 毕竟语法很囧;</p>
 <hr>
 <p>ZoomQuiet/<strong><a href="https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g">大妈</a></strong></p>
 <p>就是四处 <code>是也乎,(￣▽￣)</code> 的那个<a href="https://mp.weixin.qq.com/s/N5TuRRbF485D4Q90XdDA7g">大妈</a>:</p>
-<div class="highlight"><pre><span></span><span class="err">私自嗯哼</span><span class="p">:</span> <span class="n">ZoomQuiet</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">ZoomQuiet42</span><span class="p">)</span>
+<div class="highlight"><pre><span class="err">私自嗯哼</span><span class="p">:</span> <span class="n">ZoomQuiet</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">ZoomQuiet42</span><span class="p">)</span>
 <span class="err">公开课程</span><span class="p">:</span> <span class="err">蟒营</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">Mainium</span><span class="p">)</span>
 <span class="err">全国大会</span><span class="p">:</span> <span class="n">PyChina</span> <span class="p">(</span><span class="err">订阅号</span><span class="p">:</span> <span class="n">PyChinaOrg</span><span class="p">)</span>
 <span class="err">本地社区</span><span class="p">:</span> 
@@ -675,25 +675,26 @@ PlantUML 是非常赞的图形脚本工具, 但是, 毕竟语法很囧;</p>
 
 <hr/>
 
-<h3>蟒营®编程思维提高班Python版/ 第9期 正在报名</h3>
-<h4>精品小班/ 每期不过32人</h4>
+<h3>蟒营®编程思维提高班 Python版/<b>第10期</b> 正在报名</h3>
+<h4>精品小班/ 每期<42人</h4>
 
 <blockquote><p>
     
 <ul>
     <li>
-    开始报名: <b>2020.5.31</b> </li>
+    开始报名: <b>2020.6.29</b> </li>
     <li>
-    报名截止: <b>2020.6.21</b> </li>
+    报名截止: <b>2020.7.20</b> </li>
     <li>
-    正式开课: <b>2020.6.28</b> </li>
+    正式开课: <b>2020.7.26</b> </li>
     <li>
     课程结束: <b>2020.9.06</b> </li>
 </ul>
 
 
 <img alt="101camp9py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-06-04-9py-reg-zip.jpg"/>
+    src="http://ydlj.zoomquiet.top/ipic/2020-06-22-200622reg10py-zip.jpg"/>
+
 
 </p></blockquote>
 

@@ -124,23 +124,23 @@
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;和 golang 类似, 所有基础模块, 还在 PK 中...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;                                       &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;----------+    +----------+    +----------+&lt;/span&gt;
-                                       &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;Insights&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;CostData&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;CostData&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;
-                                 &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;---&amp;gt; |Producer  &amp;lt;----+Producer  &amp;lt;----+Consumer  |&lt;/span&gt;
-                                 &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;Consumer&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;
-                                 &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;----------+    +----------+    +----------+&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;                                       &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;
+                                       &lt;span class="o"&gt;|&lt;/span&gt;Insights  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;CostData  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;CostData  &lt;span class="o"&gt;|&lt;/span&gt;
+                                 &lt;span class="o"&gt;+---&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;Producer  &lt;span class="o"&gt;&amp;lt;----+&lt;/span&gt;Producer  &lt;span class="o"&gt;&amp;lt;----+&lt;/span&gt;Consumer  &lt;span class="o"&gt;|&lt;/span&gt;
+                                 &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;Consumer  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;
+                                 &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;
                                  &lt;span class="o"&gt;|&lt;/span&gt;
-  &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;------------+     +-----------+     +----------+    +----------+    +----------+&lt;/span&gt;
-  &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;Campaigns&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;Campaigns&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;Insights&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;CostData&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;CostData&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;
-&lt;span class="c1"&gt;--|Producer    &amp;lt;-----+Consumer   +--&amp;gt;  |Producer  &amp;lt;----+Producer  &amp;lt;----+Consumer  |&lt;/span&gt;
-  &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;Supervisor&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;Consumer&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;
-  &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;------------+     +-----------+     +----------+    +----------+    +----------+&lt;/span&gt;
+  &lt;span class="o"&gt;+------------+&lt;/span&gt;     &lt;span class="o"&gt;+-----------+&lt;/span&gt;     &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;
+  &lt;span class="o"&gt;|&lt;/span&gt;Campaigns   &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;Campaigns  &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;Insights  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;CostData  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;CostData  &lt;span class="o"&gt;|&lt;/span&gt;
+&lt;span class="o"&gt;--|&lt;/span&gt;Producer    &lt;span class="o"&gt;&amp;lt;-----+&lt;/span&gt;Consumer   &lt;span class="o"&gt;+--&amp;gt;&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;Producer  &lt;span class="o"&gt;&amp;lt;----+&lt;/span&gt;Producer  &lt;span class="o"&gt;&amp;lt;----+&lt;/span&gt;Consumer  &lt;span class="o"&gt;|&lt;/span&gt;
+  &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;Supervisor &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;Consumer  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;
+  &lt;span class="o"&gt;+------------+&lt;/span&gt;     &lt;span class="o"&gt;+-----------+&lt;/span&gt;     &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;
                                  &lt;span class="o"&gt;|&lt;/span&gt;
-                                 &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;----------+    +----------+    +----------+&lt;/span&gt;
-                                 &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;Insights&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;CostData&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;CostData&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;
-                                 &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;---&amp;gt; |Producer  &amp;lt;----+Producer  &amp;lt;----+Consumer  |&lt;/span&gt;
-                                       &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;Consumer&lt;/span&gt;  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;
-                                       &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;----------+    +----------+    +----------+&lt;/span&gt;
+                                 &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;
+                                 &lt;span class="o"&gt;|&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;Insights  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;CostData  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;CostData  &lt;span class="o"&gt;|&lt;/span&gt;
+                                 &lt;span class="o"&gt;+---&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;Producer  &lt;span class="o"&gt;&amp;lt;----+&lt;/span&gt;Producer  &lt;span class="o"&gt;&amp;lt;----+&lt;/span&gt;Consumer  &lt;span class="o"&gt;|&lt;/span&gt;
+                                       &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;Consumer  &lt;span class="o"&gt;|&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;|&lt;/span&gt;
+                                       &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;    &lt;span class="o"&gt;+----------+&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -230,7 +230,7 @@
 &lt;ul&gt;
 &lt;li&gt;190509 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
 &lt;li&gt;190509 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="ElixirWeekly"></category><category term="Weekly"></category><category term="Elixir"></category><category term="ZH"></category></entry><entry><title>Elixir Weekly #144</title><link href="http://weekly.pychina.org/elixirweekly/elixirweekly-144.html" rel="alternate"></link><published>2019-04-11T16:42:00+08:00</published><updated>2019-04-11T16:42:00+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2019-04-11:/elixirweekly/elixirweekly-144.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/144"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><category term="Weekly"></category><category term="Elixir"></category><category term="ZH"></category></entry><entry><title>Elixir Weekly #144</title><link href="http://weekly.pychina.org/elixirweekly/elixirweekly-144.html" rel="alternate"></link><published>2019-04-11T16:42:00+08:00</published><updated>2019-04-11T16:42:00+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2019-04-11:/elixirweekly/elixirweekly-144.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/144"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="elixirweekly" src="https://elixirweekly.net/images/envelope.png"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
@@ -371,7 +371,7 @@
 &lt;ul&gt;
 &lt;li&gt;190411 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
 &lt;li&gt;190411 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="ElixirWeekly"></category><category term="Weekly"></category><category term="Elixir"></category><category term="ZH"></category></entry><entry><title>Elixir Weekly #143</title><link href="http://weekly.pychina.org/elixirweekly/elixirweekly-143.html" rel="alternate"></link><published>2019-03-28T23:42:00+08:00</published><updated>2019-03-28T23:42:00+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2019-03-28:/elixirweekly/elixirweekly-143.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/143"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><category term="Weekly"></category><category term="Elixir"></category><category term="ZH"></category></entry><entry><title>Elixir Weekly #143</title><link href="http://weekly.pychina.org/elixirweekly/elixirweekly-143.html" rel="alternate"></link><published>2019-03-28T23:42:00+08:00</published><updated>2019-03-28T23:42:00+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2019-03-28:/elixirweekly/elixirweekly-143.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/143"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="elixirweekly" src="https://elixirweekly.net/images/envelope.png"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
@@ -602,7 +602,7 @@
 &lt;ul&gt;
 &lt;li&gt;190404 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
 &lt;li&gt;190404 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="ElixirWeekly"></category><category term="Weekly"></category><category term="Elixir"></category><category term="ZH"></category></entry><entry><title>Elixir Weekly #142</title><link href="http://weekly.pychina.org/elixirweekly/elixirweekly-142.html" rel="alternate"></link><published>2019-03-28T21:42:00+08:00</published><updated>2019-03-28T21:42:00+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2019-03-28:/elixirweekly/elixirweekly-142.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/142"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><category term="Weekly"></category><category term="Elixir"></category><category term="ZH"></category></entry><entry><title>Elixir Weekly #142</title><link href="http://weekly.pychina.org/elixirweekly/elixirweekly-142.html" rel="alternate"></link><published>2019-03-28T21:42:00+08:00</published><updated>2019-03-28T21:42:00+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2019-03-28:/elixirweekly/elixirweekly-142.html</id><summary type="html">&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/142"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="elixirweekly" src="https://elixirweekly.net/images/envelope.png"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
@@ -661,16 +661,16 @@
 &lt;p&gt;Keeping state consistency while running an Elixir application on many servers.&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;日常技巧...&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;--------------------+&lt;/span&gt;
-&lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;APP&lt;/span&gt; &lt;span class="n"&gt;SUPERVISOR&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;
-&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;---------+----------+&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;+--------------------+&lt;/span&gt;
+&lt;span class="o"&gt;|&lt;/span&gt; APP SUPERVISOR     &lt;span class="o"&gt;|&lt;/span&gt;
+&lt;span class="o"&gt;+---------+----------+&lt;/span&gt;
           &lt;span class="o"&gt;|&lt;/span&gt;
           &lt;span class="o"&gt;|&lt;/span&gt;
-&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;---------v----------+         +-----------+            +-----------+&lt;/span&gt;
-&lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;WORKER&lt;/span&gt; &lt;span class="n"&gt;SUPERVISOR&lt;/span&gt;  &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;---------&amp;gt; WORKERS   | + &amp;lt;--------&amp;gt; DATABASE  |&lt;/span&gt;
-&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;--------------------+         +-----------+ | |        +-----------+&lt;/span&gt;
-                                &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;------------+ |&lt;/span&gt;
-                                 &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="c1"&gt;-------------+&lt;/span&gt;
+&lt;span class="o"&gt;+---------&lt;/span&gt;v&lt;span class="o"&gt;----------+&lt;/span&gt;         &lt;span class="o"&gt;+-----------+&lt;/span&gt;            &lt;span class="o"&gt;+-----------+&lt;/span&gt;
+&lt;span class="o"&gt;|&lt;/span&gt; WORKER SUPERVISOR  &lt;span class="o"&gt;+---------&amp;gt;&lt;/span&gt; WORKERS   &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;--------&amp;gt;&lt;/span&gt; DATABASE  &lt;span class="o"&gt;|&lt;/span&gt;
+&lt;span class="o"&gt;+--------------------+&lt;/span&gt;         &lt;span class="o"&gt;+-----------+&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;        &lt;span class="o"&gt;+-----------+&lt;/span&gt;
+                                &lt;span class="o"&gt;+------------+&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;
+                                 &lt;span class="o"&gt;+-------------+&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -771,4 +771,4 @@
 &lt;ul&gt;
 &lt;li&gt;190329 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
 &lt;li&gt;190328 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="ElixirWeekly"></category><category term="Weekly"></category><category term="Elixir"></category><category term="ZH"></category></entry></feed>
+&lt;/ul&gt;</content><category term="Weekly"></category><category term="Elixir"></category><category term="ZH"></category></entry></feed>
