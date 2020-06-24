@@ -21,24 +21,35 @@ Tags: Weekly,Python,pycoders,ZH
 
 
 
-Hands-On Linear Programming: Optimization With Python
+- [动手线性编程: 用 Python 进行优化](https://pycoders.com/link/4350/web)
+    + REAL PYTHON
+
 In this tutorial, you’ll learn about implementing optimization in Python with linear programming libraries. Linear programming is one of the fundamental mathematical optimization techniques. You’ll use SciPy and PuLP to solve linear programming problems.
-REAL PYTHON
 
-- [OpenSafely: Using Python, SQL and Docker to Understand Coronavirus Health Data](https://pycoders.com/link/4338/web)
+(`是也乎:`
+
+![Linear](http://ydlj.zoomquiet.top/ipic/2020-06-24-ScreenShot%202020-06-24%2010.38.30.jpg)
+
+
+线性规划, 经典的最优解区域寻定方法,
+当然, 这得在具体问题场景中才有意义.
+
+)
+
+
+- [OpenSafely: 用 Python/SQL和Docker 理解冠状病毒健康数据](https://pycoders.com/link/4338/web)
+    + JO BEST
+
 Django and Payton developers teamed up with clinicians and researchers to release a new analytics platform called OpenSafely that allows researchers to analyze NHS health records from over 24 million people In the UK. With strict safety and privacy standards, OpenSafely may help redefine how medical data is analyzed and shared.
-JO BEST
 
-Working From Home? 7 Coding-Related Tools to Keep Kids Busy
-ActiveState has curated a list of coding-related toys and tools to keep your kids productively busy, so that you can get your own programming tasks done. Check out the list, including ActiveState’s platform for building Python runtimes. →
-ACTIVESTATEsponsor
 
-- [PEP 618 Accepted for Python 3.10: Add Optional Length-Checking to zip()](https://pycoders.com/link/4344/web)
+
+- [PEP 618 已为 Python 3.10 接受：向 zip() 添加可选长度检查](https://pycoders.com/link/4344/web)
     + PYTHON.ORG
 
 PEP 618, which adds a new strict parameter to the built-in zip() function that optionally enforces same-length iterables, has been accepted for Python 3.10. Read the acceptance letter here and some interesting discussion about the PEP on Reddit.
 
-- [Pickle’s Nine Flaws](https://pycoders.com/link/4360/web)
+- [Pickle 的九个缺点](https://pycoders.com/link/4360/web)
     + NED BATCHELDER
 
 “Python’s pickle module is a very convenient way to serialize and de-serialize objects. It needs no schema, and can handle arbitrary Python objects. But it has problems. This post briefly explains the problems.”
@@ -46,12 +57,22 @@ PEP 618, which adds a new strict parameter to the built-in zip() function that o
 
 (`是也乎:`
 
-腌菜V5
+腌菜V5, 
+无论有多不健康, 好用才是王道.
+
+当然, 有更好的推荐了:
+
+[marshmallow](https://marshmallow.readthedocs.io/)(**软糖**推荐)
+, [cattrs](https://cattrs.readthedocs.io/en/latest/readme.html)
+, [protocol buffers](https://developers.google.com/protocol-buffers)
+, 等等
+
+![marshmallow](http://ydlj.zoomquiet.top/ipic/2020-06-24-ScreenShot%202020-06-24%2010.55.13.jpg)
 
 )
 
 
-- [PyLadies India Embarked On Its Journey](https://pycoders.com/link/4325/web)
+- [PyLadies 印度踏上征途](https://pycoders.com/link/4325/web)
     + ANWESHA DAS
 
 On June 20th, 2020 PyLadies India held their first Meetup featuring a talk by CPython Core Contributor Mariatta Wijaya. Organizer Anwesha Das recounts her PyLadies journey and the steps the organization took to make the meetup a reality.
@@ -64,18 +85,26 @@ On June 20th, 2020 PyLadies India held their first Meetup featuring a talk by CP
 
 
 
-- [Securing a Containerized Django Application with Let’s Encrypt](https://pycoders.com/link/4333/web)
+- [用 Let’s Encrypt 保护容器化 Django 应用程序的安全](https://pycoders.com/link/4333/web)
     + TESTDRIVEN.IO 
     + • Shared by Jan Giacomelli
 
 Secure a containerized Django app running behind an HTTPS Nginx proxy with Let’s Encrypt SSL certificates.
 
-- [Advanced pytest Techniques I Learned While Contributing to pandas](https://pycoders.com/link/4328/web)
+- [在为 pandas 贡献时学到的高级pytest技术](https://pycoders.com/link/4328/web)
     + MARTIN WINKEL
 
 Contributing to open-source projects is a great way to learn new techniques and level up your skills. Martin Winkel shares five advanced pytest techniques he learned while contributing to the pandas project.
 
-- [NumPy 1.19.0 Is Now Available](https://pycoders.com/link/4329/web)
+(`是也乎:`
+
+每一个高速发展的大型开源项目中,
+测试部分, 都是精巧的艺术品.
+
+)
+
+
+- [NumPy 1.19.0 现已可用](https://pycoders.com/link/4329/web)
     + NUMPY.ORG
 
 Version 1.19.0 drops support for Python 3.5 and below, including Python 2.
@@ -87,7 +116,7 @@ Pandas 真正的内核以及英雄...
 )
 
 
-- [2020 Python Software Foundation Board of Directors Election Results](https://pycoders.com/link/4327/web)
+- [2020 年 Python 软件基金会董事会选举结果](https://pycoders.com/link/4327/web)
     + PYTHON SOFTWARE FOUNDATION
 
 - [DjangoCon US 2020 取消了](https://pycoders.com/link/4349/web)
@@ -152,19 +181,19 @@ Pandas 真正的内核以及英雄...
 ## 讨论
 > Discussions
 
-- [Draw With Your CPU (Code Golf)](https://pycoders.com/link/4346/web)
+- [用您的 CPU 进行绘图 (Code Golf)](https://pycoders.com/link/4346/web)
     + STACKEXCHANGE.COM
 
 Here’s a challenge: draw the word “MAIL” on your operating system CPU usage graph. Can you think of a simple way to do it with Python? Read on and get your mind blown with a fun round of code golf.
 
 
 
-- [You Probably Should Be Using JupyterLab Instead of Jupyter Notebooks](https://pycoders.com/link/4330/web)
+- [可能应该使用 JupyterLab 而不是 Jupyter Notebooks](https://pycoders.com/link/4330/web)
     + REDDIT
 
 Are you using JupyterLab yet?
 
-- [Regex to Find a Pair of Adjacent Digits With Different Digits Around Them](https://pycoders.com/link/4323/web)
+- [正则表达式查找一对周围有不同数字的相邻数字](https://pycoders.com/link/4323/web)
     + STACK OVERFLOW
 
 
@@ -228,7 +257,7 @@ Are you using JupyterLab yet?
 > Articles, Tutorials and Talks
 
 
-- [Property Testing With Complex Inputs](https://pycoders.com/link/4317/web)
+- [用复杂输入进行属性测试](https://pycoders.com/link/4317/web)
     + HILLEL WAYNE
 
 Property based testing is a powerful tool for generating test data and probing edge cases. Once you’ve learned the basics of a framework like Hypothesis, though, you might be left wondering how to generate complex data needed to test real world applications. Learn about several strategies in this intermediate-level tutorial.
@@ -240,14 +269,14 @@ Property based testing is a powerful tool for generating test data and probing e
 )
 
 
-- [Generating Cooking Recipes Using TensorFlow and LSTM Recurrent Neural Network: A Step-By-Step Guide](https://pycoders.com/link/4320/web)
+- [用 TensorFlow 和 LSTM 递归神经网络生成烹饪食谱: 分步指南](https://pycoders.com/link/4320/web)
     + OLEKSII TREKHLEB
 
 Learn about LSTM (Long short-term memory) and RNN (Recurrent Neural Network) techniques while building a recipe generator so that you too can enjoy delicious creations like “Cream Soda with Onions” and “Salmon Mousse of Beef and Stilton Salad with Jalapeños.”
 
 
 
-- [PySimpleGUI: The Simple Way to Create a GUI With Python](https://pycoders.com/link/4319/web)
+- [PySimpleGUI: 用 Python 创建简单 GUI ](https://pycoders.com/link/4319/web)
     + REAL PYTHON
 
 In this step-by-step tutorial, you’ll learn how to create a cross-platform graphical user interface (GUI) using Python and PySimpleGUI. A graphical user interface is an application that has buttons, windows, and lots of other elements that the user can use to interact with your application.
@@ -263,7 +292,7 @@ In this step-by-step tutorial, you’ll learn how to create a cross-platform gra
 )
 
 
-- [Creating a Discord Bot in Python](https://pycoders.com/link/4326/web)
+- [用 Python 创建 Discord Bot](https://pycoders.com/link/4326/web)
     + REAL PYTHON 
     + course
 
@@ -279,13 +308,20 @@ Discord 和 Slack 类似, 都是从游戏世界衍生出来的神奇平台.
 因为接口友好, 快速形成了自己的生态.
 )
 
-- [Implementing Proxy Pattern in Python](https://pycoders.com/link/4331/web)
+- [Python 中实现代理模式](https://pycoders.com/link/4331/web)
     + REDOWAN DELOWAR 
     + • Shared by Redowan Delowar
 
 The proxy pattern is a design pattern that promotes loose coupleing and enhanced testabaility. Learn how to use this pattern in Python and when you might want to do so.
 
-- [All the Things You Can Do With GitHub API and Python](https://pycoders.com/link/4356/web)
+(`是也乎:`
+
+世界这么美好, 为什么一定要格式化成某些模式?
+
+)
+
+
+- [用 GitHub API 和 Python 可以做的所有事情](https://pycoders.com/link/4356/web)
     + MARTIN HEINZ 
     + • Shared by Martin Heinz
 
@@ -300,12 +336,12 @@ GitHub 接口设计简直就是业界典范了...
 )
 
 
-- [Stock Analysis in Python](https://pycoders.com/link/4334/web)
+- [Python 中的股票分析](https://pycoders.com/link/4334/web)
     + WILL KOEHRSEN
 
 Explore financial data with object-oriented programming and additive models.
 
-- [Web Scraping in 5 Minutes With Python & Excel](https://pycoders.com/link/4359/web)
+- 用 Python 和 Excel 在5分钟内进行网页爬取](https://pycoders.com/link/4359/web)
     + COREY J. GALLON 
     + • Shared by Corey J. Gallon
 
@@ -321,7 +357,7 @@ Excel 本质上和 Jupyter 一样是个综合计算平台,
 )
 
 
-- [Should You Ship the Cython Generated C Code or Not?](https://pycoders.com/link/4341/web)
+- [是否应该上 Cython 生成的 C 代码? ](https://pycoders.com/link/4341/web)
     + STEFAN BEHNEL
 
 (`是也乎:`
@@ -335,7 +371,7 @@ Excel 本质上和 Jupyter 一样是个综合计算平台,
 
 )
 
-- [Vim as Python IDE](https://pycoders.com/link/4342/web)
+- [Vim 作为 Python IDE](https://pycoders.com/link/4342/web)
     + SASS TEKOVIC
 
 (`是也乎:`
@@ -468,7 +504,7 @@ Excel 本质上和 Jupyter 一样是个综合计算平台,
 > Interesting Projects, Tools and Libraries, Projects & Code
 
 
-- [nlp: Datasets and Evaluation Metrics for Natural Language Processing in NumPy, Pandas, PyTorch and TensorFlow](https://pycoders.com/link/4347/web)
+- [nlp: NumPy/Pandas/PyTorch 和 TensorFlow 中自然语言处理的数据集和评估指标](https://pycoders.com/link/4347/web)
     + GITHUB.COM/HUGGINGFACE
 
 (`是也乎:`
@@ -478,7 +514,7 @@ Excel 本质上和 Jupyter 一样是个综合计算平台,
 )
 
 
-- [byob: BYOB (Build Your Own Botnet)](https://pycoders.com/link/4355/web)
+- [byob: BYOB (建立自己的僵尸网络)](https://pycoders.com/link/4355/web)
     + GITHUB.COM/MALWAREDLLC
 
 (`是也乎:`
@@ -490,10 +526,10 @@ Excel 本质上和 Jupyter 一样是个综合计算平台,
 )
 
 
-- [gpt-2: Code for the Paper “Language Models Are Unsupervised Multitask Learners”](https://pycoders.com/link/4318/web)
+- [gpt-2: 论文“语言模型是无监督的多任务学习者” 的代码](https://pycoders.com/link/4318/web)
     + GITHUB.COM/OPENAI
 
-- [macOS-Simple-KVM: Tools to Set Up a Quick macOS VM in QEMU, Accelerated by KVM](https://pycoders.com/link/4337/web)
+- [macOS-Simple-KVM: 在 macOS 中快速设置 VM,  由 KVM 加速的 QEMU](https://pycoders.com/link/4337/web)
     + GITHUB.COM/FOXLET
 
 (`是也乎:`
@@ -505,10 +541,10 @@ mac 下虚拟机支持姿势太多了...
 )
 
 
-- [stylegan2: StyleGAN2 Official TensorFlow Implementation](https://pycoders.com/link/4352/web)
+- [stylegan2: StyleGAN2 官方 TensorFlow 版实现](https://pycoders.com/link/4352/web)
     + GITHUB.COM/NVLABS
 
-- [jina: Jina Is the Cloud-Native Neural Search Framework Powered by State-Of-The-Art AI and Deep Learning](https://pycoders.com/link/4332/web)
+- [jina: Jina 是由最先进的 AI 和深度学习提供支持的云原生神经搜索框架](https://pycoders.com/link/4332/web)
     + GITHUB.COM/JINA-AI
 
 (`是也乎:`
@@ -526,7 +562,7 @@ jina 则...
     + GITHUB.COM/IDLESIGN 
     + • Shared by pythonz
 
-- [dissert: Disable Python Assertions Per File/Module](https://pycoders.com/link/4322/web)
+- [dissert: 禁用每个 File/Module 的Python断言](https://pycoders.com/link/4322/web)
     + GITHUB.COM/BOOTHBY
 
 
