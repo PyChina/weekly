@@ -1,5 +1,5 @@
 Title: pythonista-weekly : Pyw 452
-Date: 2020-06-6 14:22
+Date: 2020-06-06 14:22
 Tags: Weekly,pythonweekly,Zh 
 Slug: pyw-452
 
