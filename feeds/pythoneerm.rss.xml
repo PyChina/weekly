@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 01 Jul 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 427</title><link>http://weekly.pychina.org/issue/issue-427.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 08 Jul 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 428</title><link>http://weekly.pychina.org/issue/issue-428.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Pylance/ VSCode 全新 Python 支持扩展&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/428"&gt;PyCoder's Weekly - Issue #428&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;200708 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;200708 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/4460/web"&gt;发布 Pylance: Visual Studio Code 对 Python 快速/功能丰富的语言支持&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;SAVANNAH OSTROWSKI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pylance is a new Python language server for VS Code based on Microsoft …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 08 Jul 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-07-08:/issue/issue-428.html</guid><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 427</title><link>http://weekly.pychina.org/issue/issue-427.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;机器狗已在公开发售,支持用 Python 对其编程...&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/427"&gt;PyCoder's Weekly - Issue #427&lt;/a&gt;&lt;/p&gt;
