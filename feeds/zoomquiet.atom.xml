@@ -18,7 +18,7 @@
 &lt;p&gt;&lt;img alt="Impossible_staircase" src="http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg"&gt;&lt;/p&gt;
 &lt;p&gt;这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
 用最直白的话来描述，就是：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;初级的知识需要对高级知识深入了解才能真正深入了解&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;初级的知识需要对高级知识深入了解才能真正深入了解&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -42,7 +42,7 @@
 &lt;p&gt;&lt;img alt="Impossible_staircase" src="http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg"&gt;&lt;/p&gt;
 &lt;p&gt;这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
 用最直白的话来描述，就是：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;初级的知识需要对高级知识深入了解才能真正深入了解&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;初级的知识需要对高级知识深入了解才能真正深入了解&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -155,7 +155,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;/ul&gt;
 &lt;p&gt;因为 &lt;code&gt;gitcafe&lt;/code&gt; 只有用户同名-pages 服务,所以,对于当前 &lt;code&gt;蠎周刊&lt;/code&gt; 的 Pelican 工程,
 用两个仓库,配合完成:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;https://github.com/qpython-android/qpython-android.pelican.git
+&lt;div class="highlight"&gt;&lt;pre&gt;https://github.com/qpython-android/qpython-android.pelican.git
     +- ..
     +- pelicanconf.py   主配置文件
     +- content          内容目录  
@@ -177,7 +177,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;li&gt;&lt;code&gt;fab pub2cafe&lt;/code&gt; 自动完成进入 &lt;code&gt;output&lt;/code&gt; 后的一系列 git 操作&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;对应的 配置中:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#DELETE_OUTPUT_DIRECTORY = True&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c1"&gt;#DELETE_OUTPUT_DIRECTORY = True&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -188,7 +188,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;h3&gt;DISQUS&lt;/h3&gt;
 &lt;p&gt;果断遇到了 DISQUS 配置了,不生效的问题,上下折腾, 才发现很多人都遇到了这个问题,
 追踪到代码:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c1"&gt;//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html&lt;/span&gt;
 &lt;span class="c1"&gt;//...&lt;/span&gt;
 &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;disqus_shortname&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;{{ DISQUS_SITENAME }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;// required: replace example with your forum shortname&lt;/span&gt;
 &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;disqus_identifier&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;{{ article.slug }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
@@ -209,21 +209,21 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;p&gt;fixed!&lt;/p&gt;
 &lt;h3&gt;CATEGORY_FEED_ATOM&lt;/h3&gt;
 &lt;p&gt;一时手賎,打开了:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="na"&gt;CATEGORY_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/%s.atom.xml&amp;#39;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="na"&gt;CATEGORY_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/%s.atom.xml&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;结果,发现不能在模板里简单的完成分类子 RSS 的链接!&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-th icon-large&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Categories&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;h4&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;    &lt;span class="nt"&gt;&amp;lt;i&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-th icon-large&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;Categories&lt;span class="nt"&gt;&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 {% for cat, null in categories %}
-    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;list-group-item&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;{{ SITEURL }}/{{ cat.url }}&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-folder-open icon-large&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;{{ cat }}
-        &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;{{ SITEURL }}/feeds/{{ cat }}.atom.xml&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-rss-sign&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;li&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;list-group-item&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;{{ SITEURL }}/{{ cat.url }}&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;lt;i&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-folder-open icon-large&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;{{ cat }}
+        &lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;{{ SITEURL }}/feeds/{{ cat }}.atom.xml&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;lt;i&lt;/span&gt; &lt;span class="na"&gt;class=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-rss-sign&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;span class="nt"&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
 {% endfor %}
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -244,7 +244,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;p&gt;即好!&lt;/p&gt;
 &lt;h3&gt;TOC&lt;/h3&gt;
 &lt;p&gt;是的,以往 rST/t2t 时,甚至于 Word 时都有的 &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;TOC&lt;/span&gt; &lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="err"&gt;章节索引&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;TOC&lt;/span&gt; &lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="err"&gt;章节索引&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -264,7 +264,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;li&gt;140127 ZoomQuiet 增补宏观理解&lt;/li&gt;
 &lt;li&gt;140120 ZoomQuiet 复制到 QPython 的 Pelican 工程&lt;/li&gt;
 &lt;li&gt;131219 ZoomQuiet 为 &lt;a href="https://gitcafe.com/CPyUG/weekly/blob/master/README.md"&gt;CPyUG/weekly - GitCafe&lt;/a&gt; 创建&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Chaos"></category><category term="howto"></category><category term="pelican"></category></entry><entry><title>Zoom.Quiet</title><link href="http://weekly.pychina.org/author/zoom-quiet.html" rel="alternate"></link><published>2011-11-17T00:00:00+08:00</published><updated>2011-11-17T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2011-11-17:/author/zoom-quiet.html</id><summary type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="howto"></category><category term="pelican"></category></entry><entry><title>Zoom.Quiet</title><link href="http://weekly.pychina.org/author/zoom-quiet.html" rel="alternate"></link><published>2011-11-17T00:00:00+08:00</published><updated>2011-11-17T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2011-11-17:/author/zoom-quiet.html</id><summary type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="ZQ" src="http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png"&gt;&lt;/p&gt;
 &lt;p&gt;Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;
@@ -299,4 +299,4 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;li&gt;G+:   https://plus.google.com/+ZoomQuiet/&lt;/li&gt;
 &lt;li&gt;Blog: http://blog.zoomquiet.org/&lt;/li&gt;
 &lt;li&gt;微博:  http://weibo.com/zoomquiet&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Author"></category><category term="people"></category></entry></feed>
+&lt;/ul&gt;</content><category term="people"></category></entry></feed>
