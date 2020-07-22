@@ -292,7 +292,7 @@ Azure 们提供了预嗯哼好的...</p>
 <blockquote>
 <p>一行完美加速 Pandas 们的计算....</p>
 </blockquote>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">modin.pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+<div class="highlight"><pre><span class="n">import</span> <span class="n">modin</span><span class="p">.</span><span class="n">pandas</span> <span class="n">as</span> <span class="n">pd</span>
 </pre></div>
 
 
@@ -357,7 +357,7 @@ Azure 们提供了预嗯哼好的...</p>
 </ul>
 <p>(<code>是也乎:</code></p>
 <p>嗯哼? 这个非常正义哪, 沈游侠曰过:</p>
-<div class="highlight"><pre><span></span><span class="err">每个程序猿</span>
+<div class="highlight"><pre><span class="err">每个程序猿</span>
 <span class="err">一生</span>
 <span class="err">终将完成自己那个</span> <span class="n">makefile</span>
 </pre></div>
@@ -384,23 +384,23 @@ Azure 们提供了预嗯哼好的...</p>
 </li>
 </ul>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="err">🐼</span>
-<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">random</span> <span class="k">as</span> <span class="err">🔀</span>
+<div class="highlight"><pre><span class="n">import</span> <span class="n">pandas</span> <span class="n">as</span> <span class="err">🐼</span>
+<span class="n">from</span> <span class="n">numpy</span> <span class="n">import</span> <span class="n">random</span> <span class="n">as</span> <span class="err">🔀</span>
 
-<span class="c1"># Define a dataframe and print it to the console</span>
-<span class="err">📋</span> <span class="o">=</span> <span class="err">🐼</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+<span class="cp"># Define a dataframe and print it to the console</span>
+<span class="err">📋</span> <span class="o">=</span> <span class="err">🐼</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">(</span>
     <span class="p">{</span>
-        <span class="s2">&quot;😀&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;🐼&quot;</span><span class="p">,</span> <span class="s2">&quot;🐍&quot;</span><span class="p">,</span> <span class="s2">&quot;🦁&quot;</span><span class="p">],</span>
-        <span class="s2">&quot;🏷️&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Panda&quot;</span><span class="p">,</span> <span class="s2">&quot;Python&quot;</span><span class="p">,</span> <span class="s2">&quot;Lion&quot;</span><span class="p">],</span>
-        <span class="s2">&quot;💯&quot;</span><span class="p">:</span> <span class="err">🔀</span><span class="o">.</span><span class="kp">randint</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="kp">size</span><span class="o">=</span><span class="mi">3</span><span class="p">),</span>
+        <span class="s">&quot;😀&quot;</span><span class="o">:</span> <span class="p">[</span><span class="s">&quot;🐼&quot;</span><span class="p">,</span> <span class="s">&quot;🐍&quot;</span><span class="p">,</span> <span class="s">&quot;🦁&quot;</span><span class="p">],</span>
+        <span class="s">&quot;🏷️&quot;</span><span class="o">:</span> <span class="p">[</span><span class="s">&quot;Panda&quot;</span><span class="p">,</span> <span class="s">&quot;Python&quot;</span><span class="p">,</span> <span class="s">&quot;Lion&quot;</span><span class="p">],</span>
+        <span class="s">&quot;💯&quot;</span><span class="o">:</span> <span class="err">🔀</span><span class="p">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">3</span><span class="p">),</span>
     <span class="p">},</span>
-<span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;😀&quot;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="err">📋</span><span class="p">)</span>
+<span class="p">).</span><span class="n">set_index</span><span class="p">(</span><span class="s">&quot;😀&quot;</span><span class="p">)</span>
+<span class="n">print</span><span class="p">(</span><span class="err">📋</span><span class="p">)</span>
 
-<span class="c1"># Do some arithmetic with the dataframe</span>
-<span class="err">🔤</span> <span class="o">=</span> <span class="n">f</span><span class="s2">&quot; Pythonji {&#39; &#39;.join(📋.index)}&quot;</span>
-<span class="err">🔢</span> <span class="o">=</span> <span class="err">📋</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">&quot;🐍&quot;</span><span class="p">,</span> <span class="s2">&quot;💯&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="err">📋</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s2">&quot;🐼&quot;</span><span class="p">,</span> <span class="s2">&quot;💯&quot;</span><span class="p">]</span>
-<span class="k">print</span><span class="p">(</span><span class="err">🔤</span> <span class="o">*</span> <span class="err">🔢</span><span class="p">)</span>
+<span class="cp"># Do some arithmetic with the dataframe</span>
+<span class="err">🔤</span> <span class="o">=</span> <span class="n">f</span><span class="s">&quot; Pythonji {&#39; &#39;.join(📋.index)}&quot;</span>
+<span class="err">🔢</span> <span class="o">=</span> <span class="err">📋</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="s">&quot;🐍&quot;</span><span class="p">,</span> <span class="s">&quot;💯&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="err">📋</span><span class="p">.</span><span class="n">loc</span><span class="p">[</span><span class="s">&quot;🐼&quot;</span><span class="p">,</span> <span class="s">&quot;💯&quot;</span><span class="p">]</span>
+<span class="n">print</span><span class="p">(</span><span class="err">🔤</span> <span class="o">*</span> <span class="err">🔢</span><span class="p">)</span>
 </pre></div>
 
 
@@ -452,7 +452,7 @@ Azure 们提供了预嗯哼好的...</p>
 </li>
 </ul>
 <p>第4期已上线, 为期6周;</p>
-<div class="highlight"><pre><span></span><span class="mi">191124</span> <span class="err">报名结束</span>
+<div class="highlight"><pre><span class="mi">191124</span> <span class="err">报名结束</span>
 <span class="mi">191201</span> <span class="err">正式开课</span>
 <span class="mi">200112</span> <span class="err">按时结束</span>
 </pre></div>
@@ -560,25 +560,50 @@ Azure 们提供了预嗯哼好的...</p>
 
 <hr/>
 
-<h3>蟒营®编程思维提高班 Python版/<b>第10期</b> 正在报名</h3>
+<h3>蟒营®编程思维提高班 Python版/<b>第11期</b> 正在报名</h3>
 <h4>精品小班/ 每期<42人</h4>
 
 <blockquote><p>
     
 <ul>
     <li>
-    开始报名: <b>2020.6.29</b> </li>
+    开始报名: <b>2020.7.22</b> </li>
     <li>
-    报名截止: <b>2020.7.20</b> </li>
+    报名截止: <b>2020.8.23</b> </li>
     <li>
-    正式开课: <b>2020.7.26</b> </li>
+    正式开课: <b>2020.8.30</b> </li>
     <li>
-    课程结束: <b>2020.9.06</b> </li>
+    课程结束: <b>2020.10.11</b> </li>
+<!--
+    <li>
+    介绍文章:  
+    <ul>
+        <li>
+        <a href="https://mp.weixin.qq.com/s/FbUYUtnSVPJseA6sBud5fQ">
+            我觉得潘石屹推广编程的姿势不对
+        </a>
+        </li>
+        <li>
+        <a href="https://mp.weixin.qq.com/s/_yMoR4pJJGlJx51DU8xGyg">
+            蟒营®/ 到底如何算"会编程"?
+        </a>
+        </li>
+        <li>
+        <a href="https://mp.weixin.qq.com/s/mSfEbGSgJAODtXC0BgMtDA">
+            蟒营®/ 到底改变了什么?
+        </a>
+        </li>
+    </ul>
+    </li>
+
+-->
+
 </ul>
 
 
-<img alt="101camp9py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-06-22-200622reg10py-zip.jpg"/>
+<img alt="101camp11py" 
+    src="http://ydlj.zoomquiet.top/ipic/2020-07-21-regQR200721zip.jpg"/>
+
 
 
 </p></blockquote>

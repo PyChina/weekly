@@ -114,7 +114,7 @@
 <p><img alt="Impossible_staircase" src="http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg"></p>
 <p>这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
 用最直白的话来描述，就是：</p>
-<div class="highlight"><pre><span></span><span class="err">初级的知识需要对高级知识深入了解才能真正深入了解</span>
+<div class="highlight"><pre><span class="err">初级的知识需要对高级知识深入了解才能真正深入了解</span>
 </pre></div>
 
 
@@ -227,7 +227,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 </ul>
 <p>因为 <code>gitcafe</code> 只有用户同名-pages 服务,所以,对于当前 <code>蠎周刊</code> 的 Pelican 工程,
 用两个仓库,配合完成:</p>
-<div class="highlight"><pre><span></span>https://github.com/qpython-android/qpython-android.pelican.git
+<div class="highlight"><pre>https://github.com/qpython-android/qpython-android.pelican.git
     +- ..
     +- pelicanconf.py   主配置文件
     +- content          内容目录  
@@ -249,7 +249,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 <li><code>fab pub2cafe</code> 自动完成进入 <code>output</code> 后的一系列 git 操作</li>
 </ol>
 <p>对应的 配置中:</p>
-<div class="highlight"><pre><span></span><span class="c1">#DELETE_OUTPUT_DIRECTORY = True</span>
+<div class="highlight"><pre><span class="c1">#DELETE_OUTPUT_DIRECTORY = True</span>
 </pre></div>
 
 
@@ -260,7 +260,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 <h3>DISQUS</h3>
 <p>果断遇到了 DISQUS 配置了,不生效的问题,上下折腾, 才发现很多人都遇到了这个问题,
 追踪到代码:</p>
-<div class="highlight"><pre><span></span><span class="c1">//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html</span>
+<div class="highlight"><pre><span class="c1">//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html</span>
 <span class="c1">//...</span>
 <span class="kd">var</span> <span class="nx">disqus_shortname</span> <span class="o">=</span> <span class="s1">&#39;{{ DISQUS_SITENAME }}&#39;</span><span class="p">;</span> <span class="c1">// required: replace example with your forum shortname</span>
 <span class="kd">var</span> <span class="nx">disqus_identifier</span> <span class="o">=</span> <span class="s1">&#39;{{ article.slug }}&#39;</span><span class="p">;</span>
@@ -281,21 +281,21 @@ Python 世界中大堆静态网站发布工具中的一个,
 <p>fixed!</p>
 <h3>CATEGORY_FEED_ATOM</h3>
 <p>一时手賎,打开了:</p>
-<div class="highlight"><pre><span></span><span class="na">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="s">&#39;feeds/%s.atom.xml&#39;</span>
+<div class="highlight"><pre><span class="na">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="s">&#39;feeds/%s.atom.xml&#39;</span>
 </pre></div>
 
 
 <p>结果,发现不能在模板里简单的完成分类子 RSS 的链接!</p>
-<div class="highlight"><pre><span></span>    <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;icon-th icon-large&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>Categories<span class="p">&lt;/</span><span class="nt">h4</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+<div class="highlight"><pre>    <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-th icon-large&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>Categories<span class="nt">&lt;/h4&gt;&lt;/li&gt;</span>
 {% for cat, null in categories %}
-    <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;list-group-item&quot;</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;{{ SITEURL }}/{{ cat.url }}&quot;</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;icon-folder-open icon-large&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>{{ cat }}
-        <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;{{ SITEURL }}/feeds/{{ cat }}.atom.xml&quot;</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;icon-rss-sign&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
-        <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;list-group-item&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{ SITEURL }}/{{ cat.url }}&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-folder-open icon-large&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>{{ cat }}
+        <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{ SITEURL }}/feeds/{{ cat }}.atom.xml&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-rss-sign&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+        <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
 {% endfor %}
 </pre></div>
 
@@ -316,7 +316,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 <p>即好!</p>
 <h3>TOC</h3>
 <p>是的,以往 rST/t2t 时,甚至于 Word 时都有的 </p>
-<div class="highlight"><pre><span></span><span class="n">TOC</span> <span class="o">~</span> <span class="err">章节索引</span>
+<div class="highlight"><pre><span class="n">TOC</span> <span class="o">~</span> <span class="err">章节索引</span>
 </pre></div>
 
 
@@ -417,25 +417,50 @@ Python 世界中大堆静态网站发布工具中的一个,
 
 <hr/>
 
-<h3>蟒营®编程思维提高班 Python版/<b>第10期</b> 正在报名</h3>
+<h3>蟒营®编程思维提高班 Python版/<b>第11期</b> 正在报名</h3>
 <h4>精品小班/ 每期<42人</h4>
 
 <blockquote><p>
     
 <ul>
     <li>
-    开始报名: <b>2020.6.29</b> </li>
+    开始报名: <b>2020.7.22</b> </li>
     <li>
-    报名截止: <b>2020.7.20</b> </li>
+    报名截止: <b>2020.8.23</b> </li>
     <li>
-    正式开课: <b>2020.7.26</b> </li>
+    正式开课: <b>2020.8.30</b> </li>
     <li>
-    课程结束: <b>2020.9.06</b> </li>
+    课程结束: <b>2020.10.11</b> </li>
+<!--
+    <li>
+    介绍文章:  
+    <ul>
+        <li>
+        <a href="https://mp.weixin.qq.com/s/FbUYUtnSVPJseA6sBud5fQ">
+            我觉得潘石屹推广编程的姿势不对
+        </a>
+        </li>
+        <li>
+        <a href="https://mp.weixin.qq.com/s/_yMoR4pJJGlJx51DU8xGyg">
+            蟒营®/ 到底如何算"会编程"?
+        </a>
+        </li>
+        <li>
+        <a href="https://mp.weixin.qq.com/s/mSfEbGSgJAODtXC0BgMtDA">
+            蟒营®/ 到底改变了什么?
+        </a>
+        </li>
+    </ul>
+    </li>
+
+-->
+
 </ul>
 
 
-<img alt="101camp9py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-06-22-200622reg10py-zip.jpg"/>
+<img alt="101camp11py" 
+    src="http://ydlj.zoomquiet.top/ipic/2020-07-21-regQR200721zip.jpg"/>
+
 
 
 </p></blockquote>
