@@ -121,15 +121,15 @@
 <p>The people who introduced me to Python chose it because of the elegance of the language, and it's aesthetic qualities. Would they choose it again, I wonder? Would I?.</p>
 <p>(<code>是也乎:</code></p>
 <p>是什么以及为什么的 Py3</p>
-<div class="highlight"><pre><span></span><span class="n">def</span> <span class="n">hello_world</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
-    <span class="n">print</span> <span class="s1">&#39;Hello&#39;</span><span class="p">,</span> <span class="n">name</span>
+<div class="highlight"><pre><span class="n">def</span> <span class="n">hello_world</span><span class="p">(</span><span class="n">name</span><span class="p">)</span><span class="o">:</span>
+    <span class="n">print</span> <span class="err">&#39;</span><span class="n">Hello</span><span class="err">&#39;</span><span class="p">,</span> <span class="n">name</span>
 </pre></div>
 
 
 <p>--&gt;</p>
-<div class="highlight"><pre><span></span><span class="nv">@coroutine</span><span class="w"></span>
-<span class="n">async</span><span class="w"> </span><span class="n">def</span><span class="w"> </span><span class="n">hello_world</span><span class="p">(</span><span class="nl">name</span><span class="p">:</span><span class="w"> </span><span class="nf">str</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="nf">str</span><span class="err">:</span><span class="w"></span>
-<span class="w">    </span><span class="n">await</span><span class="w"> </span><span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello {}&#39;</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">yield</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">name</span><span class="p">))</span><span class="w"></span>
+<div class="highlight"><pre><span class="err">@</span><span class="n">coroutine</span>
+<span class="n">async</span> <span class="n">def</span> <span class="n">hello_world</span><span class="p">(</span><span class="n">name</span><span class="o">:</span> <span class="n">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">str</span><span class="o">:</span>
+    <span class="n">await</span> <span class="n">print</span><span class="p">(</span><span class="err">&#39;</span><span class="n">Hello</span> <span class="p">{}</span><span class="err">&#39;</span><span class="p">.</span><span class="n">format</span><span class="p">(</span><span class="n">yield</span> <span class="n">from</span> <span class="n">name</span><span class="p">))</span>
 </pre></div>
 
 
@@ -407,13 +407,25 @@ that contains several helpful functions for that task and I'm explaining how to 
     
 <ul>
     <li>
-    开始报名: <b>2020.7.22</b> </li>
+    开始报名: <b>2020.8.30</b> </li>
     <li>
-    报名截止: <b>2020.8.23</b> </li>
+    报名截止: <b>2020.9.21</b> </li>
     <li>
-    正式开课: <b>2020.8.30</b> </li>
+    正式开课: <b>2020.9.27</b> </li>
     <li>
-    课程结束: <b>2020.10.11</b> </li>
+    课程结束: <b>2020.11.8</b> </li>
+
+    <li>
+    介绍文章:  
+    <ul>
+        <li>
+        <a href="https://mp.weixin.qq.com/s/vwcrt8q9UtNiyGcgdoDmcA">
+            拙见/ 唤醒自己的天命之女
+        </a>
+        </li>
+    </ul>
+    </li>
+
 <!--
     <li>
     介绍文章:  
@@ -440,10 +452,10 @@ that contains several helpful functions for that task and I'm explaining how to 
 
 </ul>
 
+<b>扫描</b>报名:
 
-<img alt="101camp11py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-07-21-regQR200721zip.jpg"/>
-
+<img alt="101camp12py" 
+    src="http://ydlj.zoomquiet.top/ipic/2020-08-26-200816-reg-zip.jpg"/>
 
 
 </p></blockquote>
@@ -456,7 +468,7 @@ that contains several helpful functions for that task and I'm explaining how to 
 
 <blockquote>
 <p>
-    <b>
+    官网: <b>
     <a href="https://py.101.camp/">py.101.camp</a>
     </b>
 </p>

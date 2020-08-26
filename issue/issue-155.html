@@ -181,27 +181,27 @@ python 完成的, 简洁和一致的.</p>
 13
 14
 15
-16</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/env python</span>
-<span class="c1"># PYTHON_ARGCOMPLETE_OK</span>
+16</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#!/usr/bin/env python</span>
+<span class="c"># PYTHON_ARGCOMPLETE_OK</span>
 <span class="kn">import</span> <span class="nn">argcomplete</span><span class="o">,</span> <span class="nn">argparse</span><span class="o">,</span> <span class="nn">requests</span><span class="o">,</span> <span class="nn">pprint</span>
 
 <span class="k">def</span> <span class="nf">github_org_members</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">parsed_args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-    <span class="n">resource</span> <span class="o">=</span> <span class="s2">&quot;https://api.github.com/orgs/{org}/members&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">org</span><span class="o">=</span><span class="n">parsed_args</span><span class="o">.</span><span class="n">organization</span><span class="p">)</span>
-    <span class="k">return</span> <span class="p">(</span><span class="n">member</span><span class="p">[</span><span class="s1">&#39;login&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">member</span> <span class="ow">in</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">resource</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span> <span class="k">if</span> <span class="n">member</span><span class="p">[</span><span class="s1">&#39;login&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">prefix</span><span class="p">))</span>
+    <span class="n">resource</span> <span class="o">=</span> <span class="s">&quot;https://api.github.com/orgs/{org}/members&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">org</span><span class="o">=</span><span class="n">parsed_args</span><span class="o">.</span><span class="n">organization</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">member</span><span class="p">[</span><span class="s">&#39;login&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">member</span> <span class="ow">in</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">resource</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span> <span class="k">if</span> <span class="n">member</span><span class="p">[</span><span class="s">&#39;login&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">prefix</span><span class="p">))</span>
 
 <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">()</span>
-<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;--organization&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;GitHub organization&quot;</span><span class="p">)</span>
-<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;--member&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;GitHub member&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">completer</span> <span class="o">=</span> <span class="n">github_org_members</span>
+<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&quot;--organization&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s">&quot;GitHub organization&quot;</span><span class="p">)</span>
+<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">&quot;--member&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s">&quot;GitHub member&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">completer</span> <span class="o">=</span> <span class="n">github_org_members</span>
 
 <span class="n">argcomplete</span><span class="o">.</span><span class="n">autocomplete</span><span class="p">(</span><span class="n">parser</span><span class="p">)</span>
 <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
 
-<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;https://api.github.com/users/{m}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">m</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">member</span><span class="p">))</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;https://api.github.com/users/{m}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">m</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">member</span><span class="p">))</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
 </pre></div>
 </td></tr></table>
 
 <p>然后就能:</p>
-<div class="highlight"><pre><span></span><span class="p">.</span><span class="o">/</span><span class="n">describe_github_user</span><span class="p">.</span><span class="n">py</span> <span class="c1">--organization heroku --member &lt;TAB&gt;</span>
+<div class="highlight"><pre><span class="nx">.</span><span class="p">/</span><span class="nx">describe_github_user.py</span> <span class="o">--</span><span class="nx">organization</span> <span class="nx">heroku</span> <span class="o">--</span><span class="nx">member</span> <span class="o">&lt;</span><span class="nx">TAB</span><span class="o">&gt;</span>
 </pre></div>
 
 
@@ -403,13 +403,25 @@ python 完成的, 简洁和一致的.</p>
     
 <ul>
     <li>
-    开始报名: <b>2020.7.22</b> </li>
+    开始报名: <b>2020.8.30</b> </li>
     <li>
-    报名截止: <b>2020.8.23</b> </li>
+    报名截止: <b>2020.9.21</b> </li>
     <li>
-    正式开课: <b>2020.8.30</b> </li>
+    正式开课: <b>2020.9.27</b> </li>
     <li>
-    课程结束: <b>2020.10.11</b> </li>
+    课程结束: <b>2020.11.8</b> </li>
+
+    <li>
+    介绍文章:  
+    <ul>
+        <li>
+        <a href="https://mp.weixin.qq.com/s/vwcrt8q9UtNiyGcgdoDmcA">
+            拙见/ 唤醒自己的天命之女
+        </a>
+        </li>
+    </ul>
+    </li>
+
 <!--
     <li>
     介绍文章:  
@@ -436,10 +448,10 @@ python 完成的, 简洁和一致的.</p>
 
 </ul>
 
+<b>扫描</b>报名:
 
-<img alt="101camp11py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-07-21-regQR200721zip.jpg"/>
-
+<img alt="101camp12py" 
+    src="http://ydlj.zoomquiet.top/ipic/2020-08-26-200816-reg-zip.jpg"/>
 
 
 </p></blockquote>
@@ -452,7 +464,7 @@ python 完成的, 简洁和一致的.</p>
 
 <blockquote>
 <p>
-    <b>
+    官网: <b>
     <a href="https://py.101.camp/">py.101.camp</a>
     </b>
 </p>

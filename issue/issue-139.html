@@ -149,12 +149,12 @@ didyoumean 就能建议可能的,
 <p>Shared by @mgrouchy</p>
 <p>(<code>是也乎:</code>
 实际使用起来是这样的...</p>
-<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">didyoumean</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">foo</span><span class="o">.</span><span class="n">baz</span>
-    <span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
-      <span class="n">File</span> <span class="s2">&quot;&lt;stdin&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-    <span class="ne">AttributeError</span><span class="p">:</span> <span class="s1">&#39;Foo&#39;</span> <span class="nb">object</span> <span class="n">has</span> <span class="n">no</span> <span class="n">attribute</span> <span class="s1">&#39;baz&#39;</span>
-    <span class="n">Maybe</span> <span class="n">you</span> <span class="n">meant</span><span class="p">:</span> <span class="o">.</span><span class="n">bar</span>
+<div class="highlight"><pre><span class="o">&gt;&gt;&gt;</span> <span class="k">import</span> <span class="nx">didyoumean</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nx">foo.baz</span>
+    <span class="nx">Traceback</span> <span class="p">(</span><span class="nx">most</span> <span class="nx">recent</span> <span class="nb">call</span> <span class="nb">last</span><span class="p">):</span>
+      <span class="nb">File</span> <span class="s2">&quot;&lt;stdin&gt;&quot;</span><span class="p">,</span> <span class="nb">line</span> <span class="mi">1</span><span class="p">,</span> <span class="k">in</span> <span class="o">&lt;</span><span class="nx">module</span><span class="o">&gt;</span>
+    <span class="nx">AttributeError</span><span class="p">:</span> <span class="s1">&#39;Foo&#39;</span> <span class="nb">object</span> <span class="nx">has</span> <span class="nx">no</span> <span class="nx">attribute</span> <span class="s1">&#39;baz&#39;</span>
+    <span class="nx">Maybe</span> <span class="nx">you</span> <span class="nx">meant</span><span class="p">:</span> <span class="bp">.</span><span class="nx">bar</span>
 </pre></div>
 
 
@@ -188,19 +188,19 @@ didyoumean 就能建议可能的,
 <p>github.com</p>
 <p>Shared by @mgrouchy</p>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span>    <span class="kn">from</span> <span class="nn">importd</span> <span class="kn">import</span> <span class="n">d</span>
-    <span class="n">d</span><span class="p">(</span><span class="n">DEBUG</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<div class="highlight"><pre>    <span class="n">from</span> <span class="n">importd</span> <span class="n">import</span> <span class="n">d</span>
+    <span class="n">d</span><span class="p">(</span><span class="n">DEBUG</span><span class="o">=</span><span class="n">True</span><span class="p">)</span>
 
-    <span class="nd">@d</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
-    <span class="k">def</span> <span class="nf">idx</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;index.html&quot;</span>
+    <span class="err">@</span><span class="n">d</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="p">)</span>
+    <span class="n">def</span> <span class="n">idx</span><span class="p">(</span><span class="n">request</span><span class="p">)</span><span class="o">:</span>
+        <span class="k">return</span> <span class="s">&quot;index.html&quot;</span>
 
-    <span class="nd">@d</span><span class="p">(</span><span class="s2">&quot;/post/&lt;int:post_id&gt;/&quot;</span><span class="p">)</span>
-    <span class="k">def</span> <span class="nf">post</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">post_id</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;post.html&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;post_id&quot;</span><span class="p">:</span> <span class="n">post_id</span><span class="p">}</span>
+    <span class="err">@</span><span class="n">d</span><span class="p">(</span><span class="s">&quot;/post/&lt;int:post_id&gt;/&quot;</span><span class="p">)</span>
+    <span class="n">def</span> <span class="n">post</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">post_id</span><span class="p">)</span><span class="o">:</span>
+        <span class="k">return</span> <span class="s">&quot;post.html&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s">&quot;post_id&quot;</span><span class="o">:</span> <span class="n">post_id</span><span class="p">}</span>
 
-    <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
-        <span class="n">d</span><span class="o">.</span><span class="n">main</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="o">:</span>
+        <span class="n">d</span><span class="p">.</span><span class="n">main</span><span class="p">()</span>
 </pre></div>
 
 
@@ -440,13 +440,25 @@ PVector (列表), PMap (字典), PSet (集合), PBag (计数), PList (单链表)
     
 <ul>
     <li>
-    开始报名: <b>2020.7.22</b> </li>
+    开始报名: <b>2020.8.30</b> </li>
     <li>
-    报名截止: <b>2020.8.23</b> </li>
+    报名截止: <b>2020.9.21</b> </li>
     <li>
-    正式开课: <b>2020.8.30</b> </li>
+    正式开课: <b>2020.9.27</b> </li>
     <li>
-    课程结束: <b>2020.10.11</b> </li>
+    课程结束: <b>2020.11.8</b> </li>
+
+    <li>
+    介绍文章:  
+    <ul>
+        <li>
+        <a href="https://mp.weixin.qq.com/s/vwcrt8q9UtNiyGcgdoDmcA">
+            拙见/ 唤醒自己的天命之女
+        </a>
+        </li>
+    </ul>
+    </li>
+
 <!--
     <li>
     介绍文章:  
@@ -473,10 +485,10 @@ PVector (列表), PMap (字典), PSet (集合), PBag (计数), PList (单链表)
 
 </ul>
 
+<b>扫描</b>报名:
 
-<img alt="101camp11py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-07-21-regQR200721zip.jpg"/>
-
+<img alt="101camp12py" 
+    src="http://ydlj.zoomquiet.top/ipic/2020-08-26-200816-reg-zip.jpg"/>
 
 
 </p></blockquote>
@@ -489,7 +501,7 @@ PVector (列表), PMap (字典), PSet (集合), PBag (计数), PList (单链表)
 
 <blockquote>
 <p>
-    <b>
+    官网: <b>
     <a href="https://py.101.camp/">py.101.camp</a>
     </b>
 </p>
