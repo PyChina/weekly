@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 02 Sep 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 436</title><link>http://weekly.pychina.org/issue/issue-436.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Fri, 04 Sep 2020 15:22:00 +0800</lastBuildDate><item><title>pythonista-weekly : Pyw 464</title><link>http://weekly.pychina.org/python-weekly/pyw-464.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第464期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-464"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-464&lt;/a&gt;&lt;br&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;
+&lt;a href="https://www.programmerweekly.com/?utm_source=pwad&amp;amp;utm_medium=newsletter"&gt;获取每周的编程量&lt;/a&gt;
+一份每周的简报，为程序员提供最好的手工策划的新闻、文章、教程、讲座、工具和库等。 &lt;a href="https://www.programmerweekly.com/?utm_source=pwad&amp;amp;utm_medium=newsletter"&gt;Join For Free&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;文章、教程与话题&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=HGOBQPFzWKo"&gt;中级 Python 编程课程&lt;/a&gt; &lt;img alt="img" src="https://mcusercontent.com/e2e180baf855ac797ef407fc7/images/af76283a-6e65-436c-967a-900427cf6399.png"&gt;（5h55min）
+通过这门中级 &lt;code&gt;Python&lt;/code&gt; 课程，让您的 &lt;code&gt;Python&lt;/code&gt; 技能更上一层楼。首先，您将回顾基本概念，如列表、字符串和字典，但重点是一些不为人知的功能。然后，您将学习更高级的主题，如线程、多处理、上下文管理器、生成器等 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 04 Sep 2020 15:22:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-09-04:/python-weekly/pyw-464.html</guid><category>python-weekly</category><category>Weekly</category><category>pythonweekly</category><category>Zh</category></item><item><title>Issue 436</title><link>http://weekly.pychina.org/issue/issue-436.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;请写更多惯用 Pythonic 代码&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/436"&gt;PyCoder's Weekly - Issue #436&lt;/a&gt;&lt;/p&gt;
