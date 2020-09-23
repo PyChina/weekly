@@ -297,7 +297,7 @@ Tk 才是第一选择了...</p>
 </li>
 </ul>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">bistring</span> <span class="kn">import</span> <span class="n">bistr</span>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">bistring</span> <span class="kn">import</span> <span class="n">bistr</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">bistr</span><span class="p">(</span><span class="s1">&#39;𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐, 𝖇𝖗𝖔𝖜𝖓 🦊 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 🐶&#39;</span><span class="p">)</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">normalize</span><span class="p">(</span><span class="s1">&#39;NFKD&#39;</span><span class="p">)</span>     <span class="c1"># Unicode normalization</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">casefold</span><span class="p">()</span>            <span class="c1"># Case-insensitivity</span>
@@ -309,7 +309,7 @@ Tk 才是第一选择了...</p>
 <span class="s1">&#39;the quick brown fox&#39;</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">s</span><span class="o">.</span><span class="n">original</span>                  <span class="c1"># The original substring, before changes</span>
 <span class="s1">&#39;𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐, 𝖇𝖗𝖔𝖜𝖓 🦊&#39;</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>更加狂野的字串处理模块</p>

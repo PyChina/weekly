@@ -363,25 +363,25 @@
 <p>(<code>是也乎:</code></p>
 <p><img alt="CleverCSV" src="https://raw.githubusercontent.com/alan-turing-institute/CleverCSV/eea72549195e37bd4347d87fd82bc98be2f1383d/.logo.png"></p>
 <p>这才是真正需要的东西, 特别是从 Excel 导出的 csv 们...</p>
-<div class="highlight"><pre><span></span><span class="nv">USAGE</span>
-  <span class="nv">clevercsv</span> [<span class="o">-</span><span class="nv">h</span>] [<span class="o">-</span><span class="nv">v</span>] [<span class="o">-</span><span class="nv">V</span>] <span class="o">&lt;</span><span class="nv">command</span><span class="o">&gt;</span> [<span class="o">&lt;</span><span class="nv">arg1</span><span class="o">&gt;</span>] ... [<span class="o">&lt;</span><span class="nv">argN</span><span class="o">&gt;</span>]
+<div class="highlight"><pre><span></span><code><span class="k">USAGE</span>
+  <span class="n">clevercsv</span> <span class="p">[</span><span class="o">-</span><span class="n">h</span><span class="p">]</span> <span class="p">[</span><span class="o">-</span><span class="n">v</span><span class="p">]</span> <span class="p">[</span><span class="o">-</span><span class="n">V</span><span class="p">]</span> <span class="o">&lt;</span><span class="n">command</span><span class="o">&gt;</span> <span class="p">[</span><span class="o">&lt;</span><span class="n">arg1</span><span class="o">&gt;</span><span class="p">]</span> <span class="p">...</span> <span class="p">[</span><span class="o">&lt;</span><span class="n">argN</span><span class="o">&gt;</span><span class="p">]</span>
 
-<span class="nv">ARGUMENTS</span>
-  <span class="o">&lt;</span><span class="nv">command</span><span class="o">&gt;</span>       <span class="nv">The</span> <span class="nv">command</span> <span class="nv">to</span> <span class="nv">execute</span>
-  <span class="o">&lt;</span><span class="nv">arg</span><span class="o">&gt;</span>           <span class="nv">The</span> <span class="nv">arguments</span> <span class="nv">of</span> <span class="nv">the</span> <span class="nv">command</span>
+<span class="n">ARGUMENTS</span>
+  <span class="o">&lt;</span><span class="n">command</span><span class="o">&gt;</span>       <span class="n">The</span> <span class="n">command</span> <span class="k">to</span> <span class="k">execute</span>
+  <span class="o">&lt;</span><span class="n">arg</span><span class="o">&gt;</span>           <span class="n">The</span> <span class="n">arguments</span> <span class="k">of</span> <span class="n">the</span> <span class="n">command</span>
 
-<span class="nv">GLOBAL</span> <span class="nv">OPTIONS</span>
-  <span class="o">-</span><span class="nv">h</span> <span class="ss">(</span><span class="o">--</span><span class="nv">help</span><span class="ss">)</span>     <span class="nv">Display</span> <span class="nv">this</span> <span class="nv">help</span> <span class="nv">message</span>.
-  <span class="o">-</span><span class="nv">v</span> <span class="ss">(</span><span class="o">--</span><span class="nv">verbose</span><span class="ss">)</span>  <span class="nv">Enable</span> <span class="nv">verbose</span> <span class="nv">mode</span>.
-  <span class="o">-</span><span class="nv">V</span> <span class="ss">(</span><span class="o">--</span><span class="nv">version</span><span class="ss">)</span>  <span class="nv">Display</span> <span class="nv">the</span> <span class="nv">application</span> <span class="nv">version</span>.
+<span class="k">GLOBAL</span> <span class="k">OPTIONS</span>
+  <span class="o">-</span><span class="n">h</span> <span class="p">(</span><span class="c1">--help)     Display this help message.</span>
+  <span class="o">-</span><span class="n">v</span> <span class="p">(</span><span class="c1">--verbose)  Enable verbose mode.</span>
+  <span class="o">-</span><span class="n">V</span> <span class="p">(</span><span class="c1">--version)  Display the application version.</span>
 
-<span class="nv">AVAILABLE</span> <span class="nv">COMMANDS</span>
-  <span class="nv">code</span>            <span class="nv">Generate</span> <span class="nv">Python</span> <span class="nv">code</span> <span class="k">for</span> <span class="nv">importing</span> <span class="nv">the</span> <span class="nv">CSV</span> <span class="nv">file</span>.
-  <span class="nv">detect</span>          <span class="nv">Detect</span> <span class="nv">the</span> <span class="nv">dialect</span> <span class="nv">of</span> <span class="nv">a</span> <span class="nv">CSV</span> <span class="nv">file</span>
-  <span class="nv">help</span>            <span class="nv">Display</span> <span class="nv">the</span> <span class="nv">manual</span> <span class="nv">of</span> <span class="nv">a</span> <span class="nv">command</span>
-  <span class="nv">standardize</span>     <span class="nv">Convert</span> <span class="nv">a</span> <span class="nv">CSV</span> <span class="nv">file</span> <span class="nv">to</span> <span class="nv">one</span> <span class="nv">that</span> <span class="nv">conforms</span> <span class="nv">to</span> <span class="nv">RFC</span><span class="o">-</span><span class="mi">4180</span>.
-  <span class="nv">view</span>            <span class="nv">View</span> <span class="nv">the</span> <span class="nv">CSV</span> <span class="nv">file</span> <span class="nv">on</span> <span class="nv">the</span> <span class="nv">command</span> <span class="nv">line</span> <span class="nv">using</span> <span class="nv">TabView</span>
-</pre></div>
+<span class="n">AVAILABLE</span> <span class="n">COMMANDS</span>
+  <span class="n">code</span>            <span class="n">Generate</span> <span class="n">Python</span> <span class="n">code</span> <span class="k">for</span> <span class="n">importing</span> <span class="n">the</span> <span class="n">CSV</span> <span class="n">file</span><span class="p">.</span>
+  <span class="n">detect</span>          <span class="n">Detect</span> <span class="n">the</span> <span class="n">dialect</span> <span class="k">of</span> <span class="n">a</span> <span class="n">CSV</span> <span class="n">file</span>
+  <span class="n">help</span>            <span class="n">Display</span> <span class="n">the</span> <span class="n">manual</span> <span class="k">of</span> <span class="n">a</span> <span class="n">command</span>
+  <span class="n">standardize</span>     <span class="k">Convert</span> <span class="n">a</span> <span class="n">CSV</span> <span class="n">file</span> <span class="k">to</span> <span class="n">one</span> <span class="n">that</span> <span class="n">conforms</span> <span class="k">to</span> <span class="n">RFC</span><span class="o">-</span><span class="mi">4180</span><span class="p">.</span>
+  <span class="k">view</span>            <span class="k">View</span> <span class="n">the</span> <span class="n">CSV</span> <span class="n">file</span> <span class="k">on</span> <span class="n">the</span> <span class="n">command</span> <span class="n">line</span> <span class="k">using</span> <span class="n">TabView</span>
+</code></pre></div>
 
 
 <p>)</p>
@@ -420,13 +420,13 @@
 </ul>
 <p>(<code>是也乎:</code></p>
 <p>所以, 早就说过:</p>
-<div class="highlight"><pre><span></span><span class="n">人生苦短</span><span class="w"></span>
-<span class="n">Python当歌</span><span class="p">(</span><span class="k">go</span><span class="p">)</span><span class="w"></span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">人生苦短</span>
+<span class="err">Python当歌(go)</span>
+</code></pre></div>
 
 
 <p>go 和 py 不分家咯:</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">time</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
 <span class="kn">from</span> <span class="nn">gostyle</span> <span class="kn">import</span> <span class="n">go</span>
 <span class="k">def</span> <span class="nf">test_thread</span><span class="p">(</span><span class="n">title</span><span class="p">:</span><span class="nb">str</span><span class="p">):</span>
     <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
@@ -434,7 +434,7 @@
         <span class="k">print</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
 <span class="c1"># Start the thread </span>
 <span class="n">go</span><span class="p">(</span><span class="n">test_thread</span><span class="p">)(</span><span class="s2">&quot;Call&quot;</span><span class="p">)</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>)</p>
@@ -528,15 +528,15 @@
 </ul>
 <p>(<code>(￣▽￣)</code>:</p>
 <p>第4期马上结业:</p>
-<div class="highlight"><pre><span></span><span class="mi">200112</span> <span class="err">按时结束</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">200112 按时结束</span>
+</code></pre></div>
 
 
 <p>年后第5期就来:</p>
-<div class="highlight"><pre><span></span><span class="mi">20</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="mi">3</span>  <span class="err">可以上线</span>
-<span class="mi">20</span><span class="p">.</span><span class="mi">2</span><span class="p">.</span><span class="mi">20</span> <span class="err">报名截止</span>
-<span class="mi">20</span><span class="p">.</span><span class="mi">3</span><span class="p">.</span><span class="mi">1</span>  <span class="err">正式开课</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">20.2.3  可以上线</span>
+<span class="err">20.2.20 报名截止</span>
+<span class="err">20.3.1  正式开课</span>
+</code></pre></div>
 
 
 <p>)</p>
