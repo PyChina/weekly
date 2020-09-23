@@ -5,8 +5,9 @@ from invoke import task
 #from fabric.api import env, lcd, local, task
 
 # Local path configuration (can be absolute or relative to fabfile)
-env.input_path = 'content'
-env.deploy_path = 'output'
+env = {"input_path" : 'content'
+    , "deploy_path" : 'output'
+    }
 
 
 def build(c):
@@ -41,7 +42,7 @@ def pub(c):
     gh_pages(c)
 
 
-def pull_data():
+def pull_data(c):
     c.run(
         'cd {deploy_path} && '
         'pwd && '
