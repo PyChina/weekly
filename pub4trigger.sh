@@ -15,7 +15,7 @@ VER="pub4trigger v.200306.2142"
 #DATE=`date "+%y%m%d"`
 #NOW=$(date +"%Y-%m-%d")
 
-PBIN=~/.pyenv/versions/dama2712/bin
+PBIN=~/.pyenv/versions/ztop380/bin
 SELF=~/Sites/PyChina.org/weekly
 
 GIT=$( which git)
@@ -40,8 +40,10 @@ cd $SELF
 
 git pl 
 
-fab ?
-fab pub
+#fab ?
+#fab pub
+inv -l
+inv pub
 
 
 #=========================================================== action DONE
