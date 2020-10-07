@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 30 Sep 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 440</title><link>http://weekly.pychina.org/issue/issue-440.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 07 Oct 2020 12:01:11 +0800</lastBuildDate><item><title>Issue 440</title><link>http://weekly.pychina.org/issue/issue-440.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;面向儿童的 Python&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/440"&gt;PyCoder's Weekly - Issue #440&lt;/a&gt;&lt;/p&gt;
@@ -15,7 +15,24 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this ten part series, senior software engineer Kevin Thomas presents a kid-friendly comprehensive Python development tutorial utilizing a micro:bit development …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 30 Sep 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-09-30:/issue/issue-440.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 439</title><link>http://weekly.pychina.org/issue/issue-439.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;In this ten part series, senior software engineer Kevin Thomas presents a kid-friendly comprehensive Python development tutorial utilizing a micro:bit development …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 30 Sep 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-09-30:/issue/issue-440.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 441</title><link>http://weekly.pychina.org/issue/issue-441.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Python 3.9 超酷新功能?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/441"&gt;PyCoder's Weekly - Issue #441&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;201007 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;201007 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/4986/web"&gt;Python 3.9 超酷新功能&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;course&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this course, you’ll explore some of the coolest and most useful features in the newly released …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 30 Sep 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-09-30:/issue/issue-441.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 439</title><link>http://weekly.pychina.org/issue/issue-439.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;如何死都不用 Lambda ?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/439"&gt;PyCoder's Weekly - Issue #439&lt;/a&gt;&lt;/p&gt;
