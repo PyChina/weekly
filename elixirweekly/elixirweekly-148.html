@@ -203,24 +203,24 @@
 </ul>
 <p>(<code>是也乎:</code></p>
 <p>和 golang 类似, 所有基础模块, 还在 PK 中...</p>
-<div class="highlight"><pre><span></span><code><span class="err">                                       +----------+    +----------+    +----------+</span>
-<span class="err">                                       |Insights  |    |CostData  |    |CostData  |</span>
-<span class="err">                                 +---&gt; |Producer  &lt;----+Producer  &lt;----+Consumer  |</span>
-<span class="err">                                 |     |          |    |Consumer  |    |          |</span>
-<span class="err">                                 |     +----------+    +----------+    +----------+</span>
-<span class="err">                                 |</span>
-<span class="err">  +------------+     +-----------+     +----------+    +----------+    +----------+</span>
-<span class="err">  |Campaigns   |     |Campaigns  |     |Insights  |    |CostData  |    |CostData  |</span>
-<span class="err">--|Producer    &lt;-----+Consumer   +--&gt;  |Producer  &lt;----+Producer  &lt;----+Consumer  |</span>
-<span class="err">  |            |     |Supervisor |     |          |    |Consumer  |    |          |</span>
-<span class="err">  +------------+     +-----------+     +----------+    +----------+    +----------+</span>
-<span class="err">                                 |</span>
-<span class="err">                                 |     +----------+    +----------+    +----------+</span>
-<span class="err">                                 |     |Insights  |    |CostData  |    |CostData  |</span>
-<span class="err">                                 +---&gt; |Producer  &lt;----+Producer  &lt;----+Consumer  |</span>
-<span class="err">                                       |          |    |Consumer  |    |          |</span>
-<span class="err">                                       +----------+    +----------+    +----------+</span>
-</code></pre></div>
+<div class="highlight"><pre><span></span>                                       <span class="o">+</span><span class="c1">----------+    +----------+    +----------+</span>
+                                       <span class="o">|</span><span class="n">Insights</span>  <span class="o">|</span>    <span class="o">|</span><span class="n">CostData</span>  <span class="o">|</span>    <span class="o">|</span><span class="n">CostData</span>  <span class="o">|</span>
+                                 <span class="o">+</span><span class="c1">---&gt; |Producer  &lt;----+Producer  &lt;----+Consumer  |</span>
+                                 <span class="o">|</span>     <span class="o">|</span>          <span class="o">|</span>    <span class="o">|</span><span class="n">Consumer</span>  <span class="o">|</span>    <span class="o">|</span>          <span class="o">|</span>
+                                 <span class="o">|</span>     <span class="o">+</span><span class="c1">----------+    +----------+    +----------+</span>
+                                 <span class="o">|</span>
+  <span class="o">+</span><span class="c1">------------+     +-----------+     +----------+    +----------+    +----------+</span>
+  <span class="o">|</span><span class="n">Campaigns</span>   <span class="o">|</span>     <span class="o">|</span><span class="n">Campaigns</span>  <span class="o">|</span>     <span class="o">|</span><span class="n">Insights</span>  <span class="o">|</span>    <span class="o">|</span><span class="n">CostData</span>  <span class="o">|</span>    <span class="o">|</span><span class="n">CostData</span>  <span class="o">|</span>
+<span class="c1">--|Producer    &lt;-----+Consumer   +--&gt;  |Producer  &lt;----+Producer  &lt;----+Consumer  |</span>
+  <span class="o">|</span>            <span class="o">|</span>     <span class="o">|</span><span class="n">Supervisor</span> <span class="o">|</span>     <span class="o">|</span>          <span class="o">|</span>    <span class="o">|</span><span class="n">Consumer</span>  <span class="o">|</span>    <span class="o">|</span>          <span class="o">|</span>
+  <span class="o">+</span><span class="c1">------------+     +-----------+     +----------+    +----------+    +----------+</span>
+                                 <span class="o">|</span>
+                                 <span class="o">|</span>     <span class="o">+</span><span class="c1">----------+    +----------+    +----------+</span>
+                                 <span class="o">|</span>     <span class="o">|</span><span class="n">Insights</span>  <span class="o">|</span>    <span class="o">|</span><span class="n">CostData</span>  <span class="o">|</span>    <span class="o">|</span><span class="n">CostData</span>  <span class="o">|</span>
+                                 <span class="o">+</span><span class="c1">---&gt; |Producer  &lt;----+Producer  &lt;----+Consumer  |</span>
+                                       <span class="o">|</span>          <span class="o">|</span>    <span class="o">|</span><span class="n">Consumer</span>  <span class="o">|</span>    <span class="o">|</span>          <span class="o">|</span>
+                                       <span class="o">+</span><span class="c1">----------+    +----------+    +----------+</span>
+</pre></div>
 
 
 <p>)</p>

@@ -203,20 +203,20 @@
 </ul>
 <p>(<code>是也乎:</code></p>
 <p>就两行代码:</p>
-<div class="highlight"><pre><span></span><code><span class="s s-Atom">def</span> <span class="nf">to_idx</span><span class="p">(</span><span class="s s-Atom">letters</span><span class="p">)</span><span class="s s-Atom">:</span>
+<div class="highlight"><pre><span></span><span class="s s-Atom">def</span> <span class="nf">to_idx</span><span class="p">(</span><span class="s s-Atom">letters</span><span class="p">)</span><span class="s s-Atom">:</span>
     <span class="s s-Atom">val</span> <span class="o">=</span> <span class="s s-Atom">lambda</span> <span class="s s-Atom">i</span><span class="p">,</span> <span class="nn">x</span><span class="p">:</span> <span class="p">(</span><span class="mi">26</span><span class="s s-Atom">**i</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="nf">ord</span><span class="p">(</span><span class="s s-Atom">x</span><span class="p">.</span><span class="nf">lower</span><span class="p">())</span> <span class="o">-</span> <span class="nf">ord</span><span class="p">(</span><span class="s s-Atom">&#39;a&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
     <span class="s s-Atom">return</span> <span class="nf">sum</span><span class="p">([</span><span class="nf">val</span><span class="p">(</span><span class="s s-Atom">i</span><span class="p">,</span> <span class="s s-Atom">x</span><span class="p">)</span> <span class="s s-Atom">for</span> <span class="s s-Atom">i</span><span class="p">,</span> <span class="s s-Atom">x</span> <span class="s s-Atom">in</span> <span class="nf">enumerate</span><span class="p">(</span><span class="s s-Atom">letters</span><span class="p">[</span><span class="s s-Atom">::-</span><span class="mi">1</span><span class="p">])])</span> <span class="o">-</span> <span class="mi">1</span>
-</code></pre></div>
+</pre></div>
 
 
 <p>效果:</p>
-<div class="highlight"><pre><span></span><code><span class="err">&gt;&gt;&gt; to_idx(&#39;A&#39;)</span>
-<span class="err">0</span>
-<span class="err">&gt;&gt;&gt; to_idx(&#39;AH&#39;)</span>
-<span class="err">33</span>
-<span class="err">&gt;&gt;&gt; to_idx(&#39;XFD&#39;)</span>
-<span class="err">16383</span>
-</code></pre></div>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="n">to_idx</span><span class="p">(</span><span class="s1">&#39;A&#39;</span><span class="p">)</span>
+<span class="mi">0</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">to_idx</span><span class="p">(</span><span class="s1">&#39;AH&#39;</span><span class="p">)</span>
+<span class="mi">33</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">to_idx</span><span class="p">(</span><span class="s1">&#39;XFD&#39;</span><span class="p">)</span>
+<span class="mi">16383</span>
+</pre></div>
 
 
 <p>)</p>
@@ -282,12 +282,12 @@ Scientific One-Liner Interactive GUI Library</li>
 </li>
 </ul>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">quickui</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">forall</span><span class="p">(</span><span class="n">a</span> <span class="o">=</span> <span class="n">slider</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mf">0.1</span><span class="p">),</span> <span class="n">b</span> <span class="o">=</span> <span class="n">slider</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mf">0.1</span><span class="p">))</span><span class="o">.</span><span class="n">show</span><span class="p">(</span>
 <span class="o">...</span>    <span class="n">plot</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">:</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="kp">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">),</span> 
 <span class="o">...</span>    <span class="n">np</span><span class="o">.</span><span class="kp">sin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="kp">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">**</span><span class="n">a</span><span class="p">)</span> <span class="o">+</span> <span class="n">b</span><span class="o">/</span><span class="n">a</span><span class="p">]))</span>
-</code></pre></div>
+</pre></div>
 
 
 <p><img alt="using_numpy_matplotlib" src="https://github.com/ac1235/python-QuickUI/raw/master/Gallery/using_numpy_matplotlib.png"></p>

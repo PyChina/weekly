@@ -363,34 +363,34 @@ discord 插件...</p>
 </ul>
 <p>(<code>是也乎:</code></p>
 <p>出时时, 调用桟更加可用的嗯哼...</p>
-<div class="highlight"><pre><span></span><code><span class="n">File</span> <span class="n">demo</span><span class="p">.</span><span class="n">py</span><span class="p">,</span> <span class="n">line</span> <span class="mi">10</span><span class="p">,</span> <span class="k">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-    <span class="mi">8</span>         <span class="n">somelist</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]]</span>
-    <span class="mi">9</span>         <span class="n">anotherlist</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">&#39;5&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="p">]]</span>
-<span class="c1">--&gt; 10        dangerous_function(somelist + anotherlist)</span>
-    <span class="mi">11</span>    <span class="k">except</span><span class="p">:</span>
-    <span class="p">..................................................</span>
-     <span class="n">somelist</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]]</span>
-     <span class="n">anotherlist</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">&#39;5&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="p">]]</span>
-    <span class="p">..................................................</span>
+<div class="highlight"><pre><span></span><span class="nv">File</span> <span class="nv">demo</span>.<span class="nv">py</span>, <span class="nv">line</span> <span class="mi">10</span>, <span class="nv">in</span> <span class="o">&lt;</span><span class="nv">module</span><span class="o">&gt;</span>
+    <span class="mi">8</span>         <span class="nv">somelist</span> <span class="o">=</span> [[<span class="mi">1</span>,<span class="mi">2</span>], [<span class="mi">3</span>,<span class="mi">4</span>]]
+    <span class="mi">9</span>         <span class="nv">anotherlist</span> <span class="o">=</span> [[<span class="s1">&#39;</span><span class="s">5</span><span class="s1">&#39;</span>, <span class="mi">6</span>]]
+<span class="o">--&gt;</span> <span class="mi">10</span>        <span class="nv">dangerous_function</span><span class="ss">(</span><span class="nv">somelist</span> <span class="o">+</span> <span class="nv">anotherlist</span><span class="ss">)</span>
+    <span class="mi">11</span>    <span class="nv">except</span>:
+    ..................................................
+     <span class="nv">somelist</span> <span class="o">=</span> [[<span class="mi">1</span>, <span class="mi">2</span>], [<span class="mi">3</span>, <span class="mi">4</span>]]
+     <span class="nv">anotherlist</span> <span class="o">=</span> [[<span class="s1">&#39;</span><span class="s">5</span><span class="s1">&#39;</span>, <span class="mi">6</span>]]
+    ..................................................
 
-<span class="n">File</span> <span class="n">demo</span><span class="p">.</span><span class="n">py</span><span class="p">,</span> <span class="n">line</span> <span class="mi">4</span><span class="p">,</span> <span class="k">in</span> <span class="n">dangerous_function</span>
-    <span class="mi">3</span>     <span class="n">def</span> <span class="n">dangerous_function</span><span class="p">(</span><span class="n">blub</span><span class="p">):</span>
-<span class="c1">--&gt; 4         return sorted(blub, key=lambda xs: sum(xs))</span>
-    <span class="p">..................................................</span>
-     <span class="n">blub</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="s1">&#39;5&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="p">]]</span>
-    <span class="p">..................................................</span>
+<span class="nv">File</span> <span class="nv">demo</span>.<span class="nv">py</span>, <span class="nv">line</span> <span class="mi">4</span>, <span class="nv">in</span> <span class="nv">dangerous_function</span>
+    <span class="mi">3</span>     <span class="nv">def</span> <span class="nv">dangerous_function</span><span class="ss">(</span><span class="nv">blub</span><span class="ss">)</span>:
+<span class="o">--&gt;</span> <span class="mi">4</span>         <span class="k">return</span> <span class="nv">sorted</span><span class="ss">(</span><span class="nv">blub</span>, <span class="nv">key</span><span class="o">=</span><span class="nv">lambda</span> <span class="nv">xs</span>: <span class="nv">sum</span><span class="ss">(</span><span class="nv">xs</span><span class="ss">))</span>
+    ..................................................
+     <span class="nv">blub</span> <span class="o">=</span> [[<span class="mi">1</span>, <span class="mi">2</span>], [<span class="mi">3</span>, <span class="mi">4</span>], [<span class="s1">&#39;</span><span class="s">5</span><span class="s1">&#39;</span>, <span class="mi">6</span>]]
+    ..................................................
 
-<span class="n">File</span> <span class="n">demo</span><span class="p">.</span><span class="n">py</span><span class="p">,</span> <span class="n">line</span> <span class="mi">4</span><span class="p">,</span> <span class="k">in</span> <span class="o">&lt;</span><span class="n">lambda</span><span class="o">&gt;</span>
+<span class="nv">File</span> <span class="nv">demo</span>.<span class="nv">py</span>, <span class="nv">line</span> <span class="mi">4</span>, <span class="nv">in</span> <span class="o">&lt;</span><span class="nv">lambda</span><span class="o">&gt;</span>
     <span class="mi">2</span>
-    <span class="mi">3</span>     <span class="n">def</span> <span class="n">dangerous_function</span><span class="p">(</span><span class="n">blub</span><span class="p">):</span>
-<span class="c1">--&gt; 4         return sorted(blub, key=lambda xs: sum(xs))</span>
+    <span class="mi">3</span>     <span class="nv">def</span> <span class="nv">dangerous_function</span><span class="ss">(</span><span class="nv">blub</span><span class="ss">)</span>:
+<span class="o">--&gt;</span> <span class="mi">4</span>         <span class="k">return</span> <span class="nv">sorted</span><span class="ss">(</span><span class="nv">blub</span>, <span class="nv">key</span><span class="o">=</span><span class="nv">lambda</span> <span class="nv">xs</span>: <span class="nv">sum</span><span class="ss">(</span><span class="nv">xs</span><span class="ss">))</span>
     <span class="mi">5</span>
-    <span class="p">..................................................</span>
-     <span class="n">xs</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;5&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
-    <span class="p">..................................................</span>
+    ..................................................
+     <span class="nv">xs</span> <span class="o">=</span> [<span class="s1">&#39;</span><span class="s">5</span><span class="s1">&#39;</span>, <span class="mi">6</span>]
+    ..................................................
 
-<span class="n">TypeError</span><span class="p">:</span> <span class="n">unsupported</span> <span class="n">operand</span> <span class="k">type</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="k">for</span> <span class="o">+</span><span class="p">:</span> <span class="s1">&#39;int&#39;</span> <span class="k">and</span> <span class="s1">&#39;str&#39;</span>
-</code></pre></div>
+<span class="nv">TypeError</span>: <span class="nv">unsupported</span> <span class="nv">operand</span> <span class="nv">type</span><span class="ss">(</span><span class="nv">s</span><span class="ss">)</span> <span class="k">for</span> <span class="o">+</span>: <span class="s1">&#39;</span><span class="s">int</span><span class="s1">&#39;</span> <span class="nv">and</span> <span class="s1">&#39;</span><span class="s">str</span><span class="s1">&#39;</span>
+</pre></div>
 
 
 <p>)</p>

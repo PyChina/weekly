@@ -160,8 +160,8 @@
 <p>I frequently predict proportions (e.g., proportion of year during which a customer is active). This is a regression task because the dependent variables is a float, but the dependent variable is bound between the 0 and 1. Googling around, I had a hard time finding the a good way to model this situation, so I’ve written here what I think is the most straight forward solution.</p>
 <p>(<code>是也乎:</code></p>
 <p>数据归一化的常见招术式:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">make_regression</span>
-</code></pre></div>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">make_regression</span>
+</pre></div>
 
 
 <p>)</p>
@@ -188,8 +188,8 @@
 <p>PyTorch 1.0 takes the modular, production-oriented capabilities from Caffe2 and ONNX and combines them with PyTorch's existing flexible, research-focused design to provide a fast, seamless path from research prototyping to production deployment for a broad range of AI projects.</p>
 <p>(<code>是也乎:</code></p>
 <p>江湖传说:to be politically correct at Google</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">torch</span> <span class="kn">as</span> <span class="nn">tf</span>
-</code></pre></div>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">torch</span> <span class="kn">as</span> <span class="nn">tf</span>
+</pre></div>
 
 
 <p>)</p>
@@ -401,19 +401,19 @@
 </blockquote>
 <p>Full support of Chinese/Japanese/Korean.</p>
 <p>$ cat test</p>
-<div class="highlight"><pre><span></span><code><span class="err">地三鲜</span>
+<div class="highlight"><pre><span></span><span class="err">地三鲜</span>
 <span class="err">红烧肉</span>
 <span class="err">烤全牛</span>
 <span class="err">木须肉</span>
 <span class="err">土豆炖牛肉</span>
-</code></pre></div>
+</pre></div>
 
 
 <p>$ cat test | topsim-cli "牛肉" -k 3 -s tversky</p>
-<div class="highlight"><pre><span></span><code><span class="err">土豆炖牛肉   0.666</span>
-<span class="err">红烧肉 0.3332</span>
-<span class="err">木须肉 0.3332</span>
-</code></pre></div>
+<div class="highlight"><pre><span></span><span class="err">土豆炖牛肉</span>   <span class="mi">0</span><span class="p">.</span><span class="mi">666</span>
+<span class="err">红烧肉</span> <span class="mi">0</span><span class="p">.</span><span class="mi">3332</span>
+<span class="err">木须肉</span> <span class="mi">0</span><span class="p">.</span><span class="mi">3332</span>
+</pre></div>
 
 
 <p><code>(￣▽￣)</code> 没毛病, 可以大力使用之 ;-)</p>
