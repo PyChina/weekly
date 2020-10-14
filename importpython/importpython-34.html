@@ -266,12 +266,12 @@ PyPy(用 Python 实际的 Python 解释器!),
 <p>HTTP 请求的脚本化</p>
 <p>(<code>是也乎:</code></p>
 <p>非常象 Gopher 大会上批露的,老许用 go 实现的 http 测试 DSL.</p>
-<div class="highlight"><pre><span></span><span class="nv">set</span> <span class="nv">URL</span> <span class="nv">http</span>:<span class="o">//</span><span class="nv">google</span>.<span class="nv">com</span>
-<span class="k">loop</span> <span class="mi">5</span>
-<span class="k">do</span> <span class="nv">GET</span> <span class="o">/</span>
-<span class="k">show</span> $<span class="nv">STATUS</span>
-<span class="nv">endloop</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">set URL http://google.com</span>
+<span class="err">loop 5</span>
+<span class="err">do GET /</span>
+<span class="err">show $STATUS</span>
+<span class="err">endloop</span>
+</code></pre></div>
 
 
 <p>)</p>

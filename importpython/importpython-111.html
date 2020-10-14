@@ -162,15 +162,15 @@
 </ul>
 <p>Did you know about <code>__code__</code> ?</p>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><span class="nv">def</span> <span class="nv">foo</span><span class="ss">()</span>:
-      <span class="k">return</span> <span class="s2">&quot;</span><span class="s">I&#39;m foo!</span><span class="s2">&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="n">def</span> <span class="n">foo</span><span class="p">():</span>
+      <span class="k">return</span> <span class="ss">&quot;I&#39;m foo!&quot;</span>
 
-<span class="nv">def</span> <span class="nv">bar</span><span class="ss">()</span>:
-      <span class="k">return</span> <span class="s2">&quot;</span><span class="s">I&#39;m bar!</span><span class="s2">&quot;</span>
+<span class="n">def</span> <span class="n">bar</span><span class="p">():</span>
+      <span class="k">return</span> <span class="ss">&quot;I&#39;m bar!&quot;</span>
 
-<span class="nv">foo</span>.<span class="nv">__code__</span> <span class="o">=</span> <span class="nv">bar</span>.<span class="nv">__code__</span>
-<span class="nv">foo</span><span class="ss">()</span>
-</pre></div>
+<span class="n">foo</span><span class="p">.</span><span class="n">__code__</span> <span class="o">=</span> <span class="n">bar</span><span class="p">.</span><span class="n">__code__</span>
+<span class="n">foo</span><span class="p">()</span>
+</code></pre></div>
 
 
 <p>猜?! 最后输出什么!?</p>

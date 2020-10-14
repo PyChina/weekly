@@ -228,27 +228,27 @@ Ever wonder how some of these crazy obfuscated python programs work? Check out t
 真心是个自虐又 bigger 的思路,可以折腾个标准库出来,
 这下网络传送数据就有安全保证了...
 感受一下....谁说用 Python 写不出来难懂的代码的!?</p>
-<div class="highlight"><pre><span></span>#...
-<span class="ss">(</span>
-    <span class="o">*</span><span class="ss">(</span><span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>: <span class="nv">_</span><span class="ss">(</span><span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span><span class="ss">))(</span>
-        <span class="ss">(</span><span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>:
-            [<span class="nv">__</span><span class="ss">(</span><span class="nv">___</span>[<span class="ss">(</span><span class="nv">lambda</span>: <span class="nv">_</span><span class="ss">)</span>.<span class="nv">func_code</span>.<span class="nv">co_nlocals</span>]<span class="ss">)</span>] <span class="o">+</span>
-            <span class="nv">_</span><span class="ss">(</span><span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>[<span class="ss">(</span><span class="nv">lambda</span> <span class="nv">_</span>: <span class="nv">_</span><span class="ss">)</span>.<span class="nv">func_code</span>.<span class="nv">co_nlocals</span>:]<span class="ss">)</span> <span class="k">if</span> <span class="nv">___</span> <span class="k">else</span> []
-        <span class="ss">)</span>,
-        <span class="nv">lambda</span> <span class="nv">_</span>: <span class="nv">_</span>.<span class="nv">func_code</span>.<span class="nv">co_argcount</span>,
-        <span class="ss">(</span>
-            <span class="nv">lambda</span> <span class="nv">_</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>, <span class="nv">____</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>, <span class="nv">____</span>, <span class="nv">_____</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>, <span class="nv">____</span>, <span class="nv">_____</span>, <span class="nv">______</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>, <span class="nv">____</span>, <span class="nv">_____</span>, <span class="nv">______</span>, <span class="nv">_______</span>: <span class="nv">_</span>,
-            <span class="nv">lambda</span> <span class="nv">_</span>, <span class="nv">__</span>, <span class="nv">___</span>, <span class="nv">____</span>, <span class="nv">_____</span>, <span class="nv">______</span>, <span class="nv">_______</span>, <span class="nv">________</span>: <span class="nv">_</span>
-        <span class="ss">)</span>
-    <span class="ss">)</span>
-<span class="ss">)</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">#...</span>
+<span class="err">(</span>
+<span class="err">    *(lambda _, __, ___: _(_, __, ___))(</span>
+<span class="err">        (lambda _, __, ___:</span>
+<span class="err">            [__(___[(lambda: _).func_code.co_nlocals])] +</span>
+<span class="err">            _(_, __, ___[(lambda _: _).func_code.co_nlocals:]) if ___ else []</span>
+<span class="err">        ),</span>
+<span class="err">        lambda _: _.func_code.co_argcount,</span>
+<span class="err">        (</span>
+<span class="err">            lambda _: _,</span>
+<span class="err">            lambda _, __: _,</span>
+<span class="err">            lambda _, __, ___: _,</span>
+<span class="err">            lambda _, __, ___, ____: _,</span>
+<span class="err">            lambda _, __, ___, ____, _____: _,</span>
+<span class="err">            lambda _, __, ___, ____, _____, ______: _,</span>
+<span class="err">            lambda _, __, ___, ____, _____, ______, _______: _,</span>
+<span class="err">            lambda _, __, ___, ____, _____, ______, _______, ________: _</span>
+<span class="err">        )</span>
+<span class="err">    )</span>
+<span class="err">)</span>
+</code></pre></div>
 
 
 <p>)</p>

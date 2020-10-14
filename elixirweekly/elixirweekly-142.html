@@ -136,17 +136,17 @@
 <p>Keeping state consistency while running an Elixir application on many servers.</p>
 <p>(<code>是也乎:</code></p>
 <p>日常技巧...</p>
-<div class="highlight"><pre><span></span><span class="o">+</span><span class="c1">--------------------+</span>
-<span class="o">|</span> <span class="n">APP</span> <span class="n">SUPERVISOR</span>     <span class="o">|</span>
-<span class="o">+</span><span class="c1">---------+----------+</span>
-          <span class="o">|</span>
-          <span class="o">|</span>
-<span class="o">+</span><span class="c1">---------v----------+         +-----------+            +-----------+</span>
-<span class="o">|</span> <span class="n">WORKER</span> <span class="n">SUPERVISOR</span>  <span class="o">+</span><span class="c1">---------&gt; WORKERS   | + &lt;--------&gt; DATABASE  |</span>
-<span class="o">+</span><span class="c1">--------------------+         +-----------+ | |        +-----------+</span>
-                                <span class="o">+</span><span class="c1">------------+ |</span>
-                                 <span class="o">+</span><span class="c1">-------------+</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">+--------------------+</span>
+<span class="err">| APP SUPERVISOR     |</span>
+<span class="err">+---------+----------+</span>
+<span class="err">          |</span>
+<span class="err">          |</span>
+<span class="err">+---------v----------+         +-----------+            +-----------+</span>
+<span class="err">| WORKER SUPERVISOR  +---------&gt; WORKERS   | + &lt;--------&gt; DATABASE  |</span>
+<span class="err">+--------------------+         +-----------+ | |        +-----------+</span>
+<span class="err">                                +------------+ |</span>
+<span class="err">                                 +-------------+</span>
+</code></pre></div>
 
 
 <p>)</p>

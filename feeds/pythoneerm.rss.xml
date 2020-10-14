@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Thu, 01 Oct 2020 16:22:00 +0800</lastBuildDate><item><title>pythonista-weekly : Pyw 468</title><link>http://weekly.pychina.org/python-weekly/pyw-468.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第468期。Let us start!&lt;/h3&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 14 Oct 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 442</title><link>http://weekly.pychina.org/issue/issue-442.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;PyOxidizer 0.8 发布&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/442"&gt;PyCoder's Weekly - Issue #442&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;201014 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;201014 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/5027/web"&gt;Python 3.9 新特性巡礼&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;podcast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python 3.9 has arrived! Real Python contributors Geir Arne Hjelle and Christopher Trudeau are walking you through …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 14 Oct 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-10-14:/issue/issue-442.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 441</title><link>http://weekly.pychina.org/issue/issue-441.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Python 3.9 超酷新功能?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/441"&gt;PyCoder's Weekly - Issue #441&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;201007 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;201007 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/4986/web"&gt;Python 3.9 超酷新功能&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON &lt;/li&gt;
+&lt;li&gt;course&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this course, you’ll explore some of the coolest and most useful features in the newly released …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 07 Oct 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-10-07:/issue/issue-441.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>pythonista-weekly : Pyw 468</title><link>http://weekly.pychina.org/python-weekly/pyw-468.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第468期。Let us start!&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-468"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-468&lt;/a&gt;&lt;br&gt;
 翻译：Dustyposa&lt;/p&gt;
@@ -24,24 +58,7 @@ Hey Pythonista, would you like to show your love for &lt;strong&gt;Python&lt;/st
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this ten part series, senior software engineer Kevin Thomas presents a kid-friendly comprehensive Python development tutorial utilizing a micro:bit development …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 30 Sep 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-09-30:/issue/issue-440.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 441</title><link>http://weekly.pychina.org/issue/issue-441.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;Python 3.9 超酷新功能?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/441"&gt;PyCoder's Weekly - Issue #441&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;201007 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;201007 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/4986/web"&gt;Python 3.9 超酷新功能&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON &lt;/li&gt;
-&lt;li&gt;course&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this course, you’ll explore some of the coolest and most useful features in the newly released …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 30 Sep 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-09-30:/issue/issue-441.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>pythonista-weekly : Pyw 467</title><link>http://weekly.pychina.org/python-weekly/pyw-467.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第467期。Let us start!&lt;/h3&gt;
+&lt;p&gt;In this ten part series, senior software engineer Kevin Thomas presents a kid-friendly comprehensive Python development tutorial utilizing a micro:bit development …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 30 Sep 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-09-30:/issue/issue-440.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>pythonista-weekly : Pyw 467</title><link>http://weekly.pychina.org/python-weekly/pyw-467.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第467期。Let us start!&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-467"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-467&lt;/a&gt;&lt;br&gt;
 翻译：Dustyposa&lt;/p&gt;
@@ -1219,7 +1236,7 @@ Vettery是一个招聘网站,它改变了人们应聘或者雇佣的方式. 准�
 &lt;blockquote&gt;
 &lt;p&gt;微妙的五官捕捉. &lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.youtube.com/watch?v=SRYBDmJlIck"&gt;如何使用Django 框架做密码校验&lt;/a&gt; &lt;img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png"&gt;*(15min)&lt;/strong&gt;*&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.youtube.com/watch?v=SRYBDmJlIck"&gt;如何使用Django 框架做密码校验&lt;/a&gt; &lt;img alt="img" src="https://gallery.mailchimp.com/e2e180baf855ac797ef407fc7/images/8def3887-e9e9-4a48-95e0-74045a6a23fc.png"&gt;&lt;em&gt;(15min)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Django&lt;/code&gt;有内置的密码校验功能. 这个视频演示了如何开启并配置校验,自定义校验设置 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Sat, 14 Dec 2019 15:16:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-12-14:/python-weekly/pyw-428.html</guid><category>python-weekly</category><category>Weekly</category><category>pythonweekly</category><category>Zh</category></item><item><title>Issue 398</title><link>http://weekly.pychina.org/issue/issue-398.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;MicroPython 物联网编程没问题&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -4355,8 +4372,8 @@ Release notes for 1.9.1 can be found here and release notes …&lt;/p&gt;&lt;/li
 &lt;p&gt;只是鉴于中文世界,大家都没什么好渠道直接肉身翻越出去,
 所以,工作栏这一章节,一般是清空的,间或有朋友委托发布过几则信息.
 当然的,如果你想在 蠎周刊上发布免费的 Pythonista 招聘信息,请向大妈邮件说明:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;zoomquiet&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;HR&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;AT&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="n"&gt;gmail&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;zoomquiet&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;HR&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;AT&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="n"&gt;gmail&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;)&lt;/p&gt;
@@ -5516,12 +5533,12 @@ http://weekly.pychina.org/importpython/index.html&lt;/p&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;在 CPyUG 我们讨论了5年的结论是....&lt;/p&gt;
 &lt;p&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
-&lt;span class="p"&gt;..&lt;/span&gt;
-&lt;span class="p"&gt;...&lt;/span&gt;
-&lt;span class="p"&gt;....&lt;/span&gt;
-&lt;span class="p"&gt;.....&lt;/span&gt;
-&lt;span class="k"&gt;NULL&lt;/span&gt; &lt;span class="err"&gt;〒&lt;/span&gt;&lt;span class="n"&gt;_ …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Tue, 07 Jul 2015 12:19:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2015-07-07:/issue/issue-173.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>蠎加载 38</title><link>http://weekly.pychina.org/importpython/importpython-38.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;.&lt;/span&gt;
+&lt;span class="err"&gt;..&lt;/span&gt;
+&lt;span class="err"&gt;...&lt;/span&gt;
+&lt;span class="err"&gt;....&lt;/span&gt;
+&lt;span class="err"&gt;.....&lt;/span&gt;
+&lt;span class="err"&gt;NULL 〒_ …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Tue, 07 Jul 2015 12:19:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2015-07-07:/issue/issue-173.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>蠎加载 38</title><link>http://weekly.pychina.org/importpython/importpython-38.html</link><description>&lt;p&gt;&lt;img alt="importpython-barnner.png" src="http://zoomq.qiniudn.com/ZQCollection/snap/importpython-barnner.png?imageView2/2/h/210"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;原文: &lt;a href="http://importpython.com/newsletter/no/38/"&gt;Import Python Weekly Newsletter - Issue No 38&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -8549,9 +8566,9 @@ Fizzmint 提供早期股票,导师机会,各种激励. 有意者直接向 CEO �
 &lt;p&gt;--
 &lt;a href="https://twitter.com/#!/myusuf3"&gt;Mahdi&lt;/a&gt; and &lt;a href="https://twitter.com/#!/mgrouchy"&gt;Mike&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;原文: &lt;a href="http://eepurl.com/G6A9f"&gt;Pycoder's Weekly …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 18 Oct 2013 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2013-10-18:/issue/issue-88.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 87 ~ 感谢贡献</title><link>http://weekly.pychina.org/issue/issue-87.html</link><description>&lt;h2&gt;Hi Pythonistas!&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nv"&gt;Happy&lt;/span&gt; &lt;span class="nv"&gt;Thanksgiving&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;all&lt;/span&gt; &lt;span class="nv"&gt;our&lt;/span&gt; &lt;span class="nv"&gt;Canadian&lt;/span&gt; &lt;span class="nv"&gt;readers&lt;/span&gt; &lt;span class="nv"&gt;who&lt;/span&gt; &lt;span class="nv"&gt;will&lt;/span&gt; &lt;span class="nv"&gt;be&lt;/span&gt; &lt;span class="nv"&gt;celebrating&lt;/span&gt; &lt;span class="nv"&gt;this&lt;/span&gt; &lt;span class="nv"&gt;coming&lt;/span&gt; &lt;span class="nv"&gt;weekend&lt;/span&gt;. 
-&lt;span class="nv"&gt;We&lt;/span&gt; &lt;span class="nv"&gt;have&lt;/span&gt; &lt;span class="nv"&gt;a&lt;/span&gt; &lt;span class="nv"&gt;great&lt;/span&gt; &lt;span class="nv"&gt;issue&lt;/span&gt; &lt;span class="nv"&gt;this&lt;/span&gt; &lt;span class="nv"&gt;week&lt;/span&gt; &lt;span class="nv"&gt;to&lt;/span&gt; &lt;span class="nv"&gt;get&lt;/span&gt; &lt;span class="nv"&gt;you&lt;/span&gt; &lt;span class="nv"&gt;ready&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;weekend&lt;/span&gt; &lt;span class="nv"&gt;whether&lt;/span&gt; &lt;span class="nv"&gt;it&lt;/span&gt; &lt;span class="nv"&gt;is&lt;/span&gt; &lt;span class="nv"&gt;a&lt;/span&gt; &lt;span class="nv"&gt;holiday&lt;/span&gt; &lt;span class="nv"&gt;weekend&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;you&lt;/span&gt; &lt;span class="nv"&gt;or&lt;/span&gt; &lt;span class="nv"&gt;not&lt;/span&gt;.
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;Happy Thanksgiving to all our Canadian readers who will be celebrating this coming weekend. &lt;/span&gt;
+&lt;span class="err"&gt;We have a great issue this week to get you ready for the weekend whether it is a holiday weekend for you or not.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;想跟上所有 蠎界 新闻?
@@ -8614,10 +8631,10 @@ Mahdi and Mike
 &lt;p&gt;亲,&lt;/p&gt;
 &lt;p&gt;上周蟒社区有个坏消息. &lt;a href="http://matplotlib.sourceforge.net/"&gt;Matplotlib&lt;/a&gt;的作者, &lt;a href="http://numfocus.org/"&gt;NumFOCUS&lt;/a&gt;创始董事会成员, John Hunter去世了. NumFOCUS创立了&lt;a href="http://numfocus.org/johnhunter./"&gt;John Hunter 纪念基金&lt;/a&gt;来帮助支付其子女的教育开支. 你可以通过这个&lt;a href="http://numfocus.org/johnhunter./"&gt;站点&lt;/a&gt;来进行捐助.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;44 Byward Market Square, Suite 210&lt;/span&gt;
+&lt;span class="err"&gt;Ottawa, Ontario Canada&lt;/span&gt;
+&lt;span class="err"&gt;K1P 7A2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;想跟上所有 蠎界 新闻? &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;.&lt;/p&gt;
@@ -8626,17 +8643,17 @@ Mahdi and Mike
 &lt;a href="https://twitter.com/#!/myusuf3"&gt;Mahdi&lt;/a&gt; and &lt;a href="https://twitter.com/#!/mgrouchy"&gt;Mike&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;新闻&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://groups.google.com/forum/?fromgroups=#!topic/comp.lang.python/rF6eG-NB_9w"&gt;Python 3.3.0 release candidate …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 31 Aug 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-08-31:/issue/issue-29.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 28: Fabric</title><link>http://weekly.pychina.org/issue/issue-28.html</link><description>&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/?fromgroups=#!topic/comp.lang.python/rF6eG-NB_9w"&gt;Python 3.3.0 release candidate 1 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 31 Aug 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-08-31:/issue/issue-29.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 28: Fabric</title><link>http://weekly.pychina.org/issue/issue-28.html</link><description>&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
 &lt;h2&gt;搜罗Py万物 的周刊&lt;/h2&gt;
 &lt;p&gt;亲,&lt;/p&gt;
 &lt;p&gt;我们又用海量的新闻和各种项目填满了本期周报!
 我们非常开心看到有这么多超赞的事情发生在Python社区中.
 和往常一样, 如果你写了有趣的文章或者代码, &lt;a href="admin@pycoders.com"&gt;联系我们吧&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;44 Byward Market Square, Suite 210&lt;/span&gt;
+&lt;span class="err"&gt;Ottawa, Ontario Canada&lt;/span&gt;
+&lt;span class="err"&gt;K1P 7A2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;想跟上所有 蠎界 新闻? &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;.&lt;/p&gt;
@@ -8651,16 +8668,16 @@ Mahdi and Mike
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://aws.typepad.com/aws/2012/08/announcing-aws-elastic-beanstalk-support-for-python-and-seamless-database-integration.html"&gt;AWS Elastic Beanstalk现已支持Python&lt;/a&gt; (typepad.com)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;蟒行者们 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 24 Aug 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-08-24:/issue/issue-28.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 27: Stompy</title><link>http://weekly.pychina.org/issue/issue-27.html</link><description>&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
+&lt;p&gt;蟒行者们, "扩展Web应用 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 24 Aug 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-08-24:/issue/issue-28.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 27: Stompy</title><link>http://weekly.pychina.org/issue/issue-27.html</link><description>&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
 &lt;h2&gt;搜罗Python 万物的周刊&lt;/h2&gt;
 &lt;p&gt;亲们,&lt;/p&gt;
 &lt;p&gt;在加拿大买了Tee的朋友们, 不要急. 衣服本周已经龟速上路了.&lt;/p&gt;
 &lt;p&gt;这期的内容异常丰富, 巨多应该参加的聚会. 选一个, 去吧.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;44 Byward Market Square, Suite 210&lt;/span&gt;
+&lt;span class="err"&gt;Ottawa, Ontario Canada&lt;/span&gt;
+&lt;span class="err"&gt;K1P 7A2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;想跟上所有 蠎界 新闻? &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;.&lt;/p&gt;
@@ -8671,15 +8688,16 @@ Mahdi and Mike
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.pytexas.org/2012/"&gt;PyTexas 2012&lt;/a&gt; (pytexas.org)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;9月15 - 16号有安排吗? 没有. 好. 为什么不来&lt;a href="http://www.pytexas.org/chance/1/register/"&gt;这里&lt;/a&gt;玩玩 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 17 Aug 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-08-17:/issue/issue-27.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 26: 好奇心</title><link>http://weekly.pychina.org/issue/issue-26.html</link><description>&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
+&lt;p&gt;9月15 - 16号有安排吗? 没有. 好. 为什么不来&lt;a href="http://www.pytexas.org/chance/1/register/"&gt;这里&lt;/a&gt;玩玩?
+或更进一步 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 17 Aug 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-08-17:/issue/issue-27.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 26: 好奇心</title><link>http://weekly.pychina.org/issue/issue-26.html</link><description>&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
 &lt;h2&gt;搜罗Python 万物的周刊&lt;/h2&gt;
 &lt;p&gt;亲们,&lt;/p&gt;
 &lt;p&gt;看到这么多人穿着Tee恤的照片, 真是激动万分哪. 本期包含成吨的内容, 感谢投稿的蟒行者们! 接下去也请继续猛砸稿件吧.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;44 Byward Market Square, Suite 210&lt;/span&gt;
+&lt;span class="err"&gt;Ottawa, Ontario Canada&lt;/span&gt;
+&lt;span class="err"&gt;K1P 7A2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;想跟上所有 蠎界 新闻? &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;.&lt;/p&gt;
@@ -8693,17 +8711,17 @@ Mahdi and Mike
 &lt;p&gt;对所有加拿大人(还有我们!)来说, 这真是一个好消息.
 加拿大PyCon将带着所有PyCon的优良传统于11月9日-11日在多伦多举办. 还不去搞票!&lt;/p&gt;
 &lt;p&gt;加拿大PyCon正在寻找各式有经验想法的演讲嘉宾. 想要分享知识或是展示一下自己作品的同学, 这可是个千载难逢的好机会.
-如果你是演讲新手 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 10 Aug 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-08-10:/issue/issue-26.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 25: Rise</title><link>http://weekly.pychina.org/issue/issue-25.html</link><description>&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
+如果你是演讲新手, 你面对的将是一群友好的听众 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 10 Aug 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-08-10:/issue/issue-26.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 25: Rise</title><link>http://weekly.pychina.org/issue/issue-25.html</link><description>&lt;p&gt;&lt;img alt="04_20AM9789bf" src="https://gallery.mailchimp.com/9735795484d2e4c204da82a29/images/Image_202014_01_22_20at_2010.45.04_20AM9789bf.png"&gt;&lt;/p&gt;
 &lt;h2&gt;搜罗Python 万物的周刊&lt;/h2&gt;
 &lt;p&gt;亲们,&lt;/p&gt;
 &lt;p&gt;我们做到了第25期, 感谢大家一路的支持!&lt;/p&gt;
 &lt;p&gt;在这里想向大家征集项目和文章的投稿.
 如果你写了文章或是精彩的项目想让我们知道的, 回复这封邮件或是在Twitter上@一下呗!&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;44 Byward Market Square, Suite 210&lt;/span&gt;
+&lt;span class="err"&gt;Ottawa, Ontario Canada&lt;/span&gt;
+&lt;span class="err"&gt;K1P 7A2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;想跟上所有 蠎界 新闻? &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;.&lt;/p&gt;
@@ -8714,7 +8732,7 @@ Mahdi and Mike
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://toastdriven.com/blog/2012/jul/31/announcing-django-dash-2012/"&gt;Django Dash 2012预告&lt;/a&gt; (toastdriven.com)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;又到了这个时间! 准备好了吗? 是时候带上你的咖啡, 红牛还有必胜的决心, 在今年的Django Dash上掀起一阵代码风暴了. 比赛将于8月18至19日举办 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 03 Aug 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-08-03:/issue/issue-25.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 24 Untitled</title><link>http://weekly.pychina.org/issue/issue-24.html</link><description>&lt;p&gt;原文: &lt;a href="http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&amp;amp;id=81659f265d"&gt;Pycoder's Weekly (Issue #24) : Untitled&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;又到了这个时间! 准备好了吗? 是时候带上你的咖啡, 红牛还有必胜的决心, 在今年的Django Dash上掀起一阵代码风暴了. 比赛将于8月18至19日举办, 8月4号起开放注册 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 03 Aug 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-08-03:/issue/issue-25.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 24 Untitled</title><link>http://weekly.pychina.org/issue/issue-24.html</link><description>&lt;p&gt;原文: &lt;a href="http://us4.campaign-archive1.com/?u=9735795484d2e4c204da82a29&amp;amp;id=81659f265d"&gt;Pycoder's Weekly (Issue #24) : Untitled&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;Hi Pythonistas.&lt;/h1&gt;
 &lt;p&gt;Not a lot of housekeeping news this week. So we aren't going to take up too much of your time here. &lt;/p&gt;
 &lt;p&gt;If you want a sticker send us a self addressed stamped&lt;em&gt; envelope to&lt;/em&gt;*: &lt;/p&gt;
@@ -8748,10 +8766,10 @@ Postmates 是我们的第一个赞助商,
 还令我们能继续使用 mailchimp.&lt;/p&gt;
 &lt;p&gt;如果你有兴趣赞助周刊请联系我们.&lt;/p&gt;
 &lt;p&gt;如果你想要一个贴纸, 寄给我们回邮信封就好(送完为止):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
-&lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
-&lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;44 Byward Market Square, Suite 210&lt;/span&gt;
+&lt;span class="err"&gt;Ottawa, Ontario Canada&lt;/span&gt;
+&lt;span class="err"&gt;K1P 7A2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;RSS 订阅和存档可以在 &lt;a href="http://feeds.feedburner.com/pycodersweekly"&gt;这里&lt;/a&gt; 和 &lt;a href="http://pycoders.com/archive.html"&gt;这里&lt;/a&gt; 找到. &lt;/p&gt;
@@ -8761,14 +8779,14 @@ Postmates 是我们的第一个赞助商,
 &lt;p&gt;原文: &lt;a href="http://us4.campaign-archive2.com/?u=9735795484d2e4c204da82a29&amp;amp;id=c6a7817c9b"&gt;Pycoder's Weekly (Issue #17) : Now is better than never.&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;新闻与开发动态&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://groups.google.com/group/django-users/browse_thread/thread/e7f55c29b203e75e"&gt;Mezzanine …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 08 Jun 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-06-08:/issue/issue-17.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 16 ~ 规则胜于特例</title><link>http://weekly.pychina.org/issue/issue-16.html</link><description>&lt;h1&gt;Hi Pythonistas.&lt;/h1&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/group/django-users/browse_thread/thread/e7f55c29b203e75e"&gt;Mezzanine 1 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 08 Jun 2012 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2012-06-08:/issue/issue-17.html</guid><category>Issue</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Issue 16 ~ 规则胜于特例</title><link>http://weekly.pychina.org/issue/issue-16.html</link><description>&lt;h1&gt;Hi Pythonistas.&lt;/h1&gt;
 &lt;p&gt;本周的新闻并不是很多,不过贴纸的事情倒是有很多要说的,我们这星期会收到新设计的贴纸,所以赶快给我们寄来回邮吧,我们的地址是:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;Byward&lt;/span&gt; &lt;span class="n"&gt;Market&lt;/span&gt; &lt;span class="n"&gt;Square&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Suite&lt;/span&gt; &lt;span class="mi"&gt;210&lt;/span&gt;
 
 &lt;span class="n"&gt;Ottawa&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Ontario&lt;/span&gt; &lt;span class="n"&gt;Canada&lt;/span&gt;
 
 &lt;span class="n"&gt;K1P&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;A2&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;RSS 订阅和存档可以在 &lt;a href="http://feeds.feedburner.com/pycodersweekly"&gt;这里&lt;/a&gt; 和 &lt;a href="http://pycoders.com/archive.html"&gt;这里&lt;/a&gt; 找到. &lt;/p&gt;
@@ -8847,8 +8865,8 @@ K1P 7A2&lt;/p&gt;
 &lt;a href="http://twitter.com/pycoders"&gt;@pycoders&lt;/a&gt;
 如果你还不明白当期标题的含义,
 进入命令行输入 &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="n"&gt;this&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;python -m this&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
