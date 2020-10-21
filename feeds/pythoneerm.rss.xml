@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Fri, 16 Oct 2020 10:09:20 +0800</lastBuildDate><item><title>Issue 442</title><link>http://weekly.pychina.org/issue/issue-442.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 21 Oct 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 443</title><link>http://weekly.pychina.org/issue/issue-443.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Python 在未来影业&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/443"&gt;PyCoder's Weekly - Issue #443&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;201021 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;201021 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/5045/web"&gt;Python 在未来影业&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;DHRUV GOVIL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A look into how Python is used to bring your favorite movies to the big screen.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Film" src="http://ydlj.zoomquiet.top/ipic/2020-10-21-ScreenShot%202020-10-21%2010.40.56.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;其实, Python 一直在电影工业中扮演着重要角色:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pipline" src="http://ydlj.zoomquiet.top/ipic/2020-10-21-ScreenShot%202020-10-21%2010.42.13.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;越来越深的动画电影制作流程, 一直用 Python …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 21 Oct 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-10-21:/issue/issue-443.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 442</title><link>http://weekly.pychina.org/issue/issue-442.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;PyOxidizer 0.8 发布&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/442"&gt;PyCoder's Weekly - Issue #442&lt;/a&gt;&lt;/p&gt;
