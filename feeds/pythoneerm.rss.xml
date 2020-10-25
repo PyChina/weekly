@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 21 Oct 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 443</title><link>http://weekly.pychina.org/issue/issue-443.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Sun, 25 Oct 2020 11:14:37 +0800</lastBuildDate><item><title>Issue 443</title><link>http://weekly.pychina.org/issue/issue-443.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Python 在未来影业&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/443"&gt;PyCoder's Weekly - Issue #443&lt;/a&gt;&lt;/p&gt;
@@ -20,7 +20,18 @@
 &lt;p&gt;&lt;img alt="Film" src="http://ydlj.zoomquiet.top/ipic/2020-10-21-ScreenShot%202020-10-21%2010.40.56.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;其实, Python 一直在电影工业中扮演着重要角色:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="pipline" src="http://ydlj.zoomquiet.top/ipic/2020-10-21-ScreenShot%202020-10-21%2010.42.13.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;越来越深的动画电影制作流程, 一直用 Python …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 21 Oct 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-10-21:/issue/issue-443.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 442</title><link>http://weekly.pychina.org/issue/issue-442.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;越来越深的动画电影制作流程, 一直用 Python …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 21 Oct 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-10-21:/issue/issue-443.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>pythonista-weekly : Pyw 470</title><link>http://weekly.pychina.org/python-weekly/pyw-470.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第470期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-470"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-470&lt;/a&gt;&lt;br&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;
+使用 &lt;code&gt;Datadog&lt;/code&gt; 监控你的python指标，日志，集群分析。使用&lt;code&gt;Datadog&lt;/code&gt;的应用分析，可以深入任何纬度并且能找到你所需要的信息，来进行动态诊断和快速故障排除。&lt;a href="https://www.datadoghq.com/dg/apm/python-performance-monitoring/?utm_source=Advertisement&amp;amp;utm_medium=Advertisement&amp;amp;utm_campaign=PythonWeekly-Newsletter"&gt;今天免费试用&lt;/a&gt;&lt;a href="https://www.datadoghq.com/dg/apm/python-performance-monitoring/?utm_source=Advertisement&amp;amp;utm_medium=Advertisement&amp;amp;utm_campaign=PythonWeekly-Newsletter"&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;新闻&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://surveys.jetbrains.com/s3/c6-python-developers-survey-2020"&gt;Python Developers Survey 2020&lt;/a&gt;
+官方 &lt;code&gt;Python&lt;/code&gt; 开发者调查的第四次迭代已经上线。参与其中，为社区知识贡献力量吧! 另外在调查结束后，随机抽取100名优胜者（从完成全部调查的优胜者中），每人将获得一份令人惊喜的Python惊喜礼包。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://2020.ploneconf.org/"&gt;Plone Conference 2020 Call for Proposals&lt;/a&gt;
+主题可以从 &lt;code&gt;Plone …&lt;/code&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Thu, 15 Oct 2020 16:22:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-10-15:/python-weekly/pyw-470.html</guid><category>python-weekly</category><category>Weekly</category><category>pythonweekly</category><category>Zh</category></item><item><title>Issue 442</title><link>http://weekly.pychina.org/issue/issue-442.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;PyOxidizer 0.8 发布&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/442"&gt;PyCoder's Weekly - Issue #442&lt;/a&gt;&lt;/p&gt;
