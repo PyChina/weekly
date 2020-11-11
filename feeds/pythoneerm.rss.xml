@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 04 Nov 2020 14:48:39 +0800</lastBuildDate><item><title>Issue 445</title><link>http://weekly.pychina.org/issue/issue-445.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>http://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 11 Nov 2020 11:42:00 +0800</lastBuildDate><item><title>Issue 446</title><link>http://weekly.pychina.org/issue/issue-446.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Python 正式世界第二&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/446"&gt;PyCoder's Weekly - Issue #446&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;201111 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;201111 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/5153/web"&gt;在 Python 中作 Key-Driver 分析&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;BRYCE MACHER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Take a look at how statistical knowledge plays an important role in answering business questions like “What drives the winningness …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 11 Nov 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-11-11:/issue/issue-446.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 445</title><link>http://weekly.pychina.org/issue/issue-445.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;希望初级开发人员知道些什么?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/445"&gt;PyCoder's Weekly - Issue #445&lt;/a&gt;&lt;/p&gt;
