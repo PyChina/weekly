@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Issue</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/issue.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2020-11-18T14:36:39+08:00</updated><entry><title>Issue 447</title><link href="http://weekly.pychina.org/issue/issue-447.html" rel="alternate"></link><published>2020-11-18T11:42:00+08:00</published><updated>2020-11-18T14:36:39+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2020-11-18:/issue/issue-447.html</id><summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Python 正式世界第二&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Issue</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/issue.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2020-11-18T14:44:24+08:00</updated><entry><title>Issue 447</title><link href="http://weekly.pychina.org/issue/issue-447.html" rel="alternate"></link><published>2020-11-18T11:42:00+08:00</published><updated>2020-11-18T14:44:24+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2020-11-18:/issue/issue-447.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Guido van Rossum (老爹) 去 Microsoft 了&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/447"&gt;PyCoder's Weekly - Issue #447&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
@@ -15,8 +15,8 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In this tutorial, you’ll learn how you can use PyPy to improve the speed of your applications. You’ll see how …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
-&lt;p&gt;Python 正式世界第二&lt;/p&gt;
+&lt;p&gt;In this tutorial, you’ll learn how you can use PyPy to improve the speed of your …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;Guido van Rossum (老爹) 去 Microsoft 了&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/447"&gt;PyCoder's Weekly - Issue #447&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
