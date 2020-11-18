@@ -4,7 +4,7 @@ Date: 2020-11-18 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> Python 正式世界第二
+> Guido van Rossum (老爹) 去 Microsoft 了
 
 
 原文: [PyCoder's Weekly - Issue #447](https://pycoders.com/issues/447)
