@@ -12,7 +12,7 @@ SITENAME = u'蠎周刊'
 SITEDESC = u'汇集全球蠎事儿 ;-)'
 SITENOTE = u"各种 weekly 中译版"
 
-SITEURL = 'http://weekly.pychina.org'
+SITEURL = 'https://weekly.pychina.org'
 #SITEURL = 'http://weekly.101.camp'
 DISQUS_SITENAME = u"weeklypychinaorg" #填入你的Shortname
 
@@ -151,8 +151,3 @@ TAGS_SAVE_AS = 'tag/index.html'
 # disable author pages
 #AUTHOR_SAVE_AS = ''
 #AUTHORS_SAVE_AS = ''
-
-
-
-
-
