@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Zoom.Quiet</title><link href="http://weekly.pychina.org/" rel="alternate"></link><link href="http://weekly.pychina.org/feeds/zoomquiet.atom.xml" rel="self"></link><id>http://weekly.pychina.org/</id><updated>2016-04-07T07:10:30+08:00</updated><entry><title>How to from Jekyll jump into Pelican</title><link href="http://weekly.pychina.org/chaos/jekyll-to-pelican.html" rel="alternate"></link><published>2013-12-19T10:42:00+08:00</published><updated>2016-04-07T07:10:30+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2013-12-19:/chaos/jekyll-to-pelican.html</id><summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Zoom.Quiet</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/zoomquiet.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2016-04-07T07:10:30+08:00</updated><entry><title>How to from Jekyll jump into Pelican</title><link href="https://weekly.pychina.org/chaos/jekyll-to-pelican.html" rel="alternate"></link><published>2013-12-19T10:42:00+08:00</published><updated>2016-04-07T07:10:30+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2013-12-19:/chaos/jekyll-to-pelican.html</id><summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h1&gt;如何从 Jekyll 转进入 Pelican&lt;/h1&gt;
 &lt;p&gt;简述静态网站从 Jekyll 环境中迁移为 纯 Python 
 &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;...&lt;/p&gt;
@@ -264,7 +264,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;li&gt;140127 ZoomQuiet 增补宏观理解&lt;/li&gt;
 &lt;li&gt;140120 ZoomQuiet 复制到 QPython 的 Pelican 工程&lt;/li&gt;
 &lt;li&gt;131219 ZoomQuiet 为 &lt;a href="https://gitcafe.com/CPyUG/weekly/blob/master/README.md"&gt;CPyUG/weekly - GitCafe&lt;/a&gt; 创建&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Chaos"></category><category term="howto"></category><category term="pelican"></category></entry><entry><title>Zoom.Quiet</title><link href="http://weekly.pychina.org/author/zoom-quiet.html" rel="alternate"></link><published>2011-11-17T00:00:00+08:00</published><updated>2014-11-18T23:19:56+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2011-11-17:/author/zoom-quiet.html</id><summary type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="Chaos"></category><category term="howto"></category><category term="pelican"></category></entry><entry><title>Zoom.Quiet</title><link href="https://weekly.pychina.org/author/zoom-quiet.html" rel="alternate"></link><published>2011-11-17T00:00:00+08:00</published><updated>2014-11-18T23:19:56+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:weekly.pychina.org,2011-11-17:/author/zoom-quiet.html</id><summary type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="ZQ" src="http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png"&gt;&lt;/p&gt;
 &lt;p&gt;Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;
