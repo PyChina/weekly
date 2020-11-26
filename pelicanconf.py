@@ -91,7 +91,7 @@ MENUITEMS = (('PyChina', 'http://pychina.org')
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 TRANSLATION_FEED_ATOM = None
 FEED_ALL_RSS = None

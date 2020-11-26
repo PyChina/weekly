@@ -5,17 +5,33 @@ from invoke import task
 #from fabric.api import env, lcd, local, task
 
 # Local path configuration (can be absolute or relative to fabfile)
-env = {"input_path" : 'content'
-    , "deploy_path" : 'output'
-    }
+env = {
+    "input_path": 'content',
+    "deploy_path": 'output',
+}
 
 
-def build(c):
-    c.run('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
+@task
+def build(c, debug=False, verbose=False):
+    ctx = dict(env)
+    ctx['debug'] = ''
+    ctx['verbose'] = ''
+    if debug:
+        ctx['debug'] = '-D'
+    if verbose:
+        ctx['verbose'] = '-v'
+    c.run('pelican {debug} {verbose} -o {deploy_path} {input_path}'.format(**ctx), echo=True)
 
-
-def serve(c):
-    c.run('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
+@task
+def serve(c, bind='0.0.0.0', port=8000, debug=False):
+    ctx = dict(env)
+    ctx['port'] = port
+    ctx['bind'] = bind
+    ctx['debug'] = ''
+    if debug:
+        ctx['debug'] = '-D'
+    c.run(
+        'pelican {debug} -l -b {bind} -p {port} {deploy_path}'.format(**ctx), echo=True)
 
 
 def reserve(c):
