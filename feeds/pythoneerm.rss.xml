@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 09 Dec 2020 12:05:46 +0800</lastBuildDate><item><title>Issue 450</title><link>https://weekly.pychina.org/issue/issue-450.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 16 Dec 2020 17:23:34 +0800</lastBuildDate><item><title>Issue 451</title><link>https://weekly.pychina.org/issue/issue-451.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;通过练习学 Python 的生成器/协程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/451"&gt;PyCoder's Weekly - Issue #451&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;201216 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;201216 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/5351/web"&gt;Python 位运算符&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this tutorial, you’ll learn how to use Python’s bitwise operators to manipulate individual bits of data at the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 16 Dec 2020 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2020-12-16:/issue/issue-451.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 450</title><link>https://weekly.pychina.org/issue/issue-450.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;ORM 到底值得嘛?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/450"&gt;PyCoder's Weekly - Issue #450&lt;/a&gt;&lt;/p&gt;
