@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 13 Jan 2021 12:53:14 +0800</lastBuildDate><item><title>Issue 455</title><link>https://weekly.pychina.org/issue/issue-455.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 20 Jan 2021 11:42:00 +0800</lastBuildDate><item><title>Issue 456</title><link>https://weekly.pychina.org/issue/issue-456.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Python Web 开发赞叹中的赞叹&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/456"&gt;PyCoder's Weekly - Issue #456&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;210120 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;210120 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/5603/web"&gt;用 Pandas 和 Outlook 自动创建和分发 Excel 文件&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;CHRIS MOFFITT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See how a little bit of Python can go a long way to automating manual processes and …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 20 Jan 2021 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-01-20:/issue/issue-456.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 455</title><link>https://weekly.pychina.org/issue/issue-455.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;PyCon US 2021 开始征集议题&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/455"&gt;PyCoder's Weekly - Issue #455&lt;/a&gt;&lt;/p&gt;
@@ -26,7 +42,13 @@
 &lt;p&gt;&lt;a href="https://www.python.org/dev/peps/pep-0648/"&gt;PEP 648 -- Extensible customizations of the interpreter at startup&lt;/a&gt;
 系统管理员，重新打包解释器的工具以及一些库需要在启动时自定义解释器的各个方面。 这通常是通过 &lt;code&gt;sitecustomize.py&lt;/code&gt; 为系统管理员实现的，而库则依赖于利用 &lt;code&gt;pth&lt;/code&gt; 文件。 该 &lt;code&gt;PEP&lt;/code&gt; 提出了一种以更加用户友好和结构化的方式实现相同目的的方法。&lt;/p&gt;
 &lt;h3&gt;文章、教程与话题&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=LmEcyQnfpDA"&gt;Drone …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 08 Jan 2021 16:25:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-01-08:/python-weekly/pyw-481.html</guid><category>python-weekly</category><category>Weekly</category><category>pythonweekly</category><category>Zh</category></item><item><title>Issue 454</title><link>https://weekly.pychina.org/issue/issue-454.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=LmEcyQnfpDA"&gt;Drone …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 08 Jan 2021 16:25:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-01-08:/python-weekly/pyw-481.html</guid><category>python-weekly</category><category>Weekly</category><category>pythonweekly</category><category>Zh</category></item><item><title>pythonista-weekly : Pyw 482</title><link>https://weekly.pychina.org/python-weekly/pyw-482.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第482期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-482"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-482&lt;/a&gt;&lt;br&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;
+ As a Python developer, you know how Django speeds-up product workflows. Still, even Django has its challenges as the codebase evolves. Over time, your team may end up overwhelmed with architecture and performance …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 08 Jan 2021 16:25:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-01-08:/python-weekly/pyw-482.html</guid><category>python-weekly</category><category>Weekly</category><category>pythonweekly</category><category>Zh</category></item><item><title>Issue 454</title><link>https://weekly.pychina.org/issue/issue-454.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;9小时没解决的BUG,休息好一刻钟就KO了&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/454"&gt;PyCoder's Weekly - Issue #454&lt;/a&gt;&lt;/p&gt;
