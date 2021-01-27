@@ -16,7 +16,7 @@ DISQUS_SITENAME = u"weeklypychinaorg" #填入你的Shortname
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 SOCIAL = SOCIAL + (('rss', SITEURL + '/' + FEED_ALL_ATOM),)
 
 DELETE_OUTPUT_DIRECTORY = True

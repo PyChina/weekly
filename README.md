@@ -1,11 +1,11 @@
-# [weekly.PyChina.org](http://weekly.pychina.org/)
+# [weekly.PyChina.org](https://weekly.pychina.org/)
 
 in fact from 2003 there is CZUG.org ~ the 1st(and only one) focus Zope tech community be set up;
 
 so years ago, there is soooooooo many python tech abt. commuity in China
 
 but never group as one unify community brand,
-like as: perl-china/ruby-china etc. 
+like as: perl-china/ruby-china etc.
 
 so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
@@ -29,26 +29,30 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
     + `master` 分支进行内容撰写
     + 另外一个仓库, 切换为 `gh-pages` 分支
         * 并链接为 `output` 输出目录
-        * 这样, 才可以合理使用 `fab` 指令来完成自动化本地编译和发布
-
 
 ## usage
-How to update the site contents
 
-main loop:
+How to update the site contents, build and preview locally.
 
-1. git clone
-1. edit some .md in `content/`
-1. `fab build && fab serve` for test local
-1. `cd output` this is another repo. yet!
-1. mark the article you have applied on GitCafe Ticket
-1. git add->ci->push
-1. `fab deploy` published all
+Recommend using [pipenv](https://pipenv.pypa.io/en/latest/)
+
+```bash
+$ git clone https://github.com/PyChina/weekly pyweekly
+$ cd pyweekly
+$ pipenv --python 3.7 # or any Python 3 version available
+$ pipenv install
+## edit some .md in `content/`
+$ pipenv run invoke build [--help]
+$ pipenv run invoke serve [--help]
+```
+
+Note: alternatively use `virtualenv` and pip `pip install -r requirement.txt`. (file may not up to date)
+
 
 ### writing
 
-- fork https://gitcafe.com/CPyUG/PyChina into local
-- or becamed https://gitcafe.com/CPyUG member hold the repo. ACL
+- fork https://github.com/PyChina/weekly into local
+- or becamed https://github.com/PyChina member hold the repo. ACL
 - cd into content/
 - the sub-dir means:
 
@@ -79,21 +83,6 @@ main loop:
     - `Slug:` 是实际输出的页面文件名, 建议全部小写E文, 使用中划线, 不使用特殊符号
 
 
-### deploy
-
-支持本地调试! 使用 `fabric` 进行管理, 支持的命令:
-
-    fab 
-    Available commands:
-
-        build       编译所有页面
-        deploy      向主机部署所有页面
-        reserve     重编译所有页面再启动本地服务
-        serve       启动本地服务 localhost:8000
-
-
-`注意!` 向主机部署,需要有相关权限,并在本地配置好对应 SSH 信息
-
 ### design
 
 基于 [pelican-bootstrap3](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3) 深度定制
@@ -108,7 +97,7 @@ main loop:
 提交你的贡献到`CPyUG / weekly`，先确保自己的仓库与上游仓库同步
 
     # 在 Fork 的代码库中添加上游代码库的 remote 源，（操作一次就可以，以后不必每次添加）
-    git remote add upstream https://gitcafe.com/CPyUG/weekly.git
+    git remote add upstream https://github.com/PyChina/weekly
 
     # 查看添加的上游仓库
     git remote -v
@@ -121,17 +110,16 @@ main loop:
     git remote update upstream
     git rebase upstream/master
 
-    # push代码到gitcafe
+    # push代码到 GitHub
     git push origin master
 
     # pull request
-    在自己gitcafe项目仓库下提交pull request到上游仓库
+    在自己 GitHub 项目仓库下提交pull request到上游仓库
 
- 
+
 
 ## changelog
 
 - 191028 ZQ 提醒本地发布环境
 - 190818 ZQ ++ CNZZ WA support
 - 131219 base pelican build and through qiniu.com publish
-
