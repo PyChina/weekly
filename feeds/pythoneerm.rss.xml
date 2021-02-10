@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 03 Feb 2021 12:38:34 +0800</lastBuildDate><item><title>Issue 458</title><link>https://weekly.pychina.org/issue/issue-458.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 10 Feb 2021 11:42:00 +0800</lastBuildDate><item><title>Issue 459</title><link>https://weekly.pychina.org/issue/issue-459.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;指导委员会接受 PEP 634&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/459"&gt;PyCoder's Weekly - Issue #459&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;210210 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;210210 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/5696/web"&gt;Python 的整数如何工作&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;VICTOR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python’s integer datatype is pretty different from most other languages because they allow arbitrary precision. Learn how integers work under the hood …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 10 Feb 2021 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-02-10:/issue/issue-459.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 458</title><link>https://weekly.pychina.org/issue/issue-458.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;老爹和爱豆在 Twitter 上的闲聊...&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/458"&gt;PyCoder's Weekly - Issue #458&lt;/a&gt;&lt;/p&gt;
