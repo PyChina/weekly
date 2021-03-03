@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 24 Feb 2021 11:42:00 +0800</lastBuildDate><item><title>Issue 461</title><link>https://weekly.pychina.org/issue/issue-461.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 03 Mar 2021 11:42:00 +0800</lastBuildDate><item><title>Issue 462</title><link>https://weekly.pychina.org/issue/issue-462.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;运行在火星直升机上&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/462"&gt;PyCoder's Weekly - Issue #462&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;210303 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;210303 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/5856/web"&gt;语义版本化不会挽救您&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;HYNEK SCHLAWACK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Semantic versioning aims to both communicate the version of software as well as promise that certain versions won’t break anything. Sounds great, right? In …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 03 Mar 2021 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-03-03:/issue/issue-462.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>pythonista-weekly : Pyw 488</title><link>https://weekly.pychina.org/python-weekly/pyw-488.html</link><description>&lt;h3&gt;欢迎阅读《pythonista周刊》第488期。Let us start!&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://mailchi.mp/pythonweekly/python-weekly-issue-488"&gt;https://mailchi.mp/pythonweekly/python-weekly-issue-488&lt;/a&gt;&lt;br&gt;
+翻译：Dustyposa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;来自赞助商（PS：原文的赞助商）:&lt;/strong&gt;
+&lt;a href="https://www.jetbrains.com/pycharm/promo/?utm_source=pythonweekly&amp;amp;utm_medium=cpc&amp;amp;utm_campaign=pycharm&amp;amp;utm_content=feb2021"&gt;PyCharm Pro&lt;/a&gt; is a smart Python IDE that simplifies complicated programming experiences with out-of-the-box support for Python web frameworks, frontend libraries, and databases. Use the discount code PYTHONWEEKLYFEB by the end of March …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Sat, 27 Feb 2021 16:25:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-02-27:/python-weekly/pyw-488.html</guid><category>python-weekly</category><category>Weekly</category><category>pythonweekly</category><category>Zh</category></item><item><title>Issue 461</title><link>https://weekly.pychina.org/issue/issue-461.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Happy Birthday, Python;-)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/461"&gt;PyCoder's Weekly - Issue #461&lt;/a&gt;&lt;/p&gt;
