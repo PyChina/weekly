@@ -366,6 +366,17 @@ Use line_profiler to see line-level execution time for your python code. It may 
 
 )
 
+- [如何持证 \(SSL\) 开车 — 蟒营™ 怂怼录](https://blog.101.camp/ts/190130-jump-into-ssl/)
+    + UPYUN
+
+(`是也乎:`
+
+私人初体验,
+现在 http/https 资源混用浏览器越来越傲娇了,
+最好有工具可以统一迁移...
+
+)
+
 
 # PS:
 - 首发: [Issue 462 ~蠎周刊 ~汇集全球蠎事儿 ;-)](http://weekly.pychina.org/issue/issue-462.html)
