@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 10 Mar 2021 11:42:00 +0800</lastBuildDate><item><title>Issue 463</title><link>https://weekly.pychina.org/issue/issue-463.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;???&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 10 Mar 2021 12:20:48 +0800</lastBuildDate><item><title>Issue 463</title><link>https://weekly.pychina.org/issue/issue-463.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;4000 个徦模块在 PyPI&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/463"&gt;PyCoder's Weekly - Issue #463&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
@@ -15,7 +15,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Recently, a PyPI user going by the name “Remind Supply Chain Risks” uploaded nearly 4000 fake modules to the index …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 10 Mar 2021 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-03-10:/issue/issue-463.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 462</title><link>https://weekly.pychina.org/issue/issue-462.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Recently, a PyPI user going by the name “Remind Supply Chain Risks” uploaded nearly 4000 fake modules …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 10 Mar 2021 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-03-10:/issue/issue-463.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 462</title><link>https://weekly.pychina.org/issue/issue-462.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;运行在火星直升机上&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/462"&gt;PyCoder's Weekly - Issue #462&lt;/a&gt;&lt;/p&gt;
