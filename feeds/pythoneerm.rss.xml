@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 10 Mar 2021 12:20:48 +0800</lastBuildDate><item><title>Issue 463</title><link>https://weekly.pychina.org/issue/issue-463.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 17 Mar 2021 11:42:00 +0800</lastBuildDate><item><title>Issue 464</title><link>https://weekly.pychina.org/issue/issue-464.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;模式匹配在 Pythonic&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/464"&gt;PyCoder's Weekly - Issue #464&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;210317 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;210317 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/5971/web"&gt;Pythonic 的模式匹配教程&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;RODRIGO GIRÃO SERRÃO &lt;/li&gt;
+&lt;li&gt;• Shared by Rodrigo Girão Serrão&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Structural pattern matching is coming in Python 3.10. This article explores how to use it to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 17 Mar 2021 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-03-17:/issue/issue-464.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 463</title><link>https://weekly.pychina.org/issue/issue-463.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;4000 个徦模块在 PyPI&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/463"&gt;PyCoder's Weekly - Issue #463&lt;/a&gt;&lt;/p&gt;
