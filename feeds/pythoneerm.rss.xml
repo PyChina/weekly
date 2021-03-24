@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 17 Mar 2021 11:42:00 +0800</lastBuildDate><item><title>Issue 464</title><link>https://weekly.pychina.org/issue/issue-464.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 24 Mar 2021 14:11:48 +0800</lastBuildDate><item><title>Issue 465</title><link>https://weekly.pychina.org/issue/issue-465.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;SQLAlchemy 1.4.0 发布&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/465"&gt;PyCoder's Weekly - Issue #465&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="http://ydlj.zoomquiet.top/ipic/2020-06-03-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;210324 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;210324 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/5980/web"&gt;Python 测试风格指南&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;STARGIRL FLOWERS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Need a quick yet thorough guide to testing? This excellent resource is for you.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;嗯哼?
+发生什么了?
+突然对 Python 工程测试叕热烈起来 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 24 Mar 2021 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-03-24:/issue/issue-465.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>Issue 464</title><link>https://weekly.pychina.org/issue/issue-464.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;模式匹配在 Pythonic&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/464"&gt;PyCoder's Weekly - Issue #464&lt;/a&gt;&lt;/p&gt;
