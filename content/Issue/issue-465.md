@@ -4,7 +4,7 @@ Date: 2021-03-24 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> SQLAlchemy 1.4.0 发布
+>  SQLAlchemy 1.4.0 发布
 
 
 原文: [PyCoder's Weekly - Issue #465](https://pycoders.com/issues/465)
