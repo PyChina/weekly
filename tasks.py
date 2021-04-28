@@ -22,6 +22,16 @@ def reserve(c):
     build(c)
     serve(c)
 
+def gh_up(c):
+    c.run('pwd && '
+          'git st && '
+          'git add --all . && '
+          'git ci -am "push all new words for markdoc build" && '
+          # 'git pu cafe gitcafe-page '
+          'git pu && '
+          'date '.format(**env)
+          )
+
 
 def gh_pages(c):
     c.run('cd {deploy_path} && '
@@ -38,6 +48,7 @@ def gh_pages(c):
 def pub(c):
     pull_data(c)
     build(c)
+    gh_up(c)
     # CNAME()
     gh_pages(c)
 
