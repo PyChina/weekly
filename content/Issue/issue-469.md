@@ -4,7 +4,7 @@ Date: 2021-04-21 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> ???
+> 200 行 Python 检验基本音乐理论
 
 
 原文: [PyCoder's Weekly - Issue #469](https://pycoders.com/issues/469)
