@@ -1,3 +1,7 @@
+__version__ = 'v.210526.1158'
+__author__ = 'Zoom.Quiet'
+__license__ = 'MIT@2021-05'
+
 import functools
 import os
 
@@ -8,6 +12,22 @@ from invoke import task
 env = {"input_path" : 'content'
     , "deploy_path" : 'output'
     }
+
+
+
+@task 
+def ver(c):
+    '''echo crt. verions
+    '''
+    print('\n ~> powded by {} <~'.format(__version__))
+
+#   support stuff func.
+def cd(c, path2, echo=True):
+    os.chdir(path2)
+    if echo:
+        print('\n\t crt. PATH ===')
+        c.run('pwd')
+        c.run('echo \n')
 
 
 def build(c):
@@ -34,9 +54,8 @@ def gh_up(c):
 
 
 def gh_pages(c):
-    c.run('cd {deploy_path} && '
-          'pwd && '
-          'git st && '
+    cd(c, env['deploy_path'])
+    c.run('git st && '
           'git add --all . && '
           'git ci -am "re-build from local by markdoc @MBP111216ZQ" && '
           # 'git pu cafe gitcafe-page '
