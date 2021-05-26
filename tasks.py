@@ -13,6 +13,8 @@ env = {"input_path" : 'content'
     , "deploy_path" : 'output'
     }
 
+SROOT = os.path.dirname(os.path.abspath(__file__))
+print(SROOT)
 
 
 @task 
@@ -62,6 +64,14 @@ def gh_pages(c):
           'git pu && '
           'date '.format(**env)
           )
+    cd(c, SROOT)
+
+def pull_data(c):
+    cd(c, env['deploy_path'])
+    c.run('git pull'.format(**env)
+    )
+    cd(c, SROOT)
+    
 
 @task
 def pub(c):
@@ -72,12 +82,6 @@ def pub(c):
     gh_pages(c)
 
 
-def pull_data(c):
-    c.run(
-        'cd {deploy_path} && '
-        'pwd && '
-        'git pull'.format(**env)
-    )
 
 
 '''
