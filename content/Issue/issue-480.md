@@ -4,7 +4,7 @@ Date: 2021-07-07 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> ??
+> 如何在 Python 中处理 JWT
 
 
 原文: [PyCoder's Weekly - Issue #480](https://pycoders.com/issues/480)
