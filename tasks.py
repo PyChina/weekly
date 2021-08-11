@@ -56,6 +56,8 @@ def gh_up(c):
 
 
 def gh_pages(c):
+    print(env['deploy_path'])
+    
     cd(c, env['deploy_path'])
     c.run('git st && '
           'git add --all . && '
