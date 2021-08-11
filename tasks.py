@@ -56,8 +56,8 @@ def gh_up(c):
 
 
 def gh_pages(c):
-    print(env['deploy_path'])
-    
+    #print(env['deploy_path'])
+
     cd(c, env['deploy_path'])
     c.run('git st && '
           'git add --all . && '
@@ -69,7 +69,7 @@ def gh_pages(c):
     cd(c, SROOT)
 
 def pull_data(c):
-    cd(c, env['deploy_path'])
+    #cd(c, env['deploy_path'])
     c.run('git pull'.format(**env)
     )
     cd(c, SROOT)
