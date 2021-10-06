@@ -158,7 +158,7 @@ In this course, you’ll learn to program rock paper scissors in Python from scr
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2021-09-29-ScreenShot%202021-09-29%2011.34.30.jpg)
+![Rock](https://ipic.zoomquiet.top/2021-09-29-ScreenShot%202021-09-29%2011.34.30.jpg)
 
 )
 
