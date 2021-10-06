@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 29 Sep 2021 11:58:38 +0800</lastBuildDate><item><title>PyCoder 492</title><link>https://weekly.pychina.org/issue/issue-492.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 06 Oct 2021 11:42:00 +0800</lastBuildDate><item><title>PyCoder 493</title><link>https://weekly.pychina.org/issue/issue-493.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Python 3.10 中值得尝试的新特性...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/493"&gt;PyCoder's Weekly - Issue #493&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;211006 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;211006 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/7151/web"&gt;Python 3.10: 炫酷特性值得尝试&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;REAL PYTHON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Explore some of the coolest and most useful features in Python 3.10. You’ll appreciate more user-friendly error …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 06 Oct 2021 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-10-06:/issue/issue-493.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>PyCoder 492</title><link>https://weekly.pychina.org/issue/issue-492.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Django 4.0 来了&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/492"&gt;PyCoder's Weekly - Issue #492&lt;/a&gt;&lt;/p&gt;
