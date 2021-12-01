@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 24 Nov 2021 11:42:00 +0800</lastBuildDate><item><title>PyCoder 500</title><link>https://weekly.pychina.org/issue/issue-500.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 01 Dec 2021 11:45:38 +0800</lastBuildDate><item><title>PyCoder 501</title><link>https://weekly.pychina.org/issue/issue-501.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;咱..应该停止庆祝无能&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/501"&gt;PyCoder's Weekly - Issue #501&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;211201 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;211201 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/7527/web"&gt;Python/后绑定(Late-Bound)默认参数值&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;JAKE EDGE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Python supports default values for arguments to functions, but those defaults are evaluated at function-definition time. A proposal to add defaults …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 01 Dec 2021 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2021-12-01:/issue/issue-501.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>PyCoder 500</title><link>https://weekly.pychina.org/issue/issue-500.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;500期了...从第一期开始没中断快译&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/500"&gt;PyCoder's Weekly - Issue #500&lt;/a&gt;&lt;/p&gt;
