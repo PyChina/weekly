@@ -4,7 +4,7 @@ Date: 2022-01-05 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> ????
+> 21 年 Django 开发者调查结果
 
 
 原文: [PyCoder's Weekly - Issue #506](https://pycoders.com/issues/506)
