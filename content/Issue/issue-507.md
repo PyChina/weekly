@@ -66,7 +66,7 @@ In this course, you’ll learn how to go from a local Python script to a fully d
 
 感觉现在 Django 和 Flask 文章的比例, 稳定在 5:1 左右
 
-![](https://ipic.zoomquiet.top/2022-01-12-zshot%202022-01-12%2010.41.35.jpg)
+![Flask](https://ipic.zoomquiet.top/2022-01-12-zshot%202022-01-12%2010.41.35.jpg)
 
 )
 
