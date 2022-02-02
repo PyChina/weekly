@@ -370,7 +370,7 @@ Discussing an interesting trick which adds support for infix operators in Python
 
 -------------
 
-好文笔,感叹号年度配额: **0/3**
+好文笔,感叹号年度配额: **1/3**
 
 投稿/反馈邮箱:
 
