@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 09 Feb 2022 12:28:58 +0800</lastBuildDate><item><title>PyCoder 511</title><link>https://weekly.pychina.org/issue/issue-511.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Thu, 17 Feb 2022 14:53:28 +0800</lastBuildDate><item><title>PyCoder 512</title><link>https://weekly.pychina.org/issue/issue-512.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Twisted 22.1.0 发布...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/512"&gt;PyCoder's Weekly - Issue #512&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;220217 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;220217 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/8019/web"&gt;文档 Unit Tests&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;SIMON WILLISON&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Interesting approach to keeping documentation and code in sync: introspecting the code to figure out what needs to be …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Thu, 17 Feb 2022 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2022-02-17:/issue/issue-512.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>PyCoder 511</title><link>https://weekly.pychina.org/issue/issue-511.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;简单将GraphQL接口添加到DRF应用程序&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/511"&gt;PyCoder's Weekly - Issue #511&lt;/a&gt;&lt;/p&gt;
