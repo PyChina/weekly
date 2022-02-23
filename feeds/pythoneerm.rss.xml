@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Thu, 17 Feb 2022 14:53:28 +0800</lastBuildDate><item><title>PyCoder 512</title><link>https://weekly.pychina.org/issue/issue-512.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 23 Feb 2022 10:17:40 +0800</lastBuildDate><item><title>PyCoder 513</title><link>https://weekly.pychina.org/issue/issue-513.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;百倍加速 Python API &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/513"&gt;PyCoder's Weekly - Issue #513&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;220222 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;220222 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/8092/web"&gt;如何优化 Python API 服务器代码 100x&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;VADIM MARKOVTSEV &lt;/li&gt;
+&lt;li&gt;• Shared by Vadim Markovtsev&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tricks we used to speed up calls to our analytical API written in Python: asyncio …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Tue, 22 Feb 2022 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2022-02-22:/issue/issue-513.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>PyCoder 512</title><link>https://weekly.pychina.org/issue/issue-512.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Twisted 22.1.0 发布...&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/512"&gt;PyCoder's Weekly - Issue #512&lt;/a&gt;&lt;/p&gt;
