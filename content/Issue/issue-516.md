@@ -57,7 +57,7 @@ Python 3.11 will be released in October 2022. This article explores the more pre
 
 带来更好的 error 信息
 
-![trackback](https://ipic.zoomquiet.top/2022-03-16-zshot%202022-03-16%2010.22.22.jpg)
+![trackback](https://ipic.zoomquiet.top/2022-03-16-zshot%202022-03-16%2010.23.14.jpg)
 
 )
 
