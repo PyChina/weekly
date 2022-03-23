@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 16 Mar 2022 11:42:00 +0800</lastBuildDate><item><title>PyCoder 516</title><link>https://weekly.pychina.org/issue/issue-516.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 23 Mar 2022 11:42:00 +0800</lastBuildDate><item><title>PyCoder 517</title><link>https://weekly.pychina.org/issue/issue-517.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Py 3.10.3/3.9.11/3.8.13/3.7.13 同时发布&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/517"&gt;PyCoder's Weekly - Issue #517&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;220323 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成快译&lt;/li&gt;
+&lt;li&gt;220323 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/8347/web"&gt;Python 列表与元组比拼&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;CHETAN AMBI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn how list and tuple are similar and how they are …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 23 Mar 2022 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2022-03-23:/issue/issue-517.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>PyCoder 516</title><link>https://weekly.pychina.org/issue/issue-516.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Python 3.11 新特性来了...&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/516"&gt;PyCoder's Weekly - Issue #516&lt;/a&gt;&lt;/p&gt;
