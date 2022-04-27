@@ -17,7 +17,7 @@ SROOT = os.path.dirname(os.path.abspath(__file__))
 print(SROOT)
 
 
-@task 
+@task
 def ver(c):
     '''echo crt. verions
     '''
@@ -33,6 +33,7 @@ def cd(c, path2, echo=True):
 
 
 def build(c):
+    print("\t>>> base Pelican build-out html")
     c.run('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
 
 
@@ -45,35 +46,38 @@ def reserve(c):
     serve(c)
 
 def gh_up(c):
+    print("\t>>> git pu all .md update")
     c.run('pwd && '
-          'git st && '
-          'git add --all . && '
-          'git ci -am "push all new words for markdoc build" && '
-          # 'git pu cafe gitcafe-page '
-          'git pu && '
-          'date '.format(**env)
-          )
+        'git st && '
+        'git add --all . && '
+        'git ci -am "push all new words for markdoc build" && '
+        # 'git pu cafe gitcafe-page '
+        'git pu && '
+        'date '.format(**env)
+        )
 
 
 def gh_pages(c):
+    print("\t>>> jump-into gh-pages to publish results")
     #print(env['deploy_path'])
-
     cd(c, env['deploy_path'])
-    c.run('git st && '
-          'git add --all . && '
-          'git ci -am "re-build from local by markdoc @MBP111216ZQ" && '
-          # 'git pu cafe gitcafe-page '
-          'git pu && '
-          'date '.format(**env)
-          )
+    c.run('pwd && ls &&'
+        'git st && '
+        'git add --all . && '
+        'git ci -am "re-build from local by markdoc @MBP111216ZQ" && '
+        # 'git pu cafe gitcafe-page '
+        'git pu && '
+        'date '.format(**env)
+        )
     cd(c, SROOT)
 
 def pull_data(c):
     #cd(c, env['deploy_path'])
+    print("\t>>> git pull all others doc.")
     c.run('git pull'.format(**env)
     )
     cd(c, SROOT)
-    
+
 
 @task
 def pub(c):
