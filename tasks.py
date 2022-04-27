@@ -61,8 +61,7 @@ def gh_pages(c):
     print("\t>>> jump-into gh-pages to publish results")
     #print(env['deploy_path'])
     cd(c, env['deploy_path'])
-    c.run('pwd && ls &&'
-        'git st && '
+    c.run('git st && '
         'git add --all . && '
         'git ci -am "re-build from local by markdoc @MBP111216ZQ" && '
         # 'git pu cafe gitcafe-page '
