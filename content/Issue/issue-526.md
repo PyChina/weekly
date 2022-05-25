@@ -183,10 +183,20 @@ In this video course, you’ll learn how class constructors work in Python. You�
 )
 
 
-- [开发人员对开发人员生产力的思考](https://pycoders.com/link/8772/web)
+- [开发人员对开发人员生产效能思考](https://pycoders.com/link/8772/web)
     + BEYANG LIU
 
 Measuring developer productivity is a challenge and often done by those outside the group. This article talks about developer “flow state” and how interruptions disrupt productivity.
+
+
+(`是也乎:`
+
+![生产效能](https://ipic.zoomquiet.top/2022-05-17-220518-dev-inner-outer-loop.jpg)
+
+扎心了老铁...
+
+)
+
 
 
 - [将 GraphQL 添加到您的 Django 应用程序](https://pycoders.com/link/8746/web)
