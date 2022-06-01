@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎周刊 161: PYCON 2015"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-161.html"/>
-            <meta property="og:description" content="原文: Pycoder&#39;s Weekly (Issue #161): PYCON 2015 搜罗Py万物 的周刊 亲, Mahdi is at PYCON 2015 in Montreal! Say hi if you see him! Now on to the newsletter 大家多分享文章 俺们才折腾的出又一周的美好呢. 喜欢就 在 Gratipay 支持俺们吧! 当然的,俺们也在twitter 新闻 PyCon APAC/Taiwan 2015 早鸟注册已经开放, 只到本月 21 号. pycon.org Shared …"/>
+            <meta property="og:description" content="原文: Pycoder&#39;s Weekly (Issue #161): PYCON 2015 搜罗Py万物 的周刊 亲, Mahdi is at PYCON 2015 in Montreal! Say hi if you see him! Now on to the newsletter 大家多分享文章 俺们才折腾的出又 …"/>
 
 
     <!-- Bootstrap -->
@@ -205,14 +205,13 @@ pip 不招人待见的事儿太多了,,
 <span class="s2">  &lt;div&gt;but Soupy loves you&lt;/div&gt;</span>
 <span class="s2">&lt;/div&gt;&quot;&quot;&quot;</span>
 
-<span class="k">print</span><span class="p">(</span><span class="n">Soupy</span><span class="p">(</span><span class="n">html</span><span class="p">)</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s1">&#39;main&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">children</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Soupy</span><span class="p">(</span><span class="n">html</span><span class="p">)</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s1">&#39;main&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">children</span>
       <span class="o">.</span><span class="n">each</span><span class="p">(</span><span class="n">Q</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span> <span class="c1"># extract text from each node, trim whitespace</span>
       <span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span>          <span class="c1"># remove empty strings</span>
       <span class="o">.</span><span class="n">val</span><span class="p">())</span>               <span class="c1"># dump out of Soupy</span>
 
 <span class="c1"># [&#39;The web is messy&#39;, &#39;and full of traps&#39;, &#39;but Soupy loves you&#39;]</span>
 </code></pre></div>
-
 
 <p>果断 jQ 样哪...</p>
 <p>)</p>

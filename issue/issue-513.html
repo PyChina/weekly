@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="PyCoder 513"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-513.html"/>
-            <meta property="og:description" content="百倍加速 Python API 原文: PyCoder&#39;s Weekly - Issue #513 220222 Zoom.Quiet(大妈) 用时 13 分钟 完成快译 220222 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. 如何优化 Python API 服务器代码 100x VADIM MARKOVTSEV • Shared by Vadim Markovtsev Tricks we used to speed up calls to our analytical API written in Python: asyncio …"/>
+            <meta property="og:description" content="百倍加速 Python API 原文: PyCoder&#39;s Weekly - Issue #513 220222 Zoom.Quiet(大妈) 用时 13 分钟 完成快译 220222 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. 如何优化 Python API 服务 …"/>
 
 
     <!-- Bootstrap -->
@@ -136,25 +136,24 @@
 <span class="k">class</span> <span class="nc">BirthInfo</span><span class="p">:</span>
     <span class="nd">@singledispatchmethod</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">birth_date</span><span class="p">):</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;unsupported date format: {birth_date}&quot;</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;unsupported date format: </span><span class="si">{</span><span class="n">birth_date</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 
-    <span class="nd">@__init__.register</span><span class="p">(</span><span class="n">date</span><span class="p">)</span>
+    <span class="nd">@__init__</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="n">date</span><span class="p">)</span>
     <span class="k">def</span> <span class="nf">_from_date</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">birth_date</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">date</span> <span class="o">=</span> <span class="n">birth_date</span>
 
-    <span class="nd">@__init__.register</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+    <span class="nd">@__init__</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
     <span class="k">def</span> <span class="nf">_from_isoformat</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">birth_date</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">date</span> <span class="o">=</span> <span class="n">date</span><span class="o">.</span><span class="n">fromisoformat</span><span class="p">(</span><span class="n">birth_date</span><span class="p">)</span>
 
-    <span class="nd">@__init__.register</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
-    <span class="nd">@__init__.register</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
+    <span class="nd">@__init__</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+    <span class="nd">@__init__</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
     <span class="k">def</span> <span class="nf">_from_timestamp</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">birth_date</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">date</span> <span class="o">=</span> <span class="n">date</span><span class="o">.</span><span class="n">fromtimestamp</span><span class="p">(</span><span class="n">birth_date</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">age</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span><span class="o">.</span><span class="n">year</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">year</span>
 </code></pre></div>
-
 
 <p>)</p>
 <ul>
@@ -209,28 +208,27 @@
 <blockquote>
 <p>How to run your website for less than $6/year.</p>
 </blockquote>
-<div class="highlight"><pre><span></span><code><span class="k">Domain</span>
-<span class="o">-</span> <span class="n">Namecheap</span>
+<div class="highlight"><pre><span></span><code>Domain
+- Namecheap
 
-<span class="k">FREE</span> <span class="k">Static</span> <span class="n">Site</span> <span class="n">hosting</span>
-<span class="o">-</span> <span class="n">Netlify</span>
-<span class="o">-</span> <span class="n">Vercel</span>
-<span class="o">-</span> <span class="n">Github</span> <span class="n">Pages</span>
-<span class="o">-</span> <span class="n">Render</span>
-<span class="o">-</span> <span class="n">Firebase</span> <span class="n">Hosting</span>
-<span class="o">-</span> <span class="n">Surge</span>
-<span class="o">-</span> <span class="n">Cloudflare</span> <span class="n">pages</span>
+FREE Static Site hosting
+- Netlify
+- Vercel
+- Github Pages
+- Render
+- Firebase Hosting
+- Surge
+- Cloudflare pages
 
-<span class="k">Free</span> <span class="n">DB</span>
-<span class="o">-</span> <span class="n">Supabase</span>
-<span class="o">-</span> <span class="n">Mongo</span> <span class="n">Atlas</span>
+Free DB
+- Supabase
+- Mongo Atlas
 
-<span class="k">FREE</span> <span class="n">Backend</span>
-<span class="o">-</span> <span class="n">Netlify</span> <span class="n">functions</span>
-<span class="o">-</span> <span class="n">Vercel</span>
-<span class="o">-</span> <span class="n">Google</span> <span class="n">functions</span>
+FREE Backend
+- Netlify functions
+- Vercel
+- Google functions
 </code></pre></div>
-
 
 <p>)</p>
 <hr>
@@ -398,7 +396,6 @@ example.com
 wikipedia.com
 </code></pre></div>
 
-
 <p>嗯哼? 这可是一直想拥有的管道能力哪...</p>
 <p>)</p>
 <ul>
@@ -479,13 +476,12 @@ wikipedia.com
 <p>去年开始有小伙伴加入承担 <code>pythonisa</code> 周刊的翻译,
 从来没提醒过, 可就这么默默坚持下来了...</p>
 <p>问为什么:</p>
-<div class="highlight"><pre><span></span><code><span class="err">[皱眉]每周新闻资讯 怎么能错过 </span>
-<span class="err">看看有什么新东西 </span>
-<span class="err">当有新的发现时：</span>
-<span class="err">    what f**k 还能这样玩？ 还有这东西？</span>
-<span class="err">    每周开彩蛋[吃瓜]</span>
+<div class="highlight"><pre><span></span><code>[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
 </code></pre></div>
-
 
 <p><code>无法同意更多</code>...
 很多社区贡献看起来辛苦,
@@ -494,9 +490,8 @@ wikipedia.com
 <hr>
 <p>好文笔,感叹号年度配额: <strong>1/3</strong></p>
 <p>投稿/反馈邮箱:</p>
-<div class="highlight"><pre><span></span><code><span class="err">askdama@googlegroups.com</span>
+<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>(邮件列表地址, 
 当成正常邮件发送邮件就好, 不用注册, 不用翻越...)</p>
@@ -513,7 +508,6 @@ wikipedia.com
         <span class="n">GDG珠海</span> <span class="p">(</span><span class="n">订阅号</span><span class="p">:</span> <span class="n">GDG</span><span class="o">-</span><span class="n">ZhuHai</span><span class="p">)</span>
         <span class="n">TFUG珠海</span> <span class="p">(</span><span class="n">订阅号</span><span class="p">:</span> <span class="n">ZH_TFUG</span><span class="p">)</span>
 </code></pre></div>
-
 
 <hr>
 

@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Issue 408"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-408.html"/>
-            <meta property="og:description" content="一起寻找完美的 Python 代码编辑器吧? 原文: PyCoder&#39;s Weekly - Issue #408 200205 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 200205 Zoom.Quiet(大妈) 用时 17 分钟 完成格式转抄. 寻找完美的Python代码编辑器 REAL PYTHON video Find your perfect Python development setup with this review of Python IDEs and code editors. Writing Python using IDLE or the Python …"/>
+            <meta property="og:description" content="一起寻找完美的 Python 代码编辑器吧? 原文: PyCoder&#39;s Weekly - Issue #408 200205 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 200205 Zoom.Quiet(大妈) 用时 17 分钟 完成格式转抄 …"/>
 
 
     <!-- Bootstrap -->
@@ -137,20 +137,18 @@
 <p>(<code>是也乎:</code></p>
 <p>老爹支持的一则草案
 希望将类似:</p>
-<div class="highlight"><pre><span></span><code><span class="err">button_1 = buttons[1]</span>
-<span class="err">...</span>
-<span class="err">@button_1.clicked.connect</span>
-<span class="err">def eggs():</span>
-<span class="err">    ...</span>
+<div class="highlight"><pre><span></span><code><span class="n">button_1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">buttons</span><span class="o">[</span><span class="n">1</span><span class="o">]</span><span class="w"></span>
+<span class="p">...</span><span class="w"></span>
+<span class="nv">@button_1</span><span class="p">.</span><span class="n">clicked</span><span class="p">.</span><span class="k">connect</span><span class="w"></span>
+<span class="n">def</span><span class="w"> </span><span class="n">eggs</span><span class="p">()</span><span class="err">:</span><span class="w"></span>
+<span class="w">    </span><span class="p">...</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>合理化为:</p>
-<div class="highlight"><pre><span></span><code><span class="err">@buttons[1].clicked.connect</span>
-<span class="err">def eggs():</span>
-<span class="err">    ...</span>
+<div class="highlight"><pre><span></span><code><span class="nv">@buttons</span><span class="o">[</span><span class="n">1</span><span class="o">]</span><span class="p">.</span><span class="n">clicked</span><span class="p">.</span><span class="k">connect</span><span class="w"></span>
+<span class="n">def</span><span class="w"> </span><span class="n">eggs</span><span class="p">()</span><span class="err">:</span><span class="w"></span>
+<span class="w">    </span><span class="p">...</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>)</p>
 <ul>
@@ -526,11 +524,10 @@
 </ul>
 <p>(<code>(￣▽￣)</code>:</p>
 <p>第五期已经开始报名:</p>
-<div class="highlight"><pre><span></span><code><span class="err">20.2.24 马上截止</span>
-<span class="err">20.3.1  正式开课</span>
-<span class="err">20.4.12 按时结束</span>
+<div class="highlight"><pre><span></span><code><span class="mf">20.2.24</span><span class="w"> </span><span class="n">马上截止</span><span class="w"></span>
+<span class="mf">20.3.1</span><span class="w">  </span><span class="n">正式开课</span><span class="w"></span>
+<span class="mf">20.4.12</span><span class="w"> </span><span class="n">按时结束</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>)</p>
 <ul>
@@ -558,22 +555,21 @@
 但是,万一呢? 期望大家及时, 自觉分散 clone 到全球每一个硬盘中,
 42年后, 我们才可能有真实的 snap 来回顾.</p>
 <p>项目结构</p>
-<div class="highlight"><pre><span></span><code><span class="err">├─archive                          文章的存档,目前提供jpg格式</span>
-<span class="err">│  └─jpg</span>
-<span class="err">│    ├─1.jpg</span>
-<span class="err">│    └─...</span>
-<span class="err">├─data                             csv格式的文章数据</span>
-<span class="err">│  └─data.csv</span>
-<span class="err">├─docs                             一个用于展示README的 Github Page</span>
-<span class="err">├─gh-page</span>
-<span class="err">├─template                         README模板</span>
-<span class="err">│  └─README.handlebars</span>
-<span class="err">├─utils                            构建README的工具</span>
-<span class="err">│  ├─generateReadmeFromCsv.js</span>
-<span class="err">│  └─...</span>
-<span class="err">└─README.md                        主文档</span>
+<div class="highlight"><pre><span></span><code>├─archive                          文章的存档,目前提供jpg格式
+│  └─jpg
+│    ├─1.jpg
+│    └─...
+├─data                             csv格式的文章数据
+│  └─data.csv
+├─docs                             一个用于展示README的 Github Page
+├─gh-page
+├─template                         README模板
+│  └─README.handlebars
+├─utils                            构建README的工具
+│  ├─generateReadmeFromCsv.js
+│  └─...
+└─README.md                        主文档
 </code></pre></div>
-
 
 <p>)</p>
 <h1>是也乎</h1>

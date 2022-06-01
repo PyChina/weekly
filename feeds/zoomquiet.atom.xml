@@ -5,25 +5,7 @@
 &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;...&lt;/p&gt;
 &lt;p&gt;&lt;img alt=";" src="https://0.gravatar.com/avatar/0cb9d9d7e6b152d24d2b78c6464502a6?d=https%3A%2F%2Fidenticons.github.com%2Fc0b8694f59232c6681a92c4c9fec3e18.png&amp;amp;r=x&amp;amp;s=440"&gt;&lt;/p&gt;
 &lt;h2&gt;为毛&lt;/h2&gt;
-&lt;p&gt;社区在发展, 原先的 蠎周刊,为方便,使用了 gitcafe 内置的 Jekyll 服务,
-所以,其实在使用 Ruby 自动编译和发布.&lt;/p&gt;
-&lt;p&gt;总是感觉不够纯粹 Pythonic ...&lt;/p&gt;
-&lt;p&gt;故而, 下决心完成迁移&lt;/p&gt;
-&lt;h1&gt;整体&lt;/h1&gt;
-&lt;p&gt;忽然发现,俺感觉很直觉的事儿,也写了文档,
-但是,其它人真正首次上手全然一头雾水...&lt;/p&gt;
-&lt;p&gt;所以
-&lt;a href="http://xiaolai.github.io/alpha/on-learning/"&gt;学习学习再学习 - xiaolai&lt;/a&gt;
-提出的,俺实在无法同意更多..&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Impossible_staircase" src="http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg"&gt;&lt;/p&gt;
-&lt;p&gt;这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
-用最直白的话来描述，就是：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;初级的知识需要对高级知识深入了解才能真正深入了解&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;——你看看这句话多拗口就多少有点概念了。&lt;/p&gt;
-&lt;p&gt;所以 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;社区在发展, 原先的 蠎周刊,为方便,使用了 gitcafe 内置的 Jekyll …&lt;/p&gt;</summary><content type="html">&lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h1&gt;如何从 Jekyll 转进入 Pelican&lt;/h1&gt;
 &lt;p&gt;简述静态网站从 Jekyll 环境中迁移为 纯 Python 
 &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;...&lt;/p&gt;
@@ -42,9 +24,8 @@
 &lt;p&gt;&lt;img alt="Impossible_staircase" src="http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg"&gt;&lt;/p&gt;
 &lt;p&gt;这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
 用最直白的话来描述，就是：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;初级的知识需要对高级知识深入了解才能真正深入了解&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;初级的知识需要对高级知识深入了解才能真正深入了解
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;——你看看这句话多拗口就多少有点概念了。&lt;/p&gt;
 &lt;p&gt;所以,还是按照 easy 模式来,
@@ -167,7 +148,6 @@ Python 世界中大堆静态网站发布工具中的一个,
     +- ...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;这样一来,目录,就不用进入 &lt;code&gt;output&lt;/code&gt; 目录进行 git 操作了
 平时的发布流程就是:&lt;/p&gt;
 &lt;ol&gt;
@@ -177,9 +157,8 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;li&gt;&lt;code&gt;fab pub2cafe&lt;/code&gt; 自动完成进入 &lt;code&gt;output&lt;/code&gt; 后的一系列 git 操作&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;对应的 配置中:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;#DELETE_OUTPUT_DIRECTORY = True&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;#DELETE_OUTPUT_DIRECTORY = True&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;就绝对不能打开注释
 不然 &lt;code&gt;output&lt;/code&gt; 目录清除,就没有了 &lt;code&gt;.git&lt;/code&gt; 也就无法发布了...&lt;/p&gt;
@@ -188,13 +167,12 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;h3&gt;DISQUS&lt;/h3&gt;
 &lt;p&gt;果断遇到了 DISQUS 配置了,不生效的问题,上下折腾, 才发现很多人都遇到了这个问题,
 追踪到代码:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html&lt;/span&gt;
-&lt;span class="c1"&gt;//...&lt;/span&gt;
-&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;disqus_shortname&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;{{ DISQUS_SITENAME }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;// required: replace example with your forum shortname&lt;/span&gt;
-&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;disqus_identifier&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;{{ article.slug }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;disqus_url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;{{ SITEURL }}/{{ article.url }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="c1"&gt;//...&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;disqus_shortname&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;{{ DISQUS_SITENAME }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;// required: replace example with your forum shortname&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;disqus_identifier&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;{{ article.slug }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="kd"&gt;var&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;disqus_url&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;{{ SITEURL }}/{{ article.url }}&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;才发现 &lt;code&gt;SITEURL&lt;/code&gt; 的配置是决定性的,
 一定要同 &lt;code&gt;DISQUS&lt;/code&gt; 申请时的一致;
@@ -209,9 +187,8 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;p&gt;fixed!&lt;/p&gt;
 &lt;h3&gt;CATEGORY_FEED_ATOM&lt;/h3&gt;
 &lt;p&gt;一时手賎,打开了:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="na"&gt;CATEGORY_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/%s.atom.xml&amp;#39;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="na"&gt;CATEGORY_FEED_ATOM&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;&amp;#39;feeds/%s.atom.xml&amp;#39;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;结果,发现不能在模板里简单的完成分类子 RSS 的链接!&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon-th icon-large&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;i&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Categories&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;h4&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
@@ -226,7 +203,6 @@ Python 世界中大堆静态网站发布工具中的一个,
     &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 {% endfor %}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;因为这儿的 &lt;code&gt;{{ cat }}&lt;/code&gt; 是分类的名称,可能包含大小写字母,
 而配置指导下生成的 RSS 文件是全小写的...&lt;/p&gt;
@@ -244,9 +220,8 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;p&gt;即好!&lt;/p&gt;
 &lt;h3&gt;TOC&lt;/h3&gt;
 &lt;p&gt;是的,以往 rST/t2t 时,甚至于 Word 时都有的 &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;TOC ~ 章节索引&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;TOC ~ 章节索引
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;肿么可以没有?!&lt;/p&gt;
 &lt;p&gt;果断: &lt;a href="https://github.com/getpelican/pelican-plugins/tree/master/extract_toc"&gt;pelican-plugins/extract_toc at master · getpelican/pelican-plugins&lt;/a&gt; &lt;/p&gt;
@@ -269,19 +244,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 &lt;p&gt;Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://code.google.com/p/openbookproject/"&gt;O.B.P&lt;/a&gt;
-(Open Book Proj.~中文蟒样开放图书计划)
-及
-蟒营(&lt;a href="http://code.google.com/p/kcpycamp/wiki/PythoniCamp"&gt;PythoniCamp&lt;/a&gt;)
-工程设计者 /主持人;
-参与并主持各种线上 / 线下活动;
-主持编撰了
-&lt;a href="http://book.douban.com/subject/3884108/"&gt;&amp;lt;&amp;lt;可爱的Python&amp;gt;&amp;gt;&lt;/a&gt;
-坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造...&lt;/p&gt;
-&lt;p&gt;目前就职于金山网络。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;G+:   https://plus.google.com/+ZoomQuiet/&lt;/li&gt;
-&lt;li&gt;Blog: http://blog.zoomquiet.org/&lt;/li&gt;
-&lt;li&gt;微博:  http://weibo.com/zoomquiet …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
+(Open Book Proj.~中文蟒样开 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="ZQ" src="http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png"&gt;&lt;/p&gt;
 &lt;p&gt;Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;

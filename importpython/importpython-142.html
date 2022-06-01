@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎加载 142"/>
             <meta property="og:url" content="https://weekly.pychina.org/importpython/importpython-142.html"/>
-            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 142 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... Python 3.7 有什么新的? new release This article explains the new features in Python 3.7, compared to 3.6. (是也乎: 因为老爹没有公司任务了, 所以,开始发力社区版本? ) 如何用 Python 生成 FiveThirtyEight 图表 …"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 142 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... Python 3.7 有什么新的? new release This article explains the new features …"/>
 
 
     <!-- Bootstrap -->
@@ -182,18 +182,17 @@
 <blockquote>
 <p>Equality vs Identity:</p>
 </blockquote>
-<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="ss">&quot;x&quot;</span><span class="p">,</span> <span class="ss">&quot;y&quot;</span><span class="p">]</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">b</span> <span class="o">=</span> <span class="n">a</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="k">c</span> <span class="o">=</span> <span class="p">[</span><span class="ss">&quot;x&quot;</span><span class="p">,</span> <span class="ss">&quot;y&quot;</span><span class="p">]</span>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; a = [&quot;x&quot;, &quot;y&quot;]
+&gt;&gt;&gt; b = a
+&gt;&gt;&gt; c = [&quot;x&quot;, &quot;y&quot;]
 
-<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">==</span> <span class="n">b</span> <span class="o">==</span> <span class="k">c</span>
-<span class="k">True</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="k">is</span> <span class="n">b</span>
-<span class="k">True</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="k">is</span> <span class="k">c</span>
-<span class="k">False</span>
+&gt;&gt;&gt; a == b == c
+True
+&gt;&gt;&gt; a is b
+True
+&gt;&gt;&gt; a is c
+False
 </code></pre></div>
-
 
 <p>所以, 这个 推 关注时间长了就怀疑人生了...</p>
 <p>不过,  logo 很萌...</p>
@@ -255,11 +254,10 @@
 <p>等等 <code>&lt; 3.6</code> ???</p>
 <p>为了将 fstrings 用在之前的版本中...
 这叫什么补丁来的?</p>
-<div class="highlight"><pre><span></span><code><span class="err"># -*- coding: future_fstrings -*-</span>
-<span class="err">thing = &#39;world&#39;</span>
-<span class="err">print(f&#39;hello {thing}&#39;)</span>
+<div class="highlight"><pre><span></span><code># -*- coding: future_fstrings -*-
+thing = &#39;world&#39;
+print(f&#39;hello {thing}&#39;)
 </code></pre></div>
-
 
 <p>)</p>
 <ul>
@@ -330,11 +328,10 @@
 <p>A timer for profiling a Python function or snippet. </p>
 <p>(<code>是也乎:</code></p>
 <p>输出的嗯哼:</p>
-<div class="highlight"><pre><span></span><code><span class="err">main (2507.00 ms)</span>
-<span class="err">├── sleep1 (1002.23 ms)</span>
-<span class="err">└── sleep2 (1504.77 ms)</span>
+<div class="highlight"><pre><span></span><code>main (2507.00 ms)
+├── sleep1 (1002.23 ms)
+└── sleep2 (1504.77 ms)
 </code></pre></div>
-
 
 <p>简单的说, 为了 CLI 中图形化的展示, 也是值得嗯哼的...</p>
 <p>)</p>
@@ -349,9 +346,8 @@
 <p>本大会以“大数据和人工智能技术的创新应用”为主题，将由丰富的内容和议题组成，着重探讨如何使用Python技术进行大数据和人工智能的技术开发和最佳实践，并结合具体的产品和行业发展趋势，分享不同类型的应用、场景下的开发和运营经验。</p>
 <p>...</p>
 <p>今年PyConChina2017将在两个城市举办，上海定档:</p>
-<div class="highlight"><pre><span></span><code><span class="err">2017年10月22日 8:30 ～ 17:00</span>
+<div class="highlight"><pre><span></span><code><span class="mf">2017</span><span class="n">年10月22日</span><span class="w"> </span><span class="mf">8</span><span class="p">:</span><span class="mf">30</span><span class="w"> </span><span class="err">～</span><span class="w"> </span><span class="mf">17</span><span class="p">:</span><span class="mf">00</span><span class="w"></span>
 </code></pre></div>
-
 
 <ul>
 <li><a href="http://www.huodongxing.com/event/3403439712600?td=8211933664158">【上海场】PyConChina2017</a></li>

@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎加载 135"/>
             <meta property="og:url" content="https://weekly.pychina.org/importpython/importpython-135.html"/>
-            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 135 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... Python 中测试重构实际一例 refactoring This post contains a step-by-step example of a refactoring session guided by tests. When dealing with untested or legacy code refactoring is dangerous and tests can …"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 135 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... Python 中测试重构实际一例 refactoring This post contains a step-by-step …"/>
 
 
     <!-- Bootstrap -->
@@ -153,13 +153,12 @@
 
 <span class="n">app</span> <span class="o">=</span> <span class="n">Quart</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
 
-<span class="nd">@app.route</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
-<span class="n">async</span> <span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
     <span class="k">return</span> <span class="s1">&#39;hello&#39;</span>
 
 <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </code></pre></div>
-
 
 <p>忒象 Bottle 了...</p>
 <p>)</p>

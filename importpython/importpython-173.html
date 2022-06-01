@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎加载 173"/>
             <meta property="og:url" content="https://weekly.pychina.org/importpython/importpython-173.html"/>
-            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 173 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... 集合理论与实践: Grok Pythonic收集类型 core-python, set Sets and logic are strongly related. That&#39;s why proper use of set operations can eliminate lots of nested loops and ifs, producing code that …"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 173 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... 集合理论与实践: Grok Pythonic收集类型 core-python, set Sets …"/>
 
 
     <!-- Bootstrap -->
@@ -152,19 +152,18 @@
 <p>(<code>是也乎:</code></p>
 <p><img alt="Nim" src="https://nim-lang.org/assets/img/logo.svg"></p>
 <p><a href="https://nim-lang.org/">Nim programming language | Nim</a> ~ 叕一个长的象 Py 但是更快的通用语言....</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Compute average line length</span>
-<span class="k">var</span>
-  <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span>
-  <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Compute average line length</span><span class="w"></span>
+<span class="k">var</span><span class="w"></span>
+<span class="w">  </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
+<span class="w">  </span><span class="n">count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
 
-<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">stdin</span><span class="o">.</span><span class="n">lines</span><span class="p">:</span>
-  <span class="n">sum</span> <span class="o">+=</span> <span class="n">line</span><span class="o">.</span><span class="n">len</span>
-  <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">for</span><span class="w"> </span><span class="n">line</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">stdin</span><span class="o">.</span><span class="n">lines</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="n">sum</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">line</span><span class="o">.</span><span class="n">len</span><span class="w"></span>
+<span class="w">  </span><span class="n">count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
 
-<span class="n">echo</span><span class="p">(</span><span class="s2">&quot;Average line length: &quot;</span><span class="p">,</span>
-     <span class="k">if</span> <span class="n">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span> <span class="n">sum</span> <span class="o">/</span> <span class="n">count</span> <span class="k">else</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">echo</span><span class="p">(</span><span class="s2">&quot;Average line length: &quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">     </span><span class="k">if</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">:</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="k">else</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>问题是, Numpy/Pandas/Jupyter/... 等等组成的数据科学生态,
 Nim 语言根本无从对应生态来 PK ,

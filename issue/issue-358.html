@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Issue 358"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-358.html"/>
-            <meta property="og:description" content="原文: PyCoder&#39;s Weekly - Issue #358 PEP 584: 在内置 Dict 类中添加+和 - 运算符 PYTHON.ORG This PEP suggests adding merge + and difference - operators to the built-in dict class. The merge operator will have the same relationship to the dict.update method as the list concatenation operator has to list.extend, with …"/>
+            <meta property="og:description" content="原文: PyCoder&#39;s Weekly - Issue #358 PEP 584: 在内置 Dict 类中添加+和 - 运算符 PYTHON.ORG This PEP suggests adding merge + and difference - operators to the built-in dict class. The merge operator will have the same relationship to the dict.update method as the …"/>
 
 
     <!-- Bootstrap -->
@@ -107,14 +107,13 @@
 <p>This PEP suggests adding merge + and difference - operators to the built-in dict class. The merge operator will have the same relationship to the dict.update method as the list concatenation operator has to list.extend, with dict difference being defined analogously. I think this is a pretty cool feature suggestion. Related discussion here.</p>
 <p>(<code>是也乎:</code></p>
 <p>简单说, 用直觉计算符号来操作最常用的 dict 对象...</p>
-<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;spam&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;eggs&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;cheese&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;cheese&#39;</span><span class="p">:</span> <span class="s1">&#39;cheddar&#39;</span><span class="p">,</span> <span class="s1">&#39;aardvark&#39;</span><span class="p">:</span> <span class="s1">&#39;Ethel&#39;</span><span class="p">}</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">+</span> <span class="n">e</span>
-<span class="p">{</span><span class="s1">&#39;spam&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;eggs&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;cheese&#39;</span><span class="p">:</span> <span class="s1">&#39;cheddar&#39;</span><span class="p">,</span> <span class="s1">&#39;aardvark&#39;</span><span class="p">:</span> <span class="s1">&#39;Ethel&#39;</span><span class="p">}</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span> <span class="o">+</span> <span class="n">d</span>
-<span class="p">{</span><span class="s1">&#39;cheese&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;aardvark&#39;</span><span class="p">:</span> <span class="s1">&#39;Ethel&#39;</span><span class="p">,</span> <span class="s1">&#39;spam&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;eggs&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">d</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="s1">&#39;spam&#39;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;eggs&#39;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;cheese&#39;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">}</span><span class="w"></span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="s1">&#39;cheese&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;cheddar&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;aardvark&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;Ethel&#39;</span><span class="p">}</span><span class="w"></span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">d</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">e</span><span class="w"></span>
+<span class="p">{</span><span class="s1">&#39;spam&#39;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;eggs&#39;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;cheese&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;cheddar&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;aardvark&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;Ethel&#39;</span><span class="p">}</span><span class="w"></span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">e</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">d</span><span class="w"></span>
+<span class="p">{</span><span class="s1">&#39;cheese&#39;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;aardvark&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;Ethel&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;spam&#39;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;eggs&#39;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">}</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>)</p>
 <ul>
@@ -370,13 +369,12 @@
 </li>
 </ul>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code><span class="err">git+https://github.com/jaybaird/python-bloomfilter/</span>
-<span class="err">justext</span>
-<span class="err">unidecode</span>
-<span class="err">tldextract</span>
-<span class="err">requests</span>
+<div class="highlight"><pre><span></span><code>git+https://github.com/jaybaird/python-bloomfilter/
+justext
+unidecode
+tldextract
+requests
 </code></pre></div>
-
 
 <p>依赖很少</p>
 <p>)</p>

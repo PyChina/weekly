@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Elixir Weekly #142"/>
             <meta property="og:url" content="https://weekly.pychina.org/elixirweekly/elixirweekly-142.html"/>
-            <meta property="og:description" content="原文: ElixirWeekly - Elixir Community Newsletter, one email every Thursday. Visual Programming with Elixir: Learning to Write Binary Parsers by @elixirstatus 这周不老药 This week in Elixir Function/Method 查找在 Elixir/Ruby Edison thought GenServer function injections were done through inheritance and discovered the inner workings of defoverridable! (是也乎: 这还用比较嘛? 海量 end …"/>
+            <meta property="og:description" content="原文: ElixirWeekly - Elixir Community Newsletter, one email every Thursday. Visual Programming with Elixir: Learning to Write Binary Parsers by @elixirstatus 这周不老药 This week in Elixir Function/Method 查找在 Elixir/Ruby Edison thought GenServer function injections were done through inheritance and discovered the inner …"/>
 
 
     <!-- Bootstrap -->
@@ -136,18 +136,17 @@
 <p>Keeping state consistency while running an Elixir application on many servers.</p>
 <p>(<code>是也乎:</code></p>
 <p>日常技巧...</p>
-<div class="highlight"><pre><span></span><code><span class="err">+--------------------+</span>
-<span class="err">| APP SUPERVISOR     |</span>
-<span class="err">+---------+----------+</span>
-<span class="err">          |</span>
-<span class="err">          |</span>
-<span class="err">+---------v----------+         +-----------+            +-----------+</span>
-<span class="err">| WORKER SUPERVISOR  +---------&gt; WORKERS   | + &lt;--------&gt; DATABASE  |</span>
-<span class="err">+--------------------+         +-----------+ | |        +-----------+</span>
-<span class="err">                                +------------+ |</span>
-<span class="err">                                 +-------------+</span>
+<div class="highlight"><pre><span></span><code><span class="nb">+--------------------+</span><span class="c"></span>
+<span class="c">| APP SUPERVISOR     |</span>
+<span class="nb">+---------+----------+</span><span class="c"></span>
+<span class="c">          |</span>
+<span class="c">          |</span>
+<span class="nb">+---------</span><span class="c">v</span><span class="nb">----------+</span><span class="c">         </span><span class="nb">+-----------+</span><span class="c">            </span><span class="nb">+-----------+</span><span class="c"></span>
+<span class="c">| WORKER SUPERVISOR  </span><span class="nb">+---------</span><span class="nv">&gt;</span><span class="c"> WORKERS   | </span><span class="nb">+</span><span class="c"> </span><span class="nv">&lt;</span><span class="nb">--------</span><span class="nv">&gt;</span><span class="c"> DATABASE  |</span>
+<span class="nb">+--------------------+</span><span class="c">         </span><span class="nb">+-----------+</span><span class="c"> | |        </span><span class="nb">+-----------+</span><span class="c"></span>
+<span class="c">                                </span><span class="nb">+------------+</span><span class="c"> |</span>
+<span class="c">                                 </span><span class="nb">+-------------+</span><span class="c"></span>
 </code></pre></div>
-
 
 <p>)</p>
 <ul>

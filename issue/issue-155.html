@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎周刊 155: Nimoy"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-155.html"/>
-            <meta property="og:description" content="原文: Pycoder&#39;s Weekly (Issue #155): Nimoy 搜罗Py万物 的周刊 亲, 大家多分享文章 俺们才折腾的出又一周的美好呢. 喜欢就 在 Gratipay 支持俺们吧! 当然的,俺们也在twitter 新闻 Pytest Month 就在四月 Pytest 在小伙伴们的帮助下,准备在四月正式发布了. 详细链接中, 如果你的项目需要靠谱测试组件的,应该关注了! pytest.org Shared by @mgrouchy Pyston 0.3: 自举充分 Pyston 0.3 已经发布, 所有内部脚本已经完全自我驱动. 对于全新的 Python 实现, 这是一个巨大的里程碑. pyston.org Shared …"/>
+            <meta property="og:description" content="原文: Pycoder&#39;s Weekly (Issue #155): Nimoy 搜罗Py万物 的周刊 亲, 大家多分享文章 俺们才折腾的出又一周的美好呢. 喜欢就 在 Gratipay 支持俺们吧! 当然的 …"/>
 
 
     <!-- Bootstrap -->
@@ -166,22 +166,22 @@ python 完成的, 简洁和一致的.</p>
 <p>Shared by @myusuf3</p>
 <p>(<code>是也乎:</code></p>
 <p>可引入  IPython, 能自动完成!</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="ch">#!/usr/bin/env python</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="ch">#!/usr/bin/env python</span>
 <span class="c1"># PYTHON_ARGCOMPLETE_OK</span>
 <span class="kn">import</span> <span class="nn">argcomplete</span><span class="o">,</span> <span class="nn">argparse</span><span class="o">,</span> <span class="nn">requests</span><span class="o">,</span> <span class="nn">pprint</span>
 
@@ -197,13 +197,11 @@ python 完成的, 简洁和一致的.</p>
 <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
 
 <span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;https://api.github.com/users/</span><span class="si">{m}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">m</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">member</span><span class="p">))</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 
 <p>然后就能:</p>
-<div class="highlight"><pre><span></span><code><span class="err">./describe_github_user.py --organization heroku --member &lt;TAB&gt;</span>
+<div class="highlight"><pre><span></span><code>./describe_github_user.py --organization heroku --member &lt;TAB&gt;
 </code></pre></div>
-
 
 <p>)</p>
 <ul>

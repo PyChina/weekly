@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎加载 30"/>
             <meta property="og:url" content="https://weekly.pychina.org/importpython/importpython-30.html"/>
-            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 30 该读 ~ 文章, Blog, 教程... 亲爱的Python:致Python和Python社区的一封信 python 老爹推荐,你值得拥有 Django测试的最佳方式和案例 - Part 1 django 测试可以帮助你构建优秀的代码,发现错误,在documentation.In这篇文章中,在看案例之前我们将首先看一个简单的介绍,其中包括最佳实践. 本日播客: 和Mike Bayer一起通过Python使用SQLAlchemy访问数据 sql, podcast 本期播客我们将和Mike Bayer对话.Mike在2005年创建了SQLAlchemy,并在过去的10年里不断完善了这个令人赞叹的RDBMS ORM和数据访问层. 你的Django故事: 与Lieke Boon相遇 django, interview Lieke是European Codeweek的荷兰大使,同时也是阿姆斯特丹Rails Girls和PyLadies活动的组织者.她是一名历史学家,开发者. 现在工作于VHTO,一个荷兰的女性科学技术专家组织 …"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 30 该读 ~ 文章, Blog, 教程... 亲爱的Python:致Python和Python社区的一封信 python 老爹推荐,你值得拥有 Django测试的最佳方式和案 …"/>
 
 
     <!-- Bootstrap -->
@@ -244,47 +244,46 @@
 <p>基于Python功能组合的递归下降解析器. 解析器组合都只是高阶函数,把分析器作为它们的参数,并将其退回的结果值. </p>
 <p>(<code>是也乎:</code></p>
 <p>嗯啍! 这才是格调!</p>
-<div class="highlight"><pre><span></span><code> <span class="n">def</span> <span class="n">parse</span><span class="p">(</span><span class="n">seq</span><span class="p">):</span>
- <span class="s1">&#39;Sequence(Token) -&gt; object&#39;</span>
- <span class="o">...</span>
- <span class="n">n</span> <span class="o">=</span> <span class="n">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="n">a</span><span class="p">(</span><span class="n">Token</span><span class="p">(</span><span class="s1">&#39;Name&#39;</span><span class="p">,</span> <span class="n">s</span><span class="p">))</span> <span class="o">&gt;&gt;</span> <span class="n">tokval</span>
- <span class="n">def</span> <span class="n">make_array</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
- <span class="k">if</span> <span class="n">n</span> <span class="k">is</span> <span class="n">None</span><span class="p">:</span>
- <span class="k">return</span> <span class="p">[]</span>
- <span class="k">else</span><span class="p">:</span>
- <span class="k">return</span> <span class="p">[</span><span class="n">n</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">+</span> <span class="n">n</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
- <span class="o">...</span>
- <span class="nb nb-Type">null</span> <span class="o">=</span> <span class="n">n</span><span class="p">(</span><span class="s1">&#39;null&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="k">const</span><span class="p">(</span><span class="n">None</span><span class="p">)</span>
- <span class="bp">true</span> <span class="o">=</span> <span class="n">n</span><span class="p">(</span><span class="s1">&#39;true&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="k">const</span><span class="p">(</span><span class="n">True</span><span class="p">)</span>
- <span class="bp">false</span> <span class="o">=</span> <span class="n">n</span><span class="p">(</span><span class="s1">&#39;false&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="k">const</span><span class="p">(</span><span class="n">False</span><span class="p">)</span>
- <span class="n">number</span> <span class="o">=</span> <span class="n">toktype</span><span class="p">(</span><span class="s1">&#39;Number&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="n">make_number</span>
- <span class="n">string</span> <span class="o">=</span> <span class="n">toktype</span><span class="p">(</span><span class="s1">&#39;String&#39;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="n">make_string</span>
- <span class="n">value</span> <span class="o">=</span> <span class="n">forward_decl</span><span class="p">()</span>
- <span class="n">member</span> <span class="o">=</span> <span class="n">string</span> <span class="o">+</span> <span class="n">op_</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">value</span> <span class="o">&gt;&gt;</span> <span class="n">tuple</span>
- <span class="n">object</span> <span class="o">=</span> <span class="p">(</span>
-         <span class="n">op_</span><span class="p">(</span><span class="s1">&#39;{&#39;</span><span class="p">)</span> <span class="o">+</span>
-         <span class="n">maybe</span><span class="p">(</span><span class="n">member</span> <span class="o">+</span> <span class="n">many</span><span class="p">(</span><span class="n">op_</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">member</span><span class="p">))</span> <span class="o">+</span>
-         <span class="n">op_</span><span class="p">(</span><span class="s1">&#39;}&#39;</span><span class="p">)</span>
-         <span class="o">&gt;&gt;</span> <span class="n">make_object</span><span class="p">)</span>
- <span class="n">array</span> <span class="o">=</span> <span class="p">(</span>
-         <span class="n">op_</span><span class="p">(</span><span class="s1">&#39;[&#39;</span><span class="p">)</span> <span class="o">+</span>
-         <span class="n">maybe</span><span class="p">(</span><span class="n">value</span> <span class="o">+</span> <span class="n">many</span><span class="p">(</span><span class="n">op_</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">value</span><span class="p">))</span> <span class="o">+</span>
-         <span class="n">op_</span><span class="p">(</span><span class="s1">&#39;]&#39;</span><span class="p">)</span>
-         <span class="o">&gt;&gt;</span> <span class="n">make_array</span><span class="p">)</span>
- <span class="n">value</span><span class="o">.</span><span class="n">define</span><span class="p">(</span>
-         <span class="nb nb-Type">null</span>
-         <span class="o">|</span> <span class="bp">true</span>
-         <span class="o">|</span> <span class="bp">false</span>
-         <span class="o">|</span> <span class="n">object</span>
-         <span class="o">|</span> <span class="n">array</span>
-         <span class="o">|</span> <span class="n">number</span>
-         <span class="o">|</span> <span class="n">string</span><span class="p">)</span>
-<span class="n">json_text</span> <span class="o">=</span> <span class="n">object</span> <span class="o">|</span> <span class="n">array</span>
-<span class="n">json_file</span> <span class="o">=</span> <span class="n">json_text</span> <span class="o">+</span> <span class="n">skip</span><span class="p">(</span><span class="n">finished</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="w"> </span><span class="n">def</span><span class="w"> </span><span class="n">parse</span><span class="p">(</span><span class="n">seq</span><span class="p">):</span><span class="w"></span>
+<span class="w"> </span><span class="s1">&#39;Sequence(Token) -&gt; object&#39;</span><span class="w"></span>
+<span class="w"> </span><span class="o">...</span><span class="w"></span>
+<span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lambda</span><span class="w"> </span><span class="n">s</span><span class="p">:</span><span class="w"> </span><span class="n">a</span><span class="p">(</span><span class="n">Token</span><span class="p">(</span><span class="s1">&#39;Name&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">s</span><span class="p">))</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">tokval</span><span class="w"></span>
+<span class="w"> </span><span class="n">def</span><span class="w"> </span><span class="n">make_array</span><span class="p">(</span><span class="n">n</span><span class="p">):</span><span class="w"></span>
+<span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">None</span><span class="p">:</span><span class="w"></span>
+<span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="p">[]</span><span class="w"></span>
+<span class="w"> </span><span class="k">else</span><span class="p">:</span><span class="w"></span>
+<span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="p">[</span><span class="n">n</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">n</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="w"></span>
+<span class="w"> </span><span class="o">...</span><span class="w"></span>
+<span class="w"> </span><span class="nb nb-Type">null</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">(</span><span class="s1">&#39;null&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">const</span><span class="p">(</span><span class="n">None</span><span class="p">)</span><span class="w"></span>
+<span class="w"> </span><span class="bp">true</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">(</span><span class="s1">&#39;true&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">const</span><span class="p">(</span><span class="n">True</span><span class="p">)</span><span class="w"></span>
+<span class="w"> </span><span class="bp">false</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">(</span><span class="s1">&#39;false&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="k">const</span><span class="p">(</span><span class="n">False</span><span class="p">)</span><span class="w"></span>
+<span class="w"> </span><span class="n">number</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">toktype</span><span class="p">(</span><span class="s1">&#39;Number&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">make_number</span><span class="w"></span>
+<span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">toktype</span><span class="p">(</span><span class="s1">&#39;String&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">make_string</span><span class="w"></span>
+<span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">forward_decl</span><span class="p">()</span><span class="w"></span>
+<span class="w"> </span><span class="n">member</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">op_</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">tuple</span><span class="w"></span>
+<span class="w"> </span><span class="n">object</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="w"></span>
+<span class="w">         </span><span class="n">op_</span><span class="p">(</span><span class="s1">&#39;{&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"></span>
+<span class="w">         </span><span class="n">maybe</span><span class="p">(</span><span class="n">member</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">many</span><span class="p">(</span><span class="n">op_</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">member</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"></span>
+<span class="w">         </span><span class="n">op_</span><span class="p">(</span><span class="s1">&#39;}&#39;</span><span class="p">)</span><span class="w"></span>
+<span class="w">         </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">make_object</span><span class="p">)</span><span class="w"></span>
+<span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="w"></span>
+<span class="w">         </span><span class="n">op_</span><span class="p">(</span><span class="s1">&#39;[&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"></span>
+<span class="w">         </span><span class="n">maybe</span><span class="p">(</span><span class="n">value</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">many</span><span class="p">(</span><span class="n">op_</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">value</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"></span>
+<span class="w">         </span><span class="n">op_</span><span class="p">(</span><span class="s1">&#39;]&#39;</span><span class="p">)</span><span class="w"></span>
+<span class="w">         </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">make_array</span><span class="p">)</span><span class="w"></span>
+<span class="w"> </span><span class="n">value</span><span class="o">.</span><span class="n">define</span><span class="p">(</span><span class="w"></span>
+<span class="w">         </span><span class="nb nb-Type">null</span><span class="w"></span>
+<span class="w">         </span><span class="o">|</span><span class="w"> </span><span class="bp">true</span><span class="w"></span>
+<span class="w">         </span><span class="o">|</span><span class="w"> </span><span class="bp">false</span><span class="w"></span>
+<span class="w">         </span><span class="o">|</span><span class="w"> </span><span class="n">object</span><span class="w"></span>
+<span class="w">         </span><span class="o">|</span><span class="w"> </span><span class="n">array</span><span class="w"></span>
+<span class="w">         </span><span class="o">|</span><span class="w"> </span><span class="n">number</span><span class="w"></span>
+<span class="w">         </span><span class="o">|</span><span class="w"> </span><span class="n">string</span><span class="p">)</span><span class="w"></span>
+<span class="n">json_text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">object</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">array</span><span class="w"></span>
+<span class="n">json_file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">json_text</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">skip</span><span class="p">(</span><span class="n">finished</span><span class="p">)</span><span class="w"></span>
 
-<span class="k">return</span> <span class="n">json_file</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span>
+<span class="k">return</span><span class="w"> </span><span class="n">json_file</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>目测,有关特性,赖总早已自行折腾过.</p>
 <p>)</p>

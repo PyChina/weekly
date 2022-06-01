@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎加载 127"/>
             <meta property="og:url" content="https://weekly.pychina.org/importpython/importpython-127.html"/>
-            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 127 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... Python 函式不是你所想咯 core-python, functions Python functions cannot have names. In this world view, every function is a nameless, anonymous object. Code like &#34;def to_percent(numbers)&#34; creates a nameless function …"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 127 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... Python 函式不是你所想咯 core-python, functions Python functions cannot have names …"/>
 
 
     <!-- Bootstrap -->
@@ -203,21 +203,19 @@
 </ul>
 <p>(<code>是也乎:</code></p>
 <p>就两行代码:</p>
-<div class="highlight"><pre><span></span><code><span class="s s-Atom">def</span> <span class="nf">to_idx</span><span class="p">(</span><span class="s s-Atom">letters</span><span class="p">)</span><span class="s s-Atom">:</span>
-    <span class="s s-Atom">val</span> <span class="o">=</span> <span class="s s-Atom">lambda</span> <span class="s s-Atom">i</span><span class="p">,</span> <span class="nn">x</span><span class="p">:</span> <span class="p">(</span><span class="mi">26</span><span class="s s-Atom">**i</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="nf">ord</span><span class="p">(</span><span class="s s-Atom">x</span><span class="p">.</span><span class="nf">lower</span><span class="p">())</span> <span class="o">-</span> <span class="nf">ord</span><span class="p">(</span><span class="s s-Atom">&#39;a&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-    <span class="s s-Atom">return</span> <span class="nf">sum</span><span class="p">([</span><span class="nf">val</span><span class="p">(</span><span class="s s-Atom">i</span><span class="p">,</span> <span class="s s-Atom">x</span><span class="p">)</span> <span class="s s-Atom">for</span> <span class="s s-Atom">i</span><span class="p">,</span> <span class="s s-Atom">x</span> <span class="s s-Atom">in</span> <span class="nf">enumerate</span><span class="p">(</span><span class="s s-Atom">letters</span><span class="p">[</span><span class="s s-Atom">::-</span><span class="mi">1</span><span class="p">])])</span> <span class="o">-</span> <span class="mi">1</span>
+<div class="highlight"><pre><span></span><code><span class="s s-Atom">def</span> <span class="nf">to_idx</span><span class="p">(</span><span class="s s-Atom">letters</span><span class="p">)</span><span class="o">:</span>
+    <span class="nb">val</span> <span class="o">=</span> <span class="s s-Atom">lambda</span> <span class="s s-Atom">i</span><span class="p">,</span> <span class="s s-Atom">x</span><span class="p">:</span> <span class="p">(</span><span class="mi">26</span><span class="s s-Atom">**i</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="nf">ord</span><span class="p">(</span><span class="s s-Atom">x</span><span class="p">.</span><span class="nf">lower</span><span class="p">())</span> <span class="o">-</span> <span class="nf">ord</span><span class="p">(</span><span class="s s-Atom">&#39;a&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="s s-Atom">return</span> <span class="nf">sum</span><span class="p">([</span><span class="nb">val</span><span class="p">(</span><span class="s s-Atom">i</span><span class="p">,</span> <span class="s s-Atom">x</span><span class="p">)</span> <span class="s s-Atom">for</span> <span class="s s-Atom">i</span><span class="p">,</span> <span class="s s-Atom">x</span> <span class="s s-Atom">in</span> <span class="nf">enumerate</span><span class="p">(</span><span class="s s-Atom">letters</span><span class="p">[</span><span class="o">::-</span><span class="mi">1</span><span class="p">])])</span> <span class="o">-</span> <span class="mi">1</span>
 </code></pre></div>
-
 
 <p>效果:</p>
-<div class="highlight"><pre><span></span><code><span class="err">&gt;&gt;&gt; to_idx(&#39;A&#39;)</span>
-<span class="err">0</span>
-<span class="err">&gt;&gt;&gt; to_idx(&#39;AH&#39;)</span>
-<span class="err">33</span>
-<span class="err">&gt;&gt;&gt; to_idx(&#39;XFD&#39;)</span>
-<span class="err">16383</span>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; to_idx(&#39;A&#39;)
+0
+&gt;&gt;&gt; to_idx(&#39;AH&#39;)
+33
+&gt;&gt;&gt; to_idx(&#39;XFD&#39;)
+16383
 </code></pre></div>
-
 
 <p>)</p>
 <ul>
@@ -288,7 +286,6 @@ Scientific One-Liner Interactive GUI Library</li>
 <span class="o">...</span>    <span class="n">plot</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">:</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="kp">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">),</span> 
 <span class="o">...</span>    <span class="n">np</span><span class="o">.</span><span class="kp">sin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="kp">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">**</span><span class="n">a</span><span class="p">)</span> <span class="o">+</span> <span class="n">b</span><span class="o">/</span><span class="n">a</span><span class="p">]))</span>
 </code></pre></div>
-
 
 <p><img alt="using_numpy_matplotlib" src="https://github.com/ac1235/python-QuickUI/raw/master/Gallery/using_numpy_matplotlib.png"></p>
 <p>这种界面除了程序猿,无人能忍的...</p>

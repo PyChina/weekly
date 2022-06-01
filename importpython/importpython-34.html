@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎加载 34"/>
             <meta property="og:url" content="https://weekly.pychina.org/importpython/importpython-34.html"/>
-            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 34 该读 ~ 文章, Blog, 教程... Python 实现的 Redis样数据库 redis Rlite 之于 Redis ,就象 SQLite 和 Postgresql. 意味着, 可以提供一个 Redis 功能相同的无服务器数据库, 轻易嵌入到你的应用中. Djangui django, core python 为你的应用, 提供 Django 支持的界面. 很漂亮,细节链接内部. 如何正确的开源自制 Python 库 core python 对创建一个靠谱的 Python 开源项目, 给出了完备的建议,包含版权控制/代码包装/安装分发 …"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 34 该读 ~ 文章, Blog, 教程... Python 实现的 Redis样数据库 redis Rlite 之于 Redis ,就象 SQLite 和 Postgresql. 意味着, 可以提供一个 Redis 功能相同的 …"/>
 
 
     <!-- Bootstrap -->
@@ -266,13 +266,12 @@ PyPy(用 Python 实际的 Python 解释器!),
 <p>HTTP 请求的脚本化</p>
 <p>(<code>是也乎:</code></p>
 <p>非常象 Gopher 大会上批露的,老许用 go 实现的 http 测试 DSL.</p>
-<div class="highlight"><pre><span></span><code><span class="err">set URL http://google.com</span>
-<span class="err">loop 5</span>
-<span class="err">do GET /</span>
-<span class="err">show $STATUS</span>
-<span class="err">endloop</span>
+<div class="highlight"><pre><span></span><code><span class="nv">set</span> <span class="nv">URL</span> <span class="nv">http</span>:<span class="o">//</span><span class="nv">google</span>.<span class="nv">com</span>
+<span class="k">loop</span> <span class="mi">5</span>
+<span class="k">do</span> <span class="nv">GET</span> <span class="o">/</span>
+<span class="k">show</span> $<span class="nv">STATUS</span>
+<span class="nv">endloop</span>
 </code></pre></div>
-
 
 <p>)</p>
 <ul>

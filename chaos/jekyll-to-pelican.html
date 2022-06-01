@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="How to from Jekyll jump into Pelican"/>
             <meta property="og:url" content="https://weekly.pychina.org/chaos/jekyll-to-pelican.html"/>
-            <meta property="og:description" content="[TOC] 如何从 Jekyll 转进入 Pelican 简述静态网站从 Jekyll 环境中迁移为 纯 Python Pelican... 为毛 社区在发展, 原先的 蠎周刊,为方便,使用了 gitcafe 内置的 Jekyll 服务, 所以,其实在使用 Ruby 自动编译和发布. 总是感觉不够纯粹 Pythonic ... 故而, 下决心完成迁移 整体 忽然发现,俺感觉很直觉的事儿,也写了文档, 但是,其它人真正首次上手全然一头雾水... 所以 学习学习再学习 - xiaolai 提出的,俺实在无法同意更多.. 这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。 用最直白的话来描述，就是： 初级的知识需要对高级知识深入了解才能真正深入了解 ——你看看这句话多拗口就多少有点概念了。 所以 …"/>
+            <meta property="og:description" content="[TOC] 如何从 Jekyll 转进入 Pelican 简述静态网站从 Jekyll 环境中迁移为 纯 Python Pelican... 为毛 社区在发展, 原先的 蠎周刊,为方便,使用了 gitcafe 内置的 Jekyll …"/>
 
 
     <!-- Bootstrap -->
@@ -114,9 +114,8 @@
 <p><img alt="Impossible_staircase" src="http://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg"></p>
 <p>这是最难的知识结构——它往往看起来跟线性结构没什么区别，但，最终令人迷惑，甚至懊恼。
 用最直白的话来描述，就是：</p>
-<div class="highlight"><pre><span></span><code><span class="err">初级的知识需要对高级知识深入了解才能真正深入了解</span>
+<div class="highlight"><pre><span></span><code>初级的知识需要对高级知识深入了解才能真正深入了解
 </code></pre></div>
-
 
 <p>——你看看这句话多拗口就多少有点概念了。</p>
 <p>所以,还是按照 easy 模式来,
@@ -239,7 +238,6 @@ Python 世界中大堆静态网站发布工具中的一个,
     +- ...
 </code></pre></div>
 
-
 <p>这样一来,目录,就不用进入 <code>output</code> 目录进行 git 操作了
 平时的发布流程就是:</p>
 <ol>
@@ -249,9 +247,8 @@ Python 世界中大堆静态网站发布工具中的一个,
 <li><code>fab pub2cafe</code> 自动完成进入 <code>output</code> 后的一系列 git 操作</li>
 </ol>
 <p>对应的 配置中:</p>
-<div class="highlight"><pre><span></span><code><span class="c1">#DELETE_OUTPUT_DIRECTORY = True</span>
+<div class="highlight"><pre><span></span><code><span class="c1">#DELETE_OUTPUT_DIRECTORY = True</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>就绝对不能打开注释
 不然 <code>output</code> 目录清除,就没有了 <code>.git</code> 也就无法发布了...</p>
@@ -260,13 +257,12 @@ Python 世界中大堆静态网站发布工具中的一个,
 <h3>DISQUS</h3>
 <p>果断遇到了 DISQUS 配置了,不生效的问题,上下折腾, 才发现很多人都遇到了这个问题,
 追踪到代码:</p>
-<div class="highlight"><pre><span></span><code><span class="c1">//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html</span>
-<span class="c1">//...</span>
-<span class="kd">var</span> <span class="nx">disqus_shortname</span> <span class="o">=</span> <span class="s1">&#39;{{ DISQUS_SITENAME }}&#39;</span><span class="p">;</span> <span class="c1">// required: replace example with your forum shortname</span>
-<span class="kd">var</span> <span class="nx">disqus_identifier</span> <span class="o">=</span> <span class="s1">&#39;{{ article.slug }}&#39;</span><span class="p">;</span>
-<span class="kd">var</span> <span class="nx">disqus_url</span> <span class="o">=</span> <span class="s1">&#39;{{ SITEURL }}/{{ article.url }}&#39;</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="c1">//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html</span><span class="w"></span>
+<span class="c1">//...</span><span class="w"></span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">disqus_shortname</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;{{ DISQUS_SITENAME }}&#39;</span><span class="p">;</span><span class="w"> </span><span class="c1">// required: replace example with your forum shortname</span><span class="w"></span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">disqus_identifier</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;{{ article.slug }}&#39;</span><span class="p">;</span><span class="w"></span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">disqus_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;{{ SITEURL }}/{{ article.url }}&#39;</span><span class="p">;</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>才发现 <code>SITEURL</code> 的配置是决定性的,
 一定要同 <code>DISQUS</code> 申请时的一致;
@@ -281,9 +277,8 @@ Python 世界中大堆静态网站发布工具中的一个,
 <p>fixed!</p>
 <h3>CATEGORY_FEED_ATOM</h3>
 <p>一时手賎,打开了:</p>
-<div class="highlight"><pre><span></span><code><span class="na">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="s">&#39;feeds/%s.atom.xml&#39;</span>
+<div class="highlight"><pre><span></span><code><span class="na">CATEGORY_FEED_ATOM</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#39;feeds/%s.atom.xml&#39;</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>结果,发现不能在模板里简单的完成分类子 RSS 的链接!</p>
 <div class="highlight"><pre><span></span><code>    <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;icon-th icon-large&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>Categories<span class="p">&lt;/</span><span class="nt">h4</span><span class="p">&gt;&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
@@ -298,7 +293,6 @@ Python 世界中大堆静态网站发布工具中的一个,
     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
 {% endfor %}
 </code></pre></div>
-
 
 <p>因为这儿的 <code>{{ cat }}</code> 是分类的名称,可能包含大小写字母,
 而配置指导下生成的 RSS 文件是全小写的...</p>
@@ -316,9 +310,8 @@ Python 世界中大堆静态网站发布工具中的一个,
 <p>即好!</p>
 <h3>TOC</h3>
 <p>是的,以往 rST/t2t 时,甚至于 Word 时都有的 </p>
-<div class="highlight"><pre><span></span><code><span class="err">TOC ~ 章节索引</span>
+<div class="highlight"><pre><span></span><code>TOC ~ 章节索引
 </code></pre></div>
-
 
 <p>肿么可以没有?!</p>
 <p>果断: <a href="https://github.com/getpelican/pelican-plugins/tree/master/extract_toc">pelican-plugins/extract_toc at master · getpelican/pelican-plugins</a> </p>

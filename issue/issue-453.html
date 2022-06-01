@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Issue 453"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-453.html"/>
-            <meta property="og:description" content="从一千万Jupyter Notebooks中发现... 原文: PyCoder&#39;s Weekly - Issue #453 201230 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 201230 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. 用 nvc++ 和 Cython 在 GPU 上加速 Python ASHWIN SRINATH Python on GPUs has become a big topic for processing big data and scientific computing. In this …"/>
+            <meta property="og:description" content="从一千万Jupyter Notebooks中发现... 原文: PyCoder&#39;s Weekly - Issue #453 201230 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 201230 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. 用 nvc++ 和 Cython 在 …"/>
 
 
     <!-- Bootstrap -->
@@ -238,34 +238,33 @@
 <p>Claiming to be “the most in-depth article about the Zen of Python,” this post covers the history of the Zen as told through comments from Guido van Rossum, Tim Peters, Barry Warsaw, and other Python heavyweights.</p>
 <p>(<code>是也乎:</code></p>
 <p>当年大家联合翻译过很多版本, 俺的</p>
-<div class="highlight"><pre><span></span><code><span class="nt">美丽好过丑陋</span><span class="o">,</span>
-<span class="nt">浅显好过隐晦</span><span class="o">,</span>
-<span class="nt">简单好过复合</span><span class="o">,</span>
-<span class="nt">复合好过复杂</span><span class="o">,</span>
-<span class="nt">扁平好过嵌套</span><span class="o">,</span>
-<span class="nt">稀疏好过密集</span><span class="o">,</span>
-<span class="nt">可读性最重要</span><span class="o">,</span>
-<span class="nt">即使祭出实用性为理由</span><span class="o">,</span>
-    <span class="nt">特例也不可违背这些规则</span><span class="o">.</span>
+<div class="highlight"><pre><span></span><code><span class="nt">美丽好过丑陋</span><span class="o">,</span><span class="w"></span>
+<span class="nt">浅显好过隐晦</span><span class="o">,</span><span class="w"></span>
+<span class="nt">简单好过复合</span><span class="o">,</span><span class="w"></span>
+<span class="nt">复合好过复杂</span><span class="o">,</span><span class="w"></span>
+<span class="nt">扁平好过嵌套</span><span class="o">,</span><span class="w"></span>
+<span class="nt">稀疏好过密集</span><span class="o">,</span><span class="w"></span>
+<span class="nt">可读性最重要</span><span class="o">,</span><span class="w"></span>
+<span class="nt">即使祭出实用性为理由</span><span class="o">,</span><span class="w"></span>
+<span class="w">    </span><span class="nt">特例也不可违背这些规则</span><span class="o">.</span><span class="w"></span>
 
-<span class="nt">不应默认包容所有错误</span><span class="o">,</span>
-    <span class="nt">得由人明确的让它闭嘴</span><span class="o">;</span>
+<span class="nt">不应默认包容所有错误</span><span class="o">,</span><span class="w"></span>
+<span class="w">    </span><span class="nt">得由人明确的让它闭嘴</span><span class="o">;</span><span class="w"></span>
 
-<span class="nt">面对太多的可能</span><span class="o">,</span><span class="nt">不要尝试猜测</span><span class="o">;</span>
-<span class="nt">应该有一个</span><span class="o">(</span><span class="nt">且唯一</span><span class="o">)</span><span class="nt">直白的解决方法</span><span class="o">;</span>
-<span class="nt">当然</span><span class="o">,</span><span class="nt">找到这个方法不是件容易的事</span>
-    <span class="o">~</span><span class="nt">谁叫你不是荷兰人呢</span><span class="o">?</span>
-<span class="nt">但是</span><span class="o">:</span> <span class="nt">现在就做比永远不做要好</span><span class="o">;</span>
+<span class="nt">面对太多的可能</span><span class="o">,</span><span class="nt">不要尝试猜测</span><span class="o">;</span><span class="w"></span>
+<span class="nt">应该有一个</span><span class="o">(</span><span class="nt">且唯一</span><span class="o">)</span><span class="nt">直白的解决方法</span><span class="o">;</span><span class="w"></span>
+<span class="nt">当然</span><span class="o">,</span><span class="nt">找到这个方法不是件容易的事</span><span class="w"></span>
+<span class="w">    </span><span class="o">~</span><span class="nt">谁叫你不是荷兰人呢</span><span class="o">?</span><span class="w"></span>
+<span class="nt">但是</span><span class="o">:</span><span class="w"> </span><span class="nt">现在就做比永远不做要好</span><span class="o">;</span><span class="w"></span>
 
-<span class="nt">若实现方案很难解释</span><span class="o">,</span>
-<span class="nt">那么它就不是一个好方案</span><span class="o">;</span>
-<span class="nt">反之也成立</span><span class="o">;</span><span class="nt">-</span><span class="o">)</span>
+<span class="nt">若实现方案很难解释</span><span class="o">,</span><span class="w"></span>
+<span class="nt">那么它就不是一个好方案</span><span class="o">;</span><span class="w"></span>
+<span class="nt">反之也成立</span><span class="o">;</span><span class="nt">-</span><span class="o">)</span><span class="w"></span>
 
-<span class="nt">名称空间是个绝妙想法</span><span class="o">.</span>
+<span class="nt">名称空间是个绝妙想法</span><span class="o">.</span><span class="w"></span>
 
-<span class="nt">--现在就来共同体验和增进这些吧</span><span class="o">!</span>
+<span class="nt">--现在就来共同体验和增进这些吧</span><span class="o">!</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>)</p>
 <ul>
@@ -363,11 +362,10 @@
 </li>
 </ul>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code><span class="err">&gt;&gt;&gt; v = Validator({&#39;name&#39;: {&#39;type&#39;: &#39;string&#39;}})</span>
-<span class="err">&gt;&gt;&gt; v.validate({&#39;name&#39;: &#39;john doe&#39;})</span>
-<span class="err">True</span>
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; v = Validator({&#39;name&#39;: {&#39;type&#39;: &#39;string&#39;}})
+&gt;&gt;&gt; v.validate({&#39;name&#39;: &#39;john doe&#39;})
+True
 </code></pre></div>
-
 
 <p>有效性检验库,
 只是, JS 在入口已经完成了检验, 到 Python 这儿,
@@ -456,9 +454,8 @@
 <hr>
 <p>好文笔,感叹号年度配额: <strong>2/3</strong></p>
 <p>投稿/反馈邮箱:</p>
-<div class="highlight"><pre><span></span><code><span class="err">askdama@googlegroups.com</span>
+<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>(邮件列表地址, 
 当成正常邮件发送邮件就好, 不用注册, 不用翻越...)</p>
@@ -475,7 +472,6 @@
         <span class="n">GDG珠海</span> <span class="p">(</span><span class="n">订阅号</span><span class="p">:</span> <span class="n">GDG</span><span class="o">-</span><span class="n">ZhuHai</span><span class="p">)</span>
         <span class="n">TFUG珠海</span> <span class="p">(</span><span class="n">订阅号</span><span class="p">:</span> <span class="n">ZH_TFUG</span><span class="p">)</span>
 </code></pre></div>
-
 
 <hr>
 <blockquote>

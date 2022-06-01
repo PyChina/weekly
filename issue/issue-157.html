@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎周刊 157: Martius"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-157.html"/>
-            <meta property="og:description" content="原文: Pycoder&#39;s Weekly (Issue #157): Martius 搜罗Py万物 的周刊 亲, 大家多分享文章 俺们才折腾的出又一周的美好呢. 喜欢就 在 Gratipay 支持俺们吧! 当然的,俺们也在twitter 新闻 Django: 功夫网! 三月将继续 Py 3 的征程, 请检出 功夫网! djangowos.com Shared by @nathforge Django 安全版本以及增益提案! Django 党必读! djangoproject.com Shared by @myusuf3 Python 发布 3.5.0a2 Alpha 版本第2号, 已经从 …"/>
+            <meta property="og:description" content="原文: Pycoder&#39;s Weekly (Issue #157): Martius 搜罗Py万物 的周刊 亲, 大家多分享文章 俺们才折腾的出又一周的美好呢. 喜欢就 在 Gratipay 支持俺们吧! 当然的 …"/>
 
 
     <!-- Bootstrap -->
@@ -163,23 +163,22 @@ home_dir = expanduser('~')</p>
 <p>丫在哪儿:</p>
 <div class="highlight"><pre><span></span><code><span class="nf">cdp</span> <span class="p">()</span> <span class="p">{</span>
     <span class="s s-Atom">cd</span> <span class="s2">&quot;$(python -c &quot;</span><span class="s s-Atom">import</span> <span class="s s-Atom">os</span><span class="p">.</span><span class="s s-Atom">path</span> <span class="s s-Atom">as</span> <span class="k">_</span><span class="p">,</span> <span class="err">$</span><span class="p">{</span><span class="mi">1</span><span class="p">};</span> <span class="s s-Atom">\</span>
-            <span class="nf">print</span><span class="p">(</span><span class="k">_</span><span class="p">.</span><span class="nf">dirname</span><span class="p">(</span><span class="k">_</span><span class="p">.</span><span class="nf">realpath</span><span class="p">(</span><span class="err">$</span><span class="p">{</span><span class="mi">1</span><span class="p">}.</span><span class="k">__</span><span class="s s-Atom">file__</span><span class="p">[:-</span><span class="mi">1</span><span class="p">])))</span><span class="s2">&quot;</span>
+            <span class="nf">print</span><span class="p">(</span><span class="k">_</span><span class="p">.</span><span class="nf">dirname</span><span class="p">(</span><span class="k">_</span><span class="p">.</span><span class="nf">realpath</span><span class="p">(</span><span class="err">$</span><span class="p">{</span><span class="mi">1</span><span class="p">}.</span><span class="k">__</span><span class="s s-Atom">file__</span><span class="p">[</span><span class="o">:-</span><span class="mi">1</span><span class="p">])))</span><span class="s2">&quot;</span>
 <span class="s2">        )&quot;</span>
 <span class="p">}</span>
 
-<span class="s s-Atom">~</span> <span class="err">$</span> <span class="s s-Atom">cdp</span> <span class="s s-Atom">os</span>
+<span class="o">~</span> <span class="err">$</span> <span class="s s-Atom">cdp</span> <span class="s s-Atom">os</span>
 <span class="o">/</span><span class="s s-Atom">usr</span><span class="o">/</span><span class="s s-Atom">lib</span><span class="o">/</span><span class="s s-Atom">python2</span><span class="mf">.7</span> <span class="err">$</span>
 
-<span class="s s-Atom">~</span> <span class="err">$</span> <span class="s s-Atom">cdp</span> <span class="s s-Atom">os</span><span class="p">.</span><span class="s s-Atom">path</span>
+<span class="o">~</span> <span class="err">$</span> <span class="s s-Atom">cdp</span> <span class="s s-Atom">os</span><span class="p">.</span><span class="s s-Atom">path</span>
 <span class="o">/</span><span class="s s-Atom">usr</span><span class="o">/</span><span class="s s-Atom">lib</span><span class="o">/</span><span class="s s-Atom">python2</span><span class="mf">.7</span> <span class="err">$</span>
 </code></pre></div>
-
 
 <p>人性化排序:</p>
 <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">distutils.version</span> <span class="kn">import</span> <span class="n">StrictVersion</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">versions</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;1.3.12&#39;</span><span class="p">,</span> <span class="s1">&#39;1.3.3&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.5&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.15&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.3&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.1&#39;</span><span class="p">]</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">versions</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="n">StrictVersion</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="n">versions</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span> <span class="n">versions</span>
 <span class="p">[</span><span class="s1">&#39;1.2.1&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.3&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.5&#39;</span><span class="p">,</span> <span class="s1">&#39;1.2.15&#39;</span><span class="p">,</span> <span class="s1">&#39;1.3.3&#39;</span><span class="p">,</span> <span class="s1">&#39;1.3.12&#39;</span><span class="p">]</span>
 
 
@@ -188,7 +187,6 @@ home_dir = expanduser('~')</p>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">l</span>
 <span class="p">[</span><span class="s1">&#39;v1.2.1&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.2.3&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.2.5&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.2.15&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.3.3&#39;</span><span class="p">,</span> <span class="s1">&#39;v1.3.12&#39;</span><span class="p">]</span>
 </code></pre></div>
-
 
 <p>终端真数学:</p>
 <div class="highlight"><pre><span></span><code>$ pmath <span class="s1">&#39;3 + 4&#39;</span>
@@ -204,7 +202,6 @@ $ pmath <span class="s1">&#39;x=3;x+2&#39;</span>
 $ <span class="nb">echo</span> <span class="s1">&#39;3+4&#39;</span> <span class="p">|</span> pmath
 <span class="m">7</span>
 </code></pre></div>
-
 
 <p>最方便合成器:</p>
 <blockquote>

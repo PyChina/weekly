@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎加载 182"/>
             <meta property="og:url" content="https://weekly.pychina.org/importpython/importpython-182.html"/>
-            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 182 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... PEP 505 -- None-aware operators PEP Several modern programming languages have so-called &#34;null-coalescing&#34; or &#34;null- aware&#34; operators, including C# , Dart, Perl, Swift, and PHP (starting in version 7). These operators …"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 182 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... PEP 505 -- None-aware operators PEP Several modern programming languages have so-called &#34;null-coalescing&#34; or &#34;null- aware&#34; operators …"/>
 
 
     <!-- Bootstrap -->
@@ -111,12 +111,11 @@
 <p>Several modern programming languages have so-called "null-coalescing" or "null- aware" operators, including C# , Dart, Perl, Swift, and PHP (starting in version 7). These operators provide syntactic sugar for common patterns involving null references.</p>
 <p>(<code>是也乎:</code></p>
 <p>越来越多的语法糖,在老爹离开后开始嗯哼...不怕牙痛嘛?</p>
-<div class="highlight"><pre><span></span><code><span class="err">(a ?? 2 ** b ?? 3) == a ?? (2 ** (b ?? 3))</span>
-<span class="err">(c() ?? c() ?? True) == True</span>
-<span class="err">(True ?? ex()) == True</span>
-<span class="err">(c ?? ex)() == c()</span>
+<div class="highlight"><pre><span></span><code>(a ?? 2 ** b ?? 3) == a ?? (2 ** (b ?? 3))
+(c() ?? c() ?? True) == True
+(True ?? ex()) == True
+(c ?? ex)() == c()
 </code></pre></div>
-
 
 <p>)</p>
 <ul>

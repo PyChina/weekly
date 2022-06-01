@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="PyCoder 493"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-493.html"/>
-            <meta property="og:description" content="Python 3.10 中值得尝试的新特性... 原文: PyCoder&#39;s Weekly - Issue #493 211006 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 211006 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. Python 3.10: 炫酷特性值得尝试 REAL PYTHON Explore some of the coolest and most useful features in Python 3.10. You’ll appreciate more user-friendly error …"/>
+            <meta property="og:description" content="Python 3.10 中值得尝试的新特性... 原文: PyCoder&#39;s Weekly - Issue #493 211006 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 211006 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. Python 3 …"/>
 
 
     <!-- Bootstrap -->
@@ -117,31 +117,29 @@
 <p>改进了 error message,
 加强了模式匹配,
 拓展了 pattern, 比如:</p>
-<div class="highlight"><pre><span></span><code><span class="err">def greet(name):</span>
-<span class="err">    match name:</span>
-<span class="err">        case &quot;Guido&quot;:</span>
-<span class="err">            print(&quot;Hi, Guido!&quot;)</span>
-<span class="err">        case _:</span>
-<span class="err">            print(&quot;Howdy, stranger!&quot;)</span>
+<div class="highlight"><pre><span></span><code>def greet(name):
+    match name:
+        case &quot;Guido&quot;:
+            print(&quot;Hi, Guido!&quot;)
+        case _:
+            print(&quot;Howdy, stranger!&quot;)
 </code></pre></div>
-
 
 <p>嗯哼, Elixir 们的语法;</p>
-<div class="highlight"><pre><span></span><code><span class="n">def</span> <span class="n">fizzbuzz</span><span class="p">(</span><span class="nb">number</span><span class="p">):</span>
-    <span class="n">mod_3</span> <span class="o">=</span> <span class="nb">number</span> <span class="o">%</span> <span class="mi">3</span>
-    <span class="n">mod_5</span> <span class="o">=</span> <span class="nb">number</span> <span class="o">%</span> <span class="mi">5</span>
+<div class="highlight"><pre><span></span><code><span class="nv">def</span> <span class="nv">fizzbuzz</span><span class="ss">(</span><span class="nv">number</span><span class="ss">)</span>:
+    <span class="nv">mod_3</span> <span class="o">=</span> <span class="nv">number</span> <span class="o">%</span> <span class="mi">3</span>
+    <span class="nv">mod_5</span> <span class="o">=</span> <span class="nv">number</span> <span class="o">%</span> <span class="mi">5</span>
 
-    <span class="k">match</span> <span class="p">(</span><span class="n">mod_3</span><span class="p">,</span> <span class="n">mod_5</span><span class="p">):</span>
-        <span class="k">case</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">):</span>
-            <span class="k">return</span> <span class="ss">&quot;fizzbuzz&quot;</span>
-        <span class="k">case</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">_</span><span class="p">):</span>
-            <span class="k">return</span> <span class="ss">&quot;fizz&quot;</span>
-        <span class="k">case</span> <span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="mi">0</span><span class="p">):</span>
-            <span class="k">return</span> <span class="ss">&quot;buzz&quot;</span>
-        <span class="k">case</span> <span class="n">_</span><span class="p">:</span>
-            <span class="k">return</span> <span class="n">str</span><span class="p">(</span><span class="nb">number</span><span class="p">)</span>
+    <span class="nv">match</span> <span class="ss">(</span><span class="nv">mod_3</span>, <span class="nv">mod_5</span><span class="ss">)</span>:
+        <span class="nv">case</span> <span class="ss">(</span><span class="mi">0</span>, <span class="mi">0</span><span class="ss">)</span>:
+            <span class="k">return</span> <span class="s2">&quot;</span><span class="s">fizzbuzz</span><span class="s2">&quot;</span>
+        <span class="nv">case</span> <span class="ss">(</span><span class="mi">0</span>, <span class="nv">_</span><span class="ss">)</span>:
+            <span class="k">return</span> <span class="s2">&quot;</span><span class="s">fizz</span><span class="s2">&quot;</span>
+        <span class="nv">case</span> <span class="ss">(</span><span class="nv">_</span>, <span class="mi">0</span><span class="ss">)</span>:
+            <span class="k">return</span> <span class="s2">&quot;</span><span class="s">buzz</span><span class="s2">&quot;</span>
+        <span class="nv">case</span> <span class="nv">_</span>:
+            <span class="k">return</span> <span class="nv">str</span><span class="ss">(</span><span class="nv">number</span><span class="ss">)</span>
 </code></pre></div>
-
 
 <p>)</p>
 <ul>
@@ -476,13 +474,12 @@ Raspberry Pi Zero 的实用化作品.</p>
 <p>去年开始有小伙伴加入承担 <code>pythonisa</code> 周刊的翻译,
 从来没提醒过, 可就这么默默坚持下来了...</p>
 <p>问为什么:</p>
-<div class="highlight"><pre><span></span><code><span class="err">[皱眉]每周新闻资讯 怎么能错过 </span>
-<span class="err">看看有什么新东西 </span>
-<span class="err">当有新的发现时：</span>
-<span class="err">    what f**k 还能这样玩？ 还有这东西？</span>
-<span class="err">    每周开彩蛋[吃瓜]</span>
+<div class="highlight"><pre><span></span><code>[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
 </code></pre></div>
-
 
 <p><code>无法同意更多</code>...
 很多社区贡献看起来辛苦,
@@ -491,9 +488,8 @@ Raspberry Pi Zero 的实用化作品.</p>
 <hr>
 <p>好文笔,感叹号年度配额: <strong>2/3</strong></p>
 <p>投稿/反馈邮箱:</p>
-<div class="highlight"><pre><span></span><code><span class="err">askdama@googlegroups.com</span>
+<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>(邮件列表地址, 
 当成正常邮件发送邮件就好, 不用注册, 不用翻越...)</p>
@@ -510,7 +506,6 @@ Raspberry Pi Zero 的实用化作品.</p>
         <span class="n">GDG珠海</span> <span class="p">(</span><span class="n">订阅号</span><span class="p">:</span> <span class="n">GDG</span><span class="o">-</span><span class="n">ZhuHai</span><span class="p">)</span>
         <span class="n">TFUG珠海</span> <span class="p">(</span><span class="n">订阅号</span><span class="p">:</span> <span class="n">ZH_TFUG</span><span class="p">)</span>
 </code></pre></div>
-
 
 <hr>
 

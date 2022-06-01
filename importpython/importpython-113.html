@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎加载 113"/>
             <meta property="og:url" content="https://weekly.pychina.org/importpython/importpython-113.html"/>
-            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 113 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... Guido van Rossum 访谈 podcast, BDFL Talkpython interview with Guido van Rossum aka BDFL. (是也乎: 有字幕的, 基本上就是回忆了 ABC 时代的嗯哼... ) 几个 Python 3 决择 / 进化 的关键视图 core-python The people who …"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 113 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... Guido van Rossum 访谈 podcast, BDFL Talkpython interview with Guido van Rossum aka BDFL. (是 …"/>
 
 
     <!-- Bootstrap -->
@@ -121,17 +121,15 @@
 <p>The people who introduced me to Python chose it because of the elegance of the language, and it's aesthetic qualities. Would they choose it again, I wonder? Would I?.</p>
 <p>(<code>是也乎:</code></p>
 <p>是什么以及为什么的 Py3</p>
-<div class="highlight"><pre><span></span><code><span class="err">def hello_world(name):</span>
-<span class="err">    print &#39;Hello&#39;, name</span>
+<div class="highlight"><pre><span></span><code>def hello_world(name):
+    print &#39;Hello&#39;, name
 </code></pre></div>
-
 
 <p>--&gt;</p>
-<div class="highlight"><pre><span></span><code><span class="err">@coroutine</span>
-<span class="err">async def hello_world(name: str) -&gt; str:</span>
-<span class="err">    await print(&#39;Hello {}&#39;.format(yield from name))</span>
+<div class="highlight"><pre><span></span><code><span class="nv">@coroutine</span><span class="w"></span>
+<span class="n">async</span><span class="w"> </span><span class="n">def</span><span class="w"> </span><span class="n">hello_world</span><span class="p">(</span><span class="nl">name</span><span class="p">:</span><span class="w"> </span><span class="nf">str</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="nf">str</span><span class="err">:</span><span class="w"></span>
+<span class="w">    </span><span class="n">await</span><span class="w"> </span><span class="k">print</span><span class="p">(</span><span class="s1">&#39;Hello {}&#39;</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">yield</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">name</span><span class="p">))</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>一定是太多 C++ 程序媛进入了 python 内核开发团队!
 )</p>

@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Issue 406"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-406.html"/>
-            <meta property="og:description" content="值得收藏的22个最常用 Python 模块 原文: PyCoder&#39;s Weekly - Issue #406 200205 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 200205 Zoom.Quiet(大妈) 用时 17 分钟 完成格式转抄. 如何下架 Python 2 从而提升开发人员幸福感 BARRY WARSAW &#34;Now that LinkedIn engineering has fully embraced Python 3, we no longer have to worry about supporting Python 2 and …"/>
+            <meta property="og:description" content="值得收藏的22个最常用 Python 模块 原文: PyCoder&#39;s Weekly - Issue #406 200205 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 200205 Zoom.Quiet(大妈) 用时 17 分钟 完成格式转抄. 如 …"/>
 
 
     <!-- Bootstrap -->
@@ -388,14 +388,13 @@ PyYAML(越来越常用的);</p>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">gif</span>
 <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 
-<span class="nd">@gif.frame</span>
+<span class="nd">@gif</span><span class="o">.</span><span class="n">frame</span>
 <span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
 </code></pre></div>
-
 
 <p>正常定义好一帧 plt 图片, 然后指定范围自动化生成就好, 比如:</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
@@ -407,7 +406,6 @@ PyYAML(越来越常用的);</p>
     <span class="n">frame</span> <span class="o">=</span> <span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
     <span class="n">frames</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">frame</span><span class="p">)</span>
 </code></pre></div>
-
 
 <p>)</p>
 <ul>
@@ -493,11 +491,10 @@ PyYAML(越来越常用的);</p>
 </ul>
 <p>(<code>(￣▽￣)</code>:</p>
 <p>第五期已经开始报名:</p>
-<div class="highlight"><pre><span></span><code><span class="err">20.2.20 报名截止</span>
-<span class="err">20.3.1  正式开课</span>
-<span class="err">20.4.12 按时结束</span>
+<div class="highlight"><pre><span></span><code><span class="mf">20.2.20</span><span class="w"> </span><span class="n">报名截止</span><span class="w"></span>
+<span class="mf">20.3.1</span><span class="w">  </span><span class="n">正式开课</span><span class="w"></span>
+<span class="mf">20.4.12</span><span class="w"> </span><span class="n">按时结束</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>)</p>
 <ul>
