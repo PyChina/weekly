@@ -4,7 +4,7 @@ Date: 2022-06-15 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> PyScript 公私合营在浏览器中吧 Python 君.
+> PyScript 飞翔在浏览器中吧 Python 君.
 
 
 原文: [PyCoder's Weekly - Issue #529](https://pycoders.com/issues/529)
