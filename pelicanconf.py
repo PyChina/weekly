@@ -92,10 +92,10 @@ MENUITEMS = (('PyChina', 'http://pychina.org')
 # Feed generation is usually not desired when developing
 #SUMMARY_MAX_LENGTH = 142
 
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-#FEED_ALL_ATOM = 'feeds/all.atom.xml'
-#CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+#FEED_ALL_ATOM = None
+#CATEGORY_FEED_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 RSS_FEED_SUMMARY_ONLY = True
 FEED_ALL_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'

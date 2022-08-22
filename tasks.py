@@ -35,7 +35,8 @@ def cd(c, path2, echo=True):
 @task
 def build(c):
     print("\t>>> base Pelican build-out html")
-    c.run('pelican {input_path} -o {deploy_path} -s pelicanconf.py --debug'.format(**env))
+    #c.run('pelican {input_path} -o {deploy_path} -s pelicanconf.py --debug'.format(**env))
+    c.run('pelican {input_path} -o {deploy_path} -s pelicanconf.py '.format(**env))
 
 
 def serve(c):
