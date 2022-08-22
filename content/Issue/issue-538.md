@@ -31,7 +31,7 @@ What’s the big breakthrough for Natural Language Processing (NLP) that has dra
 (`是也乎:`
 
 
-![](https://ipic.zoomquiet.top/2022-08-17-zshot%202022-08-17%2009.11.14.jpg)
+![Transformer](https://ipic.zoomquiet.top/2022-08-17-zshot%202022-08-17%2009.11.14.jpg)
 
 )
 
