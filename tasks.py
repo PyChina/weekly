@@ -32,15 +32,17 @@ def cd(c, path2, echo=True):
         c.run('echo \n')
 
 
+@task
 def build(c):
     print("\t>>> base Pelican build-out html")
-    c.run('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
+    c.run('pelican {input_path} -o {deploy_path} -s pelicanconf.py --debug'.format(**env))
 
 
 def serve(c):
     c.run('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
 
 
+@task
 def reserve(c):
     build(c)
     serve(c)

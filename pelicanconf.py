@@ -90,15 +90,23 @@ MENUITEMS = (('PyChina', 'http://pychina.org')
         )
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+#SUMMARY_MAX_LENGTH = 142
+
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+#FEED_ALL_ATOM = 'feeds/all.atom.xml'
+#CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+RSS_FEED_SUMMARY_ONLY = True
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
 TRANSLATION_FEED_ATOM = None
-FEED_ALL_RSS = None
-CATEGORY_FEED_RSS= None
+#FEED_ALL_RSS = None
+#CATEGORY_FEED_RSS= None
 
 SOCIAL = (('github', 'https://github.com/PyChina/weekly')
-        , ('rss', SITEURL + '/' + FEED_ALL_ATOM)
+        #, ('rss', SITEURL + '/' + FEED_ALL_ATOM)
+        , ('rss', SITEURL + '/' + FEED_ALL_RSS)
         #, ('CPyUG', 'https://gitcafe.com/CPyUG')
         , ('PyChina', 'https://github.com/PyChina')
         , ('Wiki', 'http://wiki.pychina.org')
