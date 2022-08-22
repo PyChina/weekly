@@ -114,6 +114,7 @@ SOCIAL = (('github', 'https://github.com/PyChina/weekly')
         #, ('weibo', 'http://weibo.com/pyconcn')
         , ('啄木鸟', 'http://wiki.woodpecker.org.cn/moin/CPUG')
         , ('蟒营', 'http://www.101.camp')
+        , ('小红花Club', 'https://xhh.club/')
         )
 # Blogroll
 LINKS =  None
