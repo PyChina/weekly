@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>蠎周刊 - PgWeekly</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 08 Apr 2019 20:33:07 +0800</lastBuildDate><item><title>Postgres Weekly : Issue 229</title><link>https://weekly.pychina.org/pgweekly/pgw-229.html</link><description>&lt;p&gt;原文: &lt;a href="https://postgresweekly.com/issues/299"&gt;Postgres Weekly Issue 299: April 3, 2019&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="..." src="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssoylsgxn7il7w6zynuj.jpg"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://postgresweekly.com/link/61543/web"&gt;Postgres 获得 'Generated Column' 支持&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Peter Eisentraut&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It's always great to see Postgres gaining support for an SQL-standard feature and this commit begins with a simple example of how one type of generated column will work in the future …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Thu, 04 Apr 2019 15:32:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-04-04:/pgweekly/pgw-229.html</guid><category>PgWeekly</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item><item><title>Postgres Weekly : Issue 47</title><link>https://weekly.pychina.org/pgweekly/pgw-47.html</link><description>&lt;p&gt;原文: &lt;a href="http://postgresweekly.com/issues/47"&gt;Postgres Weekly Issue 47: February 19, 2014&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.craigkerstiens.com/2014/02/15/PostgreSQL-9.4-What-I-Wanted/?utm_source=postgresweekly&amp;amp;utm_medium=email"&gt;PostgreSQL 9.4 - 对此俺有什么期望&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PostgreSQL 9.4 已经指日可待了,
+虽然以前俺唠叨过,但是,他们依然没有都包含进 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 19 Feb 2014 21:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2014-02-19:/pgweekly/pgw-47.html</guid><category>PgWeekly</category><category>Weekly</category><category>Pycoder</category><category>Zh</category></item></channel></rss>
