@@ -4,7 +4,7 @@ Date: 2022-11-09 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> 是什么令 Py3.11 加速这么猛? --> 用真心
+> 是什么令 Py3.11 加速这么猛? ~ 用真心
 
 
 原文: [PyCoder's Weekly - Issue #550](https://pycoders.com/issues/550)
