@@ -12,7 +12,8 @@ SITENAME = u'蠎周刊'
 SITEDESC = u'汇集全球蠎事儿 ;-)'
 SITENOTE = u"各种 weekly 中译版"
 
-SITEURL = 'https://weekly.pychina.org'
+SITEURL = 'https://weekly.101.so'
+#SITEURL = 'https://weekly.pychina.org'
 #SITEURL = 'http://weekly.101.camp'
 DISQUS_SITENAME = u"weeklypychinaorg" #填入你的Shortname
 
