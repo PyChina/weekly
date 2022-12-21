@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - ElixirWeekly</title><link>https://weekly.101.so/</link><description></description><lastBuildDate>Thu, 09 May 2019 19:42:00 +0800</lastBuildDate><item><title>Elixir Weekly #148</title><link>https://weekly.101.so/elixirweekly/elixirweekly-148.html</link><description>&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/148"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - ElixirWeekly</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Thu, 09 May 2019 19:42:00 +0800</lastBuildDate><item><title>Elixir Weekly #148</title><link>https://weekly.pychina.org/elixirweekly/elixirweekly-148.html</link><description>&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/148"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="elixirweekly" src="https://elixirweekly.net/images/envelope.png"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
@@ -15,7 +15,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://jackmarchant.com/the-problem-with-elixir-umbrella-apps/"&gt;伞形应用的问题&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Jack's makes the point that umbrella projects/apps are hard to maintain and shouldn’t be …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Thu, 09 May 2019 19:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.101.so,2019-05-09:/elixirweekly/elixirweekly-148.html</guid><category>ElixirWeekly</category><category>Weekly</category><category>Elixir</category><category>ZH</category></item><item><title>Elixir Weekly #144</title><link>https://weekly.101.so/elixirweekly/elixirweekly-144.html</link><description>&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/144"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jack's makes the point that umbrella projects/apps are hard to maintain and shouldn’t be …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Thu, 09 May 2019 19:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-05-09:/elixirweekly/elixirweekly-148.html</guid><category>ElixirWeekly</category><category>Weekly</category><category>Elixir</category><category>ZH</category></item><item><title>Elixir Weekly #144</title><link>https://weekly.pychina.org/elixirweekly/elixirweekly-144.html</link><description>&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/144"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="elixirweekly" src="https://elixirweekly.net/images/envelope.png"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
@@ -31,7 +31,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://kubasub.proseful.com/params-modules-for-phoenix"&gt;Phoenix 的 Params 模块&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The Params modules pattern can be used in Phoenix to validate and massage a controller action’s params …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Thu, 11 Apr 2019 16:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.101.so,2019-04-11:/elixirweekly/elixirweekly-144.html</guid><category>ElixirWeekly</category><category>Weekly</category><category>Elixir</category><category>ZH</category></item><item><title>Elixir Weekly #143</title><link>https://weekly.101.so/elixirweekly/elixirweekly-143.html</link><description>&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/143"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Params modules pattern can be used in Phoenix to validate and massage a controller action’s params …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Thu, 11 Apr 2019 16:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-04-11:/elixirweekly/elixirweekly-144.html</guid><category>ElixirWeekly</category><category>Weekly</category><category>Elixir</category><category>ZH</category></item><item><title>Elixir Weekly #143</title><link>https://weekly.pychina.org/elixirweekly/elixirweekly-143.html</link><description>&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/143"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="elixirweekly" src="https://elixirweekly.net/images/envelope.png"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
@@ -50,7 +50,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Holy cow! Ricardo created this small experiment consisting of a bunch of old school ants running around …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Thu, 28 Mar 2019 23:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.101.so,2019-03-28:/elixirweekly/elixirweekly-143.html</guid><category>ElixirWeekly</category><category>Weekly</category><category>Elixir</category><category>ZH</category></item><item><title>Elixir Weekly #142</title><link>https://weekly.101.so/elixirweekly/elixirweekly-142.html</link><description>&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/142"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Holy cow! Ricardo created this small experiment consisting of a bunch of old school ants running around …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Thu, 28 Mar 2019 23:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-03-28:/elixirweekly/elixirweekly-143.html</guid><category>ElixirWeekly</category><category>Weekly</category><category>Elixir</category><category>ZH</category></item><item><title>Elixir Weekly #142</title><link>https://weekly.pychina.org/elixirweekly/elixirweekly-142.html</link><description>&lt;p&gt;原文: &lt;a href="https://elixirweekly.net/issues/142"&gt;ElixirWeekly - Elixir Community Newsletter, one email every Thursday.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="elixirweekly" src="https://elixirweekly.net/images/envelope.png"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
@@ -66,4 +66,4 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://dev.to/edisonywh/functionmethod-look-up-in-elixirruby-622"&gt;Function/Method 查找在 Elixir/Ruby&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Edison thought GenServer function injections were done through inheritance and discovered the inner …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Thu, 28 Mar 2019 21:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.101.so,2019-03-28:/elixirweekly/elixirweekly-142.html</guid><category>ElixirWeekly</category><category>Weekly</category><category>Elixir</category><category>ZH</category></item></channel></rss>
+&lt;p&gt;Edison thought GenServer function injections were done through inheritance and discovered the inner …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Thu, 28 Mar 2019 21:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2019-03-28:/elixirweekly/elixirweekly-142.html</guid><category>ElixirWeekly</category><category>Weekly</category><category>Elixir</category><category>ZH</category></item></channel></rss>
