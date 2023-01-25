@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Issue</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 18 Jan 2023 11:42:00 +0800</lastBuildDate><item><title>PyCoder 560</title><link>https://weekly.pychina.org/issue/issue-560.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Issue</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 25 Jan 2023 18:12:23 +0800</lastBuildDate><item><title>PyCoder 561</title><link>https://weekly.pychina.org/issue/issue-561.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;这些天你最喜欢的技术播客是什么?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/561"&gt;PyCoder's Weekly - Issue #561&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;230125 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;230125 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成快 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 25 Jan 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-01-25:/issue/issue-561.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>PyCoder 560</title><link>https://weekly.pychina.org/issue/issue-560.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;PEP 703:将GIL变成一个开关选项&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/560"&gt;PyCoder's Weekly - Issue #560&lt;/a&gt;&lt;/p&gt;
