@@ -159,7 +159,7 @@ Justin writes a list of things he has learned over his past 20 years in developm
 
 对于俺,只有一条: `跟对人, 跟得上` 足以飞升
 
-当然文章是好文章,大妈快译在: [20年来作为软件工程师学到的10件事 - be Rustaceans](https://rs.101.so/log/20-things-ive-learned-in-my-20-years-as-a-software-engineer.html#important-read-this-first)
+当然文章是好文章,大妈快译在: [20年来作为软件工程师学到的20件事 - be Rustaceans](https://rs.101.so/log/20-things-ive-learned-in-my-20-years-as-a-software-engineer.html#important-read-this-first)
 
 )
 
