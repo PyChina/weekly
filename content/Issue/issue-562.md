@@ -4,7 +4,7 @@ Date: 2023-01-25 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> ???
+> 箴言之禅
 
 
 原文: [PyCoder's Weekly - Issue #562](https://pycoders.com/issues/562)
