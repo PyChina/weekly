@@ -4,7 +4,7 @@ Date: 2023-02-15 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> ???
+> Python 中的单体仓库
 
 
 原文: [PyCoder's Weekly - Issue #564](https://pycoders.com/issues/564)
