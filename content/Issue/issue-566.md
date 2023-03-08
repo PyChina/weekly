@@ -228,7 +228,12 @@ Everybody is talking about GPT, this article is actually building one. Learn how
 MooS ~ Model-as-a-Service,
 小破球的梗儿在这儿接住了...
 
+--> [用户协议 · 魔搭社区](https://modelscope.cn/protocol/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC)
+
+... 由阿里巴巴达摩院，联合 CCF开源发展委员会，共同作为项目发起方;
+
 )
+
 
 
 
