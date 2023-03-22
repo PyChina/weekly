@@ -1,4 +1,4 @@
-Title: PyCoder 569
+Title: 蠎周刊 PyCoder 569
 Slug: issue-569
 Date: 2023-03-22 11:42
 Tags: Weekly,Python,pycoders,ZH
@@ -324,6 +324,23 @@ GPT 之后 LLM 又变成一大热点
 
 
 
+
+-----------------------------------------
+## 历史上的这周
+
+
+- 2022: [蠎周刊 PyCoder 517](https://weekly.pychina.org/issue/issue-517.html)
+- 2021: [蠎周刊 465](https://weekly.pychina.org/issue/issue-465.html)
+    + [pythonista-weekly : Pyw 491](https://weekly.pychina.org/python-weekly/pyw-491.html)
+- 2020: [蠎周刊 413](https://weekly.pychina.org/issue/issue-413.html)
+- 2019: [蠎周刊 360](https://weekly.pychina.org/issue/issue-360.html)
+- 2018: [蠎加载 167](https://weekly.pychina.org/importpython/importpython-167.html)
+- 2017: [蠎加载 116](https://weekly.pychina.org/importpython/importpython-116.html)
+- 2016: [蠎加载 66](https://weekly.pychina.org/importpython/importpython-66.html)
+- 2015: [蠎周刊 158: Madness](https://weekly.pychina.org/issue/issue-158.html)
+- 2014: [蠎周刊 107: 带来的感觉](https://weekly.pychina.org/issue/issue-107.html)
+- 2013: 空缺
+- 2012: [蠎周刊 6 ~ 春分](https://weekly.pychina.org/issue/issue-6.html)
 
 
 -----------------------------------------
