@@ -4,7 +4,7 @@ Date: 2023-03-29 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> ?
+> PEP 582 (Python 本地包目录) 被拒绝
 
 
 原文: [PyCoder's Weekly - Issue #571](https://pycoders.com/issues/571)
