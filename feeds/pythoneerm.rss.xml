@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 05 Apr 2023 17:03:47 +0800</lastBuildDate><item><title>蠎周刊(PyCoder)570</title><link>https://weekly.pychina.org/issue/issue-570.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 05 Apr 2023 17:07:31 +0800</lastBuildDate><item><title>蠎周刊(PyCoder)570</title><link>https://weekly.pychina.org/issue/issue-570.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;ChatGPT 中断&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/570"&gt;PyCoder's Weekly - Issue #570&lt;/a&gt;&lt;/p&gt;
@@ -12,7 +12,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://pycoders.com/link/10565/web"&gt;四年 Python 编程的经验教训&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;REAL …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 29 Mar 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-03-29:/issue/issue-570.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊(PyCoder)571</title><link>https://weekly.pychina.org/issue/issue-571.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;?&lt;/p&gt;
+&lt;p&gt;PEP 582 (Python 本地包目录) 被拒绝&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/571"&gt;PyCoder's Weekly - Issue #571&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
@@ -22,8 +22,7 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/10597/web"&gt;用 Graphs 在 Python 中构建迷宫求解器&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 29 Mar 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-03-29:/issue/issue-571.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊 PyCoder 569</title><link>https://weekly.pychina.org/issue/issue-569.html</link><description>&lt;blockquote&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/10597/web"&gt;用 Graphs 在 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 29 Mar 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-03-29:/issue/issue-571.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊 PyCoder 569</title><link>https://weekly.pychina.org/issue/issue-569.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;如何评估包的质量Orz...&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/569"&gt;PyCoder's Weekly - Issue #569&lt;/a&gt;&lt;/p&gt;
