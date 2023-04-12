@@ -301,6 +301,7 @@ This tutorial shows how to build an intelligent educational platform using OpenA
 
 
 
+
 - [Zoom\.Quiet’s Chaos42 \| Substack](https://zoomquiet.substack.com/)
     + 古早:新闻组式写作
     + 欢迎订阅, 包含当前周刊
