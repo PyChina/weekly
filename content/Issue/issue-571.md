@@ -133,7 +133,7 @@ In this video course, you’ll learn about working with YAML in Python. By the e
 
 (`是也乎:`
 
-![](https://ipic.zoomquiet.top/2023-04-05-zshot%202023-04-05%2016.32.49.jpg)
+![YAML](https://ipic.zoomquiet.top/2023-04-05-zshot%202023-04-05%2016.32.49.jpg)
 
 还是得说 TOML 好点儿
 
