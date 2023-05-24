@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Issue</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 17 May 2023 11:42:00 +0800</lastBuildDate><item><title>蠎周刊(PyCoder)577</title><link>https://weekly.pychina.org/issue/issue-577.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Issue</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 24 May 2023 11:42:00 +0800</lastBuildDate><item><title>蠎周刊(PyCoder)578</title><link>https://weekly.pychina.org/issue/issue-578.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;为什么工程师需要无聊&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/578"&gt;PyCoder's Weekly - Issue #578&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;230524 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;230524 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/10835/web"&gt;ChatGPT: 您的个 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 24 May 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-05-24:/issue/issue-578.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊(PyCoder)577</title><link>https://weekly.pychina.org/issue/issue-577.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;上更快的 CPython&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/577"&gt;PyCoder's Weekly - Issue #577&lt;/a&gt;&lt;/p&gt;
