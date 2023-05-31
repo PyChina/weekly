@@ -276,16 +276,15 @@ An analysis on boredom in engineering productivity and how it can lead to deeper
 
 
 
-
+- [@Chaos42DAMA - YouTube](https://www.youtube.com/@Chaos42DAMA)
+    + VLog
+    + 恢复各种嗯哼...
 - [Zoom\.Quiet’s Chaos42 \| Substack](https://zoomquiet.substack.com/)
     + 古早:新闻组式写作
     + 欢迎订阅, 包含当前周刊
 - [LDS❤️💀🤖](LDS42.PODCAST.XYZ)
     + 播客:小宇宙
     + 收集各种嗯哼...
-- [Chaos42 - YouTube](https://www.youtube.com/watch?v=fPQ6piLqMXE&list=PLToFpvpg6EgRo6naYOp-BX4So-DxOCne8&index=1)
-    + VLog
-    + 恢复各种嗯哼...
 
 
 
