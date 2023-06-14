@@ -4,7 +4,7 @@ Date: 2023-06-14 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> ???
+> 什么是 Python 之禅？
 
 
 原文: [PyCoder's Weekly - Issue #581](https://pycoders.com/issues/581)
