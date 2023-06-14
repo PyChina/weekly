@@ -276,7 +276,7 @@ GPT-empowered -> 这又是一个热词了...
 - 2022: [蠎周刊 PyCoder 528](https://weekly.pychina.org/issue/issue-528.html)
 - 2021: [蠎周刊 475](https://weekly.pychina.org/issue/issue-475.html)
     + [pythonista-weekly : Pyw 502](https://weekly.pychina.org/python-weekly/pyw-502.html)
-- 2020: [蠎周刊 422](https://weekly.pychina.org/issue/issue-v.html)
+- 2020: [蠎周刊 422](https://weekly.pychina.org/issue/issue-422.html)
     + [pythonista-weekly : Pyw 452](https://weekly.pychina.org/python-weekly/pyw-452.html)
 - 2019: [蠎周刊 371](https://weekly.pychina.org/issue/issue-371.html)
 - 2018: [蠎周刊 320: Force](https://weekly.pychina.org/issue/issue-320.html)
