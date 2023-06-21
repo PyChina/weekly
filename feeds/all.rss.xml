@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 14 Jun 2023 11:42:00 +0800</lastBuildDate><item><title>蠎周刊(PyCoder)581</title><link>https://weekly.pychina.org/issue/issue-581.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;v&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 21 Jun 2023 11:42:00 +0800</lastBuildDate><item><title>蠎周刊(PyCoder)582</title><link>https://weekly.pychina.org/issue/issue-582.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;只用pip才是最好的...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/582"&gt;PyCoder's Weekly - Issue #582&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;230621 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;230621 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/10997/web"&gt;更快的 Python 3.13 计划&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;GITHUB.COM/FASTER-CPYTHON …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 21 Jun 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-06-21:/issue/issue-582.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊(PyCoder)581</title><link>https://weekly.pychina.org/issue/issue-581.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;什么是 Python 之禅？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/581"&gt;PyCoder's Weekly - Issue #581&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
@@ -11,11 +23,7 @@
 &lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://pycoders.com/link/10955/web"&gt;什么是 Python 之禅？&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;REAL PYTHON&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this tutorial, you’ll …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 14 Jun 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-06-14:/issue/issue-581.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊(PyCoder)580</title><link>https://weekly.pychina.org/issue/issue-580.html</link><description>&lt;blockquote&gt;
+&lt;li&gt;REAL PYTHON …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 14 Jun 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-06-14:/issue/issue-581.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊(PyCoder)580</title><link>https://weekly.pychina.org/issue/issue-580.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;标准库有毛用?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/580"&gt;PyCoder's Weekly - Issue #580&lt;/a&gt;&lt;/p&gt;
