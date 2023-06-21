@@ -289,7 +289,7 @@ llm 这么好的名字就这么被占住了?
 - 2018: [蠎周刊 321](https://weekly.pychina.org/issue/issue-321.html)
 - 2017: [蠎加载 128](https://weekly.pychina.org/importpython/importpython-128.html)
 - 2016: [蠎加载 77](https://weekly.pychina.org/importpython/importpython-77.html)
-- 2015: [蠎周刊 170](https://weekly.pychina.org/issue/issue-v.html)
+- 2015: [蠎周刊 170](https://weekly.pychina.org/issue/issue-170.html)
     + [蠎加载 36](https://weekly.pychina.org/importpython/importpython-36.html)
 - 2014: [Issue 119](https://weekly.pychina.org/issue/issue-119.html)
 - 2013: 空缺
