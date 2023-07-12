@@ -4,7 +4,7 @@ Date: 2023-07-12 11:42
 Tags: Weekly,Python,pycoders,ZH
 
 
-> ???
+> Meta Threads 后端使用 Python 3.10
 
 
 原文: [PyCoder's Weekly - Issue #585](https://pycoders.com/issues/585)
