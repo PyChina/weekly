@@ -412,10 +412,12 @@ ZoomQuiet/**[大妈](https://mp.weixin.qq.com/s/N5TuRRbF587D4Q90XdDA7g)**
 历史吐糟: Chaos42 (订阅号 PythoniCamp)
 
 as 创始组织者:
+    CPyUG (mailling-list: python-cn@googlegroups.com)
     PyChina (订阅号: PyChinaOrg)
     本地社区: 
         GDG珠海 (订阅号: GDG-ZhuHai)
-        TFUG珠海 (订阅号: ZH_TFUG)
+        AIGC珠海 
+
 ```
 
 -------------
