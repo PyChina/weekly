@@ -376,10 +376,9 @@ ZoomQuiet/**[大妈](https://mp.weixin.qq.com/s/N5TuRRbF588D4Q90XdDA7g)**
 
 
 ```python
-
+全职嗯哼: 大妈的多重宇宙 - https://www.youtube.com/@Chaos42DAMA
 私自嗯哼: ZoomQuiet (订阅号: ZoomQuiet42)
-公开课程: 蟒营 (订阅号: Mainium)
-历史吐糟: Chaos42 (订阅号 PythoniCamp)
+公开社群: 蟒营 (订阅号: Mainium)
 
 as 创始组织者:
     CPyUG (mailling-list: python-cn@googlegroups.com)
