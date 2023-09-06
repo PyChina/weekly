@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Issue</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 30 Aug 2023 11:42:00 +0800</lastBuildDate><item><title>蠎周刊(PyCoder)592</title><link>https://weekly.pychina.org/issue/issue-592.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Issue</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 06 Sep 2023 14:33:45 +0800</lastBuildDate><item><title>蠎周刊(PyCoder)593</title><link>https://weekly.pychina.org/issue/issue-593.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;创建漂亮的极坐标直方图&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/593"&gt;PyCoder's Weekly - Issue #593&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;230906 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;230906 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/11398/web"&gt;用 Rich 创 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 06 Sep 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-09-06:/issue/issue-593.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊(PyCoder)592</title><link>https://weekly.pychina.org/issue/issue-592.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;让每一行都有意义&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/592"&gt;PyCoder's Weekly - Issue #592&lt;/a&gt;&lt;/p&gt;
