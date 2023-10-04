@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 27 Sep 2023 11:42:00 +0800</lastBuildDate><item><title>蠎周刊(PyCoder)596</title><link>https://weekly.pychina.org/issue/issue-596.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 04 Oct 2023 21:53:01 +0800</lastBuildDate><item><title>蠎周刊(PyCoder)597</title><link>https://weekly.pychina.org/issue/issue-597.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;3.12: 值得尝试的酷炫新功能&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/597"&gt;PyCoder's Weekly - Issue #597&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;231004 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;231004 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pycoders.com/link/11517/web"&gt;Python 3 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 04 Oct 2023 21:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-10-04:/issue/issue-597.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊(PyCoder)596</title><link>https://weekly.pychina.org/issue/issue-596.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;绕过 GIL 进行并行处理&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/596"&gt;PyCoder's Weekly - Issue #596&lt;/a&gt;&lt;/p&gt;
