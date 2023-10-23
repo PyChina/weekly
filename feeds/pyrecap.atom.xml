@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - pyrecap</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pyrecap.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2023-10-23T17:19:58+08:00</updated><entry><title>上周蠎快讯 42/2023</title><link href="https://weekly.pychina.org/pyrecap/pyrw-2342.html" rel="alternate"></link><published>2023-10-23T11:42:00+08:00</published><updated>2023-10-23T17:19:58+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2023-10-23:/pyrecap/pyrw-2342.html</id><summary type="html">&lt;blockquote&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - pyrecap</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pyrecap.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2023-10-23T20:40:06+08:00</updated><entry><title>上周蠎快讯 42/2023</title><link href="https://weekly.pychina.org/pyrecap/pyrw-2342.html" rel="alternate"></link><published>2023-10-23T11:42:00+08:00</published><updated>2023-10-23T20:40:06+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2023-10-23:/pyrecap/pyrw-2342.html</id><summary type="html">&lt;blockquote&gt;
 &lt;p&gt;被终身禁止在 Meta 上做广告,因为Python...&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/42/"&gt;Python recap for week 42/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
@@ -328,8 +328,8 @@
 &lt;hr&gt;
 &lt;h1&gt;PS:&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/issue/issue-599.html"&gt;Issue 599 ~蠎周刊 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/blob/master/content/Issue/issue-599.md"&gt;issue-599.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/pyrecap/pyrw-2342.html"&gt;42/3023 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/blob/master/content/pyrecap/pyrw-2342.md"&gt;pyrw-2342.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Happy Pythoning!&lt;/p&gt;
