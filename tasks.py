@@ -6,21 +6,18 @@ import functools
 import os
 
 from invoke import task
-#from fabric.api import env, lcd, local, task
+
+# from fabric.api import env, lcd, local, task
 
 # Local path configuration (can be absolute or relative to fabfile)
-env = {"input_path" : 'content'
-    , "deploy_path" : 'output'
-    }
+env = {"input_path": 'content', "deploy_path": 'output'}
 
 SROOT = os.path.dirname(os.path.abspath(__file__))
 print(SROOT)
 
-
 @task
 def ver(c):
-    '''echo crt. verions
-    '''
+    '''echo crt. verions'''
     print('\n ~> powded by {} <~'.format(__version__))
 
 #   support stuff func.
@@ -31,11 +28,10 @@ def cd(c, path2, echo=True):
         c.run('pwd')
         c.run('echo \n')
 
-
 @task
 def build(c):
     print("\t>>> base Pelican build-out html")
-    #c.run('pelican {input_path} -o {deploy_path} -s pelicanconf.py --debug'.format(**env))
+    # c.run('pelican {input_path} -o {deploy_path} -s pelicanconf.py --debug'.format(**env))
     c.run('pelican {input_path} -o {deploy_path} -s pelicanconf.py '.format(**env))
 
 
@@ -48,36 +44,39 @@ def reserve(c):
     build(c)
     serve(c)
 
+
 def gh_up(c):
     print("\t>>> git pu all .md update")
-    c.run('pwd && '
+    c.run(
+        'pwd && '
         'git st && '
         'git add --all . && '
         'git ci -am "push all new words for markdoc build" && '
         # 'git pu cafe gitcafe-page '
         'git pu && '
         'date '.format(**env)
-        )
+    )
 
 
 def gh_pages(c):
     print("\t>>> jump-into gh-pages to publish results")
-    #print(env['deploy_path'])
+    # print(env['deploy_path'])
     cd(c, env['deploy_path'])
-    c.run('git st && '
+    c.run(
+        'git st && '
         'git add --all . && '
         'git ci -am "re-build from local by markdoc @MBP111216ZQ" && '
         # 'git pu cafe gitcafe-page '
         'git pu && '
         'date '.format(**env)
-        )
+    )
     cd(c, SROOT)
 
+
 def pull_data(c):
-    #cd(c, env['deploy_path'])
+    # cd(c, env['deploy_path'])
     print("\t>>> git pull all others doc.")
-    c.run('git pull'.format(**env)
-    )
+    c.run('git pull'.format(**env))
     cd(c, SROOT)
 
 
@@ -88,8 +87,6 @@ def pub(c):
     gh_up(c)
     # CNAME()
     gh_pages(c)
-
-
 
 
 '''
