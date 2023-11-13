@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 06 Dec 2023 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 44/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2344.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 13 Nov 2023 18:02:36 +0800</lastBuildDate><item><title>上周蠎快讯 45/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2345.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Pandas 创建者 Wes McKinney 加入 Posit&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/45/"&gt;Python recap for week 45/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;231113 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;231113 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;文 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 13 Nov 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-11-13:/pyrecap/pyrw-2345.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 44/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2344.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Pope  被Python诱惑了！&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/43/"&gt;Python recap for week 43/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/44/"&gt;Python recap for week 43/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;231206 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
 &lt;li&gt;231206 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
@@ -11,7 +21,7 @@
 &lt;hr&gt;
 &lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Articles …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 06 Dec 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-12-06:/pyrecap/pyrw-2344.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 43/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2343.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Articles …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 06 Nov 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-11-06:/pyrecap/pyrw-2344.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 43/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2343.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;为什么 Django 管理员“丑陋”？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/43/"&gt;Python recap for week 43/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
