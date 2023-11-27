@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 27 Nov 2023 12:22:51 +0800</lastBuildDate><item><title>上周蠎快讯 47/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2347.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;datetime.utcnow() 现已弃用&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 27 Nov 2023 16:12:42 +0800</lastBuildDate><item><title>上周蠎快讯 47/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2347.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;依赖关系属于版本控制&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/47/"&gt;Python recap for week 47/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;231127 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;231127 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;h2&gt;文章/教程 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 27 Nov 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-11-27:/pyrecap/pyrw-2347.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 46/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2346.html</link><description>&lt;blockquote&gt;
+&lt;li&gt;231127 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 27 Nov 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-11-27:/pyrecap/pyrw-2347.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 46/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2346.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;datetime.utcnow() 现已弃用&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/46/"&gt;Python recap for week 46/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;

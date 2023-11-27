@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - pyrecap</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pyrecap.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2023-11-27T12:22:51+08:00</updated><entry><title>上周蠎快讯 47/2023</title><link href="https://weekly.pychina.org/pyrecap/pyrw-2347.html" rel="alternate"></link><published>2023-11-27T11:42:00+08:00</published><updated>2023-11-27T12:22:51+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2023-11-27:/pyrecap/pyrw-2347.html</id><summary type="html">&lt;blockquote&gt;
-&lt;p&gt;datetime.utcnow() 现已弃用&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - pyrecap</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pyrecap.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2023-11-27T16:12:42+08:00</updated><entry><title>上周蠎快讯 47/2023</title><link href="https://weekly.pychina.org/pyrecap/pyrw-2347.html" rel="alternate"></link><published>2023-11-27T11:42:00+08:00</published><updated>2023-11-27T16:12:42+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2023-11-27:/pyrecap/pyrw-2347.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;依赖关系属于版本控制&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/47/"&gt;Python recap for week 47/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;231127 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;231127 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;h2&gt;文章/教程 …&lt;/h2&gt;</summary><content type="html">&lt;blockquote&gt;
-&lt;p&gt;datetime.utcnow() 现已弃用&lt;/p&gt;
+&lt;li&gt;231127 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译 …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;依赖关系属于版本控制&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/47/"&gt;Python recap for week 47/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
