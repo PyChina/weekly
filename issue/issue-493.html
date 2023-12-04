@@ -128,19 +128,19 @@
 </code></pre></div>
 
 <p>嗯哼, Elixir 们的语法;</p>
-<div class="highlight"><pre><span></span><code><span class="nv">def</span> <span class="nv">fizzbuzz</span><span class="ss">(</span><span class="nv">number</span><span class="ss">)</span>:
-    <span class="nv">mod_3</span> <span class="o">=</span> <span class="nv">number</span> <span class="o">%</span> <span class="mi">3</span>
-    <span class="nv">mod_5</span> <span class="o">=</span> <span class="nv">number</span> <span class="o">%</span> <span class="mi">5</span>
+<div class="highlight"><pre><span></span><code>def fizzbuzz(number):
+    mod_3 = number % 3
+    mod_5 = number % 5
 
-    <span class="nv">match</span> <span class="ss">(</span><span class="nv">mod_3</span>, <span class="nv">mod_5</span><span class="ss">)</span>:
-        <span class="nv">case</span> <span class="ss">(</span><span class="mi">0</span>, <span class="mi">0</span><span class="ss">)</span>:
-            <span class="k">return</span> <span class="s2">&quot;</span><span class="s">fizzbuzz</span><span class="s2">&quot;</span>
-        <span class="nv">case</span> <span class="ss">(</span><span class="mi">0</span>, <span class="nv">_</span><span class="ss">)</span>:
-            <span class="k">return</span> <span class="s2">&quot;</span><span class="s">fizz</span><span class="s2">&quot;</span>
-        <span class="nv">case</span> <span class="ss">(</span><span class="nv">_</span>, <span class="mi">0</span><span class="ss">)</span>:
-            <span class="k">return</span> <span class="s2">&quot;</span><span class="s">buzz</span><span class="s2">&quot;</span>
-        <span class="nv">case</span> <span class="nv">_</span>:
-            <span class="k">return</span> <span class="nv">str</span><span class="ss">(</span><span class="nv">number</span><span class="ss">)</span>
+    match (mod_3, mod_5):
+        case (0, 0):
+            return &quot;fizzbuzz&quot;
+        case (0, <span class="ge">_):</span>
+<span class="ge">            return &quot;fizz&quot;</span>
+<span class="ge">        case (_</span>, 0):
+            return &quot;buzz&quot;
+        case _:
+            return str(number)
 </code></pre></div>
 
 <p>)</p>
@@ -490,7 +490,7 @@ Raspberry Pi Zero 的实用化作品.</p>
 <hr>
 <p>好文笔,感叹号年度配额: <strong>2/3</strong></p>
 <p>投稿/反馈邮箱:</p>
-<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span>
 </code></pre></div>
 
 <p>(邮件列表地址, 

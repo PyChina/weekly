@@ -180,8 +180,8 @@
 </ul>
 <p>(<code>是也乎:</code></p>
 <p>简直就是 LISP/Elixir 的日常..</p>
-<div class="highlight"><pre><span></span><code><span class="nv">def</span> <span class="nv">swap_words</span><span class="ss">(</span><span class="nv">s</span>, <span class="nv">x</span>, <span class="nv">y</span><span class="ss">)</span>:
-    <span class="k">return</span> <span class="nv">y</span>.<span class="nv">join</span><span class="ss">(</span><span class="nv">part</span>.<span class="nv">replace</span><span class="ss">(</span><span class="nv">y</span>, <span class="nv">x</span><span class="ss">)</span> <span class="k">for</span> <span class="nv">part</span> <span class="nv">in</span> <span class="nv">s</span>.<span class="nv">split</span><span class="ss">(</span><span class="nv">x</span><span class="ss">))</span>
+<div class="highlight"><pre><span></span><code>def swap_words(s, x, y):
+    return y.join(part.replace(y, x) for part in s.split(x))
 </code></pre></div>
 
 <p>)</p>
@@ -309,12 +309,12 @@ Python 吞食的动物越来越多...</p>
 </li>
 </ul>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code>$ pip-audit
-Found <span class="m">2</span> known vulnerabilities <span class="k">in</span> <span class="m">1</span> packages
-Name  Version ID             Fix Versions
-----  ------- -------------- ------------
-Flask <span class="m">0</span>.5     PYSEC-2019-179 <span class="m">1</span>.0
-Flask <span class="m">0</span>.5     PYSEC-2018-66  <span class="m">0</span>.12.3
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>pip-audit
+Found<span class="w"> </span><span class="m">2</span><span class="w"> </span>known<span class="w"> </span>vulnerabilities<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="m">1</span><span class="w"> </span>packages
+Name<span class="w">  </span>Version<span class="w"> </span>ID<span class="w">             </span>Fix<span class="w"> </span>Versions
+----<span class="w">  </span>-------<span class="w"> </span>--------------<span class="w"> </span>------------
+Flask<span class="w"> </span><span class="m">0</span>.5<span class="w">     </span>PYSEC-2019-179<span class="w"> </span><span class="m">1</span>.0
+Flask<span class="w"> </span><span class="m">0</span>.5<span class="w">     </span>PYSEC-2018-66<span class="w">  </span><span class="m">0</span>.12.3
 </code></pre></div>
 
 <p>)</p>
@@ -458,7 +458,7 @@ LaTeX 原本只是为写一本书, 而创建的排版语言,
 <hr>
 <p>好文笔,感叹号年度配额: <strong>2/3</strong></p>
 <p>投稿/反馈邮箱:</p>
-<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span>
 </code></pre></div>
 
 <p>(邮件列表地址, 

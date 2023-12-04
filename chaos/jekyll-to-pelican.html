@@ -249,7 +249,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 <li><code>fab pub2cafe</code> 自动完成进入 <code>output</code> 后的一系列 git 操作</li>
 </ol>
 <p>对应的 配置中:</p>
-<div class="highlight"><pre><span></span><code><span class="c1">#DELETE_OUTPUT_DIRECTORY = True</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="c1">#DELETE_OUTPUT_DIRECTORY = True</span>
 </code></pre></div>
 
 <p>就绝对不能打开注释
@@ -259,11 +259,11 @@ Python 世界中大堆静态网站发布工具中的一个,
 <h3>DISQUS</h3>
 <p>果断遇到了 DISQUS 配置了,不生效的问题,上下折腾, 才发现很多人都遇到了这个问题,
 追踪到代码:</p>
-<div class="highlight"><pre><span></span><code><span class="c1">//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html</span><span class="w"></span>
-<span class="c1">//...</span><span class="w"></span>
-<span class="kd">var</span><span class="w"> </span><span class="nx">disqus_shortname</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;{{ DISQUS_SITENAME }}&#39;</span><span class="p">;</span><span class="w"> </span><span class="c1">// required: replace example with your forum shortname</span><span class="w"></span>
-<span class="kd">var</span><span class="w"> </span><span class="nx">disqus_identifier</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;{{ article.slug }}&#39;</span><span class="p">;</span><span class="w"></span>
-<span class="kd">var</span><span class="w"> </span><span class="nx">disqus_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;{{ SITEURL }}/{{ article.url }}&#39;</span><span class="p">;</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="c1">//... pelican-themes/pelican-bootstrap3/templates/includes/comments.html</span>
+<span class="c1">//...</span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">disqus_shortname</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;{{ DISQUS_SITENAME }}&#39;</span><span class="p">;</span><span class="w"> </span><span class="c1">// required: replace example with your forum shortname</span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">disqus_identifier</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;{{ article.slug }}&#39;</span><span class="p">;</span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">disqus_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;{{ SITEURL }}/{{ article.url }}&#39;</span><span class="p">;</span>
 </code></pre></div>
 
 <p>才发现 <code>SITEURL</code> 的配置是决定性的,
@@ -279,7 +279,7 @@ Python 世界中大堆静态网站发布工具中的一个,
 <p>fixed!</p>
 <h3>CATEGORY_FEED_ATOM</h3>
 <p>一时手賎,打开了:</p>
-<div class="highlight"><pre><span></span><code><span class="na">CATEGORY_FEED_ATOM</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#39;feeds/%s.atom.xml&#39;</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="na">CATEGORY_FEED_ATOM</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#39;feeds/%s.atom.xml&#39;</span>
 </code></pre></div>
 
 <p>结果,发现不能在模板里简单的完成分类子 RSS 的链接!</p>

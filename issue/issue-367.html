@@ -308,29 +308,29 @@ garbage out
 <p>This is incredible, a clean-room reimplementation of the ZFS filesystem in Python, without reading the original C source code. Quote: "It seemed like it might be a fun project."</p>
 <p>(<code>是也乎:</code></p>
 <p>等等...意思是 ZFS 有复苏可能?</p>
-<div class="highlight"><pre><span></span><code>$ zexplore label -p tests/fixtures/feature_large_blocks
-<span class="o">{</span>b<span class="s1">&#39;errata&#39;</span>: <span class="m">0</span>,
- b<span class="s1">&#39;features_for_read&#39;</span>: <span class="o">{}</span>,
- b<span class="s1">&#39;guid&#39;</span>: <span class="m">6168868809305637343</span>,
- b<span class="s1">&#39;hostid&#39;</span>: <span class="m">8323329</span>,
- b<span class="s1">&#39;hostname&#39;</span>: b<span class="s1">&#39;ubuntu-zesty&#39;</span>,
- b<span class="s1">&#39;name&#39;</span>: b<span class="s1">&#39;feature_large_blocks&#39;</span>,
- b<span class="s1">&#39;pool_guid&#39;</span>: <span class="m">16637796155898928459</span>,
- b<span class="s1">&#39;state&#39;</span>: <span class="m">1</span>,
- b<span class="s1">&#39;top_guid&#39;</span>: <span class="m">6168868809305637343</span>,
- b<span class="s1">&#39;txg&#39;</span>: <span class="m">16</span>,
- b<span class="s1">&#39;vdev_children&#39;</span>: <span class="m">1</span>,
- b<span class="s1">&#39;vdev_tree&#39;</span>: <span class="o">{</span>b<span class="s1">&#39;ashift&#39;</span>: <span class="m">9</span>,
-                b<span class="s1">&#39;asize&#39;</span>: <span class="m">62390272</span>,
-                b<span class="s1">&#39;create_txg&#39;</span>: <span class="m">4</span>,
-                b<span class="s1">&#39;guid&#39;</span>: <span class="m">6168868809305637343</span>,
-                b<span class="s1">&#39;id&#39;</span>: <span class="m">0</span>,
-                b<span class="s1">&#39;is_log&#39;</span>: <span class="m">0</span>,
-                b<span class="s1">&#39;metaslab_array&#39;</span>: <span class="m">33</span>,
-                b<span class="s1">&#39;metaslab_shift&#39;</span>: <span class="m">24</span>,
-                b<span class="s1">&#39;path&#39;</span>: b<span class="s1">&#39;/vagrant/fixtures/feature_large_blocks&#39;</span>,
-                b<span class="s1">&#39;type&#39;</span>: b<span class="s1">&#39;file&#39;</span><span class="o">}</span>,
- b<span class="s1">&#39;version&#39;</span>: <span class="m">5000</span><span class="o">}</span>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>zexplore<span class="w"> </span>label<span class="w"> </span>-p<span class="w"> </span>tests/fixtures/feature_large_blocks
+<span class="o">{</span>b<span class="s1">&#39;errata&#39;</span>:<span class="w"> </span><span class="m">0</span>,
+<span class="w"> </span>b<span class="s1">&#39;features_for_read&#39;</span>:<span class="w"> </span><span class="o">{}</span>,
+<span class="w"> </span>b<span class="s1">&#39;guid&#39;</span>:<span class="w"> </span><span class="m">6168868809305637343</span>,
+<span class="w"> </span>b<span class="s1">&#39;hostid&#39;</span>:<span class="w"> </span><span class="m">8323329</span>,
+<span class="w"> </span>b<span class="s1">&#39;hostname&#39;</span>:<span class="w"> </span>b<span class="s1">&#39;ubuntu-zesty&#39;</span>,
+<span class="w"> </span>b<span class="s1">&#39;name&#39;</span>:<span class="w"> </span>b<span class="s1">&#39;feature_large_blocks&#39;</span>,
+<span class="w"> </span>b<span class="s1">&#39;pool_guid&#39;</span>:<span class="w"> </span><span class="m">16637796155898928459</span>,
+<span class="w"> </span>b<span class="s1">&#39;state&#39;</span>:<span class="w"> </span><span class="m">1</span>,
+<span class="w"> </span>b<span class="s1">&#39;top_guid&#39;</span>:<span class="w"> </span><span class="m">6168868809305637343</span>,
+<span class="w"> </span>b<span class="s1">&#39;txg&#39;</span>:<span class="w"> </span><span class="m">16</span>,
+<span class="w"> </span>b<span class="s1">&#39;vdev_children&#39;</span>:<span class="w"> </span><span class="m">1</span>,
+<span class="w"> </span>b<span class="s1">&#39;vdev_tree&#39;</span>:<span class="w"> </span><span class="o">{</span>b<span class="s1">&#39;ashift&#39;</span>:<span class="w"> </span><span class="m">9</span>,
+<span class="w">                </span>b<span class="s1">&#39;asize&#39;</span>:<span class="w"> </span><span class="m">62390272</span>,
+<span class="w">                </span>b<span class="s1">&#39;create_txg&#39;</span>:<span class="w"> </span><span class="m">4</span>,
+<span class="w">                </span>b<span class="s1">&#39;guid&#39;</span>:<span class="w"> </span><span class="m">6168868809305637343</span>,
+<span class="w">                </span>b<span class="s1">&#39;id&#39;</span>:<span class="w"> </span><span class="m">0</span>,
+<span class="w">                </span>b<span class="s1">&#39;is_log&#39;</span>:<span class="w"> </span><span class="m">0</span>,
+<span class="w">                </span>b<span class="s1">&#39;metaslab_array&#39;</span>:<span class="w"> </span><span class="m">33</span>,
+<span class="w">                </span>b<span class="s1">&#39;metaslab_shift&#39;</span>:<span class="w"> </span><span class="m">24</span>,
+<span class="w">                </span>b<span class="s1">&#39;path&#39;</span>:<span class="w"> </span>b<span class="s1">&#39;/vagrant/fixtures/feature_large_blocks&#39;</span>,
+<span class="w">                </span>b<span class="s1">&#39;type&#39;</span>:<span class="w"> </span>b<span class="s1">&#39;file&#39;</span><span class="o">}</span>,
+<span class="w"> </span>b<span class="s1">&#39;version&#39;</span>:<span class="w"> </span><span class="m">5000</span><span class="o">}</span>
 </code></pre></div>
 
 <p>)</p>

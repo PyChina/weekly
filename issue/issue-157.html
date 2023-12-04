@@ -163,17 +163,17 @@ python -m SimpleHTTPServer</p>
 home_dir = expanduser('~')</p>
 </blockquote>
 <p>丫在哪儿:</p>
-<div class="highlight"><pre><span></span><code><span class="nf">cdp</span> <span class="p">()</span> <span class="p">{</span>
-    <span class="s s-Atom">cd</span> <span class="s2">&quot;$(python -c &quot;</span><span class="s s-Atom">import</span> <span class="s s-Atom">os</span><span class="p">.</span><span class="s s-Atom">path</span> <span class="s s-Atom">as</span> <span class="k">_</span><span class="p">,</span> <span class="err">$</span><span class="p">{</span><span class="mi">1</span><span class="p">};</span> <span class="s s-Atom">\</span>
-            <span class="nf">print</span><span class="p">(</span><span class="k">_</span><span class="p">.</span><span class="nf">dirname</span><span class="p">(</span><span class="k">_</span><span class="p">.</span><span class="nf">realpath</span><span class="p">(</span><span class="err">$</span><span class="p">{</span><span class="mi">1</span><span class="p">}.</span><span class="k">__</span><span class="s s-Atom">file__</span><span class="p">[</span><span class="o">:-</span><span class="mi">1</span><span class="p">])))</span><span class="s2">&quot;</span>
-<span class="s2">        )&quot;</span>
+<div class="highlight"><pre><span></span><code><span class="n">cdp</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="n">cd</span> <span class="s2">&quot;$(python -c &quot;</span><span class="kn">import</span> <span class="nn">os.path</span> <span class="k">as</span> <span class="nn">_</span><span class="o">,</span> <span class="err">$</span><span class="p">{</span><span class="mi">1</span><span class="p">};</span> \
+            <span class="nb">print</span><span class="p">(</span><span class="n">_</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">_</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="err">$</span><span class="p">{</span><span class="mi">1</span><span class="p">}</span><span class="o">.</span><span class="vm">__file__</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])))</span><span class="s2">&quot;</span>
+        <span class="p">)</span><span class="s2">&quot;</span>
 <span class="p">}</span>
 
-<span class="o">~</span> <span class="err">$</span> <span class="s s-Atom">cdp</span> <span class="s s-Atom">os</span>
-<span class="o">/</span><span class="s s-Atom">usr</span><span class="o">/</span><span class="s s-Atom">lib</span><span class="o">/</span><span class="s s-Atom">python2</span><span class="mf">.7</span> <span class="err">$</span>
+<span class="o">~</span> <span class="err">$</span> <span class="n">cdp</span> <span class="n">os</span>
+<span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python2</span><span class="mf">.7</span> <span class="err">$</span>
 
-<span class="o">~</span> <span class="err">$</span> <span class="s s-Atom">cdp</span> <span class="s s-Atom">os</span><span class="p">.</span><span class="s s-Atom">path</span>
-<span class="o">/</span><span class="s s-Atom">usr</span><span class="o">/</span><span class="s s-Atom">lib</span><span class="o">/</span><span class="s s-Atom">python2</span><span class="mf">.7</span> <span class="err">$</span>
+<span class="o">~</span> <span class="err">$</span> <span class="n">cdp</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span>
+<span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python2</span><span class="mf">.7</span> <span class="err">$</span>
 </code></pre></div>
 
 <p>人性化排序:</p>
@@ -191,17 +191,17 @@ home_dir = expanduser('~')</p>
 </code></pre></div>
 
 <p>终端真数学:</p>
-<div class="highlight"><pre><span></span><code>$ pmath <span class="s1">&#39;3 + 4&#39;</span>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>pmath<span class="w"> </span><span class="s1">&#39;3 + 4&#39;</span>
 <span class="m">7</span>
-$ pmath -f<span class="s1">&#39;.4f&#39;</span> <span class="s1">&#39;pow(2000, 1/3)&#39;</span>
+$<span class="w"> </span>pmath<span class="w"> </span>-f<span class="s1">&#39;.4f&#39;</span><span class="w"> </span><span class="s1">&#39;pow(2000, 1/3)&#39;</span>
 <span class="m">12</span>.5992
-$ pmath -f<span class="s1">&#39;.4f&#39;</span> <span class="s1">&#39;sin(pi/2)&#39;</span>
+$<span class="w"> </span>pmath<span class="w"> </span>-f<span class="s1">&#39;.4f&#39;</span><span class="w"> </span><span class="s1">&#39;sin(pi/2)&#39;</span>
 <span class="m">1</span>.0000
-$ pmath -c <span class="s1">&#39;exp(1j*pi).real&#39;</span>
+$<span class="w"> </span>pmath<span class="w"> </span>-c<span class="w"> </span><span class="s1">&#39;exp(1j*pi).real&#39;</span>
 -1.0
-$ pmath <span class="s1">&#39;x=3;x+2&#39;</span>
+$<span class="w"> </span>pmath<span class="w"> </span><span class="s1">&#39;x=3;x+2&#39;</span>
 <span class="m">5</span>
-$ <span class="nb">echo</span> <span class="s1">&#39;3+4&#39;</span> <span class="p">|</span> pmath
+$<span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;3+4&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>pmath
 <span class="m">7</span>
 </code></pre></div>
 

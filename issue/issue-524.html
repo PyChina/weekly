@@ -244,12 +244,12 @@ CoffeeScript 真正的目的, 现在实现了...</p>
 </ul>
 <p>Python’s match statement, which provides a C-like switch statement (though it is far more than that) was introduced in Python 3.10. Learn the history of the feature, how it is used, and how it works.</p>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code>    <span class="k">for</span> <span class="nv">number</span> <span class="nv">in</span> <span class="nv">range</span><span class="ss">(</span><span class="mi">100</span><span class="ss">)</span>:
-        <span class="nv">match</span> <span class="nv">number</span> <span class="o">%</span> <span class="mi">5</span>, <span class="nv">number</span> <span class="o">%</span> <span class="mi">3</span>:
-            <span class="nv">case</span> <span class="nv">_</span>, <span class="mi">0</span>: <span class="nv">print</span><span class="ss">(</span><span class="s2">&quot;</span><span class="s">Spam!</span><span class="s2">&quot;</span><span class="ss">)</span>
-            <span class="nv">case</span> <span class="mi">0</span>, <span class="nv">_</span>: <span class="nv">print</span><span class="ss">(</span><span class="s2">&quot;</span><span class="s">Eggs?</span><span class="s2">&quot;</span><span class="ss">)</span>
-            <span class="nv">case</span> <span class="mi">0</span>, <span class="mi">0</span>: <span class="nv">print</span><span class="ss">(</span><span class="s2">&quot;</span><span class="s">Spam and eggs.</span><span class="s2">&quot;</span><span class="ss">)</span>
-            <span class="nv">case</span> <span class="nv">_</span>, <span class="nv">_</span>: <span class="nv">print</span><span class="ss">(</span><span class="nv">number</span><span class="ss">)</span>
+<div class="highlight"><pre><span></span><code>    for number in range(100):
+        match number % 5, number % 3:
+            case <span class="ge">_, 0: print(&quot;Spam!&quot;)</span>
+<span class="ge">            case 0, _</span>: print(&quot;Eggs?&quot;)
+            case 0, 0: print(&quot;Spam and eggs.&quot;)
+            case <span class="ge">_, _</span>: print(number)
 </code></pre></div>
 
 <p>终于可以在 Python 中写 Lisp/Elixir/Clojure/... 了</p>
@@ -437,7 +437,7 @@ CoffeeScript 真正的目的, 现在实现了...</p>
 <hr>
 <p>好文笔,感叹号年度配额: <strong>1/3</strong></p>
 <p>投稿/反馈邮箱:</p>
-<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span>
 </code></pre></div>
 
 <p>(邮件列表地址, 

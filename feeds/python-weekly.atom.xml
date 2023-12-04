@@ -8333,7 +8333,7 @@ There will be a talk, Changepoints to Improve Forecasts (Estimation Window Selec
 在这篇教程中，你将学习到如何使用 &lt;code&gt;OpenCV, 深度学习, 以及 Python&lt;/code&gt; 来实现自动检测/预测年龄。在教程的最后，你能够以相当高的准确度在静态图片文件以及实时视频流中自动预测年龄。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://eng.lyft.com/hashing-and-equality-in-python-2ea8c738fb9d"&gt;Python 中的 Hashing 和 Equality&lt;/a&gt;&lt;/strong&gt;
 不要重写 &lt;code&gt;__hash__ and __eq__&lt;/code&gt; 来强制让对象可哈希。使用不可变对象来代替。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://martinheinz.dev/blog/20"&gt;部署任何 Python 项目到 Kubernetes&lt;/a&gt; &lt;/strong&gt;
+&lt;p&gt;**&lt;a href="https://martinheinz.dev/blog/20"&gt;部署任何 Python 项目到 Kubernetes&lt;/a&gt; **
 随着你的项目成长，变得很难只用单个的 &lt;code&gt;VM&lt;/code&gt; 或者一些简单的 &lt;code&gt;SaaS&lt;/code&gt; 来解决方案来进行处理。你可以切换到更强的解决方案，例如 &lt;code&gt;Kubernetes&lt;/code&gt; 来解决这个问题。然而，如果你不熟悉它的概念或者之前也没使用过，那么对你来说可能就有点复杂。因此，为了帮助你——我们将介绍你开始需要的一切以及让你的 &lt;code&gt;Python&lt;/code&gt; 项目部署在集群上——包括集群设置，所有的 &lt;code&gt;Kubernetes&lt;/code&gt; 清单以及一些额外的自动化配置让你更轻松！&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://tech.marksblogg.com/python-scraper-wireguard-vpn-ssh-proxy.html"&gt;用 Virtual Private Networks 实现 Python Web Scraping &lt;/a&gt;&lt;/strong&gt;
 使用 &lt;code&gt;VPNs&lt;/code&gt; 或者其他的隧道技术，可以很大程度上让爬虫不被发现，并尽可能地高效收集数据。这都可以在 &lt;code&gt;Cloud&lt;/code&gt; 或者私人环境中部署。这篇文章展示了两种方法，第一种是用了 &lt;code&gt;WireGuard&lt;/code&gt;，第二种是用了一个 &lt;code&gt;OpenSSH SOCKS5&lt;/code&gt; 代理。&lt;/p&gt;
@@ -8344,7 +8344,7 @@ There will be a talk, Changepoints to Improve Forecasts (Estimation Window Selec
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://mungingdata.com/python/how-pyenv-works-shims/"&gt;深入探讨 pyenv 是如何利用 Shim 设计模式实际工作的。&lt;/a&gt;&lt;/strong&gt;
 这篇文章展示了 &lt;code&gt;pyenv&lt;/code&gt; 是如何在底层使用 &lt;code&gt;shim&lt;/code&gt; 设计模式、&lt;code&gt;.python-version&lt;/code&gt; 文件以及环境变量工作的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="https://t.co/jvh5JTyJaz"&gt;用图论从新闻中构建社交网络&lt;/a&gt; &lt;/strong&gt;
+&lt;p&gt;**&lt;a href="https://t.co/jvh5JTyJaz"&gt;用图论从新闻中构建社交网络&lt;/a&gt; **
 理解报纸中的社交连接。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="https://ruivieira.dev/serving-models-with-seldon.html"&gt;Serving Models with Seldon&lt;/a&gt;&lt;/strong&gt;
 &lt;code&gt;Seldon&lt;/code&gt; 是一个旨在为机器学习模型提供一个生成工作流，允许构建暴露定义良好的 &lt;code&gt;APIs&lt;/code&gt; 的模型服务容器。在本文，我将展示如何创建一个简单的模型以及如何用 &lt;code&gt;Seldon&lt;/code&gt; 进行部署。&lt;/p&gt;

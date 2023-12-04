@@ -248,8 +248,8 @@
 <p>How to use ctypes to run SQLite queries without using the built-in sqlite3 Python package, and without compiling anything.</p>
 <p>(<code>是也乎:</code></p>
 <p>等等,为什么不用编译?</p>
-<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="nv">row</span> <span class="nv">in</span> <span class="nv">query</span><span class="ss">(</span><span class="s1">&#39;</span><span class="s">my.db</span><span class="s1">&#39;</span>, <span class="s1">&#39;</span><span class="s">SELECT * FROM my_table WHERE a = ?;</span><span class="s1">&#39;</span>, <span class="ss">(</span><span class="s1">&#39;</span><span class="s">b</span><span class="s1">&#39;</span>,<span class="ss">))</span>:
-    <span class="nv">print</span><span class="ss">(</span><span class="nv">row</span><span class="ss">)</span>
+<div class="highlight"><pre><span></span><code>for row in query(&#39;my.db&#39;, &#39;SELECT * FROM my_table WHERE a = ?;&#39;, (&#39;b&#39;,)):
+    print(row)
 </code></pre></div>
 
 <p>成果就是可以直接用 SQL 了...</p>
@@ -401,7 +401,7 @@
 <hr>
 <p>好文笔,感叹号年度配额: <strong>2/3</strong></p>
 <p>投稿/反馈邮箱:</p>
-<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span>
 </code></pre></div>
 
 <p>(邮件列表地址, 

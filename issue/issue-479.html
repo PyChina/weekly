@@ -328,15 +328,15 @@ NASA 至今都在快乐的使用...</p>
 <p>有小姐姐演示 https://www.youtube.com/watch?v=JIo4sA8LHco&amp;t=2s</p>
 <p>嘦事先定义:</p>
 <div class="highlight"><pre><span></span><code>endpoints:
-  - name: scanapi-demo # The API&#39;s name of your API
-    path: http://demo.scanapi.dev/api/ # The API&#39;s base url
-    requests:
-      - name: list_all_devs # The name of the first request
-        path: devs/ # The path of the first request
-        method: get # The HTTP method of the first request
-        tests:
-          - name: status_code_is_200 # The name of the first test for this request
-            assert: <span class="cp">${</span><span class="p">{</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span> <span class="cp">}</span>} # The assertion
+<span class="w">  </span>-<span class="w"> </span>name:<span class="w"> </span>scanapi-demo<span class="w"> </span>#<span class="w"> </span>The<span class="w"> </span>API&#39;s<span class="w"> </span>name<span class="w"> </span>of<span class="w"> </span>your<span class="w"> </span>API
+<span class="w">    </span>path:<span class="w"> </span>http://demo.scanapi.dev/api/<span class="w"> </span>#<span class="w"> </span>The<span class="w"> </span>API&#39;s<span class="w"> </span>base<span class="w"> </span>url
+<span class="w">    </span>requests:
+<span class="w">      </span>-<span class="w"> </span>name:<span class="w"> </span>list_all_devs<span class="w"> </span>#<span class="w"> </span>The<span class="w"> </span>name<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>first<span class="w"> </span>request
+<span class="w">        </span>path:<span class="w"> </span>devs/<span class="w"> </span>#<span class="w"> </span>The<span class="w"> </span>path<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>first<span class="w"> </span>request
+<span class="w">        </span>method:<span class="w"> </span>get<span class="w"> </span>#<span class="w"> </span>The<span class="w"> </span>HTTP<span class="w"> </span>method<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>first<span class="w"> </span>request
+<span class="w">        </span>tests:
+<span class="w">          </span>-<span class="w"> </span>name:<span class="w"> </span>status_code_is_200<span class="w"> </span>#<span class="w"> </span>The<span class="w"> </span>name<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>first<span class="w"> </span>test<span class="w"> </span>for<span class="w"> </span>this<span class="w"> </span>request
+<span class="w">            </span>assert:<span class="w"> </span><span class="cp">${</span><span class="p">{</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span> <span class="cp">}</span>}<span class="w"> </span>#<span class="w"> </span>The<span class="w"> </span>assertion
 </code></pre></div>
 
 <p>)</p>
@@ -422,7 +422,7 @@ NASA 至今都在快乐的使用...</p>
 <hr>
 <p>好文笔,感叹号年度配额: <strong>2/3</strong></p>
 <p>投稿/反馈邮箱:</p>
-<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="n">askdama</span><span class="nv">@googlegroups</span><span class="p">.</span><span class="n">com</span>
 </code></pre></div>
 
 <p>(邮件列表地址, 

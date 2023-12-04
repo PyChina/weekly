@@ -164,14 +164,14 @@
 </ul>
 <p>Did you know about <code>__code__</code> ?</p>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code><span class="nv">def</span> <span class="nv">foo</span><span class="ss">()</span>:
-      <span class="k">return</span> <span class="s2">&quot;</span><span class="s">I&#39;m foo!</span><span class="s2">&quot;</span>
+<div class="highlight"><pre><span></span><code>def foo():
+      return &quot;I&#39;m foo!&quot;
 
-<span class="nv">def</span> <span class="nv">bar</span><span class="ss">()</span>:
-      <span class="k">return</span> <span class="s2">&quot;</span><span class="s">I&#39;m bar!</span><span class="s2">&quot;</span>
+def bar():
+      return &quot;I&#39;m bar!&quot;
 
-<span class="nv">foo</span>.<span class="nv">__code__</span> <span class="o">=</span> <span class="nv">bar</span>.<span class="nv">__code__</span>
-<span class="nv">foo</span><span class="ss">()</span>
+foo.__code__ = bar.__code__
+foo()
 </code></pre></div>
 
 <p>猜?! 最后输出什么!?</p>

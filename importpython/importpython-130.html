@@ -125,20 +125,20 @@
 <p>I’ll now introduce flake8, a tool for checking Python syntax. SideCI supports code review automation for Python projects using flake8.</p>
 <p>(<code>是也乎:</code></p>
 <p>古典的配置形式...</p>
-<div class="highlight"><pre><span></span><code><span class="k">[flake8]</span><span class="w"></span>
-<span class="c1"># it&#39;s not a bug that we aren&#39;t using all of hacking, ignore:</span><span class="w"></span>
-<span class="c1"># F812: list comprehension redefines ...</span><span class="w"></span>
-<span class="c1"># H101: Use TODO(NAME)</span><span class="w"></span>
-<span class="c1"># H202: assertRaises Exception too broad</span><span class="w"></span>
-<span class="c1"># H233: Python 3.x incompatible use of print operator</span><span class="w"></span>
-<span class="c1"># H301: one import per line</span><span class="w"></span>
-<span class="c1"># H306: imports not in alphabetical order (time, os)</span><span class="w"></span>
-<span class="c1"># H401: docstring should not start with a space</span><span class="w"></span>
-<span class="c1"># H403: multi line docstrings should end on a new line</span><span class="w"></span>
-<span class="c1"># H404: multi line docstring should start without a leading new line</span><span class="w"></span>
-<span class="c1"># H405: multi line docstring summary not separated with an empty line</span><span class="w"></span>
-<span class="c1"># H501: Do not use self.__dict__ for string formatting</span><span class="w"></span>
-<span class="na">ignore</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">F812,H101,H202,H233,H301,H306,H401,H403,H404,H405,H501</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="p">[</span><span class="n">flake8</span><span class="p">]</span>
+<span class="c1"># it&#39;s not a bug that we aren&#39;t using all of hacking, ignore:</span>
+<span class="c1"># F812: list comprehension redefines ...</span>
+<span class="c1"># H101: Use TODO(NAME)</span>
+<span class="c1"># H202: assertRaises Exception too broad</span>
+<span class="c1"># H233: Python 3.x incompatible use of print operator</span>
+<span class="c1"># H301: one import per line</span>
+<span class="c1"># H306: imports not in alphabetical order (time, os)</span>
+<span class="c1"># H401: docstring should not start with a space</span>
+<span class="c1"># H403: multi line docstrings should end on a new line</span>
+<span class="c1"># H404: multi line docstring should start without a leading new line</span>
+<span class="c1"># H405: multi line docstring summary not separated with an empty line</span>
+<span class="c1"># H501: Do not use self.__dict__ for string formatting</span>
+<span class="n">ignore</span> <span class="o">=</span> <span class="n">F812</span><span class="p">,</span><span class="n">H101</span><span class="p">,</span><span class="n">H202</span><span class="p">,</span><span class="n">H233</span><span class="p">,</span><span class="n">H301</span><span class="p">,</span><span class="n">H306</span><span class="p">,</span><span class="n">H401</span><span class="p">,</span><span class="n">H403</span><span class="p">,</span><span class="n">H404</span><span class="p">,</span><span class="n">H405</span><span class="p">,</span><span class="n">H501</span>
 </code></pre></div>
 
 <p>)</p>
