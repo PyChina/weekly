@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Tue, 12 Dec 2023 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 49/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2349.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 18 Dec 2023 12:14:11 +0800</lastBuildDate><item><title>上周蠎快讯 50/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2350.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;sy_py2c,将Python源代码翻译成C语言&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/50/"&gt;Python recap for week 50/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;231218 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;231218 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 18 Dec 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-12-18:/pyrecap/pyrw-2350.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 49/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2349.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Python 非洲的公开信&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/49/"&gt;Python recap for week 49/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
