@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - pyrecap</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pyrecap.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2023-12-25T18:08:28+08:00</updated><entry><title>上周蠎快讯 51/2023</title><link href="https://weekly.pychina.org/pyrecap/pyrw-2351.html" rel="alternate"></link><published>2023-12-25T11:42:00+08:00</published><updated>2023-12-25T18:08:28+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2023-12-25:/pyrecap/pyrw-2351.html</id><summary type="html">&lt;blockquote&gt;
-&lt;p&gt;???&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - pyrecap</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pyrecap.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2023-12-25T18:16:29+08:00</updated><entry><title>上周蠎快讯 51/2023</title><link href="https://weekly.pychina.org/pyrecap/pyrw-2351.html" rel="alternate"></link><published>2023-12-25T11:42:00+08:00</published><updated>2023-12-25T18:16:29+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2023-12-25:/pyrecap/pyrw-2351.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;你的Python包安装在哪里了？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/51/"&gt;Python recap for week 51/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -11,8 +11,8 @@
 &lt;hr&gt;
 &lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;blockquote&gt;
-&lt;p&gt;???&lt;/p&gt;
+&lt;p&gt;Articles …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;你的Python包安装在哪里了？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/51/"&gt;Python recap for week 51/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
