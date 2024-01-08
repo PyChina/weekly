@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 08 Jan 2024 17:33:50 +0800</lastBuildDate><item><title>上周蠎快讯 2024/1</title><link>https://weekly.pychina.org/pyrecap/pyrw-2401.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;你的Python包安装在哪里了？&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 08 Jan 2024 17:53:29 +0800</lastBuildDate><item><title>上周蠎快讯 2024/1</title><link>https://weekly.pychina.org/pyrecap/pyrw-2401.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;在 Rust 中编写 Py&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/1/"&gt;Python recap for week 2024/1 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -9,9 +9,7 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;hr&gt;
-&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 08 Jan 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-01-08:/pyrecap/pyrw-2401.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 52/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2352.html</link><description>&lt;blockquote&gt;
+&lt;h2&gt;文章/教程 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 08 Jan 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-01-08:/pyrecap/pyrw-2401.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 52/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2352.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;你的Python包安装在哪里了？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/52/"&gt;Python recap for week 52/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
