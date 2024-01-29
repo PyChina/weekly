@@ -1,6 +1,6 @@
 #Fabric>=1.8.1
 #Glances
-#Jinja2
+Jinja2
 Markdown
 #MarkupSafe
 #Pygments
@@ -19,9 +19,10 @@ feedgenerator
 #lxml
 #mercurial
 #paramiko
-pelican
+pelican>=4.9.1
+watchfiles
 #pelican-gist
-pelican-gravatar-plus
+#pelican-gravatar-plus
 pelicanfly
 #psutil
 #pycrypto
@@ -33,3 +34,4 @@ pelicanfly
 #smartypants
 typogrify
 #wsgiref
+invoke
