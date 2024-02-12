@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 12 Feb 2024 21:27:50 +0800</lastBuildDate><item><title>上周蠎快讯 2024/6</title><link>https://weekly.pychina.org/pyrecap/pyrw-2406.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;???&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 12 Feb 2024 21:30:03 +0800</lastBuildDate><item><title>上周蠎快讯 2024/6</title><link>https://weekly.pychina.org/pyrecap/pyrw-2406.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;RustPython？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/6/"&gt;Python recap for week 2024/6 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -11,7 +11,7 @@
 &lt;hr&gt;
 &lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 12 Feb 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-02-12:/pyrecap/pyrw-2406.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/5</title><link>https://weekly.pychina.org/pyrecap/pyrw-2405.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 12 Feb 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-02-12:/pyrecap/pyrw-2406.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/5</title><link>https://weekly.pychina.org/pyrecap/pyrw-2405.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Rye: 愿景延续&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/5/"&gt;Python recap for week 2024/5 - discu.eu&lt;/a&gt;&lt;/p&gt;
