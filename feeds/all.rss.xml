@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 05 Feb 2024 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 2024/5</title><link>https://weekly.pychina.org/pyrecap/pyrw-2405.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 12 Feb 2024 21:27:50 +0800</lastBuildDate><item><title>上周蠎快讯 2024/6</title><link>https://weekly.pychina.org/pyrecap/pyrw-2406.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;???&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/6/"&gt;Python recap for week 2024/6 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;240212 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;240212 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 12 Feb 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-02-12:/pyrecap/pyrw-2406.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/5</title><link>https://weekly.pychina.org/pyrecap/pyrw-2405.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Rye: 愿景延续&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/5/"&gt;Python recap for week 2024/5 - discu.eu&lt;/a&gt;&lt;/p&gt;
@@ -1064,15 +1076,4 @@
 &lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;220323 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;220323 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 23 Mar 2022 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2022-03-23:/issue/issue-517.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>PyCoder 516</title><link>https://weekly.pychina.org/issue/issue-516.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;Python 3.11 新特性来了...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/516"&gt;PyCoder's Weekly - Issue #516&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;220316 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;220316 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/8293/web"&gt;如何用 Python 编写 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 16 Mar 2022 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2022-03-16:/issue/issue-516.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
+&lt;li&gt;220323 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 23 Mar 2022 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2022-03-23:/issue/issue-517.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
