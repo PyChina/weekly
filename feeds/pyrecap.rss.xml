@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 13 May 2024 11:13:24 +0800</lastBuildDate><item><title>上周蠎快讯 2024/19</title><link>https://weekly.pychina.org/pyrecap/pyrw-2419.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 20 May 2024 15:57:23 +0800</lastBuildDate><item><title>上周蠎快讯 2024/20</title><link>https://weekly.pychina.org/pyrecap/pyrw-2420.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;谷歌大裁员&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/20/"&gt;Python recap for week 2024/20 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;240520 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;240520 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章/教程/嗯 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 20 May 2024 10:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-05-20:/pyrecap/pyrw-2420.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/19</title><link>https://weekly.pychina.org/pyrecap/pyrw-2419.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;谷歌大裁员&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/19/"&gt;Python recap for week 2024/19 - discu.eu&lt;/a&gt;&lt;/p&gt;
