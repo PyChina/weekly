@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 24 Jun 2024 12:18:21 +0800</lastBuildDate><item><title>上周蠎快讯 2024/25</title><link>https://weekly.pychina.org/pyrecap/pyrw-2425.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 01 Jul 2024 12:08:31 +0800</lastBuildDate><item><title>上周蠎快讯 2024/26</title><link>https://weekly.pychina.org/pyrecap/pyrw-2426.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;对了解 Python 的Elixir推荐&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/26/"&gt;Python recap for week 2024/26 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;240701 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;240701 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章/教程 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 01 Jul 2024 10:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-07-01:/pyrecap/pyrw-2426.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/25</title><link>https://weekly.pychina.org/pyrecap/pyrw-2425.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;流畅的Python旅程&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/25/"&gt;Python recap for week 2024/25 - discu.eu&lt;/a&gt;&lt;/p&gt;
