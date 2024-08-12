@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 12 Aug 2024 10:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 2024/31</title><link>https://weekly.pychina.org/pyrecap/pyrw-2431.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 12 Aug 2024 10:43:47 +0800</lastBuildDate><item><title>上周蠎快讯 2024/31</title><link>https://weekly.pychina.org/pyrecap/pyrw-2431.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;ChocoPy用于教授编译器构建的发行版&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/31/"&gt;Python recap for week 2024/31 - discu.eu&lt;/a&gt;&lt;/p&gt;
@@ -11,7 +11,19 @@
 &lt;hr&gt;
 &lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 12 Aug 2024 10:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-08-12:/pyrecap/pyrw-2431.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/30</title><link>https://weekly.pychina.org/pyrecap/pyrw-2430.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 12 Aug 2024 10:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-08-12:/pyrecap/pyrw-2431.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/32</title><link>https://weekly.pychina.org/pyrecap/pyrw-2432.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;Python包安装到哪里了？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/32/"&gt;Python recap for week 2024/32 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;240812 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;240812 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 12 Aug 2024 10:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-08-12:/pyrecap/pyrw-2432.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/30</title><link>https://weekly.pychina.org/pyrecap/pyrw-2430.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;全栈 Python&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/30/"&gt;Python recap for week 2024/30 - discu.eu&lt;/a&gt;&lt;/p&gt;
@@ -1046,15 +1058,4 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/9561/web"&gt;在 Python 中构建 Alexa 等效项 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 21 Sep 2022 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2022-09-21:/issue/issue-543.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>PyCoder 542</title><link>https://weekly.pychina.org/issue/issue-542.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;Jupyter+git 问题已解决&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/542"&gt;PyCoder's Weekly - Issue #542&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;220913 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成快译&lt;/li&gt;
-&lt;li&gt;220913 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/9497/web"&gt;List Comprehensions Are More Powerful Than You …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Tue, 13 Sep 2022 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2022-09-13:/issue/issue-542.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
+&lt;li&gt;&lt;a href="https://pycoders.com/link/9561/web"&gt;在 Python 中构建 Alexa 等效项 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 21 Sep 2022 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2022-09-21:/issue/issue-543.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
