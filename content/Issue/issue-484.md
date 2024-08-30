@@ -193,16 +193,10 @@ Learn how to add time delays to your Python programs. You’ll use the built-in 
 
 
 
-- [如何在 5分钟内停止 Django 应用](https://pycoders.com/link/6781/web)
+- [如何在 5分钟内Docker化 Django 应用](https://pycoders.com/link/6781/web)
     + MATTHEW FREIRE
 
 This short yet informative tutorial explains how to Dockerize a Django application. The tutorial clocks in at less than a 10 minute read, but still finds time to explain why you should consider using Docker in your Django projects.
-
-(`是也乎:`
-
-继续努力到 5秒, 才有吸引力...
-
-)
 
 
 
