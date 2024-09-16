@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Issue 139: Hero"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-139.html"/>
-            <meta property="og:description" content=" 搜罗Py万物 的周刊 亲, 大家多分享文章 俺们才折腾的出又一周的美好呢. 喜欢就 在 Gratipay 支持俺们吧! 当然的,俺们也在twitter -- 原文: Pycoder&#39;s Weekly …"/>
+            <meta property="og:description" content="搜罗Py万物 的周刊 亲, 大家多分享文章 俺们才折腾的出又一周的美好呢. 喜欢就 在 Gratipay 支持俺们吧! 当然的,俺们也在twitter -- 原文: Pycoder&#39;s Weekly …"/>
 
 
     <!-- Bootstrap -->
@@ -151,12 +151,12 @@ didyoumean 就能建议可能的,
 <p>Shared by @mgrouchy</p>
 <p>(<code>是也乎:</code>
 实际使用起来是这样的...</p>
-<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">didyoumean</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">foo</span><span class="o">.</span><span class="n">baz</span>
-    <span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
-      <span class="n">File</span> <span class="s2">&quot;&lt;stdin&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-    <span class="ne">AttributeError</span><span class="p">:</span> <span class="s1">&#39;Foo&#39;</span> <span class="nb">object</span> <span class="n">has</span> <span class="n">no</span> <span class="n">attribute</span> <span class="s1">&#39;baz&#39;</span>
-    <span class="n">Maybe</span> <span class="n">you</span> <span class="n">meant</span><span class="p">:</span> <span class="o">.</span><span class="n">bar</span>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="nn">didyoumean</span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">foo</span><span class="o">.</span><span class="n">baz</span>
+<span class="w">    </span><span class="n">Traceback</span><span class="w"> </span><span class="p">(</span><span class="n">most</span><span class="w"> </span><span class="n">recent</span><span class="w"> </span><span class="n">call</span><span class="w"> </span><span class="n">last</span><span class="p">):</span>
+<span class="w">      </span><span class="n">File</span><span class="w"> </span><span class="s2">&quot;&lt;stdin&gt;&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">line</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="w">    </span><span class="n">AttributeError</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;Foo&#39;</span><span class="w"> </span><span class="nb">object</span><span class="w"> </span><span class="n">has</span><span class="w"> </span><span class="n">no</span><span class="w"> </span><span class="n">attribute</span><span class="w"> </span><span class="s1">&#39;baz&#39;</span>
+<span class="w">    </span><span class="n">Maybe</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">meant</span><span class="p">:</span><span class="w"> </span><span class="o">.</span><span class="n">bar</span>
 </code></pre></div>
 
 <p>执行前,给出进一步建议,而不是只给出错误类型,
@@ -189,19 +189,19 @@ didyoumean 就能建议可能的,
 <p>github.com</p>
 <p>Shared by @mgrouchy</p>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code>    <span class="kn">from</span> <span class="nn">importd</span> <span class="kn">import</span> <span class="n">d</span>
-    <span class="n">d</span><span class="p">(</span><span class="n">DEBUG</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="w">    </span><span class="kn">from</span><span class="w"> </span><span class="nn">importd</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">d</span>
+<span class="w">    </span><span class="n">d</span><span class="p">(</span><span class="n">DEBUG</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-    <span class="nd">@d</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
-    <span class="k">def</span> <span class="nf">idx</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;index.html&quot;</span>
+<span class="w">    </span><span class="nd">@d</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="k">def</span><span class="w"> </span><span class="nf">idx</span><span class="p">(</span><span class="n">request</span><span class="p">):</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="s2">&quot;index.html&quot;</span>
 
-    <span class="nd">@d</span><span class="p">(</span><span class="s2">&quot;/post/&lt;int:post_id&gt;/&quot;</span><span class="p">)</span>
-    <span class="k">def</span> <span class="nf">post</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">post_id</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;post.html&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;post_id&quot;</span><span class="p">:</span> <span class="n">post_id</span><span class="p">}</span>
+<span class="w">    </span><span class="nd">@d</span><span class="p">(</span><span class="s2">&quot;/post/&lt;int:post_id&gt;/&quot;</span><span class="p">)</span>
+<span class="w">    </span><span class="k">def</span><span class="w"> </span><span class="nf">post</span><span class="p">(</span><span class="n">request</span><span class="p">,</span><span class="w"> </span><span class="n">post_id</span><span class="p">):</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="s2">&quot;post.html&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="s2">&quot;post_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="n">post_id</span><span class="p">}</span>
 
-    <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
-        <span class="n">d</span><span class="o">.</span><span class="n">main</span><span class="p">()</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="vm">__name__</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+<span class="w">        </span><span class="n">d</span><span class="o">.</span><span class="n">main</span><span class="p">()</span>
 </code></pre></div>
 
 <p>你还能再象点 bottle 嘛?!

@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Issue 470"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-470.html"/>
-            <meta property="og:description" content=" 开源的社会契约  原文: PyCoder&#39;s Weekly - Issue #470   210428 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 210428 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄.    开源的社会契约 …"/>
+            <meta property="og:description" content="开源的社会契约 原文: PyCoder&#39;s Weekly - Issue #470 210428 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 210428 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. 开源的社会契约 …"/>
 
 
     <!-- Bootstrap -->
@@ -151,19 +151,19 @@
 <p>The Pyodide project consists of CPython 3.8 compiled to WebAssembly so that Python can run in the browser. Originally developed by Mozilla, Pyodide is now a fully independent project. The latest version 0.17 brings asyncio support and error handling, as well as other improvements.</p>
 <p>(<code>是也乎:</code></p>
 <p>嗯哼 <strong>WSAM.py</strong> 来了.</p>
-<div class="highlight"><pre><span></span><code><span class="n">function</span> <span class="n">jsfunc</span><span class="p">(</span><span class="n">array</span><span class="p">)</span> <span class="p">{</span>
-  <span class="n">array</span><span class="o">.</span><span class="n">push</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-  <span class="k">return</span> <span class="n">array</span><span class="o">.</span><span class="n">length</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="n">function</span><span class="w"> </span><span class="n">jsfunc</span><span class="p">(</span><span class="n">array</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">array</span><span class="o">.</span><span class="n">push</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">array</span><span class="o">.</span><span class="n">length</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="n">pyodide</span><span class="o">.</span><span class="n">runPython</span><span class="p">(</span><span class="err">`</span>
-<span class="kn">from</span> <span class="nn">js</span> <span class="kn">import</span> <span class="n">jsfunc</span>
-<span class="kn">from</span> <span class="nn">pyodide</span> <span class="kn">import</span> <span class="n">to_js</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">js</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">jsfunc</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pyodide</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">to_js</span>
 
-<span class="k">def</span> <span class="nf">pyfunc</span><span class="p">():</span>
-  <span class="n">mylist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
-  <span class="n">jslist</span> <span class="o">=</span> <span class="n">to_js</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span>
-  <span class="k">return</span> <span class="n">jsfunc</span><span class="p">(</span><span class="n">jslist</span><span class="p">)</span> <span class="c1"># returns 4</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">pyfunc</span><span class="p">():</span>
+<span class="w">  </span><span class="n">mylist</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+<span class="w">  </span><span class="n">jslist</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">to_js</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">jsfunc</span><span class="p">(</span><span class="n">jslist</span><span class="p">)</span><span class="w"> </span><span class="c1"># returns 4</span>
 <span class="err">`</span><span class="p">)</span>
 </code></pre></div>
 

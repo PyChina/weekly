@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎加载 165"/>
             <meta property="og:url" content="https://weekly.pychina.org/importpython/importpython-165.html"/>
-            <meta property="og:description" content="  原文: Import Python Weekly Newsletter - Issue No 165 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-)  该读 ~ 文章, Blog, 教程...  Guido van Rossum: 仁慈暴君回顾 Python 3  Guido, BDFL    Various topics of …"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 165 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... Guido van Rossum: 仁慈暴君回顾 Python 3 Guido, BDFL Various topics of …"/>
 
 
     <!-- Bootstrap -->
@@ -368,12 +368,12 @@
 <p>best practice, zero config python logging.</p>
 <p>(<code>是也乎:</code></p>
 <p>logging 重要又折腾...无配置的友爱日志模块?</p>
-<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">logx</span> <span class="kn">import</span> <span class="n">log</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;hello world&#39;</span><span class="p">)</span>
-<span class="n">hello</span> <span class="n">world</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">log</span><span class="o">.</span><span class="n">set_default_format</span><span class="p">()</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">log</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span><span class="s1">&#39;warning!&#39;</span><span class="p">)</span>
-<span class="p">[</span><span class="mi">2018</span><span class="o">-</span><span class="mi">02</span><span class="o">-</span><span class="mi">26</span> <span class="mi">21</span><span class="p">:</span><span class="mi">51</span><span class="p">:</span><span class="mi">16</span><span class="p">,</span><span class="mi">971</span><span class="p">]</span> <span class="n">WARNING</span> <span class="p">[</span><span class="n">__main__</span><span class="o">.&lt;</span><span class="n">module</span><span class="o">&gt;</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span> <span class="n">warning</span><span class="err">!</span>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="kn">from</span><span class="w"> </span><span class="nn">logx</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">log</span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;hello world&#39;</span><span class="p">)</span>
+<span class="n">hello</span><span class="w"> </span><span class="n">world</span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">log</span><span class="o">.</span><span class="n">set_default_format</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">log</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span><span class="s1">&#39;warning!&#39;</span><span class="p">)</span>
+<span class="p">[</span><span class="mi">2018</span><span class="o">-</span><span class="mi">02</span><span class="o">-</span><span class="mi">26</span><span class="w"> </span><span class="mi">21</span><span class="p">:</span><span class="mi">51</span><span class="p">:</span><span class="mi">16</span><span class="p">,</span><span class="mi">971</span><span class="p">]</span><span class="w"> </span><span class="n">WARNING</span><span class="w"> </span><span class="p">[</span><span class="n">__main__</span><span class="o">.&lt;</span><span class="n">module</span><span class="o">&gt;</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="n">warning</span><span class="err">!</span>
 </code></pre></div>
 
 <p>看起来不错...

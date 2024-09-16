@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Issue 481"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-481.html"/>
-            <meta property="og:description" content=" WASM 支持下跑在浏览器中的 Jupyter  原文: PyCoder&#39;s Weekly - Issue #481   210714 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 210714 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄.    数据 …"/>
+            <meta property="og:description" content="WASM 支持下跑在浏览器中的 Jupyter 原文: PyCoder&#39;s Weekly - Issue #481 210714 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 210714 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. 数据 …"/>
 
 
     <!-- Bootstrap -->
@@ -246,28 +246,28 @@
 <p>专门支持了 Py2.7,
 看来是公司长久使用的包, 现在开源了...
 比如说这个 <code>py</code> 指令:</p>
-<div class="highlight"><pre><span></span><code><span class="err">$</span> <span class="n">py</span> <span class="n">b64decode</span> <span class="n">aGVsbG8</span><span class="o">=</span>
-<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span> <span class="kn">from</span> <span class="nn">base64</span> <span class="kn">import</span> <span class="n">b64decode</span>
-<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span> <span class="n">b64decode</span><span class="p">(</span><span class="s1">&#39;aGVsbG8=&#39;</span><span class="p">,</span> <span class="n">altchars</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><span class="err">$</span><span class="w"> </span><span class="n">py</span><span class="w"> </span><span class="n">b64decode</span><span class="w"> </span><span class="n">aGVsbG8</span><span class="o">=</span>
+<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span><span class="w"> </span><span class="kn">from</span><span class="w"> </span><span class="nn">base64</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">b64decode</span>
+<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span><span class="w"> </span><span class="n">b64decode</span><span class="p">(</span><span class="s1">&#39;aGVsbG8=&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">altchars</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
 <span class="s1">&#39;hello&#39;</span>
 
-<span class="err">$</span> <span class="n">py</span> <span class="kp">log2</span> <span class="n">sys</span><span class="o">.</span><span class="n">maxint</span>
-<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span> <span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="kp">log2</span>
-<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span> <span class="kn">import</span> <span class="nn">sys</span>
-<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span> <span class="kp">log2</span><span class="p">(</span><span class="mi">9223372036854775807</span><span class="p">)</span>
+<span class="err">$</span><span class="w"> </span><span class="n">py</span><span class="w"> </span><span class="n">log2</span><span class="w"> </span><span class="n">sys</span><span class="o">.</span><span class="n">maxint</span>
+<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span><span class="w"> </span><span class="kn">from</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">log2</span>
+<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span><span class="w"> </span><span class="n">log2</span><span class="p">(</span><span class="mi">9223372036854775807</span><span class="p">)</span>
 <span class="mf">63.0</span>
 
-<span class="err">$</span> <span class="n">py</span> <span class="s1">&#39;plot(cos(arange(30)))&#39;</span>
-<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span> <span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="kp">arange</span>
-<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span> <span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="kp">cos</span>
-<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span> <span class="kn">from</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">import</span> <span class="n">plot</span>
-<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span> <span class="n">plot</span><span class="p">(</span><span class="kp">cos</span><span class="p">(</span><span class="kp">arange</span><span class="p">(</span><span class="mi">30</span><span class="p">)))</span>
+<span class="err">$</span><span class="w"> </span><span class="n">py</span><span class="w"> </span><span class="s1">&#39;plot(cos(arange(30)))&#39;</span>
+<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span><span class="w"> </span><span class="kn">from</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">arange</span>
+<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span><span class="w"> </span><span class="kn">from</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">cos</span>
+<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span><span class="w"> </span><span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">plot</span>
+<span class="p">[</span><span class="n">PYFLYBY</span><span class="p">]</span><span class="w"> </span><span class="n">plot</span><span class="p">(</span><span class="n">cos</span><span class="p">(</span><span class="n">arange</span><span class="p">(</span><span class="mi">30</span><span class="p">)))</span>
 <span class="o">&lt;</span><span class="n">plot</span><span class="o">&gt;</span>
 
-<span class="err">$</span> <span class="n">py</span> <span class="mi">38497631</span> <span class="o">/</span> <span class="mi">13951446</span>
+<span class="err">$</span><span class="w"> </span><span class="n">py</span><span class="w"> </span><span class="mi">38497631</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">13951446</span>
 <span class="mf">2.7594007818257693</span>
 
-<span class="err">$</span> <span class="n">py</span> <span class="n">foo</span><span class="o">.</span><span class="n">py</span>
+<span class="err">$</span><span class="w"> </span><span class="n">py</span><span class="w"> </span><span class="n">foo</span><span class="o">.</span><span class="n">py</span>
 </code></pre></div>
 
 <p>不过, 要将这种超级包应用在生产中, 可就得有心理准备了...</p>

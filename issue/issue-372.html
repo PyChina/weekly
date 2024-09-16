@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Issue 372"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-372.html"/>
-            <meta property="og:description" content="原文: PyCoder&#39;s Weekly - Issue #372    Python 预测未来4年将超越 C 和 Java ZDNET.COM    &#34;Python&#39;s ascent continues among software developers, bolstered by its usability compared with Java and C.&#34; (是也乎: Go 在 10年前就预测过自己将在10年以内超越 JAVA )  CPython 3.8.0b1 可用于测试 PYTHON.ORG …"/>
+            <meta property="og:description" content="原文: PyCoder&#39;s Weekly - Issue #372 Python 预测未来4年将超越 C 和 Java ZDNET.COM &#34;Python&#39;s ascent continues among software developers, bolstered by its usability compared with Java and C.&#34; (是也乎: Go 在 10年前就预测过自己将在10年以内超越 JAVA ) CPython 3.8.0b1 可用于测试 PYTHON.ORG …"/>
 
 
     <!-- Bootstrap -->
@@ -190,23 +190,23 @@
 <p>简单说历史梗:</p>
 <p><code>dict()</code> 是函式嗯哼, 
 而 <code>{}</code> 则是语法解析.</p>
-<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">dis</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">a</span><span class="p">():</span>
-<span class="o">...</span>      <span class="n">b</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">dis</span><span class="o">.</span><span class="n">dis</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-  <span class="mi">2</span>           <span class="mi">0</span> <span class="n">LOAD_GLOBAL</span>              <span class="mi">0</span> <span class="p">(</span><span class="nb">dict</span><span class="p">)</span>
-              <span class="mi">2</span> <span class="n">CALL_FUNCTION</span>            <span class="mi">0</span>
-              <span class="mi">4</span> <span class="n">STORE_FAST</span>               <span class="mi">0</span> <span class="p">(</span><span class="n">b</span><span class="p">)</span>
-              <span class="mi">6</span> <span class="n">LOAD_CONST</span>               <span class="mi">0</span> <span class="p">(</span><span class="kc">None</span><span class="p">)</span>
-              <span class="mi">8</span> <span class="n">RETURN_VALUE</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">c</span><span class="p">():</span>
-<span class="o">...</span>    <span class="n">d</span> <span class="o">=</span> <span class="p">{}</span>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="nn">dis</span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="k">def</span><span class="w"> </span><span class="nf">a</span><span class="p">():</span>
+<span class="o">...</span><span class="w">      </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">dict</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">dis</span><span class="o">.</span><span class="n">dis</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="w">  </span><span class="mi">2</span><span class="w">           </span><span class="mi">0</span><span class="w"> </span><span class="n">LOAD_GLOBAL</span><span class="w">              </span><span class="mi">0</span><span class="w"> </span><span class="p">(</span><span class="nb">dict</span><span class="p">)</span>
+<span class="w">              </span><span class="mi">2</span><span class="w"> </span><span class="n">CALL_FUNCTION</span><span class="w">            </span><span class="mi">0</span>
+<span class="w">              </span><span class="mi">4</span><span class="w"> </span><span class="n">STORE_FAST</span><span class="w">               </span><span class="mi">0</span><span class="w"> </span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+<span class="w">              </span><span class="mi">6</span><span class="w"> </span><span class="n">LOAD_CONST</span><span class="w">               </span><span class="mi">0</span><span class="w"> </span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+<span class="w">              </span><span class="mi">8</span><span class="w"> </span><span class="n">RETURN_VALUE</span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="k">def</span><span class="w"> </span><span class="nf">c</span><span class="p">():</span>
+<span class="o">...</span><span class="w">    </span><span class="n">d</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{}</span>
 <span class="o">...</span>
- <span class="o">&gt;&gt;&gt;</span> <span class="n">dis</span><span class="o">.</span><span class="n">dis</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
-  <span class="mi">2</span>           <span class="mi">0</span> <span class="n">BUILD_MAP</span>                <span class="mi">0</span>
-              <span class="mi">2</span> <span class="n">STORE_FAST</span>               <span class="mi">0</span> <span class="p">(</span><span class="n">d</span><span class="p">)</span>
-              <span class="mi">4</span> <span class="n">LOAD_CONST</span>               <span class="mi">0</span> <span class="p">(</span><span class="kc">None</span><span class="p">)</span>
-              <span class="mi">6</span> <span class="n">RETURN_VALUE</span>
+<span class="w"> </span><span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">dis</span><span class="o">.</span><span class="n">dis</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+<span class="w">  </span><span class="mi">2</span><span class="w">           </span><span class="mi">0</span><span class="w"> </span><span class="n">BUILD_MAP</span><span class="w">                </span><span class="mi">0</span>
+<span class="w">              </span><span class="mi">2</span><span class="w"> </span><span class="n">STORE_FAST</span><span class="w">               </span><span class="mi">0</span><span class="w"> </span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+<span class="w">              </span><span class="mi">4</span><span class="w"> </span><span class="n">LOAD_CONST</span><span class="w">               </span><span class="mi">0</span><span class="w"> </span><span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+<span class="w">              </span><span class="mi">6</span><span class="w"> </span><span class="n">RETURN_VALUE</span>
 </code></pre></div>
 
 <p>)</p>

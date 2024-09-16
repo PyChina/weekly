@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Issue 401"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-401.html"/>
-            <meta property="og:description" content=" Python 2.7 今天正式退休  原文: PyCoder&#39;s Weekly - Issue #401   200101 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 200101 Zoom.Quiet(大妈) 用时 17 分钟 完成格式转抄.    Python 2.7 Retires Today …"/>
+            <meta property="og:description" content="Python 2.7 今天正式退休 原文: PyCoder&#39;s Weekly - Issue #401 200101 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 200101 Zoom.Quiet(大妈) 用时 17 分钟 完成格式转抄. Python 2.7 Retires Today …"/>
 
 
     <!-- Bootstrap -->
@@ -329,20 +329,20 @@
 </code></pre></div>
 
 <p>变成:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">ffmpeg</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">ffmpeg</span>
 
-<span class="n">in_file</span> <span class="o">=</span> <span class="n">ffmpeg</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;input.mp4&#39;</span><span class="p">)</span>
-<span class="n">overlay_file</span> <span class="o">=</span> <span class="n">ffmpeg</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;overlay.png&#39;</span><span class="p">)</span>
+<span class="n">in_file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ffmpeg</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;input.mp4&#39;</span><span class="p">)</span>
+<span class="n">overlay_file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ffmpeg</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="s1">&#39;overlay.png&#39;</span><span class="p">)</span>
 <span class="p">(</span>
-    <span class="n">ffmpeg</span>
-    <span class="o">.</span><span class="n">concat</span><span class="p">(</span>
-        <span class="n">in_file</span><span class="o">.</span><span class="n">trim</span><span class="p">(</span><span class="n">start_frame</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">end_frame</span><span class="o">=</span><span class="mi">20</span><span class="p">),</span>
-        <span class="n">in_file</span><span class="o">.</span><span class="n">trim</span><span class="p">(</span><span class="n">start_frame</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">end_frame</span><span class="o">=</span><span class="mi">40</span><span class="p">),</span>
-    <span class="p">)</span>
-    <span class="o">.</span><span class="n">overlay</span><span class="p">(</span><span class="n">overlay_file</span><span class="o">.</span><span class="n">hflip</span><span class="p">())</span>
-    <span class="o">.</span><span class="n">drawbox</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">120</span><span class="p">,</span> <span class="mi">120</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="n">thickness</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
-    <span class="o">.</span><span class="n">output</span><span class="p">(</span><span class="s1">&#39;out.mp4&#39;</span><span class="p">)</span>
-    <span class="o">.</span><span class="n">run</span><span class="p">()</span>
+<span class="w">    </span><span class="n">ffmpeg</span>
+<span class="w">    </span><span class="o">.</span><span class="n">concat</span><span class="p">(</span>
+<span class="w">        </span><span class="n">in_file</span><span class="o">.</span><span class="n">trim</span><span class="p">(</span><span class="n">start_frame</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="n">end_frame</span><span class="o">=</span><span class="mi">20</span><span class="p">),</span>
+<span class="w">        </span><span class="n">in_file</span><span class="o">.</span><span class="n">trim</span><span class="p">(</span><span class="n">start_frame</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span><span class="w"> </span><span class="n">end_frame</span><span class="o">=</span><span class="mi">40</span><span class="p">),</span>
+<span class="w">    </span><span class="p">)</span>
+<span class="w">    </span><span class="o">.</span><span class="n">overlay</span><span class="p">(</span><span class="n">overlay_file</span><span class="o">.</span><span class="n">hflip</span><span class="p">())</span>
+<span class="w">    </span><span class="o">.</span><span class="n">drawbox</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w"> </span><span class="mi">120</span><span class="p">,</span><span class="w"> </span><span class="mi">120</span><span class="p">,</span><span class="w"> </span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">thickness</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="w">    </span><span class="o">.</span><span class="n">output</span><span class="p">(</span><span class="s1">&#39;out.mp4&#39;</span><span class="p">)</span>
+<span class="w">    </span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 <span class="p">)</span>
 </code></pre></div>
 

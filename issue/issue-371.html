@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Issue 371"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-371.html"/>
-            <meta property="og:description" content="原文: PyCoder&#39;s Weekly - Issue #371    Python 中的指针: 有什么意义?  REAL PYTHON    Get a clearer understanding of Python&#39;s object model and learn why pointers don&#39;t really exist in Python. You&#39;ll also cover ways to simulate pointers in Python without the memory-management nightmare. (是也 …"/>
+            <meta property="og:description" content="原文: PyCoder&#39;s Weekly - Issue #371 Python 中的指针: 有什么意义? REAL PYTHON Get a clearer understanding of Python&#39;s object model and learn why pointers don&#39;t really exist in Python. You&#39;ll also cover ways to simulate pointers in Python without the memory-management nightmare. (是也 …"/>
 
 
     <!-- Bootstrap -->
@@ -408,20 +408,20 @@
 <p><img alt="sheep" src="https://raw.githubusercontent.com/RobertoPrevato/BlackSheep/master/black-sheep.svg?sanitize=true"></p>
 <p>叕一只微框架...</p>
 <p>完全 bottle 样, 只是用了 py 3 的糖:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">asyncio</span>
-<span class="kn">from</span> <span class="nn">blacksheep.client</span> <span class="kn">import</span> <span class="n">ClientSession</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">asyncio</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">blacksheep.client</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">ClientSession</span>
 
 
-<span class="k">async</span> <span class="k">def</span> <span class="nf">client_example</span><span class="p">(</span><span class="n">loop</span><span class="p">):</span>
-    <span class="k">async</span> <span class="k">with</span> <span class="n">ClientSession</span><span class="p">()</span> <span class="k">as</span> <span class="n">client</span><span class="p">:</span>
-        <span class="n">response</span> <span class="o">=</span> <span class="k">await</span> <span class="n">client</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://docs.python.org/3/&#39;</span><span class="p">)</span>
+<span class="k">async</span><span class="w"> </span><span class="k">def</span><span class="w"> </span><span class="nf">client_example</span><span class="p">(</span><span class="n">loop</span><span class="p">):</span>
+<span class="w">    </span><span class="k">async</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="n">ClientSession</span><span class="p">()</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">client</span><span class="p">:</span>
+<span class="w">        </span><span class="n">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="n">client</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://docs.python.org/3/&#39;</span><span class="p">)</span>
 
-        <span class="k">assert</span> <span class="n">response</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
-        <span class="n">text</span> <span class="o">=</span> <span class="k">await</span> <span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">()</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+<span class="w">        </span><span class="k">assert</span><span class="w"> </span><span class="n">response</span><span class="w"> </span><span class="ow">is</span><span class="w"> </span><span class="ow">not</span><span class="w"> </span><span class="kc">None</span>
+<span class="w">        </span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">()</span>
+<span class="w">        </span><span class="nb">print</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
 
 
-<span class="n">loop</span> <span class="o">=</span> <span class="n">asyncio</span><span class="o">.</span><span class="n">get_event_loop</span><span class="p">()</span>
+<span class="n">loop</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">asyncio</span><span class="o">.</span><span class="n">get_event_loop</span><span class="p">()</span>
 <span class="n">loop</span><span class="o">.</span><span class="n">run_until_complete</span><span class="p">(</span><span class="n">client_example</span><span class="p">(</span><span class="n">loop</span><span class="p">))</span>
 </code></pre></div>
 

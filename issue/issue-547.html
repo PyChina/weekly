@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="PyCoder 547"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-547.html"/>
-            <meta property="og:description" content=" Pythoneer 2022调查问卷来了, 值得冲哪...  原文: PyCoder&#39;s Weekly - Issue #547   221019 Zoom.Quiet(大妈) 用时 13 分钟 完成快译 221019 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄.    ChatterBot: 用 Python 构建聊天机 …"/>
+            <meta property="og:description" content="Pythoneer 2022调查问卷来了, 值得冲哪... 原文: PyCoder&#39;s Weekly - Issue #547 221019 Zoom.Quiet(大妈) 用时 13 分钟 完成快译 221019 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. ChatterBot: 用 Python 构建聊天机 …"/>
 
 
     <!-- Bootstrap -->
@@ -225,9 +225,9 @@ SQLite 以及 The Rust Programming Language ISBN-13: 9781718500440
 <p>“When using many decorators in code, there’s a shortcut you can use if you find yourself repeating them. They can be assigned to a variable just like any other Python expression.”</p>
 <p>(<code>是也乎:</code></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># in helpers.py</span>
-<span class="n">xfail_pypy_3749</span> <span class="o">=</span> <span class="n">pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">xfail</span><span class="p">(</span>
-    <span class="n">env</span><span class="o">.</span><span class="n">PYVERSION</span><span class="p">[:</span><span class="mi">2</span><span class="p">]</span> <span class="o">==</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span> <span class="ow">and</span> <span class="n">env</span><span class="o">.</span><span class="n">PYPY</span> <span class="ow">and</span> <span class="n">env</span><span class="o">.</span><span class="n">PYPYVERSION</span> <span class="o">&gt;=</span> <span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span>
-    <span class="n">reason</span><span class="o">=</span><span class="s2">&quot;Avoid a PyPy bug: https://foss.heptapod.net/pypy/pypy/-/issues/3749&quot;</span><span class="p">,</span>
+<span class="n">xfail_pypy_3749</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">xfail</span><span class="p">(</span>
+<span class="w">    </span><span class="n">env</span><span class="o">.</span><span class="n">PYVERSION</span><span class="p">[:</span><span class="mi">2</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">)</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">env</span><span class="o">.</span><span class="n">PYPY</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">env</span><span class="o">.</span><span class="n">PYPYVERSION</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">),</span>
+<span class="w">    </span><span class="n">reason</span><span class="o">=</span><span class="s2">&quot;Avoid a PyPy bug: https://foss.heptapod.net/pypy/pypy/-/issues/3749&quot;</span><span class="p">,</span>
 <span class="p">)</span>
 
 <span class="o">...</span>
@@ -235,15 +235,15 @@ SQLite 以及 The Rust Programming Language ISBN-13: 9781718500440
 
 <span class="c1"># in src.</span>
 
-<span class="kn">from</span> <span class="nn">tests.helpers</span> <span class="kn">import</span> <span class="n">xfail_pypy_3749</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">tests.helpers</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">xfail_pypy_3749</span>
 
 <span class="nd">@xfail_pypy_3749</span>
-<span class="k">def</span> <span class="nf">test_something</span><span class="p">():</span>
-    <span class="o">...</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">test_something</span><span class="p">():</span>
+<span class="w">    </span><span class="o">...</span>
 
 <span class="nd">@xfail_pypy_3749</span>
-<span class="k">def</span> <span class="nf">test_something_else</span><span class="p">():</span>
-    <span class="o">...</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">test_something_else</span><span class="p">():</span>
+<span class="w">    </span><span class="o">...</span>
 </code></pre></div>
 
 <p>好吧, 这才是魔术...</p>

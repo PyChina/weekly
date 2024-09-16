@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="PyCoder 491"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-491.html"/>
-            <meta property="og:description" content=" slippers ~ 低代码新思路  原文: PyCoder&#39;s Weekly - Issue #491   210922 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 210922 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄.    结构模式匹配在 …"/>
+            <meta property="og:description" content="slippers ~ 低代码新思路 原文: PyCoder&#39;s Weekly - Issue #491 210922 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 210922 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. 结构模式匹配在 …"/>
 
 
     <!-- Bootstrap -->
@@ -329,23 +329,23 @@
 <p>人民如此想念 <code>goto</code> 不惜一切代价...
 也要在 Python 中可以 goto.</p>
 <p><img alt="goto" src="https://ipic.zoomquiet.top/2021-09-22-ScreenShot%202021-09-22%2010.09.33.jpg"></p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">goto</span> <span class="kn">import</span> <span class="n">with_goto</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">goto</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">with_goto</span>
 
 <span class="nd">@with_goto</span>
-<span class="k">def</span> <span class="nf">range</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">stop</span><span class="p">):</span>
-    <span class="n">i</span> <span class="o">=</span> <span class="n">start</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">range</span><span class="p">(</span><span class="n">start</span><span class="p">,</span><span class="w"> </span><span class="n">stop</span><span class="p">):</span>
+<span class="w">    </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">start</span>
+<span class="w">    </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[]</span>
 
-    <span class="n">label</span> <span class="o">.</span><span class="n">begin</span>
-    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="n">stop</span><span class="p">:</span>
-        <span class="n">goto</span> <span class="o">.</span><span class="n">end</span>
+<span class="w">    </span><span class="n">label</span><span class="w"> </span><span class="o">.</span><span class="n">begin</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">stop</span><span class="p">:</span>
+<span class="w">        </span><span class="n">goto</span><span class="w"> </span><span class="o">.</span><span class="n">end</span>
 
-    <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
-    <span class="n">goto</span> <span class="o">.</span><span class="n">begin</span>
+<span class="w">    </span><span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="w">    </span><span class="n">i</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span>
+<span class="w">    </span><span class="n">goto</span><span class="w"> </span><span class="o">.</span><span class="n">begin</span>
 
-    <span class="n">label</span> <span class="o">.</span><span class="n">end</span>
-    <span class="k">return</span> <span class="n">result</span>
+<span class="w">    </span><span class="n">label</span><span class="w"> </span><span class="o">.</span><span class="n">end</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">result</span>
 </code></pre></div>
 
 <p>)</p>

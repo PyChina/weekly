@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="PyCoder 511"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-511.html"/>
-            <meta property="og:description" content=" 简单将GraphQL接口添加到DRF应用程序  原文: PyCoder&#39;s Weekly - Issue #511   220209 Zoom.Quiet(大妈) 用时 13 分钟 完成快译 220209 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄.    用可选参数定义Python函数 REAL PYTHON …"/>
+            <meta property="og:description" content="简单将GraphQL接口添加到DRF应用程序 原文: PyCoder&#39;s Weekly - Issue #511 220209 Zoom.Quiet(大妈) 用时 13 分钟 完成快译 220209 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. 用可选参数定义Python函数 REAL PYTHON …"/>
 
 
     <!-- Bootstrap -->
@@ -127,12 +127,12 @@
 </ul>
 <p>How to seamlessly support typing.Protocol on Python versions older and newer than 3.8. At the same time.</p>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">sys</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
 
-<span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">version_info</span> <span class="o">&gt;=</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">10</span><span class="p">):</span>
-    <span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">ParamSpec</span>
+<span class="k">if</span><span class="w"> </span><span class="n">sys</span><span class="o">.</span><span class="n">version_info</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">):</span>
+<span class="w">    </span><span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">ParamSpec</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="kn">from</span> <span class="nn">typing_extensions</span> <span class="kn">import</span> <span class="n">ParamSpec</span>
+<span class="w">    </span><span class="kn">from</span><span class="w"> </span><span class="nn">typing_extensions</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">ParamSpec</span>
 </code></pre></div>
 
 <p>这类补丁何时是个头?</p>

@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="PyCoder 549"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-549.html"/>
-            <meta property="og:description" content=" PyCon US 2023 开始召唤议题  原文: PyCoder&#39;s Weekly - Issue #549   221102 Zoom.Quiet(大妈) 用时 13 分钟 完成快译 221102 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄.    如何从 Python 列 …"/>
+            <meta property="og:description" content="PyCon US 2023 开始召唤议题 原文: PyCoder&#39;s Weekly - Issue #549 221102 Zoom.Quiet(大妈) 用时 13 分钟 完成快译 221102 Zoom.Quiet(大妈) 用时 37 分钟 完成格式转抄. 如何从 Python 列 …"/>
 
 
     <!-- Bootstrap -->
@@ -316,15 +316,15 @@ Log.success.critical(&quot;Alert! Alert!&quot;)
 </li>
 </ul>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">inline_sql</span> <span class="kn">import</span> <span class="n">sql</span><span class="p">,</span> <span class="n">sql_val</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">inline_sql</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">sql</span><span class="p">,</span><span class="w"> </span><span class="n">sql_val</span>
 
-<span class="k">assert</span> <span class="n">sql_val</span><span class="o">^</span> <span class="s2">&quot;SELECT 1 + 1&quot;</span> <span class="o">==</span> <span class="mi">2</span>
+<span class="k">assert</span><span class="w"> </span><span class="n">sql_val</span><span class="o">^</span><span class="w"> </span><span class="s2">&quot;SELECT 1 + 1&quot;</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">2</span>
 
-<span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="k">assert</span> <span class="n">sql_val</span><span class="o">^</span> <span class="s2">&quot;SELECT $x * 2&quot;</span> <span class="o">==</span> <span class="mi">10</span>
+<span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span>
+<span class="k">assert</span><span class="w"> </span><span class="n">sql_val</span><span class="o">^</span><span class="w"> </span><span class="s2">&quot;SELECT $x * 2&quot;</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">10</span>
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">sql</span><span class="o">^</span> <span class="s2">&quot;SELECT * FROM (VALUES (1, 10), (2, 20)) df (x, y)&quot;</span>
-<span class="k">assert</span> <span class="n">sql_val</span><span class="o">^</span> <span class="s2">&quot;SELECT SUM(x) + SUM(y) FROM df&quot;</span> <span class="o">==</span> <span class="mi">33</span>
+<span class="n">df</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sql</span><span class="o">^</span><span class="w"> </span><span class="s2">&quot;SELECT * FROM (VALUES (1, 10), (2, 20)) df (x, y)&quot;</span>
+<span class="k">assert</span><span class="w"> </span><span class="n">sql_val</span><span class="o">^</span><span class="w"> </span><span class="s2">&quot;SELECT SUM(x) + SUM(y) FROM df&quot;</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">33</span>
 </code></pre></div>
 
 <p>嗯哼? DBA 的 Python 之旅?</p>

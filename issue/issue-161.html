@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎周刊 161: PYCON 2015"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-161.html"/>
-            <meta property="og:description" content="  原文: Pycoder&#39;s Weekly (Issue #161): PYCON 2015  搜罗Py万物 的周刊 亲, Mahdi is at PYCON 2015 in Montreal! Say hi if you see him! Now on to the newsletter 大家多分享文章 俺们才折腾的出又一周 …"/>
+            <meta property="og:description" content="原文: Pycoder&#39;s Weekly (Issue #161): PYCON 2015 搜罗Py万物 的周刊 亲, Mahdi is at PYCON 2015 in Montreal! Say hi if you see him! Now on to the newsletter 大家多分享文章 俺们才折腾的出又一周 …"/>
 
 
     <!-- Bootstrap -->
@@ -198,9 +198,9 @@ pip 不招人待见的事儿太多了,,
 <p>github.com</p>
 <p>Shared by @mgrouchy</p>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">soupy</span> <span class="kn">import</span> <span class="n">Soupy</span><span class="p">,</span> <span class="n">Q</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">soupy</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">Soupy</span><span class="p">,</span><span class="w"> </span><span class="n">Q</span>
 
-<span class="n">html</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="n">html</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;&quot;&quot;</span>
 <span class="s2">&lt;div id=&quot;main&quot;&gt;</span>
 <span class="s2">  &lt;div&gt;The web is messy&lt;/div&gt;</span>
 <span class="s2">  and full of traps</span>
@@ -208,9 +208,9 @@ pip 不招人待见的事儿太多了,,
 <span class="s2">&lt;/div&gt;&quot;&quot;&quot;</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="n">Soupy</span><span class="p">(</span><span class="n">html</span><span class="p">)</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s1">&#39;main&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">children</span>
-      <span class="o">.</span><span class="n">each</span><span class="p">(</span><span class="n">Q</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span> <span class="c1"># extract text from each node, trim whitespace</span>
-      <span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span>          <span class="c1"># remove empty strings</span>
-      <span class="o">.</span><span class="n">val</span><span class="p">())</span>               <span class="c1"># dump out of Soupy</span>
+<span class="w">      </span><span class="o">.</span><span class="n">each</span><span class="p">(</span><span class="n">Q</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span><span class="w"> </span><span class="c1"># extract text from each node, trim whitespace</span>
+<span class="w">      </span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span><span class="w">          </span><span class="c1"># remove empty strings</span>
+<span class="w">      </span><span class="o">.</span><span class="n">val</span><span class="p">())</span><span class="w">               </span><span class="c1"># dump out of Soupy</span>
 
 <span class="c1"># [&#39;The web is messy&#39;, &#39;and full of traps&#39;, &#39;but Soupy loves you&#39;]</span>
 </code></pre></div>

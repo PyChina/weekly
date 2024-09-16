@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Issue 407"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-407.html"/>
-            <meta property="og:description" content=" Guido 老爹义劝快乐的为 Python 提贡献吧  原文: PyCoder&#39;s Weekly - Issue #407   200205 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 200205 Zoom.Quiet(大妈) 用时 17 分钟 完成格式转抄 …"/>
+            <meta property="og:description" content="Guido 老爹义劝快乐的为 Python 提贡献吧 原文: PyCoder&#39;s Weekly - Issue #407 200205 Zoom.Quiet(大妈) 用时 42 分钟 完成快译 200205 Zoom.Quiet(大妈) 用时 17 分钟 完成格式转抄 …"/>
 
 
     <!-- Bootstrap -->
@@ -372,13 +372,13 @@
 </li>
 </ul>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">diagrams</span> <span class="kn">import</span> <span class="n">Diagram</span>
-<span class="kn">from</span> <span class="nn">diagrams.aws.compute</span> <span class="kn">import</span> <span class="n">EC2</span>
-<span class="kn">from</span> <span class="nn">diagrams.aws.database</span> <span class="kn">import</span> <span class="n">RDS</span>
-<span class="kn">from</span> <span class="nn">diagrams.aws.network</span> <span class="kn">import</span> <span class="n">ELB</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">diagrams</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">Diagram</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">diagrams.aws.compute</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">EC2</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">diagrams.aws.database</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">RDS</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">diagrams.aws.network</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">ELB</span>
 
-<span class="k">with</span> <span class="n">Diagram</span><span class="p">(</span><span class="s2">&quot;Web Service&quot;</span><span class="p">,</span> <span class="n">show</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="n">ELB</span><span class="p">(</span><span class="s2">&quot;lb&quot;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="n">EC2</span><span class="p">(</span><span class="s2">&quot;web&quot;</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="n">RDS</span><span class="p">(</span><span class="s2">&quot;userdb&quot;</span><span class="p">)</span>
+<span class="k">with</span><span class="w"> </span><span class="n">Diagram</span><span class="p">(</span><span class="s2">&quot;Web Service&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">show</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+<span class="w">    </span><span class="n">ELB</span><span class="p">(</span><span class="s2">&quot;lb&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">EC2</span><span class="p">(</span><span class="s2">&quot;web&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">RDS</span><span class="p">(</span><span class="s2">&quot;userdb&quot;</span><span class="p">)</span>
 </code></pre></div>
 
 <p>即可生成:</p>

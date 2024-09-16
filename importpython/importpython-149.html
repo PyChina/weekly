@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎加载 149"/>
             <meta property="og:url" content="https://weekly.pychina.org/importpython/importpython-149.html"/>
-            <meta property="og:description" content="  原文: Import Python Weekly Newsletter - Issue No 149 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-)  该读 ~ 文章, Blog, 教程...  Python 技巧: 丹书 book    With Python Tricks: The Book you&#39;ll discover Python&#39;s best practices …"/>
+            <meta property="og:description" content="原文: Import Python Weekly Newsletter - Issue No 149 欢迎, 来 PyChina/weekly 共同翻译/增订/推荐 周刊 蠎消息 ;-) 该读 ~ 文章, Blog, 教程... Python 技巧: 丹书 book With Python Tricks: The Book you&#39;ll discover Python&#39;s best practices …"/>
 
 
     <!-- Bootstrap -->
@@ -249,14 +249,14 @@
 <p>Curio + Requests: Async HTTP for Humans</p>
 <p>(<code>是也乎:</code></p>
 <p>叕一个 HTTP 工具,面向 Py3 的...</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">curio</span> <span class="kn">import</span> <span class="n">run</span>
-<span class="kn">from</span> <span class="nn">curequests</span> <span class="kn">import</span> <span class="n">get</span><span class="p">,</span> <span class="n">post</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">curio</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">run</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">curequests</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="n">get</span><span class="p">,</span><span class="w"> </span><span class="n">post</span>
 
-<span class="k">async</span> <span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-    <span class="n">r</span> <span class="o">=</span> <span class="k">await</span> <span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://httpbin.org/get&#39;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
-    <span class="n">r</span> <span class="o">=</span> <span class="k">await</span> <span class="n">post</span><span class="p">(</span><span class="s1">&#39;https://httpbin.org/post&#39;</span><span class="p">,</span> <span class="n">json</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span> <span class="s1">&#39;world&#39;</span><span class="p">})</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+<span class="k">async</span><span class="w"> </span><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span>
+<span class="w">    </span><span class="n">r</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://httpbin.org/get&#39;</span><span class="p">)</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+<span class="w">    </span><span class="n">r</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="n">post</span><span class="p">(</span><span class="s1">&#39;https://httpbin.org/post&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">json</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;hello&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;world&#39;</span><span class="p">})</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
 
 <span class="n">run</span><span class="p">(</span><span class="n">main</span><span class="p">)</span>
 </code></pre></div>

@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="蠎周刊(PyCoder)590"/>
             <meta property="og:url" content="https://weekly.pychina.org/issue/issue-590.html"/>
-            <meta property="og:description" content=" 为什么 Python 如此神奇  原文: PyCoder&#39;s Weekly - Issue #590   230816 Zoom.Quiet(大妈) 用时 13 分钟 完成格式转抄. 230816 Zoom.Quiet(大妈) 用时 37 分钟 完成快译,    如何注释返回 …"/>
+            <meta property="og:description" content="为什么 Python 如此神奇 原文: PyCoder&#39;s Weekly - Issue #590 230816 Zoom.Quiet(大妈) 用时 13 分钟 完成格式转抄. 230816 Zoom.Quiet(大妈) 用时 37 分钟 完成快译, 如何注释返回 …"/>
 
 
     <!-- Bootstrap -->
@@ -230,10 +230,10 @@
 </ul>
 <p>In this article, the author explains why he thinks that elegance should be a fundamental driver when you are writing (Python) code, and gives a few tips on how to write elegant code.</p>
 <p>(<code>是也乎:</code></p>
-<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">itertools</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">list_of_lists</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]]</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">(</span><span class="o">*</span><span class="n">list_of_lists</span><span class="p">))</span>
-<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="nn">itertools</span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="n">list_of_lists</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">],</span><span class="w"> </span><span class="p">[</span><span class="mi">4</span><span class="p">],</span><span class="w"> </span><span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">]]</span>
+<span class="o">&gt;&gt;&gt;</span><span class="w"> </span><span class="nb">list</span><span class="p">(</span><span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">(</span><span class="o">*</span><span class="n">list_of_lists</span><span class="p">))</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">]</span>
 </code></pre></div>
 
 <p>官方的优雅是必须的...</p>
