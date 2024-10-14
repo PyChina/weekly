@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 07 Oct 2024 17:16:08 +0800</lastBuildDate><item><title>上周蠎快讯 2024/40</title><link>https://weekly.pychina.org/pyrecap/pyrw-2440.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 14 Oct 2024 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 2024/41</title><link>https://weekly.pychina.org/pyrecap/pyrw-2441.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;在 Python 3.13 中禁用 GIL&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/41/"&gt;Python recap for week 2024/41 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;241014 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;241014 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 14 Oct 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-10-14:/pyrecap/pyrw-2441.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/40</title><link>https://weekly.pychina.org/pyrecap/pyrw-2440.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Py 3.13.0 正式于今天发布&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/40/"&gt;Python recap for week 2024/40 - discu.eu&lt;/a&gt;&lt;/p&gt;
