@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - PgWeekly</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 08 Apr 2019 20:33:07 +0800</lastBuildDate><item><title>Postgres Weekly : Issue 229</title><link>https://weekly.pychina.org/pgweekly/pgw-229.html</link><description>&lt;p&gt;原文: &lt;a href="https://postgresweekly.com/issues/299"&gt;Postgres Weekly Issue 299: April 3, 2019&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>蠎周刊 - PgWeekly</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 21 Oct 2024 17:17:32 +0800</lastBuildDate><item><title>Postgres Weekly : Issue 229</title><link>https://weekly.pychina.org/pgweekly/pgw-229.html</link><description>&lt;p&gt;原文: &lt;a href="https://postgresweekly.com/issues/299"&gt;Postgres Weekly Issue 299: April 3, 2019&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="..." src="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssoylsgxn7il7w6zynuj.jpg"&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://postgresweekly.com/link/61543/web"&gt;Postgres 获得 'Generated Column' 支持&lt;/a&gt;&lt;ul&gt;
