@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 28 Oct 2024 12:24:05 +0800</lastBuildDate><item><title>上周蠎快讯 2024/43</title><link>https://weekly.pychina.org/pyrecap/pyrw-2443.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 04 Nov 2024 21:21:38 +0800</lastBuildDate><item><title>上周蠎快讯 2024/43</title><link>https://weekly.pychina.org/pyrecap/pyrw-2443.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Python 3.8 已达 EOL&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: [Python recap for week 2024/43 - discu.eu](https://discu.eu/weekly/python/2024/43/3&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;241028 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;241028 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 28 Oct 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-10-28:/pyrecap/pyrw-2443.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/42</title><link>https://weekly.pychina.org/pyrecap/pyrw-2442.html</link><description>&lt;blockquote&gt;
+&lt;li&gt;241028 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 28 Oct 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-10-28:/pyrecap/pyrw-2443.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/44</title><link>https://weekly.pychina.org/pyrecap/pyrw-2444.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;reflex 叕一个 Streamlit&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: [Python recap for week 2024/43 - discu.eu](https://discu.eu/weekly/python/2024/43/3&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;241104 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;241104 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 28 Oct 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-10-28:/pyrecap/pyrw-2444.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/42</title><link>https://weekly.pychina.org/pyrecap/pyrw-2442.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;range 不是迭代器&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/42/"&gt;Python recap for week 2024/42 - discu.eu&lt;/a&gt;&lt;/p&gt;
