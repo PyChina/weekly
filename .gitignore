@@ -1,3 +1,5 @@
+log/
+
 *.pyc
 .python-version
 local_settings.ini
