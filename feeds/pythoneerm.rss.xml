@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 13 Jan 2025 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 2025/02</title><link>https://weekly.pychina.org/pyrecap/pyrw-2502.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;???&lt;/p&gt;
+&lt;p&gt;一直要求LLMs “写出更好的代码”，他们能写吗？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: [Python recap for week 2025/02 - discu.eu](https://discu.eu/weekl01python/2025/02&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;250113 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;250113 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;h2&gt;文章/教程 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 13 Jan 2025 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-01-13:/pyrecap/pyrw-2502.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2025/01</title><link>https://weekly.pychina.org/pyrecap/pyrw-2501.html</link><description>&lt;blockquote&gt;
+&lt;li&gt;250113 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 13 Jan 2025 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-01-13:/pyrecap/pyrw-2502.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2025/01</title><link>https://weekly.pychina.org/pyrecap/pyrw-2501.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;24年类型化 Python&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: [Python recap for week 2025/01 - discu.eu](https://discu.eu/weekl01python/2025/01&lt;/p&gt;

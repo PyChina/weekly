@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Pythoneerm</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pythoneerm.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2025-01-13T11:42:00+08:00</updated><entry><title>上周蠎快讯 2025/02</title><link href="https://weekly.pychina.org/pyrecap/pyrw-2502.html" rel="alternate"></link><published>2025-01-13T11:42:00+08:00</published><updated>2025-01-13T10:22:10+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2025-01-13:/pyrecap/pyrw-2502.html</id><summary type="html">&lt;blockquote&gt;
-&lt;p&gt;???&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Pythoneerm</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pythoneerm.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2025-01-13T11:42:00+08:00</updated><entry><title>上周蠎快讯 2025/02</title><link href="https://weekly.pychina.org/pyrecap/pyrw-2502.html" rel="alternate"></link><published>2025-01-13T11:42:00+08:00</published><updated>2025-01-13T10:23:39+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2025-01-13:/pyrecap/pyrw-2502.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;一直要求LLMs “写出更好的代码”，他们能写吗？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: [Python recap for week 2025/02 - discu.eu](https://discu.eu/weekl01python/2025/02&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;250113 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;250113 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;h2&gt;文章/教程 …&lt;/h2&gt;</summary><content type="html">&lt;blockquote&gt;
-&lt;p&gt;???&lt;/p&gt;
+&lt;li&gt;250113 …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;一直要求LLMs “写出更好的代码”，他们能写吗？&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: [Python recap for week 2025/02 - discu.eu](https://discu.eu/weekl01python/2025/02&lt;/p&gt;
 &lt;ul&gt;
