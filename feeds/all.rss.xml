@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 20 Jan 2025 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 2025/03</title><link>https://weekly.pychina.org/pyrecap/pyrw-2503.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 27 Jan 2025 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 2025/04</title><link>https://weekly.pychina.org/pyrecap/pyrw-2504.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;什么? Google放弃Python..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: [Python recap for week 2025/04 - discu.eu](https://discu.eu/weekl01python/2025/04&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;250127 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;250127 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;文 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 27 Jan 2025 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-01-27:/pyrecap/pyrw-2504.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>ZH</category></item><item><title>上周蠎快讯 2025/03</title><link>https://weekly.pychina.org/pyrecap/pyrw-2503.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Django 5.2 alpha 1 发布&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: [Python recap for week 2025/03 - discu.eu](https://discu.eu/weekl01python/2025/03&lt;/p&gt;
@@ -21,7 +31,15 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;hr&gt;
-&lt;h2&gt;文章 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 06 Jan 2025 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-01-06:/pyrecap/pyrw-2501.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/52</title><link>https://weekly.pychina.org/pyrecap/pyrw-2452.html</link><description>&lt;blockquote&gt;
+&lt;h2&gt;文章 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 06 Jan 2025 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-01-06:/pyrecap/pyrw-2501.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>去年蠎快讯 2024 盘点</title><link>https://weekly.pychina.org/pyrecap/pyrw-2024.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;大妈强行嗯哼&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;250123 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;250123 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成整理,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;好的，根据您提供的 2024 年蟒周刊内 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 01 Jan 2025 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-01-01:/pyrecap/pyrw-2024.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>trend</category><category>ZH</category></item><item><title>上周蠎快讯 2024/52</title><link>https://weekly.pychina.org/pyrecap/pyrw-2452.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;24年类型化 Python&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/52"&gt;Python recap for week 2024/52 - discu.eu&lt;/a&gt;&lt;/p&gt;
@@ -992,26 +1010,4 @@
 &lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://pycoders.com/link/10435/web"&gt;PEP 709: 内联理解&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;PYTHON …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 08 Mar 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-03-08:/issue/issue-567.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>PyCoder 566</title><link>https://weekly.pychina.org/issue/issue-566.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;MooS ~ 模型即服务?!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/566"&gt;PyCoder's Weekly - Issue #566&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;230301 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;230301 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成快译&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/10401/web"&gt;用 NumPy 和线性代数编 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 01 Mar 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-03-01:/issue/issue-566.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>PyCoder 565</title><link>https://weekly.pychina.org/issue/issue-565.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;为什么类型提示很烂...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/565"&gt;PyCoder's Weekly - Issue #565&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;230222 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;230222 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成快译&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/10363/web"&gt;如何刷新 Python …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 22 Feb 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-02-22:/issue/issue-565.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
+&lt;li&gt;PYTHON …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 08 Mar 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-03-08:/issue/issue-567.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
