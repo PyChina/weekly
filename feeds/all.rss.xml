@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 24 Feb 2025 11:19:54 +0800</lastBuildDate><item><title>上周蠎快讯 2025/08</title><link>https://weekly.pychina.org/pyrecap/pyrw-2508.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 03 Mar 2025 14:50:02 +0800</lastBuildDate><item><title>上周蠎快讯 2025/09</title><link>https://weekly.pychina.org/pyrecap/pyrw-2509.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;??&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: [Python recap for week 2025/09 - discu.eu](https://discu.eu/weekl01python/2025/09&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;250303 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;250303 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 分钟 完成快译,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章/教程 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 03 Mar 2025 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-03-03:/pyrecap/pyrw-2509.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>ZH</category></item><item><title>上周蠎快讯 2025/08</title><link>https://weekly.pychina.org/pyrecap/pyrw-2508.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;Pythonx, Elixir 中的 Py&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: [Python recap for week 2025/08 - discu.eu](https://discu.eu/weekl01python/2025/08&lt;/p&gt;
@@ -977,15 +987,4 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/10627/web"&gt;Python …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 12 Apr 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-04-12:/issue/issue-572.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊(PyCoder)571</title><link>https://weekly.pychina.org/issue/issue-571.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;PEP 582 (Python 本地包目录) 被拒绝&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/571"&gt;PyCoder's Weekly - Issue #571&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;230405 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;230405 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/10597/web"&gt;用 Graphs 在 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 05 Apr 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-04-05:/issue/issue-571.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
+&lt;li&gt;&lt;a href="https://pycoders.com/link/10627/web"&gt;Python …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 12 Apr 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-04-12:/issue/issue-572.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
