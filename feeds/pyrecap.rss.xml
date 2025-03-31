@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 24 Mar 2025 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 2025/12</title><link>https://weekly.pychina.org/pyrecap/pyrw-2512.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - pyrecap</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 31 Mar 2025 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 2025/13</title><link>https://weekly.pychina.org/pyrecap/pyrw-2513.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;基于 uv 的自包含 Py 脚本&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: [Python recap for week 2025/13 - discu.eu](https://discu.eu/weekl01python/2025/13&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;250331 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;250331 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 42 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 31 Mar 2025 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-03-31:/pyrecap/pyrw-2513.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>ZH</category></item><item><title>上周蠎快讯 2025/12</title><link>https://weekly.pychina.org/pyrecap/pyrw-2512.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;uv 下载量超越 Poetry&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: [Python recap for week 2025/12 - discu.eu](https://discu.eu/weekl01python/2025/12&lt;/p&gt;
