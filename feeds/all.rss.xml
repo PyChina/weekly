@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 14 Apr 2025 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 2025/15</title><link>https://weekly.pychina.org/pyrecap/pyrw-2515.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 21 Apr 2025 12:10:38 +0800</lastBuildDate><item><title>上周蠎快讯 2025/16</title><link>https://weekly.pychina.org/pyrecap/pyrw-2516.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;弗兰肯斯坦的 &lt;code&gt;__init__&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: [Python recap for week 2025/16 - discu.eu](https://discu.eu/weekl01python/2025/16&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;250421 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;250421 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;文 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 21 Apr 2025 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-04-21:/pyrecap/pyrw-2516.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>ZH</category></item><item><title>上周蠎快讯 2025/15</title><link>https://weekly.pychina.org/pyrecap/pyrw-2515.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;又一年 UV&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: [Python recap for week 2025/15 - discu.eu](https://discu.eu/weekl01python/2025/15&lt;/p&gt;
@@ -939,15 +949,4 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/10895/web"&gt;Python 的 .&lt;strong&gt;call&lt;/strong&gt;() 方法：创建可调用 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 31 May 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-05-31:/issue/issue-579.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊(PyCoder)578</title><link>https://weekly.pychina.org/issue/issue-578.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;为什么工程师需要无聊&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/578"&gt;PyCoder's Weekly - Issue #578&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;230524 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;230524 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/10835/web"&gt;ChatGPT: 您的个 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 24 May 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-05-24:/issue/issue-578.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
+&lt;li&gt;&lt;a href="https://pycoders.com/link/10895/web"&gt;Python 的 .&lt;strong&gt;call&lt;/strong&gt;() 方法：创建可调用 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 31 May 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-05-31:/issue/issue-579.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
