@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Pythoneerm</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pythoneerm.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2025-04-28T11:42:00+08:00</updated><entry><title>上周蠎快讯 2025/17</title><link href="https://weekly.pychina.org/pyrecap/pyrw-2517.html" rel="alternate"></link><published>2025-04-28T11:42:00+08:00</published><updated>2025-04-28T09:44:44+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2025-04-28:/pyrecap/pyrw-2517.html</id><summary type="html">&lt;blockquote&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Pythoneerm</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pythoneerm.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2025-04-28T11:42:00+08:00</updated><entry><title>上周蠎快讯 2025/17</title><link href="https://weekly.pychina.org/pyrecap/pyrw-2517.html" rel="alternate"></link><published>2025-04-28T11:42:00+08:00</published><updated>2025-04-28T09:48:08+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2025-04-28:/pyrecap/pyrw-2517.html</id><summary type="html">&lt;blockquote&gt;
 &lt;p&gt;PyTorch 2.7&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;原文: [Python recap for week 2025/17 - discu.eu](https://discu.eu/weekl01python/2025/17&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekl01python/2025/17"&gt;Python recap for week 2025/17 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;250428 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
 &lt;li&gt;250428 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;hr&gt;
-&lt;h2&gt;文章/教程/嗯 …&lt;/h2&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://davepeck.org/2025/04/11/pythons-new-t-strings/"&gt;Python新 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;blockquote&gt;
 &lt;p&gt;PyTorch 2.7&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;原文: [Python recap for week 2025/17 - discu.eu](https://discu.eu/weekl01python/2025/17&lt;/p&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekl01python/2025/17"&gt;Python recap for week 2025/17 - discu.eu&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;250428 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
 &lt;li&gt;250428 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
