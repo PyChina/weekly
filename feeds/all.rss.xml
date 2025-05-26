@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 19 May 2025 12:23:28 +0800</lastBuildDate><item><title>上周蠎快讯 2025/20</title><link>https://weekly.pychina.org/pyrecap/pyrw-2520.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Mon, 26 May 2025 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 2025/21</title><link>https://weekly.pychina.org/pyrecap/pyrw-2521.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;永远不要盲目相信 GitHub 仓库&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://discu.eu/weekl01python/2025/21"&gt;Python recap for week 2025/21 - discu.eu&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;250526 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;250526 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章/教 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 26 May 2025 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-05-26:/pyrecap/pyrw-2521.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>ZH</category></item><item><title>上周蠎快讯 2025/20</title><link>https://weekly.pychina.org/pyrecap/pyrw-2520.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;..自动创建您需要的库&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://discu.eu/weekl01python/2025/20"&gt;Python recap for week 2025/20 - discu.eu&lt;/a&gt;&lt;/p&gt;
@@ -949,11 +959,4 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pycoders.com/link/11062/web"&gt;为什 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 05 Jul 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-07-05:/issue/issue-584.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item><item><title>蠎周刊(PyCoder)583</title><link>https://weekly.pychina.org/issue/issue-583.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;如何用 4 个或更少的单词杀死一个开发人员&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://pycoders.com/issues/583"&gt;PyCoder's Weekly - Issue #583&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="pycoder" src="https://ipic.zoomquiet.top/2021-08-25-pycoder-s-weekly.png"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;230628 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;230628 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 28 Jun 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-06-28:/issue/issue-583.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
+&lt;li&gt;&lt;a href="https://pycoders.com/link/11062/web"&gt;为什 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Wed, 05 Jul 2023 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2023-07-05:/issue/issue-584.html</guid><category>Issue</category><category>Weekly</category><category>Python</category><category>pycoders</category><category>ZH</category></item></channel></rss>
