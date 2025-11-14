@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Wed, 12 Nov 2025 11:42:00 +0800</lastBuildDate><item><title>上周蠎快讯 25w45 #721</title><link>https://weekly.pychina.org/pyweekly/pyw-qzh-721.html</link><description>&lt;blockquote&gt;&lt;/blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊 - Pythoneerm</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Fri, 14 Nov 2025 12:02:45 +0800</lastBuildDate><item><title>上周蠎快讯 25w44 #722</title><link>https://weekly.pychina.org/pyweekly/pyw-qzh-722.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;PyCon US 2026 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://www.pythonweekly.com/p/python-weekly-issue-722-november-13-2025?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;Python Weekly | Issue #722&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;251114 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;251114 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;之前快译的周刊: https://discu.eu/weekl01python/ 从 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 14 Nov 2025 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-11-14:/pyweekly/pyw-qzh-722.html</guid><category>PyWeekly</category><category>Weekly</category><category>Python</category><category>DAMA</category><category>ZH</category></item><item><title>上周蠎快讯 25w44 #721</title><link>https://weekly.pychina.org/pyweekly/pyw-qzh-721.html</link><description>&lt;blockquote&gt;&lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://www.pythonweekly.com/p/python-weekly-issue-721-november-6-2025"&gt;Python Weekly | Issue #721&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;251112 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
@@ -920,16 +929,4 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;hr&gt;
-&lt;h2&gt;文章/教程 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 08 Jan 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-01-08:/pyrecap/pyrw-2401.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 52/2023</title><link>https://weekly.pychina.org/pyrecap/pyrw-2352.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;你的Python包安装在哪里了？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2023/52/"&gt;Python recap for week 52/2023 - discu.eu&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;240102 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;240102 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Tue, 02 Jan 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-01-02:/pyrecap/pyrw-2352.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item></channel></rss>
+&lt;h2&gt;文章/教程 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 08 Jan 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-01-08:/pyrecap/pyrw-2401.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item></channel></rss>

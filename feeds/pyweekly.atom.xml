@@ -1,5 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - PyWeekly</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pyweekly.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2025-11-12T11:42:00+08:00</updated><entry><title>上周蠎快讯 25w45 #721</title><link href="https://weekly.pychina.org/pyweekly/pyw-qzh-721.html" rel="alternate"></link><published>2025-11-12T11:42:00+08:00</published><updated>2025-11-12T11:06:24+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2025-11-12:/pyweekly/pyw-qzh-721.html</id><summary type="html">&lt;blockquote&gt;&lt;/blockquote&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - PyWeekly</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pyweekly.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2025-11-14T12:02:45+08:00</updated><entry><title>上周蠎快讯 25w44 #722</title><link href="https://weekly.pychina.org/pyweekly/pyw-qzh-722.html" rel="alternate"></link><published>2025-11-14T11:42:00+08:00</published><updated>2025-11-14T12:02:45+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2025-11-14:/pyweekly/pyw-qzh-722.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;PyCon US 2026 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://www.pythonweekly.com/p/python-weekly-issue-722-november-13-2025?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;Python Weekly | Issue #722&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;251114 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;251114 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;之前快译的周刊: https://discu.eu/weekl01python/ 从 …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;PyCon US 2026 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://www.pythonweekly.com/p/python-weekly-issue-722-november-13-2025?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;Python Weekly | Issue #722&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;251114 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;251114 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;之前快译的周刊: https://discu.eu/weekl01python/ 从25年8月开始经常 502 错误,
+无法访问, 
+所以, 切换回古老的 &lt;a href="https://pycoders.com/"&gt;PyCoder’s Weekly | A Weekly Python Email Newsletter&lt;/a&gt;, 除了编号不同,每周关注到的新内容其实并无过大不同; 
+但是, 又因为 pycoders.com 的周刊所有链接都指向自己的内部链接, 导致发布平台认为我的快译是引流,已经封号;
+只好, 继续切换快译对象: &lt;a href="https://www.pythonweekly.com/"&gt;pythonweekly&lt;/a&gt; 官方推荐的周刊&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Python-Weekly-Square" src="https://media.beehiiv.com/cdn-cgi/image/format=auto,width=800,height=421,fit=scale-down,onerror=redirect/uploads/publication/logo/0dfe72e1-380f-4399-a50e-134919512092/Python-Weekly-Square-Logo.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;快讯&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;News&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pretalx.com/pycon-us-2026/?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;PyCon US 2026 CFP 已开放&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PyCon US 2026 邀请演讲、教程、Charlas 和海报提案，截止日期为 2025 年 12 月 19 日，所有背景的演讲者都可以提交。&lt;/p&gt;
+&lt;p&gt;在长滩举行的会议增加了关于 Python 的人工智能的未来和开拓性的 Python 安全性的新主题，所有演讲都将亲自进行。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.rippling.com/blog/rippling-gunicorn-pre-fork-journey-memory-savings-and-cost-reduction?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;Rippling 的 Gunicorn 分叉前之旅：节省 70%+ 内存并降低 30% 成本&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rippling 使用 Gunicorn 的预分叉模式重新设计了他们的 Django 单体的部署模型，使主进程能够加载应用程序和分叉工作线程，然后由于 Linux 的写时复制，它们共享内存。&lt;/p&gt;
+&lt;p&gt;通过在分叉之前系统地清理线程和连接，并使用 gc.freeze（） 和 jemalloc 等内存优化，他们实现了内存使用量减少 70% 以上和计算成本降低 30% 的目标，同时还提高了弹性和启动速度。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://slack.engineering/build-better-software-to-build-software-better?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;构建更好的软件来更好的构建软件&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Slack Engineering 的文章介绍了 Slack 如何通过将经典软件工程原则与高性能构建工具 （Bazel） 相结合来改进其构建管道。&lt;/p&gt;
+&lt;p&gt;他们通过分离关注点、将构建建模为定义明确的工作单元的图形以及利用缓存和并行化来重组构建系统，从而使构建运行速度提高了六倍，并实现了更快的反馈周期和更频繁的发布。&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;毕竟自古以来能自举的, 才是最好的软件?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://emma.has-a.blog/articles/django-admin-deux-bringing-admin-back-to-django.html?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;Django Admin Deux: 将 Django 的管理员带回 Django&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Django Admin Deux 是 Django 默认管理界面的现代、可扩展的替代品，具有工厂模式架构和强大的插件系统。&lt;/p&gt;
+&lt;p&gt;它旨在使自定义和扩展管理 UI 变得更加容易，为 Django 项目管理带来新的功能和灵活性。&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="djadm2" src="https://emma.has-a.blog/static/img/djadm2-light-all-actions.69024f1c39d5.png"&gt;&lt;/p&gt;
+&lt;p&gt;很可能有一个控制界面才是 Django 流行的主要原因?
+能有效令初学者认为, Django 足够简单,
+毕竟我们可以随时通过一个 web 界面来控制一切?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zackoverflow.dev/writing/how-often-does-python-allocate?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;Python 多久 allocate 一次？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本文探讨了 Python 分配内存的频率，重点关注整数类型实现。&lt;/p&gt;
+&lt;p&gt;它发现 CPython 经常分配新的内存对象，但通过重用自由列表中的对象和使用专门的池分配器来减轻开销;尽管如此，Python 的整数处理仍然比理论上应该采用的单个 CPU ADD 指令产生更多的分配开销。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=bsU7AFjh4m8&amp;amp;utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;为什么你的代码不够 Pythonic（以及如何修复它）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;视频解释了“Pythonic”代码的含义，逐步重构了混乱的脚本，以演示惯用的 Python 实践，例如在类中使用函数、结构数据类、上下文管理器、类型注释、EAFP 错误处理、pathlib、日志记录和在主函数中组织代码。&lt;/p&gt;
+&lt;p&gt;核心信息是 Python 代码偏向于简单性、可读性，并利用该语言的优势来制作更具可维护性和表现力的软件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://fly.io/blog/everyone-write-an-agent/?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;你应该写一个代理&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;该帖子解释说，构建一个简单的 LLM 代理，一个维护上下文、调用模型和使用工具的应用程序，非常简单且具有教育意义。&lt;/p&gt;
+&lt;p&gt;它强调了真正的挑战是上下文工程，例如管理要保留或汇总哪些信息以及如何集成外部工具，并鼓励每个人尝试构建一个以深入了解技术。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://zeropath.com/blog/django-allauth-account-takeover-vulnerabilities?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;Django-Allauth 中的 7 个漏洞，允许帐户模拟和令牌滥用&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;django-allauth 软件包有七个漏洞，包括四个主要漏洞，这些漏洞通过利用 Okta 和 NetIQ 的可变或非唯一标识符来模拟帐户、为停用用户刷新令牌以及 Notion 未经验证的电子邮件接受。&lt;/p&gt;
+&lt;p&gt;这些缺陷可能允许攻击者冒充用户并滥用令牌，但所有这些都已在 65.13.0 版本中修复。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mathspp.com/blog/module-compression-overview?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;模块压缩概述&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如何使用模块压缩的高级概述，这是 Python 3.14 中的新功能..&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/playlist?list=PL2NFhrDSOxgUSZVGkmbMhUpaaZ1ORfpCl&amp;amp;utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;DjangoCon 美国 2025 视频&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DjangoCon US 2025 的谈话视频现已上线&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wedgworth.dev/using-vite-with-vue-and-django/?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;Using Vite with Vue and Django将 Vite 与 Vue 和 Django 一起使用&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;了解如何集成 Vue 和 Django 以实现 bullet proof 部署&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/playlist?list=PL85KuAjbN_gseSuHZTUCgNAHLeKuMDBxI&amp;amp;utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;PyBay 2025 视频&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PyBay 2025 的演讲视频现已发布&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://fidget-spinner.github.io/posts/faster-jit-plan.html?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;Python 3.16 将自由线程 JIT 速度提高 5-10%* 的计划&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CPython 的自由线程 JIT 计划旨在通过增量优化实现 Python 3.15 的 5% 加速和 3.16 的 10% 加速。&lt;/p&gt;
+&lt;p&gt;改进包括通过 LLVM 提供更好的分析和调试器支持、增强的区域选择和代码生成、寄存器分配、引用计数优化以及更高级的 JIT 技术——所有这些都有助于在未来的 Python 版本中实现更快、更适合生产的 JIT。&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;是的, 叕是 LLVM 现在几乎没人提 GCC 了?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://emmatyping.dev/decompression-is-up-to-30-faster-in-cpython-315.html?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;CPython 3.15 中的解压缩速度提高了 30%&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CPython 3.15 在解压缩速度方面引入了显着改进：对于大于 1 MiB 的数据，Zstandard （zstd） 解压缩现在提高了 25-30%，zlib 解压缩速度提高了 10-15%。&lt;/p&gt;
+&lt;p&gt;这些增益是由于在解压缩期间对输出缓冲区的处理进行了优化...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.glyph.im/2025/11/dependency-cutout-workflow-pattern.html?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;“依赖项剪切”工作流程模式，第一部分&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“依赖项剪切”工作流模式提供了一种结构化的方式，可以暂时依赖开源依赖项的修补版本，而无需永久分叉它。&lt;/p&gt;
+&lt;p&gt;它涉及分叉依赖项，为您的应用程序应用紧急修复，在生产中使用此修改版本，然后在补丁合并和发布后上游修复并回正式版本，从而最大限度地减少长期分歧和技术债务。&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;git-flow 以及 igthu-flow 之后的叕一种项目分支策略工具&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;好物/妙品/&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/usestrix/strix"&gt;Strix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;为您的应用程序提供开源 AI 黑客&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;是的需要 Docker..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/microsoft/call-center-ai"&gt;call-center-ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在 API 调用中从 AI 代理发送电话。或者，直接从配置的电话号码呼叫机器人&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/laude-institute/harbor"&gt;Harbor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;是 Terminal-Bench 创建者提供的框架，用于评估和优化代理和语言模型..&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/mozilla-ai/any-llm"&gt;any-llm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;用单个接口与 LLM 提供商通信&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/arman-bd/httpmorph"&gt;httpmorph&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;是 Python &lt;code&gt;requests&lt;/code&gt; 的直接替代品，该库使用带有 BoringSSL 的自定义 C 实现，而不是 Python 的标准 HTTP 堆栈&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/usmanhalalit/DjangoRealtime"&gt;DjangoRealtime&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Django + PostgreSQL 的实时浏览器事件&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;两个重型项目的合作..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/droidrun/droidrun"&gt;DroidRun&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;用自然语言命令自动化您的移动设备 - 与 LLM 无关的移动代理。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/allmonday/fastapi-voyager"&gt;fastapi-voyager&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可视化您的 FastAPI 端点，并以交互方式探索它们&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;可以说进一步魔改了 fastAPI?&lt;/p&gt;
+&lt;p&gt;&lt;img alt="voyager" src="https://private-user-images.githubusercontent.com/2917822/508477524-c8bb2e7d-b727-42a6-8c9e-64dce297d2d8.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjMwOTE3MzAsIm5iZiI6MTc2MzA5MTQzMCwicGF0aCI6Ii8yOTE3ODIyLzUwODQ3NzUyNC1jOGJiMmU3ZC1iNzI3LTQyYTYtOGM5ZS02NGRjZTI5N2QyZDgucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MTExNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTExMTRUMDMzNzEwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjNiNzY5N2IxY2IwNjhhZjRkNjNjYjY4ZjY5ZDg1ZTM1M2YzNGViMTM5NmM4YjBmODNkNjVlOGZiMGY0MDU3NiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.WrnQyfK8fZviMv-j-Oz8HnoPMPCPvIJwmpvLf64QJxk"&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/GibsonAI/Memori"&gt;Memori&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;用于 AI 的开源 SQL 原生内存引擎&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;发布&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Release&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;None&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
+&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;     &lt;span class="ge"&gt;_~-|^~_&lt;/span&gt;
+ \/ /  ^ o  \ \/
+   &amp;#39;_   ▽   _&amp;#39;
+   / &amp;#39;--⌄--&amp;#39; /
+
+...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Happy Pythonic&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;PPS&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第10+3个年头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonic&lt;/code&gt; 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;:
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;3/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;askdama&lt;/span&gt;&lt;span class="nv"&gt;@googlegroups&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;(邮件列表地址,
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://zoomquiet.io/About/20241015-zoomquiet/"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://www.xiaoyuzhoufm.com/episode/65a244f7926ad7aad0e1cb6e"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;全力嗯哼&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;大妈的多重宇宙&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="o"&gt;://&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;youtube&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;Chaos42DAMA&lt;/span&gt;
+&lt;span class="err"&gt;私自嗯哼&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ZoomQuiet&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="o"&gt;://&lt;/span&gt;&lt;span class="n"&gt;zoomquiet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;io&lt;/span&gt;
+
+&lt;span class="k"&gt;as&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;创始组织者&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;CPyUG&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mailling&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;list&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;cn&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;googlegroups&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;com&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;PyChina&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="err"&gt;订阅号&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;PyChinaOrg&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="err"&gt;本地社区&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;FMHub&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="err"&gt;大小湾终身幼儿园&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr&gt;</content><category term="PyWeekly"></category><category term="Weekly"></category><category term="Python"></category><category term="DAMA"></category><category term="ZH"></category></entry><entry><title>上周蠎快讯 25w44 #721</title><link href="https://weekly.pychina.org/pyweekly/pyw-qzh-721.html" rel="alternate"></link><published>2025-11-12T11:42:00+08:00</published><updated>2025-11-12T11:08:49+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2025-11-12:/pyweekly/pyw-qzh-721.html</id><summary type="html">&lt;blockquote&gt;&lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://www.pythonweekly.com/p/python-weekly-issue-721-november-6-2025"&gt;Python Weekly | Issue #721&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;251112 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
