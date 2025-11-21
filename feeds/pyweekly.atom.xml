@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - PyWeekly</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pyweekly.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2025-11-14T13:57:51+08:00</updated><entry><title>上周蠎快讯 25w45 #722</title><link href="https://weekly.pychina.org/pyweekly/pyw-qzh-722.html" rel="alternate"></link><published>2025-11-14T11:42:00+08:00</published><updated>2025-11-14T13:57:51+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2025-11-14:/pyweekly/pyw-qzh-722.html</id><summary type="html">&lt;blockquote&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - PyWeekly</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pyweekly.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2025-11-21T11:49:55+08:00</updated><entry><title>上周蠎快讯 25w45 #722</title><link href="https://weekly.pychina.org/pyweekly/pyw-qzh-722.html" rel="alternate"></link><published>2025-11-14T11:42:00+08:00</published><updated>2025-11-14T13:57:51+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2025-11-14:/pyweekly/pyw-qzh-722.html</id><summary type="html">&lt;blockquote&gt;
 &lt;p&gt;PyCon US 2026 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://www.pythonweekly.com/p/python-weekly-issue-722-november-13-2025?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;Python Weekly | Issue #722&lt;/a&gt;&lt;/p&gt;
@@ -191,6 +191,222 @@
  \/ /  ^ o  \ \/
    &amp;#39;_   ▽   _&amp;#39;
    / &amp;#39;--⌄--&amp;#39; /
+
+...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Happy Pythonic&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;PPS&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第10+3个年头&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonic&lt;/code&gt; 周刊的翻译,
+从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;:
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;3/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;askdama&lt;/span&gt;&lt;span class="nv"&gt;@googlegroups&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;(邮件列表地址,
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://zoomquiet.io/About/20241015-zoomquiet/"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://www.xiaoyuzhoufm.com/episode/65a244f7926ad7aad0e1cb6e"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;全力嗯哼&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;大妈的多重宇宙&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="o"&gt;://&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;youtube&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;Chaos42DAMA&lt;/span&gt;
+&lt;span class="err"&gt;私自嗯哼&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ZoomQuiet&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="o"&gt;://&lt;/span&gt;&lt;span class="n"&gt;zoomquiet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;io&lt;/span&gt;
+
+&lt;span class="k"&gt;as&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;创始组织者&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;CPyUG&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mailling&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;list&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;cn&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;googlegroups&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;com&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;PyChina&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="err"&gt;订阅号&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;PyChinaOrg&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="err"&gt;本地社区&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;FMHub&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="err"&gt;大小湾终身幼儿园&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr&gt;</content><category term="PyWeekly"></category><category term="Weekly"></category><category term="Python"></category><category term="DAMA"></category><category term="ZH"></category></entry><entry><title>上周蠎快讯 25w46 #723</title><link href="https://weekly.pychina.org/pyweekly/pyw-qzh-723.html" rel="alternate"></link><published>2025-11-14T11:42:00+08:00</published><updated>2025-11-21T11:49:55+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2025-11-14:/pyweekly/pyw-qzh-723.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://www.pythonweekly.com/p/python-weekly-issue-723-november-20-2025?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;Python Weekly | Issue #723&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;251121 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;251121 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;之前快译的周刊: https://discu.eu/weekl01python/ 从25年8月开始经常 502 错 …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://www.pythonweekly.com/p/python-weekly-issue-723-november-20-2025?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;Python Weekly | Issue #723&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;251121 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;251121 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;之前快译的周刊: https://discu.eu/weekl01python/ 从25年8月开始经常 502 错误,
+无法访问, 
+所以, 切换回古老的 &lt;a href="https://pycoders.com/"&gt;PyCoder’s Weekly | A Weekly Python Email Newsletter&lt;/a&gt;, 除了编号不同,每周关注到的新内容其实并无过大不同; 
+但是, 又因为 pycoders.com 的周刊所有链接都指向自己的内部链接, 导致发布平台认为我的快译是引流,已经封号;
+只好, 继续切换快译对象: &lt;a href="https://www.pythonweekly.com/"&gt;pythonweekly&lt;/a&gt; 官方推荐的周刊&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Python-Weekly-Square" src="https://media.beehiiv.com/cdn-cgi/image/format=auto,width=800,height=421,fit=scale-down,onerror=redirect/uploads/publication/logo/0dfe72e1-380f-4399-a50e-134919512092/Python-Weekly-Square-Logo.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;快讯&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;News&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;None&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://eagledot.xyz/hachi.md.html?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;Hachi: 一个（图像）搜索引擎&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hachi 项目是一个端到端、快速、可自托管的语义和元数据搜索引擎，旨在通过从分布式个人数据中提取独立信息，实现跨所有类型媒体的综合搜索。&lt;/p&gt;
+&lt;p&gt;它优先考虑最小化外部依赖、可定制性，并集成机器学习模型以融合确定性和语义属性，旨在实现高度灵活和可扩展的个人搜索解决方案。&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;竟然包含一定的 Zig 代码..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=8_Pf4y5yqCE&amp;amp;utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;学习 Python 感觉很简单。直到它变得复杂。&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;视频解释了从初学者基础到编写专业、可测试代码的 Python 真实学习曲线。&lt;/p&gt;
+&lt;p&gt;它涵盖了掌握 Python 基础知识、编写 Python 风格代码、理解类型和抽象、设计更好的软件以及在 Python 开发中整合测试以实现可维护和可扩展性。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.paulox.net/2025/11/14/how-to-use-uuidv7-in-python-django-and-postgresql/?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;如何在 Python、Django 和 PostgreSQL 中使用 UUIDv7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学习如何在 Python 3.14、Django 5.2 和 PostgreSQL 18 的稳定版本中今天使用 UUIDv7。逐步指南展示了如何在 Python 中生成 UUIDv7，将它们存储在 Django 模型中，使用 PostgreSQL 原生函数，并构建时间排序的主键，而无需编写 SQL。&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;是的, Pg 已经在变成另外一个 Chrome 或是说万用操作系统..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mathspp.com/blog/floodfill-algorithm-in-python?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;Python 中的 Floodfill 算法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学习如何在 Python 中实现和使用 Floodfill 算法&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;所谓 &lt;code&gt;洪水填色法&lt;/code&gt; 有很多真实运用场景..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://minimaxir.com/2025/11/nano-banana-prompts?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;Nano Banana 可以通过提示工程进行极其细致的 AI 图像生成。&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文章强调了 Nano Banana 在极其细致的 AI 图像生成方面的能力，利用一个包含 32,768 个 token 的大上下文窗口，能够实现高度详细和可控的提示。&lt;/p&gt;
+&lt;p&gt;这些功能允许进行精确的调整和创意实验，推动 AI 艺术中提示工程的边界。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://cultured-avenue-f13.notion.site/GNN-From-Scratch-2a3dfe9550dd80ac87deee4fe6cd0696?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;从零开始构建 GNN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文章介绍了图神经网络（GNNs），解释了图如何被表示用于机器学习，并引入了 GNN 背后的数学直觉。&lt;/p&gt;
+&lt;p&gt;它涵盖了节点、边和消息传递机制等关键概念，帮助读者理解 GNNs 如何从图结构数据中学习。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://boliv.substack.com/p/lazy-skills-a-token-efficient-approach?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;Lazy Skills: 一种基于令牌的高效动态代理能力方法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文章提出了一种 AI 代理按需逐步加载能力的方法，通过一个三级系统——元数据发现、详细文档加载和可执行工具注册。&lt;/p&gt;
+&lt;p&gt;这种方法显著减少了大型语言模型环境中的令牌使用，增强了可扩展性，并通过在子进程中隔离技能以及使用基于关键字的关联检测来优化对话期间加载的内容，从而提高了效率。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arpitbhayani.me/blogs/heartbeats-in-distributed-systems?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;分布式系统中的心跳&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;分布式系统中的心跳是指节点周期性发送的信号，用以表明它们处于活跃且正常运行状态，使监控系统能够及时检测到故障或不响应的情况。&lt;/p&gt;
+&lt;p&gt;这些心跳有助于维护系统健康，支持故障检测、负载均衡和一致性，通过让系统能够及时响应节点故障或网络分区。&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;当然, 也有很多经典案例都是心跳没处理好引发的各种雪崩&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tr3s.ma/posts/2025-11/pgmajorupgradedjango/?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;升级 Postgres 主版本，以及 Django 模型与逻辑复制。&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文章描述了一种无缝方法，用于将 Aurora RDS Postgres 从 v13 升级到 v16，同时进行 Django 应用模型升级。&lt;/p&gt;
+&lt;p&gt;它强调了迁移时间长和模式重写的挑战，并概述了一种策略，使用逻辑复制配合模式调整、自定义发布、订阅管理和序列同步，以最小化停机时间并实现近乎无缝的切换。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;好物/妙品/&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/facebook/Ax"&gt;Ax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;易于使用、通用的平台，用于理解、管理、部署和自动化自适应实验平台&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;基于 &lt;a href="https://github.com/facebookexternal/botorch"&gt;BoTorch&lt;/a&gt; PyTorch 构建的现代贝叶斯优化研究库..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pinetreelabs.github.io/archimedes/blog/2025/introduction.html"&gt;Archimedes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;用于硬件工程的 Python 工具包&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MartenBE/mkslides"&gt;MkSlides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;使用 mkslides 可以轻松地将 markdown 文件转换为使用 Reveal.js 强大的功能生成的精美幻灯片..&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/RLinf/RLinf"&gt;RLinf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;灵活且可扩展的开源基础设施，专为通过强化学习进行训练后的基础模型（LLMs、VLMs、VLAs）设计..&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="logo_white" src="https://github.com/RLinf/RLinf/raw/main/docs/source-en/_static/svg/logo_white.svg"&gt;&lt;/p&gt;
+&lt;p&gt;依赖 nvidia 芯片..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/p-e-w/heretic"&gt;Heretic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;全自动语言模型审查过滤器&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ByteDance-Seed/Depth-Anything-3"&gt;Depth-Anything-3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;从任意视角恢复视觉空间&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/nathan-barry/tiny-diffusion"&gt;tiny-diffusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基于 Tiny Shakespeare 训练的字符级语言扩散模型。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/qznc/portable_python"&gt;portable_python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Linux 的独立 Python 发行版。&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;叕一个独立发行的 Python 运行时,
+针对 Linux 平台, 预先编译好一组可执行文件,绕过官方复杂的安装过程..
+当然仅支持 x86_64 芯片&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;发布&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Release&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://devblogs.microsoft.com/python/python-in-visual-studio-code-november-2025-release/?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-723-november-20-2025"&gt;Python 在 Visual Studio Code – 2025 年 11 月发布&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本次发布包含以下特性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;添加 Copilot 悬停摘要作为文档字符串&lt;/li&gt;
+&lt;li&gt;本地化 Copilot 悬停摘要&lt;/li&gt;
+&lt;li&gt;将通配符导入 Code Action&lt;/li&gt;
+&lt;li&gt;通过 Python 环境扩展支持多解释器的调试器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
+&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;         &lt;span class="ge"&gt;_~^--~_&lt;/span&gt;
+     \/ /  # =  \ \/
+       &amp;#39;_   ⎵   _&amp;#39;
+       \ &amp;#39;--.--&amp;#39; \
 
 ...act by ferris-actor v0.2.4 (built on 23.0303.201916)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
