@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Fri, 12 Dec 2025 17:07:25 +0800</lastBuildDate><item><title>上周蠎快讯 25w48 #724</title><link>https://weekly.pychina.org/pyweekly/pyw-qzh-724.html</link><description>&lt;blockquote&gt;
+<rss version="2.0"><channel><title>蠎周刊</title><link>https://weekly.pychina.org/</link><description></description><lastBuildDate>Fri, 19 Dec 2025 22:04:16 +0800</lastBuildDate><item><title>上周蠎快讯 25w48 #724</title><link>https://weekly.pychina.org/pyweekly/pyw-qzh-724.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;..&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://www.pythonweekly.com/p/python-weekly-issue-724-november-20-2025?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-724-november-20-2025"&gt;Python Weekly | Issue #724&lt;/a&gt;&lt;/p&gt;
@@ -17,7 +17,16 @@
 &lt;li&gt;251212 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;之前快译的周刊: https://discu.eu/weekl01python/ 从25年8月开始经常 502 错 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 05 Dec 2025 23:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-12-05:/pyweekly/pyw-qzh-725.html</guid><category>PyWeekly</category><category>Weekly</category><category>Python</category><category>DAMA</category><category>ZH</category></item><item><title>上周蠎快讯 25w45 #722</title><link>https://weekly.pychina.org/pyweekly/pyw-qzh-722.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;之前快译的周刊: https://discu.eu/weekl01python/ 从25年8月开始经常 502 错 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 05 Dec 2025 23:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-12-05:/pyweekly/pyw-qzh-725.html</guid><category>PyWeekly</category><category>Weekly</category><category>Python</category><category>DAMA</category><category>ZH</category></item><item><title>上周蠎快讯 25w50 #726</title><link>https://weekly.pychina.org/pyweekly/pyw-qzh-726.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://www.pythonweekly.com/p/python-weekly-issue-726-december-18-2025"&gt;Python Weekly | Issue #726&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;251219 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;251219 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;之前快译的周刊: https://discu.eu/weekl01python/ 从25年8月开始经常 502 错 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Fri, 05 Dec 2025 23:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2025-12-05:/pyweekly/pyw-qzh-726.html</guid><category>PyWeekly</category><category>Weekly</category><category>Python</category><category>DAMA</category><category>ZH</category></item><item><title>上周蠎快讯 25w45 #722</title><link>https://weekly.pychina.org/pyweekly/pyw-qzh-722.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;PyCon US 2026 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://www.pythonweekly.com/p/python-weekly-issue-722-november-13-2025?utm_source=www.pythonweekly.com&amp;amp;utm_medium=newsletter&amp;amp;utm_campaign=python-weekly-issue-722-november-13-2025"&gt;Python Weekly | Issue #722&lt;/a&gt;&lt;/p&gt;
@@ -926,16 +935,4 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;hr&gt;
-&lt;h2&gt;文章/教程 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 19 Feb 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-02-19:/pyrecap/pyrw-2407.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item><item><title>上周蠎快讯 2024/6</title><link>https://weekly.pychina.org/pyrecap/pyrw-2406.html</link><description>&lt;blockquote&gt;
-&lt;p&gt;RustPython？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/6/"&gt;Python recap for week 2024/6 - discu.eu&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;240212 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;240212 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 12 Feb 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-02-12:/pyrecap/pyrw-2406.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item></channel></rss>
+&lt;h2&gt;文章/教程 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pythoneerm</dc:creator><pubDate>Mon, 19 Feb 2024 11:42:00 +0800</pubDate><guid isPermaLink="false">tag:weekly.pychina.org,2024-02-19:/pyrecap/pyrw-2407.html</guid><category>pyrecap</category><category>Weekly</category><category>Python</category><category>recap</category><category>discu_eu</category><category>ZH</category></item></channel></rss>
