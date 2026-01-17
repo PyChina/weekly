@@ -1,5 +1,222 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Pythoneerm</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pythoneerm.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2026-01-10T22:40:31+08:00</updated><entry><title>上周蠎超赞 26w02 #502</title><link href="https://weekly.pychina.org/awesomepw/awesome-pw-502.html" rel="alternate"></link><published>2026-01-09T22:42:00+08:00</published><updated>2026-01-10T22:40:31+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2026-01-09:/awesomepw/awesome-pw-502.html</id><summary type="html">&lt;blockquote&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>蠎周刊 - Pythoneerm</title><link href="https://weekly.pychina.org/" rel="alternate"></link><link href="https://weekly.pychina.org/feeds/pythoneerm.atom.xml" rel="self"></link><id>https://weekly.pychina.org/</id><updated>2026-01-17T23:54:08+08:00</updated><entry><title>上周蠎超赞 26w02 #503</title><link href="https://weekly.pychina.org/awesomepw/awesome-pw-503.html" rel="alternate"></link><published>2026-01-17T22:42:00+08:00</published><updated>2026-01-17T23:54:08+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2026-01-17:/awesomepw/awesome-pw-503.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://python.libhunt.com/newsletter/503"&gt;Awesome Python Weekly - Issue 503&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;260117 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;260117 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;之前快译的周刊: https://discu.eu/weekl01python/ 从25年8月开始经常 503 …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原文: &lt;a href="https://python.libhunt.com/newsletter/503"&gt;Awesome Python Weekly - Issue 503&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;260117 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 17 分钟 完成格式转抄.&lt;/li&gt;
+&lt;li&gt;260117 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;用时 42 分钟 完成快译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;之前快译的周刊: https://discu.eu/weekl01python/ 从25年8月开始经常 503 错误,
+无法访问, 
+所以, 切换回古老的 &lt;a href="https://pycoders.com/"&gt;PyCoder’s Weekly | A Weekly Python Email Newsletter&lt;/a&gt;, 除了编号不同,每周关注到的新内容其实并无过大不同; 
+但是, 又因为 pycoders.com 的周刊所有链接都指向自己的内部链接, 导致发布平台认为我的快译是引流,已经封号;
+只好, 继续切换快译对象: &lt;a href="https://www.pythonweekly.com/"&gt;pythonweekly&lt;/a&gt; 官方推荐的周刊
+然而, 2025年尾 这个私人维护的周刊连续跳票两周;
+不得以继续切换为 Awesome Python Weekly:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="logo" src="https://cdn-b.libhunt.com/assets/logos/python/awesome-python-9ecd6024ad0c15b60a457cba3ad1e87e99d08589a3d59eb8e955a3f1ffc281ed.svg"&gt;&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;快讯&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Popular News and Articles&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pyfound.blogspot.com/2025/12/anthropic-invests-in-python.html"&gt;Anthropic 向 Python 软件基金会和 OSS 安全投资 150 万美元&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;pyfound.blogspot.com&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="snap" src="https://cdn-b.libhunt.com/images/story/000/446/768/thumb.png?1768349307"&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;怪不得 Claude Code 干活时总是优先编写 Python 脚本来折腾..&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://adamj.eu/tech/2026/01/14/python-introducing-tprof/"&gt;Python: Tprof,一个目标分析器&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;adamj.eu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="snap" src="https://cdn-b.libhunt.com/images/story/000/446/933/thumb.png?1768507729"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://kushaldas.in/posts/introducing-ektupy.html"&gt;将 Scratch 生成移动到浏览器上的 Python&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;kushaldas.in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="snap" src="https://cdn-b.libhunt.com/images/story/000/446/389/thumb.png?1767989361"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://savannah.dev/posts/the-coolest-feature-in-314/"&gt;The coolest feature in Python 3.14 Python 3.14 中最酷的功能&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;savannah.dev&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="snap" src="https://cdn-b.libhunt.com/images/story/000/446/489/thumb.png?1768104522"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://iscinumpy.dev/post/packaging-faster/"&gt;我们如何使 Python 的打包库速度提升 3 倍&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;iscinumpy.dev&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="snap" src="https://cdn-b.libhunt.com/images/story/000/446/388/thumb.png?1767989365"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://dev.to/om_shree_0709/beginner-friendly-guide-separate-squares-i-leetcode-3453-c-python-javascript-45nf"&gt;🟦 适合初学者的指南 '分离正方形 I' &lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;dev.to&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;– LeetCode 3453 (C++, Python, JavaScript)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt="snap" src="https://cdn-b.libhunt.com/images/story/000/446/774/thumb.png?1768363722"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://dev.to/codebunny20/looking-for-help-if-possible-im-stuck-on-my-trackmyhrt-app-medication-symptom-tracker-38fa"&gt;🌈  如果可能的话，正在寻求帮助：我在我的 TrackMyHRT 应用（药物+症状追踪器）上卡住了&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;dev.to&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="snap" src="https://cdn-b.libhunt.com/images/story/000/446/556/thumb.png?1768190945"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.scientific-python.org/numpy/fellowship-program-2025-retrospective/"&gt;一年的打字生涯：我的 NumPy 奖学金回顾&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;blog.scientific-python.org&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="snap" src="https://cdn-b.libhunt.com/images/story/000/446/294/thumb.png?1767931711"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://numpy.org/numpy-user-dtypes/quaddtype/"&gt;NumPy-QuadDType&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;numpy.org&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一个跨平台的 Quad（128 位）浮点数据类型，用于 NumPy&lt;/p&gt;
+&lt;p&gt;&lt;img alt="snap" src="https://cdn-b.libhunt.com/images/story/000/446/204/thumb.png?1767845336"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;好物/妙品/&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;更多 : &lt;a href="https://www.libhunt.com/l/python"&gt;通过社交媒体提及次数查找最受欢迎的 Python 库&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.libhunt.com/r/antigravity-workspace-template"&gt;antigravity-workspace-template&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;» python-template    &lt;/li&gt;
+&lt;li&gt;» agentic-ai&lt;/li&gt;
+&lt;li&gt;&lt;img alt="logo" src="https://avatars.githubusercontent.com/u/106414602?v=4&amp;amp;s=160"&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🪐 Google Antigravity IDE 的终极入门套件。针对 Gemini 3 Agentic Workflows、"深度思考"模式和自动配置.cursorrules 进行优化..&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.libhunt.com/r/ralph-orchestrator"&gt;ralph-orchestrator&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;img alt="foto" src="https://avatars.githubusercontent.com/u/11792047?v=4&amp;amp;s=160"&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;对 Ralph Wiggum 技术改进的自主 AI 代理编排实现&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.libhunt.com/r/AI-research-SKILLs"&gt;AI-research-SKILLs  AI 研究技能&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;» AI    &lt;/li&gt;
+&lt;li&gt;» Gemini&lt;/li&gt;
+&lt;li&gt;&lt;img alt="fofo" src="https://avatars.githubusercontent.com/u/128254220?v=4&amp;amp;s=160"&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一个面向任何 AI 模型的全面开源 AI 研究和工程技能库。打包这些技能，你的 claude 代码/codex/gemini 代理将成为一个功能完备的 AI 研究代理。由 Orchestra Research 维护..&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;不是..等等, 所有这些大模型本身都提供有充分维护的 &lt;code&gt;深入研究&lt;/code&gt; 模式哈?&lt;/p&gt;
+&lt;p&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.libhunt.com/r/FinceptTerminal"&gt;FinceptTerminal&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;» Finance    &lt;/li&gt;
+&lt;li&gt;» Machine Learning&lt;/li&gt;
+&lt;li&gt;&lt;img alt="logo" src="https://avatars.githubusercontent.com/u/178755995?v=4&amp;amp;s=160"&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;FinceptTerminal 是一款现代金融应用程序，提供高级市场分析、投资研究和经济数据工具，旨在用户友好的环境中进行交互式探索和数据驱动的决策..&lt;/p&gt;
+&lt;p&gt;&lt;img alt="snap" src="https://raw.githubusercontent.com/Fincept-Corporation/FinceptTerminal/main/images/Geopolitics.png"&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.libhunt.com/r/nested_learning"&gt;nested_learning  嵌套学习&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;img alt="logo" src="https://avatars.githubusercontent.com/u/113746798?v=4&amp;amp;s=160"&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;GDM 嵌套学习论文的复现&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;DAMA&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
+&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;nn 6079
+
+       &lt;span class="ge"&gt;_~`+∽~_&lt;/span&gt;
+   \/ /  ♡ o  \ (/
+     &amp;#39;_   ⏝   _&amp;#39;
+     ( &amp;#39;--#--&amp;#39; \
+
+...act by ferris-actor v0.2.4 (built on 23.0303.201916)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Happy Pythonic&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;PPS&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;不觉中蟒周刊快译已经到了第10+4个年头
+之前也有小伙伴加入过 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
+但是, 没坚持下来, 也就自己这么默默坚持下来了...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;问为什么:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
+看看有什么新东西 
+当有新的发现时：
+    what f**k 还能这样玩？ 还有这东西？
+    每周开彩蛋[吃瓜]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
+很多社区贡献看起来辛苦,
+其实受益最多的,
+就是主动承担者也.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;0/3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;askdama&lt;/span&gt;&lt;span class="nv"&gt;@googlegroups&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;(邮件列表地址, 
+当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;全职嗯哼&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;大妈的多重宇宙&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;youtube&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nd"&gt;@Chaos42DAMA&lt;/span&gt;
+&lt;span class="n"&gt;私自嗯哼&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;ZoomQuiet&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;订阅号&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;ZoomQuiet42&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;创始组织者&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;CPyUG&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mailling&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;cn&lt;/span&gt;&lt;span class="nd"&gt;@googlegroups&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;PyChina&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;订阅号&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;PyChinaOrg&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;本地社区&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; 
+        &lt;span class="n"&gt;FMHub&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;大小湾终身幼儿园&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;AIGC珠海&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr&gt;</content><category term="awesomepw"></category><category term="Weekly"></category><category term="Python"></category><category term="Awesome"></category><category term="DAMA"></category><category term="ZH"></category></entry><entry><title>上周蠎超赞 26w01 #502</title><link href="https://weekly.pychina.org/awesomepw/awesome-pw-502.html" rel="alternate"></link><published>2026-01-09T22:42:00+08:00</published><updated>2026-01-17T23:39:08+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2026-01-09:/awesomepw/awesome-pw-502.html</id><summary type="html">&lt;blockquote&gt;
 &lt;p&gt;..&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://python.libhunt.com/newsletter/502"&gt;Awesome Python Weekly - Issue 502&lt;/a&gt;&lt;/p&gt;
@@ -181,7 +398,7 @@
         &lt;span class="n"&gt;AIGC珠海&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;hr&gt;</content><category term="awesomepw"></category><category term="Weekly"></category><category term="Python"></category><category term="Awesome"></category><category term="DAMA"></category><category term="ZH"></category></entry><entry><title>上周蠎超赞 26w01 #501</title><link href="https://weekly.pychina.org/awesomepw/awesome-pw-501.html" rel="alternate"></link><published>2026-01-06T20:42:00+08:00</published><updated>2026-01-06T20:16:43+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2026-01-06:/awesomepw/awesome-pw-501.html</id><summary type="html">&lt;blockquote&gt;
+&lt;hr&gt;</content><category term="awesomepw"></category><category term="Weekly"></category><category term="Python"></category><category term="Awesome"></category><category term="DAMA"></category><category term="ZH"></category></entry><entry><title>上周蠎超赞 25w52 #501</title><link href="https://weekly.pychina.org/awesomepw/awesome-pw-501.html" rel="alternate"></link><published>2026-01-06T20:42:00+08:00</published><updated>2026-01-17T23:38:57+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2026-01-06:/awesomepw/awesome-pw-501.html</id><summary type="html">&lt;blockquote&gt;
 &lt;p&gt;..&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;原文: &lt;a href="https://python.libhunt.com/newsletter/501"&gt;Awesome Python Weekly - Issue 501&lt;/a&gt;&lt;/p&gt;
@@ -34849,347 +35066,6 @@ Langchain 竟然还活着 ...
 &lt;blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Copyright © 2024 Python weekly newsletter, All rights reserved.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;PPS:&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;不觉中蟒周刊快译已经到了第10+2个年头&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;开始有小伙伴加入承担 &lt;code&gt;pythonisa&lt;/code&gt; 周刊的翻译,
-从来没提醒过, 可就这么默默坚持下来了...&lt;/p&gt;
-&lt;p&gt;问为什么:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[皱眉]每周新闻资讯 怎么能错过 
-看看有什么新东西 
-当有新的发现时：
-    what f**k 还能这样玩？ 还有这东西？
-    每周开彩蛋[吃瓜]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;code&gt;无法同意更多&lt;/code&gt;...
-很多社区贡献看起来辛苦,
-其实受益最多的,
-就是主动承担者也.&lt;/p&gt;
-&lt;p&gt;所以++&amp;gt; &lt;a href="https://weekly.rs.101.so/2023/index.html"&gt;锈周刊 -&amp;gt; Weekly :: China&lt;Rustaceans&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;好文笔,感叹号年度配额: &lt;strong&gt;2/3&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;投稿/反馈邮箱:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;askdama&lt;/span&gt;&lt;span class="nv"&gt;@googlegroups&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;(邮件列表地址, 
-当成正常邮件发送邮件就好, 不用注册, 不用翻越...)&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;ZoomQuiet/&lt;strong&gt;&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;就是四处 &lt;code&gt;是也乎,(￣▽￣)&lt;/code&gt; 的那个&lt;a href="https://mp.weixin.qq.com/s/N5TuRRbF599D4Q90XdDA7g"&gt;大妈&lt;/a&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;全职嗯哼&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;大妈的多重宇宙&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;youtube&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nd"&gt;@Chaos42DAMA&lt;/span&gt;
-&lt;span class="n"&gt;私自嗯哼&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;ZoomQuiet&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;订阅号&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;ZoomQuiet42&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;公开社群&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;蟒营&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;订阅号&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Mainium&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-
-&lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;创始组织者&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-    &lt;span class="n"&gt;CPyUG&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mailling&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;cn&lt;/span&gt;&lt;span class="nd"&gt;@googlegroups&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="n"&gt;PyChina&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;订阅号&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;PyChinaOrg&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="n"&gt;本地社区&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; 
-        &lt;span class="n"&gt;GDG珠海&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;订阅号&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;GDG&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;ZhuHai&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-        &lt;span class="n"&gt;AIGC珠海&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;hr&gt;</content><category term="pyrecap"></category><category term="Weekly"></category><category term="Python"></category><category term="recap"></category><category term="discu_eu"></category><category term="ZH"></category></entry><entry><title>上周蠎快讯 2024/7</title><link href="https://weekly.pychina.org/pyrecap/pyrw-2407.html" rel="alternate"></link><published>2024-02-19T11:42:00+08:00</published><updated>2024-02-19T10:19:44+08:00</updated><author><name>Pythoneerm</name></author><id>tag:weekly.pychina.org,2024-02-19:/pyrecap/pyrw-2407.html</id><summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Rye 在 UV 下生长&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/7/"&gt;Python recap for week 2024/7 - discu.eu&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;240219 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;240219 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;h2&gt;文章/教程 …&lt;/h2&gt;</summary><content type="html">&lt;blockquote&gt;
-&lt;p&gt;Rye 在 UV 下生长&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;原文: &lt;a href="https://discu.eu/weekly/python/2024/7/"&gt;Python recap for week 2024/7 - discu.eu&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;240219 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 13 分钟 完成格式转抄.&lt;/li&gt;
-&lt;li&gt;240219 &lt;a href="http://zoomquiet.io/"&gt;Zoom.Quiet&lt;/a&gt;(大妈) 用时 37 分钟 完成快译,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;h2&gt;文章/教程/嗯哼&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Articles, Tutorials and Talks&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://astral.sh/blog/uv"&gt;Uv: Rust 中的 Python 封装&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://astral.sh/blog/uv"&gt;248 评注 in 3 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://til.simonwillison.net/python/stdlib-cli-tools"&gt;隐藏在Python标准库中的CLI工具&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://til.simonwillison.net/python/stdlib-cli-tools"&gt;178 评注 in 4 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://dev.arie.bovenberg.net/blog/python-datetime-pitfalls/"&gt;Python datetime 陷阱，以及库正在（未）采取哪些措施来解决它&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://dev.arie.bovenberg.net/blog/python-datetime-pitfalls/"&gt;135 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;只有本地用户的项目还好,
-但是, 现在基本上都是运行在云中, 时间问题简直了...竟然一直就没有一个靠谱可用的模块...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://ahgamut.github.io/2021/07/13/ape-python/"&gt;Python 是可移植的 (2021)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://ahgamut.github.io/2021/07/13/ape-python/"&gt;122 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://allendowney.github.io/ThinkPython/"&gt;Think Python, 第三版&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://allendowney.github.io/ThinkPython/"&gt;120 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;真...有生之年, 24年前, 看的第一版, 差点儿放弃 Python ...
-这次, 全部在 colab 托管的 notebook 中...
-)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://aosabook.org/en/500L/a-python-interpreter-written-in-python.html"&gt;500行Python的Python解释器&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://aosabook.org/en/500L/a-python-interpreter-written-in-python.html"&gt;86 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://peps.python.org/pep-0711/"&gt;PEP 711 – PyBI:分发 Python 二进制文件的标准格式&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://peps.python.org/pep-0711/"&gt;48 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;在 Rust 的帮助下, Python 有望能和 golang 一样可以拥有单文件跨平台应用打包能力吧...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://plausible.io/"&gt;服务器端跟踪应用程序建议&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://plausible.io"&gt;45 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Plasible 的广告, 对标 Google 分析,
-不过, 人家免费, 这一点就 hold 住了多数小项目的底线...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.da.vidbuchanan.co.uk/blog/python-swar.html"&gt;纯 Python 中的 SIMD&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://www.da.vidbuchanan.co.uk/blog/python-swar.html"&gt;24 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="SIMD" src="https://ipic.zoomquiet.top/2024-02-19-zshot%202024-02-19%2010.01.13.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;是的, 只是一次编程练习的成果...
-直接优化了字节码, 将运行效率提高了3800倍;&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://docxtemplater.com/"&gt;任何像 Word Mail Merge 到 mox 文本以及数据动态占位符的东西&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://docxtemplater.com/"&gt;21 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://lucumr.pocoo.org/2024/2/15/rye-grows-with-uv/"&gt;Rye 在 UV 下生长&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://lucumr.pocoo.org/2024/2/15/rye-grows-with-uv/"&gt;16 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;...uv 是 pip-tools 和 venv 的直接替代品&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;所以, 专门用 AIGC 生成了一首对应的宣传歌曲...嗯哼?&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://developers.google.com/identity/protocols/oauth2/web-server#exchange-authorization-code"&gt;Google OAuth: 如何将授权代码转换为访问令牌&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://developers.google.com/identity/protocols/oauth2/web-server%23exchange-authorization-code"&gt;14 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://python-history.blogspot.com/2010/08/why-pythons-integer-division-floors.html"&gt;为什么Python有整数除法层 (2010)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/http://python-history.blogspot.com/2010/08/why-pythons-integer-division-floors.html"&gt;13 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The History of Python&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;专门讨论和收集 Python 变迁历史的 blog,
-是的, 和 Guido 老爹一样, 一直在 blog.com 平台上发布...
-blogspot.com 这个域名也和谐了10多年了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://django.wtf/trending/"&gt;本周 Github 上的热门 Django 项目&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://django.wtf/trending/"&gt;9 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Django 早已是显学,
-只是, 无法对其自动迁移行为放心...
-多次触发迁移失败...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://circumeo.io/workshop/"&gt;Django Workshop  姜戈工作室&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://circumeo.io/workshop/"&gt;7 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;发布...&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Release...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;None&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;好物/妙品/...&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Interesting Projects, Tools and Libraries, Projects &amp;amp; Code&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/PySimpleGUI/PySimpleGUI"&gt;PySimpleGUI 现在是闭源的&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/PySimpleGUI/PySimpleGUI"&gt;206 评注 in 4 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/R-O-C-K-E-T/Factorio-SAT"&gt;用python解决平衡器问题&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/R-O-C-K-E-T/Factorio-SAT"&gt;121 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Factorio" src="https://ipic.zoomquiet.top/2024-02-19-zshot%202024-02-19%2009.50.13.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;专用可视化&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/johnbalvin/pybnb"&gt;纯 Python 的 Airbnb 抓取工具&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/johnbalvin/pybnb"&gt;46 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/rougier/scientific-visualization-book"&gt;科学可视化：Python 和 Matplotlib&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/rougier/scientific-visualization-book"&gt;37 评注 in 2 讨论s&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;是的, 叕一部新书, Matplotlib 实在太丰富了,提供了所有应该的功能,
-却, 很难第一时间作出想要的输出...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/NathanTBeene/UniversalFileConverter"&gt;为音频和视频文件制作了单个和批量通用文件转换器。 （带图形用户界面）&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/NathanTBeene/UniversalFileConverter"&gt;22 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一个 FFmpeg 套壳工具&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/zachzion762/spotify_Developer_API"&gt;Spotify 开发者 API&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/zachzion762/spotify_Developer_API"&gt;18 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Never-Over/modguard"&gt;Modguard - 一个用于实施模块化设计的轻量级 Python 工具&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/Never-Over/modguard"&gt;14 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;叕一个防止 &lt;code&gt;泥球&lt;/code&gt; 形成的外部工具,
-不像 JAVA 通过整体项目所有环节的限制来格式化工程复杂度,
-Python 那真的是太容易放飞自我了...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/DiogoCostaCunha/lol-quiz-handicaps?tab=readme-ov-file#readme"&gt;英雄联盟“mod”中，如果您错误地回答了一个琐事问题，您就会失去游戏中的咒语！&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/DiogoCostaCunha/lol-quiz-handicaps?tab=readme-ov-file%23readme"&gt;13 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/maciej-gol/pytest-bisect-tests"&gt;pytest-bisect-tests - 查找测试泄漏状态并破坏其他测试&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/maciej-gol/pytest-bisect-tests"&gt;11 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/RClayGates/gmail_auto_label"&gt;自动设置 Gmail 标签和过滤器&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://github.com/RClayGates/gmail_auto_label"&gt;9 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;🐍 视频&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Videos...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://youtu.be/pfAkz6L5rMI"&gt;为我的非技术家庭提供的视频，描述我的库如何融入 PyData 生态系统&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://discu.eu/q/https://youtu.be/pfAkz6L5rMI"&gt;6 评注 in 1 讨论&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://youtu.be/E8VmiNK_uS4"&gt;用 PDF、YouTube 视频、网站和音频文件聊天 - Langchain 项目演示&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;可以直接将 pdf/视频/音频 上传为小训练数据集,立即生成对应对话模型...&lt;/p&gt;
-&lt;p&gt;)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://youtu.be/2-Fnpm3u1pM"&gt;Python 和 Manim 中的美丽参数曲线。源代码在说明中。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/watch?list=PLnH2pfPCPZsKJnAIPimrZaKwStQrLSNIQ&amp;amp;v=OagbDJvywJI"&gt;LangChain （生成式人工智能框架）初学者播放列表（60 个教程）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(&lt;code&gt;是也乎:&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;ChatGPT 之前火的一个框架, 之后, 拼命回了魂...
-)&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;历史这周&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;2023: &lt;a href="https://weekly.pychina.org/issue/issue-564.html"&gt;PyCoder 564&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2022: &lt;a href="https://weekly.pychina.org/issue/issue-512.html"&gt;PyCoder 512&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2021: &lt;a href="https://weekly.pychina.org/issue/issue-460.html"&gt;Issue 460&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-487.html"&gt;pythonista-weekly : Pyw 487&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;2020: &lt;a href="https://weekly.pychina.org/issue/issue-407.html"&gt;Issue 407&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://weekly.pychina.org/python-weekly/pyw-436.html"&gt;pythonista-weekly : Pyw 436&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;2019: 空缺&lt;/li&gt;
-&lt;li&gt;2018: &lt;a href="https://weekly.pychina.org/importpython/importpython-163.html"&gt;蠎加载 163&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2017: &lt;a href="https://weekly.pychina.org/importpython/importpython-112.html"&gt;蠎加载 112&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2016: &lt;a href="https://weekly.pychina.org/importpython/importpython-62.html"&gt;蠎加载 62&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2015: &lt;a href="https://weekly.pychina.org/importpython/importpython-21.html"&gt;蠎加载 21&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2014: &lt;a href="https://weekly.pychina.org/issue/issue-104.html"&gt;Issue 104&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2013: 空缺&lt;/li&gt;
-&lt;li&gt;2012: 空缺&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;DAMA&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;❤️ Happy Pythonic ;-(&lt;code&gt;大妈私人无责任播报&lt;/code&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/@Chaos42DAMA"&gt;大妈的多重宇宙 - YouTube&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;@Chaos42DAMA&lt;/li&gt;
-&lt;li&gt;恢复各种嗯哼...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://zoomquiet.substack.com/"&gt;Zoom.Quiet’s Chaos42 | Substack&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;古早:新闻组式写作&lt;/li&gt;
-&lt;li&gt;欢迎订阅, 包含当前周刊&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;         &lt;span class="ge"&gt;_~∽+^~_&lt;/span&gt;
-     \/ /  - &amp;lt;  \ (/
-       &amp;#39;_   ∧   _&amp;#39;
-       | &amp;#39;--~--&amp;#39; |
-
-...act by ferris-actor v0.2.4 (built on 23.0303.201916)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;hr&gt;
-&lt;h1&gt;PS:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;首发: &lt;a href="http://weekly.pychina.org/pyrecap/pyrw-2407.html"&gt;2024/7 ~上周蠎快讯 ~汇集全球蠎事儿 ;-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修订: &lt;a href="https://github.com/PyChina/weekly/blob/master/content/pyrecap/pyrw-2407.md"&gt;pyrw-2407.md&lt;/a&gt;
-7&amp;gt; Happy Pythoning!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Copyright © 2023 PyCoder’s Weekly, All rights reserved.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;PPS:&lt;/h2&gt;
