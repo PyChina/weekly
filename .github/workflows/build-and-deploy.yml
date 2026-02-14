@@ -16,6 +16,8 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
+  deployments: write
 
 concurrency:
   group: "pages"
