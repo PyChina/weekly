@@ -395,7 +395,7 @@ Python 程序猿整体失业指日可待?
 
 
 <a href="https://pyscaffold.org">
-    <img src="https://pyscaffold.org/en/latest/_images/logo.png"
+    <img src="https://pyscaffold.org/en/latest/_images/logo.png" alt="logo"
  width="80"/>
 </a>
 

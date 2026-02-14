@@ -347,7 +347,7 @@ Kivy 框架哪, 竟然还没死...
 
 (`是也乎:`
 
-<img src="https://cz.pycon.org/2019/static/img/pycon19-logo.a13af6437f36.svg"
+<img src="https://cz.pycon.org/2019/static/img/pycon19-logo.a13af6437f36.svg" alt="pycon19 logo.a13af6437f36"
  high="80"/>
 
 )

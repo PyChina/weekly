@@ -81,18 +81,31 @@ main loop:
 
 ### deploy
 
-支持本地调试! 使用 `fabric` 进行管理, 支持的命令:
+#### 新方式：GitHub Actions 自动部署（推荐）
 
-    fab 
-    Available commands:
+从 2025-02-14 起，本项目已迁移到 **GitHub Actions 自动部署**：
 
-        build       编译所有页面
-        deploy      向主机部署所有页面
-        reserve     重编译所有页面再启动本地服务
-        serve       启动本地服务 localhost:8000
+1. 编辑 `content/` 目录下的 Markdown 文件
+2. 提交并推送到 `master` 分支：`git push origin master`
+3. GitHub Actions 自动完成：
+   - 检测并修复图片缺失的 alt 属性
+   - 编译 Pelican 静态站点
+   - 部署到 GitHub Pages
 
+**触发条件**：修改 `content/`、`_themes/`、`pelicanconf.py` 等文件时自动触发
 
-`注意!` 向主机部署,需要有相关权限,并在本地配置好对应 SSH 信息
+#### 旧方式：本地 fabric 部署（已废弃）
+
+~支持本地调试! 使用 `fabric` 进行管理, 支持的命令:~（不再维护）
+
+    ~fab~ 
+    ~Available commands:~
+        ~build       编译所有页面~
+        ~deploy      向主机部署所有页面~
+        ~reserve     重编译所有页面再启动本地服务~
+        ~serve       启动本地服务 localhost:8000~
+
+~`注意!` 向主机部署,需要有相关权限,并在本地配置好对应 SSH 信息~
 
 ### design
 
@@ -131,6 +144,12 @@ main loop:
 
 ## changelog
 
+- **250214 ZQ 重大架构变更：迁移到 GitHub Actions 自动部署**
+  - 修复多个 Markdown 元数据格式错误（Slug 冲突、Title 缺失）
+  - 新增 `fix_image_alt.py` 脚本自动修复图片 alt 属性
+  - 创建 `.github/workflows/build-and-deploy.yml` 自动化工作流
+  - 废弃 `inv pub` / `fab deploy` 本地部署方式
+  - 简化发布流程：推送代码即可自动构建部署
 - 191028 ZQ 提醒本地发布环境
 - 190818 ZQ ++ CNZZ WA support
 - 131219 base pelican build and through qiniu.com publish

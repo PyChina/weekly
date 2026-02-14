@@ -313,7 +313,7 @@ node 实现, .arr 为后缀...
 
 
 <a href="https://pyscaffold.org">
-    <img src="https://pyscaffold.org/en/latest/_images/logo.png"
+    <img src="https://pyscaffold.org/en/latest/_images/logo.png" alt="logo"
  width="200"/>
 </a>
 

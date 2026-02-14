@@ -285,7 +285,7 @@ PIRE is an interactive command-line interface allowing you to edit regexes live 
 
 logo 设计很不错, .svg 的
 
-<img src="https://conf.scipyla.org/static/images/logo-menu.svg?h=8aaed2a3"
+<img src="https://conf.scipyla.org/static/images/logo-menu.svg?h=8aaed2a3" alt="logo menu"
     width="142"/>
 
 

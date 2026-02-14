@@ -420,7 +420,7 @@ CLI 的潜力远没发挥
 
 
 <a href="https://pyscaffold.org">
-    <img src="https://pyscaffold.org/en/latest/_images/logo.png"
+    <img src="https://pyscaffold.org/en/latest/_images/logo.png" alt="logo"
  width="200"/>
 </a>
 

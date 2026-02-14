@@ -1,0 +1,110 @@
+name: Build and Deploy Weekly
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - 'content/**'
+      - '_themes/**'
+      - 'pelicanconf.py'
+      - 'publishconf.py'
+      - 'fix_image_alt.py'
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          submodules: false
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install pelican markdown beautifulsoup4 typogrify feedgenerator
+
+      - name: Build site (first pass)
+        id: build1
+        run: |
+          pelican content -o output -s pelicanconf.py 2>&1 | tee build.log
+          echo "build_status=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Check for image alt warnings
+        id: check_alt
+        run: |
+          if grep -q "Empty alt attribute for image" build.log; then
+            echo "has_alt_warnings=true" >> $GITHUB_OUTPUT
+            echo "发现图片缺少 alt 属性，准备自动修复..."
+          else
+            echo "has_alt_warnings=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Fix image alt attributes
+        if: steps.check_alt.outputs.has_alt_warnings == 'true'
+        run: |
+          python fix_image_alt.py content
+          
+      - name: Commit fixes
+        if: steps.check_alt.outputs.has_alt_warnings == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --cached --quiet || git commit -m "Auto-fix: 补充图片 alt 属性 [skip ci]"
+          git push
+
+      - name: Rebuild site (after fix)
+        if: steps.check_alt.outputs.has_alt_warnings == 'true'
+        run: |
+          pelican content -o output -s pelicanconf.py
+
+      - name: Build site (final)
+        if: steps.check_alt.outputs.has_alt_warnings != 'true' && steps.build1.outputs.build_status == '0'
+        run: |
+          pelican content -o output -s pelicanconf.py
+
+      - name: Check build success
+        run: |
+          if [ ! -f output/index.html ]; then
+            echo "构建失败：未找到 index.html"
+            exit 1
+          fi
+          echo "构建成功！"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './output'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
